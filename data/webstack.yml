@@ -1469,8 +1469,6 @@
           logo: images/icon font/dafont.png
           description: 提供大量可免费下载的字体资源
 
-
-
 - taxonomy: 跨境电商
   icon: fa-globe
   list:  # 添加list属性，用于侧边栏显示
@@ -1665,6 +1663,7 @@
           logo: images/Store settled in/korea.png
           url: https://www.gmarket.co.kr?from=dy.199908.top
           description: 韩国知名电商平台
+
 - taxonomy: 其他平台
   icon: fa-globe-asia
   list:  # 添加list属性，用于侧边栏显示
