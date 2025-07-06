@@ -51,8 +51,8 @@
     - term: 视频号
     - term: 拼多多
     - term: 1688
-    - term: 跨境电商
-    - term: 其他平台
+    - term: 跨境
+    - term: 其他
   tabs:
     - name: 淘宝
       links:
@@ -750,7 +750,7 @@
           logo: images/E-commerce supply/1688.png
           url: https://app.1688.com?from=dy.199908.top
           description: 1688服务市场
-    - name: 跨境电商
+    - name: 跨境
       links:
         - title: 亚马逊Amazon
           logo: images/Store settled in/amazon.png
@@ -916,7 +916,7 @@
           logo: images/E-commerce plug-in/dalian.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
-    - name: 其他平台
+    - name: 其他
       links:
         - title: 唯品会
           logo: images/popular-sites/vip.jpg
