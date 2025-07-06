@@ -84,6 +84,7 @@
                 <ul id="main-menu" class="main-menu">
                     {{ range .Site.Data.webstack }}
                     {{ if .tabs }}
+                        {{ $taxonomy := .taxonomy }}
                         <li>
                             <a href="#{{ md5 .taxonomy }}" class="smooth">
                                <i class="fa {{ .icon }} fa-fw"></i>
@@ -92,7 +93,7 @@
                             <ul>
                                 {{ range $index, $tab := .tabs }}    
                                 <li>
-                                    <a href="#{{ md5 $.taxonomy }}-tab-{{ $index }}" class="smooth">{{ $tab.name }}</a>
+                                    <a href="#{{ md5 $taxonomy }}-tab-{{ $index }}" class="smooth">{{ $tab.name }}</a>
                                 </li>
                                 {{ end }}
                             </ul>
@@ -145,8 +146,9 @@
     <div class="tab-container">
         <!-- 标签菜单 -->
         <div class="tab-menu">
+            {{ $taxonomy := .taxonomy }}
             {{ range $index, $tab := .tabs }}
-            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $.taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
+            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
             {{ end }}
         </div>
         
