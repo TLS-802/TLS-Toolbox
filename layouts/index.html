@@ -23,6 +23,8 @@
 <link rel='stylesheet' id='nav-css'  href='./css/nav.css?ver=2.0.0' type='text/css' media='all' />
 <!-- 添加标签式菜单CSS -->
 <link rel='stylesheet' id='tabs-css'  href='./css/tabs.css?ver=1.0.0' type='text/css' media='all' />
+<!-- 引入自定义CSS -->
+<link rel='stylesheet' id='custom-css'  href='./css/custom.css?ver=1.0.0' type='text/css' media='all' />
 <!-- jQuery 库引入 -->
 <script type='text/javascript' src='./js/jquery-1.11.1.min.js'></script>
 <style>
@@ -135,7 +137,7 @@
 <!-- 搜索模板引入 -->
 {{ template "search.html" . }}
 <!-- 网站列表展示区域 -->
-<div class="sites-list" style="margin-bottom: 8.5rem;">
+<div class="sites-list" style="margin-bottom: 2rem;">
 {{ range .Site.Data.webstack }}
     <!-- {{ .taxonomy }} -->
     <h4 class="text-gray" style="display: inline-block; margin-bottom: 20px;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
@@ -243,20 +245,15 @@
     
     <!-- 友情链接 -->
     {{ if .friend }}
-    <div class="friendlink" style="margin-top: 10px; margin-bottom: 10px;">
+    <div class="friendlink">
         <div class="panel">
         {{ range .friend }}            
-            <!-- <h4 class="text-gray mb-4"> -->
-            <!-- <i class="fa fa-bookmark" id="friendlink" style="margin-right:10px"></i>友情链接</h4> -->                
             <a href="{{ .url }}" rel="noopener" title="{{ .description }}" target="_blank">{{ .title }}</a>
         {{ end }}
         </div> 
     </div>
     {{ end }}
     <!-- END 友情链接    -->
-    <br />
-    <!--END {{ .taxonomy }} -->
-    <div style="margin-bottom: 20px;"></div>
 {{ end }}
 </div>
             <!-- 页脚 -->
