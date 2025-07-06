@@ -23,8 +23,6 @@
 <link rel='stylesheet' id='nav-css'  href='./css/nav.css?ver=2.0.0' type='text/css' media='all' />
 <!-- 添加标签式菜单CSS -->
 <link rel='stylesheet' id='tabs-css'  href='./css/tabs.css?ver=1.0.0' type='text/css' media='all' />
-<!-- 添加自定义间距CSS -->
-<link rel='stylesheet' id='custom-spacing-css'  href='./css/custom-spacing.css?ver=1.0.0' type='text/css' media='all' />
 <!-- jQuery 库引入 -->
 <script type='text/javascript' src='./js/jquery-1.11.1.min.js'></script>
 <style>
@@ -137,10 +135,10 @@
 <!-- 搜索模板引入 -->
 {{ template "search.html" . }}
 <!-- 网站列表展示区域 -->
-<div class="sites-list">
+<div class="sites-list" style="margin-bottom: 2.5rem;">
 {{ range .Site.Data.webstack }}
     <!-- {{ .taxonomy }} -->
-    <h4 class="text-gray" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
+    <h4 class="text-gray" style="display: inline-block; margin-bottom: 15px;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
     
     {{ if .tabs }}
     <!-- 有标签式二级菜单的分类 -->
@@ -201,7 +199,7 @@
     </div>
     {{ else }}
     <!-- 无标签式二级菜单的普通分类 -->
-    <div class="row">
+    <div class="row" style="margin-top: 15px;">
     {{ range .links }}
         {{ if .qrcode }}
         <!-- 带二维码的网站卡片 -->
@@ -245,7 +243,7 @@
     
     <!-- 友情链接 -->
     {{ if .friend }}
-    <div class="friendlink">
+    <div class="friendlink" style="margin-top: 15px; margin-bottom: 15px;">
         <div class="panel">
         {{ range .friend }}            
             <!-- <h4 class="text-gray mb-4"> -->

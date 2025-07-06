@@ -26,7 +26,7 @@ a:hover,a:focus{color:#232323;text-decoration:none}
 .submit-tag{margin-top:50px}
 .overflowClip_2{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .overflowClip_1{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
-.xe-card{position:relative;height:86px;/* 间距由custom-spacing.css控制 */}
+.xe-card{position:relative;height:86px;margin:20px 0 0 0}
 .xe-widget{position:relative}
 .xe-widget.xe-conversations{position:absolute;background:#fff;margin-bottom:0px;padding:15px;left:0;right:0;margin:0 10px}
 .transall,.sidebar-menu .main-menu a,.navbar.horizontal-menu .navbar-inner .navbar-brand a[data-toggle=settings-pane],.navbar.horizontal-menu .navbar-inner .navbar-brand a[data-toggle=settings-pane] i,.user-info-navbar .user-info-menu>li>a,.footer-sticked-chat .chat-conversations>li .chat-user,.footer-sticked-chat .chat-conversations>li.open .conversation-window,.footer-sticked-chat .chat-conversations>li.browse-more .other-conversations-list li a span,.breadcrumb.auto-hidden li a,.icon-collection .fontawesome-icon-list .fa-hover .icon-str>i,.icon-collection .fontawesome-icon-list .fa-hover .icon-str>span{-webkit-transition:all 220ms ease-in-out;-moz-transition:all 220ms ease-in-out;-o-transition:all 220ms ease-in-out;transition:all 220ms ease-in-out}
@@ -297,7 +297,7 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 .search-list{height:30px;overflow-y:hidden;overflow-x:scroll;white-space:nowrap}
 }
 /* --- 手机移动端 紧凑显示 --- */
-@media screen and (max-width:767px){.xe-card{position:relative;height:70px;font-size:12px;/* 间距由custom-spacing.css控制 */}.box2{height:70px}.img-circle{padding:0 0;}.xe-widget.xe-conversations{margin:0 5px}.xe-comment p{font-size:10px}}
+@media screen and (max-width:767px){.xe-card{position:relative;height:70px;margin:10px 0 0 0;font-size:12px;}.box2{height:70px}.img-circle{padding:0 0;}.xe-widget.xe-conversations{margin:0 5px}.xe-comment p{font-size:10px}}
 /* --- 卡片显示列数 自适应 --- */
 /* 手机横屏 */ 
 @media (min-width: 520px) and (max-width: 768px) {.col-xs-6{width:33.333%}}
