@@ -1056,310 +1056,6 @@
           url: https://fbjvryq00y.feishu.cn/drive/folder/LeM2f5tuZlbF3GdeKV9cYqGlnke?from=dy.199908.top
           description: 视频一键搬运发布
 
-- taxonomy: 广告投放
-  icon: fa-bullhorn
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 淘宝广告
-    - term: 抖音广告
-    - term: 快手广告
-    - term: 小红书广告
-    - term: 视频号广告
-    - term: TikTok广告
-  tabs:
-    - name: 淘宝广告
-      links:
-        - title: 直通车
-          logo: images/Advertising/taobaoggongju.png
-          url: https://subway.simba.taobao.com?from=dy.199908.top
-          description: 淘宝推广工具
-        - title: 引力魔方
-          logo: images/Advertising/taobaoggongju.png
-          url: https://tuijian.taobao.com?from=dy.199908.top
-          description: 淘宝推广工具
-        - title: 淘宝联盟
-          logo: images/Advertising/taobaolianmeng.jpg
-          url: https://pub.alimama.com?from=dy.199908.top
-          description: 淘宝联盟推广平台
-        - title: 万相台
-          logo: images/Advertising/taobaoggongju.png
-          url: https://adbrain.taobao.com?from=dy.199908.top
-          description: 淘宝广告投放平台
-        - title: 品销宝
-          logo: images/Advertising/pinxiaobao.png
-          url: https://branding.taobao.com?from=dy.199908.top
-          description: 淘宝品牌推广工具
-    - name: 抖音广告
-      links:
-        - title: 巨量引擎
-          logo: images/Advertising/juliangyinqing.png
-          url: https://www.oceanengine.com?from=dy.199908.top
-          description: 抖音所有类型广告
-        - title: 巨量千川
-          logo: images/Advertising/juliangqianchuan.png
-          url: https://qianchuan.jinritemai.com?from=dy.199908.top
-          description: 抖音广告投放平台
-        - title: 巨量星图
-          logo: images/Advertising/juliangxingtu.png
-          url: https://xingtu.jinritemai.com?from=dy.199908.top
-          description: 抖音星图
-        - title: 小火龙
-          logo: images/Advertising/xiaohuolong.png
-          url: http://www.xiaohuolong.com?from=dy.199908.top
-          description: 抖音随心推投放工具
-    - name: TikTok广告
-      links:
-        - title: Tiktok广告投放
-          logo: images/Store settled in/tiktok.png
-          url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
-          description: Tiktok广告投放
-        - title: Tiktok ADS
-          logo: images/Advertising/tiktok.png
-          url: https://ads.tiktok.com/i18n?from=dy.199908.top
-          description: Tiktok ADS
-    - name: 快手广告
-      links:
-        - title: 磁力引擎
-          logo: images/Advertising/ciliyinqing.png
-          url: https://e.kuaishou.com?from=dy.199908.top
-          description: 快手开屏、信息流、粉条
-        - title: 磁力智投
-          logo: images/Advertising/cilizhitou.png
-          url: https://ad.e.kuaishou.com?from=dy.199908.top
-          description: 快手广告投放平台
-    - name: 小红书广告
-      links:
-        - title: 聚光平台
-          logo: images/Advertising/juguang.jpg
-          url: https://ad.xiaohongshu.com?from=dy.199908.top
-          description: 小红书广告投放平台
-    - name: 视频号广告
-      links:
-        - title: 诸葛智投
-          logo: images/Advertising/zhugezhitou.png
-          url: https://zgzt.v-ma.com?from=dy.199908.top
-          description: 视频号投放管理工具
-
-- taxonomy: 数据分析
-  icon: fa-chart-line
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 淘宝数据
-    - term: 抖音数据
-    - term: 快手数据
-    - term: 小红书数据
-    - term: 选品工具
-  tabs:
-    - name: 淘宝数据
-      links:
-        - title: 生意参谋
-          logo: images/Data analysis/shengyicanmou.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 淘宝数据分析工具
-        - title: 大淘客
-          logo: images/Data analysis/dataoke.jpg
-          url: http://www.dataoke.com?from=dy.199908.top
-          description: 淘客选品平台
-    - name: 抖音数据
-      links:
-        - title: 巨量算数
-          logo: images/Data analysis/juliangsuanshu.svg
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 抖音官方选品工具
-          logo: images/Data analysis/douyin.jpg
-          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
-          description: 抖音官方选品工具
-        - title: 蝉妈妈
-          logo: images/Data analysis/chanmama.jpg
-          url: http://www.chanmama.com?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 飞瓜
-          logo: images/Data analysis/feigua.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 灰豚数据-抖音
-          logo: images/Data analysis/huitun.jpg
-          url: https://dy.huitun.com?from=dy.199908.top
-          description: 灰豚数据抖音
-        - title: 抖查查
-          logo: images/Data analysis/douchacha.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 数据、达人与选品平台
-    - name: 快手数据
-      links:
-        - title: 灰豚数据-快手
-          logo: images/Data analysis/huitun.jpg
-          url: https://ks.huitun.com?from=dy.199908.top
-          description: 灰豚数据快手版
-    - name: 小红书数据
-      links:
-        - title: 郑和数据
-          logo: images/Data analysis/huitun.jpg
-          url: https://zhenghedata.com/dashboard?from=dy.199908.top
-          description: 郑和数据小红书版
-    - name: 选品工具
-      links:
-        - title: 考古加
-          logo: images/Data analysis/kaogujia.jpg
-          url: https://www.kaogujia.com?from=dy.199908.top
-          description: 专业数据服务平台
-        - title: 有米有数
-          logo: images/Data analysis/youmiyoushu.png
-          url: https://youshu.youcloud.com?from=dy.199908.top
-          description: 广告投放数据分析工具
-        - title: 米选
-          logo: images/Data analysis/mixuan.png
-          url: https://mixuan.com?from=dy.199908.top
-          description: 飞瓜旗下选品平台
-        - title: 抖老板带货助手
-          logo: images/Data analysis/doulaoban.png
-          url: https://zs.doulaoban.com/login?from=dy.199908.top
-          description: 多平台数据管理
-
-- taxonomy: 图文设计
-  icon: fa-palette
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 在线设计
-    - term: 图片素材
-    - term: 图片处理
-    - term: 配色工具
-    - term: PPT模板
-  tabs:
-    - name: 在线设计
-      links:
-        - title: 稿定设计
-          logo: images/graphic design/gaoding.png
-          url: https://www.gaoding.com?from=dy.199908.top
-          description: 专业在线设计平台，提供海量模板和素材
-        - title: 创客贴
-          logo: images/graphic design/chuangke.png
-          url: https://www.chuangkit.com?from=dy.199908.top
-          description: 简单好用的平面设计工具，海量模板一键套用
-        - title: 懒设计
-          logo: images/graphic design/fotorlan.png
-          url: https://www.fotor.com.cn?from=dy.199908.top
-          description: 简单易用的在线设计工具，提供照片编辑和设计功能
-        - title: Canva可画
-          logo: images/graphic design/canva.png
-          url: https://www.canva.cn?from=dy.199908.top
-          description: 国际知名设计平台，支持各类社交媒体设计
-    - name: 图片素材
-      links:
-        - title: 花瓣网
-          logo: images/graphic design/huaban.png
-          url: https://huaban.com?from=dy.199908.top
-          description: 中国领先的图片素材收集平台，设计师灵感库
-        - title: Freepik
-          logo: images/graphic design/freepik.png
-          url: https://www.freepik.com?from=dy.199908.top
-          description: 超过百万免费矢量图、PSD、照片和图标资源
-        - title: 千图网
-          logo: images/graphic design/qiantu.png
-          url: http://www.58pic.com?from=dy.199908.top
-          description: 提供海量免费设计素材下载的专业网站
-        - title: 千库网
-          logo: images/graphic design/qianku.png
-          url: http://588ku.com?from=dy.199908.top
-          description: 专注于提供各类免费PNG图片和背景素材
-        - title: 我图网
-          logo: images/graphic design/wotu.png
-          url: http://www.ooopic.com?from=dy.199908.top
-          description: 提供丰富的图片素材及模板下载，专注正版设计作品交易
-        - title: 90设计
-          logo: images/graphic design/90sheji.png
-          url: http://90sheji.com?from=dy.199908.top
-          description: 电商设计（淘宝美工）专业平台，提供免费淘宝素材库
-        - title: 昵图网
-          logo: images/graphic design/nipic.png
-          url: http://www.nipic.com?from=dy.199908.top
-          description: 国内领先的原创素材共享平台，提供插画、摄影、设计等素材
-        - title: 懒人图库
-          logo: images/graphic design/lanrentuku.png
-          url: http://www.lanrentuku.com?from=dy.199908.top
-          description: 专注于提供网页设计素材下载，包含图标、模板等资源
-        - title: Unsplash
-          url: https://unsplash.com?from=dy.199908.top
-          logo: images/graphic design/unsplash.png
-          description: 提供高质量免费可商用的摄影作品
-        - title: Librestock
-          url: https://librestock.com?from=dy.199908.top
-          logo: images/graphic design/librestock.png
-          description: 聚合多个免费图库，提供超过65,000张高质量免费图片
-        - title: Pixabay
-          url: https://pixabay.com?from=dy.199908.top
-          logo: images/graphic design/pixabay.png
-          description: 提供高质量可在任何地方使用的免费图片和视频
-        - title: Pexels
-          url: https://www.pexels.com?from=dy.199908.top
-          logo: images/graphic design/pexels.png
-          description: 高质量免费图片和视频素材库，可商用
-    - name: 图片处理
-      links:
-        - title: 佐糖-AI在线抠图
-          logo: images/graphic design/picwish.png
-          url: https://picwish.cn?from=dy.199908.top
-          description: 专业智能抠图工具，一键去除背景
-        - title: TinyPNG
-          url: https://tinypng.com?from=dy.199908.top
-          logo: images/graphic design/tinypng.png
-          description: 智能压缩PNG和JPG图片，保持图片质量的同时减小文件大小
-        - title: 二维码生成器
-          url: http://goqr.me?from=dy.199908.top
-          logo: images/graphic design/goqr.png
-          description: 免费创建各种用途的二维码，支持Logo、T恤、vCard、EPS等格式
-        - title: EZGIF
-          url: https://ezgif.com?from=dy.199908.top
-          logo: images/graphic design/Ezgif.png
-          description: 简单易用的在线GIF制作和编辑工具集
-        - title: SVGOMG
-          url: https://jakearchibald.github.io/svgomg?from=dy.199908.top
-          logo: images/graphic design/svgomg.png
-          description: 专业的SVG在线优化压缩工具
-        - title: Remove.bg
-          url: https://www.remove.bg?from=dy.199908.top
-          logo: images/graphic design/removebg.png
-          description: 自动识别前景，一键去除图片背景
-    - name: 配色工具
-      links:
-        - title: Adobe Color
-          logo: images/graphic design/AdobeColorCC.png
-          url: https://color.adobe.com/zh/create/color-wheel?from=dy.199908.top
-          description: Adobe提供的专业配色工具，支持创建、保存和分享色彩主题
-        - title: Color Hunt
-          logo: images/graphic design/colorhunt.png
-          url: https://colorhunt.co?from=dy.199908.top
-          description: 提供精选配色方案的色彩灵感平台
-        - title: ColorDrop
-          logo: images/graphic design/colordrop.png
-          url: https://colordrop.io?from=dy.199908.top
-          description: 简洁实用的配色网站，帮助设计师快速找到合适的色彩组合
-        - title: Coolors
-          logo: images/graphic design/coolors.png
-          url: https://coolors.co?from=dy.199908.top
-          description: 超级快速的配色方案生成器
-    - name: PPT模板
-      links:
-        - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/Home.shtml?from=dy.199908.top
-          logo: images/graphic design/officeplus.png
-          description: 微软Office官方在线模板网站，提供丰富的Office模板资源
-        - title: 优品PPT
-          url: http://www.ypppt.com?from=dy.199908.top
-          logo: images/graphic design/ypppt.png
-          description: 提供高质量的PPT模版、PPT图表、PPT背景图等专业资源
-        - title: tretars
-          url: http://www.tretars.com/ppt-templates?from=dy.199908.top
-          logo: images/graphic design/tretars.png
-          description: 提供优质免费的Mockups和设计资源
-        - title: 5百丁
-          url: http://ppt.500d.me?from=dy.199908.top
-          logo: images/graphic design/500d.png
-          description: 中国领先的PPT模板共享平台，拥有海量优质PPT资源
-        - title: 站长素材
-          url: https://sc.chinaz.com/ppt?from=dy.199908.top
-          logo: images/graphic design/chinaz.png
-          description: 提供丰富的PPT模板、PPT背景等设计素材
-
-- taxonomy: 图标字体
   icon: fa-font
   list:  # 添加list属性，用于侧边栏显示
     - term: 图标库
@@ -1759,6 +1455,311 @@
           logo: images/popular-sites/alipay.jpg
           url: https://www.alipay.com?from=dy.199908.top
           description: 蚂蚁集团旗下支付和金融服务平台，提供支付、转账、理财等服务
+
+- taxonomy: 广告投放
+  icon: fa-bullhorn
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 淘宝广告
+    - term: 抖音广告
+    - term: 快手广告
+    - term: 小红书广告
+    - term: 视频号广告
+    - term: TikTok广告
+  tabs:
+    - name: 淘宝广告
+      links:
+        - title: 直通车
+          logo: images/Advertising/taobaoggongju.png
+          url: https://subway.simba.taobao.com?from=dy.199908.top
+          description: 淘宝推广工具
+        - title: 引力魔方
+          logo: images/Advertising/taobaoggongju.png
+          url: https://tuijian.taobao.com?from=dy.199908.top
+          description: 淘宝推广工具
+        - title: 淘宝联盟
+          logo: images/Advertising/taobaolianmeng.jpg
+          url: https://pub.alimama.com?from=dy.199908.top
+          description: 淘宝联盟推广平台
+        - title: 万相台
+          logo: images/Advertising/taobaoggongju.png
+          url: https://adbrain.taobao.com?from=dy.199908.top
+          description: 淘宝广告投放平台
+        - title: 品销宝
+          logo: images/Advertising/pinxiaobao.png
+          url: https://branding.taobao.com?from=dy.199908.top
+          description: 淘宝品牌推广工具
+    - name: 抖音广告
+      links:
+        - title: 巨量引擎
+          logo: images/Advertising/juliangyinqing.png
+          url: https://www.oceanengine.com?from=dy.199908.top
+          description: 抖音所有类型广告
+        - title: 巨量千川
+          logo: images/Advertising/juliangqianchuan.png
+          url: https://qianchuan.jinritemai.com?from=dy.199908.top
+          description: 抖音广告投放平台
+        - title: 巨量星图
+          logo: images/Advertising/juliangxingtu.png
+          url: https://xingtu.jinritemai.com?from=dy.199908.top
+          description: 抖音星图
+        - title: 小火龙
+          logo: images/Advertising/xiaohuolong.png
+          url: http://www.xiaohuolong.com?from=dy.199908.top
+          description: 抖音随心推投放工具
+    - name: TikTok广告
+      links:
+        - title: Tiktok广告投放
+          logo: images/Store settled in/tiktok.png
+          url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
+          description: Tiktok广告投放
+        - title: Tiktok ADS
+          logo: images/Advertising/tiktok.png
+          url: https://ads.tiktok.com/i18n?from=dy.199908.top
+          description: Tiktok ADS
+    - name: 快手广告
+      links:
+        - title: 磁力引擎
+          logo: images/Advertising/ciliyinqing.png
+          url: https://e.kuaishou.com?from=dy.199908.top
+          description: 快手开屏、信息流、粉条
+        - title: 磁力智投
+          logo: images/Advertising/cilizhitou.png
+          url: https://ad.e.kuaishou.com?from=dy.199908.top
+          description: 快手广告投放平台
+    - name: 小红书广告
+      links:
+        - title: 聚光平台
+          logo: images/Advertising/juguang.jpg
+          url: https://ad.xiaohongshu.com?from=dy.199908.top
+          description: 小红书广告投放平台
+    - name: 视频号广告
+      links:
+        - title: 诸葛智投
+          logo: images/Advertising/zhugezhitou.png
+          url: https://zgzt.v-ma.com?from=dy.199908.top
+          description: 视频号投放管理工具
+
+- taxonomy: 数据分析
+  icon: fa-chart-line
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 淘宝数据
+    - term: 抖音数据
+    - term: 快手数据
+    - term: 小红书数据
+    - term: 选品工具
+  tabs:
+    - name: 淘宝数据
+      links:
+        - title: 生意参谋
+          logo: images/Data analysis/shengyicanmou.png
+          url: https://sycm.taobao.com?from=dy.199908.top
+          description: 淘宝数据分析工具
+        - title: 大淘客
+          logo: images/Data analysis/dataoke.jpg
+          url: http://www.dataoke.com?from=dy.199908.top
+          description: 淘客选品平台
+    - name: 抖音数据
+      links:
+        - title: 巨量算数
+          logo: images/Data analysis/juliangsuanshu.svg
+          url: https://trendinsight.oceanengine.com?from=dy.199908.top
+          description: 抖音官方大数据平台
+        - title: 抖音官方选品工具
+          logo: images/Data analysis/douyin.jpg
+          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
+          description: 抖音官方选品工具
+        - title: 蝉妈妈
+          logo: images/Data analysis/chanmama.jpg
+          url: http://www.chanmama.com?from=dy.199908.top
+          description: 抖音直播数据、选品平台
+        - title: 飞瓜
+          logo: images/Data analysis/feigua.jpg
+          url: https://www.feigua.cn?from=dy.199908.top
+          description: 抖音直播数据、选品平台
+        - title: 灰豚数据-抖音
+          logo: images/Data analysis/huitun.jpg
+          url: https://dy.huitun.com?from=dy.199908.top
+          description: 灰豚数据抖音
+        - title: 抖查查
+          logo: images/Data analysis/douchacha.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 数据、达人与选品平台
+    - name: 快手数据
+      links:
+        - title: 灰豚数据-快手
+          logo: images/Data analysis/huitun.jpg
+          url: https://ks.huitun.com?from=dy.199908.top
+          description: 灰豚数据快手版
+    - name: 小红书数据
+      links:
+        - title: 郑和数据
+          logo: images/Data analysis/huitun.jpg
+          url: https://zhenghedata.com/dashboard?from=dy.199908.top
+          description: 郑和数据小红书版
+    - name: 选品工具
+      links:
+        - title: 考古加
+          logo: images/Data analysis/kaogujia.jpg
+          url: https://www.kaogujia.com?from=dy.199908.top
+          description: 专业数据服务平台
+        - title: 有米有数
+          logo: images/Data analysis/youmiyoushu.png
+          url: https://youshu.youcloud.com?from=dy.199908.top
+          description: 广告投放数据分析工具
+        - title: 米选
+          logo: images/Data analysis/mixuan.png
+          url: https://mixuan.com?from=dy.199908.top
+          description: 飞瓜旗下选品平台
+        - title: 抖老板带货助手
+          logo: images/Data analysis/doulaoban.png
+          url: https://zs.doulaoban.com/login?from=dy.199908.top
+          description: 多平台数据管理
+
+- taxonomy: 图文设计
+  icon: fa-palette
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 在线设计
+    - term: 图片素材
+    - term: 图片处理
+    - term: 配色工具
+    - term: PPT模板
+  tabs:
+    - name: 在线设计
+      links:
+        - title: 稿定设计
+          logo: images/graphic design/gaoding.png
+          url: https://www.gaoding.com?from=dy.199908.top
+          description: 专业在线设计平台，提供海量模板和素材
+        - title: 创客贴
+          logo: images/graphic design/chuangke.png
+          url: https://www.chuangkit.com?from=dy.199908.top
+          description: 简单好用的平面设计工具，海量模板一键套用
+        - title: 懒设计
+          logo: images/graphic design/fotorlan.png
+          url: https://www.fotor.com.cn?from=dy.199908.top
+          description: 简单易用的在线设计工具，提供照片编辑和设计功能
+        - title: Canva可画
+          logo: images/graphic design/canva.png
+          url: https://www.canva.cn?from=dy.199908.top
+          description: 国际知名设计平台，支持各类社交媒体设计
+    - name: 图片素材
+      links:
+        - title: 花瓣网
+          logo: images/graphic design/huaban.png
+          url: https://huaban.com?from=dy.199908.top
+          description: 中国领先的图片素材收集平台，设计师灵感库
+        - title: Freepik
+          logo: images/graphic design/freepik.png
+          url: https://www.freepik.com?from=dy.199908.top
+          description: 超过百万免费矢量图、PSD、照片和图标资源
+        - title: 千图网
+          logo: images/graphic design/qiantu.png
+          url: http://www.58pic.com?from=dy.199908.top
+          description: 提供海量免费设计素材下载的专业网站
+        - title: 千库网
+          logo: images/graphic design/qianku.png
+          url: http://588ku.com?from=dy.199908.top
+          description: 专注于提供各类免费PNG图片和背景素材
+        - title: 我图网
+          logo: images/graphic design/wotu.png
+          url: http://www.ooopic.com?from=dy.199908.top
+          description: 提供丰富的图片素材及模板下载，专注正版设计作品交易
+        - title: 90设计
+          logo: images/graphic design/90sheji.png
+          url: http://90sheji.com?from=dy.199908.top
+          description: 电商设计（淘宝美工）专业平台，提供免费淘宝素材库
+        - title: 昵图网
+          logo: images/graphic design/nipic.png
+          url: http://www.nipic.com?from=dy.199908.top
+          description: 国内领先的原创素材共享平台，提供插画、摄影、设计等素材
+        - title: 懒人图库
+          logo: images/graphic design/lanrentuku.png
+          url: http://www.lanrentuku.com?from=dy.199908.top
+          description: 专注于提供网页设计素材下载，包含图标、模板等资源
+        - title: Unsplash
+          url: https://unsplash.com?from=dy.199908.top
+          logo: images/graphic design/unsplash.png
+          description: 提供高质量免费可商用的摄影作品
+        - title: Librestock
+          url: https://librestock.com?from=dy.199908.top
+          logo: images/graphic design/librestock.png
+          description: 聚合多个免费图库，提供超过65,000张高质量免费图片
+        - title: Pixabay
+          url: https://pixabay.com?from=dy.199908.top
+          logo: images/graphic design/pixabay.png
+          description: 提供高质量可在任何地方使用的免费图片和视频
+        - title: Pexels
+          url: https://www.pexels.com?from=dy.199908.top
+          logo: images/graphic design/pexels.png
+          description: 高质量免费图片和视频素材库，可商用
+    - name: 图片处理
+      links:
+        - title: 佐糖-AI在线抠图
+          logo: images/graphic design/picwish.png
+          url: https://picwish.cn?from=dy.199908.top
+          description: 专业智能抠图工具，一键去除背景
+        - title: TinyPNG
+          url: https://tinypng.com?from=dy.199908.top
+          logo: images/graphic design/tinypng.png
+          description: 智能压缩PNG和JPG图片，保持图片质量的同时减小文件大小
+        - title: 二维码生成器
+          url: http://goqr.me?from=dy.199908.top
+          logo: images/graphic design/goqr.png
+          description: 免费创建各种用途的二维码，支持Logo、T恤、vCard、EPS等格式
+        - title: EZGIF
+          url: https://ezgif.com?from=dy.199908.top
+          logo: images/graphic design/Ezgif.png
+          description: 简单易用的在线GIF制作和编辑工具集
+        - title: SVGOMG
+          url: https://jakearchibald.github.io/svgomg?from=dy.199908.top
+          logo: images/graphic design/svgomg.png
+          description: 专业的SVG在线优化压缩工具
+        - title: Remove.bg
+          url: https://www.remove.bg?from=dy.199908.top
+          logo: images/graphic design/removebg.png
+          description: 自动识别前景，一键去除图片背景
+    - name: 配色工具
+      links:
+        - title: Adobe Color
+          logo: images/graphic design/AdobeColorCC.png
+          url: https://color.adobe.com/zh/create/color-wheel?from=dy.199908.top
+          description: Adobe提供的专业配色工具，支持创建、保存和分享色彩主题
+        - title: Color Hunt
+          logo: images/graphic design/colorhunt.png
+          url: https://colorhunt.co?from=dy.199908.top
+          description: 提供精选配色方案的色彩灵感平台
+        - title: ColorDrop
+          logo: images/graphic design/colordrop.png
+          url: https://colordrop.io?from=dy.199908.top
+          description: 简洁实用的配色网站，帮助设计师快速找到合适的色彩组合
+        - title: Coolors
+          logo: images/graphic design/coolors.png
+          url: https://coolors.co?from=dy.199908.top
+          description: 超级快速的配色方案生成器
+    - name: PPT模板
+      links:
+        - title: OfficePLUS
+          url: http://www.officeplus.cn/Template/Home.shtml?from=dy.199908.top
+          logo: images/graphic design/officeplus.png
+          description: 微软Office官方在线模板网站，提供丰富的Office模板资源
+        - title: 优品PPT
+          url: http://www.ypppt.com?from=dy.199908.top
+          logo: images/graphic design/ypppt.png
+          description: 提供高质量的PPT模版、PPT图表、PPT背景图等专业资源
+        - title: tretars
+          url: http://www.tretars.com/ppt-templates?from=dy.199908.top
+          logo: images/graphic design/tretars.png
+          description: 提供优质免费的Mockups和设计资源
+        - title: 5百丁
+          url: http://ppt.500d.me?from=dy.199908.top
+          logo: images/graphic design/500d.png
+          description: 中国领先的PPT模板共享平台，拥有海量优质PPT资源
+        - title: 站长素材
+          url: https://sc.chinaz.com/ppt?from=dy.199908.top
+          logo: images/graphic design/chinaz.png
+          description: 提供丰富的PPT模板、PPT背景等设计素材
+
+- taxonomy: 图标字体
 
 - taxonomy: 设计软件
   icon: fa-desktop
