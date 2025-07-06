@@ -72,38 +72,6 @@
           logo: images/E-commerce plug-in/taobao.png
           url: https://yc.alibaba.com?from=dy.199908.top
           description: 阿里巴巴原创保护平台
-        - title: 直通车
-          logo: images/Advertising/taobaoggongju.png
-          url: https://subway.simba.taobao.com?from=dy.199908.top
-          description: 淘宝推广工具
-        - title: 引力魔方
-          logo: images/Advertising/taobaoggongju.png
-          url: https://tuijian.taobao.com?from=dy.199908.top
-          description: 淘宝推广工具
-        - title: 淘宝联盟
-          logo: images/Advertising/taobaolianmeng.jpg
-          url: https://pub.alimama.com?from=dy.199908.top
-          description: 淘宝联盟推广平台
-        - title: 万相台
-          logo: images/Advertising/taobaoggongju.png
-          url: https://adbrain.taobao.com?from=dy.199908.top
-          description: 淘宝广告投放平台
-        - title: 品销宝
-          logo: images/Advertising/pinxiaobao.png
-          url: https://branding.taobao.com?from=dy.199908.top
-          description: 淘宝品牌推广工具
-        - title: 生意参谋
-          logo: images/Data analysis/shengyicanmou.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 淘宝数据分析工具
-        - title: 直播片段生成器
-          logo: images/Video editing tools/taobao.png
-          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-          description: 淘宝直播片段生成工具
-        - title: 短视频混剪工具
-          logo: images/Video editing tools/taobao.png
-          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-          description: 淘宝短视频混剪工具
         - title: 淘宝大学
           logo: images/E-commerce plug-in/taobao.png
           url: https://daxue.taobao.com?from=dy.199908.top
@@ -298,26 +266,6 @@
           logo: images/Data analysis/douyin.jpg
           url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
           description: 抖音官方选品工具
-        - title: 蝉妈妈
-          logo: images/Data analysis/chanmama.jpg
-          url: http://www.chanmama.com?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 飞瓜
-          logo: images/Data analysis/feigua.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 灰豚数据-抖音
-          logo: images/Data analysis/huitun.jpg
-          url: https://dy.huitun.com?from=dy.199908.top
-          description: 灰豚数据抖音
-        - title: 抖查查
-          logo: images/Data analysis/douchacha.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 数据、达人与选品平台
-        - title: 小火龙
-          logo: images/Advertising/xiaohuolong.png
-          url: http://www.xiaohuolong.com?from=dy.199908.top
-          description: 抖音随心推投放工具
     - name: 京东
       links:
         - title: 京麦工作台
@@ -1440,24 +1388,13 @@
           logo: images/Data analysis/huitun.jpg
           url: https://zhenghedata.com/dashboard?from=dy.199908.top
           description: 郑和数据小红书版
+        - title: 灰豚数据-小红书
+          logo: images/Data analysis/huitun.jpg
+          url: https://xhs.huitun.com?from=dy.199908.top
+          description: 灰豚数据小红书版
     - name: 选品工具
       links:
-        - title: 考古加
-          logo: images/Data analysis/kaogujia.jpg
-          url: https://www.kaogujia.com?from=dy.199908.top
-          description: 专业数据服务平台
-        - title: 有米有数
-          logo: images/Data analysis/youmiyoushu.png
-          url: https://youshu.youcloud.com?from=dy.199908.top
-          description: 广告投放数据分析工具
-        - title: 米选
-          logo: images/Data analysis/mixuan.png
-          url: https://mixuan.com?from=dy.199908.top
-          description: 飞瓜旗下选品平台
-        - title: 抖老板带货助手
-          logo: images/Data analysis/doulaoban.png
-          url: https://zs.doulaoban.com/login?from=dy.199908.top
-          description: 多平台数据管理
+        # 这里将添加选品工具相关工具
 
 - taxonomy: 设计软件
   icon: fa-palette
@@ -1473,6 +1410,7 @@
           url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
           logo: images/design software/photoshop.png
           description: Photoshop不需要解释
+
     - name: 矢量设计
       links:
         - title: Affinity Designer
@@ -1483,12 +1421,14 @@
           url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
           logo: images/design software/Illustrator.png
           description: 矢量图形和插图
+
     - name: 排版软件
       links:
         - title: indesign
           url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
           logo: images/design software/INDESIGN .png
           description: 页面设计、布局和出版
+
     - name: 3D建模
       links:
         - title: cinema-4d
@@ -1527,6 +1467,7 @@
           logo: images/graphic design/fotorlan.png
           url: https://www.fotor.com.cn?from=dy.199908.top
           description: 在线设计网站
+
     - name: 图片素材
       links:
         - title: 花瓣网
@@ -1573,6 +1514,7 @@
           url: https://pixabay.com?from=dy.199908.top
           logo: images/graphic design/pixabay.png
           description: 可在任何地方使用的免费图片和视频
+
     - name: 图片处理
       links:
         - title: 佐糖-AI在线抠图
@@ -1595,6 +1537,7 @@
           url: https://jakearchibald.github.io/svgomg?from=dy.199908.top
           logo: images/graphic design/svgomg.png
           description: SVG在线压缩平台
+
     - name: 配色工具
       links:
         - title: adobe色卡
@@ -1605,6 +1548,7 @@
           logo: images/graphic design/colorhunt.png
           url: https://colordrop.io?from=dy.199908.top
           description: 配色网站  
+
     - name: PPT模板
       links:
         - title: OfficePLUS
@@ -1677,12 +1621,14 @@
           logo: images/icon font/simplelineicons.png
           url: http://simplelineicons.com?from=dy.199908.top
           description: Simple line Icons pack
+
     - name: 图标生成
       links:
         - title: IcoMoonApp
           logo: images/icon font/IcoMoonApp.png
           url: https://icomoon.io/app?from=dy.199908.top
           description: Icon Font, SVG, PDF & PNG Generator
+
     - name: 字体库
       links:
         - title: Google Font
@@ -1755,4 +1701,4 @@
           logo: images/TLS/github.jpg
           url: https://github.com/TLS-802?from=dy.199908.top
 
----
+--- 
