@@ -33,45 +33,17 @@ $(document).ready(function() {
   // 处理来自URL的标签激活请求
   function activateTabFromHash() {
     var hash = window.location.hash;
-    if (hash) {
-      // 适配新的锚点格式
-      if (hash.indexOf('-tab-') > -1) {
-        // 提取出标签ID部分
-        var parts = hash.split('-');
-        var tabIndex = parts[parts.length - 1];
-        var taxonomyHash = parts[0].substring(1); // 移除#
+    if (hash && hash.indexOf('-tab-') > -1) {
+      var tabElement = $(hash);
+      if (tabElement.length) {
+        // 直接激活标签，不等待
+        tabElement.click();
         
-        // 查找对应的标签项
-        var tabSelector = '';
-        
-        // 处理新的锚点格式 (#hash-hash-tab-N)
-        if (parts.length > 3) {
-          // 新格式：查找对应的tab
-          tabSelector = '#' + taxonomyHash + '-tab-' + tabIndex;
-        } else {
-          // 旧格式：直接使用
-          tabSelector = hash;
-        }
-        
-        var tabElement = $(tabSelector);
-        if (tabElement.length) {
-          // 直接激活标签
-          tabElement.click();
-          
-          // 如果是新格式，我们需要滚动到一级菜单标题
-          if (parts.length > 3) {
-            var pos = $('#' + taxonomyHash).offset().top - 100;
-            $("html,body").animate({
-              scrollTop: pos
-            }, 150);
-          } else {
-            // 旧格式：滚动到标签自身
-            var pos = tabElement.offset().top - 100;
-            $("html,body").animate({
-              scrollTop: pos
-            }, 150);
-          }
-        }
+        // 立即滚动到正确的位置
+        var pos = tabElement.offset().top - 100;
+        $("html,body").animate({
+          scrollTop: pos
+        }, 150); // 减少动画时间
       }
     }
   }

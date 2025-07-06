@@ -1,24 +1,6 @@
 /* 标签式二级菜单样式 */
 .tab-container {
   margin-top: 20px;
-  position: relative; /* 添加相对定位，以便锚点元素可以绝对定位 */
-}
-
-/* 锚点容器样式 */
-[id*="-tab-"] {
-  position: relative;
-}
-
-/* 二级菜单锚点容器样式 */
-[id$="-tab-0"], [id$="-tab-1"], [id$="-tab-2"], [id$="-tab-3"], [id$="-tab-4"], [id$="-tab-5"], [id$="-tab-6"], [id$="-tab-7"], [id$="-tab-8"], [id$="-tab-9"] {
-  display: inline-block;
-}
-
-/* 这些是为二级菜单跳转添加的额外锚点 */
-[id*="-tab-"][id*="-"] {
-  position: absolute;
-  visibility: hidden;
-  top: -120px; /* 确保滚动到正确的位置 */
 }
 
 .tab-menu {
