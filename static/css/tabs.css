@@ -1,6 +1,6 @@
 /* 标签式二级菜单样式 */
 .tab-container {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .tab-menu {
@@ -48,7 +48,7 @@
 }
 
 .tab-content .row {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /* 暗色模式下的样式 */
@@ -89,5 +89,5 @@
 /* 分类之间的间距 */
 .sites-list h4 + .tab-container,
 .sites-list h4 + .row {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 } 
