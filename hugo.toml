@@ -31,7 +31,7 @@ copyright = "TLS"
 #桌面端右上角code按钮
 [params.github]
   #true显示 false隐藏
-  enable = true 
+  enable = false 
   url = "https://github.com/TLS-802/TLS-Toolbox"
   
 [permalinks]  
