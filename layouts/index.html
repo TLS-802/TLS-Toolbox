@@ -29,8 +29,7 @@
 /* 为侧边栏二级菜单添加样式 */
 .sidebar-menu .main-menu > li > ul {
   display: none;
-  background: rgba(69, 74, 84, 0.7);
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .sidebar-menu .main-menu > li.expanded > ul {
@@ -47,12 +46,10 @@
 
 .sidebar-menu .main-menu > li > ul > li.active > a {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .sidebar-menu .main-menu > li > ul > li > a:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 </style>
 </head>
@@ -343,13 +340,8 @@
             
             // 检查是否为二级菜单标签
             if (href.indexOf('-tab-') > -1) {
-                // 提取标签索引
-                var tabIndex = href.split('-tab-')[1];
-                
-                // 等待滚动完成后激活对应标签
-                setTimeout(function() {
-                    $(href).click();
-                }, 600);
+                // 立即激活对应标签
+                $(href).click();
                 
                 // 激活父菜单项
                 $(this).parents('li.has-sub').addClass('expanded active');
@@ -357,7 +349,7 @@
             
             $("html,body").animate({
                 scrollTop: pos
-            }, 500);
+            }, 300); // 减少动画时间，提高响应速度
         });
         // 平滑滚动设置 END
         
