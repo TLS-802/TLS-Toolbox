@@ -1701,4 +1701,24 @@
           logo: images/TLS/github.jpg
           url: https://github.com/TLS-802?from=dy.199908.top
 
+# 在文件末尾添加
+- taxonomy: 友情链接
+  icon: fa-link
+  links:
+    - title: 驼铃电商
+      logo: images/tlslogo1.jpg
+      url: https://www.199908.top
+      description: 驼铃电商导航
+  # 友情链接配置
+  friend:
+    - title: 驼铃电商
+      url: https://www.199908.top
+      description: 驼铃电商导航
+    - title: 驼铃知识库
+      url: https://fbjvryq00y.feishu.cn/docx/doxcnoAkUCQ27nY31F2PU9bTNPW
+      description: 电商知识，从新手到高手
+    - title: 驼铃工具箱
+      url: https://github.com/TLS-802/TLS-Toolbox
+      description: 电商工具集合
+
 --- 
