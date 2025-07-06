@@ -4,7 +4,7 @@
 }
 
 .tab-menu {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-bottom: 1px solid #e4ecf3;
   overflow-x: auto;
   white-space: nowrap;
@@ -44,7 +44,7 @@
 }
 
 .tab-content .row {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* 暗色模式下的样式 */
@@ -85,5 +85,5 @@
 /* 分类之间的间距 */
 .sites-list h4 + .tab-container,
 .sites-list h4 + .row {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 } 

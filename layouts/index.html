@@ -152,7 +152,7 @@
     </div>
     {{ else }}
     <!-- 无标签式二级菜单的普通分类 -->
-    <div class="row" style="margin-top: 20px;">
+    <div class="row" style="margin-top: 10px;">
     {{ range .links }}
         {{ if .qrcode }}
         <!-- 带二维码的网站卡片 -->
@@ -196,7 +196,7 @@
     
     <!-- 友情链接 -->
     {{ if .friend }}
-    <div class="friendlink" style="margin-top: 20px; margin-bottom: 20px;">
+    <div class="friendlink" style="margin-top: 10px; margin-bottom: 10px;">
         <div class="panel">
         {{ range .friend }}            
             <!-- <h4 class="text-gray mb-4"> -->
@@ -209,7 +209,7 @@
     <!-- END 友情链接    -->
     <br />
     <!--END {{ .taxonomy }} -->
-    <div style="margin-bottom: 40px;"></div>
+    <div style="margin-bottom: 20px;"></div>
 {{ end }}
 </div>
             <!-- 页脚 -->
