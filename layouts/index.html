@@ -145,7 +145,7 @@
         <div class="tab-menu">
             {{ $taxonomy := .taxonomy }}
             {{ range $index, $tab := .tabs }}
-            <h4 class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</h4>
+            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
             {{ end }}
         </div>
         
