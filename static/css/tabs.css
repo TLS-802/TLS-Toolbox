@@ -1,4 +1,8 @@
 /* 标签式二级菜单样式 */
+.tab-container {
+  margin-top: 20px;
+}
+
 .tab-menu {
   margin-bottom: 20px;
   border-bottom: 1px solid #e4ecf3;
@@ -39,6 +43,10 @@
   display: block;
 }
 
+.tab-content .row {
+  margin-top: 20px;
+}
+
 /* 暗色模式下的样式 */
 .black .tab-menu {
   border-bottom-color: #3d4044;
@@ -72,4 +80,10 @@
     margin-bottom: 5px;
     font-size: 13px;
   }
+}
+
+/* 分类之间的间距 */
+.sites-list h4 + .tab-container,
+.sites-list h4 + .row {
+  margin-bottom: 40px;
 } 

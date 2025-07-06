@@ -92,7 +92,7 @@
 <div class="sites-list" style="margin-bottom: 8.5rem;">
 {{ range .Site.Data.webstack }}
     <!-- {{ .taxonomy }} -->
-    <h4 class="text-gray" style="display: inline-block;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
+    <h4 class="text-gray" style="display: inline-block; margin-bottom: 20px;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
     
     {{ if .tabs }}
     <!-- 有标签式二级菜单的分类 -->
@@ -152,7 +152,7 @@
     </div>
     {{ else }}
     <!-- 无标签式二级菜单的普通分类 -->
-    <div class="row">
+    <div class="row" style="margin-top: 20px;">
     {{ range .links }}
         {{ if .qrcode }}
         <!-- 带二维码的网站卡片 -->
@@ -196,7 +196,7 @@
     
     <!-- 友情链接 -->
     {{ if .friend }}
-    <div class="friendlink" style="margin-bottom:-40px">
+    <div class="friendlink" style="margin-top: 20px; margin-bottom: 20px;">
         <div class="panel">
         {{ range .friend }}            
             <!-- <h4 class="text-gray mb-4"> -->
@@ -209,6 +209,7 @@
     <!-- END 友情链接    -->
     <br />
     <!--END {{ .taxonomy }} -->
+    <div style="margin-bottom: 40px;"></div>
 {{ end }}
 </div>
             <!-- 页脚 -->
