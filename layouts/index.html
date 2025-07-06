@@ -90,7 +90,7 @@
                             <ul>
                                 {{ range $index, $tab := .tabs }}    
                                 <li>
-                                    <a href="#{{ md5 $taxonomy }}-tab-{{ $index }}" class="smooth">{{ $tab.name }}</a>
+                                    <a href="#{{ md5 $taxonomy }}-{{ md5 $taxonomy }}-tab-{{ $index }}" class="smooth">{{ $tab.name }}</a>
                                 </li>
                                 {{ end }}
                             </ul>
@@ -145,9 +145,14 @@
         <div class="tab-menu">
             {{ $taxonomy := .taxonomy }}
             {{ range $index, $tab := .tabs }}
-            <h4 class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</h4>
+            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
             {{ end }}
         </div>
+        
+        <!-- 锚点容器 - 用于二级菜单跳转时显示一级菜单名称 -->
+        {{ range $index, $tab := .tabs }}
+        <div id="{{ md5 $taxonomy }}-{{ md5 $taxonomy }}-tab-{{ $index }}" style="position: absolute; top: -100px;"></div>
+        {{ end }}
         
         <!-- 标签内容 -->
         {{ range $index, $tab := .tabs }}
@@ -336,15 +341,36 @@
             });
             $(this).parent("li").addClass("active");
             var href = $(this).attr("href");
-            var pos = $(href).position().top - 100;
             
             // 检查是否为二级菜单标签
             if (href.indexOf('-tab-') > -1) {
-                // 立即激活对应标签
-                $(href).click();
+                // 解析href，确定一级菜单和二级菜单的关系
+                var parts = href.split('-');
+                var tabIndex = parts[parts.length - 1];
+                var taxonomyHash = '';
+                
+                // 处理新的锚点格式 (#hash-hash-tab-N)
+                if (parts.length > 3) {
+                    // 新格式：提取一级菜单的hash
+                    taxonomyHash = parts[0].substring(1); // 移除#
+                    
+                    // 找到二级菜单标签元素并激活
+                    var tabSelector = '#' + taxonomyHash + '-tab-' + tabIndex;
+                    $(tabSelector).click();
+                    
+                    // 滚动到一级菜单标题位置
+                    var pos = $('#' + taxonomyHash).position().top - 100;
+                } else {
+                    // 旧格式：直接激活标签
+                    $(href).click();
+                    var pos = $(href).position().top - 100;
+                }
                 
                 // 激活父菜单项
-                $(this).parents('li.has-sub').addClass('expanded active');
+                $(this).parents('li').addClass('expanded active');
+            } else {
+                // 一级菜单：直接滚动到对应位置
+                var pos = $(href).position().top - 100;
             }
             
             $("html,body").animate({
@@ -360,11 +386,20 @@
             
             // 如果哈希值包含-tab-，表示是二级菜单项
             if(hash && hash.indexOf('-tab-') > -1) {
+                var parts = hash.split('-');
+                var hashToFind = hash;
+                
+                // 处理新的锚点格式
+                if(parts.length > 3) {
+                    // 查找对应的侧边栏菜单项
+                    hashToFind = hash;
+                }
+                
                 // 找到对应的菜单项
-                var $menuItem = $('a[href="' + hash + '"]');
+                var $menuItem = $('a[href="' + hashToFind + '"]');
                 if($menuItem.length) {
                     // 展开父菜单
-                    $menuItem.parents('li.has-sub').addClass('expanded active');
+                    $menuItem.parents('li').addClass('expanded active');
                     // 激活当前菜单项
                     $menuItem.parent('li').addClass('active');
                 }
