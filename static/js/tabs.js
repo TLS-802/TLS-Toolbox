@@ -23,4 +23,31 @@ $(document).ready(function() {
   $('.tab-container').each(function() {
     $(this).find('.tab-menu .tab-item:first').click();
   });
+  
+  // 处理来自URL的标签激活请求
+  function activateTabFromHash() {
+    var hash = window.location.hash;
+    if (hash && hash.indexOf('-tab-') > -1) {
+      var tabElement = $(hash);
+      if (tabElement.length) {
+        tabElement.click();
+        
+        // 滚动到正确的位置
+        setTimeout(function() {
+          var pos = tabElement.offset().top - 100;
+          $("html,body").animate({
+            scrollTop: pos
+          }, 300);
+        }, 100);
+      }
+    }
+  }
+  
+  // 初始化时检查URL哈希值
+  activateTabFromHash();
+  
+  // 监听URL哈希变化
+  $(window).on('hashchange', function() {
+    activateTabFromHash();
+  });
 }); 

@@ -25,6 +25,36 @@
 <link rel='stylesheet' id='tabs-css'  href='./css/tabs.css?ver=1.0.0' type='text/css' media='all' />
 <!-- jQuery 库引入 -->
 <script type='text/javascript' src='./js/jquery-1.11.1.min.js'></script>
+<style>
+/* 为侧边栏二级菜单添加样式 */
+.sidebar-menu .main-menu > li > ul {
+  display: none;
+  background: rgba(69, 74, 84, 0.7);
+  padding: 10px 0;
+}
+
+.sidebar-menu .main-menu > li.expanded > ul {
+  display: block;
+}
+
+.sidebar-menu .main-menu > li > ul > li > a {
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+.sidebar-menu .main-menu > li > ul > li.active > a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-menu .main-menu > li > ul > li > a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
 </head>
 <!-- 根据暗黑模式设置添加不同的body类 -->
 <body class="page-body {{ if .Site.Params.darkmode.enable }}black{{ else }}white{{ end }}">
@@ -53,12 +83,28 @@
                 <!-- 主菜单列表 -->
                 <ul id="main-menu" class="main-menu">
                     {{ range .Site.Data.webstack }}
-                    <li>
-                        <a href="#{{ md5 .taxonomy }}" class="smooth">
-                           <i class="fa {{ .icon }} fa-fw"></i>
-                           <span class="title">{{ .taxonomy }}</span>
-                        </a>
-                    </li>                 
+                    {{ if .tabs }}
+                        <li>
+                            <a href="#{{ md5 .taxonomy }}" class="smooth">
+                               <i class="fa {{ .icon }} fa-fw"></i>
+                               <span class="title">{{ .taxonomy }}</span>
+                            </a>
+                            <ul>
+                                {{ range $index, $tab := .tabs }}    
+                                <li>
+                                    <a href="#{{ md5 $.taxonomy }}-tab-{{ $index }}" class="smooth">{{ $tab.name }}</a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    {{ else }}
+                        <li>
+                            <a href="#{{ md5 .taxonomy }}" class="smooth">
+                               <i class="fa {{ .icon }} fa-fw"></i>
+                               <span class="title">{{ .taxonomy }}</span>
+                            </a>
+                        </li>
+                    {{ end }}                 
                     {{ end }}
                 </ul>
                 
@@ -100,7 +146,7 @@
         <!-- 标签菜单 -->
         <div class="tab-menu">
             {{ range $index, $tab := .tabs }}
-            <div class="tab-item" data-tab="{{ $index }}">{{ $tab.name }}</div>
+            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $.taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
             {{ end }}
         </div>
         
@@ -292,11 +338,47 @@
             $(this).parent("li").addClass("active");
             var href = $(this).attr("href");
             var pos = $(href).position().top - 100;
+            
+            // 检查是否为二级菜单标签
+            if (href.indexOf('-tab-') > -1) {
+                // 提取标签索引
+                var tabIndex = href.split('-tab-')[1];
+                
+                // 等待滚动完成后激活对应标签
+                setTimeout(function() {
+                    $(href).click();
+                }, 600);
+                
+                // 激活父菜单项
+                $(this).parents('li.has-sub').addClass('expanded active');
+            }
+            
             $("html,body").animate({
                 scrollTop: pos
             }, 500);
         });
         // 平滑滚动设置 END
+        
+        // 初始化二级菜单
+        function initSubMenus() {
+            // 获取当前URL的哈希值
+            var hash = window.location.hash;
+            
+            // 如果哈希值包含-tab-，表示是二级菜单项
+            if(hash && hash.indexOf('-tab-') > -1) {
+                // 找到对应的菜单项
+                var $menuItem = $('a[href="' + hash + '"]');
+                if($menuItem.length) {
+                    // 展开父菜单
+                    $menuItem.parents('li.has-sub').addClass('expanded active');
+                    // 激活当前菜单项
+                    $menuItem.parent('li').addClass('active');
+                }
+            }
+        }
+        
+        // 页面加载时初始化二级菜单
+        initSubMenus();
     });
 </script>
 <!-- 引入标签式菜单JS -->
