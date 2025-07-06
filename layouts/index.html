@@ -92,7 +92,7 @@
 <div class="sites-list" style="margin-bottom: 8.5rem;">
 {{ range .Site.Data.webstack }}
     <!-- {{ .taxonomy }} -->
-    <h4 class="text-gray" style="display: inline-block;"><i class="fa {{ .icon }}" style="margin-right: 27px;" id="{{ md5 .taxonomy }}"></i>{{ .taxonomy }}</h4>
+    <h4 class="text-gray" style="display: inline-block;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
     
     {{ if .tabs }}
     <!-- 有标签式二级菜单的分类 -->
@@ -282,6 +282,20 @@
         })
         // END 利用iowen API 获取网址icon
         
+        // 平滑滚动设置
+        $("a.smooth").click(function(e) {
+            e.preventDefault();
+            $("#main-menu li").each(function() {
+                $(this).removeClass("active");
+            });
+            $(this).parent("li").addClass("active");
+            var href = $(this).attr("href");
+            var pos = $(href).position().top - 100;
+            $("html,body").animate({
+                scrollTop: pos
+            }, 500);
+        });
+        // 平滑滚动设置 END
     });
 </script>
 <!-- 引入标签式菜单JS -->
