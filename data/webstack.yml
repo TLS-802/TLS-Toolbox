@@ -1469,34 +1469,7 @@
           logo: images/icon font/dafont.png
           description: 提供大量可免费下载的字体资源
 
-- taxonomy: 联系我们
-  icon: fa-photo-video
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 微信客服
-    - term: 抖音客服
-    - term: 飞书客服
-    - term: 开源仓库
-  tabs:
-    - name: 微信客服
-      links:
-        - title: 微信客服
-          logo: images/TLS/Wechat.jpg
-          url: https://www.nodeimage.com/i/32451/KTcD1Tnp3WNR5XeGsc0yd3nSh4bLOEOx.png?from=dy.199908.top
-    - name: 抖音客服
-      links:
-        - title: 抖音客服
-          logo: images/TLS/douyin.jpg
-          url: https://v.douyin.com/OHq9e7844u8?from=dy.199908.top
-    - name: 飞书客服
-      links:
-        - title: 飞书客服
-          logo: images/TLS/feishu.jpg
-          url: https://www.nodeimage.com/i/32451/WqUooZnM3WNR5WkCsc0yRs9SO94tsAHz.png?from=dy.199908.top
-    - name: 开源仓库
-      links:
-        - title: Github
-          logo: images/TLS/github.jpg
-          url: https://github.com/TLS-802?from=dy.199908.top
+
 
 - taxonomy: 跨境电商
   icon: fa-globe
