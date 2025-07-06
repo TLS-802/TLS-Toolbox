@@ -135,7 +135,7 @@
 <!-- 搜索模板引入 -->
 {{ template "search.html" . }}
 <!-- 网站列表展示区域 -->
-<div class="sites-list" style="margin-bottom: 8.5rem;">
+<div class="sites-list" style="margin-bottom: 2.5rem;">
 {{ range .Site.Data.webstack }}
     <!-- {{ .taxonomy }} -->
     <h4 class="text-gray" style="display: inline-block; margin-bottom: 20px;" id="{{ md5 .taxonomy }}"><i class="fa {{ .icon }}" style="margin-right: 27px;"></i>{{ .taxonomy }}</h4>
@@ -256,7 +256,6 @@
     <!-- END 友情链接    -->
     <br />
     <!--END {{ .taxonomy }} -->
-    <div style="margin-bottom: 20px;"></div>
 {{ end }}
 </div>
             <!-- 页脚 -->
