@@ -449,118 +449,121 @@ var sm_duration = .2,
 	sm_transition_delay = 150;
 function setup_sidebar_menu()
 {
-	if(public_vars.$sidebarMenu.length)
+	var $ = jQuery;
+	var $items_with_submenu = public_vars.$sidebarMenu.find('li:has(> ul)');
+	var $items_with_tab_link = public_vars.$sidebarMenu.find('li:has(> a[href*="-tab-"])');
+	
+	// 初始化时为带有子菜单的项目添加has-sub类
+	$items_with_submenu.addClass('has-sub');
+	
+	// 绑定点击事件给有子菜单的菜单项
+	$items_with_submenu.filter('.has-sub').each(function(i, el)
 	{
-		var $items_with_subs = public_vars.$sidebarMenu.find('li:has(> ul)'),
-			toggle_others = public_vars.$sidebarMenu.hasClass('toggle-others');
-		$items_with_subs.filter('.active').addClass('expanded');
-		// On larger screens collapse sidebar when the window is tablet screen
-		if(is('largescreen') && public_vars.$sidebarMenu.hasClass('collapsed') == false)
+		var $li = $(el),
+			$a = $li.children('a'),
+			$sub = $li.children('ul');
+		
+		$a.on('click', function(ev)
 		{
-			$(window).on('resize', function()
+			ev.preventDefault();
+			
+			if(isxs())
 			{
-				if(is('tabletscreen'))
-				{
-					public_vars.$sidebarMenu.addClass('collapsed');
-					ps_destroy();
-				}
-				else
-				if(is('largescreen'))
-				{
-					public_vars.$sidebarMenu.removeClass('collapsed');
-					ps_init();
-				}
-			});
-		}
-		$items_with_subs.each(function(i, el)
-		{
-			var $li = jQuery(el),
-				$a = $li.children('a'),
-				$sub = $li.children('ul');
-			$li.addClass('has-sub');
-			$a.on('click', function(ev)
-			{
-				ev.preventDefault();
-				if(toggle_others)
-				{
-					sidebar_menu_close_items_siblings($li);
-				}
+				// 如果是移动设备，则切换菜单显示/隐藏状态
 				if($li.hasClass('expanded') || $li.hasClass('opened'))
 					sidebar_menu_item_collapse($li, $sub);
 				else
 					sidebar_menu_item_expand($li, $sub);
-			});
+			}
+			else
+			{
+				// 如果是桌面设备，则切换菜单展开/折叠状态
+				if($li.hasClass('expanded'))
+				{
+					sidebar_menu_item_collapse($li, $sub);
+				}
+				else
+				{
+					// 对于桌面设备，收起其他已展开菜单
+					sidebar_menu_close_items_siblings($li);
+					
+					sidebar_menu_item_expand($li, $sub);
+				}
+			}
 		});
-	}
-}
-function sidebar_menu_item_expand($li, $sub)
-{
-	if($li.data('is-busy') || ($li.parent('.main-menu').length && public_vars.$sidebarMenu.hasClass('collapsed')))
-		return;
-	$li.addClass('expanded').data('is-busy', true);
-	$sub.show();
-	var $sub_items 	  = $sub.children(),
-		sub_height	= $sub.outerHeight(),
-		win_y			 = jQuery(window).height(),
-		total_height	  = $li.outerHeight(),
-		current_y		 = public_vars.$sidebarMenu.scrollTop(),
-		item_max_y		= $li.position().top + current_y,
-		fit_to_viewpport  = public_vars.$sidebarMenu.hasClass('fit-in-viewport');
-	$sub_items.addClass('is-hidden');
-	$sub.height(0);
-	TweenMax.to($sub, sm_duration, {css: {height: sub_height}, onUpdate: ps_update, onComplete: function(){
-		$sub.height('');
-	}});
-	var interval_1 = $li.data('sub_i_1'),
-		interval_2 = $li.data('sub_i_2');
-	window.clearTimeout(interval_1);
-	interval_1 = setTimeout(function()
-	{
-		$sub_items.each(function(i, el)
+		
+		// 判断是否应该默认展开子菜单
+		// 检查当前URL的哈希值是否与该菜单项下的子菜单项匹配
+		if(should_expand_sub_menu($li))
 		{
-			var $sub_item = jQuery(el);
-			$sub_item.addClass('is-shown');
-		});
-		var finish_on = sm_transition_delay * $sub_items.length,
-			t_duration = parseFloat($sub_items.eq(0).css('transition-duration')),
-			t_delay = parseFloat($sub_items.last().css('transition-delay'));
-		if(t_duration && t_delay)
-		{
-			finish_on = (t_duration + t_delay) * 1000;
+			sidebar_menu_item_expand($li, $sub, false);
 		}
-		// In the end
-		window.clearTimeout(interval_2);
-		interval_2 = setTimeout(function()
-		{
-			$sub_items.removeClass('is-hidden is-shown');
-		}, finish_on);
-		$li.data('is-busy', false);
-	}, 0);
-	$li.data('sub_i_1', interval_1),
-	$li.data('sub_i_2', interval_2);
+	});
 }
+
+// 判断是否应该展开子菜单
+function should_expand_sub_menu($li)
+{
+	var $ = jQuery;
+	var hash = window.location.hash;
+	
+	// 如果URL中没有哈希值，无需展开
+	if(!hash) return false;
+	
+	// 检查子菜单项中是否有匹配当前哈希值的链接
+	var $sub_items = $li.find('> ul > li > a');
+	var has_hash_link = false;
+	
+	$sub_items.each(function()
+	{
+		var href = $(this).attr('href');
+		
+		// 检查是否匹配当前哈希，或者匹配新的锚点格式
+		if(href === hash || (hash.indexOf('-tab-') > -1 && href.indexOf(hash.split('-')[0]) > -1))
+		{
+			has_hash_link = true;
+			return false; // 跳出循环
+		}
+	});
+	
+	return has_hash_link;
+}
+
+function sidebar_menu_item_expand($li, $sub, $args)
+{
+	var $ = jQuery;
+	
+	if($li.data('is-busy') || $li.hasClass('expanded'))
+		return;
+		
+	$li.addClass('expanded').data('is-busy', true);
+	
+	$sub.show();
+	
+	$li.data('is-busy', false);
+}
+
 function sidebar_menu_item_collapse($li, $sub)
 {
-	if($li.data('is-busy'))
+	var $ = jQuery;
+	
+	if($li.data('is-busy') || $li.hasClass('expanded') == false)
 		return;
-	var $sub_items = $sub.children();
+	
 	$li.removeClass('expanded').data('is-busy', true);
-	$sub_items.addClass('hidden-item');
-	TweenMax.to($sub, sm_duration, {css: {height: 0}, onUpdate: ps_update, onComplete: function()
-	{
-		$li.data('is-busy', false).removeClass('opened');
-		$sub.attr('style', '').hide();
-		$sub_items.removeClass('hidden-item');
-		$li.find('li.expanded ul').attr('style', '').hide().parent().removeClass('expanded');
-		ps_update(true);
-	}});
+	
+	$sub.hide();
+	
+	$li.data('is-busy', false);
 }
+
 function sidebar_menu_close_items_siblings($li)
 {
-	$li.siblings().not($li).filter('.expanded, .opened').each(function(i, el)
+	$li.siblings().not($li).filter('.expanded').each(function(i, el)
 	{
 		var $_li = jQuery(el),
 			$_sub = $_li.children('ul');
+		
 		sidebar_menu_item_collapse($_li, $_sub);
 	});
 }

@@ -145,7 +145,7 @@
         <div class="tab-menu">
             {{ $taxonomy := .taxonomy }}
             {{ range $index, $tab := .tabs }}
-            <div class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</div>
+            <h4 class="tab-item" data-tab="{{ $index }}" id="{{ md5 $taxonomy }}-tab-{{ $index }}">{{ $tab.name }}</h4>
             {{ end }}
         </div>
         
@@ -349,7 +349,7 @@
             
             $("html,body").animate({
                 scrollTop: pos
-            }, 300); // 减少动画时间，提高响应速度
+            }, 200); // 减少动画时间，提高响应速度
         });
         // 平滑滚动设置 END
         
