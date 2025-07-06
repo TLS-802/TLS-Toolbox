@@ -1,10 +1,10 @@
 /* 标签式二级菜单样式 */
 .tab-container {
-  margin-top: 15px;
+  /* 间距由custom-spacing.css控制 */
 }
 
 .tab-menu {
-  margin-bottom: 15px;
+  /* 间距由custom-spacing.css控制 */
   border-bottom: 1px solid #e4ecf3;
   overflow-x: auto;
   white-space: nowrap;
@@ -48,7 +48,7 @@
 }
 
 .tab-content .row {
-  margin-top: 15px;
+  /* 间距由custom-spacing.css控制 */
 }
 
 /* 暗色模式下的样式 */
@@ -86,8 +86,4 @@
   }
 }
 
-/* 分类之间的间距 */
-.sites-list h4 + .tab-container,
-.sites-list h4 + .row {
-  margin-bottom: 15px;
-} 
+/* 分类之间的间距由custom-spacing.css控制 */ 
