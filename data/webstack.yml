@@ -4,39 +4,39 @@
   icon: fa-tools
   links: 
         - title: 驼铃电商知识库
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://fbjvryq00y.feishu.cn/docx/doxcnoAkUCQ27nY31F2PU9bTNPW?from=dy.199908.top
           description: 电商知识，从新手到高手
         - title: 驼铃电商黑科技
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: sub1?from=dy.199908.top
           description: 品退、差评方法等等
         - title: 驼铃电商礼品网
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://tb.88daifa.com?from=dy.199908.top
           description: 优质礼品资源，满足需求
         - title: 驼铃补单计算器
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: pages/budan.html?from=dy.199908.top
           description: 计算补单数量，提升指标
         - title: 驼铃千川计算器
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: pages/roi.html?from=dy.199908.top
           description: 计算出价，提升投放效果
         - title: 驼铃直播中控工具
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/K7zIfP4IOlI5PxdberKcNgqOnCc?from=dy.199908.top
           description: 自动弹窗、自动发言等
         - title: 直播间录制工具
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
           description: 批量录制、自动转码等
         - title: AuTox视频搬运
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/LeM2f5tuZlbF3GdeKV9cYqGlnke?from=dy.199908.top
           description: 视频一键搬运发布
         - title: TuolingTV - 观影
-          logo: images/tlslogo1.jpg
+          logo: images/驼铃标志1.jpg
           url: https://tv1.199908.top/
           description: 免费影视资源，无需注册
 
@@ -57,15 +57,15 @@
     - name: 淘宝
       links:
         - title: 淘宝入驻
-          logo: images/Store settled in/taobao.png
+          logo: images/快捷导航/淘宝.png
           url: https://ishop.taobao.com/openshop/tb_open_shop_landing.htm?from=dy.199908.top
           description: 淘宝店铺入驻
         - title: 千牛工作台
-          logo: images/Merchant background/qianniu.jpg
+          logo: images/电商辅助/千牛工作台.jpg
           url: https://loginmyseller.taobao.com/
           description: 淘宝天猫商家工具
         - title: 阿里妈妈创意中心
-          logo: images/E-commerce plug-in/taobaogongju.png
+          logo: images/电商辅助/阿里妈妈创意中心.png
           url: https://chuangyi.taobao.com?from=dy.199908.top
           description: 阿里妈妈创意资源中心
         - title: 淘宝知识产权保护
@@ -77,869 +77,869 @@
           url: https://daxue.taobao.com?from=dy.199908.top
           description: 淘宝电商学习平台
         - title: 淘宝开放平台
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://open.taobao.com?from=dy.199908.top
           description: 淘宝开放平台
         - title: 淘宝直播
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://taobaolive.taobao.com?from=dy.199908.top
           description: 淘宝直播平台
         - title: 淘宝营销中心
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://yingxiao.taobao.com?from=dy.199908.top
           description: 淘宝营销中心
         - title: 阿里云
-          logo: images/E-commerce plug-in/aliyun.png
+          logo: images/电商辅助/aliyun.png
           url: https://www.aliyun.com?from=dy.199908.top
           description: 阿里云计算服务平台
         - title: 闲鱼
-          logo: images/E-commerce plug-in/xianyu.png
+          logo: images/电商辅助/xianyu.png
           url: https://2.taobao.com?from=dy.199908.top
           description: 闲置物品交易平台
         - title: 聚划算
-          logo: images/E-commerce plug-in/juhuasuan.png
+          logo: images/电商辅助/juhuasuan.png
           url: https://ju.taobao.com?from=dy.199908.top
           description: 淘宝聚划算特价活动平台
         - title: 天猫超市
-          logo: images/E-commerce plug-in/tmall.png
+          logo: images/电商辅助/tmall.png
           url: https://chaoshi.tmall.com?from=dy.199908.top
           description: 天猫超市线上购物平台
         - title: 天猫国际
-          logo: images/E-commerce plug-in/tmall.png
+          logo: images/电商辅助/tmall.png
           url: https://www.tmall.hk?from=dy.199908.top
           description: 天猫国际跨境电商平台
         - title: 淘宝物流
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://wuliu.taobao.com?from=dy.199908.top
           description: 淘宝物流服务平台
         - title: 淘宝客服
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://service.taobao.com?from=dy.199908.top
           description: 淘宝客户服务平台
         - title: 淘宝规则中心
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://rule.taobao.com?from=dy.199908.top
           description: 淘宝规则中心平台
         - title: 淘宝商家服务市场
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://fuwu.taobao.com?from=dy.199908.top
           description: 淘宝商家服务市场
         - title: 淘宝商家工具
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://e.taobao.com?from=dy.199908.top
           description: 淘宝商家工具平台
         - title: 淘宝卖家中心
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://myseller.taobao.com?from=dy.199908.top
           description: 淘宝卖家中心平台
         - title: 淘宝退款维权
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://refund.taobao.com?from=dy.199908.top
           description: 淘宝退款维权平台
         - title: 淘宝收藏夹
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://shoucang.taobao.com?from=dy.199908.top
           description: 淘宝收藏夹平台
         - title: 淘宝论坛
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://bbs.taobao.com?from=dy.199908.top
           description: 淘宝论坛交流平台
         - title: 淘宝众筹
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://izhongchou.taobao.com?from=dy.199908.top
           description: 淘宝众筹平台
         - title: 淘宝全球购
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://g.taobao.com?from=dy.199908.top
           description: 淘宝全球购平台
         - title: 淘宝村
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://china.taobao.com?from=dy.199908.top
           description: 淘宝村电商平台
         - title: 淘宝头条
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://headline.taobao.com?from=dy.199908.top
           description: 淘宝头条资讯平台
         - title: 淘宝旅行
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://trip.taobao.com?from=dy.199908.top
           description: 淘宝旅行服务平台
         - title: 淘宝同学
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://tongxue.taobao.com?from=dy.199908.top
           description: 淘宝同学教育平台
         - title: 悉犀客服
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://xixi.e.taobao.com?from=dy.199908.top
           description: 淘宝智能客服平台
         - title: 阿里健康
-          logo: images/E-commerce plug-in/alihealth.png
+          logo: images/电商辅助/alihealth.png
           url: https://yao.tmall.com?from=dy.199908.top
           description: 阿里巴巴医药健康平台
         - title: 天猫供销平台
-          logo: images/E-commerce plug-in/tmall.png
+          logo: images/电商辅助/tmall.png
           url: https://gongxiao.tmall.com?from=dy.199908.top
           description: 天猫供销平台
         - title: 淘工厂
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://gongchang.taobao.com?from=dy.199908.top
           description: 淘宝工厂直供平台
         - title: 热浪引擎
-          logo: images/E-commerce plug-in/taobao.png
+          logo: images/电商辅助/淘宝.png
           url: https://market.m.taobao.com/app/tb-source-app/shop-auction/pages/auction?from=dy.199908.top
           description: 淘宝热门商品推荐引擎
         - title: 什么值得买
-          logo: images/E-commerce plug-in/smzdm.jpg
+          logo: images/电商辅助/smzdm.jpg
           url: https://www.smzdm.com?from=dy.199908.top
           description: 购物分享平台
     - name: 抖音
       links:
         - title: 抖音小店
-          logo: images/Store settled in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://fxg.jinritemai.com/?source=ddgwdlymzxjsjrz
           description: 抖音小店入驻
         - title: 抖店工作台
-          logo: images/Merchant background/doudian1.png
+          logo: images/电商辅助/抖店.png
           url: https://im.jinritemai.com?from=dy.199908.top
           description: 抖音商家工具
         - title: DOU+
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://doujia.douyin.com?from=dy.199908.top
           description: 抖音流量推广工具
         - title: 创作者服务中心
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://creator.douyin.com?from=dy.199908.top
           description: 抖音创作者服务平台
         - title: 抖音来客
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://laike.douyin.com?from=dy.199908.top
           description: 抖音营销数据分析工具
         - title: 电商服务市场
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://fuwu.jinritemai.com?from=dy.199908.top
           description: 抖音电商服务市场平台
         - title: 供应链服务
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://supply.jinritemai.com?from=dy.199908.top
           description: 抖音电商供应链服务平台
         - title: 抖音电商罗盘
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://compass.jinritemai.com?from=dy.199908.top
           description: 抖音电商数据分析平台
         - title: 精选联盟
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://www.douyinec.com?from=dy.199908.top
           description: 抖音精选联盟推广平台
         - title: 抖音企业号
-          logo: images/Merchant background/douyinqiyehao.png
+          logo: images/电商辅助/抖音企业号.png
           url: https://e.douyin.com?from=dy.199908.top
           description: 抖音企业号数据管理
         - title: 抖音知识产权保护
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://ippro.bytedance.com?from=dy.199908.top
           description: 抖音电商原创保护平台
         - title: 巨量创意
-          logo: images/E-commerce plug-in/juliangchuangyi.png
+          logo: images/电商辅助/巨量创意.png
           url: https://cc.oceanengine.com?from=dy.199908.top
           description: 激发创意灵感
         - title: 抖音直播伴侣
-          logo: images/Live broadcast software/douyinzhibobanlv.jpg
+          logo: images/电商辅助/抖音直播伴侣.jpg
           url: https://streamingtool.douyin.com?from=dy.199908.top
           description: 抖音、火山官方直播工具
         - title: 巨量引擎
-          logo: images/Advertising/juliangyinqing.png
+          logo: images/广告投放/巨量引擎.png
           url: https://www.oceanengine.com?from=dy.199908.top
           description: 抖音所有类型广告
         - title: 巨量千川
-          logo: images/Advertising/juliangqianchuan.png
+          logo: images/广告投放/巨量千川.png
           url: https://qianchuan.jinritemai.com?from=dy.199908.top
           description: 抖音广告投放平台
         - title: 巨量星图
-          logo: images/Advertising/juliangxingtu.png
+          logo: images/广告投放/巨量引擎.png
           url: https://xingtu.jinritemai.com?from=dy.199908.top
           description: 抖音星图
         - title: 巨量算数
-          logo: images/Data analysis/juliangsuanshu.svg
+          logo: images/数据分析/巨量算数.svg
           url: https://trendinsight.oceanengine.com?from=dy.199908.top
           description: 抖音官方大数据平台
         - title: 抖音官方选品工具
-          logo: images/Data analysis/douyin.jpg
+          logo: images/数据分析/抖音官方选品工具.jpg
           url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
           description: 抖音官方选品工具
     - name: 京东
       links:
         - title: 京麦工作台
-          logo: images/Merchant background/jingmai.jpg
+          logo: images/电商辅助/京麦工作台.jpg
           url: https://passport.shop.jd.com/login/index.action/jdm
           description: 京东商家工具
         - title: 京东入驻
-          logo: images/Store settled in/jingdong.png
+          logo: images/快捷导航/京东.png
           url: https://zhaoshang.jd.com/index/home?from=dy.199908.top
           description: 京东入驻
         - title: 京东知识产权保护
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jdgroupip.com?from=dy.199908.top
           description: 京东知识产权保护平台
         - title: 京东直播
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jdlive.jd.com?from=dy.199908.top
           description: 京东直播平台
         - title: 京东物流
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://wl.jdl.com?from=dy.199908.top
           description: 京东物流服务平台
         - title: 京东金融
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jr.jd.com?from=dy.199908.top
           description: 京东金融服务平台
         - title: 京东联盟
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://union.jd.com?from=dy.199908.top
           description: 京东联盟推广平台
         - title: 京东秒杀
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://miaosha.jd.com?from=dy.199908.top
           description: 京东秒杀活动平台
         - title: 京东到家
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://daojia.jd.com?from=dy.199908.top
           description: 京东到家服务平台
         - title: 京东智联云
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://www.jdcloud.com?from=dy.199908.top
           description: 京东智联云服务平台
         - title: 京东商城
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://www.jd.com?from=dy.199908.top
           description: 京东商城主站
         - title: 京东品牌
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://brand.jd.com?from=dy.199908.top
           description: 京东品牌服务平台
         - title: 京东国际
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://www.jd.hk?from=dy.199908.top
           description: 京东国际跨境电商平台
         - title: 京东企业购
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://b.jd.com?from=dy.199908.top
           description: 京东企业采购平台
         - title: 京东商智
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://sz.jd.com?from=dy.199908.top
           description: 京东商业智能分析平台
         - title: 京准通
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jzt.jd.com?from=dy.199908.top
           description: 京东营销推广平台
         - title: 京准通站外广告
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jzt.jd.com/gw/jdzt?from=dy.199908.top
           description: 京准通站外广告平台
         - title: 京挑客
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://jzt.jd.com/gw/jtkhome?from=dy.199908.top
           description: 京东挑客推广平台
         - title: 京东商智管理平台
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://ppzh.jd.com?from=dy.199908.top
           description: 京东商智管理平台
         - title: 京代理
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://agency.jd.com/gw/index?from=dy.199908.top
           description: 京东代理平台
         - title: 羚珑作图
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://ling.jd.com?from=dy.199908.top
           description: 玲珑作图
         - title: 京东商家学习中心
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: https://xue.jd.com?from=dy.199908.top
           description: 京东商家学习中心
         - title: 京品库
-          logo: images/E-commerce plug-in/jingdong.png
+          logo: images/电商辅助/京东.png
           url: http://www.jingpinku.com?from=dy.199908.top
           description: 京品库
     - name: 快手
       links:
         - title: 快手商家工作台
-          logo: images/Merchant background/kuiayu.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://login.kwaixiaodian.com?from=dy.199908.top
           description: 快手商家工具
         - title: 快手小店
-          logo: images/Store settled in/kuaishou.jpg
+          logo: images/快捷导航/快手.jpg
           url: https://www.kwaixiaodian.com?from=dy.199908.top
           description: 快手小店入驻
         - title: 快手创作者服务中心
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://creator.kuaishou.com?from=dy.199908.top
           description: 快手创作者服务平台
         - title: 快手联盟
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://u.kuaishou.com?from=dy.199908.top
           description: 快手联盟推广平台
         - title: 分销达人
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://cps.kwaixiaodian.com/pc/promoter/selection-center/home?from=dy.199908.top
           description: 快手分销达人
         - title: 快手云剪
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: http://onvideo.kuaishou.com/v2/profile?from=dy.199908.top
           description: 快手云剪辑
         - title: 快手电商大学
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://edu.kwaixiaodian.com?from=dy.199908.top
           description: 快手电商学习平台
         - title: 快手魔力推
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://molitui.kuaishou.com?from=dy.199908.top
           description: 快手营销推广工具
         - title: 快手开放平台
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://open.kuaishou.com?from=dy.199908.top
           description: 快手开发者服务平台
         - title: 快手金牌推广
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://jinpai.kuaishou.com?from=dy.199908.top
           description: 快手金牌推广服务
         - title: 快手魔筷
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://mokua.kuaishou.com?from=dy.199908.top
           description: 快手电商数据分析工具
         - title: 快影
-          logo: images/E-commerce plug-in/kwaiying.png
+          logo: images/电商辅助/kwaiying.png
           url: https://h5.kwaiying.com?from=dy.199908.top
           description: 快手官方视频剪辑工具
         - title: 快手知识产权保护
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://ipp.kuaishou.com?from=dy.199908.top
           description: 快手电商原创保护平台
         - title: 快手直播伴侣
-          logo: images/Live broadcast software/kuaishouzhibobanlv.png
+          logo: images/电商辅助/快手直播伴侣.png
           url: https://live.kuaishou.com/live-partner?from=dy.199908.top
           description: 快手平台直播软件
         - title: 磁力引擎
-          logo: images/Advertising/ciliyinqing.png
+          logo: images/广告投放/磁力引擎.png
           url: https://e.kuaishou.com?from=dy.199908.top
           description: 快手开屏、信息流、粉条
         - title: 磁力智投
-          logo: images/Advertising/cilizhitou.png
+          logo: images/广告投放/磁力智投.png
           url: https://ad.e.kuaishou.com?from=dy.199908.top
           description: 快手广告投放平台
         - title: 磁力方舟
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://fangzhou.e.kuaishou.com/?from=dy.199908.top
           description: 快手磁力方舟
         - title: 磁力金牛
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://niu.e.kuaishou.com/welcome?from=dy.199908.top
           description: 快手磁力金牛
         - title: 磁力星图
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://xingtu.e.kuaishou.com/?from=dy.199908.top
           description: 快手磁力星图
         - title: 磁力万象
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://wanxiang.e.kuaishou.com/?from=dy.199908.top
           description: 快手磁力万象
         - title: 灰豚数据-快手
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://ks.huitun.com?from=dy.199908.top
           description: 灰豚数据快手版
     - name: 小红书
       links:
         - title: 千帆工作台
-          logo: images/Merchant background/xhs sahngjia.jpg
+          logo: images/电商辅助/千帆工作台.jpg
           url: https://customer.xiaohongshu.com/login?service=https://ark.xiaohongshu.com/app-system/home?from=dy.199908.top
           description: 小红书商家工具
         - title: 小红书知识产权保护
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://ipp.xiaohongshu.com?from=dy.199908.top
           description: 小红书原创保护平台
         - title: 小红书店铺
-          logo: images/Store settled in/xiaohongshu.jpg
+          logo: images/快捷导航/小红书.jpg
           url: https://ark.xiaohongshu.com/merchant/login?from=dy.199908.top
           description: 小红书商家入驻
         - title: 小红书直播助手
-          logo: images/Live broadcast software/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
           description: 小红书电脑直播助手
         - title: 小红书创作者中心
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://creator.xiaohongshu.com?from=dy.199908.top
           description: 小红书创作者服务平台
         - title: 小红书品牌合作
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://business.xiaohongshu.com?from=dy.199908.top
           description: 小红书品牌商业合作平台
         - title: 小红书专业号
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://pro.xiaohongshu.com?from=dy.199908.top
           description: 小红书专业号平台
         - title: 小红书企业号
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://business.xiaohongshu.com/enterprise?from=dy.199908.top
           description: 小红书企业号服务平台
         - title: 小红书电商学院
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://school.xiaohongshu.com?from=dy.199908.top
           description: 小红书电商学习平台
         - title: 小红书创作学院
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://creator.xiaohongshu.com/academy?from=dy.199908.top
           description: 小红书创作者学习平台
         - title: 小红书种草学院
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://xue.xiaohongshu.com?from=dy.199908.top
           description: 小红书种草内容创作平台
         - title: 小红书蒲公英
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://influencer.xiaohongshu.com?from=dy.199908.top
           description: 小红书达人合作平台
         - title: 小红书合作伙伴
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://business.xiaohongshu.com?from=dy.199908.top
           description: 小红书品牌商业合作平台
         - title: 小红书直播
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://www.xiaohongshu.com/zhibo?from=dy.199908.top
           description: 小红书直播平台
         - title: 聚光平台
-          logo: images/Advertising/juguang.jpg
+          logo: images/广告投放/聚光.jpg
           url: https://ad.xiaohongshu.com?from=dy.199908.top
           description: 小红书广告投放平台
         - title: 郑和数据
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://zhenghedata.com/dashboard?from=dy.199908.top
           description: 郑和数据小红书版
         - title: 灰豚数据-小红书
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://xhs.huitun.com?from=dy.199908.top
           description: 灰豚数据小红书版
     - name: 视频号
       links:
         - title: 视频号后台
-          logo: images/Merchant background/shipinhao.jpg
+          logo: images/快捷导航/视频号.jpg
           url: https://store.weixin.qq.com?from=dy.199908.top
           description: 视频号商家后台
         - title: 视频号入驻
-          logo: images/Store settled in/shipinhao.jpg
+          logo: images/快捷导航/视频号.jpg
           url: https://channels.weixin.qq.com/shop?from=dy.199908.top
           description: 视频号小店入驻
         - title: 视频号助手
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com?from=dy.199908.top
           description: 视频号PC端后台管理工具
         - title: 视频号直播助手
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/platform/live?from=dy.199908.top
           description: 视频号直播管理工具
         - title: 视频号营销中心
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/platform/marketing?from=dy.199908.top
           description: 视频号营销推广平台
         - title: 视频号学习中心
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/shop/learning-center?from=dy.199908.top
           description: 视频号学习中心
         - title: 视频号橱窗
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/platform/shop?from=dy.199908.top
           description: 视频号商品橱窗管理
         - title: 视频号创作者服务中心
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/platform/creator?from=dy.199908.top
           description: 视频号创作者服务平台
         - title: 视频号优选联盟
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/platform/union?from=dy.199908.top
           description: 视频号商家与达人撮合平台
         - title: 视频号电商罗盘
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/compass/home?from=dy.199908.top
           description: 视频号电商罗盘
         - title: 视频号加热平台
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://channels.weixin.qq.com/promote?from=dy.199908.top
           description: 视频号加热平台
         - title: 视频号公众平台
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://mp.weixin.qq.com?from=dy.199908.top
           description: 视频号公众平台
         - title: 腾讯adq广告
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://e.qq.com/ads?from=dy.199908.top
           description: 腾讯adq广告投放平台
         - title: 腾讯广告
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://ad.qq.com/worktable?from=dy.199908.top
           description: 腾讯广告工作台
         - title: 腾讯广告互选平台
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://huxuan.qq.com/trade/free/index?from=dy.199908.top
           description: 腾讯广告互选平台
         - title: 诸葛智投
-          logo: images/Advertising/zhugezhitou.png
+          logo: images/广告投放/诸葛智投.png
           url: https://zgzt.v-ma.com?from=dy.199908.top
           description: 视频号投放管理工具
         - title: 微商相册
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://www.szwego.com?from=dy.199908.top
           description: 微商相册
         - title: 微信支付
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://pay.weixin.qq.com?from=dy.199908.top
           description: 微信支付
         - title: 腾讯内容开发平台
-          logo: images/E-commerce plug-in/shipinhao.jpg
+          logo: images/电商辅助/视频号.jpg
           url: https://om.qq.com/userAuth/index?from=dy.199908.top
           description: 腾讯内容开发平台
     - name: 拼多多
       links:
         - title: 拼多多后台
-          logo: images/Merchant background/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://mms.pinduoduo.com/other/downloadapp?from=dy.199908.top
           description: 拼多多商家工具
         - title: 拼多多入驻
-          logo: images/Store settled in/pinduoduo.jpg
+          logo: images/快捷导航/拼多多.jpg
           url: https://ims.pinduoduo.com?from=dy.199908.top
           description: 拼多多入驻
         - title: 拼多多知识产权保护
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://ipp.pinduoduo.com?from=dy.199908.top
           description: 拼多多原创保护平台
         - title: 多多大学
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://mms.pinduoduo.com/daxue/home?from=dy.199908.top
           description: 拼多多电商学习平台
         - title: 多多打单
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://mms.pinduoduo.com/logistics/waybill?from=dy.199908.top
           description: 拼多多订单打印发货工具
         - title: 营销书院
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://shuyuan.pinduoduo.com?from=dy.199908.top
           description: 拼多多营销推广学习平台
         - title: 品牌入驻
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://brand.pinduoduo.com?from=dy.199908.top
           description: 拼多多品牌商家入驻平台
         - title: 多多狼
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://duoduolang.com?from=dy.199908.top
           description: 拼多多数据分析工具
         - title: 多多直播
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://live.pinduoduo.com?from=dy.199908.top
           description: 拼多多直播工具
         - title: 多多进宝
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://jinbao.pinduoduo.com?from=dy.199908.top
           description: 拼多多进宝工具
         - title: 多多情报通
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://qbt.pinduoduo.com?from=dy.199908.top
           description: 拼多多数据分析工具
         - title: 多多客
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://ke.pinduoduo.com?from=dy.199908.top
           description: 拼多多客工具
         - title: TEMU跨境
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://seller.kuajingmaihuo.com?from=dy.199908.top
           description: TEMU跨境电商
     - name: 1688
       links:
         - title: 1688
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://www.1688.com
           description: 1688货源平台
         - title: 1688商家工作台
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://work.1688.com?from=dy.199908.top
           description: 1688商家后台管理系统
         - title: 1688学习中心
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://peixun.1688.com?from=dy.199908.top
           description: 1688学习中心
         - title: 1688实力商家认证
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://isupplier.1688.com?from=dy.199908.top
           description: 1688商家实力认证平台
         - title: 1688诚信通
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://cxt.1688.com?from=dy.199908.top
           description: 阿里巴巴诚信通会员服务
         - title: 1688供应商管理
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://gys.1688.com?from=dy.199908.top
           description: 1688供应商管理平台
         - title: 1688商人社区
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://club.1688.com?from=dy.199908.top
           description: 1688商家交流社区
         - title: 1688批发市场
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://pifa.1688.com?from=dy.199908.top
           description: 1688线上批发市场
         - title: 1688商机助理
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://fuwu.1688.com/promotion/shangjizhuli/2017/index.html?from=dy.199908.top
           description: 1688商机助理
         - title: 1688低价货源
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://air.1688.com/app/channel-fe/search/index.html?from=dy.199908.top
           description: 1688低价货源
         - title: 1688生意参谋
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://sycm.1688.com?from=dy.199908.top
           description: 1688生意参谋
         - title: 1688服务市场
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://app.1688.com?from=dy.199908.top
           description: 1688服务市场
     - name: 跨境
       links:
         - title: 亚马逊Amazon
-          logo: images/Store settled in/amazon.png
+          logo: images/快捷导航/亚马逊.png
           url: https://www.amazon.com?from=dy.199908.top
           description: 全球最大的电商平台之一，属于亚马逊公司旗下的跨境电商平台。
-        - title: 阿里国际站
-          logo: images/Store settled in/alibaba.png
+                  - title: 阿里国际站
+          logo: images/电商辅助/阿里巴巴.png
           url: https://www.alibaba.com?from=dy.199908.top
           description: 阿里巴巴旗下的跨境电商平台，属于阿里巴巴集团旗下的跨境电商平台。
-        - title: 阿里国际站卖家后台
-          logo: images/Store settled in/alibaba.png
+                  - title: 阿里国际站卖家后台
+          logo: images/电商辅助/阿里巴巴.png
           url: https://supplier.alibaba.com?from=dy.199908.top
           description: 阿里巴巴旗下的跨境电商平台卖家后台
         - title: Temu拼多多跨境
-          logo: images/Store settled in/teme.png
+          logo: images/快捷导航/拼多多.jpg
           url: https://seller.kuajingmaihuo.com?from=dy.199908.top
           description: 拼多多旗下的跨境电商平台，属于拼多多集团旗下的跨境电商平台。
         - title: 虾皮商家后台
-          logo: images/Store settled in/shopee.png
+          logo: images/快捷导航/Shopee.png
           url: https://seller.shopee.cn?from=dy.199908.top
           description: 虾皮商家后台
         - title: 虾皮卖家中心
-          logo: images/Store settled in/shopee.png
+          logo: images/快捷导航/Shopee.png
           url: https://seller.shopee.com?from=dy.199908.top
           description: 虾皮卖家中心
         - title: Shopify
-          logo: images/Store settled in/shopify.png
+          logo: images/快捷导航/Shopify.png
           url: https://www.shopify.com?from=dy.199908.top
           description: 最大的独立站建站平台
         - title: 速卖通AliExpress
-          logo: images/Store settled in/aliexpress.png
+          logo: images/快捷导航/速卖通.png
           url: https://www.aliexpress.com?from=dy.199908.top
           description: 阿里巴巴旗下的跨境电商平台
         - title: Shopee
-          logo: images/Store settled in/Shopee.png
+          logo: images/快捷导航/Shopee.png
           url: https://shopee.com?from=dy.199908.top
           description: 东南亚和台湾地区的领先电子商务在线购物平台
         - title: Etsy
-          logo: images/Store settled in/etsy.png
+          logo: images/快捷导航/Etsy.png
           url: https://www.etsy.com?from=dy.199908.top
           description: 一个专注于手工艺品、艺术品和独立设计师商品的在线市场，允许卖家和买家进行全球范围的交易。
         - title: eBay
-          logo: images/Store settled in/ebay.png
+          logo: images/快捷导航/eBay.png
           url: https://www.ebay.com?from=dy.199908.top
           description: 全球最大的在线拍卖和购物网站之一，用户可以在eBay上购买和出售各种商品，包括电子产品、服装、收藏品、家居用品等。
         - title: Wish
-          logo: images/Store settled in/wish.png
+          logo: images/快捷导航/Wish.png
           url: https://www.wish.com?from=dy.199908.top
           description: 一家全球性的电子商务平台，允许商家在其平台上销售商品。
         - title: Daraz
-          logo: images/Store settled in/daraz.ico
+          logo: images/快捷导航/Daraz.ico
           url: https://www.daraz.pk?from=dy.199908.top
           description: 巴基斯坦最大的电商平台之一，属于Alibaba集团旗下的跨境电商平台。
         - title: Newegg
-          logo: images/Store settled in/newegg.png
+          logo: images/快捷导航/Newegg.png
           url: https://www.newegg.com?from=dy.199908.top
           description: 一家总部位于美国的电子商务公司，专注于电子产品和电脑硬件的销售。
         - title: SHEIN商家平台
-          logo: images/Store settled in/shein.png
+          logo: images/快捷导航/速卖通.png
           url: https://www.sheincorp.cn?from=dy.199908.top
           description: 希音全球跨境电商平台商家入驻
         - title: OZON卖家中心
-          logo: images/Store settled in/ozon.png
+          logo: images/快捷导航/Shopee.png
           url: https://seller.ozon.ru?from=dy.199908.top
           description: 俄罗斯最大的电子商务平台之一
-        - title: 沃尔玛
-          logo: images/Store settled in/walmart.png
+                  - title: 沃尔玛
+          logo: images/快捷导航/亚马逊.png
           url: https://www.walmart.com?from=dy.199908.top
           description: 沃尔玛全球电商平台
-        - title: 沃尔玛跨境
-          logo: images/Store settled in/walmart.png
+                  - title: 沃尔玛跨境
+          logo: images/快捷导航/亚马逊.png
           url: https://seller.walmart.com?from=dy.199908.top
           description: 沃尔玛全球电商平台商家入驻
         - title: 韩国Coupang
-          logo: images/Store settled in/coupang.png
+          logo: images/快捷导航/Lazada.png
           url: https://globalsellers.coupang.com?from=dy.199908.top
           description: 韩国最大的电商平台之一
         - title: Tokopedia
-          logo: images/Store settled in/tokopedia.png
+          logo: images/快捷导航/Shopee.png
           url: https://seller.tokopedia.com?from=dy.199908.top
           description: 印尼最大的电商平台之一
         - title: Lazada卖家中心
-          logo: images/Store settled in/lazada.png
+          logo: images/快捷导航/Lazada.png
           url: https://seller.lazada.com?from=dy.199908.top
           description: 来赞达商家平台
         - title: 韩国购物平台
-          logo: images/Store settled in/korea.png
+          logo: images/快捷导航/亚马逊.png
           url: https://www.gmarket.co.kr?from=dy.199908.top
           description: 韩国知名电商平台
         - title: TikTok电商
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller.tiktokglobalshop.com?from=dy.199908.top
           description: TikTok店铺入驻
         - title: TikTok全托管
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://www.tiktokshopglobalselling.com/zh-cn?from=dy.199908.top
           description: TikTok全托管方案
         - title: TikTok马来本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-my.tiktok.com?from=dy.199908.top
           description: TikTok马来西亚本土后台
         - title: TikTok菲律宾本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-ph.tiktok.com?from=dy.199908.top
           description: TikTok菲律宾本土后台
         - title: TikTok泰国本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-th.tiktok.com?from=dy.199908.top
           description: TikTok泰国本土后台
         - title: TikTok越南本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-vn.tiktok.com?from=dy.199908.top
           description: TikTok越南本土后台
         - title: TikTok印尼本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-id.tiktok.com?from=dy.199908.top
           description: TikTok印尼本土后台
         - title: TikTok新加坡本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-sg.tiktok.com?from=dy.199908.top
           description: TikTok新加坡本土后台
         - title: TikTok美国本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-us-accounts.tiktok.com?from=dy.199908.top
           description: TikTok美国本土后台
         - title: TikTok英国本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-uk.tiktok.com?from=dy.199908.top
           description: TikTok英国本土后台
         - title: TikTok德国本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-de.tiktok.com?from=dy.199908.top
           description: TikTok德国本土后台
         - title: TikTok法国本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-fr.tiktok.com?from=dy.199908.top
           description: TikTok法国本土后台
         - title: TikTok意大利本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-it.tiktok.com?from=dy.199908.top
           description: TikTok意大利本土后台
         - title: TikTok西班牙本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-es.tiktok.com?from=dy.199908.top
           description: TikTok西班牙本土后台
         - title: TikTok巴西本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-br.tiktok.com?from=dy.199908.top
           description: TikTok巴西本土后台
         - title: TikTok墨西哥本土后台
-          logo: images/E-commerce plug-in/douyin.jpg
+          logo: images/电商辅助/抖音.jpg
           url: https://seller-mx.tiktok.com?from=dy.199908.top
           description: TikTok墨西哥本土后台
         - title: Tiktok广告投放
-          logo: images/Store settled in/tiktok.png
+          logo: images/电商辅助/抖音.jpg
           url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
           description: Tiktok广告投放
         - title: Tiktok ADS
-          logo: images/Advertising/tiktok.png
+          logo: images/电商辅助/抖音.jpg
           url: https://ads.tiktok.com/i18n?from=dy.199908.top
           description: Tiktok ADS
         - title: 达连
-          logo: images/E-commerce plug-in/dalian.png
+          logo: images/电商辅助/达连.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
     - name: 其他
       links:
         - title: 唯品会
-          logo: images/popular-sites/vip.jpg
+          logo: images/其他/vip.jpg
           url: https://www.vip.com?from=dy.199908.top
           description: 中国特卖电商平台，成立于2008年，提供品牌折扣商品，在纽交所和港交所上市
         - title: 闲鱼
-          logo: images/popular-sites/xianyu.jpg
+          logo: images/其他/xianyu.jpg
           url: https://www.xianyu.com?from=dy.199908.top
           description: 二手交易平台，成立于2014年，主要面向年轻人群体，提供二手商品交易服务
         - title: 美团
-          logo: images/popular-sites/meituan.jpg
+          logo: images/其他/meituan.jpg
           url: https://www.meituan.com?from=dy.199908.top
           description: 美团外卖平台
         - title: 美团商家版
-          logo: images/popular-sites/meituan.jpg
+          logo: images/其他/meituan.jpg
           url: https://waimaie.meituan.com/new_fe/login_gw?from=dy.199908.top
           description: 美团商家后台
         - title: 哔哩哔哩
-          logo: images/popular-sites/bilibili.jpg
+          logo: images/其他/bilibili.jpg
           url: https://www.bilibili.com?from=dy.199908.top
           description: 中国领先的视频弹幕网站，俗称"B站"，成立于2009年，主要面向年轻用户群体，提供视频、直播、游戏等内容
         - title: 得物
-          logo: images/popular-sites/dewu.jpg
+          logo: images/其他/dewu.jpg
           url: https://www.dewu.com?from=dy.199908.top
           description: 前身为"毒"(Poizon)，是中国领先的潮流电商平台，主打鉴定服务，特别受Z世代欢迎，主要销售球鞋、潮牌服饰等
         - title: 得物后台
-          logo: images/popular-sites/dewu.jpg
+          logo: images/其他/dewu.jpg
           url: https://stark.dewu.com/main/newOrders?from=dy.199908.top
           description: 得物商家后台
         - title: 得物客服后台
-          logo: images/popular-sites/dewu.jpg
+          logo: images/其他/dewu.jpg
           url: http://msd.dewu.com/admin?from=dy.199908.top
           description: 得物商家后台
         - title: 转转
-          logo: images/popular-sites/zhuanzhuan.jpg
+          logo: images/其他/zhuanzhuan.jpg
           url: https://www.zhuanzhuan.com?from=dy.199908.top
           description: 二手交易平台，成立于2015年，主要面向年轻人群体，提供二手商品交易服务
         - title: 支付宝
-          logo: images/popular-sites/alipay.jpg
+          logo: images/其他/alipay.jpg
           url: https://www.alipay.com?from=dy.199908.top
           description: 蚂蚁集团旗下支付和金融服务平台，提供支付、转账、理财等服务
         - title: 今日头条
-          logo: images/popular-sites/toutiao.jpg
+          logo: images/其他/toutiao.jpg
           url: https://www.toutiao.com?from=dy.199908.top
           description: 字节跳动旗下基于算法推荐的新闻资讯平台，通过AI技术为用户个性化推送内容
         - title: 微博
-          logo: images/popular-sites/weibo.jpg
+          logo: images/其他/weibo.jpg
           url: https://weibo.com?from=dy.199908.top
           description: 中国领先的社交媒体平台，用户可以发布、分享和发现内容，实时热点传播速度快
         - title: 知乎
-          logo: images/popular-sites/zhihu.jpg
+          logo: images/其他/zhihu.jpg
           url: https://www.zhihu.com?from=dy.199908.top
           description: 中国最大的知识问答社区，聚集各行各业的专业人士，分享和获取知识、经验和见解
         - title: 百度
-          logo: images/popular-sites/baidu.jpg
+          logo: images/其他/baidu.jpg
           url: https://www.baidu.com?from=dy.199908.top
           description: 中国最大的搜索引擎，提供网页、图片、视频等多种搜索服务和信息获取渠道
         - title: 网易
-          logo: images/popular-sites/netease.jpg
+          logo: images/其他/netease.jpg
           url: https://www.163.com?from=dy.199908.top
           description: 中国领先的互联网技术公司，提供新闻、邮箱、游戏、音乐等多种服务
         - title: 头条号
-          logo: images/popular-sites/toutiao.jpg
+          logo: images/其他/toutiao.jpg
           url: https://www.toutiao.com?from=dy.199908.top
           description: 字节跳动旗下的自媒体平台，提供新闻、视频、图片等多种内容创作和发布服务
         - title: 百家号
-          logo: images/popular-sites/baidu.jpg
+          logo: images/其他/baidu.jpg
           url: https://www.baidu.com?from=dy.199908.top
           description: 百度旗下的自媒体平台，提供新闻、视频、图片等多种内容创作和发布服务
         - title: 什么值得买
-          logo: images/popular-sites/shenmezhidema.jpg
+          logo: images/其他/shenmezhidema.jpg
           url: https://www.smzdm.com?from=dy.199908.top
           description: 什么值得买，成立于2006年，是中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
         - title: 有赞
-          logo: images/popular-sites/youzan.jpg
+          logo: images/其他/youzan.jpg
           url: https://www.youzan.com?from=dy.199908.top
           description: 有赞是一家提供电商解决方案的公司，提供电商网站建设、电商运营、电商营销等服务
 
@@ -949,304 +949,233 @@
     - term: 电商辅助
     - term: 电商货源
     - term: 直播辅助
-    - term: 视频剪辑
   tabs:
     - name: 电商辅助
       links:
         - title: 巨量创意
-          logo: images/E-commerce plug-in/juliangchuangyi.png
+          logo: images/电商辅助/巨量创意.png
           url: https://cc.oceanengine.com?from=dy.199908.top
           description: 激发创意灵感
         - title: 拼多多知识产权保护
-          logo: images/E-commerce plug-in/pinduoduo.jpg
+          logo: images/电商辅助/拼多多.jpg
           url: https://ipp.pinduoduo.com?from=dy.199908.top
           description: 拼多多原创保护平台
         - title: 小红书知识产权保护
-          logo: images/E-commerce plug-in/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://ipp.xiaohongshu.com?from=dy.199908.top
           description: 小红书原创保护平台
         - title: 快手知识产权保护
-          logo: images/E-commerce plug-in/kuaishou.jpg
+          logo: images/电商辅助/快手.jpg
           url: https://ipp.kuaishou.com?from=dy.199908.top
           description: 快手电商原创保护平台
         - title: 指纹浏览器
-          logo: images/E-commerce plug-in/zhiwenliulanqi.png
+          logo: images/电商辅助/指纹浏览器.png
           url: https://virtualbrowser.cc?from=dy.199908.top
           description: 多店铺电商卖家必备，隔离ip
         - title: 哈士奇
-          logo: images/E-commerce plug-in/Hashiqi.jpg
+          logo: images/电商辅助/哈士奇.jpg
           url: https://hsq.dangxun.com?from=dy.199908.top
           description: 多平台电商运营插件
         - title: 至尊宝
-          logo: images/E-commerce plug-in/zhizunbao.jpg
+          logo: images/电商辅助/至尊宝.jpg
           url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
           description: 多平台电商运营插件
         - title: 店查查
-          logo: images/E-commerce plug-in/dianchacha.png
+          logo: images/电商辅助/店查查.png
           url: https://www.dianchacha.com/chajian?from=dy.199908.top
           description: 淘宝运营神器插件
         - title: 店透视
-          logo: images/E-commerce plug-in/diantoushi.png
+          logo: images/电商辅助/店透视.png
           url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
           description: 指数还原详情插件
         - title: AliPrice助手
-          logo: images/E-commerce plug-in/AliPrice.png
+          logo: images/电商辅助/AliPrice助手.png
           url: https://www.aliprice.com?from=dy.199908.top
           description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
         - title: 山海云端短视频解析
-          logo: images/E-commerce plug-in/shanhai.png
+          logo: images/电商辅助/山海云端短视频解析.png
           url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
           description: 多平台视频解析下载
         - title: Best视频下载器
-          logo: images/E-commerce plug-in/shanhai.png
+          logo: images/电商辅助/Best视频下载器.png
           url: https://www.bestvideow.com?from=dy.199908.top
           description: 多平台视频解析下载
         - title: 猫爪
-          logo: images/E-commerce plug-in/maozhua.jpg
+          logo: images/电商辅助/猫爪.jpg
           url: https://cat-catch.bmmmd.com?from=dy.199908.top
           description: 网页视频嗅探与下载插件
         - title: 社媒助手
-          logo: images/E-commerce plug-in/shemeizhushou.png
+          logo: images/电商辅助/社媒助手.png
           url: https://smc.iszhouhua.com?from=dy.199908.top
           description: 多平台数据采集插件
         - title: Fatkun图片下载
-          logo: images/E-commerce plug-in/Fatkun.webp
+          logo: images/电商辅助/Fatkun图片下载.webp
           url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
           description: Fatkun图片下载插件
         - title: 达连
-          logo: images/E-commerce plug-in/dalian.png
+          logo: images/电商辅助/达连.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
         - title: 灵邀AI
-          logo: images/E-commerce plug-in/Lingyao AI.jpg
+          logo: images/电商辅助/灵邀AI.jpg
           url: https://limob.cn?from=dy.199908.top
           description: 抖音微信达人邀约软件
     - name: 电商货源
       links:
         - title: 1688
-          logo: images/E-commerce supply/1688.png
+          logo: images/电商辅助/阿里巴巴.png
           url: https://www.1688.com
           description: 1688货源平台
         - title: 义乌购
-          logo: images/E-commerce supply/yiwugou.png
+          logo: images/电商辅助/义乌购.png
           url: https://www.yiwugo.com?from=dy.199908.top
           description: 义乌购货源平台
         - title: 搜款网
-          logo: images/E-commerce supply/soukuan.png
+          logo: images/电商货源/soukuan.png
           url: https://www.go2.cn?from=dy.199908.top
           description: 女鞋批发市场货源平台
         - title: 91家纺
-          logo: images/E-commerce supply/91jiafang.png
+          logo: images/电商货源/91jiafang.png
           url: https://www.newfine.com.cn?from=dy.199908.top
           description: 家纺产品批发货源平台
         - title: 找工厂
-          logo: images/E-commerce supply/zhaogongchang.png
+          logo: images/电商货源/zhaogongchang.png
           url: https://www.zhaozhichang.com?from=dy.199908.top
           description: 工厂直供货源对接平台
         - title: 中国制造网
-          logo: images/E-commerce supply/zhizaowang.png
+          logo: images/电商货源/zhizaowang.png
           url: https://cn.made-in-china.com?from=dy.199908.top
           description: 中国制造网-内贸站
         - title: 世界工厂
-          logo: images/E-commerce supply/made-in-china.png
+          logo: images/电商货源/made-in-china.png
           url: https://www.made-in-china.com?from=dy.199908.top
           description: 中国制造网-工厂货源平台
         - title: 新款鞋
-          logo: images/E-commerce supply/xinkaoxie.png
+          logo: images/电商货源/xinkaoxie.png
           url: https://www.chinashoefactory.com?from=dy.199908.top
           description: 时尚鞋类货源平台
         - title: 箱包网
-          logo: images/E-commerce supply/xiangbaowang.png
+          logo: images/电商货源/xiangbaowang.png
           url: https://www.pop-bags.com/trends?from=dy.199908.top
           description: 箱包批发货源平台
         - title: 包牛牛
-          logo: images/E-commerce supply/baoniuniu.png
+          logo: images/电商货源/baoniuniu.png
           url: http://www.bao66.cn/web/?from=dy.199908.top
           description: 白沟箱包批发货源平台
         - title: 汽配人
-          logo: images/E-commerce supply/qipeiren.png
+          logo: images/电商货源/qipeiren.png
           url: https://qpmall.com?from=dy.199908.top
           description: 汽车配件货源平台
         - title: 找厂网
-          logo: images/E-commerce supply/zhaogongchang.png
+          logo: images/电商货源/zhaogongchang.png
           url: https://www.entfind.com?from=dy.199908.top
           description: 工厂直供货源对接平台
         - title: 汽配中国
-          logo: images/E-commerce supply/qipeiren.png
+          logo: images/电商货源/qipeiren.png
           url: https://www.chinaautoparts.info?from=dy.199908.top
           description: 汽车配件货源批发平台
         - title: 鞋机网
-          logo: images/E-commerce supply/xinkaoxie.png
+          logo: images/电商货源/xinkaoxie.png
           url: https://it.shoe-machine-supplier.com?from=dy.199908.top
           description: 鞋类制造设备供应平台
         - title: 17货源网
-          logo: images/E-commerce supply/17huoyuan.png
+          logo: images/电商货源/17huoyuan.png
           url: https://17zwd.com?from=dy.199908.top
           description: 广州服装批发一手货源平台
         - title: 聚衣网
-          logo: images/E-commerce supply/juyiwang.png
+          logo: images/电商货源/juyiwang.png
           url: https://willshop.cn?from=dy.199908.top
           description: 立足健康产业的全民创业电商平台
         - title: 开山鞋网
-          logo: images/E-commerce supply/kaishanwang.png
+          logo: images/电商货源/kaishanwang.png
           url: https://www.k3.cn?from=dy.199908.top
           description: 鞋类批发网站
         - title: 中国鞋网
-          logo: images/E-commerce supply/zhongguoxiewang.png
+          logo: images/电商货源/zhongguoxiewang.png
           url: https://www.ouou.cn?from=dy.199908.top
           description: 足球鞋足球装备门户网站
         - title: 个秀名妆
-          logo: images/E-commerce supply/gexiumingzhuang.png
+          logo: images/电商货源/gexiumingzhuang.png
           url: https://www.maogepingbeauty.com?from=dy.199908.top
           description: 毛戈平MGP官方彩妆护肤平台
         - title: 花西子
-          logo: images/E-commerce supply/huaxizi.png
+          logo: images/电商货源/huaxizi.png
           url: https://www.huaxizi.cn?from=dy.199908.top
           description: 东方彩妆品牌，以花养妆
         - title: 戴春林
-          logo: images/E-commerce supply/daichunlin.png
+          logo: images/电商货源/daichunlin.png
           url: https://www.daichunlin.com.hk?from=dy.199908.top
           description: 源自1628年的中华古典御妆
         - title: O.TWO.O
-          logo: images/E-commerce supply/otwoo.png
+          logo: images/电商货源/otwoo.png
           url: https://otwoomakeup.com?from=dy.199908.top
           description: 专业彩妆品牌
         - title: MakeupGU
-          logo: images/E-commerce supply/makeupgu.png
+          logo: images/电商货源/makeupgu.png
           url: https://www.makeupgu.com?from=dy.199908.top
           description: 专业化妆造型团队
         - title: 建发轻工
-          logo: images/E-commerce supply/jianfaqinggong.png
+          logo: images/电商货源/jianfaqinggong.png
           url: https://cndchain.com?from=dy.199908.top
           description: 国际领先的消费品供应链运营商
         - title: 淘货源
-          logo: images/E-commerce supply/taohuoyuan.png
+          logo: images/电商货源/taohuoyuan.png
           url: https://tao.1688.com?from=dy.199908.top
           description: 自由、赚钱的在线生意平台
         - title: Taocarts
-          logo: images/E-commerce supply/taocarts.png
+          logo: images/电商货源/taocarts.png
           url: https://taocarts.com?from=dy.199908.top
           description: 淘宝代购系统跨境电商平台
         - title: 找家纺
-          logo: images/E-commerce supply/zhaojiafang.png
+          logo: images/电商货源/zhaojiafang.png
           url: https://www.zhaojiafang.com?from=dy.199908.top
           description: 家纺批发货源平台
         - title: 军埔批发网
-          logo: images/E-commerce supply/junpu.png
+          logo: images/电商货源/junpu.png
           url: https://www.jp0663.com?from=dy.199908.top
           description: 军埔货源平台
         - title: 中国鞋库网
-          logo: images/E-commerce supply/zhongguoxieku.png
+          logo: images/电商货源/zhongguoxieku.png
           url: https://www.cnxieku.com?from=dy.199908.top
           description: 中国鞋库网
         - title: 华强电子
-          logo: images/E-commerce supply/huaqiang.png
+          logo: images/电商货源/huaqiang.png
           url: https://www.ickey.cn?from=dy.199908.top
           description: 华强电子
         - title: 猎芯网
-          logo: images/E-commerce supply/liexin.png
+          logo: images/电商货源/liexin.png
           url: https://www.ichunt.com?from=dy.199908.top
           description: 电子元器件货源平台
         - title: 玩具巴巴
-          logo: images/E-commerce supply/wanbaoba.png
+          logo: images/电商货源/wanbaoba.png
           url: https://www.toybaba.com?from=dy.199908.top
           description: 玩具巴巴
         - title: 搜款网
-          logo: images/E-commerce supply/soukuan.png
+          logo: images/电商货源/soukuan.png
           url: https://www.vvic.com/gz?from=dy.199908.top
           description: 搜款网
     - name: 直播辅助
       links:
         - title: 抖音直播伴侣
-          logo: images/Live broadcast software/douyinzhibobanlv.jpg
+          logo: images/电商辅助/抖音直播伴侣.jpg
           url: https://streamingtool.douyin.com?from=dy.199908.top
           description: 抖音、火山官方直播工具
         - title: 快手直播伴侣
-          logo: images/Live broadcast software/kuaishouzhibobanlv.png
+          logo: images/电商辅助/快手直播伴侣.png
           url: https://live.kuaishou.com/live-partner?from=dy.199908.top
           description: 快手平台直播软件
         - title: 小红书直播助手
-          logo: images/Live broadcast software/xiaohongshu.jpg
+          logo: images/电商辅助/小红书.jpg
           url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
           description: 小红书电脑直播助手
         - title: OBS
-          logo: images/Live broadcast software/obs.png
+          logo: images/电商辅助/OBS.png
           url: https://obsproject.com?from=dy.199908.top
           description: 多平台直播推流工具
         - title: StreamCap
-          logo: images/Live broadcast software/StreamCap.jpg
+          logo: images/电商辅助/直播间录制工具.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
           description: 多平台直播录屏软件
-    - name: 视频剪辑
-      links:
-        - title: 剪映
-          logo: images/Video editing tools/jianying.png
-          url: https://www.capcut.cn?from=dy.199908.top
-          description: 全能易用的视频剪辑软件
-        - title: 即梦AI
-          logo: images/Video editing tools/jimeng.png
-          url: https://jimeng.jianying.com?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: 易剪媒 Ai批量剪辑
-          logo: images/Video editing tools/yijianmei.jpg
-          url: https://www.xinmei7.com?from=dy.199908.top
-          description: AI视频剪辑与二创处理工具
-        - title: Vidu
-          logo: images/Video editing tools/vidu.jpeg
-          url: https://www.vidu.cn/create?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: SkyReels Tutorial
-          logo: images/Video editing tools/skyreels.jpeg
-          url: https://www.skyreels.ai?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: Viggle AI
-          logo: images/Video editing tools/viggle.jpeg
-          url: https://viggle.ai/app?from=dy.199908.top
-          description: 生成高质量、可控的动态视频
-        - title: 小白兔 AI
-          logo: images/Video editing tools/xiaobaitu.png
-          url: https://xiaobaituai.com?from=dy.199908.top
-          description: 一站式AI视频创作软件
-        - title: 江湖工具箱
-          logo: images/Video editing tools/jianghugongjuxiang.png
-          url: https://www.jianghudata.com?from=dy.199908.top
-          description: 电商多功能软件
-        - title: 红抖AI助手
-          logo: images/Video editing tools/hongdou.jpg
-          url: https://hd.jianliai.com?from=dy.199908.top
-          description: 最全的AI创作工具箱
-        - title: 腾讯智影
-          logo: images/Video editing tools/zenvideo.png
-          url: https://zenvideo.qq.com/home?from=dy.199908.top
-          description: 腾讯AI智能创作平台
-        - title: 鬼手剪辑
-          logo: images/Video editing tools/guishoujianji.png
-          url: https://jollytoday.com/index/cn?from=dy.199908.top
-          description: 硬字幕翻译、视频去字幕
-        - title: 闪电配音
-          logo: images/Video editing tools/shandianpeiyin.png
-          url: https://www.soundems.com?from=dy.199908.top
-          description: 配音平台
-        - title: 微软文本转语音
-          logo: images/Video editing tools/Azure AI.png
-          url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
-          description: 微软文本转语音
-        - title: 讯飞智作
-          logo: images/Video editing tools/xunfeizhizuo.png
-          url: https://peiyin.xunfei.cn?from=dy.199908.top
-          description: 讯飞AI配音
-        - title: 即时工具
-          logo: images/Video editing tools/jishi.png
-          url: https://www.67tool.com?from=dy.199908.top
-          description: 视频、图片处理工具箱
-        - title: 直播片段生成器
-          logo: images/Video editing tools/taobao.png
-          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-          description: 淘宝直播片段生成工具
-        - title: 短视频混剪工具
-          logo: images/Video editing tools/taobao.png
-          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-          description: 淘宝短视频混剪工具
 
 - taxonomy: 广告投放
   icon: fa-bullhorn
@@ -1261,73 +1190,73 @@
     - name: 淘宝广告
       links:
         - title: 直通车
-          logo: images/Advertising/taobaoggongju.png
+          logo: images/广告投放/直通车.png
           url: https://subway.simba.taobao.com?from=dy.199908.top
           description: 淘宝推广工具
         - title: 引力魔方
-          logo: images/Advertising/taobaoggongju.png
+          logo: images/广告投放/直通车.png
           url: https://tuijian.taobao.com?from=dy.199908.top
           description: 淘宝推广工具
         - title: 淘宝联盟
-          logo: images/Advertising/taobaolianmeng.jpg
+          logo: images/广告投放/淘宝联盟.jpg
           url: https://pub.alimama.com?from=dy.199908.top
           description: 淘宝联盟推广平台
         - title: 万相台
-          logo: images/Advertising/taobaoggongju.png
+          logo: images/广告投放/直通车.png
           url: https://adbrain.taobao.com?from=dy.199908.top
           description: 淘宝广告投放平台
         - title: 品销宝
-          logo: images/Advertising/pinxiaobao.png
+          logo: images/广告投放/直通车.png
           url: https://branding.taobao.com?from=dy.199908.top
           description: 淘宝品牌推广工具
     - name: 抖音广告
       links:
         - title: 巨量引擎
-          logo: images/Advertising/juliangyinqing.png
+          logo: images/广告投放/巨量引擎.png
           url: https://www.oceanengine.com?from=dy.199908.top
           description: 抖音所有类型广告
         - title: 巨量千川
-          logo: images/Advertising/juliangqianchuan.png
+          logo: images/广告投放/巨量千川.png
           url: https://qianchuan.jinritemai.com?from=dy.199908.top
           description: 抖音广告投放平台
         - title: 巨量星图
-          logo: images/Advertising/juliangxingtu.png
+          logo: images/广告投放/巨量引擎.png
           url: https://xingtu.jinritemai.com?from=dy.199908.top
           description: 抖音星图
         - title: 小火龙
-          logo: images/Advertising/xiaohuolong.png
+          logo: images/广告投放/小火龙.png
           url: http://www.xiaohuolong.com?from=dy.199908.top
           description: 抖音随心推投放工具
     - name: TikTok广告
       links:
         - title: Tiktok广告投放
-          logo: images/Store settled in/tiktok.png
+          logo: images/电商辅助/抖音.jpg
           url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
           description: Tiktok广告投放
         - title: Tiktok ADS
-          logo: images/Advertising/tiktok.png
+          logo: images/电商辅助/抖音.jpg
           url: https://ads.tiktok.com/i18n?from=dy.199908.top
           description: Tiktok ADS
     - name: 快手广告
       links:
         - title: 磁力引擎
-          logo: images/Advertising/ciliyinqing.png
+          logo: images/广告投放/磁力引擎.png
           url: https://e.kuaishou.com?from=dy.199908.top
           description: 快手开屏、信息流、粉条
         - title: 磁力智投
-          logo: images/Advertising/cilizhitou.png
+          logo: images/广告投放/磁力智投.png
           url: https://ad.e.kuaishou.com?from=dy.199908.top
           description: 快手广告投放平台
     - name: 小红书广告
       links:
         - title: 聚光平台
-          logo: images/Advertising/juguang.jpg
+          logo: images/广告投放/聚光.jpg
           url: https://ad.xiaohongshu.com?from=dy.199908.top
           description: 小红书广告投放平台
     - name: 视频号广告
       links:
         - title: 诸葛智投
-          logo: images/Advertising/zhugezhitou.png
+          logo: images/广告投放/诸葛智投.png
           url: https://zgzt.v-ma.com?from=dy.199908.top
           description: 视频号投放管理工具
 
@@ -1343,53 +1272,53 @@
     - name: 淘宝数据
       links:
         - title: 生意参谋
-          logo: images/Data analysis/shengyicanmou.png
+          logo: images/数据分析/生意参谋.png
           url: https://sycm.taobao.com?from=dy.199908.top
           description: 淘宝数据分析工具
         - title: 大淘客
-          logo: images/Data analysis/dataoke.jpg
+          logo: images/数据分析/大淘客.jpg
           url: http://www.dataoke.com?from=dy.199908.top
           description: 淘客选品平台
     - name: 抖音数据
       links:
         - title: 巨量算数
-          logo: images/Data analysis/juliangsuanshu.svg
+          logo: images/数据分析/巨量算数.svg
           url: https://trendinsight.oceanengine.com?from=dy.199908.top
           description: 抖音官方大数据平台
         - title: 抖音官方选品工具
-          logo: images/Data analysis/douyin.jpg
+          logo: images/数据分析/抖音官方选品工具.jpg
           url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
           description: 抖音官方选品工具
         - title: 蝉妈妈
-          logo: images/Data analysis/chanmama.jpg
+          logo: images/数据分析/蝉妈妈.jpg
           url: http://www.chanmama.com?from=dy.199908.top
           description: 抖音直播数据、选品平台
         - title: 飞瓜
-          logo: images/Data analysis/feigua.jpg
+          logo: images/数据分析/飞瓜.jpg
           url: https://www.feigua.cn?from=dy.199908.top
           description: 抖音直播数据、选品平台
         - title: 灰豚数据-抖音
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://dy.huitun.com?from=dy.199908.top
           description: 灰豚数据抖音
         - title: 抖查查
-          logo: images/Data analysis/douchacha.jpg
+          logo: images/数据分析/抖查查.jpg
           url: https://www.douchacha.com?from=dy.199908.top
           description: 数据、达人与选品平台
     - name: 快手数据
       links:
         - title: 灰豚数据-快手
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://ks.huitun.com?from=dy.199908.top
           description: 灰豚数据快手版
     - name: 小红书数据
       links:
         - title: 郑和数据
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://zhenghedata.com/dashboard?from=dy.199908.top
           description: 郑和数据小红书版
         - title: 灰豚数据-小红书
-          logo: images/Data analysis/huitun.jpg
+          logo: images/数据分析/灰豚数据.jpg
           url: https://xhs.huitun.com?from=dy.199908.top
           description: 灰豚数据小红书版
     - name: 选品工具
@@ -1408,41 +1337,113 @@
       links:
         - title: photoshop
           url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
-          logo: images/design software/photoshop.png
+          logo: images/设计软件/Photoshop.png
           description: Photoshop不需要解释
 
     - name: 矢量设计
       links:
         - title: Affinity Designer
           url: https://affinity.serif.com?from=dy.199908.top
-          logo: images/design software/AffinityDesigner.png
+          logo: images/设计软件/AffinityDesigner.png
           description: 专业创意软件
         - title: Illustrator
           url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
-          logo: images/design software/Illustrator.png
+          logo: images/设计软件/Illustrator.png
           description: 矢量图形和插图
 
     - name: 排版软件
       links:
         - title: indesign
           url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
-          logo: images/design software/INDESIGN .png
+          logo: images/设计软件/InDesign.png
           description: 页面设计、布局和出版
 
     - name: 3D建模
       links:
         - title: cinema-4d
           url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
-          logo: images/design software/cinema4d.png
+          logo: images/设计软件/Cinema4D.png
           description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free
         - title: 3ds-max
           url: https://www.autodesk.com/products/3ds-max/overview?from=dy.199908.top
-          logo: images/design software/3dsmax.png
+          logo: images/设计软件/3dsMax.png
           description: 3D modeling, animation, and rendering software
         - title: Blender
           url: https://www.blender.org?from=dy.199908.top
-          logo: images/design software/blender.png
+          logo: images/设计软件/Blender.png
           description: Blender is the free and open source 3D creation suite
+
+- taxonomy: 视频剪辑
+  icon: fa-video
+  links: 
+        - title: 剪映
+          logo: images/视频编辑/剪映.png
+          url: https://www.capcut.cn?from=dy.199908.top
+          description: 全能易用的视频剪辑软件
+        - title: 即梦AI
+          logo: images/视频编辑/即梦AI.png
+          url: https://jimeng.jianying.com?from=dy.199908.top
+          description: 一站式AI视频创作平台
+        - title: 易剪媒 Ai批量剪辑
+          logo: images/视频编辑/易剪媒.jpg
+          url: https://www.xinmei7.com?from=dy.199908.top
+          description: AI视频剪辑与二创处理工具
+        - title: Vidu
+          logo: images/视频编辑/Vidu.jpeg
+          url: https://www.vidu.cn/create?from=dy.199908.top
+          description: 一站式AI视频创作平台
+        - title: SkyReels Tutorial
+          logo: images/视频编辑/SkyReels.jpeg
+          url: https://www.skyreels.ai?from=dy.199908.top
+          description: 一站式AI视频创作平台
+        - title: Viggle AI
+          logo: images/视频编辑/Viggle.jpeg
+          url: https://viggle.ai/app?from=dy.199908.top
+          description: 生成高质量、可控的动态视频
+        - title: 小白兔 AI
+          logo: images/视频编辑/小白兔AI.png
+          url: https://xiaobaituai.com?from=dy.199908.top
+          description: 一站式AI视频创作软件
+        - title: 江湖工具箱
+          logo: images/视频编辑/江湖工具箱.png
+          url: https://www.jianghudata.com?from=dy.199908.top
+          description: 电商多功能软件
+        - title: 红抖AI助手
+          logo: images/视频编辑/红抖AI助手.jpg
+          url: https://hd.jianliai.com?from=dy.199908.top
+          description: 最全的AI创作工具箱
+        - title: 腾讯智影
+          logo: images/视频编辑/禅视频.png
+          url: https://zenvideo.qq.com/home?from=dy.199908.top
+          description: 腾讯AI智能创作平台
+        - title: 鬼手剪辑
+          logo: images/视频编辑/鬼手剪辑.png
+          url: https://jollytoday.com/index/cn?from=dy.199908.top
+          description: 硬字幕翻译、视频去字幕
+        - title: 闪电配音
+          logo: images/视频编辑/闪电配音.png
+          url: https://www.soundems.com?from=dy.199908.top
+          description: 配音平台
+        - title: 微软文本转语音
+          logo: images/视频编辑/微软文本转语音.png
+          url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
+          description: 微软文本转语音
+        - title: 讯飞智作
+          logo: images/视频编辑/讯飞智作.png
+          url: https://peiyin.xunfei.cn?from=dy.199908.top
+          description: 讯飞AI配音
+        - title: 即时工具
+          logo: images/视频编辑/即时工具.png
+          url: https://www.67tool.com?from=dy.199908.top
+          description: 视频、图片处理工具箱
+        - title: 直播片段生成器
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
+          description: 淘宝直播片段生成工具
+        - title: 短视频混剪工具
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
+          description: 淘宝短视频混剪工具
 
 - taxonomy: 图文设计
   icon: fa-palette
@@ -1456,96 +1457,96 @@
     - name: 在线设计
       links:
         - title: 稿定
-          logo: images/graphic design/gaoding.png
+          logo: images/图文设计/稿定.png
           url: https://www.gaoding.com?from=dy.199908.top
           description: 在线制图
         - title: 创客贴
-          logo: images/graphic design/chuangke.png
+          logo: images/图文设计/创客贴.png
           url: https://www.chuangkit.com?from=dy.199908.top
           description: 在线制图
         - title: 懒设计
-          logo: images/graphic design/fotorlan.png
+          logo: images/图文设计/懒设计.png
           url: https://www.fotor.com.cn?from=dy.199908.top
           description: 在线设计网站
 
     - name: 图片素材
       links:
         - title: 花瓣网
-          logo: images/graphic design/huaban.png
+          logo: images/图文设计/花瓣网.png
           url: https://huaban.com?from=dy.199908.top
           description: 图片素材
         - title: freepik
-          logo: images/graphic design/freepik.png
+          logo: images/图文设计/Freepik.png
           url: https://www.freepik.com?from=dy.199908.top
           description: More than a million free vectors, PSD, photos and free icons
         - title: 千图网
-          logo: images/graphic design/qiantu.png
+          logo: images/图文设计/千图网.png
           url: http://www.58pic.com?from=dy.199908.top
           description: 专注免费设计素材下载的网站
         - title: 千库网
-          logo: images/graphic design/qianku.png
+          logo: images/图文设计/千库网.png
           url: http://588ku.com?from=dy.199908.top
           description: 免费png图片背景素材下载
         - title: 我图网
-          logo: images/graphic design/wotu.png
+          logo: images/图文设计/我图网.png
           url: http://www.ooopic.com?from=dy.199908.top
           description: 我图网,提供图片素材及模板下载,专注正版设计作品交易
         - title: 90设计
-          logo: images/graphic design/90sheji.png
+          logo: images/图文设计/90设计.png
           url: http://90sheji.com?from=dy.199908.top
           description: 电商设计（淘宝美工）千图免费淘宝素材库
         - title: 昵图网
-          logo: images/graphic design/nipic.png
+          logo: images/图文设计/昵图网.png
           url: http://www.nipic.com?from=dy.199908.top
           description: 原创素材共享平台
         - title: 懒人图库
-          logo: images/graphic design/lanrentuku.png
+          logo: images/图文设计/懒人图库.png
           url: http://www.lanrentuku.com?from=dy.199908.top
           description: 懒人图库专注于提供网页素材下载
         - title: Unsplash
           url: https://unsplash.com?from=dy.199908.top
-          logo: images/graphic design/unsplash.png
+          logo: images/图文设计/Unsplash.png
           description: Beautiful, free photos
         - title: librestock
           url: https://librestock.com?from=dy.199908.top
-          logo: images/graphic design/librestock.png
+          logo: images/图文设计/Librestock.png
           description: 65,084 high quality do-what-ever-you-want stock photos
         - title: pixabay
           url: https://pixabay.com?from=dy.199908.top
-          logo: images/graphic design/pixabay.png
+          logo: images/图文设计/Pixabay.png
           description: 可在任何地方使用的免费图片和视频
 
     - name: 图片处理
       links:
         - title: 佐糖-AI在线抠图
-          logo: images/graphic design/picwish.png
+          logo: images/图文设计/佐糖.png
           url: https://picwish.cn?from=dy.199908.top
           description: AI在线抠图
         - title: tinypng
           url: https://tinypng.com?from=dy.199908.top
-          logo: images/graphic design/tinypng.png
+          logo: images/图文设计/TinyPNG.png
           description: Optimize your images with a perfect balance in quality and file size
         - title: goqr
           url: http://goqr.me?from=dy.199908.top
-          logo: images/graphic design/goqr.png
+          logo: images/图文设计/GOQR.png
           description: create QR codes for free (Logo, T-Shirt, vCard, EPS)
         - title: ezgif
           url: https://ezgif.com?from=dy.199908.top
-          logo: images/graphic design/Ezgif.png
+          logo: images/图文设计/Ezgif.png
           description: simple online GIF maker and toolset for basic animated GIF editing
         - title: svgomg
           url: https://jakearchibald.github.io/svgomg?from=dy.199908.top
-          logo: images/graphic design/svgomg.png
+          logo: images/图文设计/SVGOMG.png
           description: SVG在线压缩平台
 
     - name: 配色工具
       links:
         - title: adobe色卡
-          logo: images/graphic design/AdobeColorCC.png
+          logo: images/图文设计/Adobe色卡.png
           url: https://color.adobe.com/zh/create/color-wheel?from=dy.199908.top
           description: adobe色卡
         - title: 配色网站
-          logo: images/graphic design/colorhunt.png
+          logo: images/图文设计/配色网站.png
           url: https://colordrop.io?from=dy.199908.top
           description: 配色网站  
 
@@ -1553,19 +1554,19 @@
       links:
         - title: OfficePLUS
           url: http://www.officeplus.cn/Template/Home.shtml?from=dy.199908.top
-          logo: images/graphic design/officeplus.png
+          logo: images/图文设计/OfficePLUS.png
           description: OfficePLUS，微软Office官方在线模板网站！
         - title: 优品PPT
           url: http://www.ypppt.com?from=dy.199908.top
-          logo: images/graphic design/ypppt.png
+          logo: images/图文设计/优品PPT.png
           description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
         - title: tretars
           url: http://www.tretars.com/ppt-templates?from=dy.199908.top
-          logo: images/graphic design/tretars.png
+          logo: images/图文设计/Tretars.png
           description: The best free Mockups from the Web
         - title: 5百丁
           url: http://ppt.500d.me?from=dy.199908.top
-          logo: images/graphic design/500d.png
+          logo: images/图文设计/5百丁.png
           description: 中国领先的PPT模板共享平台
 
 - taxonomy: 图标字体
@@ -1578,54 +1579,54 @@
     - name: 图标库
       links:
         - title: iconfont
-          logo: images/icon font/iconfont.png
+          logo: images/图标字体/iconfont.png
           url: http://www.iconfont.cn?from=dy.199908.top
           description: 阿里巴巴矢量图标库
         - title: Iconfinder
-          logo: images/icon font/Iconfinder.png
+          logo: images/图标字体/Iconfinder.png
           url: https://www.iconfinder.com?from=dy.199908.top
           description: 2,100,000+ free and premium vector icons
         - title: iconmonstr
-          logo: images/icon font/iconmonstr.png
+          logo: images/图标字体/Iconmonstr.png
           url: https://iconmonstr.com?from=dy.199908.top
           description: Free simple icons for your next project
         - title: Icon Archive
-          logo: images/icon font/iconarchive.png
+          logo: images/图标字体/IconArchive.png
           url: http://www.iconarchive.com?from=dy.199908.top
           description: Search 590,912 free icons
         - title: FindIcons
-          logo: images/icon font/FindIcons.png
+          logo: images/图标字体/Iconfinder.png
           url: https://findicons.com?from=dy.199908.top
           description: Search through 300,000 free icons
         - title: flaticon
-          logo: images/icon font/flaticon.png
+          logo: images/图标字体/Flaticon.png
           url: https://www.flaticon.com?from=dy.199908.top
           description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format
         - title: UICloud
-          logo: images/icon font/UICloud.png
+          logo: images/图标字体/UICloud.png
           url: http://ui-cloud.com?from=dy.199908.top
           description: The largest user interface design database in the world
         - title: Material icons
-          logo: images/icon font/Materialicons.png
+          logo: images/图标字体/MaterialIcons.png
           url: https://material.io/icons?from=dy.199908.top
           description: Access over 900 material system icons
         - title: Font Awesome Icon
-          logo: images/icon font/fontawesomeicon.png
+          logo: images/图标字体/FontAwesome.png
           url: https://fontawesome.com/icons?from=dy.199908.top
           description: The complete set of 675 icons in Font Awesome
         - title: ion icons
-          logo: images/icon font/ionicons.png
+          logo: images/图标字体/IonIcons.png
           url: http://ionicons.com?from=dy.199908.top
           description: The premium icon font for Ionic Framework
         - title: Simpleline Icons
-          logo: images/icon font/simplelineicons.png
+          logo: images/图标字体/SimplelineIcons.png
           url: http://simplelineicons.com?from=dy.199908.top
           description: Simple line Icons pack
 
     - name: 图标生成
       links:
         - title: IcoMoonApp
-          logo: images/icon font/IcoMoonApp.png
+          logo: images/图标字体/IcoMoonApp.png
           url: https://icomoon.io/app?from=dy.199908.top
           description: Icon Font, SVG, PDF & PNG Generator
 
@@ -1633,43 +1634,43 @@
       links:
         - title: Google Font
           url: https://fonts.google.com?from=dy.199908.top
-          logo: images/icon font/googlefont.png
+          logo: images/图标字体/GoogleFont.png
           description: Making the web more beautiful, fast, and open through great typography
         - title: Typekit
           url: https://typekit.com?from=dy.199908.top
-          logo: images/icon font/typekit.png
+          logo: images/图标字体/Typekit.png
           description: Quality fonts from the world's best foundries
         - title: 方正字库
           url: http://www.foundertype.com?from=dy.199908.top
-          logo: images/icon font/Fondertype.png
+          logo: images/图标字体/方正字库.png
           description: 方正字库官方网站
         - title: 字体传奇网
           url: http://ziticq.com?from=dy.199908.top
-          logo: images/icon font/ziticq.png
+          logo: images/图标字体/字体传奇网.png
           description: 中国首个字体品牌设计师交流网
         - title: 私藏字体
           url: http://sicangziti.com?from=dy.199908.top
-          logo: images/icon font/sicangziti.png
+          logo: images/图标字体/私藏字体.png
           description: 优质字体免费下载站
         - title: Fontsquirrel
           url: https://www.fontsquirrel.com?from=dy.199908.top
-          logo: images/icon font/fontsquirrel.png
+          logo: images/图标字体/Fontsquirrel.png
           description: FREE fonts for graphic designers
         - title: Urban Fonts
           url: https://www.urbanfonts.com?from=dy.199908.top
-          logo: images/icon font/UrbanFonts.png
+          logo: images/图标字体/UrbanFonts.png
           description: Download Free Fonts and Free Dingbats
         - title: Lost Type
           url: http://www.losttype.com?from=dy.199908.top
-          logo: images/icon font/losttype.png
+          logo: images/图标字体/LostType.png
           description: Lost Type is a Collaborative Digital Type Foundry
         - title: FONTS2U
           url: https://fonts2u.com?from=dy.199908.top
-          logo: images/icon font/fonts2u.png
+          logo: images/图标字体/Fonts2u.png
           description: Download free fonts for Windows and Macintosh
         - title: Da Font
           url: https://www.dafont.com?from=dy.199908.top
-          logo: images/icon font/dafont.png
+          logo: images/图标字体/DaFont.png
           description: Archive of freely downloadable fonts
 
 - taxonomy: 联系我们
@@ -1683,22 +1684,22 @@
     - name: 微信客服
       links:
         - title: 微信客服
-          logo: images/TLS/Wechat.jpg
+          logo: images/联系我们/Wechat.jpg
           url: https://www.nodeimage.com/i/32451/KTcD1Tnp3WNR5XeGsc0yd3nSh4bLOEOx.png?from=dy.199908.top
     - name: 抖音客服
       links:
         - title: 抖音客服
-          logo: images/TLS/douyin.jpg
+          logo: images/联系我们/douyin.jpg
           url: https://v.douyin.com/OHq9e7844u8?from=dy.199908.top
     - name: 飞书客服
       links:
         - title: 飞书客服
-          logo: images/TLS/feishu.jpg
+          logo: images/联系我们/feishu.jpg
           url: https://www.nodeimage.com/i/32451/WqUooZnM3WNR5WkCsc0yRs9SO94tsAHz.png?from=dy.199908.top
     - name: 开源仓库
       links:
         - title: Github
-          logo: images/TLS/github.jpg
+          logo: images/联系我们/github.jpg
           url: https://github.com/TLS-802?from=dy.199908.top
 
 - taxonomy: 友情链接
