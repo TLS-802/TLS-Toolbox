@@ -704,11 +704,11 @@
           logo: images/快捷导航/亚马逊.png
           url: https://www.amazon.com?from=dy.199908.top
           description: 全球最大的电商平台之一，属于亚马逊公司旗下的跨境电商平台。
-                  - title: 阿里国际站
+        - title: 阿里国际站
           logo: images/电商辅助/阿里巴巴.png
           url: https://www.alibaba.com?from=dy.199908.top
           description: 阿里巴巴旗下的跨境电商平台，属于阿里巴巴集团旗下的跨境电商平台。
-                  - title: 阿里国际站卖家后台
+        - title: 阿里国际站卖家后台
           logo: images/电商辅助/阿里巴巴.png
           url: https://supplier.alibaba.com?from=dy.199908.top
           description: 阿里巴巴旗下的跨境电商平台卖家后台
@@ -764,11 +764,11 @@
           logo: images/快捷导航/Shopee.png
           url: https://seller.ozon.ru?from=dy.199908.top
           description: 俄罗斯最大的电子商务平台之一
-                  - title: 沃尔玛
+        - title: 沃尔玛
           logo: images/快捷导航/亚马逊.png
           url: https://www.walmart.com?from=dy.199908.top
           description: 沃尔玛全球电商平台
-                  - title: 沃尔玛跨境
+        - title: 沃尔玛跨境
           logo: images/快捷导航/亚马逊.png
           url: https://seller.walmart.com?from=dy.199908.top
           description: 沃尔玛全球电商平台商家入驻
