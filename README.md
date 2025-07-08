@@ -8,58 +8,106 @@
 - 分类整理的电商工具资源，包括商家软件、电商辅助、直播辅助等
 - 内置搜索功能，支持拼音搜索
 - 支持亮色/暗色模式切换
-- 提供多种实用工具，如补单计算器、千川计算器等
+- 提供多种实用工具，如补单计算器、千川ROI计算器等
 - 响应式设计，适配各种设备
 
 ### 项目结构
 
 ```
 /
-├── archetypes/               # Hugo内容模板目录
-│   └── default.md            # 默认内容模板
-├── content/                  # 内容目录
-│   ├── about.md              # "关于"页面内容
-│   ├── sub1.md               # 子页面1内容
-│   └── sub2.md               # 子页面2内容
-├── data/                     # 数据目录
-│   └── webstack.yml          # 主页导航网址数据配置
-├── layouts/                  # 布局模板目录
-│   ├── _default/             # 默认布局模板
-│   ├── nav/                  # 导航相关布局模板
-│   ├── index.html            # 主页布局
-│   ├── search.html           # 搜索页面布局
-│   └── 404.html              # 404错误页面
-├── static/                   # 静态资源目录
-│   ├── css/                  # CSS样式文件
-│   ├── js/                   # JavaScript文件
-│       ├── budan.js          # 补单计算器脚本
-│       ├── roi.js            # 千川ROI计算器脚本
-│       └── nav.js            # 导航功能脚本
-│   ├── pages/                # 静态页面
-│       ├── budan.html        # 补单计算器页面
-│       └── roi.html          # 千川ROI计算器页面
-│   ├── webfonts/             # 网页字体
-│   ├── _headers              # Netlify/Vercel自定义HTTP头
-│   ├── _redirects            # Netlify/Vercel重定向规则
-│   └── images/               # 图片资源目录
-│       ├── Merchant background/  # 商家背景图片
-│       ├── E-commerce plug-in/   # 电商插件图标
-│       ├── Live broadcast software/ # 直播软件图标
-│       ├── qrcodes/          # 二维码图片
-│       ├── favicon.png       # 网站图标
-│       └── logo.png          # 网站logo
-├── hugo.toml                 # Hugo配置文件
-├── LICENSE                   # 许可证文件
-└── README.md                 # 项目说明文档
+├── archetypes/                      # Hugo内容模板目录
+│   └── default.md                   # 默认内容模板
+├── content/                         # 内容目录
+│   ├── about.md                     # "关于"页面内容
+│   ├── sub1.md                      # 电商黑科技内容页
+│   └── sub2.md                      # 辅助内容页
+├── data/                            # 数据目录
+│   └── webstack.yml                 # 主页导航网址数据配置
+├── layouts/                         # 布局模板目录
+│   ├── _default/                    # 默认布局模板
+│   │   └── single.html              # 单页布局
+│   ├── nav/                         # 导航相关布局模板
+│   │   └── single.html              # 导航单页布局
+│   ├── index.html                   # 主页布局
+│   ├── search.html                  # 搜索页面布局
+│   └── 404.html                     # 404错误页面
+├── static/                          # 静态资源目录
+│   ├── css/                         # CSS样式文件
+│   │   ├── bootstrap.css            # Bootstrap框架CSS
+│   │   ├── brands.min.css           # 品牌图标CSS
+│   │   ├── budan.css                # 补单计算器样式
+│   │   ├── font-awesome.min.css     # Font Awesome图标
+│   │   ├── nav.css                  # 导航栏样式
+│   │   ├── roi.css                  # ROI计算器样式
+│   │   ├── social.css               # 社交分享样式
+│   │   └── tabs.css                 # 标签页样式
+│   ├── js/                          # JavaScript文件
+│   │   ├── bootstrap.min.js         # Bootstrap框架JS
+│   │   ├── budan.js                 # 补单计算器脚本
+│   │   ├── jquery-1.11.1.min.js     # jQuery库
+│   │   ├── lazyload.min.js          # 图片懒加载脚本
+│   │   ├── local-search.js          # 本地搜索功能
+│   │   ├── nav.js                   # 导航功能脚本
+│   │   ├── pinyin-pro-3.19.0.min.js # 拼音搜索支持
+│   │   ├── roi.js                   # 千川ROI计算器脚本
+│   │   ├── social.js                # 社交分享脚本
+│   │   ├── tabs.js                  # 标签页切换脚本
+│   │   └── TweenMax.min.js          # 动画效果库
+│   ├── pages/                       # 静态页面
+│   │   ├── budan.html               # 补单计算器页面
+│   │   └── roi.html                 # 千川ROI计算器页面
+│   ├── webfonts/                    # 网页字体
+│   │   ├── fa-brands-400.ttf        # Font Awesome品牌字体
+│   │   ├── fa-brands-400.woff2      # Font Awesome品牌字体(woff2)
+│   │   ├── fa-regular-400.ttf       # Font Awesome常规字体
+│   │   ├── fa-regular-400.woff2     # Font Awesome常规字体(woff2)
+│   │   ├── fa-solid-900.ttf         # Font Awesome实心字体
+│   │   ├── fa-solid-900.woff2       # Font Awesome实心字体(woff2)
+│   │   ├── fa-v4compatibility.ttf   # Font Awesome v4兼容字体
+│   │   └── fa-v4compatibility.woff2 # Font Awesome v4兼容字体(woff2)
+│   ├── _headers                     # Netlify/Vercel自定义HTTP头
+│   ├── _redirects                   # Netlify/Vercel重定向规则
+│   └── images/                      # 图片资源目录
+│       ├── 图文设计/                # 图文设计工具图标
+│       ├── 图标字体/                # 图标字体资源图标
+│       ├── 广告投放/                # 广告投放平台图标
+│       ├── 快捷导航/                # 主要电商平台图标
+│       ├── 数据分析/                # 数据分析工具图标
+│       ├── 电商辅助/                # 电商辅助工具图标
+│       ├── 视频编辑/                # 视频编辑工具图标
+│       ├── 联系我们/                # 联系方式图标
+│       ├── 设计软件/                # 设计软件图标
+│       ├── 站点图标.png             # 网站图标
+│       ├── 驼铃标志.jpg             # 驼铃标志
+│       └── 驼铃标志1.jpg            # 驼铃标志(备用)
+├── hugo.toml                        # Hugo配置文件
+├── LICENSE                          # 许可证文件
+└── README.md                        # 项目说明文档
 ```
 
 ### 核心功能
 
-1. **网址导航**: 通过`data/webstack.yml`配置的分类导航链接
-2. **工具集成**: 内置补单计算器、千川ROI计算器等实用工具
-3. **搜索功能**: 支持网站内容搜索，可选启用拼音搜索
-4. **暗色模式**: 支持亮色/暗色主题切换
-5. **响应式设计**: 适配PC端和移动端
+1. **网址导航**: 
+   - 通过`data/webstack.yml`配置的分类导航链接
+   - 支持多种分类展示，包括常用工具、快捷导航、图文设计等
+   - 每个导航项包含标题、图标、链接和描述
+
+2. **实用工具**:
+   - **补单计算器**: 帮助电商卖家计算提升店铺各项指标所需的补单数量
+   - **千川ROI计算器**: 包含商家ROI、达人佣金和店铺利润三种模式，支持不同平台投放策略计算
+
+3. **搜索功能**: 
+   - 支持网站内容快速搜索
+   - 集成拼音搜索功能，支持拼音首字母匹配
+   - 实时搜索结果展示
+
+4. **主题模式**: 
+   - 支持亮色/暗色主题切换，优化不同环境下的浏览体验
+   - 可在配置中设置默认主题模式
+
+5. **响应式设计**: 
+   - 适配PC端和移动端不同屏幕尺寸
+   - 移动端优化的导航和交互体验
 
 ### 使用方法
 
