@@ -1,0 +1,657 @@
+/* 补单计算器样式 */
+:root {
+    --primary-color: #007bff;  /* 主要颜色 */
+    --primary-hover-color: #0056b3;  /* 鼠标悬停时的主要颜色 */
+    --text-dark: #212529;  /* 深色文本颜色 */
+    --text-medium: #495057;  /* 中等文本颜色 */
+    --text-light: #6c757d;  /* 浅色文本颜色 */
+    --border-color: #dee2e6;  /* 边框颜色 */
+    --input-border-color: #ced4da;  /* 输入框边框颜色 */
+    --background-light: #f1f3f5;  /* 浅色背景 */
+    --background-section: #f8f9fa;  /* 区块背景 */
+    --background-white: #ffffff;  /* 白色背景 */
+    --success-bg: #d4edda;  /* 成功背景色 */
+    --success-border: #c3e6cb;  /* 成功边框色 */
+    --success-text: #155724;  /* 成功文本色 */
+    --error-bg: #f8d7da;  /* 错误背景色 */
+    --error-border: #f5c6cb;  /* 错误边框色 */
+    --error-text: #721c24;  /* 错误文本色 */
+    --button-secondary-bg: #e9ecef;  /* 次要按钮背景 */
+    --button-secondary-hover-bg: #dee2e6;  /* 次要按钮悬停背景 */
+    --button-secondary-text: #495057;  /* 次要按钮文本色 */
+}
+
+html {
+  box-sizing: border-box; /* 全局 box-sizing */
+}
+*, *::before, *::after {
+  box-sizing: inherit; /* 继承全局 box-sizing */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+}
+
+/* --- 布局与容器 --- */
+.wrapper {
+    padding: 20px;
+    background-color: var(--background-light);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container { /* main 元素会使用这个类 */
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--background-white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border: 1px solid var(--border-color);
+}
+
+/* 防止卡片背景大小变化，但保持与规则中心卡片一致 */
+.platform-specific-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    max-width: 100%;
+}
+
+.metric-section {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.result {
+    padding: 12px 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    display: block;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.result.hidden {
+    display: none;
+}
+
+.result.success {
+    background-color: var(--success-bg);
+    border-color: var(--success-border);
+    color: var(--success-text);
+}
+
+.result.error {
+    background-color: var(--error-bg);
+    border-color: var(--error-border);
+    color: var(--error-text);
+}
+
+.result strong {
+    font-weight: 700;
+}
+
+.result.error strong {
+    color: inherit;
+}
+
+/* --- 排版 --- */
+h1 {
+    color: var(--text-dark);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.container > p { /* 应用于 main 下的直接子 p 元素 */
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 25px;
+    font-size: 1em;
+}
+
+h2 {
+    color: var(--primary-hover-color);
+    border-bottom: 2px solid var(--primary-hover-color);
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+small {
+    display: block;
+    color: var(--text-light);
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* --- 区块 --- */
+.metric-section, .selector-group { /* section 元素会使用这些类 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: var(--background-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+}
+
+.selector-group {
+     background-color: var(--background-section);
+}
+
+.platform-specific-container {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.metric-sections-wrapper {
+    /* No specific styles needed for now, acts as a container */
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* 防止选择指标后容器放大 */
+.metric-section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.selector-group select {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* 确保平台容器尺寸一致 */
+#platformMetricContainer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+/* 确保隐藏的元素不会影响容器大小 */
+.hidden, 
+.metric-section.hidden, 
+.platform-specific-container.hidden {
+    display: none !important;
+}
+
+/* 表单行和表单组 */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group {
+    flex: 0 0 calc(50% - 10px);
+    min-width: 150px;
+    position: relative;
+}
+
+/* 确保两列布局 */
+.form-row .form-group {
+    width: calc(50% - 10px);
+    flex: 0 0 calc(50% - 10px);
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* 当只有一个表单组时占据整行 */
+.form-row > .form-group:only-child {
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 输入框样式 */
+input[type="number"], select {
+    display: block;
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background-color: var(--background-white);
+    background-clip: padding-box;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: 40px; /* 统一高度为40px */
+    box-sizing: border-box;
+}
+
+/* 下拉选择框特定样式 */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23495057' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 8px 10px;
+    padding-right: 25px;
+}
+
+/* 输入框焦点样式 */
+input[type="number"]:focus, select:focus {
+    color: var(--text-dark);
+    background-color: var(--background-white);
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* 输入框组 */
+.input-group {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.input-group input[type="number"] {
+    flex: 1 1 auto;
+    width: 1%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* 输入框添加单位 */
+.input-group-addon {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-medium);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--button-secondary-bg);
+    border: 1px solid var(--input-border-color);
+    border-left: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-sizing: border-box;
+    height: 40px; /* 修改为与输入框一致的高度 */
+}
+
+/* 计算按钮样式 */
+.calc-button {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: var(--platform-color, var(--primary-color));
+    border-color: var(--platform-color, var(--primary-color));
+    cursor: pointer;
+    width: 100%;
+    height: 38px; /* 确保与输入框高度一致 */
+}
+
+.calc-button:hover {
+    opacity: 0.9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calc-button:active {
+    opacity: 0.8;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.selector-group label { /* Applies to platform selection and metric selection labels */
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--text-dark);
+    font-size: 1rem;
+}
+
+/* 平台按钮容器 */
+.platform-buttons-container {
+    width: 100%;
+}
+
+.platform-buttons-container > label { /* The "请选择您要计算的平台:" label */
+    font-weight: 500;
+    color: var(--text-medium);
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.platform-buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* 平台按钮样式 */
+.platform-button {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 8px 12px;
+    background-color: var(--background-white);
+    color: var(--text-dark);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    flex: 1 1 calc(16.666% - 10px);
+    min-width: 80px;
+    text-align: center;
+    margin-bottom: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--platform-color, var(--primary-color));
+    transition: height 0.2s ease;
+}
+
+.platform-button:hover {
+    border-color: var(--platform-color, var(--primary-color));
+    box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+}
+
+.platform-button.active {
+    background-color: var(--platform-color, var(--primary-color));
+    color: white;
+    border-color: var(--platform-color, var(--primary-color));
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.platform-button.active:before {
+    height: 0;
+}
+
+/* 时间输入组 */
+.time-input-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.time-input-group .form-group {
+    flex: 1 1 80px;
+    min-width: 80px;
+}
+
+.time-input-group label { /* Label for hour/minute/second */
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.time-input-group input[type="number"] {
+    text-align: center;
+}
+
+.time-unit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    padding: 0 5px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 1rem;
+    color: var(--text-medium);
+    font-weight: 500;
+}
+
+/* 页脚样式 */
+.footer-section { /* footer 元素会使用这个类 */
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-light);
+}
+
+.footer-section h5 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text-medium);
+}
+
+.footer-section p {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.footer-section a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: var(--primary-hover-color);
+}
+
+/* 其他样式 */
+.calculation-button-card {
+    display: none; /* 不再使用此类 */
+}
+
+/* 移动端自适应布局 */
+@media (max-width: 768px) {
+    .form-row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    .form-group {
+        flex: 0 0 calc(50% - 8px);
+        min-width: 0;
+        width: calc(50% - 8px);
+    }
+    
+    /* 确保每行始终显示两个输入项 */
+    .form-row .form-group {
+        width: calc(50% - 8px);
+        flex: 0 0 calc(50% - 8px);
+        margin: 0;
+    }
+
+    /* 计算按钮样式调整 */
+    .calc-button {
+        height: 38px;
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+    
+    /* 确保输入框和按钮对齐 */
+    .form-group input[type="number"],
+    .form-group .input-group,
+    .form-group .calc-button {
+        height: 38px;
+    }
+
+    /* 调整输入组适应移动端 */
+    .input-group {
+        height: 38px;
+    }
+
+    .input-group input[type="number"] {
+        height: 100%;
+    }
+
+    .input-group-addon {
+        height: 38px; /* 修改为与移动端输入框一致的高度 */
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-row {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+    }
+    
+    input[type="number"], 
+    select,
+    .calc-button {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+    
+    .input-group-addon {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+        height: 38px; /* 确保在小屏幕上高度一致 */
+    }
+}
+
+/* 确保在超小屏幕上保持两列布局 */
+@media (max-width: 375px) {
+    .form-group {
+        flex: 0 0 calc(50% - 5px);
+        width: calc(50% - 5px);
+    }
+    
+    .form-row {
+        gap: 10px;
+    }
+    
+    input[type="number"], 
+    select,
+    .calc-button {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
+    
+    .input-group-addon {
+        padding: 6px 8px;
+        font-size: 0.85rem;
+        height: 38px; /* 确保在超小屏幕上高度一致 */
+    }
+}
+
+/* 添加返回链接样式 */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out;
+}
+
+.back-link:hover {
+    color: var(--primary-hover-color);
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+/* 基本按钮样式 */
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 计算按钮行样式 */
+.calc-button-row {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.calc-button-row .form-group {
+    flex-basis: 100% !important;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .calc-button-row {
+        margin-top: 10px;
+    }
+    
+    .calc-button-row .form-group {
+        flex-basis: 100% !important;
+        width: 100%;
+    }
+}
+
+/* 确保选择指标框与输入框高度一致 */
+.selector-group select {
+    height: 40px; /* 确保与输入框高度一致 */
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+} 

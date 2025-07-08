@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>千川出价和利润计算器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/roi.css">
+    <link rel="stylesheet" href="../css/social.css">
+</head>
+
+<body class="bg-gray-100">
+    <main class="min-h-screen flex items-center justify-center p-3 sm:p-4 lg:p-6">
+        <div class="container max-w-6xl bg-white w-full mx-auto p-3 sm:p-5 rounded-xl shadow-lg border border-gray-200">
+            <header class="mb-4 sm:mb-6">
+                <a href="../index.html" class="inline-flex items-center text-blue-600 mb-4 hover:underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                    返回工具箱
+                </a>
+                <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-blue-700 mb-2 text-center">千川出价和利润计算器</h1>
+                <p class="text-gray-600 text-sm sm:text-base text-center">细化成本结构，助您科学决策，提升盈利！</p>
+            </header>
+
+            <div id="error-message" role="alert" class="hidden bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md relative mb-6 text-center text-sm"></div>
+
+            <section class="selector-group mb-6 sm:mb-8 p-4 border border-gray-200 rounded-lg bg-white" aria-labelledby="calculator-version-label">
+                <h2 id="calculator-version-label" class="block text-sm font-medium text-gray-700 mb-3">请选择您要计算的版本</h2>
+                <div class="platform-buttons-row flex gap-2 sm:gap-3 justify-center">
+                    <button class="platform-button flex-1 px-3 py-2 rounded-md text-sm font-medium shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition duration-150 ease-in-out whitespace-nowrap overflow-hidden text-ellipsis border-gray-300 bg-white" data-version="merchant">商家出价</button>
+                    <button class="platform-button flex-1 px-3 py-2 rounded-md text-sm font-medium shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition duration-150 ease-in-out whitespace-nowrap overflow-hidden text-ellipsis border-gray-300 bg-white" data-version="influencer">达人出价</button>
+                    <button class="platform-button flex-1 px-3 py-2 rounded-md text-sm font-medium shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition duration-150 ease-in-out whitespace-nowrap overflow-hidden text-ellipsis border-gray-300 bg-white" data-version="store_profit">店铺利润</button>
+                </div>
+            </section>
+
+            <section id="merchant_version_container" class="hidden" aria-labelledby="merchant-version-title-h">
+                <h3 id="merchant-version-title-h" class="sr-only">商家版计算器</h3>
+                <form id="merchant-roi-form" novalidate class="space-y-5">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3">
+                        <div>
+                            <label for="merchant-price" class="block text-sm font-medium text-gray-700 mb-1 text-left">商品售价
+                                <span class="tooltip info-icon">?<span class="tooltiptext">顾客实际支付的商品单价。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-price" name="merchant-price" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：100" min="0" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="merchant-product-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">采购成本
+                                <span class="tooltip info-icon">?<span class="tooltiptext">货品本身的直接成本，例如采购价或生产造价。</span></span>
+                            </label>
+                             <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-product-cost" name="merchant-product-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：50" min="0" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="merchant-shipping-costs" class="block text-sm font-medium text-gray-700 mb-1 text-left">快递费(含运费险)
+                                <span class="tooltip info-icon">?<span class="tooltiptext">每单发货的快递物流费及商家为该订单承担的运费险成本之和。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-shipping-costs" name="merchant-shipping-costs" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：5" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="merchant-refund-rate" class="block text-sm font-medium text-gray-700 mb-1 text-left">综合退货/退款率
+                                <span class="tooltip info-icon">?<span class="tooltiptext">预估订单的平均退货/退款比例(综合售前、售后)。此比例将影响实际结算收入和部分可变成本。</span></span>
+                            </label>
+                             <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-refund-rate" name="merchant-refund-rate" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：30" min="0" max="100" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="merchant-promo-commission-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">团队提成(含主播佣金)
+                                <span class="tooltip info-icon">?<span class="tooltiptext">支付给主播/达人/团队的推广佣金，按<strong class='text-amber-400'>商品售价</strong>的百分比计算。若无，则填0。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-promo-commission-cost" name="merchant-promo-commission-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：5" min="0" max="100" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="merchant-platform-fee" class="block text-sm font-medium text-gray-700 mb-1 text-left">平台技术服务费率
+                                 <span class="tooltip info-icon">?<span class="tooltiptext">平台对<strong class='text-amber-400'>实际成交金额(退款后)</strong>收取的交易佣金或技术服务费百分比。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-platform-fee" name="merchant-platform-fee" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：5" min="0" max="100" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div class="md:col-span-1">
+                            <label for="merchant-other-variable-costs" class="block text-sm font-medium text-gray-700 mb-1 text-left">其他成本
+                                <span class="tooltip info-icon">?<span class="tooltiptext">每售出一件商品产生的其他可变动成本，如包装费、耗材、首程物流分摊、操作费、小额货损等。不含退货处理费(如有特殊)。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="merchant-other-variable-costs" name="merchant-other-variable-costs" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：1.5" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-4 sm:pt-5">
+                        <button type="submit" class="calculate-button w-full sm:w-auto inline-flex justify-center py-2.5 px-6 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition duration-150 ease-in-out">一键计算(商家版)</button>
+                    </div>
+                </form>
+                <section id="merchant-result-area" class="result-area hidden mt-4 bg-gray-100 rounded-lg shadow-inner p-4 sm:p-6 space-y-6" aria-live="polite" aria-labelledby="merchant-results-heading-h">
+                    <h4 id="merchant-results-heading-h" class="sr-only">商家版计算结果</h4>
+                    <div>
+                        <h5 class="text-lg font-semibold text-red-700 border-b border-red-300 pb-2 mb-4 text-left">核心利润与ROI指标</h5>
+                        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-4">
+                            <p class="text-sm text-gray-700 text-left">毛利：<span id="merchant-estimated-gross-profit" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：商品售价 -(采购成本 + 快递费(含运费险) + 其他成本 +(商品售价 * 团队提成(含主播佣金率)%))。这是在不考虑退款和平台技术服务费情况下的毛利润。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">毛利率：<span id="merchant-gross-profit-margin" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：(毛利 / 商品售价) * 100%。反映了未扣除退款影响和平台费前的盈利能力。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">净利：<span id="merchant-settlement-net-profit" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：(商品售价 *(1 - 综合退货/退款率%)) -((采购成本 + 快递费(含运费险) + 其他成本 +(商品售价 * 团队提成(含主播佣金率)%)) *(1 - 综合退货/退款率%)) -(商品售价 *(1 - 综合退货/退款率%) * 平台技术服务费率%)。这是综合考虑退款和平台费用后，每售出一件商品的平均净利润。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">净利率：<span id="merchant-net-profit-margin" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：(净利 / 商品售价) * 100%。反映了扣除所有可变成本、退款影响和平台费后的最终盈利能力。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">预估ROI(基于毛利)：<span id="merchant-breakeven-roi-gross" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：1 /(毛利率 / 100)。广告投产比达到此值时，可覆盖总可变成本(不含退款及平台费影响)。</span></span>
+                            </p>
+                             <p class="text-sm text-gray-700 text-left">保本ROI(基于净利)：<span id="merchant-breakeven-roi-net" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：1 /(净利率 / 100)。广告投产比达到此值时，可覆盖所有可变成本并弥补退款和平台费用的影响，实现商品的盈亏平衡。这是衡量广告投放效益的关键指标。</span></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6">
+                        <div>
+                            <h5 class="text-md font-medium text-red-700 mb-3 border-b border-red-300 pb-1.5 text-left">随心推出价(基于净利)</h5>
+                             <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                <p class="text-sm text-gray-700 text-left">保守：<span id="merchant-sxt-conservative" class="font-semibold text-orange-500"></span>
+                                    <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的下限，通常为"净利"的0.8倍至1.0倍。</span></span></p>
+                                <p class="text-sm text-gray-700 text-left">激进：<span id="merchant-sxt-aggressive" class="font-semibold text-orange-500"></span>
+                                    <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的上限，通常为"净利"的1.2倍至1.5倍。</span></span></p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-md font-medium text-red-700 mb-3 border-b border-red-300 pb-1.5 text-left">千川出价(基于净利)</h5>
+                            <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                <p class="text-sm text-gray-700 text-left">保守：<span id="merchant-qc-conservative" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的下限，通常为"净利"的0.85倍至1.05倍。</span></span></p>
+                                <p class="text-sm text-gray-700 text-left">激进：<span id="merchant-qc-aggressive" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的上限，通常为"净利"的1.25倍至1.55倍。</span></span></p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-md font-medium text-red-700 mb-3 border-b border-red-300 pb-1.5 text-left">全域出价(基于保本ROI)</h5>
+                            <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                 <p class="text-sm text-gray-700 text-left">启动：<span id="merchant-qy-startup-roi" class="font-semibold text-orange-500"></span>
+                                 <span class="tooltip info-icon">?<span class="tooltiptext">新品或活动启动期建议ROI，通常为"保本ROI(基于净利)"的0.7倍至1.0倍。</span></span></p>
+                                 <p class="text-sm text-gray-700 text-left">稳妥：<span id="merchant-qy-stable-roi" class="font-semibold text-orange-500"></span>
+                                 <span class="tooltip info-icon">?<span class="tooltiptext">产品稳妥推广期建议ROI，通常为"保本ROI(基于净利)"的1.0倍至1.55倍。</span></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="text-md font-medium text-red-700 mb-3 border-b border-red-300 pb-1.5 text-left">纯佣合作出价(基于净利)</h5>
+                        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3">
+                            <p class="text-sm text-gray-700 text-left">0.8倍净利：<span id="merchant-pure-08" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">0.9倍净利：<span id="merchant-pure-09" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.0倍净利：<span id="merchant-pure-10" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.1倍净利：<span id="merchant-pure-11" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.2倍净利：<span id="merchant-pure-12" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.3倍净利：<span id="merchant-pure-13" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.4倍净利：<span id="merchant-pure-14" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.5倍净利：<span id="merchant-pure-15" class="font-semibold text-orange-500"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+                    <div class="p-3 bg-red-50 rounded-md mt-6 text-left">
+                        <h5 class="text-sm font-semibold text-red-700 mb-1">商家经营小贴士(千川ROI)</h5>
+                        <ul class="list-disc list-inside text-[0.625rem] sm:text-sm text-gray-700 space-y-0.5">
+                            <li><strong>成本明细：</strong>请确保准确计入各项可变成本。"其他成本"用于归集包装费等零散支出。</li>
+                            <li><strong>推广佣金：</strong>若有，请务必填写。它将直接影响净利润和各类出价参考。</li>
+                            <li><strong>退货影响：</strong>综合退货/退款率是关键。本计算器模型假设：退款发生时，部分可变成本(如货品、推广佣金)按比例减少，而平台费基于实际成交额计算。请注意，如您的退货成本处理方式不同(如运费险无法完全覆盖退货运费，或退回商品有残值)，实际净利可能存在差异。</li>
+                            <li><strong>固定成本：</strong>本计算器聚焦单品边际贡献。店铺整体盈利分析，请务必结合店铺利润计算器，全面考虑房租、固定薪酬等运营成本。</li>
+                            <li><strong>出价与ROI策略：</strong>所有出价和ROI参考均基于"净利"。"保本ROI(基于净利)"是理论盈亏平衡点。请根据您的推广目标(如追求销量、提升利润、新品测试)及各平台特性灵活调整出价策略与ROI目标。</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+            <section id="influencer_version_container" class="hidden" aria-labelledby="influencer-version-title-h">
+                 <h3 id="influencer-version-title-h" class="sr-only">达人版计算器</h3>
+                 <form id="influencer-roi-form" novalidate class="space-y-5">
+                     <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3">
+                        <div>
+                            <label for="influencer-price" class="block text-sm font-medium text-gray-700 mb-1 text-left">商品售价
+                                <span class="tooltip info-icon">? <span class="tooltiptext">推广商品在直播间或橱窗的实际销售单价。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-price" name="influencer-price" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：100" min="0" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-commission-rate" class="block text-sm font-medium text-gray-700 mb-1 text-left">约定佣金率
+                                <span class="tooltip info-icon">?<span class="tooltiptext">您与商家约定的、基于<strong class='text-amber-400'>商品售价</strong>的佣金百分比。这是您的主要收入来源。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-commission-rate" name="influencer-commission-rate" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：20" min="0" max="100" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-product-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">采购成本
+                                <span class="tooltip info-icon">?<span class="tooltiptext">如果推广模式为达人买断货品或承担货品成本，请在此填写成本。若不承担，则填0。</span></span>
+                            </label>
+                             <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-product-cost" name="influencer-product-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：0" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-refund-rate" class="block text-sm font-medium text-gray-700 mb-1 text-left">综合退货/退款率
+                                 <span class="tooltip info-icon">?<span class="tooltiptext">预估推广商品的平均退货/退款比例。这将直接影响您的实际结算佣金和部分成本(若由达人承担)。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-refund-rate" name="influencer-refund-rate" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：30" min="0" max="100" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-shipping-costs" class="block text-sm font-medium text-gray-700 mb-1 text-left">快递费(含运费险)
+                                <span class="tooltip info-icon">?<span class="tooltiptext">如果推广模式为达人负责发货并承担运费及运费险，请在此填写总和。若不承担，则填0。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-shipping-costs" name="influencer-shipping-costs" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：0" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-promo-commission-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">团队提成
+                                <span class="tooltip info-icon">?<span class="tooltiptext">(若有)支付给达人自己团队(如助播、场控)的提成，按<strong class='text-amber-400'>商品售价</strong>的百分比计算。若无，则填0。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-promo-commission-cost" name="influencer-promo-commission-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：0" min="0" max="100" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-platform-fee" class="block text-sm font-medium text-gray-700 mb-1 text-left">平台技术服务费率
+                                <span class="tooltip info-icon">?<span class="tooltiptext">平台从您的<strong class='text-amber-400'>约定佣金(非净佣)</strong>中扣除的技术服务费或抽成百分比。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-platform-fee" name="influencer-platform-fee" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：10" min="0" max="100" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="influencer-other-variable-costs" class="block text-sm font-medium text-gray-700 mb-1 text-left">其他成本
+                                <span class="tooltip info-icon">?<span class="tooltiptext">若达人需承担其他与销售相关的可变成本(如特殊包装、小礼物等)，请在此填写。若无，则填0。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="influencer-other-variable-costs" name="influencer-other-variable-costs" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-blue-500 focus:border-blue-500" placeholder="例如：0" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-3 sm:pt-4">
+                        <button type="submit" class="calculate-button w-full sm:w-auto inline-flex justify-center py-2.5 px-6 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-150 ease-in-out">一键计算(达人版)</button>
+                    </div>
+                </form>
+                 <section id="influencer-result-area" class="result-area hidden mt-4 bg-gray-100 rounded-lg shadow-inner p-4 sm:p-6 space-y-6" aria-live="polite" aria-labelledby="influencer-results-heading-h">
+                    <h4 id="influencer-results-heading-h" class="sr-only">达人版计算结果</h4>
+                    <div>
+                        <h5 class="text-lg font-semibold text-blue-700 border-b border-blue-300 pb-2 mb-4 text-left">核心佣金/利润与ROI指标</h5>
+                        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-3">
+                            <p class="text-sm text-gray-700 text-left">约定毛佣：<span id="influencer-gross-commission" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：商品售价 * 约定佣金率%。这是达人从每件售出商品(未退款时)中获得的初始佣金收入，未扣除任何费用或成本。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">毛佣率：<span id="influencer-gross-commission-rate" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：(约定毛佣 / 商品售价) * 100%。反映了未扣除任何费用或成本前的初始佣金占售价的比例。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">净佣：<span id="influencer-net-settlement-commission" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">综合考虑平台抽成、达人自身承担成本以及退款影响后，达人每推广售出一件商品(按原售价计)的平均净收益。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">净佣率：<span id="influencer-net-commission-rate" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：(净佣 / 商品售价) * 100%。反映了综合考虑各项扣费和成本后，达人实际获得的净佣占售价的比例。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">预估ROI(基于毛佣)：<span id="influencer-breakeven-roi-gross" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：商品售价 / 约定毛佣。广告投产比达到此值时，广告花费等于达人获得的毛佣。</span></span>
+                            </p>
+                            <p class="text-sm text-gray-700 text-left">保本ROI(基于净佣)：<span id="influencer-breakeven-roi-net" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">计算公式：商品售价 / 净佣。广告投产比达到此值时，广告花费等于达人获得的净佣。这是达人衡量广告投放效益的关键指标。</span></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6">
+                        <div>
+                            <h5 class="text-md font-medium text-blue-700 mb-3 border-b border-blue-300 pb-1.5 text-left">随心推出价(基于净佣)</h5>
+                            <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                <p class="text-sm text-gray-700 text-left">保守：<span id="influencer-sxt-conservative" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的下限，通常为"净佣"的0.8倍至1.0倍。</span></span></p>
+                                <p class="text-sm text-gray-700 text-left">激进：<span id="influencer-sxt-aggressive" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的上限，通常为"净佣"的1.2倍至1.5倍。</span></span></p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-md font-medium text-blue-700 mb-3 border-b border-blue-300 pb-1.5 text-left">千川出价(基于净佣)</h5>
+                            <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                <p class="text-sm text-gray-700 text-left">保守：<span id="influencer-qc-conservative" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的下限，通常为"净佣"的0.85倍至1.05倍。</span></span></p>
+                                <p class="text-sm text-gray-700 text-left">激进：<span id="influencer-qc-aggressive" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">建议出价范围的上限，通常为"净佣"的1.25倍至1.55倍。</span></span></p>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-md font-medium text-blue-700 mb-3 border-b border-blue-300 pb-1.5 text-left">全域出价(基于保本ROI)</h5>
+                            <div class="grid grid-cols-2 gap-2 sm:block sm:space-y-2">
+                                <p class="text-sm text-gray-700 text-left">启动：<span id="influencer-qy-startup-roi" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">新品或活动启动期建议ROI，通常为"保本ROI(基于净佣)"的0.7倍至1.0倍。</span></span></p>
+                                <p class="text-sm text-gray-700 text-left">稳妥：<span id="influencer-qy-stable-roi" class="font-semibold text-orange-500"></span>
+                                <span class="tooltip info-icon">?<span class="tooltiptext">产品稳妥推广期建议ROI，通常为"保本ROI(基于净佣)"的1.0倍至1.55倍。</span></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h5 class="text-md font-medium text-blue-700 mb-3 border-b border-blue-300 pb-1.5 text-left">纯佣合作出价(基于净佣)</h5>
+                        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3">
+                            <p class="text-sm text-gray-700 text-left">0.8倍净佣：<span id="influencer-pure-08" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">0.9倍净佣：<span id="influencer-pure-09" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.0倍净佣：<span id="influencer-pure-10" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.1倍净佣：<span id="influencer-pure-11" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.2倍净佣：<span id="influencer-pure-12" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.3倍净佣：<span id="influencer-pure-13" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.4倍净佣：<span id="influencer-pure-14" class="font-semibold text-orange-500"></span></p>
+                            <p class="text-sm text-gray-700 text-left">1.5倍净佣：<span id="influencer-pure-15" class="font-semibold text-orange-500"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+                     <div class="p-3 bg-blue-50 rounded-md mt-6 text-left">
+                        <h5 class="text-sm font-semibold text-blue-700 mb-1">达人合作小贴士(千川ROI)</h5>
+                        <ul class="list-disc list-inside text-[0.625rem] sm:text-sm text-gray-700 space-y-0.5">
+                            <li><strong>选品策略：</strong>优先选择与您定位及粉丝群体高度匹配、且具备高转化和低退货潜力的商品。</li>
+                            <li><strong>服务费模式：</strong>若合作模式为固定服务费而非纯佣金，可将服务费按预估GMV(商品交易总额)折算为等效佣金率(服务费 / 预估GMV)，然后代入本计算器进行估算。</li>
+                            <li><strong>自身运营成本：</strong>如您有直播设备折旧、场地租赁、助理薪酬等额外运营成本，需在计算出的"净佣"基础上另行核算分摊，以评估最终实际盈利。</li>
+                            <li><strong>达人承担成本：</strong>若您需承担货品、物流、团队提成等成本，请务必准确填写，这些将直接影响您的净佣及广告出价参考。</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+            <section id="store_profit_version_container" class="hidden" aria-labelledby="store-profit-version-title-h">
+                <h3 id="store-profit-version-title-h" class="sr-only">店铺利润计算器</h3>
+                <form id="store-profit-form" novalidate class="space-y-5">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-3 mb-6">
+                        <div>
+                            <label for="store-revenue" class="block text-sm font-medium text-gray-700 mb-1 text-left">总营业额(扣除退款)
+                                <span class="tooltip info-icon">?<span class="tooltiptext">统计周期内，扣除所有退款后的实际销售总收入。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-revenue" name="store-revenue" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如：150000" min="0" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="store-avg-salary" class="block text-sm font-medium text-gray-700 mb-1 text-left">员工总薪酬
+                                <span class="tooltip info-icon">?<span class="tooltiptext">统计周期内所有员工的总薪资、奖金、社保、公积金等福利支出。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-avg-salary" name="store-avg-salary" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如：10000" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="store-product-dispatch-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">已售商品总采购成本
+                                <span class="tooltip info-icon">?<span class="tooltiptext">统计周期内，所有实际售出(未退款)商品的采购成本或生产成本总和。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-product-dispatch-cost" name="store-product-dispatch-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如：57000" min="0" step="any" required>
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="store-platform-commission-rate" class="block text-sm font-medium text-gray-700 mb-1 text-left">平台技术服务费率
+                                <span class="tooltip info-icon">?<span class="tooltiptext">平台对<strong class='text-amber-400'>总营业额(退款后)</strong>收取的总佣金或服务费百分比。</span></span>
+                            </label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-platform-commission-rate" name="store-platform-commission-rate" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如：5" min="0" max="100" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">%</span>
+                            </div>
+                        </div>
+                        <div> <label for="store-shipping-total-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">总快递费(含运费险)<span class="tooltip info-icon">?<span class="tooltiptext">包含卖家承担的发货快递费、弥补买家的运费、总运费险等所有与物流相关的总支出。</span></span></label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-shipping-total-cost" name="store-shipping-total-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如: 8000" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="store-marketing-total-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">总营销费用(投流+物料)<span class="tooltip info-icon">?<span class="tooltiptext">包含广告投放、内容制作、营销活动物料、赠品采购等所有营销相关的总支出。</span></span></label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-marketing-total-cost" name="store-marketing-total-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如: 6500" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="store-operations-total-cost" class="block text-sm font-medium text-gray-700 mb-1 text-left">总运营费用(房租水电)<span class="tooltip info-icon">?<span class="tooltiptext">包含房租水电、办公用品、通讯、差旅、培训、税务(非销售税)、折旧摊销等日常运营管理相关的总支出。</span></span></label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-operations-total-cost" name="store-operations-total-cost" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如: 7500" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                         <div>
+                            <label for="store-other-total-costs" class="block text-sm font-medium text-gray-700 mb-1 text-left">其他总费用<span class="tooltip info-icon">?<span class="tooltiptext">其他未在上述类别中列出的周期性总支出。</span></span></label>
+                            <div class="flex rounded-md shadow-sm">
+                                <input type="number" id="store-other-total-costs" name="store-other-total-costs" class="form-input flex-1 block w-full rounded-none rounded-l-md text-base py-2 px-3 border border-r-0 border-gray-400 focus:ring-green-500 focus:border-green-500" placeholder="例如: 0" min="0" step="any">
+                                <span class="inline-flex items-center px-2 sm:px-3 rounded-r-md border border-l-0 border-gray-400 bg-gray-100 text-gray-600 text-[0.625rem] sm:text-sm">元</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center pt-4 sm:pt-6">
+                        <button type="submit" class="calculate-button w-full sm:w-auto inline-flex justify-center py-2.5 px-6 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition duration-150 ease-in-out">一键计算(店铺利润)</button>
+                    </div>
+                </form>
+
+                <section id="store-profit-result-area" class="result-area hidden mt-6 bg-gray-100 rounded-lg shadow-inner p-4 sm:p-6 space-y-6" aria-live="polite" aria-labelledby="store-profit-results-heading-h">
+                    <h4 id="store-profit-results-heading-h" class="text-xl font-semibold text-green-700 border-b-2 border-green-300 pb-3 mb-5 text-center">店铺利润计算结果</h4>
+                    <div class="flex flex-wrap justify-around gap-4 mb-6">
+                        <div class="flex-1 min-w-[180px] sm:min-w-[200px] bg-white p-3 sm:p-4 rounded-lg shadow text-center">
+                            <h5 class="text-sm sm:text-md font-semibold text-green-700 mb-1">总营业额(扣除退款)</h5>
+                            <p class="text-xl sm:text-2xl text-gray-800 font-bold text-green-600"><span id="sp-total-revenue"></span> 元</p>
+                        </div>
+                        <div class="flex-1 min-w-[180px] sm:min-w-[200px] bg-white p-3 sm:p-4 rounded-lg shadow text-center">
+                            <h5 class="text-sm sm:text-md font-semibold text-red-700 mb-1">总成本支出</h5>
+                            <p class="text-xl sm:text-2xl text-gray-800 font-bold text-red-600"><span id="sp-total-all-costs"></span> 元</p>
+                        </div>
+                        <div class="flex-1 min-w-[180px] sm:min-w-[200px] bg-white p-3 sm:p-4 rounded-lg shadow text-center">
+                            <h5 class="text-sm sm:text-md font-bold text-green-800 mb-1">店铺净利润</h5>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-green-600"><span id="sp-net-profit"></span> 元</p>
+                            <p class="text-[0.625rem] sm:text-sm text-gray-600 mt-1">整体净利润率: <span id="sp-overall-profit-margin" class="font-semibold"></span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h5 class="text-lg font-semibold text-green-700 border-b border-green-300 pb-2 mb-4 text-left">各项成本明细(占总营业额百分比)</h5>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>人力成本 = <span id="sp-total-labor-cost" class="font-semibold"></span> 元</span>
+                                <span id="sp-labor-cost-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                             <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>已售商品采购/生产成本 = <span id="sp-total-product-cost" class="font-semibold"></span> 元</span>
+                                <span id="sp-product-cost-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>物流成本 = <span id="sp-total-logistics-cost" class="font-semibold"></span> 元</span>
+                                <span id="sp-logistics-cost-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>营销费用 = <span id="sp-total-marketing-cost" class="font-semibold"></span> 元</span>
+                                <span id="sp-marketing-cost-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                             <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>平台技术服务费 = <span id="sp-total-platform-fee" class="font-semibold"></span> 元</span>
+                                <span id="sp-platform-fee-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                            <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>运营管理费用 = <span id="sp-total-operations-cost" class="font-semibold"></span> 元</span>
+                                <span id="sp-operations-cost-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                             <div class="flex justify-between items-center text-sm p-2 bg-white rounded shadow-sm">
+                                <span>其他总费用 = <span id="sp-total-other-costs" class="font-semibold"></span> 元</span>
+                                <span id="sp-other-costs-percentage" class="text-xs text-gray-500 font-semibold"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-divider"></div>
+                     <div class="p-3 bg-green-50 rounded-md mt-6 text-left">
+                        <h5 class="text-sm font-semibold text-green-700 mb-1">店铺经营小贴士(整体利润)</h5>
+                        <ul class="list-disc list-inside text-[0.625rem] sm:text-sm text-gray-700 space-y-0.5">
+                            <li><strong>全面成本：</strong>确保所有直接及间接成本(含可变与固定成本)均已计入，以保证利润的准确性。</li>
+                            <li><strong>收入确认：</strong>"总营业额"应为扣除所有退款后的净销售收入。</li>
+                            <li><strong>定期复盘：</strong>建议周期性(如每月)使用本计算器复盘店铺整体盈利，对比历史数据，识别成本优化点和盈利增长点。</li>
+                            <li><strong>关注现金流：</strong>利润并非现金。健康的现金流对店铺生存至关重要，请结合应收账款、库存周转等指标综合评估财务状况。</li>
+                            <li><strong>动态调整：</strong>市场竞争、平台政策、各项成本要素(如原料、物流、广告费)均可能波动，请及时更新数据并重新测算，以适应变化。</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+
+            <footer class="mt-5 pt-4 border-t border-gray-300 text-center text-sm text-gray-600">
+                <!-- 社交媒体链接 -->
+                <div class="social-links">
+                    <!-- 社交媒体链接将由social.js动态生成 -->
+                </div>
+                
+                <p class="mt-2">© 2025 驼铃电商社出品</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../js/roi.js"></script>
+    <script src="../js/social.js"></script>
+</body>
+</html>
