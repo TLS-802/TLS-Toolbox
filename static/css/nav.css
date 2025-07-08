@@ -373,29 +373,25 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 .black .input-group-addon{color:#ddd;background:#26282a;border-color:#26282a}
 
 /* 移动菜单相关样式，添加过渡效果 */
-.main-menu.mobile-is-visible {
-    left: 0;
-    transition: left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-}
-
-.sidebar-user-info.mobile-is-visible {
-    left: 0;
-    transition: left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.main-menu {
-    left: -280px; /* 默认隐藏状态 */
-    transition: left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.sidebar-user-info {
-    left: -280px; /* 默认隐藏状态 */
-    transition: left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-/* 移动菜单时的遮罩层，防止误触 */
 @media screen and (max-width: 768px) {
+    /* 侧边栏容器基本样式 */
+    .sidebar-menu {
+        position: fixed !important;
+        top: 0;
+        left: -100%;
+        height: 100% !important;
+        width: 80% !important;
+        max-width: 300px;
+        z-index: 999;
+        transition: transform 0.3s ease !important;
+    }
+    
+    /* 侧边栏可见状态 */
+    .sidebar-menu.mobile-is-visible {
+        transform: translateX(100%) !important;
+    }
+
+    /* 菜单显示时的遮罩层 */
     .mobile-menu-backdrop {
         position: fixed;
         top: 0;
@@ -419,6 +415,12 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
     .sidebar-menu .main-menu a {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); /* 淡化iOS点击高亮 */
         transition: background-color 0.2s ease; /* 背景色过渡效果 */
+    }
+    
+    /* 确保主内容区域不被侧边栏遮挡 */
+    .page-container .main-content {
+        position: relative;
+        z-index: 1;
     }
 }
 

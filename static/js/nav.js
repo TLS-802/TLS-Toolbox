@@ -116,6 +116,18 @@ function trigger_resizable()
 		// 初始化移动端侧边栏链接点击事件
 		init_mobile_menu_links();
 		
+		// 全局捕获所有链接点击，如果是移动视图则关闭菜单
+		$(document).on('click', 'a[href]', function(ev) {
+			if(isxs()) {
+				var href = $(this).attr('href');
+				// 排除锚点链接和javascript链接
+				if(href && href !== '#' && !href.startsWith('javascript:')) {
+					// 关闭移动菜单
+					closeMobileMenu();
+				}
+			}
+		});
+		
 		// Setup Sidebar Menu
 		setup_sidebar_menu();
 		// Setup Horizontal Menu
@@ -993,10 +1005,11 @@ function initSwipeMenuClose() {
 window.closeMobileMenu = function() {
 	var $ = jQuery;
 	
-	// 防止多次快速调用
-	if (!public_vars.$mainMenu.hasClass('mobile-is-visible')) {
-		return;
-	}
+	// 强制隐藏侧边栏
+	$('.sidebar-menu').css({
+		'transform': 'translateX(-100%)',
+		'transition': 'transform 0.3s'
+	});
 	
 	// 隐藏移动菜单
 	public_vars.$mainMenu.removeClass('mobile-is-visible');
@@ -1005,27 +1018,16 @@ window.closeMobileMenu = function() {
 	// 隐藏背景遮罩层
 	$('.mobile-menu-backdrop').removeClass('visible');
 	
-	// 强制侧边栏在移动端隐藏
-	if(isxs()) {
-		// 添加额外的样式，确保侧边栏在移动端完全隐藏
-		setTimeout(function() {
-			$('.sidebar-menu').css({
-				'transform': 'translateX(-100%)',
-				'transition': 'transform 0.3s'
-			});
-			
-			// 恢复正常状态
-			setTimeout(function() {
-				$('.sidebar-menu').css({
-					'transform': '',
-					'transition': ''
-				});
-			}, 300);
-		}, 50);
-	}
-	
 	// 销毁完美滚动条以防止资源浪费
 	ps_destroy();
+	
+	// 300ms后恢复正常状态，避免闪烁
+	setTimeout(function() {
+		$('.sidebar-menu').css({
+			'transform': '',
+			'transition': ''
+		});
+	}, 300);
 }
 
 // 防抖动函数 - 避免短时间内重复触发
@@ -1055,12 +1057,44 @@ function init_mobile_menu_links() {
 			// 检查是否是真实链接（不是javascript:void(0)或#）
 			var href = $(this).attr('href');
 			if(href && href !== '#' && !href.startsWith('javascript:')) {
-				// 设置一个短暂延迟，确保链接点击动作先完成
-				setTimeout(function() {
-					// 关闭移动菜单
-					closeMobileMenu();
-				}, 100);
+				// 阻止冒泡，确保事件不会被父元素捕获
+				ev.stopPropagation();
+				
+				// 立即关闭移动菜单，不等待延迟
+				closeMobileMenu();
+				
+				// 允许链接正常跳转
+				return true;
 			}
 		}
 	});
+	
+	// 为smooth类型的链接添加特殊处理
+	public_vars.$sidebarMenu.find('a.smooth').on('click', function(ev) {
+		if(isxs()) {
+			// 使用setTimeout确保链接点击动作完成后再关闭菜单
+			setTimeout(function() {
+				closeMobileMenu();
+			}, 10);
+		}
+	});
 }
+
+// 确保页面加载时菜单状态正确
+$(window).on('load', function() {
+    // 如果是移动设备，确保菜单处于隐藏状态
+    if(isxs()) {
+        // 确保菜单隐藏
+        $('.sidebar-menu').css({
+            'transform': '',
+            'transition': ''
+        });
+        
+        // 隐藏背景遮罩
+        $('.mobile-menu-backdrop').removeClass('visible');
+        
+        // 移除可见类
+        public_vars.$mainMenu.removeClass('mobile-is-visible');
+        public_vars.$sidebarProfile.removeClass('mobile-is-visible');
+    }
+});
