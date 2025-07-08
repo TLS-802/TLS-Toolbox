@@ -113,6 +113,9 @@ function trigger_resizable()
 		// 初始化移动菜单遮罩层
 		init_mobile_menu_backdrop();
 		
+		// 初始化移动端侧边栏链接点击事件
+		init_mobile_menu_links();
+		
 		// Setup Sidebar Menu
 		setup_sidebar_menu();
 		// Setup Horizontal Menu
@@ -438,6 +441,14 @@ function trigger_resizable()
 				});
 			}
 		});
+		// 为所有导航链接添加点击事件，点击后收起移动菜单
+		public_vars.$mainMenu.find('a.smooth').on('click', function(ev) {
+			// 如果是移动设备视图
+			if(isxs()) {
+				// 立即隐藏移动菜单，不等待延迟
+				closeMobileMenu();
+			}
+		});
 	});
 })(jQuery, window);
 
@@ -622,7 +633,7 @@ function setup_sidebar_menu()
 	public_vars.$mainMenu.find('a.smooth').on('click', function(ev) {
 		// 如果是移动设备视图
 		if(isxs()) {
-			// 隐藏移动菜单
+			// 立即隐藏移动菜单，不等待延迟
 			closeMobileMenu();
 		}
 	});
@@ -647,15 +658,26 @@ function handleMenuLinksClick() {
 	var $ = jQuery;
 	
 	// 为侧边栏中的所有链接添加点击事件(包括不是.smooth类的链接)
-	public_vars.$sidebarMenu.find('a').not('.has-sub > a').on('click', function(ev) {
+	public_vars.$sidebarMenu.find('a').on('click', function(ev) {
 		// 如果是移动设备视图且链接不是指向javascript:void(0)的链接
 		if(isxs() && !$(this).is('[href^="javascript:"]') && !$(this).is('[href="#"]')) {
-			// 允许链接默认行为执行（跳转）
-			
-			// 然后关闭移动菜单，稍微延迟以确保跳转先完成
-			setTimeout(function() {
-				closeMobileMenu();
-			}, 200);
+			// 如果是具有子菜单的菜单项，不阻止默认行为
+			if(!$(this).parent().hasClass('has-sub')) {
+				// 允许链接默认行为执行（跳转）
+				
+				// 然后关闭移动菜单，稍微延迟以确保跳转先完成
+				setTimeout(function() {
+					closeMobileMenu();
+				}, 200);
+			} else {
+				// 如果点击的是具有子菜单的链接且URL中包含实际链接（不仅仅是触发子菜单展开的链接）
+				var href = $(this).attr('href');
+				if(href && href !== '#' && href !== 'javascript:void(0)') {
+					setTimeout(function() {
+						closeMobileMenu();
+					}, 200);
+				}
+			}
 		}
 	});
 }
@@ -983,6 +1005,25 @@ window.closeMobileMenu = function() {
 	// 隐藏背景遮罩层
 	$('.mobile-menu-backdrop').removeClass('visible');
 	
+	// 强制侧边栏在移动端隐藏
+	if(isxs()) {
+		// 添加额外的样式，确保侧边栏在移动端完全隐藏
+		setTimeout(function() {
+			$('.sidebar-menu').css({
+				'transform': 'translateX(-100%)',
+				'transition': 'transform 0.3s'
+			});
+			
+			// 恢复正常状态
+			setTimeout(function() {
+				$('.sidebar-menu').css({
+					'transform': '',
+					'transition': ''
+				});
+			}, 300);
+		}, 50);
+	}
+	
 	// 销毁完美滚动条以防止资源浪费
 	ps_destroy();
 }
@@ -1001,4 +1042,25 @@ function debounce(func, wait) {
 			func.apply(context, args);
 		}, wait);
 	};
+}
+
+// 初始化移动端侧边栏链接点击事件处理
+function init_mobile_menu_links() {
+	var $ = jQuery;
+	
+	// 获取所有侧边栏中的链接（包括子菜单项）
+	public_vars.$sidebarMenu.find('a').on('click', function(ev) {
+		// 只处理移动视图下的点击事件
+		if(isxs()) {
+			// 检查是否是真实链接（不是javascript:void(0)或#）
+			var href = $(this).attr('href');
+			if(href && href !== '#' && !href.startsWith('javascript:')) {
+				// 设置一个短暂延迟，确保链接点击动作先完成
+				setTimeout(function() {
+					// 关闭移动菜单
+					closeMobileMenu();
+				}, 100);
+			}
+		}
+	});
 }
