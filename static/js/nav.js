@@ -1005,29 +1005,39 @@ function initSwipeMenuClose() {
 window.closeMobileMenu = function() {
 	var $ = jQuery;
 	
-	// 强制隐藏侧边栏
+	// 立即隐藏侧边栏，不依赖于类名变化
 	$('.sidebar-menu').css({
 		'transform': 'translateX(-100%)',
-		'transition': 'transform 0.3s'
+		'transition': 'transform 0.3s ease',
+		'left': '-100%'
 	});
 	
-	// 隐藏移动菜单
+	// 确保移除所有可见类名
 	public_vars.$mainMenu.removeClass('mobile-is-visible');
 	public_vars.$sidebarProfile.removeClass('mobile-is-visible');
+	$('.sidebar-menu').removeClass('mobile-is-visible');
 	
 	// 隐藏背景遮罩层
-	$('.mobile-menu-backdrop').removeClass('visible');
+	$('.mobile-menu-backdrop').removeClass('visible').css('display', 'none');
+	
+	// 防止页面滚动被锁定
+	$('body').css('overflow', '');
 	
 	// 销毁完美滚动条以防止资源浪费
 	ps_destroy();
 	
-	// 300ms后恢复正常状态，避免闪烁
+	// 添加额外的CSS类确保菜单真的隐藏了
+	$('.sidebar-menu').addClass('force-hidden');
+	
+	// 200ms后恢复正常状态，避免闪烁
 	setTimeout(function() {
 		$('.sidebar-menu').css({
-			'transform': '',
 			'transition': ''
-		});
+		}).removeClass('force-hidden');
 	}, 300);
+	
+	// 直接操作DOM，确保侧边栏真的隐藏了
+	document.querySelector('.sidebar-menu').style.transform = 'translateX(-100%)';
 }
 
 // 防抖动函数 - 避免短时间内重复触发
@@ -1056,26 +1066,51 @@ function init_mobile_menu_links() {
 		if(isxs()) {
 			// 检查是否是真实链接（不是javascript:void(0)或#）
 			var href = $(this).attr('href');
+			
+			// 立即关闭侧边栏菜单 - 无条件执行
+			closeMobileMenu();
+			
+			// 强制隐藏侧边栏
+			$('.sidebar-menu').css({
+				'transform': 'translateX(-100%)',
+				'left': '-100%',
+				'visibility': 'hidden'
+			});
+			
+			// 如果是可导航的链接，允许跳转
 			if(href && href !== '#' && !href.startsWith('javascript:')) {
-				// 阻止冒泡，确保事件不会被父元素捕获
-				ev.stopPropagation();
-				
-				// 立即关闭移动菜单，不等待延迟
-				closeMobileMenu();
-				
-				// 允许链接正常跳转
+				// 不阻止默认行为，让链接正常跳转
 				return true;
 			}
 		}
 	});
 	
-	// 为smooth类型的链接添加特殊处理
-	public_vars.$sidebarMenu.find('a.smooth').on('click', function(ev) {
+	// 特别处理smooth类链接
+	public_vars.$sidebarMenu.find('a.smooth').on('click', function() {
 		if(isxs()) {
-			// 使用setTimeout确保链接点击动作完成后再关闭菜单
-			setTimeout(function() {
+			// 无条件关闭菜单
+			closeMobileMenu();
+			
+			// 双重保险 - 强制CSS隐藏
+			$('.sidebar-menu').css({
+				'transform': 'translateX(-100%)',
+				'left': '-100%',
+				'visibility': 'hidden'
+			});
+		}
+	});
+	
+	// 处理带子菜单的链接
+	public_vars.$sidebarMenu.find('li.has-sub > a').on('click', function() {
+		if(isxs()) {
+			var $li = $(this).parent();
+			var href = $(this).attr('href');
+			
+			// 如果链接是真实链接而不只是切换子菜单的链接
+			if(href && href !== '#' && !href.startsWith('javascript:')) {
+				// 强制关闭菜单
 				closeMobileMenu();
-			}, 10);
+			}
 		}
 	});
 }
@@ -1086,7 +1121,7 @@ $(window).on('load', function() {
     if(isxs()) {
         // 确保菜单隐藏
         $('.sidebar-menu').css({
-            'transform': '',
+            'transform': 'translateX(-100%)',
             'transition': ''
         });
         
@@ -1098,3 +1133,57 @@ $(window).on('load', function() {
         public_vars.$sidebarProfile.removeClass('mobile-is-visible');
     }
 });
+
+// 立即执行函数 - 添加最终的事件监听以确保侧边栏正确隐藏
+(function() {
+    // 在文档加载完成后执行
+    document.addEventListener('DOMContentLoaded', function() {
+        // 直接监听所有链接点击
+        document.addEventListener('click', function(event) {
+            // 检查是否是移动视图
+            if(window.innerWidth < 768) {
+                // 查找最近的A标签
+                var target = event.target;
+                var linkClicked = false;
+                
+                // 向上遍历DOM树找到A标签
+                while(target && target !== document.body) {
+                    if(target.tagName === 'A') {
+                        linkClicked = true;
+                        break;
+                    }
+                    target = target.parentNode;
+                }
+                
+                // 如果点击了链接
+                if(linkClicked) {
+                    // 获取链接的href
+                    var href = target.getAttribute('href');
+                    
+                    // 如果链接是真实链接，而不是控制子菜单的链接
+                    if(href && href !== '#' && !href.startsWith('javascript:')) {
+                        // 立即关闭侧边栏
+                        if(typeof window.closeMobileMenu === 'function') {
+                            window.closeMobileMenu();
+                        }
+                        
+                        // 双重保险 - 直接使用DOM API隐藏侧边栏
+                        var sidebar = document.querySelector('.sidebar-menu');
+                        if(sidebar) {
+                            sidebar.style.transform = 'translateX(-100%)';
+                            sidebar.style.left = '-100%';
+                            sidebar.style.visibility = 'hidden';
+                        }
+                        
+                        // 隐藏遮罩层
+                        var backdrop = document.querySelector('.mobile-menu-backdrop');
+                        if(backdrop) {
+                            backdrop.classList.remove('visible');
+                            backdrop.style.display = 'none';
+                        }
+                    }
+                }
+            }
+        }, true); // 使用捕获阶段
+    });
+})();

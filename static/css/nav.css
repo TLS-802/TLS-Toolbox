@@ -391,6 +391,15 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
         transform: translateX(100%) !important;
     }
 
+    /* 强制隐藏类 - 确保侧边栏不会意外显示 */
+    .sidebar-menu.force-hidden {
+        transform: translateX(-100%) !important;
+        left: -100% !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+    
     /* 菜单显示时的遮罩层 */
     .mobile-menu-backdrop {
         position: fixed;

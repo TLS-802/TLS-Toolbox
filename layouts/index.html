@@ -383,5 +383,86 @@
 {{ if .Site.Params.pinyin.enable }}
 <script type='text/javascript' src='./js/pinyin-pro-3.19.0.min.js'></script>
 {{ end }}
+
+<!-- 在body结束标签前添加内联脚本 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 获取所有侧边栏菜单链接
+    var menuLinks = document.querySelectorAll('.sidebar-menu a');
+    
+    // 为每个链接添加点击事件处理
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            // 检查是否是移动视图 (小于768px)
+            if(window.innerWidth < 768) {
+                // 直接调用关闭菜单函数
+                closeMobileMenu();
+                // 关闭背景遮罩
+                var backdrop = document.querySelector('.mobile-menu-backdrop');
+                if(backdrop) backdrop.classList.remove('visible');
+            }
+        });
+    });
+    
+    // 修正移动端点击事件处理
+    function fixMobileMenuBehavior() {
+        // 如果页面中有closeMobileMenu函数
+        if(typeof window.closeMobileMenu === 'function') {
+            // 添加全局事件处理器
+            document.body.addEventListener('click', function(e) {
+                // 检查是否是移动视图
+                if(window.innerWidth < 768) {
+                    // 检查点击的元素是否在侧边栏内
+                    var target = e.target;
+                    var isInsideSidebar = false;
+                    
+                    while(target && target !== document.body) {
+                        if(target.classList.contains('sidebar-menu')) {
+                            isInsideSidebar = true;
+                            break;
+                        }
+                        target = target.parentNode;
+                    }
+                    
+                    // 如果点击的是侧边栏内的链接元素
+                    if(isInsideSidebar && e.target.tagName === 'A') {
+                        // 获取链接的href属性
+                        var href = e.target.getAttribute('href');
+                        
+                        // 如果是有效链接且不是锚点链接或JavaScript链接
+                        if(href && href !== '#' && !href.startsWith('javascript:')) {
+                            // 关闭移动菜单
+                            setTimeout(function() {
+                                window.closeMobileMenu();
+                            }, 50);
+                        }
+                    }
+                }
+            }, true); // 使用捕获阶段
+        }
+    }
+    
+    // 执行修复函数
+    fixMobileMenuBehavior();
+    
+    // 监听屏幕尺寸变化
+    window.addEventListener('resize', function() {
+        // 如果不是移动视图，确保侧边栏正常显示
+        if(window.innerWidth >= 768) {
+            var sidebar = document.querySelector('.sidebar-menu');
+            if(sidebar) {
+                sidebar.style.transform = '';
+                sidebar.style.transition = '';
+            }
+        } else {
+            // 如果是移动视图，确保侧边栏已关闭
+            if(typeof window.closeMobileMenu === 'function') {
+                window.closeMobileMenu();
+            }
+        }
+    });
+});
+</script>
+
 </body>
 </html>
