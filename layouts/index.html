@@ -432,25 +432,47 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
     
-    // 获取所有侧边栏菜单链接
-    var menuLinks = document.querySelectorAll('.sidebar-menu a');
+    // 获取所有侧边栏内的菜单链接（不包括汉堡菜单按钮）
+    var menuLinks = document.querySelectorAll('.sidebar-menu .main-menu a');
     
-    // 为每个链接添加点击事件处理
+    // 为每个菜单链接添加点击事件处理
     menuLinks.forEach(function(link) {
         link.addEventListener('click', function(e) {
             // 检查是否是移动视图 (小于768px)
             if(window.innerWidth < 768) {
                 var href = this.getAttribute('href');
                 
-                // 如果是有效链接且不是锚点链接或JavaScript链接
+                // 排除汉堡菜单按钮和切换类按钮
+                if(this.getAttribute('data-toggle') === 'mobile-menu' || 
+                   this.getAttribute('data-toggle') === 'sidebar') {
+                    return; // 不处理汉堡菜单按钮
+                }
+                
+                // 检查是否是二级菜单的父菜单项
+                var parentLi = this.parentNode;
+                if(parentLi && (parentLi.classList.contains('has-sub') || 
+                                parentLi.classList.contains('expanded') || 
+                                parentLi.querySelector('ul'))) {
+                    // 如果链接没有href或href为#或是控制子菜单显示的链接
+                    if(!href || href === '#' || this.classList.contains('submenu-toggle')) {
+                        return; // 不关闭侧边栏
+                    }
+                    
+                    // 检查是否有子菜单展开指示符
+                    var hasExpandIndicator = this.querySelector('.fa-caret-down') || 
+                                             this.querySelector('.fa-angle-down') ||
+                                             this.querySelector('.fa-chevron-down');
+                    if(hasExpandIndicator) {
+                        return; // 不关闭侧边栏
+                    }
+                }
+                
+                // 如果是有效链接且不是空链接或JavaScript链接
                 if(href && href !== '#' && !href.startsWith('javascript:')) {
                     // 使用setTimeout确保在导航之前关闭菜单
                     setTimeout(function() {
                         window.closeMobileMenu();
                     }, 50);
-                } else {
-                    // 对于内部导航链接，也关闭菜单
-                    window.closeMobileMenu();
                 }
             }
         });
@@ -462,12 +484,31 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.addEventListener('click', function(e) {
             // 检查是否是移动视图
             if(window.innerWidth < 768) {
-                // 检查点击的元素是否在侧边栏内
+                // 检查点击的元素或其父元素是否是汉堡菜单按钮
                 var target = e.target;
+                var isHamburgerButton = false;
+                
+                while(target && target !== document.body) {
+                    if(target.getAttribute && 
+                       (target.getAttribute('data-toggle') === 'mobile-menu' || 
+                        target.getAttribute('data-toggle') === 'sidebar')) {
+                        isHamburgerButton = true;
+                        break;
+                    }
+                    target = target.parentNode;
+                }
+                
+                // 如果是汉堡菜单按钮，不执行关闭操作
+                if(isHamburgerButton) {
+                    return;
+                }
+                
+                // 检查点击的元素是否在侧边栏内
+                target = e.target;
                 var isInsideSidebar = false;
                 
                 while(target && target !== document.body) {
-                    if(target.classList.contains('sidebar-menu')) {
+                    if(target.classList && target.classList.contains('sidebar-menu')) {
                         isInsideSidebar = true;
                         break;
                     }
@@ -479,7 +520,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     // 获取链接的href属性
                     var href = e.target.getAttribute('href');
                     
-                    // 如果是有效链接且不是锚点链接或JavaScript链接
+                    // 排除汉堡菜单按钮和切换类按钮
+                    if(e.target.getAttribute('data-toggle') === 'mobile-menu' || 
+                       e.target.getAttribute('data-toggle') === 'sidebar') {
+                        return; // 不处理汉堡菜单按钮
+                    }
+                    
+                    // 检查是否是二级菜单的父菜单项
+                    var parentLi = e.target.parentNode;
+                    if(parentLi && (parentLi.classList.contains('has-sub') || 
+                                    parentLi.classList.contains('expanded') || 
+                                    parentLi.querySelector('ul'))) {
+                        // 如果链接没有href或href为#或是控制子菜单显示的链接
+                        if(!href || href === '#' || e.target.classList.contains('submenu-toggle')) {
+                            return; // 不关闭侧边栏
+                        }
+                        
+                        // 检查是否有子菜单展开指示符
+                        var hasExpandIndicator = e.target.querySelector('.fa-caret-down') || 
+                                                 e.target.querySelector('.fa-angle-down') ||
+                                                 e.target.querySelector('.fa-chevron-down');
+                        if(hasExpandIndicator) {
+                            return; // 不关闭侧边栏
+                        }
+                    }
+                    
+                    // 如果是有效链接且不是空链接或JavaScript链接
                     if(href && href !== '#' && !href.startsWith('javascript:')) {
                         // 关闭移动菜单
                         setTimeout(function() {
@@ -518,10 +584,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 sidebar.style.transform = '';
                 sidebar.style.transition = '';
             }
-        } else {
-            // 如果是移动视图，确保侧边栏已关闭
-            window.closeMobileMenu();
         }
+        // 移除自动关闭侧边栏的代码，让用户手动控制
     });
 });
 </script>
