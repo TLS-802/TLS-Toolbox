@@ -1705,14 +1705,9 @@
 - taxonomy: 友情链接
   icon: fa-link
   friend:
-    - title: 驼铃电商
-      url: https://www.199908.top
-      description: 驼铃电商导航
-    - title: 驼铃知识库
-      url: https://fbjvryq00y.feishu.cn/docx/doxcnoAkUCQ27nY31F2PU9bTNPW
-      description: 电商知识，从新手到高手
+    - title: 易剪媒 Ai批量剪辑
+      url: https://www.xinmei7.com/?from=199908
     - title: 驼铃工具箱
       url: https://github.com/TLS-802/TLS-Toolbox
-      description: 电商工具集合
 
 --- 
