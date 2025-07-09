@@ -1,9 +1,9 @@
 ---
 type: nav  #固定值nav(生成导航页)
 title:  #留空则使用网站标题
-logo: images/驼铃标志1.jpg  #留空则使用网站logo
-sidebar_logo: images/驼铃标志1.jpg  #留空则使用网站侧边栏logo
-favicon: images/驼铃标志1.jpg  #自定义页面图标
+logo: images/驼铃标志1.png  #留空则使用网站logo
+sidebar_logo: images/驼铃标志1.png  #留空则使用网站侧边栏logo
+favicon: images/驼铃标志1.png  #自定义页面图标
 search: #搜索栏
   enable: false #true显示，false不显示
 edit: #在线编辑
