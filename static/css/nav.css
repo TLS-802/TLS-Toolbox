@@ -73,7 +73,7 @@ footer.main-footer .foot-button a:hover{background-color:rgba(44,46,47,.1)}foote
 .sidebar-menu .main-menu ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown{-webkit-transition-delay:320ms;-moz-transition-delay:320ms;-o-transition-delay:320ms;transition-delay:320ms}
 .sidebar-menu .main-menu ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown{-webkit-transition-delay:360ms;-moz-transition-delay:360ms;-o-transition-delay:360ms;transition-delay:360ms}
 .sidebar-menu .main-menu ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown{-webkit-transition-delay:400ms;-moz-transition-delay:400ms;-o-transition-delay:400ms;transition-delay:400ms}
-.sidebar-menu .main-menu ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown{-webkit-transition-delay:440ms;-moz-transition-delay:440ms;-o-transition-delay:440ms;transition-delay:440ms}
+.sidebar-menu .main-menu ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown{-webkit-transition-delay:440ms;-moz-transition-delay:440ms;-o-transition-delay:440ms;transition-delay:440ms}
 .sidebar-menu .main-menu ul li.hidden-item{visibility:hidden;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0;-webkit-transition:all 250ms ease-in-out;-moz-transition:all 250ms ease-in-out;-o-transition:all 250ms ease-in-out;transition:all 250ms ease-in-out}
 .sidebar-menu .main-menu ul li a{padding-left:35px}.sidebar-menu .main-menu ul li ul li a{padding-left:60px}
 .sidebar-menu .main-menu ul li ul li ul li a{padding-left:85px}.sidebar-menu .main-menu ul li ul li ul li ul li a{padding-left:110px}
@@ -127,41 +127,28 @@ footer.main-footer:after{clear:both}
 .user-info-navbar .user-info-menu>li>a i{font-size:15px;line-height:1}
 .user-info-navbar .user-info-menu>li>a:hover{color:#606161}
 .user-info-navbar .user-info-menu>li a[data-toggle=sidebar]{padding:31px 10px;padding-left:20px}
-@media screen and (max-width:767px){
-    .page-container{display:block}
-    .page-container .sidebar-menu,.page-container .main-content{display:block;width:100%;height:auto;position:absolute;top:50px}
-    .page-container .sidebar-menu{position:fixed;z-index:999;top:0px}
-    .page-container .sidebar-menu .sidebar-menu-inner{position:relative}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env,.page-container .sidebar-menu .sidebar-menu-inner .main-menu{padding-left:20px;padding-right:20px}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env{margin-bottom:0;padding-top:10px;padding-bottom:10px}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle{float:right}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a{position:relative;display:inline-block;color:#979898;line-height:1;margin-left:20px}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
-    .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
-    .page-container .sidebar-menu .sidebar-menu-inner .main-menu{display:none}
-    .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{display:block}
-    .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible.both-menus-visible{margin-top:0;padding-top:0}
-    .page-container .sidebar-menu .sidebar-menu-inner .main-menu>li:last-child>a{border-bottom:0}
-    
-    /* 添加新样式 - 确保侧边栏在移动端隐藏时完全不可见 */
-    .sidebar-menu:not(.mobile-is-visible) {
-        transform: translateX(-100%);
-        transition: transform 0.3s ease;
-    }
-    
-    .sidebar-menu.mobile-is-visible {
-        transform: translateX(0);
-        transition: transform 0.3s ease;
-    }
-    
-    .page-container .main-content .navbar.user-info-navbar{display:none}
-    .page-container .main-content .navbar.user-info-navbar.mobile-is-visible{display:block}
-    .page-container .main-content .navbar.user-info-navbar .user-info-menu>li{min-height:0!important}
-    .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>a,.page-container .main-content .navbar.user-info-navbar .user-info-menu>li>form{padding-top:20px;padding-bottom:20px}
-    .page-container .main-content .main-footer{position:relative;left:0;right:auto;margin-left:-15px;margin-right:-15px}
-    .page-container{position:relative}
-    .navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub>a:before{position:relative;display:inline-block;font-family:FontAwesome;content:'\f107';float:right;color:#6d747a;margin-left:10px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);-webkit-transition:all 150ms ease-in-out;-moz-transition:all 150ms ease-in-out;-o-transition:all 150ms ease-in-out;transition:all 150ms ease-in-out}
-    .navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.opened>a:before,.navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.expanded>a:before{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
+@media screen and (max-width:767px){.page-container{display:block}
+.page-container .sidebar-menu,.page-container .main-content{display:block;width:100%;height:auto;position:absolute;top:50px}
+.page-container .sidebar-menu{position:fixed;z-index:999;top:0px}
+.page-container .sidebar-menu .sidebar-menu-inner{position:relative}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env,.page-container .sidebar-menu .sidebar-menu-inner .main-menu{padding-left:20px;padding-right:20px}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env{margin-bottom:0;padding-top:10px;padding-bottom:10px}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle{float:right}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a{position:relative;display:inline-block;color:#979898;line-height:1;margin-left:20px}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu{display:none}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{display:block}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible.both-menus-visible{margin-top:0;padding-top:0}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu>li:last-child>a{border-bottom:0}
+.page-container .main-content .navbar.user-info-navbar{display:none}
+.page-container .main-content .navbar.user-info-navbar.mobile-is-visible{display:block}
+.page-container .main-content .navbar.user-info-navbar .user-info-menu>li{min-height:0!important}
+.page-container .main-content .navbar.user-info-navbar .user-info-menu>li>a,.page-container .main-content .navbar.user-info-navbar .user-info-menu>li>form{padding-top:20px;padding-bottom:20px}
+.page-container .main-content .main-footer{position:relative;left:0;right:auto;margin-left:-15px;margin-right:-15px}
+.page-container{position:relative}
+.navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub>a:before{position:relative;display:inline-block;font-family:FontAwesome;content:'\f107';float:right;color:#6d747a;margin-left:10px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);-webkit-transition:all 150ms ease-in-out;-moz-transition:all 150ms ease-in-out;-o-transition:all 150ms ease-in-out;transition:all 150ms ease-in-out}
+.navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.opened>a:before,.navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.expanded>a:before{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}
 }
 .panel{position:relative;background:#fff;padding:20px 30px;border:0;margin-bottom:30px;border-radius:5px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
 .panel .panel-body{padding:0;/*color:#979898*/}
@@ -371,66 +358,5 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 .black .siteico{background:#222}
 .black .posts-nav{color:rgba(221,221,221,.2)}
 .black .input-group-addon{color:#ddd;background:#26282a;border-color:#26282a}
-
-/* 移动菜单相关样式，添加过渡效果 */
-@media screen and (max-width: 768px) {
-    /* 侧边栏容器基本样式 */
-    .sidebar-menu {
-        position: fixed !important;
-        top: 0;
-        left: -100%;
-        height: 100% !important;
-        width: 80% !important;
-        max-width: 300px;
-        z-index: 999;
-        transition: transform 0.3s ease !important;
-    }
-    
-    /* 侧边栏可见状态 */
-    .sidebar-menu.mobile-is-visible {
-        transform: translateX(100%) !important;
-    }
-
-    /* 强制隐藏类 - 确保侧边栏不会意外显示 */
-    .sidebar-menu.force-hidden {
-        transform: translateX(-100%) !important;
-        left: -100% !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-    }
-    
-    /* 菜单显示时的遮罩层 */
-    .mobile-menu-backdrop {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 998; /* 低于侧边栏的z-index */
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease, visibility 0.3s ease;
-        -webkit-tap-highlight-color: transparent; /* 禁止iOS点击高亮 */
-    }
-    
-    .mobile-menu-backdrop.visible {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    /* 优化移动端菜单项点击体验 */
-    .sidebar-menu .main-menu a {
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); /* 淡化iOS点击高亮 */
-        transition: background-color 0.2s ease; /* 背景色过渡效果 */
-    }
-    
-    /* 确保主内容区域不被侧边栏遮挡 */
-    .page-container .main-content {
-        position: relative;
-        z-index: 1;
-    }
-}
 
 
