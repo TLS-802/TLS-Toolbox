@@ -1766,10 +1766,9 @@
           description: 视频号投放管理工具
 
 - taxonomy: 视频剪辑
-    icon: fa-video
-    list:  # 添加list属性，用于侧边栏显示
-      - term: 视频剪辑
-    tabs:
+  icon: fa-video
+  list:  # 添加list属性，用于侧边栏显示
+  tabs:
       - name: 视频剪辑
         links: 
           - title: 剪映
