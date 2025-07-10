@@ -955,7 +955,6 @@
     - term: 数据分析
     - term: 文案剧本
     - term: 营销运营
-    - term: 流量采买
     - term: 新媒工具
     - term: 新媒服务
     - term: 媒体平台
@@ -1455,44 +1454,6 @@
           logo: images/新媒运营/有赞.png
           url: https://www.xiaoe-tech.com?from=dy.199908.top
           description: 知识付费和在线教育平台
-    - name: 流量采买
-      links:
-        - title: 流量采买
-          logo: images/电商辅助/流量采买.png
-          url: https://www.xinmei7.com/?from=dy.199908.top
-          description: 流量采买平台
-        - title: 巨量引擎
-          logo: images/广告投放/巨量引擎.png
-          url: https://www.oceanengine.com?from=dy.199908.top
-          description: 抖音广告投放平台
-        - title: 巨量千川
-          logo: images/广告投放/巨量千川.png
-          url: https://qianchuan.jinritemai.com?from=dy.199908.top
-          description: 抖音电商广告投放平台
-        - title: 磁力引擎
-          logo: images/广告投放/磁力引擎.png
-          url: https://e.kuaishou.com?from=dy.199908.top
-          description: 快手开屏、信息流、粉条
-        - title: 磁力智投
-          logo: images/广告投放/磁力智投.png
-          url: https://ad.e.kuaishou.com?from=dy.199908.top
-          description: 快手广告投放平台
-        - title: 聚光平台
-          logo: images/广告投放/聚光.jpg
-          url: https://ad.xiaohongshu.com?from=dy.199908.top
-          description: 小红书广告投放平台
-        - title: 诸葛智投
-          logo: images/广告投放/诸葛智投.png
-          url: https://zgzt.v-ma.com?from=dy.199908.top
-          description: 视频号投放管理工具
-        - title: 品小宝
-          logo: images/广告投放/品小宝.png
-          url: https://www.pinxiaobao.com?from=dy.199908.top
-          description: 抖音达人数据分析平台
-        - title: 抖老板
-          logo: images/广告投放/抖老板.png
-          url: https://www.doulaobao.com?from=dy.199908.top
-          description: 抖音达人数据分析平台
     - name: 新媒工具
       links:
         - title: 新媒工具
