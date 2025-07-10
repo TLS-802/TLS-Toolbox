@@ -949,6 +949,17 @@
     - term: 电商辅助
     - term: 电商货源
     - term: 直播辅助
+    - term: 新媒推荐
+    - term: 热点排行
+    - term: 创作排版
+    - term: 数据分析
+    - term: 文案剧本
+    - term: 营销运营
+    - term: 流量采买
+    - term: 新媒工具
+    - term: 新媒服务
+    - term: 媒体平台
+    - term: 研究报告
   tabs:
     - name: 电商辅助
       links:
@@ -1176,6 +1187,500 @@
           logo: images/电商辅助/直播间录制工具.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
           description: 多平台直播录屏软件
+    - name: 新媒推荐
+      links:
+        - title: 新媒推荐
+          logo: images/电商辅助/新媒推荐.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 新媒推荐平台
+    - name: 热点排行
+      links:
+        - title: 热点排行
+          logo: images/电商辅助/热点排行.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 热点排行平台
+        - title: 热点聚合
+          logo: images/新媒运营/数据研究.png
+          url: https://tophub.today
+          description: 各大网站热点聚合，实时热搜榜单
+        - title: AI今日热榜
+          logo: images/新媒运营/数据研究.png
+          url: https://hot.jixie.io
+          description: AI驱动的热点聚合平台，提供智能热点分析
+        - title: 今日热榜
+          logo: images/新媒运营/今日热榜.png
+          url: https://tophub.today?from=dy.199908.top
+          description: 聚合各大平台热点信息，包含小红书热门榜单
+        - title: 抖音热点
+          logo: images/电商辅助/抖音.jpg
+          url: https://www.douyin.com/hot
+          description: 抖音热点榜单
+        - title: 微博热搜
+          logo: images/新媒运营/数据研究.png
+          url: https://s.weibo.com/top/summary
+          description: 微博实时热搜榜
+    - name: 创作排版
+      links:
+        - title: 创作排版
+          logo: images/电商辅助/创作排版.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 创作排版平台
+        - title: 新媒体管家
+          logo: images/新媒运营/新媒体管家.png
+          url: https://xmt.cn?from=dy.199908.top
+          description: 一站式新媒体内容创作与发布平台
+        - title: 秀米XIUMI
+          logo: images/新媒运营/秀米.png
+          url: https://xiumi.us?from=dy.199908.top
+          description: 专业级图文排版与设计工具
+        - title: 135编辑器
+          logo: images/新媒运营/135编辑器.png
+          url: https://www.135editor.com?from=dy.199908.top
+          description: 专业级微信图文编辑排版工具
+        - title: 新榜小红书编辑器
+          logo: images/新媒运营/新榜小红书编辑器.png
+          url: https://edit.newrank.cn?from=dy.199908.top
+          description: 专业级小红书内容创作编辑工具
+        - title: 考拉新媒体导航
+          logo: images/新媒运营/考拉新媒体导航.png
+          url: https://www.kaolamedia.com?from=dy.199908.top
+          description: 新媒体人每天打开的第一个网站
+        - title: 头条创作平台
+          logo: images/新媒运营/新媒体管家.png
+          url: https://mp.toutiao.com?from=dy.199908.top
+          description: 今日头条创作者服务平台
+        - title: 公众号助手Pro
+          logo: images/新媒运营/公众号助手.png
+          url: https://pro.wxb.com?from=dy.199908.top
+          description: 专业微信公众号第三方运营平台
+        - title: 壹伴
+          logo: images/新媒运营/壹伴.png
+          url: https://yiban.io?from=dy.199908.top
+          description: 微信公众号效率工具
+        - title: 易撰
+          logo: images/新媒运营/易撰.png
+          url: https://www.yizhuan5.com?from=dy.199908.top
+          description: 新媒体写作与创作平台
+        - title: 96编辑器
+          logo: images/新媒运营/96编辑器.png
+          url: https://www.96weixin.com?from=dy.199908.top
+          description: 微信公众号图文排版工具
+        - title: 公众号助手
+          logo: images/新媒运营/公众号助手.png
+          url: https://mp.weixin.qq.com?from=dy.199908.top
+          description: 微信官方公众号后台管理工具
+        - title: 爱设计新媒体作图
+          logo: images/新媒运营/爱设计新媒体作图.png
+          url: https://www.isheji.com?from=dy.199908.top
+          description: 新媒体专业作图平台
+        - title: 新榜编辑器
+          logo: images/新媒运营/新榜.png
+          url: https://edit.newrank.cn?from=dy.199908.top
+          description: 新榜旗下一站式创作排版平台
+        - title: 微信排版365
+          logo: images/新媒运营/壹伴.png
+          url: https://www.365editor.com?from=dy.199908.top
+          description: 简洁高效的微信排版工具
+    - name: 数据分析
+      links:
+        - title: 数据分析
+          logo: images/电商辅助/数据分析.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 数据分析平台
+        - title: 新榜
+          logo: images/新媒运营/新榜.png
+          url: https://www.newrank.cn?from=dy.199908.top
+          description: 内容创业服务平台，提供新媒体数据分析
+        - title: 蝉妈妈
+          logo: images/新媒运营/蝉妈妈.png
+          url: https://www.chanmama.com?from=dy.199908.top
+          description: 抖音、小红书数据分析及营销平台，支持直播选品
+        - title: 千瓜数据
+          logo: images/新媒运营/千瓜数据.png
+          url: http://www.qian-gua.com?from=dy.199908.top
+          description: 小红书专业数据分析工具，支持多维度分析及直播监控
+        - title: 西瓜数据
+          logo: images/新媒运营/西瓜数据.png
+          url: https://data.xiguaji.com?from=dy.199908.top
+          description: 公众号数据分析及精准营销服务商
+        - title: 清博大数据
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.gsdata.cn?from=dy.199908.top
+          description: 全媒体传播监测平台
+        - title: 西瓜助手
+          logo: images/新媒运营/西瓜助手.png
+          url: https://www.xiguadata.com?from=dy.199908.top
+          description: 专注于短视频数据分析平台
+        - title: 飞瓜数据
+          logo: images/新媒运营/飞瓜数据.png
+          url: https://www.feigua.cn?from=dy.199908.top
+          description: 抖音数据分析平台
+        - title: 巨量算数
+          logo: images/新媒运营/巨量算数.png
+          url: https://trendinsight.oceanengine.com?from=dy.199908.top
+          description: 抖音官方大数据平台
+        - title: 微热点
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.wrd.cn?from=dy.199908.top
+          description: 全媒体传播分析平台
+        - title: 艾瑞网
+          logo: images/新媒运营/新榜.png
+          url: https://www.iresearch.cn?from=dy.199908.top
+          description: 互联网数据资讯聚合平台
+        - title: 生意参谋
+          logo: images/数据分析/生意参谋.png
+          url: https://sycm.taobao.com?from=dy.199908.top
+          description: 淘宝数据分析工具
+        - title: 大淘客
+          logo: images/数据分析/大淘客.jpg
+          url: http://www.dataoke.com?from=dy.199908.top
+          description: 淘客选品平台
+        - title: 抖音官方选品工具
+          logo: images/数据分析/抖音官方选品工具.jpg
+          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
+          description: 抖音官方选品工具
+        - title: 抖查查
+          logo: images/数据分析/抖查查.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 数据、达人与选品平台
+        - title: 灰豚数据-快手
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://ks.huitun.com?from=dy.199908.top
+          description: 灰豚数据快手版
+        - title: 郑和数据
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://zhenghedata.com/dashboard?from=dy.199908.top
+          description: 郑和数据小红书版
+        - title: 灰豚数据-小红书
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://xhs.huitun.com?from=dy.199908.top
+          description: 灰豚数据小红书版
+    - name: 文案剧本
+      links:
+        - title: 文案剧本
+          logo: images/电商辅助/文案剧本.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 文案剧本平台
+        - title: 熊猫视频号下载助手
+          logo: images/新媒运营/熊猫视频号下载助手.png
+          url: https://www.xiongmaoshipin.com?from=dy.199908.top
+          description: 支持视频号、小红书、抖音等多平台视频无水印下载
+        - title: AI免费思维导图
+          logo: images/新媒运营/AI免费思维导图.png
+          url: https://www.zhixi.com?from=dy.199908.top
+          description: AI智能思维导图，输入一句话即可生成
+        - title: AI写作助手
+          logo: images/新媒运营/AI写作助手.png
+          url: https://xiezuocat.com?from=dy.199908.top
+          description: 一站式AI自媒体创作平台
+        - title: 文案一键降AI
+          logo: images/新媒运营/文案一键降AI.png
+          url: https://ai.free-tools.cn?from=dy.199908.top
+          description: 一键降低AI痕迹，告别AI味文案
+        - title: 提客AI提词器
+          logo: images/新媒运营/提客AI提词器.png
+          url: https://tike.io?from=dy.199908.top
+          description: 直播、录课AI提词，搭配抖音直播伴侣等软件
+        - title: 文心一言
+          logo: images/新媒运营/AI写作助手.png
+          url: https://yiyan.baidu.com?from=dy.199908.top
+          description: 百度AI大模型，支持内容创作和图片生成
+        - title: Midjourney
+          logo: images/新媒运营/AI免费思维导图.png
+          url: https://www.midjourney.com?from=dy.199908.top
+          description: 专业AI图像生成工具
+        - title: 秒创数字人直播助手
+          logo: images/新媒运营/AI工具.png
+          url: https://live.yizhentv.com/?_f=bgrdh
+          description: AI数字人智能直播工具，一款低门槛低成本的直播神器
+        - title: 豆包AI
+          logo: images/新媒运营/AI工具.png
+          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
+          description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作
+        - title: 小鱼AI写作
+          logo: images/新媒运营/AI工具.png
+          url: https://www.xiaoyuxiezuo.com/AI_A14BB05
+          description: 免费在线智能AI写作平台,AI自动生成高质量原创内容
+        - title: 绘蛙
+          logo: images/新媒运营/AI工具.png
+          url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
+          description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
+        - title: 有言
+          logo: images/新媒运营/AI工具.png
+          url: https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh
+          description: 一站式AI视频创作，1200+免费3D数字人
+        - title: 讯飞绘文
+          logo: images/新媒运营/AI工具.png
+          url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
+          description: 选题、配图、成文，一站式创作，让内容运营更高效
+        - title: 白日梦AI
+          logo: images/新媒运营/AI工具.png
+          url: https://aibrm.com/?codedh_codyh
+          description: 白日梦AI视频生成是一个文生视频类AIGC创作平台
+        - title: 135编辑器AI排版
+          logo: images/新媒运营/AI工具.png
+          url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
+          description: 专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版
+    - name: 营销运营
+      links:
+        - title: 营销运营
+          logo: images/电商辅助/营销运营.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 营销运营平台
+        - title: 小打卡
+          logo: images/新媒运营/小打卡.png
+          url: https://www.xiaodaka.com?from=dy.199908.top
+          description: 社群活动运营与管理工具
+        - title: 有赞
+          logo: images/新媒运营/有赞.png
+          url: https://www.youzan.com?from=dy.199908.top
+          description: 社交电商解决方案与社群管理平台
+        - title: 企业微信
+          logo: images/新媒运营/企业微信.png
+          url: https://work.weixin.qq.com?from=dy.199908.top
+          description: 企业级社交协作与客户管理平台
+        - title: 金数据
+          logo: images/新媒运营/金数据.png
+          url: https://jinshuju.net?from=dy.199908.top
+          description: 专业的表单和数据收集工具
+        - title: 活动阁
+          logo: images/新媒运营/活动阁.png
+          url: https://www.huodonggai.com?from=dy.199908.top
+          description: 小程序红包，拼团，接龙多玩法模型活动系统
+        - title: 微客来
+          logo: images/新媒运营/企业微信.png
+          url: https://www.weikelai.com?from=dy.199908.top
+          description: 企业微信私域流量管理工具
+        - title: 小鹅通
+          logo: images/新媒运营/有赞.png
+          url: https://www.xiaoe-tech.com?from=dy.199908.top
+          description: 知识付费和在线教育平台
+    - name: 流量采买
+      links:
+        - title: 流量采买
+          logo: images/电商辅助/流量采买.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 流量采买平台
+        - title: 巨量引擎
+          logo: images/广告投放/巨量引擎.png
+          url: https://www.oceanengine.com?from=dy.199908.top
+          description: 抖音广告投放平台
+        - title: 巨量千川
+          logo: images/广告投放/巨量千川.png
+          url: https://qianchuan.jinritemai.com?from=dy.199908.top
+          description: 抖音电商广告投放平台
+        - title: 磁力引擎
+          logo: images/广告投放/磁力引擎.png
+          url: https://e.kuaishou.com?from=dy.199908.top
+          description: 快手开屏、信息流、粉条
+        - title: 磁力智投
+          logo: images/广告投放/磁力智投.png
+          url: https://ad.e.kuaishou.com?from=dy.199908.top
+          description: 快手广告投放平台
+        - title: 聚光平台
+          logo: images/广告投放/聚光.jpg
+          url: https://ad.xiaohongshu.com?from=dy.199908.top
+          description: 小红书广告投放平台
+        - title: 诸葛智投
+          logo: images/广告投放/诸葛智投.png
+          url: https://zgzt.v-ma.com?from=dy.199908.top
+          description: 视频号投放管理工具
+        - title: 品小宝
+          logo: images/广告投放/品小宝.png
+          url: https://www.pinxiaobao.com?from=dy.199908.top
+          description: 抖音达人数据分析平台
+        - title: 抖老板
+          logo: images/广告投放/抖老板.png
+          url: https://www.doulaobao.com?from=dy.199908.top
+          description: 抖音达人数据分析平台
+    - name: 新媒工具
+      links:
+        - title: 新媒工具
+          logo: images/电商辅助/新媒工具.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 新媒工具平台
+        - title: 剪映专业版
+          logo: images/新媒运营/剪映专业版.png
+          url: https://lv.ulikecam.com?from=dy.199908.top
+          description: 字节跳动官方视频剪辑工具
+        - title: 灵球去水印
+          logo: images/新媒运营/灵球去水印.png
+          url: https://videofk.com?from=dy.199908.top
+          description: 支持无水印保存主流媒体平台视频/图片
+        - title: 抖音创作服务平台
+          logo: images/新媒运营/抖音创作服务平台.png
+          url: https://creator.douyin.com?from=dy.199908.top
+          description: 抖音官方创作者服务平台
+        - title: 视频号助手
+          logo: images/新媒运营/视频号助手.png
+          url: https://channels.weixin.qq.com?from=dy.199908.top
+          description: 微信视频号官方助手
+        - title: 快剪辑
+          logo: images/新媒运营/快剪辑.png
+          url: https://kuai.360.cn/home.html?from=dy.199908.top
+          description: 免费视频剪辑软件
+        - title: 必剪
+          logo: images/新媒运营/剪映专业版.png
+          url: https://bcut.bilibili.com?from=dy.199908.top
+          description: B站官方视频剪辑工具
+        - title: 爱剪辑
+          logo: images/新媒运营/快剪辑.png
+          url: https://ijianji.com?from=dy.199908.top
+          description: 专业视频剪辑软件
+        - title: 易剪媒-AI剪辑
+          logo: images/新媒运营/短视频工具.png
+          url: https://www.xinmei7.com/?from=bgrdh
+          description: 视频号抓取,视频翻译,批量剪辑。聚合式Ai剪辑工具，支持视频翻译、万能资源嗅探、视频综合处理、二创去重、提文案加字幕、多模式合成、分镜混剪等
+        - title: 推推侠-tiktok达人建联
+          logo: images/新媒运营/短视频工具.png
+          url: https://ttxia.com/?sourcecode=bgrdh
+          description: TikTok达人建联神器 让达人合作从"大海捞针"到"精准爆破"
+        - title: 八爪鱼采集器
+          logo: images/新媒运营/短视频工具.png
+          url: https://affiliate.bazhuayu.com/lKTbNX
+          description: 免费网络爬虫软件_网页大数据抓取工具
+    - name: 新媒服务
+      links:
+        - title: 新媒服务
+          logo: images/电商辅助/新媒服务.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 新媒服务平台
+        - title: 稿定设计
+          logo: images/新媒运营/稿定设计.png
+          url: https://www.gaoding.com?from=dy.199908.top
+          description: 在线设计工具，提供海量素材模板
+        - title: 图虫创意
+          logo: images/新媒运营/图虫创意.png
+          url: https://stock.tuchong.com?from=dy.199908.top
+          description: 正版图片素材库，摄影师社区
+        - title: GIPHY
+          logo: images/新媒运营/GIPHY.png
+          url: https://giphy.com?from=dy.199908.top
+          description: 全球最大的GIF动图搜索引擎和创作平台
+        - title: 创客贴
+          logo: images/新媒运营/创客贴.png
+          url: https://www.chuangkit.com?from=dy.199908.top
+          description: 在线设计平台，提供海量设计模板
+        - title: 包图网
+          logo: images/新媒运营/包图网.png
+          url: https://ibaotu.com?from=dy.199908.top
+          description: 正版高清图片素材网站
+        - title: 花瓣网
+          logo: images/图文设计/花瓣网.png
+          url: https://huaban.com?from=dy.199908.top
+          description: 设计灵感搜集分享平台
+        - title: 配图神器
+          logo: images/新媒运营/创客贴.png
+          url: https://www.logosc.cn/so?from=dy.199908.top
+          description: 免版权图片搜索引擎
+        - title: 小红书工具
+          logo: images/新媒运营/小红书工具.png
+          url: https://www.xiaohongshu.com/tool?from=dy.199908.top
+          description: 小红书商家工具和营销工具
+        - title: Reditor编辑器
+          logo: images/新媒运营/Reditor编辑器.png
+          url: https://help.reditorapp.com?from=dy.199908.top
+          description: 小红书专业编辑工具，提供违禁词检测、AI文案生成等功能
+        - title: 薯狗狗
+          logo: images/新媒运营/薯狗狗.png
+          url: https://www.ggyl.top?from=dy.199908.top
+          description: 小红书专业数据分析和竞品账号监控工具
+        - title: XHSPlus
+          logo: images/新媒运营/XHSPlus.png
+          url: https://xhsplus.io?from=dy.199908.top
+          description: 小红书AI创作助手，提供爆款文案生成、编辑器和敏感词检测
+        - title: 零克查词
+          logo: images/新媒运营/零克查词.png
+          url: https://www.liangekeji.com?from=dy.199908.top
+          description: 专业小红书敏感词和违规词检测工具
+        - title: 句易网
+          logo: images/新媒运营/句易网.png
+          url: https://www.juyiwang.com?from=dy.199908.top
+          description: 文案合规性检查工具，支持小红书最新违规词库
+        - title: 小红书创作者服务中心
+          logo: images/新媒运营/小红书创作者服务中心.png
+          url: https://creator.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方创作者平台，提供数据分析和收益管理
+        - title: 今日热榜
+          logo: images/新媒运营/今日热榜.png
+          url: https://tophub.today?from=dy.199908.top
+          description: 聚合各大平台热点信息，包含小红书热门榜单
+        - title: 灰豚数据
+          logo: images/新媒运营/灰豚数据.png
+          url: https://www.huitudata.com?from=dy.199908.top
+          description: 小红书数据分析工具，提供市场趋势和洞察
+    - name: 媒体平台
+      links:
+        - title: 媒体平台
+          logo: images/电商辅助/媒体平台.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 媒体平台
+        - title: 头条创作平台
+          logo: images/新媒运营/新媒体管家.png
+          url: https://mp.toutiao.com?from=dy.199908.top
+          description: 今日头条创作者服务平台
+        - title: 公众号助手Pro
+          logo: images/新媒运营/公众号助手.png
+          url: https://pro.wxb.com?from=dy.199908.top
+          description: 专业微信公众号第三方运营平台
+        - title: 抖音创作服务平台
+          logo: images/新媒运营/抖音创作服务平台.png
+          url: https://creator.douyin.com?from=dy.199908.top
+          description: 抖音官方创作者服务平台
+        - title: 视频号助手
+          logo: images/新媒运营/视频号助手.png
+          url: https://channels.weixin.qq.com?from=dy.199908.top
+          description: 微信视频号官方助手
+        - title: 小红书创作者服务中心
+          logo: images/新媒运营/小红书创作者服务中心.png
+          url: https://creator.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方创作者平台，提供数据分析和收益管理
+    - name: 研究报告
+      links:
+        - title: 研究报告
+          logo: images/电商辅助/研究报告.png
+          url: https://www.xinmei7.com/?from=dy.199908.top
+          description: 研究报告平台
+        - title: 热点聚合
+          logo: images/新媒运营/数据研究.png
+          url: https://tophub.today
+          description: 各大网站热点聚合，实时热搜榜单
+        - title: AI今日热榜
+          logo: images/新媒运营/数据研究.png
+          url: https://hot.jixie.io
+          description: AI驱动的热点聚合平台，提供智能热点分析
+        - title: 新榜排名
+          logo: images/新媒运营/数据研究.png
+          url: https://www.newrank.cn
+          description: 内容创业服务平台，提供新媒体数据分析和排名
+        - title: 中研网
+          logo: images/新媒运营/数据研究.png
+          url: https://www.chinairn.com
+          description: 行业研究报告、市场调研报告、竞争情报
+        - title: 前瞻网
+          logo: images/新媒运营/数据研究.png
+          url: https://www.qianzhan.com
+          description: 行业研究报告、产业链分析、市场调研
+        - title: 智研咨询
+          logo: images/新媒运营/数据研究.png
+          url: https://www.chyxx.com
+          description: 行业研究报告、市场分析、竞争格局
+        - title: 每日报告
+          logo: images/新媒运营/数据研究.png
+          url: https://www.meiribg.com
+          description: 行业研究报告、市场分析报告、商业计划书
+        - title: 宣小二媒体发稿平台
+          logo: images/新媒运营/数据研究.png
+          url: https://www.xuanxiaoer.com?spid=1827
+          description: 自媒体变现，产品推广宣传，宣传文章视频分发
+        - title: 聚观新闻推
+          logo: images/新媒运营/数据研究.png
+          url: https://www.juguanxinwen.com
+          description: 新闻推广、媒体发布、品牌宣传平台
+        - title: IPIDEA
+          logo: images/新媒运营/数据研究.png
+          url: https://share.ipidea.net/5fkzA5
+          description: 全球IP代理资源服务商，9000万纯净IP代理池，覆盖全球220个国家地区的代理网络
 
 - taxonomy: 广告投放
   icon: fa-bullhorn
@@ -1260,512 +1765,81 @@
           url: https://zgzt.v-ma.com?from=dy.199908.top
           description: 视频号投放管理工具
 
-- taxonomy: 新媒运营
-  icon: fa-bullhorn
-  list:  # 添加list属性，用于侧边栏显示
-    - term: AI创作
-    - term: 视频处理
-    - term: 数据分析
-    - term: 内容营销
-    - term: 行业研究
-    - term: 内容创作
-    - term: 排版编辑
-    - term: 社群运营
-    - term: 素材获取
-    - term: 小红书工具
-  tabs:
-    - name: AI创作
-      links:
-        - title: 熊猫视频号下载助手
-          logo: images/新媒运营/熊猫视频号下载助手.png
-          url: https://www.xiongmaoshipin.com?from=dy.199908.top
-          description: 支持视频号、小红书、抖音等多平台视频无水印下载
-        - title: AI免费思维导图
-          logo: images/新媒运营/AI免费思维导图.png
-          url: https://www.zhixi.com?from=dy.199908.top
-          description: AI智能思维导图，输入一句话即可生成
-        - title: AI写作助手
-          logo: images/新媒运营/AI写作助手.png
-          url: https://xiezuocat.com?from=dy.199908.top
-          description: 一站式AI自媒体创作平台
-        - title: 文案一键降AI
-          logo: images/新媒运营/文案一键降AI.png
-          url: https://ai.free-tools.cn?from=dy.199908.top
-          description: 一键降低AI痕迹，告别AI味文案
-        - title: 提客AI提词器
-          logo: images/新媒运营/提客AI提词器.png
-          url: https://tike.io?from=dy.199908.top
-          description: 直播、录课AI提词，搭配抖音直播伴侣等软件
-        - title: 文心一言
-          logo: images/新媒运营/AI写作助手.png
-          url: https://yiyan.baidu.com?from=dy.199908.top
-          description: 百度AI大模型，支持内容创作和图片生成
-        - title: Midjourney
-          logo: images/新媒运营/AI免费思维导图.png
-          url: https://www.midjourney.com?from=dy.199908.top
-          description: 专业AI图像生成工具
-        - title: 秒创数字人直播助手
-          logo: images/新媒运营/AI工具.png
-          url: https://live.yizhentv.com/?_f=bgrdh
-          description: AI数字人智能直播工具，一款低门槛低成本的直播神器
-        - title: 豆包AI
-          logo: images/新媒运营/AI工具.png
-          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-          description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作
-        - title: 小鱼AI写作
-          logo: images/新媒运营/AI工具.png
-          url: https://www.xiaoyuxiezuo.com/AI_A14BB05
-          description: 免费在线智能AI写作平台,AI自动生成高质量原创内容
-        - title: 绘蛙
-          logo: images/新媒运营/AI工具.png
-          url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
-          description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
-        - title: 有言
-          logo: images/新媒运营/AI工具.png
-          url: https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh
-          description: 一站式AI视频创作，1200+免费3D数字人
-        - title: 讯飞绘文
-          logo: images/新媒运营/AI工具.png
-          url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
-          description: 选题、配图、成文，一站式创作，让内容运营更高效
-        - title: 白日梦AI
-          logo: images/新媒运营/AI工具.png
-          url: https://aibrm.com/?codedh_codyh
-          description: 白日梦AI视频生成是一个文生视频类AIGC创作平台
-        - title: 135编辑器AI排版
-          logo: images/新媒运营/AI工具.png
-          url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
-          description: 专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版
-    - name: 视频处理
-      links:
-        - title: 剪映专业版
-          logo: images/新媒运营/剪映专业版.png
-          url: https://lv.ulikecam.com?from=dy.199908.top
-          description: 字节跳动官方视频剪辑工具
-        - title: 灵球去水印
-          logo: images/新媒运营/灵球去水印.png
-          url: https://videofk.com?from=dy.199908.top
-          description: 支持无水印保存主流媒体平台视频/图片
-        - title: 抖音创作服务平台
-          logo: images/新媒运营/抖音创作服务平台.png
-          url: https://creator.douyin.com?from=dy.199908.top
-          description: 抖音官方创作者服务平台
-        - title: 视频号助手
-          logo: images/新媒运营/视频号助手.png
-          url: https://channels.weixin.qq.com?from=dy.199908.top
-          description: 微信视频号官方助手
-        - title: 快剪辑
-          logo: images/新媒运营/快剪辑.png
-          url: https://kuai.360.cn/home.html?from=dy.199908.top
-          description: 免费视频剪辑软件
-        - title: 必剪
-          logo: images/新媒运营/剪映专业版.png
-          url: https://bcut.bilibili.com?from=dy.199908.top
-          description: B站官方视频剪辑工具
-        - title: 爱剪辑
-          logo: images/新媒运营/快剪辑.png
-          url: https://ijianji.com?from=dy.199908.top
-          description: 专业视频剪辑软件
-        - title: 易剪媒-AI剪辑
-          logo: images/新媒运营/短视频工具.png
-          url: https://www.xinmei7.com/?from=bgrdh
-          description: 视频号抓取,视频翻译,批量剪辑。聚合式Ai剪辑工具，支持视频翻译、万能资源嗅探、视频综合处理、二创去重、提文案加字幕、多模式合成、分镜混剪等
-        - title: 推推侠-tiktok达人建联
-          logo: images/新媒运营/短视频工具.png
-          url: https://ttxia.com/?sourcecode=bgrdh
-          description: TikTok达人建联神器 让达人合作从"大海捞针"到"精准爆破"
-        - title: 八爪鱼采集器
-          logo: images/新媒运营/短视频工具.png
-          url: https://affiliate.bazhuayu.com/lKTbNX
-          description: 免费网络爬虫软件_网页大数据抓取工具
-    - name: 数据分析
-      links:
-        - title: 新榜
-          logo: images/新媒运营/新榜.png
-          url: https://www.newrank.cn?from=dy.199908.top
-          description: 内容创业服务平台，提供新媒体数据分析
-        - title: 蝉妈妈
-          logo: images/新媒运营/蝉妈妈.png
-          url: https://www.chanmama.com?from=dy.199908.top
-          description: 抖音、小红书数据分析及营销平台，支持直播选品
-        - title: 千瓜数据
-          logo: images/新媒运营/千瓜数据.png
-          url: http://www.qian-gua.com?from=dy.199908.top
-          description: 小红书专业数据分析工具，支持多维度分析及直播监控
-        - title: 西瓜数据
-          logo: images/新媒运营/西瓜数据.png
-          url: https://data.xiguaji.com?from=dy.199908.top
-          description: 公众号数据分析及精准营销服务商
-        - title: 清博大数据
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 全媒体传播监测平台
-        - title: 西瓜助手
-          logo: images/新媒运营/西瓜助手.png
-          url: https://www.xiguadata.com?from=dy.199908.top
-          description: 专注于短视频数据分析平台
-        - title: 飞瓜数据
-          logo: images/新媒运营/飞瓜数据.png
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 抖音数据分析平台
-        - title: 巨量算数
-          logo: images/新媒运营/巨量算数.png
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 微热点
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.wrd.cn?from=dy.199908.top
-          description: 全媒体传播分析平台
-        - title: 艾瑞网
-          logo: images/新媒运营/新榜.png
-          url: https://www.iresearch.cn?from=dy.199908.top
-          description: 互联网数据资讯聚合平台
-        - title: 生意参谋
-          logo: images/数据分析/生意参谋.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 淘宝数据分析工具
-        - title: 大淘客
-          logo: images/数据分析/大淘客.jpg
-          url: http://www.dataoke.com?from=dy.199908.top
-          description: 淘客选品平台
-        - title: 巨量算数
-          logo: images/数据分析/巨量算数.svg
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 抖音官方选品工具
-          logo: images/数据分析/抖音官方选品工具.jpg
-          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
-          description: 抖音官方选品工具
-        - title: 蝉妈妈
-          logo: images/数据分析/蝉妈妈.jpg
-          url: http://www.chanmama.com?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 飞瓜
-          logo: images/数据分析/飞瓜.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 灰豚数据-抖音
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://dy.huitun.com?from=dy.199908.top
-          description: 灰豚数据抖音
-        - title: 抖查查
-          logo: images/数据分析/抖查查.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 数据、达人与选品平台
-        - title: 灰豚数据-快手
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://ks.huitun.com?from=dy.199908.top
-          description: 灰豚数据快手版
-        - title: 郑和数据
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://zhenghedata.com/dashboard?from=dy.199908.top
-          description: 郑和数据小红书版
-        - title: 灰豚数据-小红书
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://xhs.huitun.com?from=dy.199908.top
-          description: 灰豚数据小红书版
-    - name: 内容营销
-      links:
-        - title: 新媒体管家
-          logo: images/新媒运营/新媒体管家.png
-          url: https://xmt.cn?from=dy.199908.top
-          description: 一站式新媒体内容创作与发布平台
-        - title: 秀米XIUMI
-          logo: images/新媒运营/秀米.png
-          url: https://xiumi.us?from=dy.199908.top
-          description: 专业级图文排版与设计工具
-        - title: 135编辑器
-          logo: images/新媒运营/135编辑器.png
-          url: https://www.135editor.com?from=dy.199908.top
-          description: 专业级微信图文编辑排版工具
-        - title: 新榜小红书编辑器
-          logo: images/新媒运营/新榜小红书编辑器.png
-          url: https://edit.newrank.cn?from=dy.199908.top
-          description: 专业级小红书内容创作编辑工具
-        - title: 考拉新媒体导航
-          logo: images/新媒运营/考拉新媒体导航.png
-          url: https://www.kaolamedia.com?from=dy.199908.top
-          description: 新媒体人每天打开的第一个网站
-        - title: 头条创作平台
-          logo: images/新媒运营/新媒体管家.png
-          url: https://mp.toutiao.com?from=dy.199908.top
-          description: 今日头条创作者服务平台
-        - title: 公众号助手Pro
-          logo: images/新媒运营/公众号助手.png
-          url: https://pro.wxb.com?from=dy.199908.top
-          description: 专业微信公众号第三方运营平台
-    - name: 行业研究
-      links:
-        - title: 热点聚合
-          logo: images/新媒运营/数据研究.png
-          url: https://tophub.today
-          description: 各大网站热点聚合，实时热搜榜单
-        - title: AI今日热榜
-          logo: images/新媒运营/数据研究.png
-          url: https://hot.jixie.io
-          description: AI驱动的热点聚合平台，提供智能热点分析
-        - title: 新榜排名
-          logo: images/新媒运营/数据研究.png
-          url: https://www.newrank.cn
-          description: 内容创业服务平台，提供新媒体数据分析和排名
-        - title: 中研网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.chinairn.com
-          description: 行业研究报告、市场调研报告、竞争情报
-        - title: 前瞻网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.qianzhan.com
-          description: 行业研究报告、产业链分析、市场调研
-        - title: 智研咨询
-          logo: images/新媒运营/数据研究.png
-          url: https://www.chyxx.com
-          description: 行业研究报告、市场分析、竞争格局
-        - title: 每日报告
-          logo: images/新媒运营/数据研究.png
-          url: https://www.meiribg.com
-          description: 行业研究报告、市场分析报告、商业计划书
-        - title: 宣小二媒体发稿平台
-          logo: images/新媒运营/数据研究.png
-          url: https://www.xuanxiaoer.com?spid=1827
-          description: 自媒体变现，产品推广宣传，宣传文章视频分发
-        - title: 聚观新闻推
-          logo: images/新媒运营/数据研究.png
-          url: https://www.juguanxinwen.com
-          description: 新闻推广、媒体发布、品牌宣传平台
-        - title: IPIDEA
-          logo: images/新媒运营/数据研究.png
-          url: https://share.ipidea.net/5fkzA5
-          description: 全球IP代理资源服务商，9000万纯净IP代理池，覆盖全球220个国家地区的代理网络
-    - name: 内容创作
-      links:
-        - title: 新媒体管家
-          logo: images/新媒运营/新媒体管家.png
-          url: https://xmt.cn?from=dy.199908.top
-          description: 一站式新媒体内容创作与发布平台
-        - title: 秀米XIUMI
-          logo: images/新媒运营/秀米.png
-          url: https://xiumi.us?from=dy.199908.top
-          description: 专业级图文排版与设计工具
-        - title: 135编辑器
-          logo: images/新媒运营/135编辑器.png
-          url: https://www.135editor.com?from=dy.199908.top
-          description: 专业级微信图文编辑排版工具
-        - title: 新榜小红书编辑器
-          logo: images/新媒运营/新榜小红书编辑器.png
-          url: https://edit.newrank.cn?from=dy.199908.top
-          description: 专业级小红书内容创作编辑工具
-        - title: 考拉新媒体导航
-          logo: images/新媒运营/考拉新媒体导航.png
-          url: https://www.kaolamedia.com?from=dy.199908.top
-          description: 新媒体人每天打开的第一个网站
-        - title: 头条创作平台
-          logo: images/新媒运营/新媒体管家.png
-          url: https://mp.toutiao.com?from=dy.199908.top
-          description: 今日头条创作者服务平台
-        - title: 公众号助手Pro
-          logo: images/新媒运营/公众号助手.png
-          url: https://pro.wxb.com?from=dy.199908.top
-          description: 专业微信公众号第三方运营平台
-    - name: 排版编辑
-      links:
-        - title: 壹伴
-          logo: images/新媒运营/壹伴.png
-          url: https://yiban.io?from=dy.199908.top
-          description: 微信公众号效率工具
-        - title: 易撰
-          logo: images/新媒运营/易撰.png
-          url: https://www.yizhuan5.com?from=dy.199908.top
-          description: 新媒体写作与创作平台
-        - title: 96编辑器
-          logo: images/新媒运营/96编辑器.png
-          url: https://www.96weixin.com?from=dy.199908.top
-          description: 微信公众号图文排版工具
-        - title: 公众号助手
-          logo: images/新媒运营/公众号助手.png
-          url: https://mp.weixin.qq.com?from=dy.199908.top
-          description: 微信官方公众号后台管理工具
-        - title: 爱设计新媒体作图
-          logo: images/新媒运营/爱设计新媒体作图.png
-          url: https://www.isheji.com?from=dy.199908.top
-          description: 新媒体专业作图平台
-        - title: 新榜编辑器
-          logo: images/新媒运营/新榜.png
-          url: https://edit.newrank.cn?from=dy.199908.top
-          description: 新榜旗下一站式创作排版平台
-        - title: 微信排版365
-          logo: images/新媒运营/壹伴.png
-          url: https://www.365editor.com?from=dy.199908.top
-          description: 简洁高效的微信排版工具
-    - name: 社群运营
-      links:
-        - title: 小打卡
-          logo: images/新媒运营/小打卡.png
-          url: https://www.xiaodaka.com?from=dy.199908.top
-          description: 社群活动运营与管理工具
-        - title: 有赞
-          logo: images/新媒运营/有赞.png
-          url: https://www.youzan.com?from=dy.199908.top
-          description: 社交电商解决方案与社群管理平台
-        - title: 企业微信
-          logo: images/新媒运营/企业微信.png
-          url: https://work.weixin.qq.com?from=dy.199908.top
-          description: 企业级社交协作与客户管理平台
-        - title: 金数据
-          logo: images/新媒运营/金数据.png
-          url: https://jinshuju.net?from=dy.199908.top
-          description: 专业的表单和数据收集工具
-        - title: 活动阁
-          logo: images/新媒运营/活动阁.png
-          url: https://www.huodonggai.com?from=dy.199908.top
-          description: 小程序红包，拼团，接龙多玩法模型活动系统
-        - title: 微客来
-          logo: images/新媒运营/企业微信.png
-          url: https://www.weikelai.com?from=dy.199908.top
-          description: 企业微信私域流量管理工具
-        - title: 小鹅通
-          logo: images/新媒运营/有赞.png
-          url: https://www.xiaoe-tech.com?from=dy.199908.top
-          description: 知识付费和在线教育平台
-    - name: 素材获取
-      links:
-        - title: 稿定设计
-          logo: images/新媒运营/稿定设计.png
-          url: https://www.gaoding.com?from=dy.199908.top
-          description: 在线设计工具，提供海量素材模板
-        - title: 图虫创意
-          logo: images/新媒运营/图虫创意.png
-          url: https://stock.tuchong.com?from=dy.199908.top
-          description: 正版图片素材库，摄影师社区
-        - title: GIPHY
-          logo: images/新媒运营/GIPHY.png
-          url: https://giphy.com?from=dy.199908.top
-          description: 全球最大的GIF动图搜索引擎和创作平台
-        - title: 创客贴
-          logo: images/新媒运营/创客贴.png
-          url: https://www.chuangkit.com?from=dy.199908.top
-          description: 在线设计平台，提供海量设计模板
-        - title: 包图网
-          logo: images/新媒运营/包图网.png
-          url: https://ibaotu.com?from=dy.199908.top
-          description: 正版高清图片素材网站
-        - title: 花瓣网
-          logo: images/图文设计/花瓣网.png
-          url: https://huaban.com?from=dy.199908.top
-          description: 设计灵感搜集分享平台
-        - title: 配图神器
-          logo: images/新媒运营/创客贴.png
-          url: https://www.logosc.cn/so?from=dy.199908.top
-          description: 免版权图片搜索引擎
-    - name: 小红书工具
-      links:
-        - title: 小红书工具
-          logo: images/新媒运营/小红书工具.png
-          url: https://www.xiaohongshu.com/tool?from=dy.199908.top
-          description: 小红书商家工具和营销工具
-        - title: Reditor编辑器
-          logo: images/新媒运营/Reditor编辑器.png
-          url: https://help.reditorapp.com?from=dy.199908.top
-          description: 小红书专业编辑工具，提供违禁词检测、AI文案生成等功能
-        - title: 薯狗狗
-          logo: images/新媒运营/薯狗狗.png
-          url: https://www.ggyl.top?from=dy.199908.top
-          description: 小红书专业数据分析和竞品账号监控工具
-        - title: XHSPlus
-          logo: images/新媒运营/XHSPlus.png
-          url: https://xhsplus.io?from=dy.199908.top
-          description: 小红书AI创作助手，提供爆款文案生成、编辑器和敏感词检测
-        - title: 零克查词
-          logo: images/新媒运营/零克查词.png
-          url: https://www.liangekeji.com?from=dy.199908.top
-          description: 专业小红书敏感词和违规词检测工具
-        - title: 句易网
-          logo: images/新媒运营/句易网.png
-          url: https://www.juyiwang.com?from=dy.199908.top
-          description: 文案合规性检查工具，支持小红书最新违规词库
-        - title: 小红书创作者服务中心
-          logo: images/新媒运营/小红书创作者服务中心.png
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方创作者平台，提供数据分析和收益管理
-        - title: 今日热榜
-          logo: images/新媒运营/今日热榜.png
-          url: https://tophub.today?from=dy.199908.top
-          description: 聚合各大平台热点信息，包含小红书热门榜单
-        - title: 灰豚数据
-          logo: images/新媒运营/灰豚数据.png
-          url: https://www.huitudata.com?from=dy.199908.top
-          description: 小红书数据分析工具，提供市场趋势和洞察
-
 - taxonomy: 视频剪辑
-  icon: fa-video
-  links: 
-        - title: 剪映
-          logo: images/视频编辑/剪映.png
-          url: https://www.capcut.cn?from=dy.199908.top
-          description: 全能易用的视频剪辑软件
-        - title: 即梦AI
-          logo: images/视频编辑/即梦AI.png
-          url: https://jimeng.jianying.com?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: 易剪媒 Ai批量剪辑
-          logo: images/视频编辑/易剪媒.jpg
-          url: https://www.xinmei7.com?from=dy.199908.top
-          description: AI视频剪辑与二创处理工具
-        - title: Vidu
-          logo: images/视频编辑/Vidu.jpeg
-          url: https://www.vidu.cn/create?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: SkyReels Tutorial
-          logo: images/视频编辑/SkyReels.jpeg
-          url: https://www.skyreels.ai?from=dy.199908.top
-          description: 一站式AI视频创作平台
-        - title: Viggle AI
-          logo: images/视频编辑/Viggle.jpeg
-          url: https://viggle.ai/app?from=dy.199908.top
-          description: 生成高质量、可控的动态视频
-        - title: 小白兔 AI
-          logo: images/视频编辑/小白兔AI.png
-          url: https://xiaobaituai.com?from=dy.199908.top
-          description: 一站式AI视频创作软件
-        - title: 江湖工具箱
-          logo: images/视频编辑/江湖工具箱.png
-          url: https://www.jianghudata.com?from=dy.199908.top
-          description: 电商多功能软件
-        - title: 红抖AI助手
-          logo: images/视频编辑/红抖AI助手.jpg
-          url: https://hd.jianliai.com?from=dy.199908.top
-          description: 最全的AI创作工具箱
-        - title: 腾讯智影
-          logo: images/视频编辑/禅视频.png
-          url: https://zenvideo.qq.com/home?from=dy.199908.top
-          description: 腾讯AI智能创作平台
-        - title: 鬼手剪辑
-          logo: images/视频编辑/鬼手剪辑.png
-          url: https://jollytoday.com/index/cn?from=dy.199908.top
-          description: 硬字幕翻译、视频去字幕
-        - title: 闪电配音
-          logo: images/视频编辑/闪电配音.png
-          url: https://www.soundems.com?from=dy.199908.top
-          description: 配音平台
-        - title: 微软文本转语音
-          logo: images/视频编辑/微软文本转语音.png
-          url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
-          description: 微软文本转语音
-        - title: 讯飞智作
-          logo: images/视频编辑/讯飞智作.png
-          url: https://peiyin.xunfei.cn?from=dy.199908.top
-          description: 讯飞AI配音
-        - title: 即时工具
-          logo: images/视频编辑/即时工具.png
-          url: https://www.67tool.com?from=dy.199908.top
-          description: 视频、图片处理工具箱
-        - title: 直播片段生成器
-          logo: images/视频编辑/淘宝.png
-          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-          description: 淘宝直播片段生成工具
-        - title: 短视频混剪工具
-          logo: images/视频编辑/淘宝.png
-          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-          description: 淘宝短视频混剪工具
+    icon: fa-video
+    list:  # 添加list属性，用于侧边栏显示
+      - term: 视频剪辑
+    tabs:
+      - name: 视频剪辑
+        links: 
+          - title: 剪映
+            logo: images/视频编辑/剪映.png
+            url: https://www.capcut.cn?from=dy.199908.top
+            description: 全能易用的视频剪辑软件
+          - title: 即梦AI
+            logo: images/视频编辑/即梦AI.png
+            url: https://jimeng.jianying.com?from=dy.199908.top
+            description: 一站式AI视频创作平台
+          - title: 易剪媒 Ai批量剪辑
+            logo: images/视频编辑/易剪媒.jpg
+            url: https://www.xinmei7.com?from=dy.199908.top
+            description: AI视频剪辑与二创处理工具
+          - title: Vidu
+            logo: images/视频编辑/Vidu.jpeg
+            url: https://www.vidu.cn/create?from=dy.199908.top
+            description: 一站式AI视频创作平台
+          - title: SkyReels Tutorial
+            logo: images/视频编辑/SkyReels.jpeg
+            url: https://www.skyreels.ai?from=dy.199908.top
+            description: 一站式AI视频创作平台
+          - title: Viggle AI
+            logo: images/视频编辑/Viggle.jpeg
+            url: https://viggle.ai/app?from=dy.199908.top
+            description: 生成高质量、可控的动态视频
+          - title: 小白兔 AI
+            logo: images/视频编辑/小白兔AI.png
+            url: https://xiaobaituai.com?from=dy.199908.top
+            description: 一站式AI视频创作软件
+          - title: 江湖工具箱
+            logo: images/视频编辑/江湖工具箱.png
+            url: https://www.jianghudata.com?from=dy.199908.top
+            description: 电商多功能软件
+          - title: 红抖AI助手
+            logo: images/视频编辑/红抖AI助手.jpg
+            url: https://hd.jianliai.com?from=dy.199908.top
+            description: 最全的AI创作工具箱
+          - title: 腾讯智影
+            logo: images/视频编辑/禅视频.png
+            url: https://zenvideo.qq.com/home?from=dy.199908.top
+            description: 腾讯AI智能创作平台
+          - title: 鬼手剪辑
+            logo: images/视频编辑/鬼手剪辑.png
+            url: https://jollytoday.com/index/cn?from=dy.199908.top
+            description: 硬字幕翻译、视频去字幕
+          - title: 闪电配音
+            logo: images/视频编辑/闪电配音.png
+            url: https://www.soundems.com?from=dy.199908.top
+            description: 配音平台
+          - title: 微软文本转语音
+            logo: images/视频编辑/微软文本转语音.png
+            url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
+            description: 微软文本转语音
+          - title: 讯飞智作
+            logo: images/视频编辑/讯飞智作.png
+            url: https://peiyin.xunfei.cn?from=dy.199908.top
+            description: 讯飞AI配音
+          - title: 即时工具
+            logo: images/视频编辑/即时工具.png
+            url: https://www.67tool.com?from=dy.199908.top
+            description: 视频、图片处理工具箱
+          - title: 直播片段生成器
+            logo: images/视频编辑/淘宝.png
+            url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
+            description: 淘宝直播片段生成工具
+          - title: 短视频混剪工具
+            logo: images/视频编辑/淘宝.png
+            url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
+            description: 淘宝短视频混剪工具
 
 - taxonomy: 图文设计
   icon: fa-palette
