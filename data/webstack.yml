@@ -1263,11 +1263,11 @@
 - taxonomy: 新媒运营
   icon: fa-bullhorn
   list:  # 添加list属性，用于侧边栏显示
-    - term: AI创作工具
-    - term: 视频处理工具
-    - term: 数据分析工具
-    - term: 内容营销工具
-    - term: 行业研究工具
+    - term: AI创作
+    - term: 视频处理
+    - term: 数据分析
+    - term: 内容营销
+    - term: 行业研究
     - term: 内容创作
     - term: 排版编辑
     - term: 社群运营
@@ -1694,54 +1694,6 @@
           logo: images/新媒运营/灰豚数据.png
           url: https://www.huitudata.com?from=dy.199908.top
           description: 小红书数据分析工具，提供市场趋势和洞察
-
-- taxonomy: 设计软件
-  icon: fa-palette
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 图像处理
-    - term: 矢量设计
-    - term: 排版软件
-    - term: 3D建模
-  tabs:
-    - name: 图像处理
-      links:
-        - title: photoshop
-          url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
-          logo: images/设计软件/Photoshop.png
-          description: Photoshop不需要解释
-
-    - name: 矢量设计
-      links:
-        - title: Affinity Designer
-          url: https://affinity.serif.com?from=dy.199908.top
-          logo: images/设计软件/AffinityDesigner.png
-          description: 专业创意软件
-        - title: Illustrator
-          url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
-          logo: images/设计软件/Illustrator.png
-          description: 矢量图形和插图
-
-    - name: 排版软件
-      links:
-        - title: indesign
-          url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
-          logo: images/设计软件/InDesign.png
-          description: 页面设计、布局和出版
-
-    - name: 3D建模
-      links:
-        - title: cinema-4d
-          url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
-          logo: images/设计软件/Cinema4D.png
-          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free
-        - title: 3ds-max
-          url: https://www.autodesk.com/products/3ds-max/overview?from=dy.199908.top
-          logo: images/设计软件/3dsMax.png
-          description: 3D modeling, animation, and rendering software
-        - title: Blender
-          url: https://www.blender.org?from=dy.199908.top
-          logo: images/设计软件/Blender.png
-          description: Blender is the free and open source 3D creation suite
 
 - taxonomy: 视频剪辑
   icon: fa-video
@@ -2550,6 +2502,54 @@
           url: https://www.dafont.com?from=dy.199908.top
           logo: images/图标字体/DaFont.png
           description: Archive of freely downloadable fonts
+
+- taxonomy: 设计软件
+  icon: fa-palette
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 图像处理
+    - term: 矢量设计
+    - term: 排版软件
+    - term: 3D建模
+  tabs:
+    - name: 图像处理
+      links:
+        - title: photoshop
+          url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
+          logo: images/设计软件/Photoshop.png
+          description: Photoshop不需要解释
+
+    - name: 矢量设计
+      links:
+        - title: Affinity Designer
+          url: https://affinity.serif.com?from=dy.199908.top
+          logo: images/设计软件/AffinityDesigner.png
+          description: 专业创意软件
+        - title: Illustrator
+          url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
+          logo: images/设计软件/Illustrator.png
+          description: 矢量图形和插图
+
+    - name: 排版软件
+      links:
+        - title: indesign
+          url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
+          logo: images/设计软件/InDesign.png
+          description: 页面设计、布局和出版
+
+    - name: 3D建模
+      links:
+        - title: cinema-4d
+          url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
+          logo: images/设计软件/Cinema4D.png
+          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free
+        - title: 3ds-max
+          url: https://www.autodesk.com/products/3ds-max/overview?from=dy.199908.top
+          logo: images/设计软件/3dsMax.png
+          description: 3D modeling, animation, and rendering software
+        - title: Blender
+          url: https://www.blender.org?from=dy.199908.top
+          logo: images/设计软件/Blender.png
+          description: Blender is the free and open source 3D creation suite
 
 - taxonomy: 联系我们
   icon: fa-photo-video
