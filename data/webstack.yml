@@ -1646,6 +1646,38 @@
 - taxonomy: 广告投放
   icon: fa-bullhorn
   links: 
+        - title: 巨量引擎
+          logo: images/广告投放/巨量引擎.png
+          url: https://www.oceanengine.com
+          description: 抖音所有类型广告
+        - title: 巨量千川
+          logo: images/广告投放/巨量千川.png
+          url: https://qianchuan.jinritemai.com
+          description: 抖音广告投放平台
+        - title: 巨量星图
+          logo: images/广告投放/巨量星图.png
+          url: https://xingtu.jinritemai.com
+          description: 抖音星图，抖音KOL营销平台
+        - title: DOU+
+          logo: images/广告投放/DOU+.png
+          url: https://doujia.douyin.com
+          description: 抖音内容加热和营销推广产品
+        - title: 星榜
+          logo: images/广告投放/星榜.png
+          url: https://xingbang.com
+          description: 提供短视频博主内容营销和电商服务
+        - title: 领库
+          logo: images/广告投放/领库.png
+          url: https://www.lingku.com
+          description: 社交自媒体广告平台
+        - title: 新榜有赞
+          logo: images/广告投放/新榜有赞.png
+          url: https://www.newrank.cn
+          description: 公众号数据分析与推广渠道
+        - title: 百度营销中心
+          logo: images/广告投放/百度营销中心.png
+          url: https://marketing.baidu.com
+          description: 平台广告投放，搜索优化流量
         - title: 直通车
           logo: images/广告投放/直通车.png
           url: https://subway.simba.taobao.com?from=dy.199908.top
@@ -1666,18 +1698,6 @@
           logo: images/广告投放/直通车.png
           url: https://branding.taobao.com?from=dy.199908.top
           description: 淘宝品牌推广工具
-        - title: 巨量引擎
-          logo: images/广告投放/巨量引擎.png
-          url: https://www.oceanengine.com?from=dy.199908.top
-          description: 抖音所有类型广告
-        - title: 巨量千川
-          logo: images/广告投放/巨量千川.png
-          url: https://qianchuan.jinritemai.com?from=dy.199908.top
-          description: 抖音广告投放平台
-        - title: 巨量星图
-          logo: images/广告投放/巨量引擎.png
-          url: https://xingtu.jinritemai.com?from=dy.199908.top
-          description: 抖音星图
         - title: 小火龙
           logo: images/广告投放/小火龙.png
           url: http://www.xiaohuolong.com?from=dy.199908.top
@@ -1690,10 +1710,6 @@
           logo: images/电商辅助/抖音.jpg
           url: https://ads.tiktok.com/i18n?from=dy.199908.top
           description: Tiktok ADS
-        - title: 磁力引擎
-          logo: images/广告投放/磁力引擎.png
-          url: https://e.kuaishou.com?from=dy.199908.top
-          description: 快手开屏、信息流、粉条
         - title: 磁力智投
           logo: images/广告投放/磁力智投.png
           url: https://ad.e.kuaishou.com?from=dy.199908.top
@@ -1706,78 +1722,118 @@
           logo: images/广告投放/诸葛智投.png
           url: https://zgzt.v-ma.com?from=dy.199908.top
           description: 视频号投放管理工具
+        - title: 品小宝
+          logo: images/广告投放/品小宝.png
+          url: https://www.pinxiaobao.com
+          description: 电商广告投放工具
+        - title: 抖老板
+          logo: images/广告投放/抖老板.png
+          url: https://www.doulaobao.com
+          description: 抖音广告投放与数据分析工具
+        - title: 微信红包封面开放平台
+          logo: images/广告投放/微信红包封面开放平台.png
+          url: https://cover.weixin.qq.com
+          description: 微信红包封面开放平台是一个为品牌提供红包封面营销的平台
+        - title: 蜜蜂派单
+          logo: images/广告投放/蜜蜂派单.png
+          url: https://www.mifengpaidan.com
+          description: 微信公众号广告推广、公众号广告投放
+        - title: 神笔
+          logo: images/广告投放/神笔.png
+          url: https://shenbi.meiqia.com
+          description: 新媒体营销推广平台，KOL营销品牌推广
+        - title: 发呗
+          logo: images/广告投放/发呗.png
+          url: https://www.fabei.com
+          description: 一个专注于微信公众号广告投放和营销的平台
+        - title: 云自媒
+          logo: images/广告投放/云自媒.png
+          url: https://www.yunzimeiti.com
+          description: 云自媒汇聚26万+优质自媒体资源
+        - title: 传播易
+          logo: images/广告投放/传播易.png
+          url: https://www.chuanboyi.com
+          description: 投放广告网站
+        - title: 微播易
+          logo: images/广告投放/微播易.png
+          url: https://www.weiboyi.com
+          description: 一站式KOL营销推广服务
+        - title: 磁力引擎
+          logo: images/广告投放/磁力引擎.png
+          url: https://e.kuaishou.com
+          description: 快手广告投放
 
 - taxonomy: 视频剪辑
   icon: fa-video
   links: 
         - title: 剪映
-            logo: images/视频编辑/剪映.png
-            url: https://www.capcut.cn?from=dy.199908.top
-            description: 全能易用的视频剪辑软件
+          logo: images/视频编辑/剪映.png
+          url: https://www.capcut.cn?from=dy.199908.top
+          description: 全能易用的视频剪辑软件
         - title: 即梦AI
-            logo: images/视频编辑/即梦AI.png
-            url: https://jimeng.jianying.com?from=dy.199908.top
-            description: 一站式AI视频创作平台
-         - title: 易剪媒 Ai批量剪辑
-            logo: images/视频编辑/易剪媒.jpg
-            url: https://www.xinmei7.com?from=dy.199908.top
-            description: AI视频剪辑与二创处理工具
+          logo: images/视频编辑/即梦AI.png
+          url: https://jimeng.jianying.com?from=dy.199908.top
+          description: 一站式AI视频创作平台
+        - title: 易剪媒 Ai批量剪辑
+          logo: images/视频编辑/易剪媒.jpg
+          url: https://www.xinmei7.com?from=dy.199908.top
+          description: AI视频剪辑与二创处理工具
         - title: Vidu
-            logo: images/视频编辑/Vidu.jpeg
-            url: https://www.vidu.cn/create?from=dy.199908.top
-            description: 一站式AI视频创作平台
+          logo: images/视频编辑/Vidu.jpeg
+          url: https://www.vidu.cn/create?from=dy.199908.top
+          description: 一站式AI视频创作平台
         - title: SkyReels Tutorial
-            logo: images/视频编辑/SkyReels.jpeg
-            url: https://www.skyreels.ai?from=dy.199908.top
-            description: 一站式AI视频创作平台
+          logo: images/视频编辑/SkyReels.jpeg
+          url: https://www.skyreels.ai?from=dy.199908.top
+          description: 一站式AI视频创作平台
         - title: Viggle AI
-            logo: images/视频编辑/Viggle.jpeg
-            url: https://viggle.ai/app?from=dy.199908.top
-            description: 生成高质量、可控的动态视频
+          logo: images/视频编辑/Viggle.jpeg
+          url: https://viggle.ai/app?from=dy.199908.top
+          description: 生成高质量、可控的动态视频
         - title: 小白兔 AI
-            logo: images/视频编辑/小白兔AI.png
-            url: https://xiaobaituai.com?from=dy.199908.top
-            description: 一站式AI视频创作软件
+          logo: images/视频编辑/小白兔AI.png
+          url: https://xiaobaituai.com?from=dy.199908.top
+          description: 一站式AI视频创作软件
         - title: 江湖工具箱
-            logo: images/视频编辑/江湖工具箱.png
-            url: https://www.jianghudata.com?from=dy.199908.top
-            description: 电商多功能软件
+          logo: images/视频编辑/江湖工具箱.png
+          url: https://www.jianghudata.com?from=dy.199908.top
+          description: 电商多功能软件
         - title: 红抖AI助手
-            logo: images/视频编辑/红抖AI助手.jpg
-            url: https://hd.jianliai.com?from=dy.199908.top
-            description: 最全的AI创作工具箱
+          logo: images/视频编辑/红抖AI助手.jpg
+          url: https://hd.jianliai.com?from=dy.199908.top
+          description: 最全的AI创作工具箱
         - title: 腾讯智影
-            logo: images/视频编辑/禅视频.png
-            url: https://zenvideo.qq.com/home?from=dy.199908.top
-            description: 腾讯AI智能创作平台
+          logo: images/视频编辑/禅视频.png
+          url: https://zenvideo.qq.com/home?from=dy.199908.top
+          description: 腾讯AI智能创作平台
         - title: 鬼手剪辑
-            logo: images/视频编辑/鬼手剪辑.png
-            url: https://jollytoday.com/index/cn?from=dy.199908.top
-            description: 硬字幕翻译、视频去字幕
+          logo: images/视频编辑/鬼手剪辑.png
+          url: https://jollytoday.com/index/cn?from=dy.199908.top
+          description: 硬字幕翻译、视频去字幕
         - title: 闪电配音
-            logo: images/视频编辑/闪电配音.png
-            url: https://www.soundems.com?from=dy.199908.top
-            description: 配音平台
+          logo: images/视频编辑/闪电配音.png
+          url: https://www.soundems.com?from=dy.199908.top
+          description: 配音平台
         - title: 微软文本转语音
-            logo: images/视频编辑/微软文本转语音.png
-            url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
-            description: 微软文本转语音
+          logo: images/视频编辑/微软文本转语音.png
+          url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
+          description: 微软文本转语音
         - title: 讯飞智作
-            logo: images/视频编辑/讯飞智作.png
-            url: https://peiyin.xunfei.cn?from=dy.199908.top
-            description: 讯飞AI配音
+          logo: images/视频编辑/讯飞智作.png
+          url: https://peiyin.xunfei.cn?from=dy.199908.top
+          description: 讯飞AI配音
         - title: 即时工具
-            logo: images/视频编辑/即时工具.png
-            url: https://www.67tool.com?from=dy.199908.top
-            description: 视频、图片处理工具箱
+          logo: images/视频编辑/即时工具.png
+          url: https://www.67tool.com?from=dy.199908.top
+          description: 视频、图片处理工具箱
         - title: 直播片段生成器
-            logo: images/视频编辑/淘宝.png
-            url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-            description: 淘宝直播片段生成工具
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
+          description: 淘宝直播片段生成工具
         - title: 短视频混剪工具
-            logo: images/视频编辑/淘宝.png
-            url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-            description: 淘宝短视频混剪工具
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
+          description: 淘宝短视频混剪工具
 
 - taxonomy: 图文设计
   icon: fa-palette
