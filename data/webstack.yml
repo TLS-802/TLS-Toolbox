@@ -1274,7 +1274,7 @@
     - term: 素材获取
     - term: 小红书工具
   tabs:
-    - name: AI创作工具
+    - name: AI创作
       links:
         - title: 熊猫视频号下载助手
           logo: images/新媒运营/熊猫视频号下载助手.png
@@ -1336,7 +1336,7 @@
           logo: images/新媒运营/AI工具.png
           url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
           description: 专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版
-    - name: 视频处理工具
+    - name: 视频处理
       links:
         - title: 剪映专业版
           logo: images/新媒运营/剪映专业版.png
@@ -1378,7 +1378,7 @@
           logo: images/新媒运营/短视频工具.png
           url: https://affiliate.bazhuayu.com/lKTbNX
           description: 免费网络爬虫软件_网页大数据抓取工具
-    - name: 数据分析工具
+    - name: 数据分析
       links:
         - title: 新榜
           logo: images/新媒运营/新榜.png
@@ -1464,7 +1464,7 @@
           logo: images/数据分析/灰豚数据.jpg
           url: https://xhs.huitun.com?from=dy.199908.top
           description: 灰豚数据小红书版
-    - name: 内容营销工具
+    - name: 内容营销
       links:
         - title: 新媒体管家
           logo: images/新媒运营/新媒体管家.png
@@ -1494,7 +1494,7 @@
           logo: images/新媒运营/公众号助手.png
           url: https://pro.wxb.com?from=dy.199908.top
           description: 专业微信公众号第三方运营平台
-    - name: 行业研究工具
+    - name: 行业研究
       links:
         - title: 热点聚合
           logo: images/新媒运营/数据研究.png
