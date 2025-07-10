@@ -1374,6 +1374,51 @@
           logo: images/新媒运营/新榜.png
           url: https://www.iresearch.cn?from=dy.199908.top
           description: 互联网数据资讯聚合平台
+        - title: 生意参谋
+          logo: images/数据分析/生意参谋.png
+          url: https://sycm.taobao.com?from=dy.199908.top
+          description: 淘宝数据分析工具
+        - title: 大淘客
+          logo: images/数据分析/大淘客.jpg
+          url: http://www.dataoke.com?from=dy.199908.top
+          description: 淘客选品平台
+        - title: 巨量算数
+          logo: images/数据分析/巨量算数.svg
+          url: https://trendinsight.oceanengine.com?from=dy.199908.top
+          description: 抖音官方大数据平台
+        - title: 抖音官方选品工具
+          logo: images/数据分析/抖音官方选品工具.jpg
+          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
+          description: 抖音官方选品工具
+        - title: 蝉妈妈
+          logo: images/数据分析/蝉妈妈.jpg
+          url: http://www.chanmama.com?from=dy.199908.top
+          description: 抖音直播数据、选品平台
+        - title: 飞瓜
+          logo: images/数据分析/飞瓜.jpg
+          url: https://www.feigua.cn?from=dy.199908.top
+          description: 抖音直播数据、选品平台
+        - title: 灰豚数据-抖音
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://dy.huitun.com?from=dy.199908.top
+          description: 灰豚数据抖音
+        - title: 抖查查
+          logo: images/数据分析/抖查查.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 数据、达人与选品平台
+        - title: 灰豚数据-快手
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://ks.huitun.com?from=dy.199908.top
+          description: 灰豚数据快手版
+        - title: 郑和数据
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://zhenghedata.com/dashboard?from=dy.199908.top
+          description: 郑和数据小红书版
+        - title: 灰豚数据-小红书
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://xhs.huitun.com?from=dy.199908.top
+          description: 灰豚数据小红书版
+
     - name: 社群运营
       links:
         - title: 小打卡
@@ -1528,71 +1573,6 @@
           logo: images/新媒运营/灰豚数据.png
           url: https://www.huitudata.com?from=dy.199908.top
           description: 小红书数据分析工具，提供市场趋势和洞察
-
-- taxonomy: 数据分析
-  icon: fa-chart-line
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 淘宝数据
-    - term: 抖音数据
-    - term: 快手数据
-    - term: 小红书数据
-    - term: 选品工具
-  tabs:
-    - name: 淘宝数据
-      links:
-        - title: 生意参谋
-          logo: images/数据分析/生意参谋.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 淘宝数据分析工具
-        - title: 大淘客
-          logo: images/数据分析/大淘客.jpg
-          url: http://www.dataoke.com?from=dy.199908.top
-          description: 淘客选品平台
-    - name: 抖音数据
-      links:
-        - title: 巨量算数
-          logo: images/数据分析/巨量算数.svg
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 抖音官方选品工具
-          logo: images/数据分析/抖音官方选品工具.jpg
-          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
-          description: 抖音官方选品工具
-        - title: 蝉妈妈
-          logo: images/数据分析/蝉妈妈.jpg
-          url: http://www.chanmama.com?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 飞瓜
-          logo: images/数据分析/飞瓜.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 抖音直播数据、选品平台
-        - title: 灰豚数据-抖音
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://dy.huitun.com?from=dy.199908.top
-          description: 灰豚数据抖音
-        - title: 抖查查
-          logo: images/数据分析/抖查查.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 数据、达人与选品平台
-    - name: 快手数据
-      links:
-        - title: 灰豚数据-快手
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://ks.huitun.com?from=dy.199908.top
-          description: 灰豚数据快手版
-    - name: 小红书数据
-      links:
-        - title: 郑和数据
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://zhenghedata.com/dashboard?from=dy.199908.top
-          description: 郑和数据小红书版
-        - title: 灰豚数据-小红书
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://xhs.huitun.com?from=dy.199908.top
-          description: 灰豚数据小红书版
-    - name: 选品工具
-      links:
-        # 这里将添加选品工具相关工具
 
 - taxonomy: 设计软件
   icon: fa-palette
