@@ -1458,6 +1458,8 @@
     - term: 插画资源
     - term: 视频素材
     - term: 音频素材
+    - term: 图标资源
+    - term: Logo设计
   tabs:
     - name: 在线设计
       links:
@@ -1477,6 +1479,14 @@
           logo: images/图文设计/ResourceBoy.png
           url: https://www.resourceboy.com?from=dy.199908.top
           description: 免费设计资源共享平台
+        - title: IraDesign
+          logo: images/图文设计/IraDesign.png
+          url: https://iradesign.io?from=dy.199908.top
+          description: 可定制的渐变插画设计
+        - title: Canva
+          logo: images/图文设计/Canva.png
+          url: https://www.canva.com?from=dy.199908.top
+          description: 在线平面设计平台
 
     - name: 图片素材
       links:
@@ -1576,6 +1586,26 @@
           url: https://www.dreamstime.com?from=dy.199908.top
           logo: images/图文设计/Dreamstime.png
           description: 免费和付费照片资源库
+        - title: Shutterstock
+          url: https://www.shutterstock.com?from=dy.199908.top
+          logo: images/图文设计/Shutterstock.png
+          description: 全球领先的商业图库
+        - title: PhotoAC
+          url: https://photo-ac.com?from=dy.199908.top
+          logo: images/图文设计/PhotoAC.png
+          description: 免费高清图片素材库
+        - title: Park.photos
+          url: https://park.photos?from=dy.199908.top
+          logo: images/图文设计/park.photos.png
+          description: 免费高质量风景照片资源
+        - title: Photozou
+          url: https://photozou.jp?from=dy.199908.top
+          logo: images/图文设计/Photozou.png
+          description: 日本流行的照片分享网站
+        - title: Iwaria
+          url: https://iwaria.com?from=dy.199908.top
+          logo: images/图文设计/Iwaria.png
+          description: 非洲高品质免费图片库
 
     - name: 图片处理
       links:
@@ -1627,10 +1657,18 @@
           url: https://photo-ac.com?from=dy.199908.top
           logo: images/图文设计/PhotoAC.png
           description: 免费高清图片素材库
-        - title: park.photos
+        - title: Park.photos
           url: https://park.photos?from=dy.199908.top
           logo: images/图文设计/park.photos.png
           description: 免费高质量风景照片资源
+        - title: Brave
+          url: https://brave.com/create?from=dy.199908.top
+          logo: images/图文设计/Brave.png
+          description: Brave浏览器的AI图像创建工具
+        - title: Akaru
+          url: https://akaru.app?from=dy.199908.top
+          logo: images/图文设计/Akaru.png
+          description: AI图像编辑和生成
 
     - name: 配色工具
       links:
@@ -1650,6 +1688,14 @@
           logo: images/图文设计/Coolors.png
           url: https://coolors.co?from=dy.199908.top
           description: 快速配色方案生成器
+        - title: ColorSpace
+          logo: images/图文设计/ColorSpace.png
+          url: https://mycolor.space?from=dy.199908.top
+          description: 生成和浏览色彩组合
+        - title: ColorZilla
+          logo: images/图文设计/ColorZilla.png
+          url: https://www.colorzilla.com?from=dy.199908.top
+          description: 色彩拾取和渐变生成器
 
     - name: PPT模板
       links:
@@ -1728,6 +1774,34 @@
           url: https://png.is?from=dy.199908.top
           logo: images/图文设计/PNG.is.png
           description: 在线PNG图像转换工具
+        - title: PNGEgg
+          url: https://www.pngegg.com?from=dy.199908.top
+          logo: images/图文设计/PNGEgg.png
+          description: 免费PNG素材下载站
+        - title: PNGkit
+          url: https://www.pngkit.com?from=dy.199908.top
+          logo: images/图文设计/PNGkit.png
+          description: 高质量PNG图片素材库
+        - title: PNGitem
+          url: https://www.pngitem.com?from=dy.199908.top
+          logo: images/图文设计/PNGitem.png
+          description: 免费透明PNG素材资源
+        - title: CleanPNG
+          url: https://www.cleanpng.com?from=dy.199908.top
+          logo: images/图文设计/CleanPNG.png
+          description: 免费高清透明PNG素材
+        - title: StickPNG
+          url: https://www.stickpng.com?from=dy.199908.top
+          logo: images/图文设计/StickPNG.png
+          description: PNG贴纸和剪贴画素材
+        - title: PNGGuru
+          url: https://www.pngguru.com?from=dy.199908.top
+          logo: images/图文设计/PNGGuru.png
+          description: 透明PNG图片资源库
+        - title: PNGMart
+          url: https://www.pngmart.com?from=dy.199908.top
+          logo: images/图文设计/PNGMart.png
+          description: 免费高清PNG透明图片
 
     - name: GIF素材
       links:
@@ -1755,6 +1829,14 @@
           url: https://www.soogif.com?from=dy.199908.top
           logo: images/图文设计/SoogifFX.png
           description: GIF动图搜索平台
+        - title: Gifpop
+          url: https://gifpop.io?from=dy.199908.top
+          logo: images/图文设计/Gifpop.png
+          description: 免费GIF素材库
+        - title: GifRun
+          url: https://gifrun.com?from=dy.199908.top
+          logo: images/图文设计/GifRun.png
+          description: 在线GIF创建工具
     
     - name: 插画资源
       links:
@@ -1790,6 +1872,30 @@
           url: https://undraw.co?from=dy.199908.top
           logo: images/图文设计/unDraw.png
           description: 开源插画资源
+        - title: StorySet
+          url: https://storyset.com?from=dy.199908.top
+          logo: images/图文设计/StorySet.png
+          description: 免费可定制插画
+        - title: Ilustrain
+          url: https://ilustrain.com?from=dy.199908.top
+          logo: images/图文设计/Ilustrain.png
+          description: 高品质免费插画资源
+        - title: Vecteezy
+          url: https://www.vecteezy.com?from=dy.199908.top
+          logo: images/图文设计/Vecteezy.png
+          description: 免费矢量艺术、插画和背景
+        - title: Vectorportal
+          url: https://www.vectorportal.com?from=dy.199908.top
+          logo: images/图文设计/Vectorportal.png
+          description: 免费矢量图形和插画
+        - title: KissPNG
+          url: https://www.kisspng.com?from=dy.199908.top
+          logo: images/图文设计/KissPNG.png
+          description: 透明PNG图像素材
+        - title: Heritage Library
+          url: https://www.heritagelibrary.com?from=dy.199908.top
+          logo: images/图文设计/HeritageLibrary.png
+          description: 历史和文化插图资源
     
     - name: 视频素材
       links:
@@ -1825,6 +1931,14 @@
           url: https://dareful.com?from=dy.199908.top
           logo: images/图文设计/Dareful.png
           description: 免费4K视频素材
+        - title: MotionElements
+          url: https://www.motionelements.com?from=dy.199908.top
+          logo: images/图文设计/MotionElements.png
+          description: 视频、音频、图片和3D素材
+        - title: VJLoops
+          url: https://www.vjloops.com?from=dy.199908.top
+          logo: images/图文设计/VJLoops.png
+          description: VJ循环视频素材
 
     - name: 音频素材
       links:
@@ -1860,6 +1974,108 @@
           url: https://100audio.com?from=dy.199908.top
           logo: images/图文设计/100Audio.png
           description: 版权免费音乐库
+        - title: PlayList
+          url: https://www.playlist.com?from=dy.199908.top
+          logo: images/图文设计/PlayList.png
+          description: 在线音乐库和播放列表
+        - title: 230k
+          url: https://230k.com?from=dy.199908.top
+          logo: images/图文设计/230k.png
+          description: 无版权音乐素材
+    
+    - name: 图标资源
+      links:
+        - title: Flaticon
+          url: https://www.flaticon.com?from=dy.199908.top
+          logo: images/图文设计/Flaticon.png
+          description: 634,000+ 免费矢量图标
+        - title: IconPark
+          url: https://iconpark.oceanengine.com?from=dy.199908.top
+          logo: images/图文设计/IconPark.png
+          description: 字节跳动开源图标库
+        - title: Loading.io
+          url: https://loading.io?from=dy.199908.top
+          logo: images/图文设计/Loading.png
+          description: 加载动画图标生成器
+        - title: Icons8
+          url: https://icons8.com?from=dy.199908.top
+          logo: images/图文设计/Icons8.png
+          description: 免费图标、插图和照片
+        - title: IconScout
+          url: https://iconscout.com?from=dy.199908.top
+          logo: images/图文设计/IconScout.png
+          description: 980万+图标和插图
+        - title: ICONREPO
+          url: https://www.iconrepo.com?from=dy.199908.top
+          logo: images/图文设计/ICONREPO.png
+          description: 免费开源图标搜索引擎
+        - title: Applicon Forge
+          url: https://www.appliconforge.com?from=dy.199908.top
+          logo: images/图文设计/AppliconForge.png
+          description: 应用图标生成工具
+        - title: Jovimoji
+          url: https://jovimoji.com?from=dy.199908.top
+          logo: images/图文设计/Jovimoji.png
+          description: 生动的表情符号素材
+        - title: icon-icons.com
+          url: https://icon-icons.com?from=dy.199908.top
+          logo: images/图文设计/icon-icons.png
+          description: 免费下载SVG、PNG图标
+        - title: SVGRepo
+          url: https://www.svgrepo.com?from=dy.199908.top
+          logo: images/图文设计/SVGRepo.png
+          description: 免费SVG矢量和图标
+        - title: Heroicons
+          url: https://heroicons.com?from=dy.199908.top
+          logo: images/图文设计/Heroicons.png
+          description: Tailwind CSS创建的图标集
+        - title: Hugeicons
+          url: https://hugeicons.com?from=dy.199908.top
+          logo: images/图文设计/Hugeicons.png
+          description: 精美UI图标库
+        - title: Healthicons
+          url: https://healthicons.org?from=dy.199908.top
+          logo: images/图文设计/Healthicons.png
+          description: 免费医疗保健图标
+        - title: Fluent Emoji Maker
+          url: https://fluent-emoji-maker.vercel.app?from=dy.199908.top
+          logo: images/图文设计/FluentEmojiMaker.png
+          description: 微软风格的表情符号生成器
+        
+    - name: Logo设计
+      links:
+        - title: LogoMoose
+          url: https://www.logomoose.com?from=dy.199908.top
+          logo: images/图文设计/LogoMoose.png
+          description: Logo设计灵感平台
+        - title: LogoLounge
+          url: https://www.logolounge.com?from=dy.199908.top
+          logo: images/图文设计/LogoLounge.png
+          description: 专业Logo设计资源库
+        - title: Logopond
+          url: https://logopond.com?from=dy.199908.top
+          logo: images/图文设计/Logopond.png
+          description: Logo设计展示平台
+        - title: Logosandtypes
+          url: https://www.logosandtypes.com?from=dy.199908.top
+          logo: images/图文设计/Logosandtypes.png
+          description: 免费品牌Logo资源
+        - title: WorldVectorLogo
+          url: https://worldvectorlogo.com?from=dy.199908.top
+          logo: images/图文设计/WorldVectorLogo.png
+          description: 品牌标识矢量图形库
+        - title: BrandEPS
+          url: https://www.brandeps.com?from=dy.199908.top
+          logo: images/图文设计/BrandEPS.png
+          description: 矢量品牌Logo下载
+        - title: FreeLogoDesign
+          url: https://www.freelogodesign.org?from=dy.199908.top
+          logo: images/图文设计/FreeLogoDesign.png
+          description: 在线Logo设计生成器
+        - title: LogoMakr
+          url: https://logomakr.com?from=dy.199908.top
+          logo: images/图文设计/LogoMakr.png
+          description: 免费Logo设计工具
 
 - taxonomy: 图标字体
   icon: fa-font
