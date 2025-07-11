@@ -248,24 +248,172 @@
           description: 抖音、火山官方直播工具
         - title: 巨量引擎
           logo: images/广告投放/巨量引擎.png
-          url: https://www.oceanengine.com?from=dy.199908.top
+          url: https://www.oceanengine.com
           description: 抖音所有类型广告
         - title: 巨量千川
           logo: images/广告投放/巨量千川.png
-          url: https://qianchuan.jinritemai.com?from=dy.199908.top
+          url: https://qianchuan.jinritemai.com
           description: 抖音广告投放平台
         - title: 巨量星图
-          logo: images/广告投放/巨量引擎.png
-          url: https://xingtu.jinritemai.com?from=dy.199908.top
-          description: 抖音星图
-        - title: 巨量算数
-          logo: images/数据分析/巨量算数.svg
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 抖音官方选品工具
-          logo: images/数据分析/抖音官方选品工具.jpg
-          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
-          description: 抖音官方选品工具
+          logo: images/图标字体/iconfont.png
+          url: https://xingtu.jinritemai.com
+          description: 抖音星图，抖音KOL营销平台
+        - title: 巨量创意
+          logo: images/图标字体/iconfont.png
+          url: https://cc.oceanengine.com
+          description: 抖音广告创意平台
+        - title: DOU+
+          logo: images/图标字体/iconfont.png
+          url: https://doujia.douyin.com
+          description: 抖音内容加热和营销推广产品
+        - title: 抖老板
+          logo: images/广告投放/抖老板.png
+          url: https://www.doulaobao.com
+          description: 抖音广告投放与数据分析工具
+        - title: 小火龙
+          logo: images/广告投放/小火龙.png
+          url: http://www.xiaohuolong.com
+          description: 抖音随心推投放工具
+        - title: 蜂鸟
+          logo: images/图标字体/iconfont.png
+          url: https://www.fengniaoai.com
+          description: 抖音内容营销和广告投放平台
+        - title: Tiktok广告投放
+          logo: images/电商辅助/抖音.jpg
+          url: https://www.tiktokforbusinessoutbound.com
+          description: Tiktok广告投放
+        - title: Tiktok ADS
+          logo: images/电商辅助/抖音.jpg
+          url: https://ads.tiktok.com/i18n
+          description: Tiktok ADS
+          
+        # 淘宝平台
+        - title: 直通车
+          logo: images/广告投放/直通车.png
+          url: https://subway.simba.taobao.com
+          description: 淘宝推广工具
+        - title: 淘宝联盟
+          logo: images/广告投放/淘宝联盟.jpg
+          url: https://pub.alimama.com
+          description: 淘宝联盟推广平台
+        - title: 引力魔方
+          logo: images/图标字体/iconfont.png
+          url: https://tuijian.taobao.com
+          description: 淘宝推广工具
+        - title: 万相台
+          logo: images/图标字体/iconfont.png
+          url: https://adbrain.taobao.com
+          description: 淘宝广告投放平台
+        - title: 品销宝
+          logo: images/图标字体/iconfont.png
+          url: https://branding.taobao.com
+          description: 淘宝品牌推广工具
+          
+        # 快手平台
+        - title: 磁力引擎
+          logo: images/广告投放/磁力引擎.png
+          url: https://e.kuaishou.com
+          description: 快手广告投放
+        - title: 磁力智投
+          logo: images/广告投放/磁力智投.png
+          url: https://ad.e.kuaishou.com
+          description: 快手广告投放平台
+        - title: 磁力营销
+          logo: images/图标字体/iconfont.png
+          url: https://e.kuaishou.com/ads
+          description: 快手广告营销平台
+        - title: 快手磁力
+          logo: images/图标字体/iconfont.png
+          url: https://ads.kuaishou.com
+          description: 快手广告投放平台
+          
+        # 微信平台
+        - title: 微信广告
+          logo: images/图标字体/iconfont.png
+          url: https://ad.weixin.qq.com
+          description: 微信公众号广告投放平台
+        - title: 微信红包封面开放平台
+          logo: images/图标字体/iconfont.png
+          url: https://cover.weixin.qq.com
+          description: 微信红包封面开放平台是一个为品牌提供红包封面营销的平台
+        - title: 微信易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weixinyi.com
+          description: 微信公众号广告推广平台
+        - title: 蜜蜂派单
+          logo: images/图标字体/iconfont.png
+          url: https://www.mifengpaidan.com
+          description: 微信公众号广告推广、公众号广告投放
+        - title: 蜜蜂任务
+          logo: images/图标字体/iconfont.png
+          url: https://www.mifengrenwu.com
+          description: 微信公众号广告推广平台
+        - title: 诸葛智投
+          logo: images/广告投放/诸葛智投.png
+          url: https://zgzt.v-ma.com
+          description: 视频号投放管理工具
+          
+        # 小红书平台
+        - title: 聚光平台
+          logo: images/广告投放/聚光.jpg
+          url: https://ad.xiaohongshu.com
+          description: 小红书广告投放平台
+          
+        # 百度平台
+        - title: 百度营销中心
+          logo: images/图标字体/iconfont.png
+          url: https://marketing.baidu.com
+          description: 平台广告投放，搜索优化流量
+        - title: 百度推广
+          logo: images/图标字体/iconfont.png
+          url: https://e.baidu.com
+          description: 百度搜索推广平台
+          
+        # 其他平台
+        - title: 品小宝
+          logo: images/广告投放/品小宝.png
+          url: https://www.pinxiaobao.com
+          description: 电商广告投放工具
+        - title: 星榜
+          logo: images/图标字体/iconfont.png
+          url: https://xingbang.com
+          description: 提供短视频博主内容营销和电商服务
+        - title: 领库
+          logo: images/图标字体/iconfont.png
+          url: https://www.lingku.com
+          description: 社交自媒体广告平台
+        - title: 新榜有赞
+          logo: images/图标字体/iconfont.png
+          url: https://www.newrank.cn
+          description: 公众号数据分析与推广渠道
+        - title: 神笔
+          logo: images/图标字体/iconfont.png
+          url: https://shenbi.meiqia.com
+          description: 新媒体营销推广平台，KOL营销品牌推广
+        - title: 发呗
+          logo: images/图标字体/iconfont.png
+          url: https://www.fabei.com
+          description: 一个专注于微信公众号广告投放和营销的平台
+        - title: 云自媒
+          logo: images/图标字体/iconfont.png
+          url: https://www.yunzimeiti.com
+          description: 云自媒汇聚26万+优质自媒体资源
+        - title: 传播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.chuanboyi.com
+          description: 投放广告网站
+        - title: 微播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weiboyi.com
+          description: 一站式KOL营销推广服务
+        - title: 广告门
+          logo: images/图标字体/iconfont.png
+          url: https://www.adquan.com
+          description: 广告行业门户网站
+        - title: 易赞
+          logo: images/图标字体/iconfont.png
+          url: https://yizan.com
+          description: 社交电商营销平台
     - name: 京东
       links:
         - title: 京麦工作台
@@ -420,11 +568,11 @@
           description: 快手平台直播软件
         - title: 磁力引擎
           logo: images/广告投放/磁力引擎.png
-          url: https://e.kuaishou.com?from=dy.199908.top
+          url: https://e.kuaishou.com
           description: 快手开屏、信息流、粉条
         - title: 磁力智投
           logo: images/广告投放/磁力智投.png
-          url: https://ad.e.kuaishou.com?from=dy.199908.top
+          url: https://ad.e.kuaishou.com
           description: 快手广告投放平台
         - title: 磁力方舟
           logo: images/电商辅助/快手.jpg
@@ -506,7 +654,7 @@
           description: 小红书直播平台
         - title: 聚光平台
           logo: images/广告投放/聚光.jpg
-          url: https://ad.xiaohongshu.com?from=dy.199908.top
+          url: https://ad.xiaohongshu.com
           description: 小红书广告投放平台
         - title: 郑和数据
           logo: images/数据分析/灰豚数据.jpg
@@ -1755,38 +1903,7 @@
 - taxonomy: 广告投放
   icon: fa-bullhorn
   links: 
-        - title: 微信红包封面开放平台
-          logo: images/广告投放/微信红包封面开放平台.png
-          url: https://cover.weixin.qq.com
-          description: 微信红包封面开放平台是一个为品牌提供红包封面营销的平台
-        - title: 蜜蜂派单
-          logo: images/广告投放/蜜蜂派单.png
-          url: https://www.mifengpaidan.com
-          description: 微信公众号广告推广、公众号广告投放
-        - title: 神笔
-          logo: images/广告投放/神笔.png
-          url: https://shenbi.meiqia.com
-          description: 新媒体营销推广平台，KOL营销品牌推广
-        - title: 发呗
-          logo: images/广告投放/发呗.png
-          url: https://www.fabei.com
-          description: 一个专注于微信公众号广告投放和营销的平台
-        - title: 云自媒
-          logo: images/广告投放/云自媒.png
-          url: https://www.yunzimeiti.com
-          description: 云自媒汇聚26万+优质自媒体资源
-        - title: 传播易
-          logo: images/广告投放/传播易.png
-          url: https://www.chuanboyi.com
-          description: 投放广告网站
-        - title: 微播易
-          logo: images/广告投放/微播易.png
-          url: https://www.weiboyi.com
-          description: 一站式KOL营销推广服务
-        - title: 磁力引擎
-          logo: images/广告投放/磁力引擎.png
-          url: https://e.kuaishou.com
-          description: 快手广告投放
+        # 抖音平台
         - title: 巨量引擎
           logo: images/广告投放/巨量引擎.png
           url: https://www.oceanengine.com
@@ -1796,53 +1913,29 @@
           url: https://qianchuan.jinritemai.com
           description: 抖音广告投放平台
         - title: 巨量星图
-          logo: images/广告投放/巨量星图.png
+          logo: images/图标字体/iconfont.png
           url: https://xingtu.jinritemai.com
           description: 抖音星图，抖音KOL营销平台
+        - title: 巨量创意
+          logo: images/图标字体/iconfont.png
+          url: https://cc.oceanengine.com
+          description: 抖音广告创意平台
         - title: DOU+
-          logo: images/广告投放/DOU+.png
+          logo: images/图标字体/iconfont.png
           url: https://doujia.douyin.com
           description: 抖音内容加热和营销推广产品
-        - title: 星榜
-          logo: images/广告投放/星榜.png
-          url: https://xingbang.com
-          description: 提供短视频博主内容营销和电商服务
-        - title: 领库
-          logo: images/广告投放/领库.png
-          url: https://www.lingku.com
-          description: 社交自媒体广告平台
-        - title: 新榜有赞
-          logo: images/广告投放/新榜有赞.png
-          url: https://www.newrank.cn
-          description: 公众号数据分析与推广渠道
-        - title: 百度营销中心
-          logo: images/广告投放/百度营销中心.png
-          url: https://marketing.baidu.com
-          description: 平台广告投放，搜索优化流量
-        - title: 直通车
-          logo: images/广告投放/直通车.png
-          url: https://subway.simba.taobao.com
-          description: 淘宝推广工具
-        - title: 引力魔方
-          logo: images/广告投放/直通车.png
-          url: https://tuijian.taobao.com
-          description: 淘宝推广工具
-        - title: 淘宝联盟
-          logo: images/广告投放/淘宝联盟.jpg
-          url: https://pub.alimama.com
-          description: 淘宝联盟推广平台
-        - title: 万相台
-          logo: images/广告投放/直通车.png
-          url: https://adbrain.taobao.com
-          description: 淘宝广告投放平台
-        - title: 品销宝
-          logo: images/广告投放/直通车.png
-          url: https://branding.taobao.com
-          description: 淘宝品牌推广工具
+        - title: 抖老板
+          logo: images/广告投放/抖老板.png
+          url: https://www.doulaobao.com
+          description: 抖音广告投放与数据分析工具
         - title: 小火龙
           logo: images/广告投放/小火龙.png
           url: http://www.xiaohuolong.com
           description: 抖音随心推投放工具
+        - title: 蜂鸟
+          logo: images/图标字体/iconfont.png
+          url: https://www.fengniaoai.com
+          description: 抖音内容营销和广告投放平台
         - title: Tiktok广告投放
           logo: images/电商辅助/抖音.jpg
           url: https://www.tiktokforbusinessoutbound.com
@@ -1851,26 +1944,134 @@
           logo: images/电商辅助/抖音.jpg
           url: https://ads.tiktok.com/i18n
           description: Tiktok ADS
+          
+        # 淘宝平台
+        - title: 直通车
+          logo: images/广告投放/直通车.png
+          url: https://subway.simba.taobao.com
+          description: 淘宝推广工具
+        - title: 淘宝联盟
+          logo: images/广告投放/淘宝联盟.jpg
+          url: https://pub.alimama.com
+          description: 淘宝联盟推广平台
+        - title: 引力魔方
+          logo: images/图标字体/iconfont.png
+          url: https://tuijian.taobao.com
+          description: 淘宝推广工具
+        - title: 万相台
+          logo: images/图标字体/iconfont.png
+          url: https://adbrain.taobao.com
+          description: 淘宝广告投放平台
+        - title: 品销宝
+          logo: images/图标字体/iconfont.png
+          url: https://branding.taobao.com
+          description: 淘宝品牌推广工具
+          
+        # 快手平台
+        - title: 磁力引擎
+          logo: images/广告投放/磁力引擎.png
+          url: https://e.kuaishou.com
+          description: 快手广告投放
         - title: 磁力智投
           logo: images/广告投放/磁力智投.png
           url: https://ad.e.kuaishou.com
           description: 快手广告投放平台
-        - title: 聚光平台
-          logo: images/广告投放/聚光.jpg
-          url: https://ad.xiaohongshu.com
-          description: 小红书广告投放平台
+        - title: 磁力营销
+          logo: images/图标字体/iconfont.png
+          url: https://e.kuaishou.com/ads
+          description: 快手广告营销平台
+        - title: 快手磁力
+          logo: images/图标字体/iconfont.png
+          url: https://ads.kuaishou.com
+          description: 快手广告投放平台
+          
+        # 微信平台
+        - title: 微信广告
+          logo: images/图标字体/iconfont.png
+          url: https://ad.weixin.qq.com
+          description: 微信公众号广告投放平台
+        - title: 微信红包封面开放平台
+          logo: images/图标字体/iconfont.png
+          url: https://cover.weixin.qq.com
+          description: 微信红包封面开放平台是一个为品牌提供红包封面营销的平台
+        - title: 微信易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weixinyi.com
+          description: 微信公众号广告推广平台
+        - title: 蜜蜂派单
+          logo: images/图标字体/iconfont.png
+          url: https://www.mifengpaidan.com
+          description: 微信公众号广告推广、公众号广告投放
+        - title: 蜜蜂任务
+          logo: images/图标字体/iconfont.png
+          url: https://www.mifengrenwu.com
+          description: 微信公众号广告推广平台
         - title: 诸葛智投
           logo: images/广告投放/诸葛智投.png
           url: https://zgzt.v-ma.com
           description: 视频号投放管理工具
+          
+        # 小红书平台
+        - title: 聚光平台
+          logo: images/广告投放/聚光.jpg
+          url: https://ad.xiaohongshu.com
+          description: 小红书广告投放平台
+          
+        # 百度平台
+        - title: 百度营销中心
+          logo: images/图标字体/iconfont.png
+          url: https://marketing.baidu.com
+          description: 平台广告投放，搜索优化流量
+        - title: 百度推广
+          logo: images/图标字体/iconfont.png
+          url: https://e.baidu.com
+          description: 百度搜索推广平台
+          
+        # 其他平台
         - title: 品小宝
           logo: images/广告投放/品小宝.png
           url: https://www.pinxiaobao.com
           description: 电商广告投放工具
-        - title: 抖老板
-          logo: images/广告投放/抖老板.png
-          url: https://www.doulaobao.com
-          description: 抖音广告投放与数据分析工具
+        - title: 星榜
+          logo: images/图标字体/iconfont.png
+          url: https://xingbang.com
+          description: 提供短视频博主内容营销和电商服务
+        - title: 领库
+          logo: images/图标字体/iconfont.png
+          url: https://www.lingku.com
+          description: 社交自媒体广告平台
+        - title: 新榜有赞
+          logo: images/图标字体/iconfont.png
+          url: https://www.newrank.cn
+          description: 公众号数据分析与推广渠道
+        - title: 神笔
+          logo: images/图标字体/iconfont.png
+          url: https://shenbi.meiqia.com
+          description: 新媒体营销推广平台，KOL营销品牌推广
+        - title: 发呗
+          logo: images/图标字体/iconfont.png
+          url: https://www.fabei.com
+          description: 一个专注于微信公众号广告投放和营销的平台
+        - title: 云自媒
+          logo: images/图标字体/iconfont.png
+          url: https://www.yunzimeiti.com
+          description: 云自媒汇聚26万+优质自媒体资源
+        - title: 传播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.chuanboyi.com
+          description: 投放广告网站
+        - title: 微播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weiboyi.com
+          description: 一站式KOL营销推广服务
+        - title: 广告门
+          logo: images/图标字体/iconfont.png
+          url: https://www.adquan.com
+          description: 广告行业门户网站
+        - title: 易赞
+          logo: images/图标字体/iconfont.png
+          url: https://yizan.com
+          description: 社交电商营销平台
 
 - taxonomy: 视频剪辑
   icon: fa-video
