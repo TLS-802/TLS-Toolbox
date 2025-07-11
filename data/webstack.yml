@@ -1547,136 +1547,320 @@
           description: 在线图片设计工具
     - name: 数据分析
       links:
-        - title: 数据分析
-          logo: images/电商辅助/数据分析.png
-          url: https://www.xinmei7.com/?from=dy.199908.top
-          description: 数据分析平台
-        - title: 新榜
-          logo: images/新媒运营/新榜.png
-          url: https://www.newrank.cn?from=dy.199908.top
-          description: 内容创业服务平台，提供新媒体数据分析
-        - title: 蝉妈妈
-          logo: images/新媒运营/蝉妈妈.png
-          url: https://www.chanmama.com?from=dy.199908.top
-          description: 抖音、小红书数据分析及营销平台，支持直播选品
+        - title: 5118营销大数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.5118.com?from=dy.199908.top
+          description: 提供SEO数据分析、关键词挖掘、竞品分析等营销数据服务
+        - title: Search Suggest Pro
+          logo: images/图标字体/iconfont.png
+          url: https://www.searchsuggest.pro?from=dy.199908.top
+          description: 搜索建议工具，帮助发现热门搜索关键词
+        - title: 青塔网
+          logo: images/图标字体/iconfont.png
+          url: https://www.qingtacloud.com?from=dy.199908.top
+          description: 学术评价与科研数据分析平台
+        - title: 壁虎看看
+          logo: images/图标字体/iconfont.png
+          url: https://www.bihukankan.com?from=dy.199908.top
+          description: 电商选品及市场分析工具
+        - title: 听涛数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.tintao.com?from=dy.199908.top
+          description: 电商数据分析平台
+        - title: topklout克劳锐
+          logo: images/图标字体/iconfont.png
+          url: https://www.topklout.com?from=dy.199908.top
+          description: 全媒体KOL数据分析平台
+        - title: Clarity
+          logo: images/图标字体/iconfont.png
+          url: https://clarity.microsoft.com?from=dy.199908.top
+          description: 微软推出的免费网站分析工具
+        - title: 数英指数
+          logo: images/图标字体/iconfont.png
+          url: https://www.digitaling.com/index?from=dy.199908.top
+          description: 营销传播行业的数据分析平台
+        - title: SEMrush
+          logo: images/图标字体/iconfont.png
+          url: https://www.semrush.com?from=dy.199908.top
+          description: 全球知名的SEO和内容营销工具
         - title: 千瓜数据
           logo: images/新媒运营/千瓜数据.png
           url: http://www.qian-gua.com?from=dy.199908.top
           description: 小红书专业数据分析工具，支持多维度分析及直播监控
-        - title: 西瓜数据
-          logo: images/新媒运营/西瓜数据.png
-          url: https://data.xiguaji.com?from=dy.199908.top
-          description: 公众号数据分析及精准营销服务商
-        - title: 清博大数据
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 全媒体传播监测平台
-        - title: 西瓜助手
-          logo: images/新媒运营/西瓜助手.png
-          url: https://www.xiguadata.com?from=dy.199908.top
-          description: 专注于短视频数据分析平台
-        - title: 飞瓜数据
-          logo: images/新媒运营/飞瓜数据.png
-          url: https://www.feigua.cn?from=dy.199908.top
+        - title: Tabcut特惠数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.tabcut.com?from=dy.199908.top
+          description: 跨境电商选品及市场分析工具
+        - title: 魔盒狗
+          logo: images/图标字体/iconfont.png
+          url: https://www.mohedog.com?from=dy.199908.top
+          description: 电商数据分析工具
+        - title: TikStar
+          logo: images/图标字体/iconfont.png
+          url: https://tikstar.com?from=dy.199908.top
+          description: TikTok数据分析工具
+        - title: TikBuddy
+          logo: images/图标字体/iconfont.png
+          url: https://tikbuddy.com?from=dy.199908.top
+          description: TikTok营销分析工具
+        - title: 中国电影数据网
+          logo: images/图标字体/iconfont.png
+          url: https://www.entgroup.cn?from=dy.199908.top
+          description: 电影行业数据分析平台
+        - title: 健康界
+          logo: images/图标字体/iconfont.png
+          url: https://www.cn-healthcare.com?from=dy.199908.top
+          description: 医疗健康产业数据平台
+        - title: 新抖
+          logo: images/图标字体/iconfont.png
+          url: https://www.xindou.com?from=dy.199908.top
           description: 抖音数据分析平台
-        - title: 巨量算数
-          logo: images/新媒运营/巨量算数.png
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
+        - title: 抖查查
+          logo: images/数据分析/抖查查.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 抖音数据、达人与选品平台
+        - title: 义乌-中国小商品指数
+          logo: images/图标字体/iconfont.png
+          url: https://www.ywindex.com?from=dy.199908.top
+          description: 小商品市场趋势分析平台
+        - title: 药智网
+          logo: images/图标字体/iconfont.png
+          url: https://www.yaozh.com?from=dy.199908.top
+          description: 医药行业数据平台
+        - title: 火烧云数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.hsydata.com?from=dy.199908.top
+          description: 电商数据分析平台
+        - title: TopKlout
+          logo: images/图标字体/iconfont.png
+          url: https://www.topklout.com?from=dy.199908.top
+          description: 全媒体KOL数据分析平台
+        - title: 数说故事
+          logo: images/图标字体/iconfont.png
+          url: https://www.datastory.com.cn?from=dy.199908.top
+          description: 数据可视化与分析平台
+        - title: 新红
+          logo: images/图标字体/iconfont.png
+          url: https://www.xinhongdata.com?from=dy.199908.top
+          description: 小红书数据分析平台
+        - title: 考古加数据
+          logo: images/数据分析/考古加.jpg
+          url: https://www.kaogu.plus?from=dy.199908.top
+          description: 抖音电商数据分析平台
+        - title: 友望数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.uwdata.com?from=dy.199908.top
+          description: 社交媒体数据分析工具
+        - title: 灰豚数据
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://www.huitun.com?from=dy.199908.top
+          description: 短视频数据分析平台
+        - title: iFans
+          logo: images/图标字体/iconfont.png
+          url: https://www.ifandata.com?from=dy.199908.top
+          description: 粉丝数据分析平台
+        - title: 达多多数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.dadada.com?from=dy.199908.top
+          description: 电商数据分析平台
+        - title: 房天下产业网
+          logo: images/图标字体/iconfont.png
+          url: https://industry.fang.com?from=dy.199908.top
+          description: 房地产行业数据平台
+        - title: 东方财富网数据中心
+          logo: images/图标字体/iconfont.png
+          url: https://data.eastmoney.com?from=dy.199908.top
+          description: 金融数据分析平台
+        - title: 民航资源网
+          logo: images/图标字体/iconfont.png
+          url: https://data.carnoc.com?from=dy.199908.top
+          description: 航空行业数据平台
+        - title: 飞常准大数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.variflight.com?from=dy.199908.top
+          description: 航班数据分析平台
+        - title: Similarweb
+          logo: images/图标字体/iconfont.png
+          url: https://www.similarweb.com?from=dy.199908.top
+          description: 全球网站流量分析工具
+        - title: 蝉小红
+          logo: images/图标字体/iconfont.png
+          url: https://www.chanxiaohong.com?from=dy.199908.top
+          description: 小红书数据分析平台
+        - title: 财富500强情报中心
+          logo: images/图标字体/iconfont.png
+          url: https://www.fortunechina.com/fortune500?from=dy.199908.top
+          description: 全球企业数据分析平台
+        - title: 云合数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.yhtdata.com?from=dy.199908.top
+          description: 电商数据分析平台
+        - title: 骨朵数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.guduo.net?from=dy.199908.top
+          description: 影视数据分析平台
+        - title: 中国视听大数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.ctview.cn?from=dy.199908.top
+          description: 视听行业数据分析平台
+        - title: 猫眼专业版-实时票房
+          logo: images/图标字体/iconfont.png
+          url: https://piaofang.maoyan.com?from=dy.199908.top
+          description: 电影票房数据分析平台
+        - title: 酷云eye
+          logo: images/图标字体/iconfont.png
+          url: https://eye.kuyun.com?from=dy.199908.top
+          description: 视频内容数据分析平台
+        - title: 磁流体
+          logo: images/图标字体/iconfont.png
+          url: https://www.ciliuti.com?from=dy.199908.top
+          description: 短视频数据分析平台
+        - title: 星榜
+          logo: images/图标字体/iconfont.png
+          url: https://www.xingbang.com?from=dy.199908.top
+          description: 网红数据分析平台
+        - title: 新榜
+          logo: images/新媒运营/新榜.png
+          url: https://www.newrank.cn?from=dy.199908.top
+          description: 内容创业服务平台，提供新媒体数据分析
+        - title: 神策数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.sensorsdata.cn?from=dy.199908.top
+          description: 用户行为分析平台
+        - title: 死亡公司公墓
+          logo: images/图标字体/iconfont.png
+          url: https://www.itjuzi.com/deathCompany?from=dy.199908.top
+          description: 创业公司死亡数据库
         - title: 微热点
           logo: images/新媒运营/清博大数据.png
           url: https://www.wrd.cn?from=dy.199908.top
           description: 全媒体传播分析平台
-        - title: 艾瑞网
-          logo: images/新媒运营/新榜.png
-          url: https://www.iresearch.cn?from=dy.199908.top
-          description: 互联网数据资讯聚合平台
-        - title: 生意参谋
-          logo: images/数据分析/生意参谋.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 淘宝数据分析工具
-        - title: 大淘客
-          logo: images/数据分析/大淘客.jpg
-          url: http://www.dataoke.com?from=dy.199908.top
-          description: 淘客选品平台
-        - title: 抖音官方选品工具
-          logo: images/数据分析/抖音官方选品工具.jpg
-          url: https://bytedance.feishu.cn/docx/FCCxdKMarouWw3xrR87cNKeRn3b
-          description: 抖音官方选品工具
-        - title: 抖查查
-          logo: images/数据分析/抖查查.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 数据、达人与选品平台
-        - title: 灰豚数据-快手
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://ks.huitun.com?from=dy.199908.top
-          description: 灰豚数据快手版
-        - title: 郑和数据
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://zhenghedata.com/dashboard?from=dy.199908.top
-          description: 郑和数据小红书版
-        - title: 灰豚数据-小红书
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://xhs.huitun.com?from=dy.199908.top
-          description: 灰豚数据小红书版
+        - title: 次幂数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.cimidata.com?from=dy.199908.top
+          description: 电商数据分析平台
+        - title: 果集
+          logo: images/图标字体/iconfont.png
+          url: https://guoji.store?from=dy.199908.top
+          description: 电商选品数据平台
+        - title: 国家统计局
+          logo: images/图标字体/iconfont.png
+          url: http://www.stats.gov.cn?from=dy.199908.top
+          description: 官方统计数据平台
+        - title: 热浪数据
+          logo: images/图标字体/iconfont.png
+          url: https://relang.cn?from=dy.199908.top
+          description: 社交媒体数据分析平台
+        - title: 福布斯榜单
+          logo: images/图标字体/iconfont.png
+          url: https://www.forbeschina.com/lists?from=dy.199908.top
+          description: 商业数据分析平台
+        - title: 新浪舆情通
+          logo: images/图标字体/iconfont.png
+          url: https://yqt.miaozhen.com?from=dy.199908.top
+          description: 舆情监测与分析平台
+        - title: 巨量算数
+          logo: images/数据分析/巨量算数.svg
+          url: https://trendinsight.oceanengine.com?from=dy.199908.top
+          description: 抖音官方大数据平台
+        - title: 七麦数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.qimai.cn?from=dy.199908.top
+          description: 移动应用数据分析平台
+        - title: 艺恩数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.endata.com.cn?from=dy.199908.top
+          description: 影视行业数据分析平台
+        - title: 蝉妈妈
+          logo: images/数据分析/蝉妈妈.jpg
+          url: https://www.chanmama.com?from=dy.199908.top
+          description: 抖音、小红书数据分析及营销平台，支持直播选品
+        - title: Google趋势
+          logo: images/图标字体/iconfont.png
+          url: https://trends.google.com?from=dy.199908.top
+          description: 全球搜索趋势分析工具
     - name: 文案剧本
       links:
-        - title: 熊猫视频号下载助手
-          logo: images/新媒运营/熊猫视频号下载助手.png
-          url: https://www.xiongmaoshipin.com?from=dy.199908.top
-          description: 支持视频号、小红书、抖音等多平台视频无水印下载
-        - title: AI免费思维导图
-          logo: images/新媒运营/AI免费思维导图.png
-          url: https://www.zhixi.com?from=dy.199908.top
-          description: AI智能思维导图，输入一句话即可生成
-        - title: AI写作助手
-          logo: images/新媒运营/AI写作助手.png
-          url: https://xiezuocat.com?from=dy.199908.top
-          description: 一站式AI自媒体创作平台
-        - title: 文案一键降AI
-          logo: images/新媒运营/文案一键降AI.png
-          url: https://ai.free-tools.cn?from=dy.199908.top
-          description: 一键降低AI痕迹，告别AI味文案
-        - title: 提客AI提词器
-          logo: images/新媒运营/提客AI提词器.png
-          url: https://tike.io?from=dy.199908.top
-          description: 直播、录课AI提词，搭配抖音直播伴侣等软件
-        - title: 文心一言
-          logo: images/新媒运营/AI写作助手.png
-          url: https://yiyan.baidu.com?from=dy.199908.top
-          description: 百度AI大模型，支持内容创作和图片生成
-        - title: Midjourney
-          logo: images/新媒运营/AI免费思维导图.png
-          url: https://www.midjourney.com?from=dy.199908.top
-          description: 专业AI图像生成工具
-        - title: 秒创数字人直播助手
-          logo: images/新媒运营/AI工具.png
-          url: https://live.yizhentv.com/?_f=bgrdh
-          description: AI数字人智能直播工具，一款低门槛低成本的直播神器
-        - title: 豆包AI
-          logo: images/新媒运营/AI工具.png
-          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-          description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作
-        - title: 绘蛙
-          logo: images/新媒运营/AI工具.png
-          url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
-          description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
-        - title: 有言
-          logo: images/新媒运营/AI工具.png
-          url: https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh
-          description: 一站式AI视频创作，1200+免费3D数字人
-        - title: 讯飞绘文
-          logo: images/新媒运营/AI工具.png
-          url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
-          description: 选题、配图、成文，一站式创作，让内容运营更高效
-        - title: 白日梦AI
-          logo: images/新媒运营/AI工具.png
-          url: https://aibrm.com/?codedh_codyh
-          description: 白日梦AI视频生成是一个文生视频类AIGC创作平台
-        - title: 135编辑器AI排版
-          logo: images/新媒运营/AI工具.png
-          url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
-          description: 专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版
+        - title: 汉语新鲜TextHuman
+          logo: images/图标字体/iconfont.png
+          url: https://texthuman.com?from=dy.199908.top
+          description: "汉语新鲜TextHuman"是一个基于AI技术的创作工具
+        - title: 123goo文案网
+          logo: images/图标字体/iconfont.png
+          url: https://www.123goo.cn?from=dy.199908.top
+          description: 123goo文案网是一个专注于提供原创影视说文案的平台
+        - title: 92解说网
+          logo: images/图标字体/iconfont.png
+          url: https://www.92js.com?from=dy.199908.top
+          description: 92解说网是一个专注于提供影视解说文案和素材的网站
+        - title: 五站解说网
+          logo: images/图标字体/iconfont.png
+          url: https://www.5zjs.com?from=dy.199908.top
+          description: 五站解说网是一个专注于电影解说文案和影视素材的网站
+        - title: 123解说文案网
+          logo: images/图标字体/iconfont.png
+          url: https://www.123js.net?from=dy.199908.top
+          description: 123电影解说文案网是一个专注于影视解说文案的平台
+        - title: 七喵解说文案网
+          logo: images/图标字体/iconfont.png
+          url: https://www.7mjs.com?from=dy.199908.top
+          description: 七喵电影解说文案网是电影解说文案素材平台
+        - title: 文案区
+          logo: images/图标字体/iconfont.png
+          url: https://www.wanqu.cc?from=dy.199908.top
+          description: 一个专门收集高级简小的短句文案，为文案爱好者提供素材
+        - title: 押韵驰押韵助手
+          logo: images/图标字体/iconfont.png
+          url: https://yayuner.com?from=dy.199908.top
+          description: 在线查询押韵的词、诗、歌
+        - title: 华语剧本网
+          logo: images/图标字体/iconfont.png
+          url: https://www.juben108.com?from=dy.199908.top
+          description: 原华语剧本网,原创剧本交易平台
+        - title: 原创剧本网
+          logo: images/图标字体/iconfont.png
+          url: https://www.ycjuben.com?from=dy.199908.top
+          description: 一个专注于剧本创作、交易和投稿的平台
+        - title: 抖几句
+          logo: images/图标字体/iconfont.png
+          url: https://doujiju.com?from=dy.199908.top
+          description: 原创剧交易平台,抖音快手剧本素材
+        - title: 句子迷
+          logo: images/图标字体/iconfont.png
+          url: https://www.juzimi.com?from=dy.199908.top
+          description: 专注于分享和收藏高质量句子的社区平台
+        - title: 短美文网
+          logo: images/图标字体/iconfont.png
+          url: https://www.duanmeiwen.com?from=dy.199908.top
+          description: 短美文网致力于分享更多原创美文、经典文章、情感故事
+        - title: 剧本网
+          logo: images/图标字体/iconfont.png
+          url: https://www.juben.cn?from=dy.199908.top
+          description: 中国剧本投稿交易门户网站
+        - title: 文案门
+          logo: images/图标字体/iconfont.png
+          url: https://www.wenanmen.com?from=dy.199908.top
+          description: 专注收集情感文案的网站
+        - title: 反向词典
+          logo: images/图标字体/iconfont.png
+          url: https://wantwords.net?from=dy.199908.top
+          description: 万词王wantwords反向词典官网版
+        - title: topys顶尖文案
+          logo: images/图标字体/iconfont.png
+          url: https://www.topys.cn?from=dy.199908.top
+          description: 国内广告文案策划领域最专业文案资源、信息平台
+        - title: 句子控
+          logo: images/图标字体/iconfont.png
+          url: https://www.juzikong.com?from=dy.199908.top
+          description: 汇集众多名人名言、经典名句、电影台词和歌词
+        - title: 近邻词汇检索
+          logo: images/图标字体/iconfont.png
+          url: https://tool.mingdawoo.com/lang/nearby_word?from=dy.199908.top
+          description: 查找近似词语和相关术语的工具
+        - title: 文案狗
+          logo: images/图标字体/iconfont.png
+          url: https://www.wenangou.com?from=dy.199908.top
+          description: 收集各种中文创意文案、广告语、比如歌词、找文案
     - name: 营销运营
       links:
         - title: 营销运营
