@@ -2598,38 +2598,52 @@
           description: 小红书官方创作者平台，提供数据分析和收益管理
     - name: 研究报告
       links:
+        # 抖音相关研究平台
+        - title: 巨量算数
+          logo: images/新媒运营/数据研究.png
+          url: https://trendinsight.oceanengine.com
+          description: 抖音官方大数据平台
+        # 淘宝天猫相关研究平台
+        - title: 阿里研究院
+          logo: images/新媒运营/数据研究.png
+          url: https://www.aliresearch.com
+          description: 淘宝天猫官方新商业知识平台
+        # 京东相关研究平台
+        - title: 京东大数据研究院
+          logo: images/新媒运营/数据研究.png
+          url: https://www.jddatatech.com
+          description: 京东专注于电商领域、人工智能和热点领域的研究报告
+        # 腾讯相关研究平台
+        - title: 移动观象台
+          logo: images/新媒运营/数据研究.png
+          url: https://mta.qq.com
+          description: 腾讯应用排行、公众号排行、App Store排行、终端数据
+        - title: 腾讯调研云
+          logo: images/新媒运营/数据研究.png
+          url: https://wj.qq.com
+          description: 专业的研究分析平台
+        # 电商相关研究平台
         - title: 乌拉邦报告
           logo: images/新媒运营/数据研究.png
           url: https://www.ulabang.com
           description: 电商行业研究报告和数据分析平台
-        - title: 199IT
+        # 新媒体相关研究平台
+        - title: 新榜排名
           logo: images/新媒运营/数据研究.png
-          url: https://www.199it.com
-          description: 互联网数据资讯网，提供互联网行业研究报告
-        - title: 比达网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.bigdatabigdata.cn
-          description: 专注移动互联网行业的市场研究和数据交换平台
+          url: https://www.newrank.cn
+          description: 内容创业服务平台，提供新媒体数据分析和排名
+        - title: 微热点
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.wrd.cn?from=dy.199908.top
+          description: 全媒体传播分析平台
         - title: 星图金融研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.jrjyfw.com
           description: 苏宁金融集团旗下大型研究机构
-        - title: 京东大数据研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.jddatatech.com
-          description: 专注于电商领域、人工智能和热点领域的研究报告
         - title: 36氪研究院
           logo: images/新媒运营/数据研究.png
           url: https://36kr.com/research
           description: 专注于为政府、企业、投资机构等提供行业研究报告
-        - title: 阿里研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.aliresearch.com
-          description: 新商业知识平台
-        - title: 移动观象台
-          logo: images/新媒运营/数据研究.png
-          url: https://mta.qq.com
-          description: 应用排行、公众号排行、App Store排行、终端数据
         - title: 巨星算数
           logo: images/新媒运营/数据研究.png
           url: https://www.questmobile.com.cn
@@ -2682,10 +2696,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://qianfan.analysys.cn
           description: 移动互联网运营分析平台
-        - title: 巨量算数
-          logo: images/新媒运营/数据研究.png
-          url: https://trendinsight.oceanengine.com
-          description: 抖音官方大数据平台
         - title: CBNData
           logo: images/新媒运营/数据研究.png
           url: https://www.cbndata.com
@@ -2730,10 +2740,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.hanghangcha.com
           description: 专业行业研究分析数据库，包含海量行业研究报告
-        - title: 阿里云研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.aliresearch.com
-          description: 海量的数据和案例，洞察未来趋势
         - title: 前瞻网
           logo: images/新媒运营/数据研究.png
           url: https://www.qianzhan.com
@@ -2746,7 +2752,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.meiribg.com
           description: 行业研究报告、市场分析报告、商业计划书
-
         - title: 中国信息通信研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.caict.ac.cn
@@ -2791,10 +2796,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.yjy123.com
           description: 提供各行各业的深度行业研究报告
-        - title: 东方财富网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.eastmoney.com
-          description: 整合了股票、基金、期货、外汇、债券等行情数据
         - title: 前沿网
           logo: images/新媒运营/数据研究.png
           url: https://www.frontiersin.org
@@ -2807,10 +2808,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://hot.jixie.io
           description: AI驱动的热点聚合平台，提供智能热点分析
-        - title: 新榜排名
-          logo: images/新媒运营/数据研究.png
-          url: https://www.newrank.cn
-          description: 内容创业服务平台，提供新媒体数据分析和排名
         - title: 宣小二媒体发稿平台
           logo: images/新媒运营/数据研究.png
           url: https://www.xuanxiaoer.com?spid=1827
@@ -2823,10 +2820,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://share.ipidea.net/5fkzA5
           description: 全球IP代理资源服务商，9000万纯净IP代理池，覆盖全球220个国家地区的代理网络
-        - title: 乌拉邦报告
-          logo: images/新媒运营/数据研究.png
-          url: https://www.ulabang.com
-          description: 电商行业研究报告和数据分析平台
         - title: 199IT
           logo: images/新媒运营/数据研究.png
           url: https://www.199it.com
@@ -2835,46 +2828,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.bigdatabigdata.cn
           description: 专注移动互联网行业的市场研究和数据交换平台
-        - title: 星图金融研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.jrjyfw.com
-          description: 苏宁金融集团旗下大型研究机构
-        - title: 京东大数据研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.jddatatech.com
-          description: 专注于电商领域、人工智能和热点领域的研究报告
-        - title: 36氪研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://36kr.com/research
-          description: 专注于为政府、企业、投资机构等提供行业研究报告
-        - title: 阿里研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.aliresearch.com
-          description: 新商业知识平台
-        - title: 移动观象台
-          logo: images/新媒运营/数据研究.png
-          url: https://mta.qq.com
-          description: 应用排行、公众号排行、App Store排行、终端数据
-        - title: 巨星算数
-          logo: images/新媒运营/数据研究.png
-          url: https://www.questmobile.com.cn
-          description: 解析内容趋向、解码营销未来
-        - title: MobTech研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.mob.com/mobdata/report
-          description: 行业洞察报告、专业数据报告
-        - title: 月狐数据
-          logo: images/新媒运营/数据研究.png
-          url: https://www.yuefu.com
-          description: 全场景数据洞察与分析服务专家
-        - title: 研报客
-          logo: images/新媒运营/数据研究.png
-          url: https://www.yanbaoke.com
-          description: 提供全行业的深度行业研究报告
-        - title: IT桔子
-          logo: images/新媒运营/数据研究.png
-          url: https://www.itjuzi.com
-          description: 互联网创投数据服务和信息服务平台
         - title: 乐晴智库
           logo: images/新媒运营/数据研究.png
           url: https://www.lechengdata.com
@@ -2903,10 +2856,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://qianfan.analysys.cn
           description: 移动互联网运营分析平台
-        - title: 巨量算数
-          logo: images/新媒运营/数据研究.png
-          url: https://trendinsight.oceanengine.com
-          description: 抖音官方大数据平台
         - title: CBNData
           logo: images/新媒运营/数据研究.png
           url: https://www.cbndata.com
@@ -2951,31 +2900,10 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.hanghangcha.com
           description: 专业行业研究分析数据库，包含海量行业研究报告
-
-        - title: 中国信息通信研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.caict.ac.cn
-          description: 主要从事信息通信领域和开展信息通信工业研究
-        - title: 中国产业信息网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.chyxx.com
-          description: 产业情报，产业地图，产业知识库
-        - title: 房天下产业网
-          logo: images/新媒运营/数据研究.png
-          url: https://industry.fang.com
-          description: 房地产行业数据平台
-        - title: CEIC
-          logo: images/新媒运营/数据研究.png
-          url: https://www.ceicdata.com/zh-hans
-          description: 提供全球宏观经济和行业数据的数据库
         - title: 腾讯调研云
           logo: images/新媒运营/数据研究.png
           url: https://wj.qq.com
           description: 专业的研究分析平台
-        - title: 前瞻产业研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.qianzhan.com
-          description: 行业研究报告、产业链分析、市场调研
         - title: 一站就行
           logo: images/新媒运营/数据研究.png
           url: https://www.yizhanjx.com
