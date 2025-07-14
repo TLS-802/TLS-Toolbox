@@ -2603,16 +2603,71 @@
           logo: images/新媒运营/数据研究.png
           url: https://trendinsight.oceanengine.com
           description: 抖音官方大数据平台
+        - title: 抖查查
+          logo: images/数据分析/抖查查.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 抖音数据、达人与选品平台
+        - title: 抖老板
+          logo: images/数据分析/抖老板.png
+          url: https://www.doulaobao.com?from=dy.199908.top
+          description: 抖音广告投放与数据分析工具
+        - title: 考古加数据
+          logo: images/数据分析/考古加.jpg
+          url: https://www.kaogu.plus?from=dy.199908.top
+          description: 抖音电商数据分析平台
+        - title: 蝉妈妈
+          logo: images/数据分析/蝉妈妈.jpg
+          url: https://www.chanmama.com?from=dy.199908.top
+          description: 抖音、小红书数据分析及营销平台，支持直播选品
+        - title: 飞瓜
+          logo: images/数据分析/飞瓜.jpg
+          url: https://www.feigua.cn?from=dy.199908.top
+          description: 短视频及直播数据分析平台
         # 淘宝天猫相关研究平台
         - title: 阿里研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.aliresearch.com
           description: 淘宝天猫官方新商业知识平台
+        - title: 生意参谋
+          logo: images/数据分析/生意参谋.png
+          url: https://sycm.taobao.com?from=dy.199908.top
+          description: 淘宝官方数据分析平台
+        # 快手相关研究平台
+        - title: 磁力数据
+          logo: images/广告投放/磁力引擎.png
+          url: https://e.kuaishou.com/data-center
+          description: 快手官方数据平台
+        - title: 灰豚数据-快手
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://ks.huitun.com?from=dy.199908.top
+          description: 灰豚数据快手版
+        # 小红书相关研究平台
+        - title: 小红书创作者服务中心
+          logo: images/新媒运营/小红书创作者服务中心.png
+          url: https://creator.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方创作者平台，提供数据分析和收益管理
+        - title: 蝉小红
+          logo: images/图标字体/iconfont.png
+          url: https://www.chanxiaohong.com?from=dy.199908.top
+          description: 小红书数据分析平台
+        - title: 薯狗狗
+          logo: images/新媒运营/薯狗狗.png
+          url: https://www.ggyl.top?from=dy.199908.top
+          description: 小红书专业数据分析和竞品账号监控工具
         # 京东相关研究平台
         - title: 京东大数据研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.jddatatech.com
           description: 京东专注于电商领域、人工智能和热点领域的研究报告
+        # 拼多多相关研究平台
+        - title: 多多情报通
+          logo: images/电商辅助/拼多多.jpg
+          url: https://qbt.pinduoduo.com?from=dy.199908.top
+          description: 拼多多数据分析工具
+        - title: 多多狼
+          logo: images/电商辅助/拼多多.jpg
+          url: https://duoduolang.com?from=dy.199908.top
+          description: 拼多多数据分析工具
         # 腾讯相关研究平台
         - title: 移动观象台
           logo: images/新媒运营/数据研究.png
@@ -2622,11 +2677,17 @@
           logo: images/新媒运营/数据研究.png
           url: https://wj.qq.com
           description: 专业的研究分析平台
-        # 电商相关研究平台
+          
+        # 电商综合研究平台
         - title: 乌拉邦报告
           logo: images/新媒运营/数据研究.png
           url: https://www.ulabang.com
           description: 电商行业研究报告和数据分析平台
+        - title: 灰豚数据
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://www.huitun.com?from=dy.199908.top
+          description: 短视频数据分析平台
+          
         # 新媒体相关研究平台
         - title: 新榜排名
           logo: images/新媒运营/数据研究.png
@@ -2636,6 +2697,14 @@
           logo: images/新媒运营/清博大数据.png
           url: https://www.wrd.cn?from=dy.199908.top
           description: 全媒体传播分析平台
+        - title: 热点聚合
+          logo: images/新媒运营/数据研究.png
+          url: https://tophub.today
+          description: 各大网站热点聚合，实时热搜榜单
+        - title: AI今日热榜
+          logo: images/新媒运营/数据研究.png
+          url: https://hot.jixie.io
+          description: AI驱动的热点聚合平台，提供智能热点分析
         - title: 星图金融研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.jrjyfw.com
@@ -2800,14 +2869,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.frontiersin.org
           description: 专注于前沿科技研究和报告的平台
-        - title: 热点聚合
-          logo: images/新媒运营/数据研究.png
-          url: https://tophub.today
-          description: 各大网站热点聚合，实时热搜榜单
-        - title: AI今日热榜
-          logo: images/新媒运营/数据研究.png
-          url: https://hot.jixie.io
-          description: AI驱动的热点聚合平台，提供智能热点分析
         - title: 宣小二媒体发稿平台
           logo: images/新媒运营/数据研究.png
           url: https://www.xuanxiaoer.com?spid=1827
