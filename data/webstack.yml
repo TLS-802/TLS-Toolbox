@@ -2598,7 +2598,7 @@
           description: 小红书官方创作者平台，提供数据分析和收益管理
     - name: 研究报告
       links:
-        # 抖音相关研究平台
+        # 抖音相关研究平台（热门平台置前）
         - title: 巨量算数
           logo: images/新媒运营/数据研究.png
           url: https://trendinsight.oceanengine.com
@@ -2623,7 +2623,8 @@
           logo: images/数据分析/飞瓜.jpg
           url: https://www.feigua.cn?from=dy.199908.top
           description: 短视频及直播数据分析平台
-        # 淘宝天猫相关研究平台
+
+        # 淘宝天猫相关研究平台（热门平台）
         - title: 阿里研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.aliresearch.com
@@ -2632,7 +2633,8 @@
           logo: images/数据分析/生意参谋.png
           url: https://sycm.taobao.com?from=dy.199908.top
           description: 淘宝官方数据分析平台
-        # 快手相关研究平台
+
+        # 快手相关研究平台（热门平台）
         - title: 磁力数据
           logo: images/广告投放/磁力引擎.png
           url: https://e.kuaishou.com/data-center
@@ -2641,7 +2643,8 @@
           logo: images/数据分析/灰豚数据.jpg
           url: https://ks.huitun.com?from=dy.199908.top
           description: 灰豚数据快手版
-        # 小红书相关研究平台
+
+        # 小红书相关研究平台（热门平台）
         - title: 小红书创作者服务中心
           logo: images/新媒运营/小红书创作者服务中心.png
           url: https://creator.xiaohongshu.com?from=dy.199908.top
@@ -2654,12 +2657,8 @@
           logo: images/新媒运营/薯狗狗.png
           url: https://www.ggyl.top?from=dy.199908.top
           description: 小红书专业数据分析和竞品账号监控工具
-        # 京东相关研究平台
-        - title: 京东大数据研究院
-          logo: images/新媒运营/数据研究.png
-          url: https://www.jddatatech.com
-          description: 京东专注于电商领域、人工智能和热点领域的研究报告
-        # 拼多多相关研究平台
+
+        # 拼多多相关研究平台（热门平台）
         - title: 多多情报通
           logo: images/电商辅助/拼多多.jpg
           url: https://qbt.pinduoduo.com?from=dy.199908.top
@@ -2668,6 +2667,13 @@
           logo: images/电商辅助/拼多多.jpg
           url: https://duoduolang.com?from=dy.199908.top
           description: 拼多多数据分析工具
+
+        # 京东相关研究平台
+        - title: 京东大数据研究院
+          logo: images/新媒运营/数据研究.png
+          url: https://www.jddatatech.com
+          description: 京东专注于电商领域、人工智能和热点领域的研究报告
+
         # 腾讯相关研究平台
         - title: 移动观象台
           logo: images/新媒运营/数据研究.png
@@ -2677,7 +2683,7 @@
           logo: images/新媒运营/数据研究.png
           url: https://wj.qq.com
           description: 专业的研究分析平台
-          
+
         # 电商综合研究平台
         - title: 乌拉邦报告
           logo: images/新媒运营/数据研究.png
@@ -2753,6 +2759,7 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.iyiou.com
           description: 专注科技产业+投资的信息平台和智库
+        # 综合研究报告平台
         - title: 中研网
           logo: images/新媒运营/数据研究.png
           url: https://www.chinairn.com
@@ -2837,10 +2844,6 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.ceicdata.com/zh-hans
           description: 提供全球宏观经济和行业数据的数据库
-        - title: 腾讯调研云
-          logo: images/新媒运营/数据研究.png
-          url: https://wj.qq.com
-          description: 专业的研究分析平台
         - title: 前瞻产业研究院
           logo: images/新媒运营/数据研究.png
           url: https://www.qianzhan.com
@@ -2909,90 +2912,10 @@
           logo: images/新媒运营/数据研究.png
           url: https://www.iyiou.com
           description: 专注科技产业+投资的信息平台和智库
-        - title: 报告查
-          logo: images/新媒运营/数据研究.png
-          url: https://www.baogaocha.com
-          description: 专业、全面、简约的报告查取工具
-        - title: 易观千帆
-          logo: images/新媒运营/数据研究.png
-          url: https://qianfan.analysys.cn
-          description: 移动互联网运营分析平台
-        - title: CBNData
-          logo: images/新媒运营/数据研究.png
-          url: https://www.cbndata.com
-          description: 第一财经数据中心
-        - title: 艾瑞咨询
-          logo: images/新媒运营/数据研究.png
-          url: https://www.iresearch.cn
-          description: 互联网研究报告和数据分析服务提供商
-        - title: 东方财富网数据中心
-          logo: images/新媒运营/数据研究.png
-          url: https://data.eastmoney.com
-          description: 金融数据分析平台
-        - title: 麦肯锡
-          logo: images/新媒运营/数据研究.png
-          url: https://www.mckinsey.com.cn
-          description: 业务范围广泛，潮流战略决策、电子商务战略
-        - title: 烽火研报
-          logo: images/新媒运营/数据研究.png
-          url: https://www.fenghuoyanbao.com
-          description: 专业研报平台 | 收录海量行业报告
-        - title: 发现报告
-          logo: images/新媒运营/数据研究.png
-          url: https://www.fxbaogao.com
-          description: 电商行业、上市公司研究报告
-        - title: 巨湾资讯网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.ennweekly.com
-          description: 上市公司公告、公司资讯、股东互动
-        - title: 联商网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.linkshop.com
-          description: 零售商业门户网站，专业服务零售业
-        - title: 中国百货商业协会
-          logo: images/新媒运营/数据研究.png
-          url: https://www.ccagm.org.cn
-          description: 中国百货商业协会
-        - title: 德勤中国
-          logo: images/新媒运营/数据研究.png
-          url: https://www2.deloitte.com/cn/zh.html
-          description: 审计、企业管理咨询、风险咨询、税务咨询
-        - title: 行行查
-          logo: images/新媒运营/数据研究.png
-          url: https://www.hanghangcha.com
-          description: 专业行业研究分析数据库，包含海量行业研究报告
-        - title: 腾讯调研云
-          logo: images/新媒运营/数据研究.png
-          url: https://wj.qq.com
-          description: 专业的研究分析平台
-        - title: 一站就行
-          logo: images/新媒运营/数据研究.png
-          url: https://www.yizhanjx.com
-          description: 专业、全面、简约的报告查取工具
-        - title: 艾媒报告
-          logo: images/新媒运营/数据研究.png
-          url: https://www.iimedia.cn
-          description: 新经济行业数据、报告、研究、咨询
-        - title: 中国经济论坛（CMF）
-          logo: images/新媒运营/数据研究.png
-          url: https://www.cmf.org.cn
-          description: 高端学术平台，自在汇聚经济学领域的理论研究
-        - title: 中国报告大厅
-          logo: images/新媒运营/数据研究.png
-          url: https://www.chinabgao.com
-          description: 市场调研报告门户，专业提供行业市场调研报告
-        - title: 一查就有
-          logo: images/新媒运营/数据研究.png
-          url: https://www.yjy123.com
-          description: 提供各行各业的深度行业研究报告
         - title: 东方财富网
           logo: images/新媒运营/数据研究.png
           url: https://www.eastmoney.com
           description: 整合了股票、基金、期货、外汇、债券等行情数据
-        - title: 前沿网
-          logo: images/新媒运营/数据研究.png
-          url: https://www.frontiersin.org
-          description: 专注于前沿科技研究和报告的平台
 
 - taxonomy: 广告投放
   icon: fa-bullhorn
