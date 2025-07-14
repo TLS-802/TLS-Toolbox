@@ -3092,7 +3092,7 @@
 
 - taxonomy: 视频剪辑
   icon: fa-video
-      links:
+  links:
         - title: 剪映
           logo: images/视频编辑/剪映.png
           url: https://www.capcut.cn?from=dy.199908.top
