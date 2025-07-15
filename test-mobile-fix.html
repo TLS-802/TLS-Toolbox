@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移动端侧边栏修复测试</title>
+    <link rel="stylesheet" href="static/css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="static/js/jquery-1.11.1.min.js"></script>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+            background: #f5f5f5;
+        }
+        .test-header {
+            background: #28a745;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2000;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .test-content { 
+            padding: 20px; 
+            margin-top: 70px;
+            background: white;
+            min-height: calc(100vh - 70px);
+        }
+        .status-panel {
+            background: #e9ecef;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+        .test-buttons {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .test-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .test-btn:hover {
+            background: #0056b3;
+        }
+        .test-btn.success {
+            background: #28a745;
+        }
+        .test-btn.success:hover {
+            background: #1e7e34;
+        }
+        .debug-info {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-indicator.green {
+            background: #28a745;
+        }
+        .status-indicator.red {
+            background: #dc3545;
+        }
+        .status-indicator.yellow {
+            background: #ffc107;
+        }
+    </style>
+</head>
+<body class="page-body">
+    <div class="test-header">
+        ✅ 移动端侧边栏修复测试 - 请在移动设备或开发者工具移动视图中测试
+    </div>
+
+    <div class="page-container">
+        <!-- 移动端背景遮罩 -->
+        <div class="mobile-menu-backdrop"></div>
+        
+        <!-- 侧边栏菜单 -->
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <div class="logo">
+                        <a href="#" class="logo-expanded">
+                            <span style="color: #fff;">🔧 修复测试</span>
+                        </a>
+                        <a href="#" class="logo-collapsed">
+                            <span style="color: #fff;">🔧</span>
+                        </a>
+                    </div>
+                    <!-- 移动端菜单切换按钮 -->
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                <!-- 主菜单列表 -->
+                <ul id="main-menu" class="main-menu">
+                    <li><a href="#test1"><i class="fa fa-home"></i><span>首页测试</span></a></li>
+                    <li><a href="#test2"><i class="fa fa-user"></i><span>用户管理</span></a></li>
+                    <li><a href="#test3"><i class="fa fa-cog"></i><span>系统设置</span></a></li>
+                    <li><a href="#test4"><i class="fa fa-chart-bar"></i><span>数据统计</span></a></li>
+                    <li><a href="#test5"><i class="fa fa-file"></i><span>文档管理</span></a></li>
+                    <li><a href="#test6"><i class="fa fa-envelope"></i><span>消息中心</span></a></li>
+                    <li><a href="#test7"><i class="fa fa-question-circle"></i><span>帮助中心</span></a></li>
+                    <li><a href="#test8"><i class="fa fa-info-circle"></i><span>关于我们</span></a></li>
+                    <li><a href="#test9"><i class="fa fa-star"></i><span>收藏夹</span></a></li>
+                    <li><a href="#test10"><i class="fa fa-bell"></i><span>通知中心</span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <div class="test-content">
+                <h1>🔧 移动端侧边栏修复验证</h1>
+                
+                <div class="status-panel">
+                    <h3>📊 实时状态监控</h3>
+                    <p><span class="status-indicator" id="width-indicator"></span><strong>窗口宽度:</strong> <span id="window-width">-</span>px</p>
+                    <p><span class="status-indicator" id="mobile-indicator"></span><strong>移动视图:</strong> <span id="is-mobile">-</span></p>
+                    <p><span class="status-indicator" id="sidebar-indicator"></span><strong>侧边栏状态:</strong> <span id="sidebar-status">-</span></p>
+                    <p><span class="status-indicator" id="backdrop-indicator"></span><strong>背景遮罩:</strong> <span id="backdrop-status">-</span></p>
+                    <p><span class="status-indicator" id="hamburger-indicator"></span><strong>汉堡菜单:</strong> <span id="hamburger-status">-</span></p>
+                </div>
+
+                <div class="test-buttons">
+                    <h3>🧪 功能测试</h3>
+                    <button class="test-btn" onclick="runDiagnostics()">🔍 运行诊断</button>
+                    <button class="test-btn" onclick="testToggle()">🔄 测试切换</button>
+                    <button class="test-btn" onclick="forceClose()">❌ 强制关闭</button>
+                    <button class="test-btn success" onclick="clearLog()">🗑️ 清空日志</button>
+                </div>
+
+                <div class="status-panel">
+                    <h3>✅ 修复验证清单</h3>
+                    <p><strong>问题1 - 默认状态:</strong> 页面加载时侧边栏应该隐藏，不遮挡主内容</p>
+                    <p><strong>问题2 - 交互功能:</strong> 汉堡菜单按钮应该能正确切换侧边栏显示/隐藏</p>
+                    <ul>
+                        <li>✓ 点击汉堡菜单图标（☰）展开侧边栏</li>
+                        <li>✓ 再次点击汉堡菜单收起侧边栏</li>
+                        <li>✓ 点击背景遮罩关闭侧边栏</li>
+                        <li>✓ 点击菜单项关闭侧边栏</li>
+                        <li>✓ 平滑的动画效果</li>
+                    </ul>
+                </div>
+
+                <div id="debug-output" class="debug-info">
+等待诊断结果...
+                </div>
+
+                <div class="status-panel">
+                    <h3 id="test1">📝 测试内容区域</h3>
+                    <p>这是主要内容区域。在移动端，当侧边栏隐藏时，这些内容应该完全可见，不被遮挡。</p>
+                    <p id="test2">修复后的侧边栏应该：</p>
+                    <ul>
+                        <li id="test3">默认处于隐藏状态（不遮挡内容）</li>
+                        <li id="test4">响应汉堡菜单按钮的点击</li>
+                        <li id="test5">具有平滑的动画效果</li>
+                        <li id="test6">在桌面端正常显示</li>
+                    </ul>
+                    <p id="test7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p id="test8">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p id="test9">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p id="test10">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/nav.js"></script>
+    <script>
+        let logMessages = [];
+        
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            const logEntry = `[${timestamp}] ${message}`;
+            logMessages.push(logEntry);
+            updateDebugOutput();
+            console.log(logEntry);
+        }
+        
+        function updateDebugOutput() {
+            const output = document.getElementById('debug-output');
+            output.textContent = logMessages.slice(-20).join('\n'); // 显示最近20条
+        }
+        
+        function clearLog() {
+            logMessages = [];
+            updateDebugOutput();
+            log('日志已清空');
+        }
+        
+        // 更新状态显示
+        function updateStatus() {
+            const width = window.innerWidth;
+            const isMobile = width < 768;
+            const sidebar = document.querySelector('.sidebar-menu');
+            const backdrop = document.querySelector('.mobile-menu-backdrop');
+            const hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+            
+            // 更新数值
+            document.getElementById('window-width').textContent = width;
+            document.getElementById('is-mobile').textContent = isMobile ? '是' : '否';
+            
+            // 更新指示器
+            document.getElementById('width-indicator').className = 'status-indicator ' + (isMobile ? 'yellow' : 'green');
+            document.getElementById('mobile-indicator').className = 'status-indicator ' + (isMobile ? 'green' : 'yellow');
+            
+            if (sidebar) {
+                const isVisible = sidebar.classList.contains('mobile-is-visible');
+                document.getElementById('sidebar-status').textContent = isVisible ? '显示' : '隐藏';
+                document.getElementById('sidebar-indicator').className = 'status-indicator ' + (isVisible ? 'green' : (isMobile ? 'green' : 'yellow'));
+            }
+            
+            if (backdrop) {
+                const isVisible = backdrop.classList.contains('visible');
+                document.getElementById('backdrop-status').textContent = isVisible ? '显示' : '隐藏';
+                document.getElementById('backdrop-indicator').className = 'status-indicator ' + (isVisible ? 'green' : 'green');
+            }
+            
+            if (hamburger) {
+                const isVisible = getComputedStyle(hamburger.parentElement).display !== 'none';
+                document.getElementById('hamburger-status').textContent = isVisible ? '可见' : '隐藏';
+                document.getElementById('hamburger-indicator').className = 'status-indicator ' + (isMobile && isVisible ? 'green' : (!isMobile ? 'green' : 'red'));
+            }
+        }
+        
+        // 运行诊断
+        function runDiagnostics() {
+            log('=== 开始运行诊断 ===');
+            log(`窗口尺寸: ${window.innerWidth}x${window.innerHeight}`);
+            log(`移动视图: ${window.innerWidth < 768}`);
+            
+            const sidebar = document.querySelector('.sidebar-menu');
+            const backdrop = document.querySelector('.mobile-menu-backdrop');
+            const hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+            
+            if (sidebar) {
+                log(`侧边栏类名: ${sidebar.className}`);
+                log(`侧边栏可见: ${sidebar.classList.contains('mobile-is-visible')}`);
+                log(`侧边栏transform: ${getComputedStyle(sidebar).transform}`);
+                log(`侧边栏位置: ${getComputedStyle(sidebar).left}`);
+            }
+            
+            if (hamburger) {
+                const display = getComputedStyle(hamburger.parentElement).display;
+                log(`汉堡菜单显示: ${display}`);
+                log(`汉堡菜单可点击: ${display !== 'none'}`);
+            }
+            
+            if (backdrop) {
+                log(`背景遮罩可见: ${backdrop.classList.contains('visible')}`);
+                log(`背景遮罩透明度: ${getComputedStyle(backdrop).opacity}`);
+            }
+            
+            // 测试事件绑定
+            if (hamburger) {
+                const events = $._data(hamburger, 'events');
+                log(`汉堡菜单事件绑定: ${events && events.click ? '已绑定' : '未绑定'}`);
+            }
+            
+            log('=== 诊断完成 ===');
+        }
+        
+        // 测试切换功能
+        function testToggle() {
+            log('测试切换功能...');
+            const hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+            if (hamburger) {
+                hamburger.click();
+                log('已触发汉堡菜单点击事件');
+            } else {
+                log('错误: 找不到汉堡菜单按钮');
+            }
+        }
+        
+        // 强制关闭
+        function forceClose() {
+            log('强制关闭侧边栏...');
+            const sidebar = document.querySelector('.sidebar-menu');
+            const backdrop = document.querySelector('.mobile-menu-backdrop');
+            
+            if (sidebar) {
+                sidebar.classList.remove('mobile-is-visible');
+                log('侧边栏已强制隐藏');
+            }
+            if (backdrop) {
+                backdrop.classList.remove('visible');
+                log('背景遮罩已强制隐藏');
+            }
+        }
+        
+        // 定期更新状态
+        setInterval(updateStatus, 1000);
+        updateStatus();
+        
+        // 窗口大小改变时更新
+        window.addEventListener('resize', function() {
+            updateStatus();
+            log(`窗口尺寸变化: ${window.innerWidth}x${window.innerHeight}`);
+        });
+        
+        // 页面加载完成后执行诊断
+        setTimeout(() => {
+            log('页面加载完成，开始初始诊断');
+            runDiagnostics();
+        }, 1000);
+        
+        // 监听侧边栏状态变化
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    const target = mutation.target;
+                    if (target.classList.contains('sidebar-menu')) {
+                        const isVisible = target.classList.contains('mobile-is-visible');
+                        log(`侧边栏状态变化: ${isVisible ? '显示' : '隐藏'}`);
+                    }
+                    if (target.classList.contains('mobile-menu-backdrop')) {
+                        const isVisible = target.classList.contains('visible');
+                        log(`背景遮罩状态变化: ${isVisible ? '显示' : '隐藏'}`);
+                    }
+                }
+            });
+        });
+        
+        // 开始观察
+        const sidebar = document.querySelector('.sidebar-menu');
+        const backdrop = document.querySelector('.mobile-menu-backdrop');
+        if (sidebar) observer.observe(sidebar, { attributes: true });
+        if (backdrop) observer.observe(backdrop, { attributes: true });
+        
+        log('测试页面初始化完成');
+    </script>
+</body>
+</html>

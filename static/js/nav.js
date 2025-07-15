@@ -38,7 +38,9 @@ function resizable(breakpoint)
 	{
 		public_vars.$sidebarMenu.removeClass('mobile-is-visible');
 		public_vars.$mainMenu.removeClass('mobile-is-visible');
+		$('.mobile-menu-backdrop').removeClass('visible');
 		ps_destroy();
+		console.log('Mobile view: sidebar hidden by default');
 	}
 	// Trigger Event
 	jQuery(window).trigger('xenon.resize');
@@ -198,19 +200,31 @@ function trigger_resizable()
 			ev.preventDefault();
 			console.log('Mobile menu button clicked');
 
-			// 简单切换侧边栏显示状态
-			public_vars.$sidebarMenu.toggleClass('mobile-is-visible');
-			$('.mobile-menu-backdrop').toggleClass('visible');
+			// 检查当前是否在移动视图
+			if(!isxs()) {
+				console.log('Not in mobile view, ignoring mobile menu toggle');
+				return;
+			}
 
-			// 检查当前状态来决定是否初始化滚动
-			if(public_vars.$sidebarMenu.hasClass('mobile-is-visible')) {
+			// 获取当前状态
+			var isCurrentlyVisible = public_vars.$sidebarMenu.hasClass('mobile-is-visible');
+			console.log('Current sidebar state:', isCurrentlyVisible ? 'visible' : 'hidden');
+
+			// 切换侧边栏显示状态
+			if(isCurrentlyVisible) {
+				// 关闭侧边栏
+				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
+				$('.mobile-menu-backdrop').removeClass('visible');
+				ps_destroy();
+				console.log('Menu closed');
+			} else {
+				// 打开侧边栏
+				public_vars.$sidebarMenu.addClass('mobile-is-visible');
+				$('.mobile-menu-backdrop').addClass('visible');
 				public_vars.$sidebarMenu.removeClass('collapsed');
 				$(".sidebar-menu-inner").css("max-height", window.innerHeight + "px");
 				ps_init();
 				console.log('Menu opened');
-			} else {
-				ps_destroy();
-				console.log('Menu closed');
 			}
 		});
 		// Mobile Menu Trigger for Horizontal Menu
@@ -366,6 +380,13 @@ var public_vars = public_vars || {};
 		setup_horizontal_menu();
 		// Initialize responsive behavior
 		trigger_resizable();
+
+		// 确保移动端侧边栏初始状态正确
+		if(isxs()) {
+			console.log('Initializing mobile sidebar state');
+			public_vars.$sidebarMenu.removeClass('mobile-is-visible');
+			$('.mobile-menu-backdrop').removeClass('visible');
+		}
 
 		// 背景遮罩点击事件
 		$('.mobile-menu-backdrop').on('click', function() {

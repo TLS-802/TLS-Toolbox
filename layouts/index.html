@@ -393,26 +393,65 @@
 
 <!-- 在body结束标签前添加内联脚本 -->
 <script>
+// 立即执行的初始化脚本 - 在DOM加载前就设置移动端状态
+(function() {
+    // 检查是否是移动端
+    if(window.innerWidth < 768) {
+        console.log('Pre-DOM: Mobile view detected, preparing styles');
+
+        // 添加CSS样式确保侧边栏隐藏
+        var style = document.createElement('style');
+        style.textContent = `
+            @media screen and (max-width: 767px) {
+                .sidebar-menu:not(.mobile-is-visible) {
+                    transform: translateX(-100%) !important;
+                }
+                .mobile-menu-backdrop:not(.visible) {
+                    opacity: 0 !important;
+                    visibility: hidden !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+})();
+
 document.addEventListener('DOMContentLoaded', function() {
     // 初始化移动端侧边栏状态 - 确保默认收起
     function initMobileSidebar() {
-        if(window.innerWidth < 768) {
-            console.log('Initializing mobile sidebar - hiding by default');
-            var sidebarMenu = document.querySelector('.sidebar-menu');
-            var mainMenu = document.getElementById('main-menu');
-            var sidebarProfile = document.querySelector('.sidebar-user-info');
-            var backdrop = document.querySelector('.mobile-menu-backdrop');
+        var isMobile = window.innerWidth < 768;
+        console.log('Initializing sidebar state, mobile:', isMobile, 'width:', window.innerWidth);
 
+        var sidebarMenu = document.querySelector('.sidebar-menu');
+        var mainMenu = document.getElementById('main-menu');
+        var sidebarProfile = document.querySelector('.sidebar-user-info');
+        var backdrop = document.querySelector('.mobile-menu-backdrop');
+
+        if(isMobile) {
+            // 移动端：确保侧边栏隐藏
             if(sidebarMenu) {
                 sidebarMenu.classList.remove('mobile-is-visible');
-                console.log('Sidebar hidden');
+                // 强制设置transform样式
+                sidebarMenu.style.transform = 'translateX(-100%)';
+                console.log('Mobile: Sidebar hidden');
             }
             if(mainMenu) {
                 mainMenu.classList.remove('mobile-is-visible');
-                console.log('Main menu hidden');
+                console.log('Mobile: Main menu hidden');
             }
             if(sidebarProfile) {
                 sidebarProfile.classList.remove('mobile-is-visible');
+            }
+            if(backdrop) {
+                backdrop.classList.remove('visible');
+                console.log('Mobile: Backdrop hidden');
+            }
+        } else {
+            // 桌面端：清除移动端样式
+            if(sidebarMenu) {
+                sidebarMenu.classList.remove('mobile-is-visible');
+                sidebarMenu.style.transform = '';
+                console.log('Desktop: Sidebar styles reset');
             }
             if(backdrop) {
                 backdrop.classList.remove('visible');
@@ -425,7 +464,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 在窗口大小改变时重新初始化
     window.addEventListener('resize', function() {
-        initMobileSidebar();
+        setTimeout(initMobileSidebar, 100); // 延迟执行以确保窗口尺寸已更新
     });
 
     // 添加测试函数

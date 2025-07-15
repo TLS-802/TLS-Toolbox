@@ -201,8 +201,8 @@ footer.main-footer:after{clear:both}
 .user-info-navbar .user-info-menu>li a[data-toggle=sidebar]{padding:31px 10px;padding-left:20px}
 @media screen and (max-width:767px){.page-container{display:block}
 .page-container .main-content{display:block;width:100%;height:auto;position:relative;top:0;padding-top:60px;z-index:1}
-.page-container .sidebar-menu{display:block;width:250px;height:100vh;position:fixed;z-index:1000;top:0;left:0;transform:translateX(-100%);transition:transform 0.3s ease-in-out}
-.page-container .sidebar-menu.mobile-is-visible{transform:translateX(0)}
+.page-container .sidebar-menu{display:block;width:250px;height:100vh;position:fixed;z-index:1000;top:0;left:0;transform:translateX(-100%) !important;transition:transform 0.3s ease-in-out}
+.page-container .sidebar-menu.mobile-is-visible{transform:translateX(0) !important}
 .page-container .sidebar-menu .sidebar-menu-inner{position:relative}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env,.page-container .sidebar-menu .sidebar-menu-inner .main-menu{padding-left:20px;padding-right:20px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env{margin-bottom:0;padding-top:10px;padding-bottom:10px}
@@ -238,6 +238,40 @@ footer.main-footer:after{clear:both}
 
 	.mobile-menu-toggle {
 		display: none !important;
+	}
+}
+
+/* 强制移动端侧边栏默认隐藏 - 最高优先级 */
+@media screen and (max-width: 767px) {
+	/* 确保侧边栏默认隐藏 */
+	.page-container .sidebar-menu:not(.mobile-is-visible) {
+		transform: translateX(-100%) !important;
+		visibility: visible !important; /* 保持可见性以便动画 */
+	}
+
+	/* 确保显示状态正确 */
+	.page-container .sidebar-menu.mobile-is-visible {
+		transform: translateX(0) !important;
+		visibility: visible !important;
+	}
+
+	/* 确保汉堡菜单按钮在移动端可见 */
+	.mobile-menu-toggle {
+		display: block !important;
+	}
+
+	/* 确保背景遮罩默认隐藏 */
+	.mobile-menu-backdrop:not(.visible) {
+		opacity: 0 !important;
+		visibility: hidden !important;
+		pointer-events: none !important;
+	}
+
+	/* 确保背景遮罩显示状态正确 */
+	.mobile-menu-backdrop.visible {
+		opacity: 1 !important;
+		visibility: visible !important;
+		pointer-events: auto !important;
 	}
 }
 
