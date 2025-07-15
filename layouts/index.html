@@ -60,6 +60,9 @@
 <!-- 根据暗黑模式设置添加不同的body类 -->
 <body class="page-body {{ if .Site.Params.darkmode.enable }}black{{ else }}white{{ end }}">
     <div class="page-container">
+        <!-- 移动端背景遮罩 -->
+        <div class="mobile-menu-backdrop"></div>
+
         <!-- 侧边栏菜单 -->
         <div class="sidebar-menu toggle-others fixed">
             <div class="sidebar-menu-inner">
@@ -391,22 +394,45 @@
 <!-- 在body结束标签前添加内联脚本 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // 定义关闭移动菜单的函数
-    window.closeMobileMenu = function() {
-        // 原生JavaScript方式
+    // 初始化移动端侧边栏状态 - 确保默认收起
+    if(window.innerWidth < 768) {
+        var sidebarMenu = document.querySelector('.sidebar-menu');
         var mainMenu = document.getElementById('main-menu');
         var sidebarProfile = document.querySelector('.sidebar-user-info');
-        
+
+        if(sidebarMenu) {
+            sidebarMenu.classList.remove('mobile-is-visible');
+        }
         if(mainMenu) {
             mainMenu.classList.remove('mobile-is-visible');
         }
         if(sidebarProfile) {
             sidebarProfile.classList.remove('mobile-is-visible');
         }
-        
+    }
+
+    // 定义关闭移动菜单的函数
+    window.closeMobileMenu = function() {
+        // 原生JavaScript方式
+        var mainMenu = document.getElementById('main-menu');
+        var sidebarProfile = document.querySelector('.sidebar-user-info');
+        var sidebarMenu = document.querySelector('.sidebar-menu');
+
+        if(mainMenu) {
+            mainMenu.classList.remove('mobile-is-visible');
+        }
+        if(sidebarProfile) {
+            sidebarProfile.classList.remove('mobile-is-visible');
+        }
+        if(sidebarMenu) {
+            sidebarMenu.classList.remove('mobile-is-visible');
+        }
+
         // 关闭背景遮罩
         var backdrop = document.querySelector('.mobile-menu-backdrop');
-        if(backdrop) backdrop.classList.remove('visible');
+        if(backdrop) {
+            backdrop.classList.remove('visible');
+        }
         
         // jQuery方式 - 确保与原有代码兼容
         if(typeof jQuery !== 'undefined') {

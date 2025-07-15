@@ -199,6 +199,49 @@ footer.main-footer:after{clear:both}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a{position:relative;display:inline-block;color:#979898;line-height:1;margin-left:20px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
+/* 移动端侧边栏默认隐藏 */
+.page-container .sidebar-menu{
+	transform: translateX(-100%);
+	transition: transform 0.3s ease-in-out;
+	z-index: 1000; /* 确保在其他内容之上 */
+}
+
+/* 移动端侧边栏显示状态 */
+.page-container .sidebar-menu.mobile-is-visible{
+	transform: translateX(0);
+}
+
+/* 移动端背景遮罩 */
+.mobile-menu-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.mobile-menu-backdrop.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* 确保桌面端不受影响 */
+@media screen and (min-width: 768px) {
+	.page-container .sidebar-menu {
+		transform: none !important;
+		transition: none !important;
+	}
+
+	.mobile-menu-backdrop {
+		display: none !important;
+	}
+}
+
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu{display:none}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{
 	display:block !important;

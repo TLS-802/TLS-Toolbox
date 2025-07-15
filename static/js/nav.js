@@ -33,9 +33,12 @@ function resizable(breakpoint)
 		public_vars.$sidebarMenu.addClass('collapsed');
 		ps_destroy();
 	}
-	// Tablet Screen Specific Script
+	// Mobile device screen - 确保侧边栏默认收起
 	if(isxs())
 	{
+		public_vars.$sidebarMenu.removeClass('mobile-is-visible');
+		public_vars.$mainMenu.removeClass('mobile-is-visible');
+		ps_destroy();
 	}
 	// Trigger Event
 	jQuery(window).trigger('xenon.resize');
@@ -193,7 +196,14 @@ function trigger_resizable()
 		$('a[data-toggle="mobile-menu"]').on('click', function(ev)
 		{
 			ev.preventDefault();
+
+			// 切换侧边栏和菜单的可见状态
+			public_vars.$sidebarMenu.toggleClass('mobile-is-visible');
 			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+
+			// 切换背景遮罩
+			$('.mobile-menu-backdrop').toggleClass('visible');
+
             if($("#main-menu").hasClass('mobile-is-visible') === true){
 				public_vars.$sidebarMenu.removeClass('collapsed');
                 $(".sidebar-menu-inner").css("max-height",window.innerHeight);
@@ -354,6 +364,18 @@ var public_vars = public_vars || {};
 		setup_sidebar_menu();
 		// Setup Horizontal Menu
 		setup_horizontal_menu();
+		// Initialize responsive behavior
+		trigger_resizable();
+
+		// 背景遮罩点击事件
+		$('.mobile-menu-backdrop').on('click', function() {
+			if(public_vars.$sidebarMenu.hasClass('mobile-is-visible')) {
+				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
+				public_vars.$mainMenu.add(public_vars.$sidebarProfile).removeClass('mobile-is-visible');
+				$(this).removeClass('visible');
+				ps_destroy();
+			}
+		});
 		// Sticky Footer
 		if(public_vars.$mainFooter.hasClass('sticky'))
 		{
