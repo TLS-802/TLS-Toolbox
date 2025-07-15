@@ -1096,11 +1096,8 @@
   list:  # 添加list属性，用于侧边栏显示
     - term: 电商辅助
     - term: 直播辅助
-    - term: 创作排版
     - term: 数据分析
-    - term: 文案剧本
     - term: 营销运营
-    - term: 新媒工具
     - term: 媒体平台
   tabs:
     - name: 电商辅助
@@ -1221,141 +1218,7 @@
           logo: images/电商辅助/腾讯直播.png
           url: https://live.qq.com?from=dy.199908.top
           description: 腾讯官方直播工具
-    - name: 创作排版
-      links:
-        # AI写作工具
-        - title: 小鱼AI写作
-          logo: images/新媒运营/小鱼AI写作.png
-          url: https://www.xiaoyuxiezuo.com/AI_A14BB05?from=dy.199908.top
-          description: 免费在线智能AI写作平台，AI自动生成高质量原创内容
-        - title: 秘塔写作猫
-          logo: images/新媒运营/秘塔写作猫.png
-          url: https://xiezuocat.com?from=dy.199908.top
-          description: AI写作伴侣，帮你推敲用语、斟酌文法、改写文风，还能实时同步翻译
-        - title: 多种草AI
-          logo: images/新媒运营/多种草AI.png
-          url: https://duozhongcao.com?from=dy.199908.top
-          description: 免费在线小红书AI创作工具
-        - title: Giiso写作机器人
-          logo: images/新媒运营/Giiso.png
-          url: https://www.giiso.com?from=dy.199908.top
-          description: 内容创作AI辅助工具
-        - title: 智能创作助手
-          logo: images/新媒运营/智能创作.png
-          url: https://effidit.qq.com?from=dy.199908.top
-          description: 腾讯开发探索用AI技术提升写作者的写作效率和创作体验
 
-        # 微信公众号排版工具
-        - title: 135编辑器AI排版
-          logo: images/新媒运营/135编辑器.png
-          url: https://www.135editor.com/ai_editor?from=dy.199908.top
-          description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具
-        - title: 135编辑器
-          logo: images/新媒运营/135编辑器.png
-          url: https://www.135editor.com?from=dy.199908.top
-          description: 微信公众号文章排版
-        - title: 秀米编辑器
-          logo: images/新媒运营/秀米.png
-          url: https://xiumi.us?from=dy.199908.top
-          description: 微信公众号排版和H5制作工具
-        - title: 壹伴
-          logo: images/新媒运营/壹伴.png
-          url: https://yiban.io?from=dy.199908.top
-          description: 在线微信编辑工具
-        - title: 美编
-          logo: images/新媒运营/美编.png
-          url: https://www.mbian.com?from=dy.199908.top
-          description: 一款简单高效的新媒体运营工具
-        - title: 365微信编辑器
-          logo: images/新媒运营/365编辑器.png
-          url: https://www.365editor.com?from=dy.199908.top
-          description: 微信公众号文章一键排版，微信图文美化，在线内容编辑工具
-        - title: i排版
-          logo: images/新媒运营/i排版.png
-          url: http://ipaiban.com?from=dy.199908.top
-          description: 微信排版工具
-        - title: 小墨鹰编辑器
-          logo: images/新媒运营/小墨鹰.png
-          url: https://www.xmyeditor.com?from=dy.199908.top
-          description: 微信编辑器，公众号图文排版工具
-        - title: 菜鸟编辑器
-          logo: images/新媒运营/菜鸟编辑器.png
-          url: https://www.fzneditor.com?from=dy.199908.top
-          description: 微信图文设计软件，微信公众号文章自动排版美化公众平台采集工具
-        - title: 键盘喵速排
-          logo: images/新媒运营/键盘喵.png
-          url: https://www.jianpanmiao.com?from=dy.199908.top
-          description: 键盘喵速排官网，键盘猫，微信公众号编辑器，公众号素材模板特效
-        - title: e2编辑器
-          logo: images/新媒运营/e2编辑器.png
-          url: https://www.e2.cool?from=dy.199908.top
-          description: 用于微信公众号文章排版和内容编辑
-        - title: 91微信编辑器
-          logo: images/新媒运营/91编辑器.png
-          url: http://bj.91join.com?from=dy.199908.top
-          description: 免费微信公众平台图文排版网页编辑器
-        - title: 迅蟒公众号助手
-          logo: images/新媒运营/迅蟒助手.png
-          url: http://bjq.xunmang.com?from=dy.199908.top
-          description: 微信编辑器，微信公众平台图文排版工具，图片素材文章内容编辑软件
-        - title: 易点微信编辑器
-          logo: images/新媒运营/易点编辑器.png
-          url: http://www.wxeditor.com?from=dy.199908.top
-          description: 专为微信小编量身定做的一款微信公众号内容排版编辑工具
-
-        # Markdown编辑工具
-        - title: 墨滴mdnice编辑器
-          logo: images/新媒运营/mdnice.png
-          url: https://product.mdnice.com?from=dy.199908.top
-          description: 墨滴（mdnice）编辑器是一款专为Markdown排版优化的编辑工具，主要面向微信公众号、知乎和稀土掘金等平台的用户
-        - title: 微信Markdown编辑器
-          logo: images/新媒运营/微信MD.png
-          url: https://doocs.github.io/md?from=dy.199908.top
-          description: 一款专为微信公众号排版设计的高效工具，旨在简化内容创作者的排版流程
-        - title: NeuraPress
-          logo: images/新媒运营/NeuraPress.png
-          url: https://md.leti.ltd?from=dy.199908.top
-          description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown 内容到微信公众号中使用
-        - title: 可能吧公众号排版器
-          logo: images/新媒运营/可能吧.png
-          url: https://knb.im/mp?from=dy.199908.top
-          description: 一款专注于微信公众号文章排版的Markdown编辑工具
-
-        # 小红书排版工具
-        - title: 小红书爆款模板
-          logo: images/新媒运营/小红书模板.png
-          url: https://d.newrank.cn/nreditor/note?from=dy.199908.top
-          description: 聚合小红书灵感AI、爆款模板/标题/表情包、内容违规词检测等相关功能，为自媒体运营者高效编辑小红书笔记，免费无广，方便好用
-        - title: 135小红书排版
-          logo: images/新媒运营/135小红书.png
-          url: https://www.135editor.com/red.html?from=dy.199908.top
-          description: 135小红书排版神器是一款专为小红书平台设计的AI智能排版工具，旨在帮助用户优化笔记的视觉效果和内容布局，提升笔记的吸引力和阅读体验
-
-        # 其他创作工具
-        - title: H排版编辑工具
-          logo: images/新媒运营/H排版.png
-          url: https://www.mian.host?from=dy.199908.top
-          description: 一键排版格式化在线网编工具，可以实现一键清除新闻文章等多余格式代码，一键排版网络文章、word文件实现快速格式化
-        - title: 壹写作
-          logo: images/新媒运营/壹写作.png
-          url: https://www.1xiezuo.com?from=dy.199908.top
-          description: 小说剧本电子书创作工具
-        - title: 墨星写作网
-          logo: images/新媒运营/墨星写作.png
-          url: https://www.mx-xz.com?from=dy.199908.top
-          description: 提供各类小说写作技巧学习，网文小说写作素材资料查阅以及各类写作辅助生成工具
-        - title: 剧云
-          logo: images/新媒运营/剧云.png
-          url: http://www.jucloud.com?from=dy.199908.top
-          description: 专业的剧本创作工具
-        - title: 内容神器
-          logo: images/新媒运营/内容神器.png
-          url: https://www.5ce.com?from=dy.199908.top
-          description: 及时发现热点、搜索素材、选题分析，专为新媒体人打造，解决内容工作问题
-        - title: 易撰
-          logo: images/新媒运营/易撰.png
-          url: https://www.yizhuan5.com?from=dy.199908.top
-          description: 专注新媒体数据挖掘分析服务，让新媒体内容创作更高效
     - name: 数据分析
       links:
         # 数据可视化工具
@@ -1516,160 +1379,7 @@
 
 
           description: 移动应用数据分析平台
-    - name: 文案剧本
-      links:
-        # AI文案创作
-        - title: 文心一言
-          logo: images/新媒运营/文心一言.png
-          url: https://yiyan.baidu.com?from=dy.199908.top
-          description: 百度推出的AI大语言模型，可用于文案创作、内容生成和对话交流
-        - title: ChatGPT
-          logo: images/新媒运营/ChatGPT.png
-          url: https://chat.openai.com?from=dy.199908.top
-          description: OpenAI推出的AI大语言模型，可用于文案创作、内容生成和对话交流
-        - title: 智谱AI
-          logo: images/新媒运营/智谱AI.png
-          url: https://chatglm.cn?from=dy.199908.top
-          description: 清华大学推出的AI大语言模型，可用于文案创作、内容生成和对话交流
-        - title: 讯飞星火
-          logo: images/新媒运营/讯飞星火.png
-          url: https://xinghuo.xfyun.cn?from=dy.199908.top
-          description: 科大讯飞推出的AI大语言模型，可用于文案创作、内容生成和对话交流
-        - title: 通义千问
-          logo: images/新媒运营/通义千问.png
-          url: https://qianwen.aliyun.com?from=dy.199908.top
-          description: 阿里巴巴推出的AI大语言模型，可用于文案创作、内容生成和对话交流
 
-        # 文案创作工具
-        - title: 金山文档
-          logo: images/新媒运营/金山文档.png
-          url: https://www.kdocs.cn?from=dy.199908.top
-          description: 金山推出的在线文档工具，支持多人协作编辑，适合团队文案创作
-        - title: 石墨文档
-          logo: images/新媒运营/石墨文档.png
-          url: https://shimo.im?from=dy.199908.top
-          description: 在线协作文档工具，支持多人实时协作，适合团队文案创作
-        - title: 语雀
-          logo: images/新媒运营/语雀.png
-          url: https://www.yuque.com?from=dy.199908.top
-          description: 阿里巴巴推出的在线知识管理工具，适合团队文档协作和知识沉淀
-        - title: 幕布
-          logo: images/新媒运营/幕布.png
-          url: https://mubu.com?from=dy.199908.top
-          description: 大纲笔记工具，支持思维导图模式，适合文案结构梳理和创意发散
-        - title: Notion
-          logo: images/新媒运营/Notion.png
-          url: https://www.notion.so?from=dy.199908.top
-          description: 集笔记、知识库、项目管理于一体的协作平台，适合团队文案管理
-
-        # 剧本创作工具
-        - title: 剧本库
-          logo: images/新媒运营/剧本库.png
-          url: https://www.jubenku.com?from=dy.199908.top
-          description: 提供各类剧本范例和创作指导，适合剧本创作者学习和参考
-        - title: Final Draft
-          logo: images/新媒运营/FinalDraft.png
-          url: https://www.finaldraft.com?from=dy.199908.top
-          description: 专业的剧本创作软件，提供标准格式的剧本编写功能
-        - title: Celtx
-          logo: images/新媒运营/Celtx.png
-          url: https://www.celtx.com?from=dy.199908.top
-          description: 在线剧本创作和预制作协作平台，支持多人协作
-        - title: 剧云
-          logo: images/新媒运营/剧云.png
-          url: http://www.jucloud.com?from=dy.199908.top
-          description: 专业的剧本创作工具，提供剧本格式化和协作功能
-        - title: WriterDuet
-          logo: images/新媒运营/WriterDuet.png
-          url: https://www.writerduet.com?from=dy.199908.top
-          description: 在线剧本协作工具，支持多人实时协作编辑
-
-        # 文案素材库
-        - title: 考拉新媒体导航
-          logo: images/新媒运营/考拉新媒体.png
-          url: https://www.kaolamedia.com?from=dy.199908.top
-          description: 新媒体运营者的导航网站，提供各类文案素材和创作工具
-        - title: 简媒
-          logo: images/新媒运营/简媒.png
-          url: https://www.jianmedia.com?from=dy.199908.top
-          description: 提供热点文案、营销案例分析和创意素材的平台
-        - title: 文案狗
-          logo: images/图标字体/iconfont.png
-          url: https://www.wenangou.com?from=dy.199908.top
-          description: 收集各类优秀文案和营销案例的网站，提供文案创作灵感
-        - title: 文案帮
-          logo: images/新媒运营/文案帮.png
-          url: https://www.wenanb.com?from=dy.199908.top
-          description: 提供各类文案模板、范例和创作技巧的平台
-        - title: 广告门
-          logo: images/新媒运营/广告门.png
-          url: https://www.adquan.com?from=dy.199908.top
-          description: 广告行业资讯平台，提供优秀广告案例和文案创意
-        # 营销文案学习
-        - title: 文案写作指南
-          logo: images/新媒运营/文案写作.png
-          url: https://www.xiecheng.org?from=dy.199908.top
-          description: 提供文案写作技巧、方法和案例分析的学习网站
-        - title: 人人都是产品经理
-          logo: images/新媒运营/人人都是产品经理.png
-          url: https://www.woshipm.com?from=dy.199908.top
-          description: 产品经理、运营人员的学习平台，提供营销文案和内容运营相关知识
-        - title: 运营派
-          logo: images/新媒运营/运营派.png
-          url: https://www.yunyingpai.com?from=dy.199908.top
-          description: 互联网运营学习平台，提供内容运营和文案策划相关知识
-        - title: 爱运营
-          logo: images/新媒运营/爱运营.png
-          url: https://www.iyunying.org?from=dy.199908.top
-          description: 互联网运营学习平台，提供文案写作和内容营销相关知识
-        - title: 新榜学院
-          logo: images/新媒运营/新榜学院.png
-          url: https://edu.newrank.cn?from=dy.199908.top
-          description: 新媒体运营学习平台，提供内容创作和文案写作相关课程
-
-        # 内容创作平台
-        - title: 微信公众平台
-          logo: images/其他/wechat.jpg
-          url: https://mp.weixin.qq.com?from=dy.199908.top
-          description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
-        - title: 百家号
-          logo: images/其他/baidu.jpg
-          url: https://baijiahao.baidu.com?from=dy.199908.top
-          description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
-        - title: 头条号
-          logo: images/其他/toutiao.jpg
-          url: https://mp.toutiao.com?from=dy.199908.top
-          description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
-        - title: 小红书创作者中心
-          logo: images/其他/xiaohongshu.jpg
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书平台的创作者中心，为创作者提供内容发布和社区互动服务
-        - title: 知乎创作者中心
-          logo: images/其他/zhihu.jpg
-          url: https://www.zhihu.com/creator?from=dy.199908.top
-          description: 知乎平台的创作者中心，为创作者提供内容发布和知识变现服务
-
-        # 其他有价值的文案剧本工具（保留原有的一些优质工具）
-        - title: 123goo文案网
-          logo: images/图标字体/iconfont.png
-          url: https://www.123goo.cn?from=dy.199908.top
-          description: 123goo文案网是一个专注于提供原创影视说文案的平台
-        - title: 华语剧本网
-          logo: images/图标字体/iconfont.png
-          url: https://www.juben108.com?from=dy.199908.top
-          description: 原华语剧本网,原创剧本交易平台
-        - title: 句子迷
-          logo: images/图标字体/iconfont.png
-          url: https://www.juzimi.com?from=dy.199908.top
-          description: 专注于分享和收藏高质量句子的社区平台
-        - title: 反向词典
-          logo: images/图标字体/iconfont.png
-          url: https://wantwords.net?from=dy.199908.top
-          description: 万词王wantwords反向词典官网版
-        - title: topys顶尖文案
-          logo: images/图标字体/iconfont.png
-          url: https://www.topys.cn?from=dy.199908.top
-          description: 国内广告文案策划领域最专业文案资源、信息平台
     - name: 营销运营
       links:
         # 营销策划工具
@@ -1861,213 +1571,7 @@
           logo: images/新媒运营/金数据.png
           url: https://jinshuju.net?from=dy.199908.top
           description: 专业的表单和数据收集工具
-    - name: 新媒工具
-      links:
-        # 内容创作工具
-        - title: 新媒体管家
-          logo: images/新媒运营/新媒体管家.png
-          url: https://xmt.cn?from=dy.199908.top
-          description: 集内容创作、排版、发布、数据分析于一体的新媒体运营工具
-        - title: 壹伴
-          logo: images/新媒运营/壹伴.png
-          url: https://yiban.io?from=dy.199908.top
-          description: 专注于微信公众号内容创作和排版的工具，提供素材库和排版模板
-        - title: 135编辑器
-          logo: images/新媒运营/135编辑器.png
-          url: https://www.135editor.com?from=dy.199908.top
-          description: 专业的微信公众号排版工具，提供丰富的模板和素材
-        - title: 秀米
-          logo: images/新媒运营/秀米.png
-          url: https://xiumi.us?from=dy.199908.top
-          description: 微信公众号排版和H5制作工具，提供丰富的模板和素材
-        - title: 新榜编辑器
-          logo: images/新媒运营/新榜编辑器.png
-          url: https://edit.newrank.cn?from=dy.199908.top
-          description: 新榜推出的新媒体内容创作工具，支持多平台内容创作和发布
-        - title: 小红书创作者服务中心
-          logo: images/新媒运营/小红书创作者服务中心.png
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方创作者平台，提供数据分析和收益管理
-        - title: Reditor编辑器
-          logo: images/新媒运营/Reditor编辑器.png
-          url: https://help.reditorapp.com?from=dy.199908.top
-          description: 小红书专业编辑工具，提供违禁词检测、AI文案生成等功能
-        - title: XHSPlus
-          logo: images/新媒运营/XHSPlus.png
-          url: https://xhsplus.io?from=dy.199908.top
-          description: 小红书AI创作助手，提供爆款文案生成、编辑器和敏感词检测
-        - title: 零克查词
-          logo: images/新媒运营/零克查词.png
-          url: https://www.liangekeji.com?from=dy.199908.top
-          description: 专业小红书敏感词和违规词检测工具
 
-        # 图片设计工具
-        - title: 创客贴
-          logo: images/新媒运营/创客贴.png
-          url: https://www.chuangkit.com?from=dy.199908.top
-          description: 在线平面设计工具，提供海报、banner、公众号首图等模板
-        - title: Canva可画
-          logo: images/新媒运营/Canva.png
-          url: https://www.canva.cn?from=dy.199908.top
-          description: 在线平面设计工具，提供丰富的设计模板和素材
-        - title: 稿定设计
-          logo: images/新媒运营/稿定设计.png
-          url: https://www.gaoding.com?from=dy.199908.top
-          description: 专业的在线设计工具，提供海报、banner、公众号首图等模板
-        - title: 图怪兽
-          logo: images/新媒运营/图怪兽.png
-          url: https://818ps.com?from=dy.199908.top
-          description: 在线平面设计工具，提供海报、banner、公众号首图等模板
-        - title: 标小智
-          logo: images/新媒运营/标小智.png
-          url: https://www.logosc.cn?from=dy.199908.top
-          description: 在线LOGO设计工具，提供LOGO设计和品牌视觉设计服务
-
-        # 数据分析工具
-        - title: 新榜
-          logo: images/新媒运营/新榜.png
-          url: https://www.newrank.cn?from=dy.199908.top
-          description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
-        - title: 清博指数
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 提供微信公众号、微博、抖音等平台的数据分析和排行榜
-        - title: 西瓜数据
-          logo: images/新媒运营/西瓜数据.png
-          url: https://data.xiguaji.com?from=dy.199908.top
-          description: 专注于抖音、快手等短视频平台的数据分析工具
-        - title: 飞瓜数据
-          logo: images/数据分析/飞瓜.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 专注于抖音、快手等短视频平台的数据分析工具
-        - title: 微小宝
-          logo: images/新媒运营/微小宝.png
-          url: https://www.wxb.com?from=dy.199908.top
-          description: 提供微信公众号数据分析和运营工具
-
-        # 内容分发工具
-        - title: 企鹅号
-          logo: images/其他/tencent.jpg
-          url: https://om.qq.com?from=dy.199908.top
-          description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
-        - title: 百家号
-          logo: images/其他/baidu.jpg
-          url: https://baijiahao.baidu.com?from=dy.199908.top
-          description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
-        - title: 头条号
-          logo: images/其他/toutiao.jpg
-          url: https://mp.toutiao.com?from=dy.199908.top
-          description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
-        - title: 大鱼号
-          logo: images/其他/dayu.jpg
-          url: https://mp.dayu.com?from=dy.199908.top
-          description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
-        - title: 微信公众平台
-          logo: images/其他/wechat.jpg
-          url: https://mp.weixin.qq.com?from=dy.199908.top
-          description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
-
-        # 素材资源工具
-        - title: 图虫创意
-          logo: images/新媒运营/图虫创意.png
-          url: https://stock.tuchong.com?from=dy.199908.top
-          description: 正版图片素材库，提供海量高质量图片素材
-        - title: 包图网
-          logo: images/新媒运营/包图网.png
-          url: https://ibaotu.com?from=dy.199908.top
-          description: 提供图片、视频、音频、模板等素材资源
-        - title: 千图网
-          logo: images/新媒运营/千图网.png
-          url: https://www.58pic.com?from=dy.199908.top
-          description: 提供图片、模板、视频、字体等素材资源
-        - title: 摄图网
-          logo: images/新媒运营/摄图网.png
-          url: https://699pic.com?from=dy.199908.top
-          description: 提供图片、视频、模板、字体等素材资源
-        - title: 觅元素
-          logo: images/新媒运营/觅元素.png
-          url: https://www.51yuansu.com?from=dy.199908.top
-          description: 提供免抠PNG素材、背景图片、设计模板等素材资源
-
-        # 运营管理工具
-        - title: 有赞
-          logo: images/其他/youzan.jpg
-          url: https://www.youzan.com?from=dy.199908.top
-          description: 提供电商运营、营销推广、客户管理等服务的综合平台
-        - title: 小鹅通
-          logo: images/新媒运营/小鹅通.png
-          url: https://www.xiaoe-tech.com?from=dy.199908.top
-          description: 提供知识付费、课程运营、社群管理等服务的综合平台
-        - title: 微盟
-          logo: images/新媒运营/微盟.png
-          url: https://www.weimob.com?from=dy.199908.top
-          description: 提供电商运营、营销推广、会员管理等服务的综合平台
-        - title: 聚合数据
-          logo: images/新媒运营/聚合数据.png
-          url: https://www.juhe.cn?from=dy.199908.top
-          description: 提供各类API接口服务，帮助开发者快速实现功能
-        - title: 爱运营
-          logo: images/新媒运营/爱运营.png
-          url: https://www.iyunying.org?from=dy.199908.top
-          description: 提供运营知识、工具资源和案例分享的综合平台
-
-        # 短视频工具
-        - title: 剪映
-          logo: images/新媒运营/剪映专业版.png
-          url: https://lv.ulikecam.com?from=dy.199908.top
-          description: 字节跳动旗下的视频剪辑工具，适合抖音短视频创作
-        - title: 快影
-          logo: images/新媒运营/快影.png
-          url: https://kuaiying.tv?from=dy.199908.top
-          description: 快手旗下的视频剪辑工具，适合快手短视频创作
-        - title: 轻剪辑
-          logo: images/新媒运营/轻剪辑.png
-          url: https://www.qingjianjie.com?from=dy.199908.top
-          description: 在线视频剪辑工具，无需下载安装，操作简单
-        - title: 万兴喵影
-          logo: images/新媒运营/万兴剪映.png
-          url: https://filmora.wondershare.cn?from=dy.199908.top
-          description: 专业的视频剪辑软件，提供丰富的特效和模板
-        - title: 剪辑师
-          logo: images/新媒运营/剪辑师.png
-          url: https://www.jianjiushi.cn?from=dy.199908.top
-          description: 在线视频剪辑工具，提供丰富的模板和素材
-
-        # 热门平台工具（保留原有的一些重要工具）
-        - title: 抖音创作服务平台
-          logo: images/新媒运营/抖音创作服务平台.png
-          url: https://creator.douyin.com?from=dy.199908.top
-          description: 抖音官方创作者服务平台
-        - title: 小红书创作者服务中心
-          logo: images/新媒运营/小红书创作者服务中心.png
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方创作者平台，提供数据分析和收益管理
-        - title: 视频号助手
-          logo: images/新媒运营/视频号助手.png
-          url: https://channels.weixin.qq.com?from=dy.199908.top
-          description: 微信视频号官方助手
-
-        # 其他实用工具
-        - title: 八爪鱼采集器
-          logo: images/新媒运营/短视频工具.png
-          url: https://www.bazhuayu.com?from=dy.199908.top
-          description: 免费网络爬虫软件_网页大数据抓取工具
-        - title: 灵球去水印
-          logo: images/新媒运营/灵球去水印.png
-          url: https://videofk.com?from=dy.199908.top
-          description: 支持无水印保存主流媒体平台视频/图片
-        - title: 图剪PixCut
-          logo: images/新媒运营/PixCut.png
-          url: https://www.pixcut.ai?from=dy.199908.top
-          description: 智能在线图片批量裁剪工具，支持智能裁剪、调整大小、添加水印
-        - title: 易剪媒-AI剪辑
-          logo: images/新媒运营/短视频工具.png
-          url: https://www.xinmei7.com/?from=bgrdh
-          description: 视频号抓取,视频翻译,批量剪辑。聚合式Ai剪辑工具，支持视频翻译、万能资源嗅探、视频综合处理、二创去重、提文案加字幕、多模式合成、分镜混剪等
-        - title: 推推侠-tiktok达人建联
-          logo: images/新媒运营/短视频工具.png
-          url: https://ttxia.com/?sourcecode=bgrdh
-          description: TikTok达人建联神器 让达人合作从大海捞针到精准爆破
     - name: 媒体平台
       links:
         # 视频平台
@@ -2723,19 +2227,40 @@
 
 - taxonomy: 视频剪辑
   icon: fa-video
-  links:
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 视频剪辑软件
+    - term: AI视频生成
+    - term: 配音工具
+    - term: 视频处理
+  tabs:
+    - name: 视频剪辑软件
+      links:
         - title: 剪映
           logo: images/视频编辑/剪映.png
           url: https://www.capcut.cn?from=dy.199908.top
           description: 全能易用的视频剪辑软件
-        - title: 即梦AI
-          logo: images/视频编辑/即梦AI.png
-          url: https://jimeng.jianying.com?from=dy.199908.top
-          description: 一站式AI视频创作平台
         - title: 易剪媒 Ai批量剪辑
           logo: images/视频编辑/易剪媒.jpg
           url: https://www.xinmei7.com?from=dy.199908.top
           description: AI视频剪辑与二创处理工具
+        - title: 腾讯智影
+          logo: images/视频编辑/禅视频.png
+          url: https://zenvideo.qq.com/home?from=dy.199908.top
+          description: 腾讯AI智能创作平台
+        - title: 短视频混剪工具
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
+          description: 淘宝短视频混剪工具
+        - title: 直播片段生成器
+          logo: images/视频编辑/淘宝.png
+          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
+          description: 淘宝直播片段生成工具
+    - name: AI视频生成
+      links:
+        - title: 即梦AI
+          logo: images/视频编辑/即梦AI.png
+          url: https://jimeng.jianying.com?from=dy.199908.top
+          description: 一站式AI视频创作平台
         - title: Vidu
           logo: images/视频编辑/Vidu.jpeg
           url: https://www.vidu.cn/create?from=dy.199908.top
@@ -2752,22 +2277,12 @@
           logo: images/视频编辑/小白兔AI.png
           url: https://xiaobaituai.com?from=dy.199908.top
           description: 一站式AI视频创作软件
-        - title: 江湖工具箱
-          logo: images/视频编辑/江湖工具箱.png
-          url: https://www.jianghudata.com?from=dy.199908.top
-          description: 电商多功能软件
         - title: 红抖AI助手
           logo: images/视频编辑/红抖AI助手.jpg
           url: https://hd.jianliai.com?from=dy.199908.top
           description: 最全的AI创作工具箱
-        - title: 腾讯智影
-          logo: images/视频编辑/禅视频.png
-          url: https://zenvideo.qq.com/home?from=dy.199908.top
-          description: 腾讯AI智能创作平台
-        - title: 鬼手剪辑
-          logo: images/视频编辑/鬼手剪辑.png
-          url: https://jollytoday.com/index/cn?from=dy.199908.top
-          description: 硬字幕翻译、视频去字幕
+    - name: 配音工具
+      links:
         - title: 闪电配音
           logo: images/视频编辑/闪电配音.png
           url: https://www.soundems.com?from=dy.199908.top
@@ -2780,28 +2295,32 @@
           logo: images/视频编辑/讯飞智作.png
           url: https://peiyin.xunfei.cn?from=dy.199908.top
           description: 讯飞AI配音
+    - name: 视频处理
+      links:
+        - title: 鬼手剪辑
+          logo: images/视频编辑/鬼手剪辑.png
+          url: https://jollytoday.com/index/cn?from=dy.199908.top
+          description: 硬字幕翻译、视频去字幕
         - title: 即时工具
           logo: images/视频编辑/即时工具.png
           url: https://www.67tool.com?from=dy.199908.top
           description: 视频、图片处理工具箱
-        - title: 直播片段生成器
-          logo: images/视频编辑/淘宝.png
-          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-          description: 淘宝直播片段生成工具
-        - title: 短视频混剪工具
-          logo: images/视频编辑/淘宝.png
-          url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-          description: 淘宝短视频混剪工具
+        - title: 江湖工具箱
+          logo: images/视频编辑/江湖工具箱.png
+          url: https://www.jianghudata.com?from=dy.199908.top
+          description: 电商多功能软件
 
 - taxonomy: 图文设计
   icon: fa-palette
   list:  # 添加list属性，用于侧边栏显示
     - term: 设计工具
+    - term: 排版编辑
     - term: 图片素材
-    - term: 图标Logo
+    - term: 图标字体
     - term: 插画动图
     - term: 视听素材
     - term: 办公模板
+    - term: 专业软件
   tabs:
     - name: 设计工具
       links:
@@ -2841,6 +2360,105 @@
           logo: images/图文设计/Coolors.png
           url: https://coolors.co?from=dy.199908.top
           description: 快速配色方案生成器
+        - title: 图怪兽
+          logo: images/新媒运营/图怪兽.png
+          url: https://818ps.com?from=dy.199908.top
+          description: 在线平面设计工具，提供海报、banner、公众号首图等模板
+        - title: 标小智
+          logo: images/新媒运营/标小智.png
+          url: https://www.logosc.cn?from=dy.199908.top
+          description: 在线LOGO设计工具，提供LOGO设计和品牌视觉设计服务
+        - title: 图剪PixCut
+          logo: images/新媒运营/PixCut.png
+          url: https://www.pixcut.ai?from=dy.199908.top
+          description: 智能在线图片批量裁剪工具，支持智能裁剪、调整大小、添加水印
+    - name: 排版编辑
+      links:
+        # 微信公众号排版工具
+        - title: 135编辑器AI排版
+          logo: images/新媒运营/135编辑器.png
+          url: https://www.135editor.com/ai_editor?from=dy.199908.top
+          description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具
+        - title: 135编辑器
+          logo: images/新媒运营/135编辑器.png
+          url: https://www.135editor.com?from=dy.199908.top
+          description: 微信公众号文章排版
+        - title: 秀米编辑器
+          logo: images/新媒运营/秀米.png
+          url: https://xiumi.us?from=dy.199908.top
+          description: 微信公众号排版和H5制作工具
+        - title: 壹伴
+          logo: images/新媒运营/壹伴.png
+          url: https://yiban.io?from=dy.199908.top
+          description: 在线微信编辑工具
+        - title: 美编
+          logo: images/新媒运营/美编.png
+          url: https://www.mbian.com?from=dy.199908.top
+          description: 一款简单高效的新媒体运营工具
+        - title: 365微信编辑器
+          logo: images/新媒运营/365编辑器.png
+          url: https://www.365editor.com?from=dy.199908.top
+          description: 微信公众号文章一键排版，微信图文美化，在线内容编辑工具
+        - title: i排版
+          logo: images/新媒运营/i排版.png
+          url: http://ipaiban.com?from=dy.199908.top
+          description: 微信排版工具
+        - title: 小墨鹰编辑器
+          logo: images/新媒运营/小墨鹰.png
+          url: https://www.xmyeditor.com?from=dy.199908.top
+          description: 微信编辑器，公众号图文排版工具
+        - title: 菜鸟编辑器
+          logo: images/新媒运营/菜鸟编辑器.png
+          url: https://www.fzneditor.com?from=dy.199908.top
+          description: 微信图文设计软件，微信公众号文章自动排版美化公众平台采集工具
+        - title: 键盘喵速排
+          logo: images/新媒运营/键盘喵.png
+          url: https://www.jianpanmiao.com?from=dy.199908.top
+          description: 键盘喵速排官网，键盘猫，微信公众号编辑器，公众号素材模板特效
+        - title: e2编辑器
+          logo: images/新媒运营/e2编辑器.png
+          url: https://www.e2.cool?from=dy.199908.top
+          description: 用于微信公众号文章排版和内容编辑
+        - title: 91微信编辑器
+          logo: images/新媒运营/91编辑器.png
+          url: http://bj.91join.com?from=dy.199908.top
+          description: 免费微信公众平台图文排版网页编辑器
+        - title: 迅蟒公众号助手
+          logo: images/新媒运营/迅蟒助手.png
+          url: http://bjq.xunmang.com?from=dy.199908.top
+          description: 微信编辑器，微信公众平台图文排版工具，图片素材文章内容编辑软件
+        - title: 易点微信编辑器
+          logo: images/新媒运营/易点编辑器.png
+          url: http://www.wxeditor.com?from=dy.199908.top
+          description: 专为微信小编量身定做的一款微信公众号内容排版编辑工具
+
+        # Markdown编辑工具
+        - title: 墨滴mdnice编辑器
+          logo: images/新媒运营/mdnice.png
+          url: https://product.mdnice.com?from=dy.199908.top
+          description: 墨滴（mdnice）编辑器是一款专为Markdown排版优化的编辑工具，主要面向微信公众号、知乎和稀土掘金等平台的用户
+        - title: 微信Markdown编辑器
+          logo: images/新媒运营/微信MD.png
+          url: https://doocs.github.io/md?from=dy.199908.top
+          description: 一款专为微信公众号排版设计的高效工具，旨在简化内容创作者的排版流程
+        - title: NeuraPress
+          logo: images/新媒运营/NeuraPress.png
+          url: https://md.leti.ltd?from=dy.199908.top
+          description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown 内容到微信公众号中使用
+        - title: 可能吧公众号排版器
+          logo: images/新媒运营/可能吧.png
+          url: https://knb.im/mp?from=dy.199908.top
+          description: 一款专注于微信公众号文章排版的Markdown编辑工具
+
+        # 小红书排版工具
+        - title: 小红书爆款模板
+          logo: images/新媒运营/小红书模板.png
+          url: https://d.newrank.cn/nreditor/note?from=dy.199908.top
+          description: 聚合小红书灵感AI、爆款模板/标题/表情包、内容违规词检测等相关功能，为自媒体运营者高效编辑小红书笔记，免费无广，方便好用
+        - title: 135小红书排版
+          logo: images/新媒运营/135小红书.png
+          url: https://www.135editor.com/red.html?from=dy.199908.top
+          description: 135小红书排版神器是一款专为小红书平台设计的AI智能排版工具，旨在帮助用户优化笔记的视觉效果和内容布局，提升笔记的吸引力和阅读体验
     - name: 图片素材
       links:
         - title: Unsplash
@@ -2883,8 +2501,21 @@
           logo: images/图文设计/千图网.png
           url: http://www.58pic.com?from=dy.199908.top
           description: 专注免费设计素材下载的网站
-    - name: 图标Logo
+        - title: 图虫创意
+          logo: images/新媒运营/图虫创意.png
+          url: https://stock.tuchong.com?from=dy.199908.top
+          description: 正版图片素材库，提供海量高质量图片素材
+        - title: 觅元素
+          logo: images/新媒运营/觅元素.png
+          url: https://www.51yuansu.com?from=dy.199908.top
+          description: 提供免抠PNG素材、背景图片、设计模板等素材资源
+    - name: 图标字体
       links:
+        # 图标库
+        - title: iconfont
+          logo: images/图标字体/iconfont.png
+          url: http://www.iconfont.cn?from=dy.199908.top
+          description: 阿里巴巴矢量图标库
         - title: Flaticon
           url: https://www.flaticon.com?from=dy.199908.top
           logo: images/图文设计/Flaticon.png
@@ -2897,10 +2528,28 @@
           url: https://icons8.com?from=dy.199908.top
           logo: images/图文设计/Icons8.png
           description: 免费图标、插图和照片
-        - title: iconfont
-          logo: images/图标字体/iconfont.png
-          url: http://www.iconfont.cn?from=dy.199908.top
-          description: 阿里巴巴矢量图标库
+        - title: Iconfinder
+          logo: images/图标字体/Iconfinder.png
+          url: https://www.iconfinder.com?from=dy.199908.top
+          description: 2,100,000+ free and premium vector icons
+        - title: iconmonstr
+          logo: images/图标字体/Iconmonstr.png
+          url: https://iconmonstr.com?from=dy.199908.top
+          description: Free simple icons for your next project
+        - title: Icon Archive
+          logo: images/图标字体/IconArchive.png
+          url: http://www.iconarchive.com?from=dy.199908.top
+          description: Search 590,912 free icons
+        - title: Material icons
+          logo: images/图标字体/MaterialIcons.png
+          url: https://material.io/icons?from=dy.199908.top
+          description: Access over 900 material system icons
+        - title: Font Awesome Icon
+          logo: images/图标字体/FontAwesome.png
+          url: https://fontawesome.com/icons?from=dy.199908.top
+          description: The complete set of 675 icons in Font Awesome
+
+        # Logo设计工具
         - title: LogoMoose
           url: https://www.logomoose.com?from=dy.199908.top
           logo: images/图文设计/LogoMoose.png
@@ -2917,6 +2566,30 @@
           url: https://worldvectorlogo.com?from=dy.199908.top
           logo: images/图文设计/WorldVectorLogo.png
           description: 品牌标识矢量图形库
+
+        # 图标生成工具
+        - title: IcoMoonApp
+          logo: images/图标字体/IcoMoonApp.png
+          url: https://icomoon.io/app?from=dy.199908.top
+          description: Icon Font, SVG, PDF & PNG Generator
+
+        # 字体库
+        - title: Google Font
+          url: https://fonts.google.com?from=dy.199908.top
+          logo: images/图标字体/GoogleFont.png
+          description: Making the web more beautiful, fast, and open through great typography
+        - title: 方正字库
+          url: http://www.foundertype.com?from=dy.199908.top
+          logo: images/图标字体/方正字库.png
+          description: 方正字库官方网站
+        - title: 字体传奇网
+          url: http://ziticq.com?from=dy.199908.top
+          logo: images/图标字体/字体传奇网.png
+          description: 中国首个字体品牌设计师交流网
+        - title: 私藏字体
+          url: http://sicangziti.com?from=dy.199908.top
+          logo: images/图标字体/私藏字体.png
+          description: 优质字体免费下载站
     - name: 插画动图
       links:
         - title: unDraw
@@ -3025,157 +2698,45 @@
           logo: images/图文设计/摄图网.png
           description: 正版高清图片素材库
 
-- taxonomy: 图标字体
-  icon: fa-font
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 图标库
-    - term: 图标生成
-    - term: 字体库
-  tabs:
-    - name: 图标库
+    - name: 专业软件
       links:
-        - title: iconfont
-          logo: images/图标字体/iconfont.png
-          url: http://www.iconfont.cn?from=dy.199908.top
-          description: 阿里巴巴矢量图标库
-        - title: Iconfinder
-          logo: images/图标字体/Iconfinder.png
-          url: https://www.iconfinder.com?from=dy.199908.top
-          description: 2,100,000+ free and premium vector icons
-        - title: iconmonstr
-          logo: images/图标字体/Iconmonstr.png
-          url: https://iconmonstr.com?from=dy.199908.top
-          description: Free simple icons for your next project
-        - title: Icon Archive
-          logo: images/图标字体/IconArchive.png
-          url: http://www.iconarchive.com?from=dy.199908.top
-          description: Search 590,912 free icons
-        - title: FindIcons
-          logo: images/图标字体/Iconfinder.png
-          url: https://findicons.com?from=dy.199908.top
-          description: Search through 300,000 free icons
-        - title: flaticon
-          logo: images/图标字体/Flaticon.png
-          url: https://www.flaticon.com?from=dy.199908.top
-          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format
-        - title: UICloud
-          logo: images/图标字体/UICloud.png
-          url: http://ui-cloud.com?from=dy.199908.top
-          description: The largest user interface design database in the world
-        - title: Material icons
-          logo: images/图标字体/MaterialIcons.png
-          url: https://material.io/icons?from=dy.199908.top
-          description: Access over 900 material system icons
-        - title: Font Awesome Icon
-          logo: images/图标字体/FontAwesome.png
-          url: https://fontawesome.com/icons?from=dy.199908.top
-          description: The complete set of 675 icons in Font Awesome
-        - title: ion icons
-          logo: images/图标字体/IonIcons.png
-          url: http://ionicons.com?from=dy.199908.top
-          description: The premium icon font for Ionic Framework
-        - title: Simpleline Icons
-          logo: images/图标字体/SimplelineIcons.png
-          url: http://simplelineicons.com?from=dy.199908.top
-          description: Simple line Icons pack
-
-    - name: 图标生成
-      links:
-        - title: IcoMoonApp
-          logo: images/图标字体/IcoMoonApp.png
-          url: https://icomoon.io/app?from=dy.199908.top
-          description: Icon Font, SVG, PDF & PNG Generator
-
-    - name: 字体库
-      links:
-        - title: Google Font
-          url: https://fonts.google.com?from=dy.199908.top
-          logo: images/图标字体/GoogleFont.png
-          description: Making the web more beautiful, fast, and open through great typography
-        - title: Typekit
-          url: https://typekit.com?from=dy.199908.top
-          logo: images/图标字体/Typekit.png
-          description: Quality fonts from the world's best foundries
-        - title: 方正字库
-          url: http://www.foundertype.com?from=dy.199908.top
-          logo: images/图标字体/方正字库.png
-          description: 方正字库官方网站
-        - title: 字体传奇网
-          url: http://ziticq.com?from=dy.199908.top
-          logo: images/图标字体/字体传奇网.png
-          description: 中国首个字体品牌设计师交流网
-        - title: 私藏字体
-          url: http://sicangziti.com?from=dy.199908.top
-          logo: images/图标字体/私藏字体.png
-          description: 优质字体免费下载站
-        - title: Fontsquirrel
-          url: https://www.fontsquirrel.com?from=dy.199908.top
-          logo: images/图标字体/Fontsquirrel.png
-          description: FREE fonts for graphic designers
-        - title: Urban Fonts
-          url: https://www.urbanfonts.com?from=dy.199908.top
-          logo: images/图标字体/UrbanFonts.png
-          description: Download Free Fonts and Free Dingbats
-        - title: Lost Type
-          url: http://www.losttype.com?from=dy.199908.top
-          logo: images/图标字体/LostType.png
-          description: Lost Type is a Collaborative Digital Type Foundry
-        - title: FONTS2U
-          url: https://fonts2u.com?from=dy.199908.top
-          logo: images/图标字体/Fonts2u.png
-          description: Download free fonts for Windows and Macintosh
-        - title: Da Font
-          url: https://www.dafont.com?from=dy.199908.top
-          logo: images/图标字体/DaFont.png
-          description: Archive of freely downloadable fonts
-
-- taxonomy: 设计软件
-  icon: fa-palette
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 图像处理
-    - term: 矢量设计
-    - term: 排版软件
-    - term: 3D建模
-  tabs:
-    - name: 图像处理
-      links:
-        - title: photoshop
+        # 图像处理
+        - title: Photoshop
           url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
           logo: images/设计软件/Photoshop.png
-          description: Photoshop不需要解释
+          description: 全球最强大的图像和图形设计软件
 
-    - name: 矢量设计
-      links:
-        - title: Affinity Designer
-          url: https://affinity.serif.com?from=dy.199908.top
-          logo: images/设计软件/AffinityDesigner.png
-          description: 专业创意软件
+        # 矢量设计
         - title: Illustrator
           url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
           logo: images/设计软件/Illustrator.png
-          description: 矢量图形和插图
+          description: 矢量图形和插图设计软件
+        - title: Affinity Designer
+          url: https://affinity.serif.com?from=dy.199908.top
+          logo: images/设计软件/AffinityDesigner.png
+          description: 专业创意矢量图形设计软件
 
-    - name: 排版软件
-      links:
-        - title: indesign
+        # 排版软件
+        - title: InDesign
           url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
           logo: images/设计软件/InDesign.png
-          description: 页面设计、布局和出版
+          description: 页面设计、布局和出版软件
 
-    - name: 3D建模
-      links:
-        - title: cinema-4d
+        # 3D建模
+        - title: Cinema 4D
           url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
           logo: images/设计软件/Cinema4D.png
-          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free
-        - title: 3ds-max
+          description: 专业的3D建模、动画和渲染软件
+        - title: 3ds Max
           url: https://www.autodesk.com/products/3ds-max/overview?from=dy.199908.top
           logo: images/设计软件/3dsMax.png
-          description: 3D modeling, animation, and rendering software
+          description: 3D建模、动画和渲染软件
         - title: Blender
           url: https://www.blender.org?from=dy.199908.top
           logo: images/设计软件/Blender.png
-          description: Blender is the free and open source 3D creation suite
+          description: 免费开源的3D创作套件
+
+
 
 - taxonomy: 热点排行
   icon: fa-video
