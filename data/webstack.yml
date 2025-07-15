@@ -576,7 +576,7 @@
           description: 快手广告投放平台
         - title: 磁力方舟
           logo: images/电商辅助/快手.jpg
-          url: https://fangzhou.e.kuaishou.com/?from=dy.199908.top
+          url: https://fangzhou.e.kuaishou.com?from=dy.199908.top
           description: 快手磁力方舟
         - title: 磁力金牛
           logo: images/电商辅助/快手.jpg
@@ -584,11 +584,11 @@
           description: 快手磁力金牛
         - title: 磁力星图
           logo: images/电商辅助/快手.jpg
-          url: https://xingtu.e.kuaishou.com/?from=dy.199908.top
+          url: https://xingtu.e.kuaishou.com?from=dy.199908.top
           description: 快手磁力星图
         - title: 磁力万象
           logo: images/电商辅助/快手.jpg
-          url: https://wanxiang.e.kuaishou.com/?from=dy.199908.top
+          url: https://wanxiang.e.kuaishou.com?from=dy.199908.top
           description: 快手磁力万象
         - title: 灰豚数据-快手
           logo: images/数据分析/灰豚数据.jpg
@@ -1232,7 +1232,7 @@
           description: 箱包批发货源平台
         - title: 包牛牛
           logo: images/电商货源/baoniuniu.png
-          url: http://www.bao66.cn/web/?from=dy.199908.top
+          url: http://www.bao66.cn/web?from=dy.199908.top
           description: 白沟箱包批发货源平台
         - title: 汽配人
           logo: images/电商货源/qipeiren.png
@@ -1360,7 +1360,7 @@
           description: 新浪微博热搜榜，实时展示微博平台的热门话题和事件
         - title: 今日头条热榜
           logo: images/新媒运营/今日头条热榜.png
-          url: https://www.toutiao.com/hot-event/?from=dy.199908.top
+          url: https://www.toutiao.com/hot-event?from=dy.199908.top
           description: 今日头条平台的热门新闻和话题排行
         - title: 知乎热榜
           logo: images/新媒运营/知乎热榜.png
@@ -1408,7 +1408,7 @@
           description: 专注于移动互联网领域的数据分析和研究，提供APP排行榜和行业报告
         - title: App Annie
           logo: images/新媒运营/AppAnnie.png
-          url: https://www.appannie.com/cn/?from=dy.199908.top
+          url: https://www.appannie.com/cn?from=dy.199908.top
           description: 全球领先的应用数据分析平台，提供应用下载量、收入等排行榜
         - title: 新榜
           logo: images/新媒运营/新榜.png
@@ -1422,7 +1422,7 @@
           description: 淘宝平台的直播带货排行榜，展示热门主播和商品
         - title: 京东排行榜
           logo: images/新媒运营/京东排行榜.png
-          url: https://www.jd.com/phb/?from=dy.199908.top
+          url: https://www.jd.com/phb?from=dy.199908.top
           description: 京东平台的商品销量和热度排行榜
         - title: 拼多多热销榜
           logo: images/新媒运营/拼多多热销榜.png
@@ -1444,11 +1444,11 @@
           description: 猫眼电影的实时票房数据和排行榜
         - title: 爱奇艺风云榜
           logo: images/新媒运营/爱奇艺风云榜.png
-          url: https://www.iqiyi.com/ranks/?from=dy.199908.top
+          url: https://www.iqiyi.com/ranks?from=dy.199908.top
           description: 爱奇艺平台的影视剧集热度排行榜
         - title: 腾讯视频排行榜
           logo: images/新媒运营/腾讯视频排行榜.png
-          url: https://v.qq.com/biu/ranks/?from=dy.199908.top
+          url: https://v.qq.com/biu/ranks?from=dy.199908.top
           description: 腾讯视频平台的影视剧集热度排行榜
 
         # 音乐排行
@@ -1462,7 +1462,7 @@
           description: 网易云音乐平台的音乐热度和播放量排行榜
         - title: 酷狗音乐排行榜
           logo: images/新媒运营/酷狗音乐排行榜.png
-          url: https://www.kugou.com/yy/rank/home/?from=dy.199908.top
+          url: https://www.kugou.com/yy/rank/home?from=dy.199908.top
           description: 酷狗音乐平台的音乐热度和播放量排行榜
         - title: 酷我音乐排行榜
           logo: images/新媒运营/酷我音乐排行榜.png
@@ -2564,7 +2564,7 @@
         # 其他实用工具
         - title: 新媒工具
           logo: images/电商辅助/新媒工具.png
-          url: https://www.xinmei7.com/?from=dy.199908.top
+          url: https://www.xinmei7.com?from=dy.199908.top
           description: 新媒工具平台
         - title: 易剪媒-AI剪辑
           logo: images/新媒运营/短视频工具.png
@@ -2684,7 +2684,7 @@
       links:
         - title: 新媒服务
           logo: images/电商辅助/新媒服务.png
-          url: https://www.xinmei7.com/?from=dy.199908.top
+          url: https://www.xinmei7.com?from=dy.199908.top
           description: 新媒服务平台
         - title: 稿定设计
           logo: images/新媒运营/稿定设计.png
