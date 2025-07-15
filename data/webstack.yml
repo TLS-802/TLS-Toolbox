@@ -1091,17 +1091,9 @@
           url: https://www.youzan.com?from=dy.199908.top
           description: 有赞是一家提供电商解决方案的公司，提供电商网站建设、电商运营、电商营销等服务
 
-- taxonomy: 电商工具
+- taxonomy: 电商插件
   icon: fa-cogs
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 电商辅助
-    - term: 直播辅助
-    - term: 数据分析
-    - term: 营销运营
-    - term: 媒体平台
-  tabs:
-    - name: 电商辅助
-      links:
+  links: 
         # 抖音相关工具
         - title: 巨量创意
           logo: images/电商辅助/巨量创意.png
@@ -1181,8 +1173,10 @@
           logo: images/电商辅助/达连.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
-    - name: 直播辅助
-      links:
+
+- taxonomy: 直播辅助
+  icon: fa-video
+  links:
         # 热门平台直播工具
         - title: 抖音直播伴侣
           logo: images/电商辅助/抖音直播伴侣.jpg
@@ -1218,600 +1212,6 @@
           logo: images/电商辅助/腾讯直播.png
           url: https://live.qq.com?from=dy.199908.top
           description: 腾讯官方直播工具
-
-    - name: 数据分析
-      links:
-        # 数据可视化工具
-        - title: Tableau Public
-          logo: images/新媒运营/Tableau.png
-          url: https://public.tableau.com?from=dy.199908.top
-          description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
-        - title: DataV.js
-          logo: images/新媒运营/DataV.png
-          url: https://datav.aliyun.com?from=dy.199908.top
-          description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
-        - title: ECharts
-          logo: images/新媒运营/ECharts.png
-          url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
-          description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
-        - title: D3.js
-          logo: images/新媒运营/D3js.png
-          url: https://d3js.org?from=dy.199908.top
-          description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
-        - title: Flourish
-          logo: images/新媒运营/Flourish.png
-          url: https://flourish.studio?from=dy.199908.top
-          description: 在线数据可视化工具，提供丰富的模板和交互功能
-
-        # 数据分析平台
-        - title: Google Analytics
-          logo: images/新媒运营/GoogleAnalytics.png
-          url: https://analytics.google.com?from=dy.199908.top
-          description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
-        - title: 百度统计
-          logo: images/新媒运营/百度统计.png
-          url: https://tongji.baidu.com?from=dy.199908.top
-          description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
-        - title: 友盟+
-          logo: images/新媒运营/友盟.png
-          url: https://www.umeng.com?from=dy.199908.top
-          description: 阿里巴巴旗下的移动应用统计分析平台，提供应用使用数据和用户行为分析
-        - title: CNZZ
-          logo: images/新媒运营/CNZZ.png
-          url: https://www.umeng.com/web?from=dy.199908.top
-          description: 友盟+旗下的网站统计分析工具，提供网站访问数据和用户行为分析
-        - title: GrowingIO
-          logo: images/新媒运营/GrowingIO.png
-          url: https://www.growingio.com?from=dy.199908.top
-          description: 提供网站和移动应用的用户行为分析和增长分析服务
-
-        # 市场研究工具
-        - title: 艾瑞咨询
-          logo: images/新媒运营/数据研究.png
-          url: https://www.iresearch.cn?from=dy.199908.top
-          description: 提供互联网行业研究报告和数据分析，包括各类APP排行榜和行业趋势
-        - title: 易观分析
-          logo: images/新媒运营/数据研究.png
-          url: https://www.analysys.cn?from=dy.199908.top
-          description: 提供互联网和移动互联网行业的数据分析和研究报告
-        - title: Quest Mobile
-          logo: images/新媒运营/数据研究.png
-          url: https://www.questmobile.com.cn?from=dy.199908.top
-          description: 专注于移动互联网领域的数据分析和研究，提供APP排行榜和行业报告
-        - title: App Annie
-          logo: images/新媒运营/AppAnnie.png
-          url: https://www.appannie.com/cn?from=dy.199908.top
-          description: 全球领先的应用数据分析平台，提供应用下载量、收入等数据
-        - title: SimilarWeb
-          logo: images/新媒运营/SimilarWeb.png
-          url: https://www.similarweb.com?from=dy.199908.top
-          description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
-
-        # 电商数据分析
-        - title: 生意参谋
-          logo: images/数据分析/生意参谋.png
-          url: https://sycm.taobao.com?from=dy.199908.top
-          description: 阿里巴巴旗下的电商数据分析工具，为淘宝和天猫卖家提供销售数据分析
-        - title: 阿里指数
-          logo: images/新媒运营/阿里指数.png
-          url: https://index.1688.com?from=dy.199908.top
-          description: 阿里巴巴旗下的电商大数据分析平台，展示商品热度和行业趋势
-        - title: 京东商智
-          logo: images/新媒运营/京东商智.png
-          url: https://sz.jd.com?from=dy.199908.top
-          description: 京东平台的商业智能分析工具，为京东卖家提供销售数据分析
-        - title: 拼多多商家后台
-          logo: images/新媒运营/拼多多商家.png
-          url: https://mms.pinduoduo.com?from=dy.199908.top
-          description: 拼多多平台的商家数据分析工具，提供销售数据和用户行为分析
-        # 社交媒体分析
-        - title: 新榜
-          logo: images/新媒运营/新榜.png
-          url: https://www.newrank.cn?from=dy.199908.top
-          description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
-        - title: 微博指数
-          logo: images/新媒运营/微博指数.png
-          url: https://data.weibo.com/index?from=dy.199908.top
-          description: 基于微博平台的数据分析工具，提供热门话题和事件的传播分析
-        - title: 微信指数
-          logo: images/新媒运营/微信指数.png
-          url: https://weixin.sogou.com?from=dy.199908.top
-          description: 基于微信平台的数据分析工具，提供微信公众号和文章的热度分析
-        - title: 头条指数
-          logo: images/新媒运营/头条指数.png
-          url: https://index.toutiao.com?from=dy.199908.top
-          description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
-
-        # 办公数据处理
-        - title: Microsoft Power BI
-          logo: images/新媒运营/PowerBI.png
-          url: https://powerbi.microsoft.com?from=dy.199908.top
-          description: 微软推出的商业智能和数据可视化工具，可以连接各种数据源并创建交互式报表
-        - title: Google Data Studio
-          logo: images/新媒运营/DataStudio.png
-          url: https://datastudio.google.com?from=dy.199908.top
-          description: 谷歌推出的免费数据可视化和报表工具，可以连接各种谷歌服务的数据
-        - title: Excel Online
-          logo: images/新媒运营/Excel.png
-          url: https://www.office.com/launch/excel?from=dy.199908.top
-          description: 微软Office套件中的在线电子表格工具，提供数据处理和分析功能
-        - title: Google Sheets
-          logo: images/新媒运营/GoogleSheets.png
-          url: https://sheets.google.com?from=dy.199908.top
-          description: 谷歌提供的在线电子表格工具，提供数据处理和分析功能
-        - title: Airtable
-          logo: images/新媒运营/Airtable.png
-          url: https://airtable.com?from=dy.199908.top
-          description: 结合了电子表格和数据库功能的在线工具，提供灵活的数据组织和管理方式
-
-        # 其他有价值的数据分析工具（保留原有的一些优质工具）
-        - title: 巨量算数
-          logo: images/数据分析/巨量算数.svg
-          url: https://trendinsight.oceanengine.com?from=dy.199908.top
-          description: 抖音官方大数据平台
-        - title: 抖查查
-          logo: images/数据分析/抖查查.jpg
-          url: https://www.douchacha.com?from=dy.199908.top
-          description: 抖音数据、达人与选品平台
-        - title: 蝉妈妈
-          logo: images/数据分析/蝉妈妈.jpg
-          url: https://www.chanmama.com?from=dy.199908.top
-          description: 抖音、小红书数据分析及营销平台，支持直播选品
-        - title: 飞瓜
-          logo: images/数据分析/飞瓜.jpg
-          url: https://www.feigua.cn?from=dy.199908.top
-          description: 短视频及直播数据分析平台
-        - title: 灰豚数据
-          logo: images/数据分析/灰豚数据.jpg
-          url: https://www.huitun.com?from=dy.199908.top
-          description: 短视频数据分析平台
-        - title: 5118营销大数据
-          logo: images/图标字体/iconfont.png
-          url: https://www.5118.com?from=dy.199908.top
-          description: 提供SEO数据分析、关键词挖掘、竞品分析等营销数据服务
-        - title: 神策数据
-          logo: images/图标字体/iconfont.png
-          url: https://www.sensorsdata.cn?from=dy.199908.top
-          description: 用户行为分析平台
-        - title: 清博指数
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 提供微信公众号、微博、抖音等平台的数据分析和排行榜
-        - title: 西瓜数据
-          logo: images/新媒运营/西瓜数据.png
-          url: https://data.xiguaji.com?from=dy.199908.top
-          description: 专注于抖音、快手等短视频平台的数据分析工具
-        - title: 微小宝
-          logo: images/新媒运营/微小宝.png
-          url: https://www.wxb.com?from=dy.199908.top
-          description: 提供微信公众号数据分析和运营工具
-
-
-
-
-
-          description: 移动应用数据分析平台
-
-    - name: 营销运营
-      links:
-        # 营销策划工具
-        - title: 营销策划网
-          logo: images/新媒运营/营销策划.png
-          url: https://www.yingxiao360.com?from=dy.199908.top
-          description: 提供营销策划方案、营销案例和营销知识的综合平台
-        - title: 梅花网
-          logo: images/新媒运营/梅花网.png
-          url: https://www.meihua.info?from=dy.199908.top
-          description: 提供营销案例、营销策划和品牌传播的综合平台
-        - title: 数英网
-          logo: images/新媒运营/数英网.png
-          url: https://www.digitaling.com?from=dy.199908.top
-          description: 提供创意营销案例、广告作品和营销资讯的综合平台
-        - title: 广告门
-          logo: images/新媒运营/广告门.png
-          url: https://www.adquan.com?from=dy.199908.top
-          description: 广告行业资讯平台，提供优秀广告案例和营销创意
-        - title: SocialBeta
-          logo: images/新媒运营/SocialBeta.png
-          url: https://socialbeta.com?from=dy.199908.top
-          description: 提供社会化营销案例、品牌营销和数字营销的综合平台
-
-        # 用户增长工具
-        - title: GrowingIO
-          logo: images/新媒运营/GrowingIO.png
-          url: https://www.growingio.com?from=dy.199908.top
-          description: 提供用户行为分析和增长分析服务的数据分析平台
-        - title: 神策数据
-          logo: images/新媒运营/神策数据.png
-          url: https://www.sensorsdata.cn?from=dy.199908.top
-          description: 提供用户行为分析和增长分析服务的数据分析平台
-        - title: TalkingData
-          logo: images/新媒运营/TalkingData.png
-          url: https://www.talkingdata.com?from=dy.199908.top
-          description: 提供移动应用数据分析和用户画像服务的数据分析平台
-        - title: 友盟+
-          logo: images/新媒运营/友盟.png
-          url: https://www.umeng.com?from=dy.199908.top
-          description: 阿里巴巴旗下的移动应用统计分析平台，提供应用使用数据和用户行为分析
-        - title: APP Annie
-          logo: images/新媒运营/AppAnnie.png
-          url: https://www.appannie.com/cn?from=dy.199908.top
-          description: 全球领先的应用数据分析平台，提供应用下载量、收入等数据
-
-        # 社交媒体营销
-        - title: 微博营销
-          logo: images/新媒运营/微博营销.png
-          url: https://business.weibo.com?from=dy.199908.top
-          description: 微博官方营销平台，提供微博广告投放和营销服务
-        - title: 微信广告
-          logo: images/图标字体/iconfont.png
-          url: https://ad.weixin.qq.com?from=dy.199908.top
-          description: 微信官方广告平台，提供微信朋友圈、公众号等广告投放服务
-        - title: 抖音营销
-          logo: images/新媒运营/抖音营销.png
-          url: https://business.douyin.com?from=dy.199908.top
-          description: 抖音官方营销平台，提供抖音广告投放和营销服务
-        - title: 小红书营销
-          logo: images/新媒运营/小红书营销.png
-          url: https://business.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方营销平台，提供小红书广告投放和营销服务
-        - title: 知乎营销
-          logo: images/新媒运营/知乎营销.png
-          url: https://marketing.zhihu.com?from=dy.199908.top
-          description: 知乎官方营销平台，提供知乎广告投放和营销服务
-
-        # 搜索引擎营销
-        - title: 百度营销
-          logo: images/新媒运营/百度营销.png
-          url: https://e.baidu.com?from=dy.199908.top
-          description: 百度官方营销平台，提供百度搜索、信息流等广告投放服务
-        - title: Google Ads
-          logo: images/新媒运营/GoogleAds.png
-          url: https://ads.google.com?from=dy.199908.top
-          description: Google官方广告平台，提供Google搜索、展示网络等广告投放服务
-        - title: 360推广
-          logo: images/新媒运营/360推广.png
-          url: https://e.360.cn?from=dy.199908.top
-          description: 360官方营销平台，提供360搜索、信息流等广告投放服务
-        - title: 搜狗营销
-          logo: images/新媒运营/搜狗营销.png
-          url: https://e.sogou.com?from=dy.199908.top
-          description: 搜狗官方营销平台，提供搜狗搜索、信息流等广告投放服务
-        - title: 神马推广
-          logo: images/新媒运营/神马推广.png
-          url: https://u.sm.cn?from=dy.199908.top
-          description: 神马搜索官方营销平台，提供移动搜索广告投放服务
-        # 内容营销工具
-        - title: 简书
-          logo: images/新媒运营/简书.png
-          url: https://www.jianshu.com?from=dy.199908.top
-          description: 内容创作和分享平台，适合内容营销和品牌传播
-        - title: 知乎
-          logo: images/其他/zhihu.jpg
-          url: https://www.zhihu.com?from=dy.199908.top
-          description: 知识问答社区，适合知识营销和专业内容分享
-        - title: 今日头条
-          logo: images/其他/toutiao.jpg
-          url: https://www.toutiao.com?from=dy.199908.top
-          description: 信息聚合平台，适合内容分发和品牌传播
-        - title: 微信公众平台
-          logo: images/其他/wechat.jpg
-          url: https://mp.weixin.qq.com?from=dy.199908.top
-          description: 微信公众号平台，适合内容营销和粉丝运营
-        - title: 小红书
-          logo: images/其他/xiaohongshu.jpg
-          url: https://www.xiaohongshu.com?from=dy.199908.top
-          description: 生活方式分享平台，适合产品种草和品牌传播
-
-        # 电商营销工具
-        - title: 淘宝联盟
-          logo: images/新媒运营/淘宝联盟.png
-          url: https://pub.alimama.com?from=dy.199908.top
-          description: 阿里巴巴旗下的淘宝客推广平台，提供电商推广和佣金分成服务
-        - title: 京东联盟
-          logo: images/新媒运营/京东联盟.png
-          url: https://union.jd.com?from=dy.199908.top
-          description: 京东旗下的推广平台，提供电商推广和佣金分成服务
-        - title: 多多进宝
-          logo: images/新媒运营/多多进宝.png
-          url: https://jinbao.pinduoduo.com?from=dy.199908.top
-          description: 拼多多旗下的推广平台，提供电商推广和佣金分成服务
-        - title: 有赞
-          logo: images/新媒运营/有赞.png
-          url: https://www.youzan.com?from=dy.199908.top
-          description: 提供电商运营、营销推广、客户管理等服务的综合平台
-        - title: 微盟
-          logo: images/新媒运营/微盟.png
-          url: https://www.weimob.com?from=dy.199908.top
-          description: 提供电商运营、营销推广、会员管理等服务的综合平台
-
-        # 运营管理工具
-        - title: 企业微信
-          logo: images/新媒运营/企业微信.png
-          url: https://work.weixin.qq.com?from=dy.199908.top
-          description: 腾讯推出的企业通讯和协作平台，适合团队协作和客户管理
-        - title: 钉钉
-          logo: images/新媒运营/钉钉.png
-          url: https://www.dingtalk.com?from=dy.199908.top
-          description: 阿里巴巴推出的企业通讯和协作平台，适合团队协作和工作管理
-        - title: 飞书
-          logo: images/新媒运营/飞书.png
-          url: https://www.feishu.cn?from=dy.199908.top
-          description: 字节跳动推出的企业通讯和协作平台，适合团队协作和知识管理
-        - title: Teambition
-          logo: images/新媒运营/Teambition.png
-          url: https://www.teambition.com?from=dy.199908.top
-          description: 阿里巴巴旗下的项目协作平台，适合团队协作和项目管理
-        - title: 石墨文档
-          logo: images/新媒运营/石墨文档.png
-          url: https://shimo.im?from=dy.199908.top
-          description: 在线协作文档工具，支持多人实时协作，适合团队文档协作
-        # 其他有价值的营销运营工具（保留原有的优质工具）
-        - title: 巨量星图
-          logo: images/图标字体/iconfont.png
-          url: https://xingtu.jinritemai.com?from=dy.199908.top
-          description: 抖音星图，抖音KOL营销平台
-        - title: 磁力智投
-          logo: images/广告投放/磁力智投.png
-          url: https://ad.e.kuaishou.com?from=dy.199908.top
-          description: 快手广告投放平台
-        - title: 聚光平台
-          logo: images/广告投放/聚光.jpg
-          url: https://ad.xiaohongshu.com?from=dy.199908.top
-          description: 小红书广告投放平台
-        - title: 直通车
-          logo: images/广告投放/直通车.png
-          url: https://subway.simba.taobao.com?from=dy.199908.top
-          description: 淘宝推广工具
-        - title: 阿里妈妈
-          logo: images/新媒运营/阿里妈妈.png
-          url: https://www.alimama.com?from=dy.199908.top
-          description: 阿里巴巴集团旗下的网络营销平台
-        - title: 微播易
-          logo: images/图标字体/iconfont.png
-          url: https://www.weiboyi.com?from=dy.199908.top
-          description: 一站式KOL营销推广服务
-        - title: 易企秀
-          logo: images/新媒运营/易企秀.png
-          url: https://www.eqxiu.com?from=dy.199908.top
-          description: 创意营销平台
-        - title: 小打卡
-          logo: images/新媒运营/小打卡.png
-          url: https://www.xiaodaka.com?from=dy.199908.top
-          description: 社群活动运营与管理工具
-        - title: 金数据
-          logo: images/新媒运营/金数据.png
-          url: https://jinshuju.net?from=dy.199908.top
-          description: 专业的表单和数据收集工具
-        - title: 小鹅通
-          logo: images/新媒运营/小鹅通.png
-          url: https://www.xiaoe-tech.com?from=dy.199908.top
-          description: 提供知识付费、课程运营、社群管理等服务的综合平台
-        - title: 聚合数据
-          logo: images/新媒运营/聚合数据.png
-          url: https://www.juhe.cn?from=dy.199908.top
-          description: 提供各类API接口服务，帮助开发者快速实现功能
-
-    - name: 媒体平台
-      links:
-        # 视频平台
-        - title: 哔哩哔哩
-          logo: images/其他/bilibili.jpg
-          url: https://www.bilibili.com?from=dy.199908.top
-          description: 国内知名的视频弹幕网站，提供高质量的视频内容，涵盖动画、游戏、科技、生活、音乐等多个领域
-        - title: 腾讯视频
-          logo: images/其他/tencent.jpg
-          url: https://v.qq.com?from=dy.199908.top
-          description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目、动漫等内容
-        - title: 爱奇艺
-          logo: images/其他/iqiyi.jpg
-          url: https://www.iqiyi.com?from=dy.199908.top
-          description: 国内领先的视频平台之一，提供丰富的影视剧、综艺、动漫等内容
-        - title: 优酷
-          logo: images/其他/youku.jpg
-          url: https://www.youku.com?from=dy.199908.top
-          description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺、动漫等内容
-        - title: 西瓜视频
-          logo: images/其他/xigua.jpg
-          url: https://www.ixigua.com?from=dy.199908.top
-          description: 字节跳动旗下的中短视频平台，提供丰富的视频内容
-        - title: 抖音
-          logo: images/其他/douyin.jpg
-          url: https://www.douyin.com?from=dy.199908.top
-          description: 字节跳动旗下的短视频社交平台，用户可以拍摄、编辑和分享短视频
-        - title: 抖音创作服务平台
-          logo: images/新媒运营/抖音创作服务平台.png
-          url: https://creator.douyin.com?from=dy.199908.top
-          description: 抖音官方创作者服务平台
-        - title: 快手
-          logo: images/其他/kuaishou.jpg
-          url: https://www.kuaishou.com?from=dy.199908.top
-          description: 拥抱每一种生活，记录世界记录你
-        - title: 快手创作者服务平台
-          logo: images/其他/kuaishou.jpg
-          url: https://cp.kuaishou.com?from=dy.199908.top
-          description: 快手创作者服务平台为内容创作者提供全方位的创作支持
-
-        # 社交媒体
-        - title: 微博
-          logo: images/其他/weibo.jpg
-          url: https://weibo.com?from=dy.199908.top
-          description: 中国领先的社交媒体平台，用户可以发布、分享和发现内容
-        - title: 知乎
-          logo: images/其他/zhihu.jpg
-          url: https://www.zhihu.com?from=dy.199908.top
-          description: 中文互联网高质量的问答社区和创作者聚集的原创内容平台
-        - title: 豆瓣
-          logo: images/其他/douban.jpg
-          url: https://www.douban.com?from=dy.199908.top
-          description: 提供图书、电影、音乐等评论和社区服务的网站
-        - title: 小红书
-          logo: images/其他/xiaohongshu.jpg
-          url: https://www.xiaohongshu.com?from=dy.199908.top
-          description: 年轻人的生活方式平台，用户分享生活中的好物和体验
-        - title: 小红书创作者服务中心
-          logo: images/新媒运营/小红书创作者服务中心.png
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方创作者平台，提供数据分析和收益管理
-
-        # 新闻资讯
-        - title: 今日头条
-          logo: images/其他/toutiao.jpg
-          url: https://www.toutiao.com?from=dy.199908.top
-          description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
-        - title: 腾讯新闻
-          logo: images/其他/tencent.jpg
-          url: https://news.qq.com?from=dy.199908.top
-          description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
-        - title: 网易新闻
-          logo: images/其他/netease.jpg
-          url: https://news.163.com?from=dy.199908.top
-          description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
-        - title: 搜狐新闻
-          logo: images/其他/sohu.jpg
-          url: https://news.sohu.com?from=dy.199908.top
-          description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
-        - title: 澎湃新闻
-          logo: images/其他/thepaper.jpg
-          url: https://www.thepaper.cn?from=dy.199908.top
-          description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
-
-        # 自媒体平台
-        - title: 微信公众平台
-          logo: images/其他/wechat.jpg
-          url: https://mp.weixin.qq.com?from=dy.199908.top
-          description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
-        - title: 百家号
-          logo: images/其他/baidu.jpg
-          url: https://baijiahao.baidu.com?from=dy.199908.top
-          description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
-        - title: 头条号
-          logo: images/其他/toutiao.jpg
-          url: https://mp.toutiao.com?from=dy.199908.top
-          description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
-        - title: 企鹅号
-          logo: images/其他/tencent.jpg
-          url: https://om.qq.com?from=dy.199908.top
-          description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
-        - title: 大鱼号
-          logo: images/其他/dayu.jpg
-          url: https://mp.dayu.com?from=dy.199908.top
-          description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
-
-        # 音频平台
-        - title: 喜马拉雅
-          logo: images/其他/ximalaya.jpg
-          url: https://www.ximalaya.com?from=dy.199908.top
-          description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
-        - title: 荔枝FM
-          logo: images/其他/lizhi.jpg
-          url: https://www.lizhi.fm?from=dy.199908.top
-          description: 专业的音频分享平台，提供播客、有声书、音乐等内容
-        - title: 蜻蜓FM
-          logo: images/其他/qingting.jpg
-          url: https://www.qingting.fm?from=dy.199908.top
-          description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
-        - title: 网易云音乐
-          logo: images/其他/netease.jpg
-          url: https://music.163.com?from=dy.199908.top
-          description: 网易旗下的音乐平台，提供音乐播放、社区分享等服务
-        - title: QQ音乐
-          logo: images/其他/qq.jpg
-          url: https://y.qq.com?from=dy.199908.top
-          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
-
-        # 视频号助手
-        - title: 视频号助手
-          logo: images/新媒运营/视频号助手.png
-          url: https://channels.weixin.qq.com?from=dy.199908.top
-          description: 微信视频号官方助手
-
-
-        # 其他平台
-        - title: YouTube
-          logo: images/其他/youtube.jpg
-          url: https://www.youtube.com?from=dy.199908.top
-          description: 全球最大的视频分享平台
-        - title: 简书
-          logo: images/其他/jianshu.jpg
-          url: https://www.jianshu.com?from=dy.199908.top
-          description: 优质的创作社区，创作你的创作
-        - title: CSDN
-          logo: images/其他/csdn.jpg
-          url: https://www.csdn.net?from=dy.199908.top
-          description: 全球最大的中文IT技术交流平台
-        - title: 美篇
-          logo: images/其他/meipian.jpg
-          url: https://www.meipian.cn?from=dy.199908.top
-          description: 分享图文的分享应用
-        - title: 好看视频
-          logo: images/其他/haokan.jpg
-          url: https://haokan.baidu.com?from=dy.199908.top
-          description: 百度旗下短视频平台
-        - title: 什么值得买
-          logo: images/其他/shenmezhidema.jpg
-          url: https://www.smzdm.com?from=dy.199908.top
-          description: 中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
-        - title: 腾讯内容开放平台
-          logo: images/其他/tencent.jpg
-          url: https://om.qq.com?from=dy.199908.top
-          description: 腾讯内容开放平台是腾讯旗下的内容创作平台
-        - title: 支付宝生活号平台
-          logo: images/其他/alipay.jpg
-          url: https://fuwu.alipay.com?from=dy.199908.top
-          description: 支付宝生活号平台是支付宝推出的商家服务平台
-        - title: 腾讯视频创作平台
-          logo: images/其他/tencent.jpg
-          url: https://v.qq.com/s/videoplus?from=dy.199908.top
-          description: 腾讯视频创作平台是腾讯视频推出的内容创作平台
-        - title: QQ看点创作中心
-          logo: images/其他/qq.jpg
-          url: https://kandian.qq.com?from=dy.199908.top
-          description: QQ看点创作中心是QQ看点推出的内容创作平台
-        - title: 爱奇艺号
-          logo: images/其他/iqiyi.jpg
-          url: https://www.iqiyi.com?from=dy.199908.top
-          description: 爱奇艺号是爱奇艺推出的内容创作平台
-        - title: 1688直播
-          logo: images/其他/1688.jpg
-          url: https://live.1688.com?from=dy.199908.top
-          description: 阿里巴巴旗下B2B平台直播功能
-        - title: 一点号
-          logo: images/其他/yidian.jpg
-          url: https://www.yidianzixun.com?from=dy.199908.top
-          description: 一点资讯旗下内容创作平台
-        - title: 百度智能小程序
-          logo: images/其他/baidu.jpg
-          url: https://smartprogram.baidu.com?from=dy.199908.top
-          description: 百度智能小程序平台
-        - title: 百度知道
-          logo: images/其他/baidu.jpg
-          url: https://zhidao.baidu.com?from=dy.199908.top
-          description: 全球最大的中文互动问答平台
-        - title: AcFun
-          logo: images/其他/acfun.jpg
-          url: https://www.acfun.cn?from=dy.199908.top
-          description: 弹幕视频网站
-        - title: 360doc个人图书馆
-          logo: images/其他/360doc.jpg
-          url: http://www.360doc.com?from=dy.199908.top
-          description: 免费的全民知识共享平台
-        - title: 品牌星球BrandStar
-          logo: images/新媒运营/品牌星球.png
-          url: https://www.brandstar.com?from=dy.199908.top
-          description: 专注于品牌创新的数字媒体平台
-        - title: 清博大数据
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 融媒体、舆论和产业营销大数据服务者
-        - title: 胖鲸
-          logo: images/新媒运营/胖鲸.png
-          url: https://www.adquan.com?from=dy.199908.top
-          description: 专注于数字营销和互联网科技领域的专业平台
-        - title: 绘蛙创意平台
-          logo: images/新媒运营/绘蛙.png
-          url: https://www.huiwa.com?from=dy.199908.top
-          description: 创意文生图平台，为社交媒体平台生成吸引眼球的内容
 
 - taxonomy: 电商货源
   icon: fa-video
@@ -2802,7 +2202,428 @@
           logo: images/设计软件/Blender.png
           description: 免费开源的3D创作套件
 
+- taxonomy: 媒体平台
+  icon: fa-video
+  links:
+        # 视频平台
+        - title: 哔哩哔哩
+          logo: images/其他/bilibili.jpg
+          url: https://www.bilibili.com?from=dy.199908.top
+          description: 国内知名的视频弹幕网站，提供高质量的视频内容，涵盖动画、游戏、科技、生活、音乐等多个领域
+        - title: 腾讯视频
+          logo: images/其他/tencent.jpg
+          url: https://v.qq.com?from=dy.199908.top
+          description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目、动漫等内容
+        - title: 爱奇艺
+          logo: images/其他/iqiyi.jpg
+          url: https://www.iqiyi.com?from=dy.199908.top
+          description: 国内领先的视频平台之一，提供丰富的影视剧、综艺、动漫等内容
+        - title: 优酷
+          logo: images/其他/youku.jpg
+          url: https://www.youku.com?from=dy.199908.top
+          description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺、动漫等内容
+        - title: 西瓜视频
+          logo: images/其他/xigua.jpg
+          url: https://www.ixigua.com?from=dy.199908.top
+          description: 字节跳动旗下的中短视频平台，提供丰富的视频内容
+        - title: 抖音
+          logo: images/其他/douyin.jpg
+          url: https://www.douyin.com?from=dy.199908.top
+          description: 字节跳动旗下的短视频社交平台，用户可以拍摄、编辑和分享短视频
+        - title: 抖音创作服务平台
+          logo: images/新媒运营/抖音创作服务平台.png
+          url: https://creator.douyin.com?from=dy.199908.top
+          description: 抖音官方创作者服务平台
+        - title: 快手
+          logo: images/其他/kuaishou.jpg
+          url: https://www.kuaishou.com?from=dy.199908.top
+          description: 拥抱每一种生活，记录世界记录你
+        - title: 快手创作者服务平台
+          logo: images/其他/kuaishou.jpg
+          url: https://cp.kuaishou.com?from=dy.199908.top
+          description: 快手创作者服务平台为内容创作者提供全方位的创作支持
 
+        # 社交媒体
+        - title: 微博
+          logo: images/其他/weibo.jpg
+          url: https://weibo.com?from=dy.199908.top
+          description: 中国领先的社交媒体平台，用户可以发布、分享和发现内容
+        - title: 知乎
+          logo: images/其他/zhihu.jpg
+          url: https://www.zhihu.com?from=dy.199908.top
+          description: 中文互联网高质量的问答社区和创作者聚集的原创内容平台
+        - title: 豆瓣
+          logo: images/其他/douban.jpg
+          url: https://www.douban.com?from=dy.199908.top
+          description: 提供图书、电影、音乐等评论和社区服务的网站
+        - title: 小红书
+          logo: images/其他/xiaohongshu.jpg
+          url: https://www.xiaohongshu.com?from=dy.199908.top
+          description: 年轻人的生活方式平台，用户分享生活中的好物和体验
+        - title: 小红书创作者服务中心
+          logo: images/新媒运营/小红书创作者服务中心.png
+          url: https://creator.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方创作者平台，提供数据分析和收益管理
+
+        # 新闻资讯
+        - title: 今日头条
+          logo: images/其他/toutiao.jpg
+          url: https://www.toutiao.com?from=dy.199908.top
+          description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
+        - title: 腾讯新闻
+          logo: images/其他/tencent.jpg
+          url: https://news.qq.com?from=dy.199908.top
+          description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
+        - title: 网易新闻
+          logo: images/其他/netease.jpg
+          url: https://news.163.com?from=dy.199908.top
+          description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
+        - title: 搜狐新闻
+          logo: images/其他/sohu.jpg
+          url: https://news.sohu.com?from=dy.199908.top
+          description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+        - title: 澎湃新闻
+          logo: images/其他/thepaper.jpg
+          url: https://www.thepaper.cn?from=dy.199908.top
+          description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
+
+        # 自媒体平台
+        - title: 微信公众平台
+          logo: images/其他/wechat.jpg
+          url: https://mp.weixin.qq.com?from=dy.199908.top
+          description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
+        - title: 百家号
+          logo: images/其他/baidu.jpg
+          url: https://baijiahao.baidu.com?from=dy.199908.top
+          description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
+        - title: 头条号
+          logo: images/其他/toutiao.jpg
+          url: https://mp.toutiao.com?from=dy.199908.top
+          description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
+        - title: 企鹅号
+          logo: images/其他/tencent.jpg
+          url: https://om.qq.com?from=dy.199908.top
+          description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
+        - title: 大鱼号
+          logo: images/其他/dayu.jpg
+          url: https://mp.dayu.com?from=dy.199908.top
+          description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
+
+        # 音频平台
+        - title: 喜马拉雅
+          logo: images/其他/ximalaya.jpg
+          url: https://www.ximalaya.com?from=dy.199908.top
+          description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
+        - title: 荔枝FM
+          logo: images/其他/lizhi.jpg
+          url: https://www.lizhi.fm?from=dy.199908.top
+          description: 专业的音频分享平台，提供播客、有声书、音乐等内容
+        - title: 蜻蜓FM
+          logo: images/其他/qingting.jpg
+          url: https://www.qingting.fm?from=dy.199908.top
+          description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
+        - title: 网易云音乐
+          logo: images/其他/netease.jpg
+          url: https://music.163.com?from=dy.199908.top
+          description: 网易旗下的音乐平台，提供音乐播放、社区分享等服务
+        - title: QQ音乐
+          logo: images/其他/qq.jpg
+          url: https://y.qq.com?from=dy.199908.top
+          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
+
+        # 视频号助手
+        - title: 视频号助手
+          logo: images/新媒运营/视频号助手.png
+          url: https://channels.weixin.qq.com?from=dy.199908.top
+          description: 微信视频号官方助手
+
+
+        # 其他平台
+        - title: YouTube
+          logo: images/其他/youtube.jpg
+          url: https://www.youtube.com?from=dy.199908.top
+          description: 全球最大的视频分享平台
+        - title: 简书
+          logo: images/其他/jianshu.jpg
+          url: https://www.jianshu.com?from=dy.199908.top
+          description: 优质的创作社区，创作你的创作
+        - title: CSDN
+          logo: images/其他/csdn.jpg
+          url: https://www.csdn.net?from=dy.199908.top
+          description: 全球最大的中文IT技术交流平台
+        - title: 美篇
+          logo: images/其他/meipian.jpg
+          url: https://www.meipian.cn?from=dy.199908.top
+          description: 分享图文的分享应用
+        - title: 好看视频
+          logo: images/其他/haokan.jpg
+          url: https://haokan.baidu.com?from=dy.199908.top
+          description: 百度旗下短视频平台
+        - title: 什么值得买
+          logo: images/其他/shenmezhidema.jpg
+          url: https://www.smzdm.com?from=dy.199908.top
+          description: 中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
+        - title: 腾讯内容开放平台
+          logo: images/其他/tencent.jpg
+          url: https://om.qq.com?from=dy.199908.top
+          description: 腾讯内容开放平台是腾讯旗下的内容创作平台
+        - title: 支付宝生活号平台
+          logo: images/其他/alipay.jpg
+          url: https://fuwu.alipay.com?from=dy.199908.top
+          description: 支付宝生活号平台是支付宝推出的商家服务平台
+        - title: 腾讯视频创作平台
+          logo: images/其他/tencent.jpg
+          url: https://v.qq.com/s/videoplus?from=dy.199908.top
+          description: 腾讯视频创作平台是腾讯视频推出的内容创作平台
+        - title: QQ看点创作中心
+          logo: images/其他/qq.jpg
+          url: https://kandian.qq.com?from=dy.199908.top
+          description: QQ看点创作中心是QQ看点推出的内容创作平台
+        - title: 爱奇艺号
+          logo: images/其他/iqiyi.jpg
+          url: https://www.iqiyi.com?from=dy.199908.top
+          description: 爱奇艺号是爱奇艺推出的内容创作平台
+        - title: 1688直播
+          logo: images/其他/1688.jpg
+          url: https://live.1688.com?from=dy.199908.top
+          description: 阿里巴巴旗下B2B平台直播功能
+        - title: 一点号
+          logo: images/其他/yidian.jpg
+          url: https://www.yidianzixun.com?from=dy.199908.top
+          description: 一点资讯旗下内容创作平台
+        - title: 百度智能小程序
+          logo: images/其他/baidu.jpg
+          url: https://smartprogram.baidu.com?from=dy.199908.top
+          description: 百度智能小程序平台
+        - title: 百度知道
+          logo: images/其他/baidu.jpg
+          url: https://zhidao.baidu.com?from=dy.199908.top
+          description: 全球最大的中文互动问答平台
+        - title: AcFun
+          logo: images/其他/acfun.jpg
+          url: https://www.acfun.cn?from=dy.199908.top
+          description: 弹幕视频网站
+        - title: 360doc个人图书馆
+          logo: images/其他/360doc.jpg
+          url: http://www.360doc.com?from=dy.199908.top
+          description: 免费的全民知识共享平台
+        - title: 品牌星球BrandStar
+          logo: images/新媒运营/品牌星球.png
+          url: https://www.brandstar.com?from=dy.199908.top
+          description: 专注于品牌创新的数字媒体平台
+        - title: 清博大数据
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.gsdata.cn?from=dy.199908.top
+          description: 融媒体、舆论和产业营销大数据服务者
+        - title: 胖鲸
+          logo: images/新媒运营/胖鲸.png
+          url: https://www.adquan.com?from=dy.199908.top
+          description: 专注于数字营销和互联网科技领域的专业平台
+        - title: 绘蛙创意平台
+          logo: images/新媒运营/绘蛙.png
+          url: https://www.huiwa.com?from=dy.199908.top
+          description: 创意文生图平台，为社交媒体平台生成吸引眼球的内容
+
+- taxonomy: 营销运营
+  icon: fa-video
+  links:
+        # 营销策划工具
+        - title: 营销策划网
+          logo: images/新媒运营/营销策划.png
+          url: https://www.yingxiao360.com?from=dy.199908.top
+          description: 提供营销策划方案、营销案例和营销知识的综合平台
+        - title: 梅花网
+          logo: images/新媒运营/梅花网.png
+          url: https://www.meihua.info?from=dy.199908.top
+          description: 提供营销案例、营销策划和品牌传播的综合平台
+        - title: 数英网
+          logo: images/新媒运营/数英网.png
+          url: https://www.digitaling.com?from=dy.199908.top
+          description: 提供创意营销案例、广告作品和营销资讯的综合平台
+        - title: 广告门
+          logo: images/新媒运营/广告门.png
+          url: https://www.adquan.com?from=dy.199908.top
+          description: 广告行业资讯平台，提供优秀广告案例和营销创意
+        - title: SocialBeta
+          logo: images/新媒运营/SocialBeta.png
+          url: https://socialbeta.com?from=dy.199908.top
+          description: 提供社会化营销案例、品牌营销和数字营销的综合平台
+
+        # 用户增长工具
+        - title: GrowingIO
+          logo: images/新媒运营/GrowingIO.png
+          url: https://www.growingio.com?from=dy.199908.top
+          description: 提供用户行为分析和增长分析服务的数据分析平台
+        - title: 神策数据
+          logo: images/新媒运营/神策数据.png
+          url: https://www.sensorsdata.cn?from=dy.199908.top
+          description: 提供用户行为分析和增长分析服务的数据分析平台
+        - title: TalkingData
+          logo: images/新媒运营/TalkingData.png
+          url: https://www.talkingdata.com?from=dy.199908.top
+          description: 提供移动应用数据分析和用户画像服务的数据分析平台
+        - title: 友盟+
+          logo: images/新媒运营/友盟.png
+          url: https://www.umeng.com?from=dy.199908.top
+          description: 阿里巴巴旗下的移动应用统计分析平台，提供应用使用数据和用户行为分析
+        - title: APP Annie
+          logo: images/新媒运营/AppAnnie.png
+          url: https://www.appannie.com/cn?from=dy.199908.top
+          description: 全球领先的应用数据分析平台，提供应用下载量、收入等数据
+
+        # 社交媒体营销
+        - title: 微博营销
+          logo: images/新媒运营/微博营销.png
+          url: https://business.weibo.com?from=dy.199908.top
+          description: 微博官方营销平台，提供微博广告投放和营销服务
+        - title: 微信广告
+          logo: images/图标字体/iconfont.png
+          url: https://ad.weixin.qq.com?from=dy.199908.top
+          description: 微信官方广告平台，提供微信朋友圈、公众号等广告投放服务
+        - title: 抖音营销
+          logo: images/新媒运营/抖音营销.png
+          url: https://business.douyin.com?from=dy.199908.top
+          description: 抖音官方营销平台，提供抖音广告投放和营销服务
+        - title: 小红书营销
+          logo: images/新媒运营/小红书营销.png
+          url: https://business.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方营销平台，提供小红书广告投放和营销服务
+        - title: 知乎营销
+          logo: images/新媒运营/知乎营销.png
+          url: https://marketing.zhihu.com?from=dy.199908.top
+          description: 知乎官方营销平台，提供知乎广告投放和营销服务
+
+        # 搜索引擎营销
+        - title: 百度营销
+          logo: images/新媒运营/百度营销.png
+          url: https://e.baidu.com?from=dy.199908.top
+          description: 百度官方营销平台，提供百度搜索、信息流等广告投放服务
+        - title: Google Ads
+          logo: images/新媒运营/GoogleAds.png
+          url: https://ads.google.com?from=dy.199908.top
+          description: Google官方广告平台，提供Google搜索、展示网络等广告投放服务
+        - title: 360推广
+          logo: images/新媒运营/360推广.png
+          url: https://e.360.cn?from=dy.199908.top
+          description: 360官方营销平台，提供360搜索、信息流等广告投放服务
+        - title: 搜狗营销
+          logo: images/新媒运营/搜狗营销.png
+          url: https://e.sogou.com?from=dy.199908.top
+          description: 搜狗官方营销平台，提供搜狗搜索、信息流等广告投放服务
+        - title: 神马推广
+          logo: images/新媒运营/神马推广.png
+          url: https://u.sm.cn?from=dy.199908.top
+          description: 神马搜索官方营销平台，提供移动搜索广告投放服务
+        # 内容营销工具
+        - title: 简书
+          logo: images/新媒运营/简书.png
+          url: https://www.jianshu.com?from=dy.199908.top
+          description: 内容创作和分享平台，适合内容营销和品牌传播
+        - title: 知乎
+          logo: images/其他/zhihu.jpg
+          url: https://www.zhihu.com?from=dy.199908.top
+          description: 知识问答社区，适合知识营销和专业内容分享
+        - title: 今日头条
+          logo: images/其他/toutiao.jpg
+          url: https://www.toutiao.com?from=dy.199908.top
+          description: 信息聚合平台，适合内容分发和品牌传播
+        - title: 微信公众平台
+          logo: images/其他/wechat.jpg
+          url: https://mp.weixin.qq.com?from=dy.199908.top
+          description: 微信公众号平台，适合内容营销和粉丝运营
+        - title: 小红书
+          logo: images/其他/xiaohongshu.jpg
+          url: https://www.xiaohongshu.com?from=dy.199908.top
+          description: 生活方式分享平台，适合产品种草和品牌传播
+
+        # 电商营销工具
+        - title: 淘宝联盟
+          logo: images/新媒运营/淘宝联盟.png
+          url: https://pub.alimama.com?from=dy.199908.top
+          description: 阿里巴巴旗下的淘宝客推广平台，提供电商推广和佣金分成服务
+        - title: 京东联盟
+          logo: images/新媒运营/京东联盟.png
+          url: https://union.jd.com?from=dy.199908.top
+          description: 京东旗下的推广平台，提供电商推广和佣金分成服务
+        - title: 多多进宝
+          logo: images/新媒运营/多多进宝.png
+          url: https://jinbao.pinduoduo.com?from=dy.199908.top
+          description: 拼多多旗下的推广平台，提供电商推广和佣金分成服务
+        - title: 有赞
+          logo: images/新媒运营/有赞.png
+          url: https://www.youzan.com?from=dy.199908.top
+          description: 提供电商运营、营销推广、客户管理等服务的综合平台
+        - title: 微盟
+          logo: images/新媒运营/微盟.png
+          url: https://www.weimob.com?from=dy.199908.top
+          description: 提供电商运营、营销推广、会员管理等服务的综合平台
+
+        # 运营管理工具
+        - title: 企业微信
+          logo: images/新媒运营/企业微信.png
+          url: https://work.weixin.qq.com?from=dy.199908.top
+          description: 腾讯推出的企业通讯和协作平台，适合团队协作和客户管理
+        - title: 钉钉
+          logo: images/新媒运营/钉钉.png
+          url: https://www.dingtalk.com?from=dy.199908.top
+          description: 阿里巴巴推出的企业通讯和协作平台，适合团队协作和工作管理
+        - title: 飞书
+          logo: images/新媒运营/飞书.png
+          url: https://www.feishu.cn?from=dy.199908.top
+          description: 字节跳动推出的企业通讯和协作平台，适合团队协作和知识管理
+        - title: Teambition
+          logo: images/新媒运营/Teambition.png
+          url: https://www.teambition.com?from=dy.199908.top
+          description: 阿里巴巴旗下的项目协作平台，适合团队协作和项目管理
+        - title: 石墨文档
+          logo: images/新媒运营/石墨文档.png
+          url: https://shimo.im?from=dy.199908.top
+          description: 在线协作文档工具，支持多人实时协作，适合团队文档协作
+        # 其他有价值的营销运营工具（保留原有的优质工具）
+        - title: 巨量星图
+          logo: images/图标字体/iconfont.png
+          url: https://xingtu.jinritemai.com?from=dy.199908.top
+          description: 抖音星图，抖音KOL营销平台
+        - title: 磁力智投
+          logo: images/广告投放/磁力智投.png
+          url: https://ad.e.kuaishou.com?from=dy.199908.top
+          description: 快手广告投放平台
+        - title: 聚光平台
+          logo: images/广告投放/聚光.jpg
+          url: https://ad.xiaohongshu.com?from=dy.199908.top
+          description: 小红书广告投放平台
+        - title: 直通车
+          logo: images/广告投放/直通车.png
+          url: https://subway.simba.taobao.com?from=dy.199908.top
+          description: 淘宝推广工具
+        - title: 阿里妈妈
+          logo: images/新媒运营/阿里妈妈.png
+          url: https://www.alimama.com?from=dy.199908.top
+          description: 阿里巴巴集团旗下的网络营销平台
+        - title: 微播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weiboyi.com?from=dy.199908.top
+          description: 一站式KOL营销推广服务
+        - title: 易企秀
+          logo: images/新媒运营/易企秀.png
+          url: https://www.eqxiu.com?from=dy.199908.top
+          description: 创意营销平台
+        - title: 小打卡
+          logo: images/新媒运营/小打卡.png
+          url: https://www.xiaodaka.com?from=dy.199908.top
+          description: 社群活动运营与管理工具
+        - title: 金数据
+          logo: images/新媒运营/金数据.png
+          url: https://jinshuju.net?from=dy.199908.top
+          description: 专业的表单和数据收集工具
+        - title: 小鹅通
+          logo: images/新媒运营/小鹅通.png
+          url: https://www.xiaoe-tech.com?from=dy.199908.top
+          description: 提供知识付费、课程运营、社群管理等服务的综合平台
+        - title: 聚合数据
+          logo: images/新媒运营/聚合数据.png
+          url: https://www.juhe.cn?from=dy.199908.top
+          description: 提供各类API接口服务，帮助开发者快速实现功能
 
 - taxonomy: 热点排行
   icon: fa-video
@@ -2926,6 +2747,175 @@
           logo: images/新媒运营/酷我音乐排行榜.png
           url: http://www.kuwo.cn/rankList?from=dy.199908.top
           description: 酷我音乐平台的音乐热度和播放量排行榜
+
+- taxonomy: 数据分析
+  icon: fa-video
+  links:
+        # 数据可视化工具
+        - title: Tableau Public
+          logo: images/新媒运营/Tableau.png
+          url: https://public.tableau.com?from=dy.199908.top
+          description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
+        - title: DataV.js
+          logo: images/新媒运营/DataV.png
+          url: https://datav.aliyun.com?from=dy.199908.top
+          description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
+        - title: ECharts
+          logo: images/新媒运营/ECharts.png
+          url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
+          description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
+        - title: D3.js
+          logo: images/新媒运营/D3js.png
+          url: https://d3js.org?from=dy.199908.top
+          description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
+        - title: Flourish
+          logo: images/新媒运营/Flourish.png
+          url: https://flourish.studio?from=dy.199908.top
+          description: 在线数据可视化工具，提供丰富的模板和交互功能
+
+        # 数据分析平台
+        - title: Google Analytics
+          logo: images/新媒运营/GoogleAnalytics.png
+          url: https://analytics.google.com?from=dy.199908.top
+          description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
+        - title: 百度统计
+          logo: images/新媒运营/百度统计.png
+          url: https://tongji.baidu.com?from=dy.199908.top
+          description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
+        - title: 友盟+
+          logo: images/新媒运营/友盟.png
+          url: https://www.umeng.com?from=dy.199908.top
+          description: 阿里巴巴旗下的移动应用统计分析平台，提供应用使用数据和用户行为分析
+        - title: CNZZ
+          logo: images/新媒运营/CNZZ.png
+          url: https://www.umeng.com/web?from=dy.199908.top
+          description: 友盟+旗下的网站统计分析工具，提供网站访问数据和用户行为分析
+        - title: GrowingIO
+          logo: images/新媒运营/GrowingIO.png
+          url: https://www.growingio.com?from=dy.199908.top
+          description: 提供网站和移动应用的用户行为分析和增长分析服务
+
+        # 市场研究工具
+        - title: 艾瑞咨询
+          logo: images/新媒运营/数据研究.png
+          url: https://www.iresearch.cn?from=dy.199908.top
+          description: 提供互联网行业研究报告和数据分析，包括各类APP排行榜和行业趋势
+        - title: 易观分析
+          logo: images/新媒运营/数据研究.png
+          url: https://www.analysys.cn?from=dy.199908.top
+          description: 提供互联网和移动互联网行业的数据分析和研究报告
+        - title: Quest Mobile
+          logo: images/新媒运营/数据研究.png
+          url: https://www.questmobile.com.cn?from=dy.199908.top
+          description: 专注于移动互联网领域的数据分析和研究，提供APP排行榜和行业报告
+        - title: App Annie
+          logo: images/新媒运营/AppAnnie.png
+          url: https://www.appannie.com/cn?from=dy.199908.top
+          description: 全球领先的应用数据分析平台，提供应用下载量、收入等数据
+        - title: SimilarWeb
+          logo: images/新媒运营/SimilarWeb.png
+          url: https://www.similarweb.com?from=dy.199908.top
+          description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
+
+        # 电商数据分析
+        - title: 生意参谋
+          logo: images/数据分析/生意参谋.png
+          url: https://sycm.taobao.com?from=dy.199908.top
+          description: 阿里巴巴旗下的电商数据分析工具，为淘宝和天猫卖家提供销售数据分析
+        - title: 阿里指数
+          logo: images/新媒运营/阿里指数.png
+          url: https://index.1688.com?from=dy.199908.top
+          description: 阿里巴巴旗下的电商大数据分析平台，展示商品热度和行业趋势
+        - title: 京东商智
+          logo: images/新媒运营/京东商智.png
+          url: https://sz.jd.com?from=dy.199908.top
+          description: 京东平台的商业智能分析工具，为京东卖家提供销售数据分析
+        - title: 拼多多商家后台
+          logo: images/新媒运营/拼多多商家.png
+          url: https://mms.pinduoduo.com?from=dy.199908.top
+          description: 拼多多平台的商家数据分析工具，提供销售数据和用户行为分析
+        # 社交媒体分析
+        - title: 新榜
+          logo: images/新媒运营/新榜.png
+          url: https://www.newrank.cn?from=dy.199908.top
+          description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
+        - title: 微博指数
+          logo: images/新媒运营/微博指数.png
+          url: https://data.weibo.com/index?from=dy.199908.top
+          description: 基于微博平台的数据分析工具，提供热门话题和事件的传播分析
+        - title: 微信指数
+          logo: images/新媒运营/微信指数.png
+          url: https://weixin.sogou.com?from=dy.199908.top
+          description: 基于微信平台的数据分析工具，提供微信公众号和文章的热度分析
+        - title: 头条指数
+          logo: images/新媒运营/头条指数.png
+          url: https://index.toutiao.com?from=dy.199908.top
+          description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
+
+        # 办公数据处理
+        - title: Microsoft Power BI
+          logo: images/新媒运营/PowerBI.png
+          url: https://powerbi.microsoft.com?from=dy.199908.top
+          description: 微软推出的商业智能和数据可视化工具，可以连接各种数据源并创建交互式报表
+        - title: Google Data Studio
+          logo: images/新媒运营/DataStudio.png
+          url: https://datastudio.google.com?from=dy.199908.top
+          description: 谷歌推出的免费数据可视化和报表工具，可以连接各种谷歌服务的数据
+        - title: Excel Online
+          logo: images/新媒运营/Excel.png
+          url: https://www.office.com/launch/excel?from=dy.199908.top
+          description: 微软Office套件中的在线电子表格工具，提供数据处理和分析功能
+        - title: Google Sheets
+          logo: images/新媒运营/GoogleSheets.png
+          url: https://sheets.google.com?from=dy.199908.top
+          description: 谷歌提供的在线电子表格工具，提供数据处理和分析功能
+        - title: Airtable
+          logo: images/新媒运营/Airtable.png
+          url: https://airtable.com?from=dy.199908.top
+          description: 结合了电子表格和数据库功能的在线工具，提供灵活的数据组织和管理方式
+
+        # 其他有价值的数据分析工具（保留原有的一些优质工具）
+        - title: 巨量算数
+          logo: images/数据分析/巨量算数.svg
+          url: https://trendinsight.oceanengine.com?from=dy.199908.top
+          description: 抖音官方大数据平台
+        - title: 抖查查
+          logo: images/数据分析/抖查查.jpg
+          url: https://www.douchacha.com?from=dy.199908.top
+          description: 抖音数据、达人与选品平台
+        - title: 蝉妈妈
+          logo: images/数据分析/蝉妈妈.jpg
+          url: https://www.chanmama.com?from=dy.199908.top
+          description: 抖音、小红书数据分析及营销平台，支持直播选品
+        - title: 飞瓜
+          logo: images/数据分析/飞瓜.jpg
+          url: https://www.feigua.cn?from=dy.199908.top
+          description: 短视频及直播数据分析平台
+        - title: 灰豚数据
+          logo: images/数据分析/灰豚数据.jpg
+          url: https://www.huitun.com?from=dy.199908.top
+          description: 短视频数据分析平台
+        - title: 5118营销大数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.5118.com?from=dy.199908.top
+          description: 提供SEO数据分析、关键词挖掘、竞品分析等营销数据服务
+        - title: 神策数据
+          logo: images/图标字体/iconfont.png
+          url: https://www.sensorsdata.cn?from=dy.199908.top
+          description: 用户行为分析平台
+        - title: 清博指数
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.gsdata.cn?from=dy.199908.top
+          description: 提供微信公众号、微博、抖音等平台的数据分析和排行榜
+        - title: 西瓜数据
+          logo: images/新媒运营/西瓜数据.png
+          url: https://data.xiguaji.com?from=dy.199908.top
+          description: 专注于抖音、快手等短视频平台的数据分析工具
+        - title: 微小宝
+          logo: images/新媒运营/微小宝.png
+          url: https://www.wxb.com?from=dy.199908.top
+          description: 提供微信公众号数据分析和运营工具
+          description: 移动应用数据分析平台
 
 - taxonomy: 研究报告
   icon: fa-video
