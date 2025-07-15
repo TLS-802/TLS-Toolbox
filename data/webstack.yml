@@ -108,6 +108,18 @@
           logo: images/电商辅助/淘宝.png
           url: https://gongchang.taobao.com?from=dy.199908.top
           description: 淘宝工厂直供平台
+        - title: 聚划算
+          logo: images/电商辅助/juhuasuan.png
+          url: https://ju.taobao.com?from=dy.199908.top
+          description: 淘宝聚划算特价活动平台
+        - title: 天猫超市
+          logo: images/电商辅助/tmall.png
+          url: https://chaoshi.tmall.com?from=dy.199908.top
+          description: 天猫超市线上购物平台
+        - title: 天猫国际
+          logo: images/电商辅助/tmall.png
+          url: https://www.tmall.hk?from=dy.199908.top
+          description: 天猫国际跨境电商平台
     - name: 抖音
       links:
         - title: 抖音小店
@@ -186,6 +198,18 @@
           logo: images/电商辅助/京东.png
           url: https://union.jd.com?from=dy.199908.top
           description: 京东联盟推广平台
+        - title: 京东物流
+          logo: images/电商辅助/京东.png
+          url: https://wl.jdl.com?from=dy.199908.top
+          description: 京东物流服务平台
+        - title: 京东金融
+          logo: images/电商辅助/京东.png
+          url: https://jr.jd.com?from=dy.199908.top
+          description: 京东金融服务平台
+        - title: 京东国际
+          logo: images/电商辅助/京东.png
+          url: https://www.jd.hk?from=dy.199908.top
+          description: 京东国际跨境电商平台
 
     - name: 快手
       links:
@@ -221,6 +245,14 @@
           logo: images/电商辅助/快手直播伴侣.png
           url: https://live.kuaishou.com/live-partner?from=dy.199908.top
           description: 快手平台直播软件
+        - title: 分销达人
+          logo: images/电商辅助/快手.jpg
+          url: https://cps.kwaixiaodian.com/pc/promoter/selection-center/home?from=dy.199908.top
+          description: 快手分销达人
+        - title: 快影
+          logo: images/电商辅助/kwaiying.png
+          url: https://h5.kwaiying.com?from=dy.199908.top
+          description: 快手官方视频剪辑工具
 
     - name: 小红书
       links:
@@ -290,6 +322,22 @@
           logo: images/电商辅助/视频号.jpg
           url: https://ad.qq.com/worktable?from=dy.199908.top
           description: 腾讯广告工作台
+        - title: 视频号营销中心
+          logo: images/电商辅助/视频号.jpg
+          url: https://channels.weixin.qq.com/platform/marketing?from=dy.199908.top
+          description: 视频号营销推广平台
+        - title: 视频号学习中心
+          logo: images/电商辅助/视频号.jpg
+          url: https://channels.weixin.qq.com/shop/learning-center?from=dy.199908.top
+          description: 视频号学习中心
+        - title: 视频号橱窗
+          logo: images/电商辅助/视频号.jpg
+          url: https://channels.weixin.qq.com/platform/shop?from=dy.199908.top
+          description: 视频号商品橱窗管理
+        - title: 视频号加热平台
+          logo: images/电商辅助/视频号.jpg
+          url: https://channels.weixin.qq.com/promote?from=dy.199908.top
+          description: 视频号加热平台
     - name: 拼多多
       links:
         - title: 拼多多入驻
@@ -316,6 +364,14 @@
           logo: images/电商辅助/拼多多.jpg
           url: https://seller.kuajingmaihuo.com?from=dy.199908.top
           description: TEMU跨境电商
+        - title: 多多直播
+          logo: images/电商辅助/拼多多.jpg
+          url: https://live.pinduoduo.com?from=dy.199908.top
+          description: 拼多多直播工具
+        - title: 营销书院
+          logo: images/电商辅助/拼多多.jpg
+          url: https://shuyuan.pinduoduo.com?from=dy.199908.top
+          description: 拼多多营销推广学习平台
     - name: 1688
       links:
         - title: 1688
@@ -334,6 +390,14 @@
           logo: images/电商辅助/阿里巴巴.png
           url: https://app.1688.com?from=dy.199908.top
           description: 1688服务市场
+        - title: 1688学习中心
+          logo: images/电商辅助/阿里巴巴.png
+          url: https://peixun.1688.com?from=dy.199908.top
+          description: 1688学习中心
+        - title: 1688实力商家认证
+          logo: images/电商辅助/阿里巴巴.png
+          url: https://isupplier.1688.com?from=dy.199908.top
+          description: 1688商家实力认证平台
     - name: 跨境
       links:
         - title: 亚马逊Amazon
@@ -395,6 +459,14 @@
           logo: images/其他/youzan.jpg
           url: https://www.youzan.com?from=dy.199908.top
           description: 电商解决方案服务商
+        - title: 闲鱼
+          logo: images/其他/xianyu.jpg
+          url: https://www.xianyu.com?from=dy.199908.top
+          description: 二手交易平台
+        - title: 转转
+          logo: images/其他/zhuanzhuan.jpg
+          url: https://www.zhuanzhuan.com?from=dy.199908.top
+          description: 二手交易平台
 
 - taxonomy: 电商插件
   icon: fa-cogs
