@@ -191,25 +191,15 @@ footer.main-footer:after{clear:both}
 .user-info-navbar .user-info-menu>li a[data-toggle=sidebar]{padding:31px 10px;padding-left:20px}
 @media screen and (max-width:767px){.page-container{display:block}
 .page-container .sidebar-menu,.page-container .main-content{display:block;width:100%;height:auto;position:absolute;top:50px}
-.page-container .sidebar-menu{position:fixed;z-index:999;top:0px}
+.page-container .sidebar-menu{position:fixed;z-index:1000;top:0px;transform:translateX(-100%);transition:transform 0.3s ease-in-out}
+.page-container .sidebar-menu.mobile-is-visible{transform:translateX(0)}
 .page-container .sidebar-menu .sidebar-menu-inner{position:relative}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env,.page-container .sidebar-menu .sidebar-menu-inner .main-menu{padding-left:20px;padding-right:20px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env{margin-bottom:0;padding-top:10px;padding-bottom:10px}
-.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle{float:right}
+.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle{float:right;display:block}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a{position:relative;display:inline-block;color:#979898;line-height:1;margin-left:20px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
-/* 移动端侧边栏默认隐藏 */
-.page-container .sidebar-menu{
-	transform: translateX(-100%);
-	transition: transform 0.3s ease-in-out;
-	z-index: 1000; /* 确保在其他内容之上 */
-}
-
-/* 移动端侧边栏显示状态 */
-.page-container .sidebar-menu.mobile-is-visible{
-	transform: translateX(0);
-}
 
 /* 移动端背景遮罩 */
 .mobile-menu-backdrop {
@@ -232,12 +222,11 @@ footer.main-footer:after{clear:both}
 
 /* 确保桌面端不受影响 */
 @media screen and (min-width: 768px) {
-	.page-container .sidebar-menu {
-		transform: none !important;
-		transition: none !important;
+	.mobile-menu-backdrop {
+		display: none !important;
 	}
 
-	.mobile-menu-backdrop {
+	.mobile-menu-toggle {
 		display: none !important;
 	}
 }

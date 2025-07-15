@@ -196,22 +196,35 @@ function trigger_resizable()
 		$('a[data-toggle="mobile-menu"]').on('click', function(ev)
 		{
 			ev.preventDefault();
+			console.log('Mobile menu button clicked');
 
-			// 切换侧边栏和菜单的可见状态
-			public_vars.$sidebarMenu.toggleClass('mobile-is-visible');
-			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+			// 检查当前状态
+			var isVisible = public_vars.$sidebarMenu.hasClass('mobile-is-visible');
+			console.log('Current sidebar visible state:', isVisible);
 
-			// 切换背景遮罩
-			$('.mobile-menu-backdrop').toggleClass('visible');
-
-            if($("#main-menu").hasClass('mobile-is-visible') === true){
+			if(isVisible) {
+				// 关闭菜单
+				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
+				public_vars.$mainMenu.removeClass('mobile-is-visible');
+				if(public_vars.$sidebarProfile) {
+					public_vars.$sidebarProfile.removeClass('mobile-is-visible');
+				}
+				$('.mobile-menu-backdrop').removeClass('visible');
+				ps_destroy();
+				console.log('Menu closed');
+			} else {
+				// 打开菜单
+				public_vars.$sidebarMenu.addClass('mobile-is-visible');
+				public_vars.$mainMenu.addClass('mobile-is-visible');
+				if(public_vars.$sidebarProfile) {
+					public_vars.$sidebarProfile.addClass('mobile-is-visible');
+				}
+				$('.mobile-menu-backdrop').addClass('visible');
 				public_vars.$sidebarMenu.removeClass('collapsed');
-                $(".sidebar-menu-inner").css("max-height",window.innerHeight);
-                ps_init();
-            }
-            else{
-                ps_destroy();
-            }
+				$(".sidebar-menu-inner").css("max-height",window.innerHeight);
+				ps_init();
+				console.log('Menu opened');
+			}
 		});
 		// Mobile Menu Trigger for Horizontal Menu
 		$('a[data-toggle="mobile-menu-horizontal"]').on('click', function(ev)
@@ -369,11 +382,16 @@ var public_vars = public_vars || {};
 
 		// 背景遮罩点击事件
 		$('.mobile-menu-backdrop').on('click', function() {
+			console.log('Backdrop clicked');
 			if(public_vars.$sidebarMenu.hasClass('mobile-is-visible')) {
 				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
-				public_vars.$mainMenu.add(public_vars.$sidebarProfile).removeClass('mobile-is-visible');
+				public_vars.$mainMenu.removeClass('mobile-is-visible');
+				if(public_vars.$sidebarProfile) {
+					public_vars.$sidebarProfile.removeClass('mobile-is-visible');
+				}
 				$(this).removeClass('visible');
 				ps_destroy();
+				console.log('Menu closed via backdrop');
 			}
 		});
 		// Sticky Footer

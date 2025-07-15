@@ -395,21 +395,64 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // 初始化移动端侧边栏状态 - 确保默认收起
-    if(window.innerWidth < 768) {
-        var sidebarMenu = document.querySelector('.sidebar-menu');
-        var mainMenu = document.getElementById('main-menu');
-        var sidebarProfile = document.querySelector('.sidebar-user-info');
+    function initMobileSidebar() {
+        if(window.innerWidth < 768) {
+            console.log('Initializing mobile sidebar - hiding by default');
+            var sidebarMenu = document.querySelector('.sidebar-menu');
+            var mainMenu = document.getElementById('main-menu');
+            var sidebarProfile = document.querySelector('.sidebar-user-info');
+            var backdrop = document.querySelector('.mobile-menu-backdrop');
 
-        if(sidebarMenu) {
-            sidebarMenu.classList.remove('mobile-is-visible');
-        }
-        if(mainMenu) {
-            mainMenu.classList.remove('mobile-is-visible');
-        }
-        if(sidebarProfile) {
-            sidebarProfile.classList.remove('mobile-is-visible');
+            if(sidebarMenu) {
+                sidebarMenu.classList.remove('mobile-is-visible');
+                console.log('Sidebar hidden');
+            }
+            if(mainMenu) {
+                mainMenu.classList.remove('mobile-is-visible');
+                console.log('Main menu hidden');
+            }
+            if(sidebarProfile) {
+                sidebarProfile.classList.remove('mobile-is-visible');
+            }
+            if(backdrop) {
+                backdrop.classList.remove('visible');
+            }
         }
     }
+
+    // 立即执行初始化
+    initMobileSidebar();
+
+    // 在窗口大小改变时重新初始化
+    window.addEventListener('resize', function() {
+        initMobileSidebar();
+    });
+
+    // 添加测试函数
+    window.testMobileMenu = function() {
+        console.log('=== Mobile Menu Test ===');
+        console.log('Window width:', window.innerWidth);
+        console.log('Is mobile view:', window.innerWidth < 768);
+
+        var sidebarMenu = document.querySelector('.sidebar-menu');
+        var mainMenu = document.getElementById('main-menu');
+        var hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+
+        if(sidebarMenu) {
+            console.log('Sidebar classes:', sidebarMenu.className);
+            console.log('Sidebar has mobile-is-visible:', sidebarMenu.classList.contains('mobile-is-visible'));
+        }
+        if(mainMenu) {
+            console.log('Main menu classes:', mainMenu.className);
+            console.log('Main menu has mobile-is-visible:', mainMenu.classList.contains('mobile-is-visible'));
+        }
+        if(hamburger) {
+            console.log('Hamburger button found:', true);
+        } else {
+            console.log('Hamburger button found:', false);
+        }
+        console.log('=== Test Complete ===');
+    };
 
     // 定义关闭移动菜单的函数
     window.closeMobileMenu = function() {
