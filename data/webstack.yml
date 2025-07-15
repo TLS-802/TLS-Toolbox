@@ -1095,10 +1095,6 @@
   icon: fa-cogs
   links: 
         # 抖音相关工具
-        - title: 巨量创意
-          logo: images/电商辅助/巨量创意.png
-          url: https://cc.oceanengine.com?from=dy.199908.top
-          description: 激发创意灵感
         - title: 灵邀AI
           logo: images/电商辅助/灵邀AI.jpg
           url: https://limob.cn?from=dy.199908.top
@@ -1117,24 +1113,6 @@
           logo: images/电商辅助/AliPrice助手.png
           url: https://www.aliprice.com?from=dy.199908.top
           description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
-
-        # 拼多多相关工具
-        - title: 拼多多知识产权保护
-          logo: images/电商辅助/拼多多.jpg
-          url: https://ipp.pinduoduo.com?from=dy.199908.top
-          description: 拼多多原创保护平台
-
-        # 小红书相关工具
-        - title: 小红书知识产权保护
-          logo: images/电商辅助/小红书.jpg
-          url: https://ipp.xiaohongshu.com?from=dy.199908.top
-          description: 小红书原创保护平台
-
-        # 快手相关工具
-        - title: 快手知识产权保护
-          logo: images/电商辅助/快手.jpg
-          url: https://ipp.kuaishou.com?from=dy.199908.top
-          description: 快手电商原创保护平台
 
         # 通用工具
         - title: 指纹浏览器
