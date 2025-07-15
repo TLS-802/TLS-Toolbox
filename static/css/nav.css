@@ -59,13 +59,69 @@ footer.main-footer .foot-button a:hover{background-color:rgba(44,46,47,.1)}foote
 .sidebar-menu .main-menu a>span{display:inline-block}
 .sidebar-menu .main-menu a:hover{color:#fff}
 .sidebar-menu.fixed{height:100%}
-.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#555 #2c2e2f}
+.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow:hidden;display:flex;flex-direction:column}
+
+/* logo区域固定不滚动 */
+.sidebar-menu.fixed .logo-env{flex-shrink:0;height:80px}
+
+/* 强制主菜单可滚动 - 最高优先级 */
+.sidebar-menu #main-menu,
+.sidebar-menu.fixed #main-menu,
+#main-menu{
+	overflow-y:auto !important;
+	overflow-x:hidden !important;
+	max-height:calc(100vh - 100px) !important;
+	height:calc(100vh - 100px) !important;
+	flex:1 1 auto !important;
+	min-height:0 !important;
+	scrollbar-width:thin !important;
+	scrollbar-color:#555 #2c2e2f !important;
+}
 
 /* 自定义滚动条样式 - Webkit浏览器 */
-.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar{width:6px}
-.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-track{background:#2c2e2f}
-.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-thumb{background:#555;border-radius:3px}
-.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-thumb:hover{background:#666}
+#main-menu::-webkit-scrollbar,
+.sidebar-menu #main-menu::-webkit-scrollbar{width:8px !important}
+#main-menu::-webkit-scrollbar-track,
+.sidebar-menu #main-menu::-webkit-scrollbar-track{background:#2c2e2f !important}
+#main-menu::-webkit-scrollbar-thumb,
+.sidebar-menu #main-menu::-webkit-scrollbar-thumb{background:#555 !important;border-radius:4px !important}
+#main-menu::-webkit-scrollbar-thumb:hover,
+.sidebar-menu #main-menu::-webkit-scrollbar-thumb:hover{background:#777 !important}
+
+/* 最高优先级的滚动规则 - 覆盖所有其他样式 */
+body #main-menu,
+body .sidebar-menu #main-menu,
+body .sidebar-menu.fixed #main-menu{
+	overflow-y:auto !important;
+	overflow-x:hidden !important;
+	max-height:calc(100vh - 100px) !important;
+	height:calc(100vh - 100px) !important;
+}
+
+/* 确保侧边栏容器使用flex布局 */
+body .sidebar-menu.fixed .sidebar-menu-inner{
+	display:flex !important;
+	flex-direction:column !important;
+}
+
+/* 确保logo区域固定高度 */
+body .sidebar-menu.fixed .logo-env{
+	flex-shrink:0 !important;
+	height:80px !important;
+}
+
+/* 终极滚动修复 - 覆盖所有可能的冲突样式 */
+html body .sidebar-menu #main-menu,
+html body .sidebar-menu.fixed #main-menu,
+html body .page-container .sidebar-menu #main-menu{
+	overflow-y:auto !important;
+	overflow-x:hidden !important;
+	max-height:calc(100vh - 100px) !important;
+	height:calc(100vh - 100px) !important;
+	flex:1 1 auto !important;
+	min-height:0 !important;
+	display:block !important;
+}
 .sidebar-menu .main-menu ul{display:none;margin:0;padding:0;overflow:hidden;list-style:none}
 .sidebar-menu .main-menu ul li{position:relative}
 @media screen and (min-width:768px){.sidebar-menu .main-menu ul li.is-hidden{left:-20px;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0}
@@ -144,7 +200,15 @@ footer.main-footer:after{clear:both}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu{display:none}
-.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{display:block;max-height:calc(100vh - 80px);overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#555 #2c2e2f}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{
+	display:block !important;
+	max-height:calc(100vh - 100px) !important;
+	height:calc(100vh - 100px) !important;
+	overflow-y:auto !important;
+	overflow-x:hidden !important;
+	scrollbar-width:thin !important;
+	scrollbar-color:#555 #2c2e2f !important;
+}
 
 /* 移动端滚动条样式 */
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar{width:6px}
@@ -152,14 +216,7 @@ footer.main-footer:after{clear:both}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar-thumb{background:#555;border-radius:3px}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar-thumb:hover{background:#666}
 
-/* 确保侧边栏主菜单在桌面端也有适当的高度限制 */
-@media screen and (min-width:768px){
-	.sidebar-menu .main-menu{
-		max-height:calc(100vh - 120px);
-		overflow-y:auto;
-		overflow-x:hidden;
-	}
-}
+
 
 /* 平滑滚动效果 */
 .sidebar-menu .sidebar-menu-inner,

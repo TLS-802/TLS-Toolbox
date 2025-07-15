@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>侧边栏滚动测试</title>
+    <link rel="stylesheet" href="static/css/nav.css">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .test-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 9999;
+        }
+        .test-button {
+            background: #007cba;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin: 2px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body class="page-body black">
+    <div class="test-info">
+        <div>侧边栏滚动测试</div>
+        <button class="test-button" onclick="testScroll()">测试滚动</button>
+        <button class="test-button" onclick="scrollToBottom()">滚动到底部</button>
+        <button class="test-button" onclick="scrollToTop()">滚动到顶部</button>
+    </div>
+    
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <div class="logo">
+                        <a href="#" class="logo-expanded">
+                            <img src="static/images/驼铃标志1.png" height="40" alt="" />
+                            &nbsp;&nbsp;TLS-Toolbox
+                        </a>
+                    </div>
+                </header>
+                
+                <ul id="main-menu" class="main-menu">
+                    <li><a href="#"><span>快捷导航</span></a></li>
+                    <li><a href="#"><span>淘宝</span></a></li>
+                    <li><a href="#"><span>抖音</span></a></li>
+                    <li><a href="#"><span>京东</span></a></li>
+                    <li><a href="#"><span>快手</span></a></li>
+                    <li><a href="#"><span>小红书</span></a></li>
+                    <li><a href="#"><span>视频号</span></a></li>
+                    <li><a href="#"><span>拼多多</span></a></li>
+                    <li><a href="#"><span>1688</span></a></li>
+                    <li><a href="#"><span>跨境</span></a></li>
+                    <li><a href="#"><span>其他</span></a></li>
+                    <li><a href="#"><span>电商工具</span></a></li>
+                    <li><a href="#"><span>广告投放</span></a></li>
+                    <li><a href="#"><span>数据分析</span></a></li>
+                    <li><a href="#"><span>视频剪辑</span></a></li>
+                    <li><a href="#"><span>图文设计</span></a></li>
+                    <li><a href="#"><span>图标字体</span></a></li>
+                    <li><a href="#"><span>媒体平台</span></a></li>
+                    <li><a href="#"><span>办公学习</span></a></li>
+                    <li><a href="#"><span>生活娱乐</span></a></li>
+                    <li><a href="#"><span>测试项目1</span></a></li>
+                    <li><a href="#"><span>测试项目2</span></a></li>
+                    <li><a href="#"><span>测试项目3</span></a></li>
+                    <li><a href="#"><span>测试项目4</span></a></li>
+                    <li><a href="#"><span>测试项目5</span></a></li>
+                    <li><a href="#"><span>测试项目6</span></a></li>
+                    <li><a href="#"><span>测试项目7</span></a></li>
+                    <li><a href="#"><span>测试项目8</span></a></li>
+                    <li><a href="#"><span>测试项目9</span></a></li>
+                    <li><a href="#"><span>测试项目10</span></a></li>
+                    <li><a href="#"><span>测试项目11</span></a></li>
+                    <li><a href="#"><span>测试项目12</span></a></li>
+                    <li><a href="#"><span>测试项目13</span></a></li>
+                    <li><a href="#"><span>测试项目14</span></a></li>
+                    <li><a href="#"><span>测试项目15</span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="page-content">
+            <div style="padding: 20px; margin-left: 250px;">
+                <h1>侧边栏滚动功能测试</h1>
+                <p>左侧侧边栏应该可以滚动。如果菜单项超出视口高度，应该显示滚动条。</p>
+                <p>请检查：</p>
+                <ul>
+                    <li>侧边栏是否可以用鼠标滚轮滚动</li>
+                    <li>是否显示自定义滚动条</li>
+                    <li>滚动条是否可以拖拽</li>
+                    <li>logo区域是否固定不滚动</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function testScroll() {
+            var mainMenu = document.querySelector('#main-menu');
+            if(mainMenu) {
+                console.log('=== 滚动测试 ===');
+                console.log('容器高度:', mainMenu.offsetHeight + 'px');
+                console.log('内容高度:', mainMenu.scrollHeight + 'px');
+                console.log('是否可滚动:', mainMenu.scrollHeight > mainMenu.offsetHeight);
+                console.log('当前滚动位置:', mainMenu.scrollTop + 'px');
+                console.log('overflow-y:', getComputedStyle(mainMenu).overflowY);
+                console.log('max-height:', getComputedStyle(mainMenu).maxHeight);
+                console.log('height:', getComputedStyle(mainMenu).height);
+                alert('检查控制台输出');
+            }
+        }
+        
+        function scrollToBottom() {
+            var mainMenu = document.querySelector('#main-menu');
+            if(mainMenu) {
+                mainMenu.scrollTop = mainMenu.scrollHeight;
+                console.log('滚动到底部，位置:', mainMenu.scrollTop);
+            }
+        }
+        
+        function scrollToTop() {
+            var mainMenu = document.querySelector('#main-menu');
+            if(mainMenu) {
+                mainMenu.scrollTop = 0;
+                console.log('滚动到顶部，位置:', mainMenu.scrollTop);
+            }
+        }
+        
+        // 页面加载后自动测试
+        window.onload = function() {
+            setTimeout(testScroll, 1000);
+        };
+    </script>
+</body>
+</html>

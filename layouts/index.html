@@ -601,43 +601,151 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('=== 侧边栏滚动测试 ===');
 
         if(sidebar) {
-            console.log('桌面端侧边栏:');
+            console.log('侧边栏容器:');
             console.log('- 容器高度:', sidebar.offsetHeight + 'px');
             console.log('- 内容高度:', sidebar.scrollHeight + 'px');
-            console.log('- 是否可滚动:', sidebar.scrollHeight > sidebar.offsetHeight);
-            console.log('- 当前滚动位置:', sidebar.scrollTop + 'px');
-            console.log('- overflow-y:', getComputedStyle(sidebar).overflowY);
-
-            if(sidebar.perfectScrollbar) {
-                console.log('- Perfect Scrollbar: 已初始化');
-            } else {
-                console.log('- Perfect Scrollbar: 未初始化');
-            }
+            console.log('- display:', getComputedStyle(sidebar).display);
         }
 
         if(mainMenu) {
-            console.log('移动端主菜单:');
+            console.log('主菜单 (#main-menu):');
             console.log('- 容器高度:', mainMenu.offsetHeight + 'px');
             console.log('- 内容高度:', mainMenu.scrollHeight + 'px');
             console.log('- 是否可滚动:', mainMenu.scrollHeight > mainMenu.offsetHeight);
             console.log('- 当前滚动位置:', mainMenu.scrollTop + 'px');
             console.log('- overflow-y:', getComputedStyle(mainMenu).overflowY);
+            console.log('- flex:', getComputedStyle(mainMenu).flex);
+            console.log('- min-height:', getComputedStyle(mainMenu).minHeight);
 
             if(mainMenu.perfectScrollbar) {
                 console.log('- Perfect Scrollbar: 已初始化');
             } else {
                 console.log('- Perfect Scrollbar: 未初始化');
             }
+
+            // 检查菜单项数量
+            var menuItems = mainMenu.querySelectorAll('li');
+            console.log('- 菜单项数量:', menuItems.length);
+        }
+
+        // 检查侧边栏是否有fixed类
+        var sidebarMenu = document.querySelector('.sidebar-menu');
+        if(sidebarMenu) {
+            console.log('侧边栏类名:', sidebarMenu.className);
+            console.log('是否有fixed类:', sidebarMenu.classList.contains('fixed'));
+            console.log('是否有collapsed类:', sidebarMenu.classList.contains('collapsed'));
         }
 
         console.log('=== 测试完成 ===');
         console.log('在控制台输入 testSidebarScroll() 可重新测试');
+        console.log('在控制台输入 testScrollToBottom() 测试滚动到底部');
+        console.log('在控制台输入 testScrollToTop() 测试滚动到顶部');
     };
 
-    // 页面加载完成后自动测试一次
+    // 测试滚动到底部
+    window.testScrollToBottom = function() {
+        var mainMenu = document.querySelector('#main-menu');
+        if(mainMenu) {
+            console.log('滚动前位置:', mainMenu.scrollTop);
+            mainMenu.scrollTop = mainMenu.scrollHeight;
+            console.log('滚动后位置:', mainMenu.scrollTop);
+            console.log('滚动高度:', mainMenu.scrollHeight);
+            console.log('容器高度:', mainMenu.offsetHeight);
+        }
+    };
+
+    // 测试滚动到顶部
+    window.testScrollToTop = function() {
+        var mainMenu = document.querySelector('#main-menu');
+        if(mainMenu) {
+            console.log('滚动前位置:', mainMenu.scrollTop);
+            mainMenu.scrollTop = 0;
+            console.log('滚动后位置:', mainMenu.scrollTop);
+        }
+    };
+
+    // 强制启用侧边栏滚动功能
+    function forceEnableScroll() {
+        var mainMenu = document.querySelector('#main-menu');
+        if(mainMenu) {
+            // 强制设置滚动样式
+            mainMenu.style.setProperty('overflow-y', 'auto', 'important');
+            mainMenu.style.setProperty('overflow-x', 'hidden', 'important');
+            mainMenu.style.setProperty('max-height', 'calc(100vh - 100px)', 'important');
+            mainMenu.style.setProperty('height', 'calc(100vh - 100px)', 'important');
+            mainMenu.style.setProperty('flex', '1 1 auto', 'important');
+            mainMenu.style.setProperty('min-height', '0', 'important');
+
+            console.log('强制启用滚动功能');
+            console.log('主菜单元素:', mainMenu);
+            console.log('滚动样式已设置');
+            console.log('当前样式 - overflow-y:', getComputedStyle(mainMenu).overflowY);
+            console.log('当前样式 - max-height:', getComputedStyle(mainMenu).maxHeight);
+            console.log('当前样式 - height:', getComputedStyle(mainMenu).height);
+        }
+
+        // 为移动端也设置
+        var sidebarInner = document.querySelector('.sidebar-menu-inner');
+        if(sidebarInner) {
+            sidebarInner.style.setProperty('display', 'flex', 'important');
+            sidebarInner.style.setProperty('flex-direction', 'column', 'important');
+        }
+
+        // 确保logo区域不占用太多空间
+        var logoEnv = document.querySelector('.logo-env');
+        if(logoEnv) {
+            logoEnv.style.setProperty('flex-shrink', '0', 'important');
+            logoEnv.style.setProperty('height', '80px', 'important');
+        }
+    }
+
+    // 立即执行
+    forceEnableScroll();
+
+    // 页面加载完成后再次执行和测试
     setTimeout(function() {
+        forceEnableScroll();
         window.testSidebarScroll();
-    }, 2000);
+    }, 1000);
+
+    // DOM完全加载后再次执行
+    $(document).ready(function() {
+        setTimeout(forceEnableScroll, 500);
+
+        // 持续监控并修复滚动
+        setInterval(function() {
+            var mainMenu = document.querySelector('#main-menu');
+            if(mainMenu) {
+                var computedStyle = getComputedStyle(mainMenu);
+                if(computedStyle.overflowY !== 'auto') {
+                    console.log('检测到滚动被重置，重新应用滚动样式');
+                    forceEnableScroll();
+                }
+            }
+        }, 2000);
+
+        // 使用MutationObserver监控DOM变化
+        if(typeof MutationObserver !== 'undefined') {
+            var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if(mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                        var target = mutation.target;
+                        if(target.id === 'main-menu') {
+                            setTimeout(forceEnableScroll, 100);
+                        }
+                    }
+                });
+            });
+
+            var mainMenu = document.querySelector('#main-menu');
+            if(mainMenu) {
+                observer.observe(mainMenu, {
+                    attributes: true,
+                    attributeFilter: ['style', 'class']
+                });
+            }
+        }
+    });
     
     // 添加主内容区域点击事件
     var mainContent = document.querySelector('.main-content');

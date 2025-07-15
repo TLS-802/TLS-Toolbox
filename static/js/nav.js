@@ -744,22 +744,11 @@ function ps_update(destroy_init)
 			return;
 		}
 
-		// 更新对应的滚动容器
-		if(isMobileMenuVisible)
+		// 更新主菜单的滚动容器
+		var mainMenu = document.querySelector('#main-menu');
+		if(mainMenu && mainMenu.perfectScrollbar)
 		{
-			var mainMenu = document.querySelector('#main-menu');
-			if(mainMenu && mainMenu.perfectScrollbar)
-			{
-				mainMenu.perfectScrollbar.update();
-			}
-		}
-		else
-		{
-			var sidebarInner = document.querySelector('.sidebar-menu-inner');
-			if(sidebarInner && sidebarInner.perfectScrollbar)
-			{
-				sidebarInner.perfectScrollbar.update();
-			}
+			mainMenu.perfectScrollbar.update();
 		}
 
 		if(destroy_init)
@@ -779,15 +768,8 @@ function ps_update(destroy_init)
 			return;
 		}
 
-		// 更新对应的滚动容器
-		if(isMobileMenuVisible)
-		{
-			public_vars.$sidebarMenu.find('#main-menu').perfectScrollbar('update');
-		}
-		else
-		{
-			public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('update');
-		}
+		// 更新主菜单的滚动容器
+		public_vars.$sidebarMenu.find('#main-menu').perfectScrollbar('update');
 
 		if(destroy_init)
 		{
@@ -808,10 +790,8 @@ function ps_init()
 		// 移动端：只需要菜单可见
 		if(isMobileMenuVisible || (public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed')))
 		{
-			// 为侧边栏内容区域添加Perfect Scrollbar
-			var scrollContainer = isMobileMenuVisible ?
-				document.querySelector('#main-menu') :
-				document.querySelector('.sidebar-menu-inner');
+			// 为主菜单添加Perfect Scrollbar（桌面端和移动端都使用同一个元素）
+			var scrollContainer = document.querySelector('#main-menu');
 
 			if(scrollContainer && !scrollContainer.perfectScrollbar)
 			{
@@ -842,10 +822,8 @@ function ps_init()
 		// 移动端：只需要菜单可见
 		if(isMobileMenuVisible || (public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed')))
 		{
-			// 为侧边栏内容区域添加Perfect Scrollbar
-			var $scrollContainer = isMobileMenuVisible ?
-				public_vars.$sidebarMenu.find('#main-menu') :
-				public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+			// 为主菜单添加Perfect Scrollbar（桌面端和移动端都使用同一个元素）
+			var $scrollContainer = public_vars.$sidebarMenu.find('#main-menu');
 
 			try {
 				$scrollContainer.perfectScrollbar({
@@ -867,10 +845,7 @@ function ps_init()
 	{
 		// 如果Perfect Scrollbar不可用，确保原生滚动功能正常
 		console.log('Perfect Scrollbar 不可用，使用原生滚动');
-		var isMobileMenuVisible = $("#main-menu").hasClass('mobile-is-visible');
-		var scrollContainer = isMobileMenuVisible ?
-			document.querySelector('#main-menu') :
-			document.querySelector('.sidebar-menu-inner');
+		var scrollContainer = document.querySelector('#main-menu');
 
 		if(scrollContainer)
 		{
@@ -884,15 +859,7 @@ function ps_destroy()
 	// 使用新版本Perfect Scrollbar API
 	if(typeof PerfectScrollbar !== 'undefined')
 	{
-		// 销毁桌面端Perfect Scrollbar
-		var sidebarInner = document.querySelector('.sidebar-menu-inner');
-		if(sidebarInner && sidebarInner.perfectScrollbar)
-		{
-			sidebarInner.perfectScrollbar.destroy();
-			sidebarInner.perfectScrollbar = null;
-		}
-
-		// 销毁移动端Perfect Scrollbar
+		// 销毁主菜单的Perfect Scrollbar
 		var mainMenu = document.querySelector('#main-menu');
 		if(mainMenu && mainMenu.perfectScrollbar)
 		{
@@ -903,8 +870,7 @@ function ps_destroy()
 	// 兼容旧版本jQuery插件方式
 	else if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
-		// 销毁桌面端和移动端的Perfect Scrollbar
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('destroy');
+		// 销毁主菜单的Perfect Scrollbar
 		public_vars.$sidebarMenu.find('#main-menu').perfectScrollbar('destroy');
 	}
 }
