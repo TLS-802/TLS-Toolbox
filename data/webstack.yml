@@ -2641,8 +2641,16 @@
 
 - taxonomy: 热点排行
   icon: fa-video
-  links:
-        # 综合热点
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 综合热点
+    - term: 数据指数
+    - term: 行业排行
+    - term: 电商排行
+    - term: 影视排行
+    - term: 音乐排行
+  tabs:
+    - name: 综合热点
+      links:
         - title: 百度热搜
           logo: images/新媒运营/百度热搜.png
           url: https://top.baidu.com?from=dy.199908.top
@@ -2663,8 +2671,8 @@
           logo: images/电商辅助/抖音.jpg
           url: https://www.douyin.com/discover?from=dy.199908.top
           description: 抖音平台的热门视频和话题排行
-
-        # 数据分析工具
+    - name: 数据指数
+      links:
         - title: 百度指数
           logo: images/新媒运营/百度指数.png
           url: https://index.baidu.com?from=dy.199908.top
@@ -2685,8 +2693,8 @@
           logo: images/新媒运营/搜狗指数.png
           url: https://index.sogou.com?from=dy.199908.top
           description: 搜狗搜索引擎的热度分析工具，提供关键词搜索热度分析
-
-        # 行业排行
+    - name: 行业排行
+      links:
         - title: 艾瑞网
           logo: images/新媒运营/艾瑞网.png
           url: https://www.iresearch.cn?from=dy.199908.top
@@ -2707,8 +2715,8 @@
           logo: images/新媒运营/新榜.png
           url: https://www.newrank.cn?from=dy.199908.top
           description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
-
-        # 电商排行
+    - name: 电商排行
+      links:
         - title: 淘宝直播
           logo: images/新媒运营/淘宝直播.png
           url: https://market.m.taobao.com/app/tb-source-app/shop-live/index.html?from=dy.199908.top
@@ -2725,8 +2733,8 @@
           logo: images/新媒运营/天猫排行榜.png
           url: https://list.tmall.com/search_product.htm?spm=a220m.1000858.0.0.2a8d7456PpGGBj&cat=50036640&sort=d&style=g&search_condition=23&from=sn_1_rightnav&active=1&from=dy.199908.top
           description: 天猫平台的商品销量和热度排行榜
-
-        # 影视排行
+    - name: 影视排行
+      links:
         - title: 豆瓣电影排行榜
           logo: images/新媒运营/豆瓣电影.png
           url: https://movie.douban.com/chart?from=dy.199908.top
@@ -2743,8 +2751,8 @@
           logo: images/新媒运营/腾讯视频排行榜.png
           url: https://v.qq.com/biu/ranks?from=dy.199908.top
           description: 腾讯视频平台的影视剧集热度排行榜
-
-        # 音乐排行
+    - name: 音乐排行
+      links:
         - title: QQ音乐排行榜
           logo: images/新媒运营/QQ音乐排行榜.png
           url: https://y.qq.com/n/ryqq/toplist?from=dy.199908.top
