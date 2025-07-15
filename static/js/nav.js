@@ -198,32 +198,19 @@ function trigger_resizable()
 			ev.preventDefault();
 			console.log('Mobile menu button clicked');
 
-			// 检查当前状态
-			var isVisible = public_vars.$sidebarMenu.hasClass('mobile-is-visible');
-			console.log('Current sidebar visible state:', isVisible);
+			// 简单切换侧边栏显示状态
+			public_vars.$sidebarMenu.toggleClass('mobile-is-visible');
+			$('.mobile-menu-backdrop').toggleClass('visible');
 
-			if(isVisible) {
-				// 关闭菜单
-				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
-				public_vars.$mainMenu.removeClass('mobile-is-visible');
-				if(public_vars.$sidebarProfile) {
-					public_vars.$sidebarProfile.removeClass('mobile-is-visible');
-				}
-				$('.mobile-menu-backdrop').removeClass('visible');
-				ps_destroy();
-				console.log('Menu closed');
-			} else {
-				// 打开菜单
-				public_vars.$sidebarMenu.addClass('mobile-is-visible');
-				public_vars.$mainMenu.addClass('mobile-is-visible');
-				if(public_vars.$sidebarProfile) {
-					public_vars.$sidebarProfile.addClass('mobile-is-visible');
-				}
-				$('.mobile-menu-backdrop').addClass('visible');
+			// 检查当前状态来决定是否初始化滚动
+			if(public_vars.$sidebarMenu.hasClass('mobile-is-visible')) {
 				public_vars.$sidebarMenu.removeClass('collapsed');
-				$(".sidebar-menu-inner").css("max-height",window.innerHeight);
+				$(".sidebar-menu-inner").css("max-height", window.innerHeight + "px");
 				ps_init();
 				console.log('Menu opened');
+			} else {
+				ps_destroy();
+				console.log('Menu closed');
 			}
 		});
 		// Mobile Menu Trigger for Horizontal Menu
@@ -385,10 +372,6 @@ var public_vars = public_vars || {};
 			console.log('Backdrop clicked');
 			if(public_vars.$sidebarMenu.hasClass('mobile-is-visible')) {
 				public_vars.$sidebarMenu.removeClass('mobile-is-visible');
-				public_vars.$mainMenu.removeClass('mobile-is-visible');
-				if(public_vars.$sidebarProfile) {
-					public_vars.$sidebarProfile.removeClass('mobile-is-visible');
-				}
 				$(this).removeClass('visible');
 				ps_destroy();
 				console.log('Menu closed via backdrop');

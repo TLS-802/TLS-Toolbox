@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>移动端侧边栏测试</title>
+    <link rel="stylesheet" href="static/css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="static/js/jquery-1.11.1.min.js"></script>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+            background: #f5f5f5;
+        }
+        .test-header {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2000;
+            font-size: 14px;
+        }
+        .test-content { 
+            padding: 20px; 
+            margin-top: 50px;
+            background: white;
+            min-height: calc(100vh - 50px);
+        }
+        .status-panel {
+            background: #e9ecef;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+        }
+        .test-buttons {
+            margin: 20px 0;
+        }
+        .test-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .test-btn:hover {
+            background: #218838;
+        }
+        .debug-info {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body class="page-body">
+    <div class="test-header">
+        移动端侧边栏测试 - 请在移动设备或开发者工具移动视图中测试
+    </div>
+
+    <div class="page-container">
+        <!-- 移动端背景遮罩 -->
+        <div class="mobile-menu-backdrop"></div>
+        
+        <!-- 侧边栏菜单 -->
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <div class="logo">
+                        <a href="#" class="logo-expanded">
+                            <span style="color: #fff;">🧪 测试站点</span>
+                        </a>
+                        <a href="#" class="logo-collapsed">
+                            <span style="color: #fff;">🧪</span>
+                        </a>
+                    </div>
+                    <!-- 移动端菜单切换按钮 -->
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                <!-- 主菜单列表 -->
+                <ul id="main-menu" class="main-menu">
+                    <li><a href="#"><i class="fa fa-home"></i><span>首页</span></a></li>
+                    <li><a href="#"><i class="fa fa-user"></i><span>用户管理</span></a></li>
+                    <li><a href="#"><i class="fa fa-cog"></i><span>系统设置</span></a></li>
+                    <li><a href="#"><i class="fa fa-chart-bar"></i><span>数据统计</span></a></li>
+                    <li><a href="#"><i class="fa fa-file"></i><span>文档管理</span></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i><span>消息中心</span></a></li>
+                    <li><a href="#"><i class="fa fa-question-circle"></i><span>帮助中心</span></a></li>
+                    <li><a href="#"><i class="fa fa-info-circle"></i><span>关于我们</span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <div class="test-content">
+                <h1>移动端侧边栏交互测试</h1>
+                
+                <div class="status-panel">
+                    <h3>📱 当前状态</h3>
+                    <p><strong>窗口宽度:</strong> <span id="window-width">-</span>px</p>
+                    <p><strong>是否移动视图:</strong> <span id="is-mobile">-</span></p>
+                    <p><strong>侧边栏状态:</strong> <span id="sidebar-status">-</span></p>
+                    <p><strong>背景遮罩状态:</strong> <span id="backdrop-status">-</span></p>
+                </div>
+
+                <div class="test-buttons">
+                    <h3>🧪 测试功能</h3>
+                    <button class="test-btn" onclick="window.testMobileMenu()">检查状态</button>
+                    <button class="test-btn" onclick="window.toggleMobileMenu()">手动切换</button>
+                    <button class="test-btn" onclick="window.closeMobileMenu()">强制关闭</button>
+                </div>
+
+                <div class="status-panel">
+                    <h3>✅ 测试清单</h3>
+                    <p>请在移动视图（宽度 &lt; 768px）中验证以下功能：</p>
+                    <ul>
+                        <li>页面加载时侧边栏应该是隐藏的（不遮挡主内容）</li>
+                        <li>点击汉堡菜单图标（☰）应该能展开侧边栏</li>
+                        <li>再次点击汉堡菜单应该能收起侧边栏</li>
+                        <li>点击背景遮罩应该能关闭侧边栏</li>
+                        <li>点击菜单项应该能关闭侧边栏</li>
+                        <li>侧边栏应该有平滑的动画效果</li>
+                    </ul>
+                </div>
+
+                <div id="debug-output" class="debug-info">
+                    调试信息将显示在这里...
+                </div>
+
+                <div class="status-panel">
+                    <h3>📝 测试内容</h3>
+                    <p>这是主要内容区域。在移动端，当侧边栏隐藏时，这些内容应该完全可见，不被遮挡。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/nav.js"></script>
+    <script>
+        // 更新状态显示
+        function updateStatus() {
+            const width = window.innerWidth;
+            const isMobile = width < 768;
+            const sidebar = document.querySelector('.sidebar-menu');
+            const backdrop = document.querySelector('.mobile-menu-backdrop');
+            
+            document.getElementById('window-width').textContent = width;
+            document.getElementById('is-mobile').textContent = isMobile ? '是' : '否';
+            
+            if (sidebar) {
+                const isVisible = sidebar.classList.contains('mobile-is-visible');
+                document.getElementById('sidebar-status').textContent = isVisible ? '显示' : '隐藏';
+            }
+            
+            if (backdrop) {
+                const isVisible = backdrop.classList.contains('visible');
+                document.getElementById('backdrop-status').textContent = isVisible ? '显示' : '隐藏';
+            }
+        }
+        
+        // 重写测试函数以显示在页面上
+        window.testMobileMenu = function() {
+            const output = document.getElementById('debug-output');
+            let info = '=== 移动端菜单测试 ===\n';
+            info += `窗口宽度: ${window.innerWidth}px\n`;
+            info += `是否移动视图: ${window.innerWidth < 768}\n`;
+            
+            const sidebar = document.querySelector('.sidebar-menu');
+            const hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+            const backdrop = document.querySelector('.mobile-menu-backdrop');
+            
+            if (sidebar) {
+                info += `侧边栏类名: ${sidebar.className}\n`;
+                info += `侧边栏可见: ${sidebar.classList.contains('mobile-is-visible')}\n`;
+                info += `侧边栏transform: ${getComputedStyle(sidebar).transform}\n`;
+            }
+            
+            if (hamburger) {
+                const display = getComputedStyle(hamburger.parentElement).display;
+                info += `汉堡菜单按钮显示: ${display !== 'none'}\n`;
+            }
+            
+            if (backdrop) {
+                info += `背景遮罩可见: ${backdrop.classList.contains('visible')}\n`;
+            }
+            
+            info += '=== 测试完成 ===';
+            output.textContent = info;
+            console.log(info);
+        };
+        
+        // 定期更新状态
+        setInterval(updateStatus, 1000);
+        updateStatus();
+        
+        // 窗口大小改变时更新
+        window.addEventListener('resize', updateStatus);
+        
+        // 页面加载完成后执行一次测试
+        setTimeout(() => {
+            window.testMobileMenu();
+        }, 1000);
+    </script>
+</body>
+</html>

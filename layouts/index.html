@@ -435,46 +435,55 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Is mobile view:', window.innerWidth < 768);
 
         var sidebarMenu = document.querySelector('.sidebar-menu');
-        var mainMenu = document.getElementById('main-menu');
         var hamburger = document.querySelector('a[data-toggle="mobile-menu"]');
+        var backdrop = document.querySelector('.mobile-menu-backdrop');
 
         if(sidebarMenu) {
             console.log('Sidebar classes:', sidebarMenu.className);
-            console.log('Sidebar has mobile-is-visible:', sidebarMenu.classList.contains('mobile-is-visible'));
-        }
-        if(mainMenu) {
-            console.log('Main menu classes:', mainMenu.className);
-            console.log('Main menu has mobile-is-visible:', mainMenu.classList.contains('mobile-is-visible'));
+            console.log('Sidebar visible:', sidebarMenu.classList.contains('mobile-is-visible'));
+            console.log('Sidebar transform:', getComputedStyle(sidebarMenu).transform);
         }
         if(hamburger) {
-            console.log('Hamburger button found:', true);
+            console.log('Hamburger button found and visible:', getComputedStyle(hamburger.parentElement).display !== 'none');
         } else {
-            console.log('Hamburger button found:', false);
+            console.log('Hamburger button not found');
+        }
+        if(backdrop) {
+            console.log('Backdrop visible:', backdrop.classList.contains('visible'));
         }
         console.log('=== Test Complete ===');
     };
 
+    // 添加手动切换函数用于测试
+    window.toggleMobileMenu = function() {
+        var sidebarMenu = document.querySelector('.sidebar-menu');
+        var backdrop = document.querySelector('.mobile-menu-backdrop');
+
+        if(sidebarMenu) {
+            sidebarMenu.classList.toggle('mobile-is-visible');
+            console.log('Sidebar toggled, now visible:', sidebarMenu.classList.contains('mobile-is-visible'));
+        }
+        if(backdrop) {
+            backdrop.classList.toggle('visible');
+        }
+    };
+
     // 定义关闭移动菜单的函数
     window.closeMobileMenu = function() {
+        console.log('Closing mobile menu');
+
         // 原生JavaScript方式
-        var mainMenu = document.getElementById('main-menu');
-        var sidebarProfile = document.querySelector('.sidebar-user-info');
         var sidebarMenu = document.querySelector('.sidebar-menu');
-
-        if(mainMenu) {
-            mainMenu.classList.remove('mobile-is-visible');
-        }
-        if(sidebarProfile) {
-            sidebarProfile.classList.remove('mobile-is-visible');
-        }
-        if(sidebarMenu) {
-            sidebarMenu.classList.remove('mobile-is-visible');
-        }
-
-        // 关闭背景遮罩
         var backdrop = document.querySelector('.mobile-menu-backdrop');
+
+        if(sidebarMenu && sidebarMenu.classList.contains('mobile-is-visible')) {
+            sidebarMenu.classList.remove('mobile-is-visible');
+            console.log('Sidebar hidden');
+        }
+
         if(backdrop) {
             backdrop.classList.remove('visible');
+            console.log('Backdrop hidden');
         }
         
         // jQuery方式 - 确保与原有代码兼容
