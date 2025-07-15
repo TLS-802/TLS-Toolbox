@@ -492,10 +492,6 @@
           description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
 
         # 通用工具
-        - title: 指纹浏览器
-          logo: images/电商辅助/指纹浏览器.png
-          url: https://virtualbrowser.cc?from=dy.199908.top
-          description: 多店铺电商卖家必备，隔离ip
         - title: 哈士奇
           logo: images/电商辅助/哈士奇.jpg
           url: https://hsq.dangxun.com?from=dy.199908.top
@@ -504,6 +500,10 @@
           logo: images/电商辅助/至尊宝.jpg
           url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
           description: 多平台电商运营插件
+        - title: 指纹浏览器
+          logo: images/电商辅助/指纹浏览器.png
+          url: https://virtualbrowser.cc?from=dy.199908.top
+          description: 多店铺电商卖家必备，隔离ip
         - title: 山海云端短视频解析
           logo: images/电商辅助/山海云端短视频解析.png
           url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
