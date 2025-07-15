@@ -23,6 +23,8 @@
 <link rel='stylesheet' id='nav-css'  href='./css/nav.css?ver=2.0.0' type='text/css' media='all' />
 <!-- 添加标签式菜单CSS -->
 <link rel='stylesheet' id='tabs-css'  href='./css/tabs.css?ver=1.0.0' type='text/css' media='all' />
+<!-- Perfect Scrollbar CSS -->
+<link rel='stylesheet' id='perfect-scrollbar-css'  href='./css/perfect-scrollbar.css?ver=1.5.5' type='text/css' media='all' />
 <!-- jQuery 库引入 -->
 <script type='text/javascript' src='./js/jquery-1.11.1.min.js'></script>
 <style>
@@ -378,6 +380,8 @@
 <script type='text/javascript' src='./js/bootstrap.min.js'></script>
 <script type='text/javascript' src='./js/TweenMax.min.js'></script>
 <script type='text/javascript' src='./js/lazyload.min.js'></script>
+<!-- Perfect Scrollbar JS -->
+<script type='text/javascript' src='./js/perfect-scrollbar.min.js'></script>
 <script type='text/javascript' src='./js/nav.js'></script>
 <script type='text/javascript' src='./js/local-search.js'></script>
 {{ if .Site.Params.pinyin.enable }}
@@ -559,6 +563,81 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 执行修复函数
     fixMobileMenuBehavior();
+
+    // 调试：检查滚动功能
+    console.log('侧边栏滚动功能已启用');
+    console.log('Perfect Scrollbar (新版本) 可用:', typeof PerfectScrollbar !== 'undefined');
+    console.log('Perfect Scrollbar (jQuery插件) 可用:', typeof $.fn.perfectScrollbar !== 'undefined');
+
+    // 检查侧边栏高度和内容高度
+    setTimeout(function() {
+        var sidebar = document.querySelector('.sidebar-menu-inner');
+        var mainMenu = document.querySelector('#main-menu');
+        if(sidebar) {
+            console.log('侧边栏容器高度:', sidebar.offsetHeight);
+            console.log('侧边栏滚动高度:', sidebar.scrollHeight);
+            console.log('是否需要滚动:', sidebar.scrollHeight > sidebar.offsetHeight);
+        }
+        if(mainMenu) {
+            console.log('主菜单高度:', mainMenu.offsetHeight);
+            console.log('主菜单滚动高度:', mainMenu.scrollHeight);
+        }
+    }, 1000);
+
+    // 监听窗口大小变化，确保滚动功能正常
+    $(window).on('resize', function() {
+        setTimeout(function() {
+            if(typeof ps_update === 'function') {
+                ps_update(true);
+            }
+        }, 100);
+    });
+
+    // 添加滚动测试功能
+    window.testSidebarScroll = function() {
+        var sidebar = document.querySelector('.sidebar-menu-inner');
+        var mainMenu = document.querySelector('#main-menu');
+
+        console.log('=== 侧边栏滚动测试 ===');
+
+        if(sidebar) {
+            console.log('桌面端侧边栏:');
+            console.log('- 容器高度:', sidebar.offsetHeight + 'px');
+            console.log('- 内容高度:', sidebar.scrollHeight + 'px');
+            console.log('- 是否可滚动:', sidebar.scrollHeight > sidebar.offsetHeight);
+            console.log('- 当前滚动位置:', sidebar.scrollTop + 'px');
+            console.log('- overflow-y:', getComputedStyle(sidebar).overflowY);
+
+            if(sidebar.perfectScrollbar) {
+                console.log('- Perfect Scrollbar: 已初始化');
+            } else {
+                console.log('- Perfect Scrollbar: 未初始化');
+            }
+        }
+
+        if(mainMenu) {
+            console.log('移动端主菜单:');
+            console.log('- 容器高度:', mainMenu.offsetHeight + 'px');
+            console.log('- 内容高度:', mainMenu.scrollHeight + 'px');
+            console.log('- 是否可滚动:', mainMenu.scrollHeight > mainMenu.offsetHeight);
+            console.log('- 当前滚动位置:', mainMenu.scrollTop + 'px');
+            console.log('- overflow-y:', getComputedStyle(mainMenu).overflowY);
+
+            if(mainMenu.perfectScrollbar) {
+                console.log('- Perfect Scrollbar: 已初始化');
+            } else {
+                console.log('- Perfect Scrollbar: 未初始化');
+            }
+        }
+
+        console.log('=== 测试完成 ===');
+        console.log('在控制台输入 testSidebarScroll() 可重新测试');
+    };
+
+    // 页面加载完成后自动测试一次
+    setTimeout(function() {
+        window.testSidebarScroll();
+    }, 2000);
     
     // 添加主内容区域点击事件
     var mainContent = document.querySelector('.main-content');

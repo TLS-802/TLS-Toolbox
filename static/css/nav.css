@@ -59,7 +59,13 @@ footer.main-footer .foot-button a:hover{background-color:rgba(44,46,47,.1)}foote
 .sidebar-menu .main-menu a>span{display:inline-block}
 .sidebar-menu .main-menu a:hover{color:#fff}
 .sidebar-menu.fixed{height:100%}
-.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow:hidden}
+.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#555 #2c2e2f}
+
+/* 自定义滚动条样式 - Webkit浏览器 */
+.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar{width:6px}
+.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-track{background:#2c2e2f}
+.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-thumb{background:#555;border-radius:3px}
+.sidebar-menu.fixed .sidebar-menu-inner::-webkit-scrollbar-thumb:hover{background:#666}
 .sidebar-menu .main-menu ul{display:none;margin:0;padding:0;overflow:hidden;list-style:none}
 .sidebar-menu .main-menu ul li{position:relative}
 @media screen and (min-width:768px){.sidebar-menu .main-menu ul li.is-hidden{left:-20px;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0}
@@ -138,7 +144,66 @@ footer.main-footer:after{clear:both}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i{line-height:1;font-size:20px;position:relative;top:10px}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,.page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus{color:#fff}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu{display:none}
-.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{display:block}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible{display:block;max-height:calc(100vh - 80px);overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#555 #2c2e2f}
+
+/* 移动端滚动条样式 */
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar{width:6px}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar-track{background:#2c2e2f}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar-thumb{background:#555;border-radius:3px}
+.page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible::-webkit-scrollbar-thumb:hover{background:#666}
+
+/* 确保侧边栏主菜单在桌面端也有适当的高度限制 */
+@media screen and (min-width:768px){
+	.sidebar-menu .main-menu{
+		max-height:calc(100vh - 120px);
+		overflow-y:auto;
+		overflow-x:hidden;
+	}
+}
+
+/* 平滑滚动效果 */
+.sidebar-menu .sidebar-menu-inner,
+.sidebar-menu .main-menu{
+	scroll-behavior:smooth;
+}
+
+/* 滚动时的过渡效果 */
+.sidebar-menu .sidebar-menu-inner,
+.sidebar-menu .main-menu.mobile-is-visible{
+	transition:all 0.3s ease;
+}
+
+/* Perfect Scrollbar 在侧边栏中的样式调整 */
+.sidebar-menu .ps__rail-y {
+	right: 0;
+	width: 8px;
+	background-color: transparent;
+}
+
+.sidebar-menu .ps__thumb-y {
+	background-color: #555;
+	width: 6px;
+	right: 1px;
+	border-radius: 3px;
+}
+
+.sidebar-menu:hover .ps__rail-y {
+	opacity: 0.8;
+}
+
+.sidebar-menu .ps__rail-y:hover .ps__thumb-y {
+	background-color: #666;
+	width: 8px;
+}
+
+/* 确保滚动条不会覆盖内容 */
+.sidebar-menu .sidebar-menu-inner {
+	padding-right: 10px;
+}
+
+.sidebar-menu .main-menu.mobile-is-visible {
+	padding-right: 10px;
+}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible.both-menus-visible{margin-top:0;padding-top:0}
 .page-container .sidebar-menu .sidebar-menu-inner .main-menu>li:last-child>a{border-bottom:0}
 .page-container .main-content .navbar.user-info-navbar{display:none}
