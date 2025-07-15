@@ -1095,7 +1095,6 @@
   icon: fa-cogs
   list:  # 添加list属性，用于侧边栏显示
     - term: 电商辅助
-    - term: 电商货源
     - term: 直播辅助
     - term: 创作排版
     - term: 数据分析
@@ -1185,307 +1184,6 @@
           logo: images/电商辅助/达连.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
-    - name: 电商货源
-      links:
-        # 主流货源平台
-        - title: 1688
-          logo: images/电商辅助/阿里巴巴.png
-          url: https://www.1688.com?from=dy.199908.top
-          description: 1688货源平台
-        - title: 淘货源
-          logo: images/电商货源/taohuoyuan.png
-          url: https://tao.1688.com?from=dy.199908.top
-          description: 自由、赚钱的在线生意平台
-        - title: 义乌购
-          logo: images/电商辅助/义乌购.png
-          url: https://www.yiwugo.com?from=dy.199908.top
-          description: 义乌购货源平台
-        - title: 中国制造网
-          logo: images/电商货源/zhizaowang.png
-          url: https://cn.made-in-china.com?from=dy.199908.top
-          description: 中国制造网-内贸站
-        - title: 世界工厂
-          logo: images/电商货源/made-in-china.png
-          url: https://www.made-in-china.com?from=dy.199908.top
-          description: 中国制造网-工厂货源平台
-
-        # 专业货源平台
-        - title: 搜款网
-          logo: images/电商货源/soukuan.png
-          url: https://www.go2.cn?from=dy.199908.top
-          description: 女鞋批发市场货源平台
-        - title: 找工厂
-          logo: images/电商货源/zhaogongchang.png
-          url: https://www.zhaozhichang.com?from=dy.199908.top
-          description: 工厂直供货源对接平台
-        - title: 找厂网
-          logo: images/电商货源/zhaogongchang.png
-          url: https://www.entfind.com?from=dy.199908.top
-          description: 工厂直供货源对接平台
-        - title: 箱包网
-          logo: images/电商货源/xiangbaowang.png
-          url: https://www.pop-bags.com/trends?from=dy.199908.top
-          description: 箱包批发货源平台
-        - title: 包牛牛
-          logo: images/电商货源/baoniuniu.png
-          url: http://www.bao66.cn/web?from=dy.199908.top
-          description: 白沟箱包批发货源平台
-        - title: 汽配人
-          logo: images/电商货源/qipeiren.png
-          url: https://qpmall.com?from=dy.199908.top
-          description: 汽车配件货源平台
-        - title: 17货源网
-          logo: images/电商货源/17huoyuan.png
-          url: https://17zwd.com?from=dy.199908.top
-          description: 广州服装批发一手货源平台
-        - title: 开山鞋网
-          logo: images/电商货源/kaishanwang.png
-          url: https://www.k3.cn?from=dy.199908.top
-          description: 鞋类批发网站
-        - title: 找家纺
-          logo: images/电商货源/zhaojiafang.png
-          url: https://www.zhaojiafang.com?from=dy.199908.top
-          description: 家纺批发货源平台
-        - title: 华强电子
-          logo: images/电商货源/huaqiang.png
-          url: https://www.ickey.cn?from=dy.199908.top
-          description: 华强电子
-        - title: 猎芯网
-          logo: images/电商货源/liexin.png
-          url: https://www.ichunt.com?from=dy.199908.top
-          description: 电子元器件货源平台
-        - title: 玩具巴巴
-          logo: images/电商货源/wanbaoba.png
-          url: https://www.toybaba.com?from=dy.199908.top
-          description: 玩具巴巴
-
-        # 服装鞋帽货源
-        - title: 搜好货
-          logo: images/电商货源/sohogood.png
-          url: https://www.912688.com?from=dy.199908.top
-          description: 服装批发货源平台
-        - title: 中国女装网
-          logo: images/电商货源/nzw.png
-          url: https://www.nz86.com?from=dy.199908.top
-          description: 女装批发货源平台
-        - title: 中国服装网
-          logo: images/电商货源/efu.png
-          url: https://www.efu.com.cn?from=dy.199908.top
-          description: 服装行业门户网站
-        - title: 环球鞋网
-          logo: images/电商货源/shoes.png
-          url: https://www.shoes.net.cn?from=dy.199908.top
-          description: 鞋类批发货源平台
-
-        # 美妆护肤货源
-        - title: 中国美容美发网
-          logo: images/电商货源/beauty.png
-          url: https://www.138job.com?from=dy.199908.top
-          description: 美容美发用品货源平台
-        - title: 化妆品招商网
-          logo: images/电商货源/hzpzs.png
-          url: https://www.hzpzs.net?from=dy.199908.top
-          description: 化妆品批发招商平台
-        - title: 中国化妆品网
-          logo: images/电商货源/china-cosmetics.png
-          url: https://www.china-cosmetics.com?from=dy.199908.top
-          description: 化妆品行业门户网站
-
-        # 母婴用品货源
-        - title: 中国婴童网
-          logo: images/电商货源/baobei360.png
-          url: https://www.baobei360.com?from=dy.199908.top
-          description: 母婴用品批发货源平台
-        - title: 孕婴童网
-          logo: images/电商货源/yunying.png
-          url: https://www.yunying.com?from=dy.199908.top
-          description: 孕婴童用品货源平台
-
-        # 食品饮料货源
-        - title: 中国食品网
-          logo: images/电商货源/foodmate.png
-          url: https://www.foodmate.net?from=dy.199908.top
-          description: 食品行业门户网站
-        - title: 糖酒快讯
-          logo: images/电商货源/tjkx.png
-          url: https://www.tjkx.com?from=dy.199908.top
-          description: 糖酒食品批发货源平台
-        - title: 中国酒业网
-          logo: images/电商货源/jiuye.png
-          url: https://www.jiuye.com?from=dy.199908.top
-          description: 酒类批发货源平台
-
-        # 数码3C货源
-        - title: 中关村在线
-          logo: images/电商货源/zol.png
-          url: https://www.zol.com.cn?from=dy.199908.top
-          description: 数码产品资讯平台
-        - title: 太平洋电脑网
-          logo: images/电商货源/pconline.png
-          url: https://www.pconline.com.cn?from=dy.199908.top
-          description: 数码产品资讯平台
-        - title: 慧聪网
-          logo: images/电商货源/hc360.png
-          url: https://www.hc360.com?from=dy.199908.top
-          description: B2B电子商务平台
-
-        # 跨境电商货源
-        - title: 敦煌网
-          logo: images/电商货源/dhgate.png
-          url: https://www.dhgate.com?from=dy.199908.top
-          description: 跨境电商B2B平台
-        - title: 全球速卖通
-          logo: images/电商货源/aliexpress.png
-          url: https://www.aliexpress.com?from=dy.199908.top
-          description: 阿里巴巴跨境电商平台
-        - title: 中国供应商
-          logo: images/电商货源/china.png
-          url: https://cn.china.cn?from=dy.199908.top
-          description: 中国供应商B2B平台
-        - title: 环球资源
-          logo: images/电商货源/globalsources.png
-          url: https://www.globalsources.com?from=dy.199908.top
-          description: 跨境电商B2B平台
-        - title: 亚马逊全球开店
-          logo: images/电商货源/amazon.png
-          url: https://sell.amazon.cn?from=dy.199908.top
-          description: 亚马逊跨境电商平台
-
-        # 家居家装货源
-        - title: 中国家具网
-          logo: images/电商货源/jiaju.png
-          url: https://www.jiaju.com?from=dy.199908.top
-          description: 家具批发货源平台
-        - title: 中华家居网
-          logo: images/电商货源/chinajj.png
-          url: https://www.chinajj.com?from=dy.199908.top
-          description: 家居行业门户网站
-        - title: 中国灯饰网
-          logo: images/电商货源/dengshi.png
-          url: https://www.dengshi.com?from=dy.199908.top
-          description: 灯饰批发货源平台
-        - title: 中国布艺网
-          logo: images/电商货源/buyi.png
-          url: https://www.buyi.com?from=dy.199908.top
-          description: 布艺批发货源平台
-
-        # 珠宝饰品货源
-        - title: 中国珠宝网
-          logo: images/电商货源/jewellery.png
-          url: https://www.jewellery.org.cn?from=dy.199908.top
-          description: 珠宝行业门户网站
-        - title: 义乌饰品网
-          logo: images/电商货源/yiwushipin.png
-          url: https://www.yiwushipin.com?from=dy.199908.top
-          description: 义乌饰品批发货源平台
-        - title: 中国饰品网
-          logo: images/电商货源/shipin.png
-          url: https://www.shipin.com?from=dy.199908.top
-          description: 饰品批发货源平台
-
-        # 农产品货源
-        - title: 中国农产品网
-          logo: images/电商货源/ncp.png
-          url: https://www.ncp.cn?from=dy.199908.top
-          description: 农产品批发货源平台
-        - title: 农产品批发网
-          logo: images/电商货源/ncpfw.png
-          url: https://www.ncpfw.com?from=dy.199908.top
-          description: 农产品批发货源平台
-        - title: 中国茶叶网
-          logo: images/电商货源/chaye.png
-          url: https://www.chaye.com?from=dy.199908.top
-          description: 茶叶批发货源平台
-
-        # 个人彩妆品牌
-        - title: 花西子
-          logo: images/电商货源/huaxizi.png
-          url: https://www.huaxizi.cn?from=dy.199908.top
-          description: 东方彩妆品牌，以花养妆
-        - title: 完美日记
-          logo: images/电商货源/wanmei.png
-          url: https://www.perfectdiary.com?from=dy.199908.top
-          description: 国产彩妆品牌
-        - title: 毛戈平
-          logo: images/电商货源/gexiumingzhuang.png
-          url: https://www.maogepingbeauty.com?from=dy.199908.top
-          description: 毛戈平MGP官方彩妆护肤平台
-        - title: 戴春林
-          logo: images/电商货源/daichunlin.png
-          url: https://www.daichunlin.com.hk?from=dy.199908.top
-          description: 源自1628年的中华古典御妆
-
-        # 汽车用品货源
-        - title: 汽配中国
-          logo: images/电商货源/qipeiren.png
-          url: https://www.chinaautoparts.info?from=dy.199908.top
-          description: 汽车配件货源批发平台
-        - title: 中国汽配网
-          logo: images/电商货源/qipei.png
-          url: https://www.qipei.com?from=dy.199908.top
-          description: 汽车配件批发货源平台
-
-        # 体育用品货源
-        - title: 中国体育用品网
-          logo: images/电商货源/sports.png
-          url: https://www.sports.cn?from=dy.199908.top
-          description: 体育用品批发货源平台
-        - title: 义乌体育用品网
-          logo: images/电商货源/yiwusports.png
-          url: https://www.yiwusports.com?from=dy.199908.top
-          description: 义乌体育用品批发货源平台
-
-        # 办公用品货源
-        - title: 中国办公用品网
-          logo: images/电商货源/office.png
-          url: https://www.office.com.cn?from=dy.199908.top
-          description: 办公用品批发货源平台
-        - title: 办公伙伴
-          logo: images/电商货源/bgpartner.png
-          url: https://www.bgpartner.cn?from=dy.199908.top
-          description: 办公用品批发货源平台
-
-        # 礼品工艺品货源
-        - title: 中国礼品网
-          logo: images/电商货源/gift.png
-          url: https://www.gift.com.cn?from=dy.199908.top
-          description: 礼品批发货源平台
-        - title: 义乌礼品网
-          logo: images/电商货源/yiwugift.png
-          url: https://www.yiwugift.com?from=dy.199908.top
-          description: 义乌礼品批发货源平台
-        - title: 中国工艺品网
-          logo: images/电商货源/craft.png
-          url: https://www.craft.com.cn?from=dy.199908.top
-          description: 工艺品批发货源平台
-
-        # 建材五金货源
-        - title: 中国建材网
-          logo: images/电商货源/bmlink.png
-          url: https://www.bmlink.com?from=dy.199908.top
-          description: 建材批发货源平台
-        - title: 中国五金网
-          logo: images/电商货源/wujin.png
-          url: https://www.wujin.com?from=dy.199908.top
-          description: 五金批发货源平台
-        - title: 慧聪五金网
-          logo: images/电商货源/hc360wj.png
-          url: https://wujin.hc360.com?from=dy.199908.top
-          description: 五金行业B2B平台
-
-        # 其他专业货源
-        - title: 军埔批发网
-          logo: images/电商货源/junpu.png
-          url: https://www.jp0663.com?from=dy.199908.top
-          description: 军埔货源平台
-        - title: 中国鞋库网
-          logo: images/电商货源/zhongguoxieku.png
-          url: https://www.cnxieku.com?from=dy.199908.top
-          description: 中国鞋库网
-        - title: Taocarts
-          logo: images/电商货源/taocarts.png
-          url: https://taocarts.com?from=dy.199908.top
-          description: 淘宝代购系统跨境电商平台
     - name: 直播辅助
       links:
         # 热门平台直播工具
@@ -2590,6 +2288,320 @@
           logo: images/新媒运营/绘蛙.png
           url: https://www.huiwa.com?from=dy.199908.top
           description: 创意文生图平台，为社交媒体平台生成吸引眼球的内容
+
+- taxonomy: 电商货源
+  icon: fa-video
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 服装鞋帽
+    - term: 美妆护肤
+    - term: 数码3C
+    - term: 珠宝饰品
+    - term: 母婴用品
+    - term: 食品饮料
+    - term: 农产品
+    - term: 家居家装
+    - term: 汽车用品
+    - term: 跨境电商
+    - term: 其他
+  tabs:
+    - name: 服装鞋帽
+      links:
+        - title: 17货源网
+          logo: images/电商货源/17huoyuan.png
+          url: https://17zwd.com?from=dy.199908.top
+          description: 广州服装批发一手货源平台
+        - title: 搜好货
+          logo: images/电商货源/sohogood.png
+          url: https://www.912688.com?from=dy.199908.top
+          description: 服装批发货源平台
+        - title: 中国女装网
+          logo: images/电商货源/nzw.png
+          url: https://www.nz86.com?from=dy.199908.top
+          description: 女装批发货源平台
+        - title: 中国服装网
+          logo: images/电商货源/efu.png
+          url: https://www.efu.com.cn?from=dy.199908.top
+          description: 服装行业门户网站
+        - title: 搜款网
+          logo: images/电商货源/soukuan.png
+          url: https://www.go2.cn?from=dy.199908.top
+          description: 女鞋批发市场货源平台
+        - title: 开山鞋网
+          logo: images/电商货源/kaishanwang.png
+          url: https://www.k3.cn?from=dy.199908.top
+          description: 鞋类批发网站
+        - title: 环球鞋网
+          logo: images/电商货源/shoes.png
+          url: https://www.shoes.net.cn?from=dy.199908.top
+          description: 鞋类批发货源平台
+        - title: 中国鞋库网
+          logo: images/电商货源/zhongguoxieku.png
+          url: https://www.cnxieku.com?from=dy.199908.top
+          description: 中国鞋库网
+        - title: 箱包网
+          logo: images/电商货源/xiangbaowang.png
+          url: https://www.pop-bags.com/trends?from=dy.199908.top
+          description: 箱包批发货源平台
+        - title: 包牛牛
+          logo: images/电商货源/baoniuniu.png
+          url: http://www.bao66.cn/web?from=dy.199908.top
+          description: 白沟箱包批发货源平台
+
+    - name: 美妆护肤
+      links:
+        - title: 中国美容美发网
+          logo: images/电商货源/beauty.png
+          url: https://www.138job.com?from=dy.199908.top
+          description: 美容美发用品货源平台
+        - title: 化妆品招商网
+          logo: images/电商货源/hzpzs.png
+          url: https://www.hzpzs.net?from=dy.199908.top
+          description: 化妆品批发招商平台
+        - title: 中国化妆品网
+          logo: images/电商货源/china-cosmetics.png
+          url: https://www.china-cosmetics.com?from=dy.199908.top
+          description: 化妆品行业门户网站
+        - title: 花西子
+          logo: images/电商货源/huaxizi.png
+          url: https://www.huaxizi.cn?from=dy.199908.top
+          description: 东方彩妆品牌，以花养妆
+        - title: 完美日记
+          logo: images/电商货源/wanmei.png
+          url: https://www.perfectdiary.com?from=dy.199908.top
+          description: 国产彩妆品牌
+        - title: 毛戈平
+          logo: images/电商货源/gexiumingzhuang.png
+          url: https://www.maogepingbeauty.com?from=dy.199908.top
+          description: 毛戈平MGP官方彩妆护肤平台
+        - title: 戴春林
+          logo: images/电商货源/daichunlin.png
+          url: https://www.daichunlin.com.hk?from=dy.199908.top
+          description: 源自1628年的中华古典御妆
+
+    - name: 数码3C
+      links:
+        - title: 华强电子
+          logo: images/电商货源/huaqiang.png
+          url: https://www.ickey.cn?from=dy.199908.top
+          description: 华强电子元器件平台
+        - title: 猎芯网
+          logo: images/电商货源/liexin.png
+          url: https://www.ichunt.com?from=dy.199908.top
+          description: 电子元器件货源平台
+        - title: 中关村在线
+          logo: images/电商货源/zol.png
+          url: https://www.zol.com.cn?from=dy.199908.top
+          description: 数码产品资讯平台
+        - title: 太平洋电脑网
+          logo: images/电商货源/pconline.png
+          url: https://www.pconline.com.cn?from=dy.199908.top
+          description: 数码产品资讯平台
+        - title: 慧聪网
+          logo: images/电商货源/hc360.png
+          url: https://www.hc360.com?from=dy.199908.top
+          description: B2B电子商务平台
+
+    - name: 珠宝饰品
+      links:
+        - title: 中国珠宝网
+          logo: images/电商货源/jewellery.png
+          url: https://www.jewellery.org.cn?from=dy.199908.top
+          description: 珠宝行业门户网站
+        - title: 义乌饰品网
+          logo: images/电商货源/yiwushipin.png
+          url: https://www.yiwushipin.com?from=dy.199908.top
+          description: 义乌饰品批发货源平台
+        - title: 中国饰品网
+          logo: images/电商货源/shipin.png
+          url: https://www.shipin.com?from=dy.199908.top
+          description: 饰品批发货源平台
+
+    - name: 母婴用品
+      links:
+        - title: 中国婴童网
+          logo: images/电商货源/baobei360.png
+          url: https://www.baobei360.com?from=dy.199908.top
+          description: 母婴用品批发货源平台
+        - title: 孕婴童网
+          logo: images/电商货源/yunying.png
+          url: https://www.yunying.com?from=dy.199908.top
+          description: 孕婴童用品货源平台
+        - title: 玩具巴巴
+          logo: images/电商货源/wanbaoba.png
+          url: https://www.toybaba.com?from=dy.199908.top
+          description: 玩具批发货源平台
+
+    - name: 食品饮料
+      links:
+        - title: 中国食品网
+          logo: images/电商货源/foodmate.png
+          url: https://www.foodmate.net?from=dy.199908.top
+          description: 食品行业门户网站
+        - title: 糖酒快讯
+          logo: images/电商货源/tjkx.png
+          url: https://www.tjkx.com?from=dy.199908.top
+          description: 糖酒食品批发货源平台
+        - title: 中国酒业网
+          logo: images/电商货源/jiuye.png
+          url: https://www.jiuye.com?from=dy.199908.top
+          description: 酒类批发货源平台
+
+    - name: 农产品
+      links:
+        - title: 中国农产品网
+          logo: images/电商货源/ncp.png
+          url: https://www.ncp.cn?from=dy.199908.top
+          description: 农产品批发货源平台
+        - title: 农产品批发网
+          logo: images/电商货源/ncpfw.png
+          url: https://www.ncpfw.com?from=dy.199908.top
+          description: 农产品批发货源平台
+        - title: 中国茶叶网
+          logo: images/电商货源/chaye.png
+          url: https://www.chaye.com?from=dy.199908.top
+          description: 茶叶批发货源平台
+
+    - name: 家居家装
+      links:
+        - title: 找家纺
+          logo: images/电商货源/zhaojiafang.png
+          url: https://www.zhaojiafang.com?from=dy.199908.top
+          description: 家纺批发货源平台
+        - title: 中国家具网
+          logo: images/电商货源/jiaju.png
+          url: https://www.jiaju.com?from=dy.199908.top
+          description: 家具批发货源平台
+        - title: 中华家居网
+          logo: images/电商货源/chinajj.png
+          url: https://www.chinajj.com?from=dy.199908.top
+          description: 家居行业门户网站
+        - title: 中国灯饰网
+          logo: images/电商货源/dengshi.png
+          url: https://www.dengshi.com?from=dy.199908.top
+          description: 灯饰批发货源平台
+        - title: 中国布艺网
+          logo: images/电商货源/buyi.png
+          url: https://www.buyi.com?from=dy.199908.top
+          description: 布艺批发货源平台
+        - title: 中国建材网
+          logo: images/电商货源/bmlink.png
+          url: https://www.bmlink.com?from=dy.199908.top
+          description: 建材批发货源平台
+        - title: 中国五金网
+          logo: images/电商货源/wujin.png
+          url: https://www.wujin.com?from=dy.199908.top
+          description: 五金批发货源平台
+        - title: 慧聪五金网
+          logo: images/电商货源/hc360wj.png
+          url: https://wujin.hc360.com?from=dy.199908.top
+          description: 五金行业B2B平台
+
+    - name: 汽车用品
+      links:
+        - title: 汽配人
+          logo: images/电商货源/qipeiren.png
+          url: https://qpmall.com?from=dy.199908.top
+          description: 汽车配件货源平台
+        - title: 汽配中国
+          logo: images/电商货源/qipeiren.png
+          url: https://www.chinaautoparts.info?from=dy.199908.top
+          description: 汽车配件货源批发平台
+        - title: 中国汽配网
+          logo: images/电商货源/qipei.png
+          url: https://www.qipei.com?from=dy.199908.top
+          description: 汽车配件批发货源平台
+
+    - name: 跨境电商
+      links:
+        - title: 敦煌网
+          logo: images/电商货源/dhgate.png
+          url: https://www.dhgate.com?from=dy.199908.top
+          description: 跨境电商B2B平台
+        - title: 全球速卖通
+          logo: images/电商货源/aliexpress.png
+          url: https://www.aliexpress.com?from=dy.199908.top
+          description: 阿里巴巴跨境电商平台
+        - title: 中国供应商
+          logo: images/电商货源/china.png
+          url: https://cn.china.cn?from=dy.199908.top
+          description: 中国供应商B2B平台
+        - title: 环球资源
+          logo: images/电商货源/globalsources.png
+          url: https://www.globalsources.com?from=dy.199908.top
+          description: 跨境电商B2B平台
+        - title: 亚马逊全球开店
+          logo: images/电商货源/amazon.png
+          url: https://sell.amazon.cn?from=dy.199908.top
+          description: 亚马逊跨境电商平台
+        - title: Taocarts
+          logo: images/电商货源/taocarts.png
+          url: https://taocarts.com?from=dy.199908.top
+          description: 淘宝代购系统跨境电商平台
+
+    - name: 其他
+      links:
+        - title: 1688
+          logo: images/电商辅助/阿里巴巴.png
+          url: https://www.1688.com?from=dy.199908.top
+          description: 阿里巴巴1688货源平台
+        - title: 淘货源
+          logo: images/电商货源/taohuoyuan.png
+          url: https://tao.1688.com?from=dy.199908.top
+          description: 自由、赚钱的在线生意平台
+        - title: 义乌购
+          logo: images/电商辅助/义乌购.png
+          url: https://www.yiwugo.com?from=dy.199908.top
+          description: 义乌购货源平台
+        - title: 中国制造网
+          logo: images/电商货源/zhizaowang.png
+          url: https://cn.made-in-china.com?from=dy.199908.top
+          description: 中国制造网-内贸站
+        - title: 世界工厂
+          logo: images/电商货源/made-in-china.png
+          url: https://www.made-in-china.com?from=dy.199908.top
+          description: 中国制造网-工厂货源平台
+        - title: 找工厂
+          logo: images/电商货源/zhaogongchang.png
+          url: https://www.zhaozhichang.com?from=dy.199908.top
+          description: 工厂直供货源对接平台
+        - title: 找厂网
+          logo: images/电商货源/zhaogongchang.png
+          url: https://www.entfind.com?from=dy.199908.top
+          description: 工厂直供货源对接平台
+        - title: 中国体育用品网
+          logo: images/电商货源/sports.png
+          url: https://www.sports.cn?from=dy.199908.top
+          description: 体育用品批发货源平台
+        - title: 义乌体育用品网
+          logo: images/电商货源/yiwusports.png
+          url: https://www.yiwusports.com?from=dy.199908.top
+          description: 义乌体育用品批发货源平台
+        - title: 中国办公用品网
+          logo: images/电商货源/office.png
+          url: https://www.office.com.cn?from=dy.199908.top
+          description: 办公用品批发货源平台
+        - title: 办公伙伴
+          logo: images/电商货源/bgpartner.png
+          url: https://www.bgpartner.cn?from=dy.199908.top
+          description: 办公用品批发货源平台
+        - title: 中国礼品网
+          logo: images/电商货源/gift.png
+          url: https://www.gift.com.cn?from=dy.199908.top
+          description: 礼品批发货源平台
+        - title: 义乌礼品网
+          logo: images/电商货源/yiwugift.png
+          url: https://www.yiwugift.com?from=dy.199908.top
+          description: 义乌礼品批发货源平台
+        - title: 中国工艺品网
+          logo: images/电商货源/craft.png
+          url: https://www.craft.com.cn?from=dy.199908.top
+          description: 工艺品批发货源平台
+        - title: 军埔批发网
+          logo: images/电商货源/junpu.png
+          url: https://www.jp0663.com?from=dy.199908.top
+          description: 军埔货源平台
+
+
 
 - taxonomy: 广告投放
   icon: fa-bullhorn
