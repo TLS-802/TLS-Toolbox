@@ -2560,10 +2560,6 @@
           logo: images/电商货源/made-in-china.png
           url: https://www.made-in-china.com?from=dy.199908.top
           description: 中国制造网-工厂货源平台
-        - title: 找工厂
-          logo: images/电商货源/zhaogongchang.png
-          url: https://www.zhaozhichang.com?from=dy.199908.top
-          description: 工厂直供货源对接平台
         - title: 找厂网
           logo: images/电商货源/zhaogongchang.png
           url: https://www.entfind.com?from=dy.199908.top
@@ -2572,36 +2568,10 @@
           logo: images/电商货源/sports.png
           url: https://www.sports.cn?from=dy.199908.top
           description: 体育用品批发货源平台
-        - title: 义乌体育用品网
-          logo: images/电商货源/yiwusports.png
-          url: https://www.yiwusports.com?from=dy.199908.top
-          description: 义乌体育用品批发货源平台
-        - title: 中国办公用品网
-          logo: images/电商货源/office.png
-          url: https://www.office.com.cn?from=dy.199908.top
-          description: 办公用品批发货源平台
-        - title: 办公伙伴
-          logo: images/电商货源/bgpartner.png
-          url: https://www.bgpartner.cn?from=dy.199908.top
-          description: 办公用品批发货源平台
-        - title: 中国礼品网
-          logo: images/电商货源/gift.png
-          url: https://www.gift.com.cn?from=dy.199908.top
-          description: 礼品批发货源平台
-        - title: 义乌礼品网
-          logo: images/电商货源/yiwugift.png
-          url: https://www.yiwugift.com?from=dy.199908.top
-          description: 义乌礼品批发货源平台
-        - title: 中国工艺品网
-          logo: images/电商货源/craft.png
-          url: https://www.craft.com.cn?from=dy.199908.top
-          description: 工艺品批发货源平台
         - title: 军埔批发网
           logo: images/电商货源/junpu.png
           url: https://www.jp0663.com?from=dy.199908.top
           description: 军埔货源平台
-
-
 
 - taxonomy: 广告投放
   icon: fa-bullhorn
