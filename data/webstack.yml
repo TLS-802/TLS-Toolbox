@@ -1373,6 +1373,18 @@
           logo: images/图标字体/iconfont.png
           url: https://www.sensorsdata.cn?from=dy.199908.top
           description: 用户行为分析平台
+        - title: 清博指数
+          logo: images/新媒运营/清博大数据.png
+          url: https://www.gsdata.cn?from=dy.199908.top
+          description: 提供微信公众号、微博、抖音等平台的数据分析和排行榜
+        - title: 西瓜数据
+          logo: images/新媒运营/西瓜数据.png
+          url: https://data.xiguaji.com?from=dy.199908.top
+          description: 专注于抖音、快手等短视频平台的数据分析工具
+        - title: 微小宝
+          logo: images/新媒运营/微小宝.png
+          url: https://www.wxb.com?from=dy.199908.top
+          description: 提供微信公众号数据分析和运营工具
 
 
 
@@ -1571,6 +1583,14 @@
           logo: images/新媒运营/金数据.png
           url: https://jinshuju.net?from=dy.199908.top
           description: 专业的表单和数据收集工具
+        - title: 小鹅通
+          logo: images/新媒运营/小鹅通.png
+          url: https://www.xiaoe-tech.com?from=dy.199908.top
+          description: 提供知识付费、课程运营、社群管理等服务的综合平台
+        - title: 聚合数据
+          logo: images/新媒运营/聚合数据.png
+          url: https://www.juhe.cn?from=dy.199908.top
+          description: 提供各类API接口服务，帮助开发者快速实现功能
 
     - name: 媒体平台
       links:
@@ -2255,6 +2275,22 @@
           logo: images/视频编辑/淘宝.png
           url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
           description: 淘宝直播片段生成工具
+        - title: 快影
+          logo: images/新媒运营/快影.png
+          url: https://kuaiying.tv?from=dy.199908.top
+          description: 快手旗下的视频剪辑工具，适合快手短视频创作
+        - title: 轻剪辑
+          logo: images/新媒运营/轻剪辑.png
+          url: https://www.qingjianjie.com?from=dy.199908.top
+          description: 在线视频剪辑工具，无需下载安装，操作简单
+        - title: 万兴喵影
+          logo: images/新媒运营/万兴剪映.png
+          url: https://filmora.wondershare.cn?from=dy.199908.top
+          description: 专业的视频剪辑软件，提供丰富的特效和模板
+        - title: 剪辑师
+          logo: images/新媒运营/剪辑师.png
+          url: https://www.jianjiushi.cn?from=dy.199908.top
+          description: 在线视频剪辑工具，提供丰富的模板和素材
     - name: AI视频生成
       links:
         - title: 即梦AI
@@ -2309,6 +2345,14 @@
           logo: images/视频编辑/江湖工具箱.png
           url: https://www.jianghudata.com?from=dy.199908.top
           description: 电商多功能软件
+        - title: 八爪鱼采集器
+          logo: images/新媒运营/短视频工具.png
+          url: https://www.bazhuayu.com?from=dy.199908.top
+          description: 免费网络爬虫软件_网页大数据抓取工具
+        - title: 灵球去水印
+          logo: images/新媒运营/灵球去水印.png
+          url: https://videofk.com?from=dy.199908.top
+          description: 支持无水印保存主流媒体平台视频/图片
 
 - taxonomy: 图文设计
   icon: fa-palette
@@ -2459,6 +2503,28 @@
           logo: images/新媒运营/135小红书.png
           url: https://www.135editor.com/red.html?from=dy.199908.top
           description: 135小红书排版神器是一款专为小红书平台设计的AI智能排版工具，旨在帮助用户优化笔记的视觉效果和内容布局，提升笔记的吸引力和阅读体验
+
+        # 新媒体管理工具
+        - title: 新媒体管家
+          logo: images/新媒运营/新媒体管家.png
+          url: https://xmt.cn?from=dy.199908.top
+          description: 集内容创作、排版、发布、数据分析于一体的新媒体运营工具
+        - title: 新榜编辑器
+          logo: images/新媒运营/新榜编辑器.png
+          url: https://edit.newrank.cn?from=dy.199908.top
+          description: 新榜推出的新媒体内容创作工具，支持多平台内容创作和发布
+        - title: Reditor编辑器
+          logo: images/新媒运营/Reditor编辑器.png
+          url: https://help.reditorapp.com?from=dy.199908.top
+          description: 小红书专业编辑工具，提供违禁词检测、AI文案生成等功能
+        - title: XHSPlus
+          logo: images/新媒运营/XHSPlus.png
+          url: https://xhsplus.io?from=dy.199908.top
+          description: 小红书AI创作助手，提供爆款文案生成、编辑器和敏感词检测
+        - title: 零克查词
+          logo: images/新媒运营/零克查词.png
+          url: https://www.liangekeji.com?from=dy.199908.top
+          description: 专业小红书敏感词和违规词检测工具
     - name: 图片素材
       links:
         - title: Unsplash
