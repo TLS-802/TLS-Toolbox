@@ -1008,7 +1008,7 @@
     - term: 配音工具
     - term: 视频处理
   tabs:
-    - name: 视频剪辑软件
+    - name: 剪辑软件
       links:
         - title: 剪映
           logo: images/视频编辑/剪映.png
@@ -1046,7 +1046,7 @@
           logo: images/新媒运营/剪辑师.png
           url: https://www.jianjiushi.cn?from=dy.199908.top
           description: 在线视频剪辑工具，提供丰富的模板和素材
-    - name: AI视频生成
+    - name: AI 视频
       links:
         - title: 即梦AI
           logo: images/视频编辑/即梦AI.png
@@ -2130,11 +2130,11 @@
   list:  # 添加list属性，用于侧边栏显示
     - term: 数据可视化
     - term: 网站分析
-    - term: 移动应用分析
-    - term: 电商数据分析
-    - term: 社交媒体分析
-    - term: 办公数据处理
-    - term: 营销数据分析
+    - term: 应用分析
+    - term: 电商分析
+    - term: 媒体分析
+    - term: 办公数据
+    - term: 营销数据
   tabs:
     - name: 数据可视化
       links:
@@ -2180,7 +2180,7 @@
           logo: images/新媒运营/SimilarWeb.png
           url: https://www.similarweb.com?from=dy.199908.top
           description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
-    - name: 移动应用分析
+    - name: 应用分析
       links:
         - title: 友盟+
           logo: images/新媒运营/友盟.png
@@ -2198,7 +2198,7 @@
           logo: images/新媒运营/数据研究.png
           url: https://qianfan.analysys.cn?from=dy.199908.top
           description: 移动互联网运营分析平台
-    - name: 电商数据分析
+    - name: 电商分析
       links:
         - title: 生意参谋
           logo: images/数据分析/生意参谋.png
@@ -2216,7 +2216,7 @@
           logo: images/新媒运营/拼多多商家.png
           url: https://mms.pinduoduo.com?from=dy.199908.top
           description: 拼多多平台的商家数据分析工具，提供销售数据和用户行为分析
-    - name: 社交媒体分析
+    - name: 媒体分析
       links:
         - title: 新榜
           logo: images/新媒运营/新榜.png
@@ -2266,7 +2266,7 @@
           logo: images/新媒运营/微小宝.png
           url: https://www.wxb.com?from=dy.199908.top
           description: 提供微信公众号数据分析和运营工具
-    - name: 办公数据处理
+    - name: 办公数据
       links:
         - title: Microsoft Power BI
           logo: images/新媒运营/PowerBI.png
@@ -2288,7 +2288,7 @@
           logo: images/新媒运营/Airtable.png
           url: https://airtable.com?from=dy.199908.top
           description: 结合了电子表格和数据库功能的在线工具，提供灵活的数据组织和管理方式
-    - name: 营销数据分析
+    - name: 营销数据
       links:
         - title: 5118营销大数据
           logo: images/图标字体/iconfont.png
