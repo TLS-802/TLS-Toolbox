@@ -370,9 +370,9 @@
           description: 百度搜索推广平台
           
         # 其他平台
-        - title: 品小宝
-          logo: images/广告投放/品小宝.png
-          url: https://www.pinxiaobao.com
+        - title: 品销宝
+          logo: images/广告投放/品销宝.png
+          url: https://branding.taobao.com/
           description: 电商广告投放工具
         - title: 星榜
           logo: images/图标字体/iconfont.png
@@ -2774,10 +2774,6 @@
           logo: images/图标字体/iconfont.png
           url: https://e.baidu.com?from=dy.199908.top
           description: 百度搜索推广平台
-        - title: 品小宝
-          logo: images/广告投放/品小宝.png
-          url: https://www.pinxiaobao.com?from=dy.199908.top
-          description: 电商广告投放工具
         - title: 星榜
           logo: images/图标字体/iconfont.png
           url: https://www.starrank.com?from=dy.199908.top
