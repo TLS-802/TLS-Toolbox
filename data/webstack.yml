@@ -1481,224 +1481,181 @@
     - term: 新闻资讯
     - term: 自媒体平台
     - term: 音频平台
-    - term: 其他平台
   tabs:
     - name: 视频平台
       links:
         - title: 哔哩哔哩
-          logo: images/其他/bilibili.jpg
+          logo: images/媒体平台/哔哩哔哩.png
           url: https://www.bilibili.com?from=dy.199908.top
           description: 国内知名的视频弹幕网站，提供高质量的视频内容，涵盖动画、游戏、科技、生活、音乐等多个领域
         - title: 腾讯视频
-          logo: images/其他/tencent.jpg
+          logo: images/媒体平台/腾讯视频.png
           url: https://v.qq.com?from=dy.199908.top
           description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目、动漫等内容
         - title: 爱奇艺
-          logo: images/其他/iqiyi.jpg
+          logo: images/媒体平台/爱奇艺.png
           url: https://www.iqiyi.com?from=dy.199908.top
           description: 国内领先的视频平台之一，提供丰富的影视剧、综艺、动漫等内容
         - title: 优酷
-          logo: images/其他/youku.jpg
+          logo: images/媒体平台/优酷.jpg
           url: https://www.youku.com?from=dy.199908.top
           description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺、动漫等内容
-        - title: 西瓜视频
-          logo: images/其他/xigua.jpg
-          url: https://www.ixigua.com?from=dy.199908.top
-          description: 字节跳动旗下的中短视频平台，提供丰富的视频内容
         - title: 抖音
-          logo: images/其他/douyin.jpg
+          logo: images/媒体平台/抖音.jpg
           url: https://www.douyin.com?from=dy.199908.top
           description: 字节跳动旗下的短视频社交平台，用户可以拍摄、编辑和分享短视频
-        - title: 抖音创作服务平台
-          logo: images/新媒运营/抖音创作服务平台.png
-          url: https://creator.douyin.com?from=dy.199908.top
-          description: 抖音官方创作者服务平台
         - title: 快手
-          logo: images/其他/kuaishou.jpg
+          logo: images/媒体平台/快手.jpg
           url: https://www.kuaishou.com?from=dy.199908.top
           description: 拥抱每一种生活，记录世界记录你
-        - title: 快手创作者服务平台
-          logo: images/其他/kuaishou.jpg
-          url: https://cp.kuaishou.com?from=dy.199908.top
-          description: 快手创作者服务平台为内容创作者提供全方位的创作支持
         - title: YouTube
-          logo: images/其他/youtube.jpg
+          logo: images/媒体平台/YouTube.png
           url: https://www.youtube.com?from=dy.199908.top
           description: 全球最大的视频分享平台
         - title: 好看视频
-          logo: images/其他/haokan.jpg
+          logo: images/媒体平台/好看视频.jpeg
           url: https://haokan.baidu.com?from=dy.199908.top
           description: 百度旗下短视频平台
         - title: AcFun
-          logo: images/其他/acfun.jpg
+          logo: images/媒体平台/acfun.png
           url: https://www.acfun.cn?from=dy.199908.top
           description: 弹幕视频网站
         - title: 视频号助手
-          logo: images/新媒运营/视频号助手.png
+          logo: images/媒体平台/腾讯视频.png
           url: https://channels.weixin.qq.com?from=dy.199908.top
           description: 微信视频号官方助手
-        - title: 腾讯视频创作平台
-          logo: images/其他/tencent.jpg
-          url: https://v.qq.com/s/videoplus?from=dy.199908.top
-          description: 腾讯视频创作平台是腾讯视频推出的内容创作平台
-        - title: 爱奇艺号
-          logo: images/其他/iqiyi.jpg
-          url: https://www.iqiyi.com?from=dy.199908.top
-          description: 爱奇艺号是爱奇艺推出的内容创作平台
         - title: 1688直播
-          logo: images/其他/1688.jpg
+          logo: images/媒体平台/1688.png
           url: https://live.1688.com?from=dy.199908.top
           description: 阿里巴巴旗下B2B平台直播功能
     - name: 社交媒体
       links:
         - title: 微博
-          logo: images/其他/weibo.jpg
+          logo: images/媒体平台/微博.png
           url: https://weibo.com?from=dy.199908.top
           description: 中国领先的社交媒体平台，用户可以发布、分享和发现内容
         - title: 知乎
-          logo: images/其他/zhihu.jpg
+          logo: images/媒体平台/知乎.png
           url: https://www.zhihu.com?from=dy.199908.top
           description: 中文互联网高质量的问答社区和创作者聚集的原创内容平台
         - title: 豆瓣
-          logo: images/其他/douban.jpg
+          logo: images/媒体平台/豆瓣.png
           url: https://www.douban.com?from=dy.199908.top
           description: 提供图书、电影、音乐等评论和社区服务的网站
         - title: 小红书
-          logo: images/其他/xiaohongshu.jpg
+          logo: images/媒体平台/小红书.jpg
           url: https://www.xiaohongshu.com?from=dy.199908.top
           description: 年轻人的生活方式平台，用户分享生活中的好物和体验
-        - title: 小红书创作者服务中心
-          logo: images/新媒运营/小红书创作者服务中心.png
-          url: https://creator.xiaohongshu.com?from=dy.199908.top
-          description: 小红书官方创作者平台，提供数据分析和收益管理
         - title: 简书
-          logo: images/其他/jianshu.jpg
+          logo: images/媒体平台/简书.png
           url: https://www.jianshu.com?from=dy.199908.top
           description: 优质的创作社区，创作你的创作
         - title: CSDN
-          logo: images/其他/csdn.jpg
+          logo: images/媒体平台/csdn.png
           url: https://www.csdn.net?from=dy.199908.top
           description: 全球最大的中文IT技术交流平台
         - title: 美篇
-          logo: images/其他/meipian.jpg
+          logo: images/媒体平台/美篇.jpeg
           url: https://www.meipian.cn?from=dy.199908.top
           description: 分享图文的分享应用
         - title: 什么值得买
-          logo: images/其他/shenmezhidema.jpg
+          logo: images/媒体平台/什么值得买.jpeg
           url: https://www.smzdm.com?from=dy.199908.top
           description: 中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
         - title: 百度知道
-          logo: images/其他/baidu.jpg
+          logo: images/媒体平台/百度知道.png
           url: https://zhidao.baidu.com?from=dy.199908.top
           description: 全球最大的中文互动问答平台
         - title: 360doc个人图书馆
-          logo: images/其他/360doc.jpg
+          logo: images/媒体平台/360doc.jpeg
           url: http://www.360doc.com?from=dy.199908.top
           description: 免费的全民知识共享平台
     - name: 新闻资讯
       links:
         - title: 今日头条
-          logo: images/其他/toutiao.jpg
+          logo: images/媒体平台/今日头条.png
           url: https://www.toutiao.com?from=dy.199908.top
           description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
         - title: 腾讯新闻
-          logo: images/其他/tencent.jpg
+          logo: images/媒体平台/腾讯网.jpeg
           url: https://news.qq.com?from=dy.199908.top
           description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
         - title: 网易新闻
-          logo: images/其他/netease.jpg
+          logo: images/媒体平台/网易新闻.jpeg
           url: https://news.163.com?from=dy.199908.top
           description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
         - title: 搜狐新闻
-          logo: images/其他/sohu.jpg
+          logo: images/媒体平台/搜狐新闻.jpeg
           url: https://news.sohu.com?from=dy.199908.top
           description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
         - title: 澎湃新闻
-          logo: images/其他/thepaper.jpg
+          logo: images/媒体平台/澎湃新闻.png
           url: https://www.thepaper.cn?from=dy.199908.top
           description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
         - title: 一点号
-          logo: images/其他/yidian.jpg
+          logo: images/媒体平台/1点资讯.jpeg
           url: https://www.yidianzixun.com?from=dy.199908.top
           description: 一点资讯旗下内容创作平台
     - name: 自媒体平台
       links:
         - title: 微信公众平台
-          logo: images/其他/wechat.jpg
+          logo: images/媒体平台/腾讯网.jpeg
           url: https://mp.weixin.qq.com?from=dy.199908.top
           description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
         - title: 百家号
-          logo: images/其他/baidu.jpg
+          logo: images/媒体平台/百家号.jpeg
           url: https://baijiahao.baidu.com?from=dy.199908.top
           description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
         - title: 头条号
-          logo: images/其他/toutiao.jpg
+          logo: images/媒体平台/今日头条.png
           url: https://mp.toutiao.com?from=dy.199908.top
           description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
         - title: 企鹅号
-          logo: images/其他/tencent.jpg
+          logo: images/媒体平台/腾讯网.jpeg
           url: https://om.qq.com?from=dy.199908.top
           description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
         - title: 大鱼号
-          logo: images/其他/dayu.jpg
+          logo: images/媒体平台/大鱼号.jpeg
           url: https://mp.dayu.com?from=dy.199908.top
           description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
-        - title: 腾讯内容开放平台
-          logo: images/其他/tencent.jpg
-          url: https://om.qq.com?from=dy.199908.top
-          description: 腾讯内容开放平台是腾讯旗下的内容创作平台
-        - title: QQ看点创作中心
-          logo: images/其他/qq.jpg
-          url: https://kandian.qq.com?from=dy.199908.top
-          description: QQ看点创作中心是QQ看点推出的内容创作平台
         - title: 支付宝生活号平台
-          logo: images/其他/alipay.jpg
+          logo: images/媒体平台/支付宝.png
           url: https://fuwu.alipay.com?from=dy.199908.top
           description: 支付宝生活号平台是支付宝推出的商家服务平台
         - title: 百度智能小程序
-          logo: images/其他/baidu.jpg
+          logo: images/媒体平台/百度知道.png
           url: https://smartprogram.baidu.com?from=dy.199908.top
           description: 百度智能小程序平台
     - name: 音频平台
       links:
         - title: 喜马拉雅
-          logo: images/其他/ximalaya.jpg
+          logo: images/媒体平台/喜马拉雅.png
           url: https://www.ximalaya.com?from=dy.199908.top
           description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
         - title: 荔枝FM
-          logo: images/其他/lizhi.jpg
+          logo: images/媒体平台/荔枝fm.png
           url: https://www.lizhi.fm?from=dy.199908.top
           description: 专业的音频分享平台，提供播客、有声书、音乐等内容
         - title: 蜻蜓FM
-          logo: images/其他/qingting.jpg
+          logo: images/媒体平台/蜻蜓fm.png
           url: https://www.qingting.fm?from=dy.199908.top
           description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
         - title: 网易云音乐
-          logo: images/其他/netease.jpg
+          logo: images/媒体平台/网易云.jpeg
           url: https://music.163.com?from=dy.199908.top
           description: 网易旗下的音乐平台，提供音乐播放、社区分享等服务
         - title: QQ音乐
-          logo: images/其他/qq.jpg
+          logo: images/媒体平台/QQ音乐.svg
           url: https://y.qq.com?from=dy.199908.top
           description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
-    - name: 其他平台
-      links:
-        - title: 品牌星球BrandStar
-          logo: images/新媒运营/品牌星球.png
-          url: https://www.brandstar.com?from=dy.199908.top
-          description: 专注于品牌创新的数字媒体平台
-        - title: 清博大数据
-          logo: images/新媒运营/清博大数据.png
-          url: https://www.gsdata.cn?from=dy.199908.top
-          description: 融媒体、舆论和产业营销大数据服务者
-        - title: 胖鲸
-          logo: images/新媒运营/胖鲸.png
-          url: https://www.adquan.com?from=dy.199908.top
-          description: 专注于数字营销和互联网科技领域的专业平台
-        - title: 绘蛙创意平台
-          logo: images/新媒运营/绘蛙.png
-          url: https://www.huiwa.com?from=dy.199908.top
-          description: 创意文生图平台，为社交媒体平台生成吸引眼球的内容
+        - title: 酷狗音乐
+          logo: images/媒体平台/酷狗音乐.png
+          url: https://www.kugou.com?from=dy.199908.top
+          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
+        - title: 汽水音乐
+          logo: images/媒体平台/汽水音乐.jpeg
+          url: https://music.douyin.com/qishui?from=dy.199908.top
+          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
 
 - taxonomy: 营销运营
   icon: fa-video
