@@ -1794,6 +1794,216 @@
           url: http://www.kuwo.cn/rankList?from=dy.199908.top
           description: 酷我音乐平台的音乐热度和播放量排行榜
 
+- taxonomy: 营销运营
+  icon: fa-video
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 营销策划
+    - term: 用户增长
+    - term: 社交媒体营销
+    - term: 搜索引擎营销
+    - term: 内容营销
+    - term: 电商营销
+    - term: 运营管理
+  tabs:
+    - name: 营销策划
+      links:
+        - title: 营销策划网
+          logo: images/新媒运营/营销策划.png
+          url: https://www.yingxiao360.com?from=dy.199908.top
+          description: 提供营销策划方案、营销案例和营销知识的综合平台
+        - title: 梅花网
+          logo: images/新媒运营/梅花网.png
+          url: https://www.meihua.info?from=dy.199908.top
+          description: 提供营销案例、营销策划和品牌传播的综合平台
+        - title: 数英网
+          logo: images/新媒运营/数英网.png
+          url: https://www.digitaling.com?from=dy.199908.top
+          description: 提供创意营销案例、广告作品和营销资讯的综合平台
+        - title: 广告门
+          logo: images/新媒运营/广告门.png
+          url: https://www.adquan.com?from=dy.199908.top
+          description: 广告行业资讯平台，提供优秀广告案例和营销创意
+        - title: SocialBeta
+          logo: images/新媒运营/SocialBeta.png
+          url: https://socialbeta.com?from=dy.199908.top
+          description: 提供社会化营销案例、品牌营销和数字营销的综合平台
+        - title: 易企秀
+          logo: images/新媒运营/易企秀.png
+          url: https://www.eqxiu.com?from=dy.199908.top
+          description: 创意营销平台
+    - name: 用户增长
+      links:
+        - title: GrowingIO
+          logo: images/新媒运营/GrowingIO.png
+          url: https://www.growingio.com?from=dy.199908.top
+          description: 提供用户行为分析和增长分析服务的数据分析平台
+        - title: 神策数据
+          logo: images/新媒运营/神策数据.png
+          url: https://www.sensorsdata.cn?from=dy.199908.top
+          description: 提供用户行为分析和增长分析服务的数据分析平台
+        - title: TalkingData
+          logo: images/新媒运营/TalkingData.png
+          url: https://www.talkingdata.com?from=dy.199908.top
+          description: 提供移动应用数据分析和用户画像服务的数据分析平台
+        - title: 友盟+
+          logo: images/新媒运营/友盟.png
+          url: https://www.umeng.com?from=dy.199908.top
+          description: 阿里巴巴旗下的移动应用统计分析平台，提供应用使用数据和用户行为分析
+        - title: APP Annie
+          logo: images/新媒运营/AppAnnie.png
+          url: https://www.appannie.com/cn?from=dy.199908.top
+          description: 全球领先的应用数据分析平台，提供应用下载量、收入等数据
+        - title: 小打卡
+          logo: images/新媒运营/小打卡.png
+          url: https://www.xiaodaka.com?from=dy.199908.top
+          description: 社群活动运营与管理工具
+        - title: 金数据
+          logo: images/新媒运营/金数据.png
+          url: https://jinshuju.net?from=dy.199908.top
+          description: 专业的表单和数据收集工具
+    - name: 社交媒体营销
+      links:
+        - title: 微博营销
+          logo: images/新媒运营/微博营销.png
+          url: https://business.weibo.com?from=dy.199908.top
+          description: 微博官方营销平台，提供微博广告投放和营销服务
+        - title: 微信广告
+          logo: images/图标字体/iconfont.png
+          url: https://ad.weixin.qq.com?from=dy.199908.top
+          description: 微信官方广告平台，提供微信朋友圈、公众号等广告投放服务
+        - title: 抖音营销
+          logo: images/新媒运营/抖音营销.png
+          url: https://business.douyin.com?from=dy.199908.top
+          description: 抖音官方营销平台，提供抖音广告投放和营销服务
+        - title: 小红书营销
+          logo: images/新媒运营/小红书营销.png
+          url: https://business.xiaohongshu.com?from=dy.199908.top
+          description: 小红书官方营销平台，提供小红书广告投放和营销服务
+        - title: 知乎营销
+          logo: images/新媒运营/知乎营销.png
+          url: https://marketing.zhihu.com?from=dy.199908.top
+          description: 知乎官方营销平台，提供知乎广告投放和营销服务
+        - title: 巨量星图
+          logo: images/图标字体/iconfont.png
+          url: https://xingtu.jinritemai.com?from=dy.199908.top
+          description: 抖音星图，抖音KOL营销平台
+        - title: 磁力智投
+          logo: images/广告投放/磁力智投.png
+          url: https://ad.e.kuaishou.com?from=dy.199908.top
+          description: 快手广告投放平台
+        - title: 聚光平台
+          logo: images/广告投放/聚光.jpg
+          url: https://ad.xiaohongshu.com?from=dy.199908.top
+          description: 小红书广告投放平台
+        - title: 微播易
+          logo: images/图标字体/iconfont.png
+          url: https://www.weiboyi.com?from=dy.199908.top
+          description: 一站式KOL营销推广服务
+    - name: 搜索引擎营销
+      links:
+        - title: 百度营销
+          logo: images/新媒运营/百度营销.png
+          url: https://e.baidu.com?from=dy.199908.top
+          description: 百度官方营销平台，提供百度搜索、信息流等广告投放服务
+        - title: Google Ads
+          logo: images/新媒运营/GoogleAds.png
+          url: https://ads.google.com?from=dy.199908.top
+          description: Google官方广告平台，提供Google搜索、展示网络等广告投放服务
+        - title: 360推广
+          logo: images/新媒运营/360推广.png
+          url: https://e.360.cn?from=dy.199908.top
+          description: 360官方营销平台，提供360搜索、信息流等广告投放服务
+        - title: 搜狗营销
+          logo: images/新媒运营/搜狗营销.png
+          url: https://e.sogou.com?from=dy.199908.top
+          description: 搜狗官方营销平台，提供搜狗搜索、信息流等广告投放服务
+        - title: 神马推广
+          logo: images/新媒运营/神马推广.png
+          url: https://u.sm.cn?from=dy.199908.top
+          description: 神马搜索官方营销平台，提供移动搜索广告投放服务
+        - title: 直通车
+          logo: images/广告投放/直通车.png
+          url: https://subway.simba.taobao.com?from=dy.199908.top
+          description: 淘宝推广工具
+        - title: 阿里妈妈
+          logo: images/新媒运营/阿里妈妈.png
+          url: https://www.alimama.com?from=dy.199908.top
+          description: 阿里巴巴集团旗下的网络营销平台
+    - name: 内容营销
+      links:
+        - title: 简书
+          logo: images/新媒运营/简书.png
+          url: https://www.jianshu.com?from=dy.199908.top
+          description: 内容创作和分享平台，适合内容营销和品牌传播
+        - title: 知乎
+          logo: images/其他/zhihu.jpg
+          url: https://www.zhihu.com?from=dy.199908.top
+          description: 知识问答社区，适合知识营销和专业内容分享
+        - title: 今日头条
+          logo: images/其他/toutiao.jpg
+          url: https://www.toutiao.com?from=dy.199908.top
+          description: 信息聚合平台，适合内容分发和品牌传播
+        - title: 微信公众平台
+          logo: images/其他/wechat.jpg
+          url: https://mp.weixin.qq.com?from=dy.199908.top
+          description: 微信公众号平台，适合内容营销和粉丝运营
+        - title: 小红书
+          logo: images/其他/xiaohongshu.jpg
+          url: https://www.xiaohongshu.com?from=dy.199908.top
+          description: 生活方式分享平台，适合产品种草和品牌传播
+    - name: 电商营销
+      links:
+        - title: 淘宝联盟
+          logo: images/新媒运营/淘宝联盟.png
+          url: https://pub.alimama.com?from=dy.199908.top
+          description: 阿里巴巴旗下的淘宝客推广平台，提供电商推广和佣金分成服务
+        - title: 京东联盟
+          logo: images/新媒运营/京东联盟.png
+          url: https://union.jd.com?from=dy.199908.top
+          description: 京东旗下的推广平台，提供电商推广和佣金分成服务
+        - title: 多多进宝
+          logo: images/新媒运营/多多进宝.png
+          url: https://jinbao.pinduoduo.com?from=dy.199908.top
+          description: 拼多多旗下的推广平台，提供电商推广和佣金分成服务
+        - title: 有赞
+          logo: images/新媒运营/有赞.png
+          url: https://www.youzan.com?from=dy.199908.top
+          description: 提供电商运营、营销推广、客户管理等服务的综合平台
+        - title: 微盟
+          logo: images/新媒运营/微盟.png
+          url: https://www.weimob.com?from=dy.199908.top
+          description: 提供电商运营、营销推广、会员管理等服务的综合平台
+    - name: 运营管理
+      links:
+        - title: 企业微信
+          logo: images/新媒运营/企业微信.png
+          url: https://work.weixin.qq.com?from=dy.199908.top
+          description: 腾讯推出的企业通讯和协作平台，适合团队协作和客户管理
+        - title: 钉钉
+          logo: images/新媒运营/钉钉.png
+          url: https://www.dingtalk.com?from=dy.199908.top
+          description: 阿里巴巴推出的企业通讯和协作平台，适合团队协作和工作管理
+        - title: 飞书
+          logo: images/新媒运营/飞书.png
+          url: https://www.feishu.cn?from=dy.199908.top
+          description: 字节跳动推出的企业通讯和协作平台，适合团队协作和知识管理
+        - title: Teambition
+          logo: images/新媒运营/Teambition.png
+          url: https://www.teambition.com?from=dy.199908.top
+          description: 阿里巴巴旗下的项目协作平台，适合团队协作和项目管理
+        - title: 石墨文档
+          logo: images/新媒运营/石墨文档.png
+          url: https://shimo.im?from=dy.199908.top
+          description: 在线协作文档工具，支持多人实时协作，适合团队文档协作
+        - title: 小鹅通
+          logo: images/新媒运营/小鹅通.png
+          url: https://www.xiaoe-tech.com?from=dy.199908.top
+          description: 提供知识付费、课程运营、社群管理等服务的综合平台
+        - title: 聚合数据
+          logo: images/新媒运营/聚合数据.png
+          url: https://www.juhe.cn?from=dy.199908.top
+          description: 提供各类API接口服务，帮助开发者快速实现功能
+
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:  # 添加list属性，用于侧边栏显示
