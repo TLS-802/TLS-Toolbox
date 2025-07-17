@@ -534,37 +534,37 @@
   links:
         # 热门平台直播工具
         - title: 抖音直播伴侣
-          logo: images/电商辅助/抖音直播伴侣.jpg
+          logo: images/直播辅助/抖音直播伴侣.jpg
           url: https://streamingtool.douyin.com?from=dy.199908.top
           description: 抖音、火山官方直播工具
         - title: 快手直播伴侣
-          logo: images/电商辅助/快手直播伴侣.png
+          logo: images/直播辅助/快手直播伴侣.png
           url: https://live.kuaishou.com/live-partner?from=dy.199908.top
           description: 快手平台直播软件
         - title: 小红书直播助手
-          logo: images/电商辅助/小红书.jpg
+          logo: images/直播辅助/小红书.jpg
           url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
           description: 小红书电脑直播助手
         - title: 微信视频号助手
-          logo: images/电商辅助/视频号.png
+          logo: images/直播辅助/视频号.png
           url: https://channels.weixin.qq.com?from=dy.199908.top
           description: 微信视频号创作者平台
         - title: B站直播姬
-          logo: images/电商辅助/哔哩哔哩.png
+          logo: images/直播辅助/哔哩哔哩.png
           url: https://live.bilibili.com/liveHime?from=dy.199908.top
           description: 哔哩哔哩官方直播工具
 
         # 通用直播工具
         - title: OBS
-          logo: images/电商辅助/OBS.png
+          logo: images/直播辅助/OBS.png
           url: https://obsproject.com?from=dy.199908.top
           description: 多平台直播推流工具
         - title: StreamCap
-          logo: images/电商辅助/StreamCap.jpg
+          logo: images/直播辅助/StreamCap.jpg
           url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
           description: 多平台直播录屏软件
         - title: 腾讯直播助手
-          logo: images/电商辅助/腾讯QQ.png
+          logo: images/直播辅助/腾讯QQ.png
           url: https://live.qq.com?from=dy.199908.top
           description: 腾讯官方直播工具
 
