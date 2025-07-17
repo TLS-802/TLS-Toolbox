@@ -937,53 +937,33 @@
           description: 拼多多商家管理后台
     - name: 其他
       links:
-        - title: 百度营销中心
-          logo: images/图标字体/iconfont.png
-          url: https://marketing.baidu.com?from=dy.199908.top
-          description: 百度广告投放平台
         - title: 百度推广
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/百度营销.png
           url: https://e.baidu.com?from=dy.199908.top
           description: 百度搜索推广平台
         - title: 星榜
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/星榜.jpeg
           url: https://www.starrank.com?from=dy.199908.top
           description: 短视频博主内容营销和电商服务
-        - title: 领库
-          logo: images/图标字体/iconfont.png
-          url: https://www.lingku.com?from=dy.199908.top
-          description: 社交自媒体广告平台
-        - title: 微播易
-          logo: images/图标字体/iconfont.png
-          url: https://www.weiboyi.com?from=dy.199908.top
-          description: 一站式KOL营销推广服务
         - title: 传播易
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/传播易.png
           url: https://www.chuanboyi.com?from=dy.199908.top
           description: 广告投放网站
         - title: 广告门
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/广告门.png
           url: https://www.adquan.com?from=dy.199908.top
           description: 广告行业门户网站
         - title: 360推广
-          logo: images/新媒运营/360推广.png
+          logo: images/广告投放/360智慧商业.png
           url: https://e.360.cn?from=dy.199908.top
           description: 360搜索广告投放平台
-        - title: 搜狗营销
-          logo: images/新媒运营/搜狗营销.png
-          url: https://e.sogou.com?from=dy.199908.top
-          description: 搜狗搜索广告投放平台
-        - title: 神马推广
-          logo: images/新媒运营/神马推广.png
-          url: https://u.sm.cn?from=dy.199908.top
-          description: 神马搜索广告投放平台
-        - title: 微博营销
-          logo: images/新媒运营/微博营销.png
-          url: https://business.weibo.com?from=dy.199908.top
+        - title: 微博广告
+          logo: images/广告投放/微博.png
+          url: https://tui.weibo.com/platform?from=dy.199908.top
           description: 微博广告投放平台
-        - title: 知乎营销
-          logo: images/新媒运营/知乎营销.png
-          url: https://marketing.zhihu.com?from=dy.199908.top
+        - title: 知乎广告
+          logo: images/广告投放/知乎.png
+          url: https://xg.zhihu.com/home?from=dy.199908.top
           description: 知乎广告投放平台
 
 - taxonomy: 视频剪辑
