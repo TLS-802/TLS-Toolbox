@@ -1651,11 +1651,15 @@
         - title: 酷狗音乐
           logo: images/媒体平台/酷狗音乐.png
           url: https://www.kugou.com?from=dy.199908.top
-          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
+          description: 酷狗音乐
         - title: 汽水音乐
           logo: images/媒体平台/汽水音乐.jpeg
           url: https://music.douyin.com/qishui?from=dy.199908.top
-          description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
+          description: 抖音旗下的音乐平台，提供音乐播放、MV、歌词等服务
+        - title: 酷我音乐
+          logo: images/媒体平台/酷我音乐.jpeg
+          url: https://www.kuwo.cn?from=dy.199908.top
+          description: 酷我音乐
 
 - taxonomy: 热点排行
   icon: fa-video
