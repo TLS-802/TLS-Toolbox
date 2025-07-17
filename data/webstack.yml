@@ -799,17 +799,25 @@
           url: https://qianchuan.jinritemai.com?from=dy.199908.top
           description: 抖音电商广告投放平台
         - title: 巨量星图
-          logo: images/图标字体/iconfont.png
-          url: https://xingtu.jinritemai.com?from=dy.199908.top
+          logo: images/广告投放/巨量云图.png
+          url: https://yuntu.oceanengine.com?from=dy.199908.top
           description: 抖音星图，抖音KOL营销平台
         - title: 巨量创意
           logo: images/电商辅助/巨量创意.png
           url: https://cc.oceanengine.com?from=dy.199908.top
           description: 抖音广告创意平台
         - title: DOU+
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/DOU.png
           url: https://doujia.douyin.com?from=dy.199908.top
           description: 抖音内容加热和营销推广产品
+        - title: 巨量本地推
+          logo: images/广告投放/巨量本地推.png
+          url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
+          description: 生活服务商家一站式营销平台，为本地商家提供便捷的广告投放能力
+        - title: 抖音来客
+          logo: images/广告投放/抖音来客.png
+          url: https://life.douyin.com/p/home?from=dy.199908.top
+          description: 生活服务商家在抖音平台的基础经营平台，实现客流提升，强化经营效果
         - title: 抖老板
           logo: images/广告投放/抖老板.png
           url: https://www.doulaobao.com?from=dy.199908.top
@@ -842,19 +850,19 @@
           url: https://pub.alimama.com?from=dy.199908.top
           description: 淘宝联盟推广平台
         - title: 引力魔方
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/直通车.png
           url: https://tuijian.taobao.com?from=dy.199908.top
           description: 淘宝信息流推广工具
         - title: 万相台
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/直通车.png
           url: https://adbrain.taobao.com?from=dy.199908.top
           description: 淘宝全域广告投放平台
         - title: 品销宝
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/品销宝.png
           url: https://branding.taobao.com?from=dy.199908.top
           description: 淘宝品牌推广工具
         - title: 阿里妈妈
-          logo: images/新媒运营/阿里妈妈.png
+          logo: images/广告投放/直通车.png
           url: https://www.alimama.com?from=dy.199908.top
           description: 阿里巴巴集团旗下的网络营销平台
 
