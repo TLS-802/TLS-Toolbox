@@ -473,59 +473,59 @@
   links: 
         # 抖音相关工具
         - title: 灵邀AI
-          logo: images/电商辅助/灵邀AI.jpg
+          logo: images/电商插件/灵邀AI.jpg
           url: https://limob.cn?from=dy.199908.top
           description: 抖音微信达人邀约软件
 
         # 淘宝相关工具
         - title: 店查查
-          logo: images/电商辅助/店查查.png
+          logo: images/电商插件/店查查.png
           url: https://www.dianchacha.com/chajian?from=dy.199908.top
           description: 淘宝运营神器插件
         - title: 店透视
-          logo: images/电商辅助/店透视.png
+          logo: images/电商插件/店透视.png
           url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
           description: 指数还原详情插件
         - title: AliPrice助手
-          logo: images/电商辅助/AliPrice助手.png
+          logo: images/电商插件/AliPrice助手.png
           url: https://www.aliprice.com?from=dy.199908.top
           description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
 
         # 通用工具
         - title: 哈士奇
-          logo: images/电商辅助/哈士奇.jpg
+          logo: images/电商插件/哈士奇.jpg
           url: https://hsq.dangxun.com?from=dy.199908.top
           description: 多平台电商运营插件
         - title: 至尊宝
-          logo: images/电商辅助/至尊宝.jpg
+          logo: images/电商插件/至尊宝.jpg
           url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
           description: 多平台电商运营插件
         - title: 指纹浏览器
-          logo: images/电商辅助/指纹浏览器.png
+          logo: images/电商插件/指纹浏览器.png
           url: https://virtualbrowser.cc?from=dy.199908.top
           description: 多店铺电商卖家必备，隔离ip
         - title: 山海云端短视频解析
-          logo: images/电商辅助/山海云端短视频解析.png
+          logo: images/电商插件/山海云端短视频解析.png
           url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
           description: 多平台视频解析下载
         - title: Best视频下载器
-          logo: images/电商辅助/Best视频下载器.png
+          logo: images/电商插件/Best视频下载器.png
           url: https://www.bestvideow.com?from=dy.199908.top
           description: 多平台视频解析下载
         - title: 猫爪
-          logo: images/电商辅助/猫爪.jpg
+          logo: images/电商插件/猫爪.jpg
           url: https://cat-catch.bmmmd.com?from=dy.199908.top
           description: 网页视频嗅探与下载插件
         - title: 社媒助手
-          logo: images/电商辅助/社媒助手.png
+          logo: images/电商插件/社媒助手.png
           url: https://smc.iszhouhua.com?from=dy.199908.top
           description: 多平台数据采集插件
         - title: Fatkun图片下载
-          logo: images/电商辅助/Fatkun图片下载.webp
+          logo: images/电商插件/Fatkun图片下载.webp
           url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
           description: Fatkun图片下载插件
         - title: 达连
-          logo: images/电商辅助/达连.png
+          logo: images/电商插件/达连.png
           url: https://tool.kollink.net?from=dy.199908.top
           description: TikTok达人邀约插件
 
