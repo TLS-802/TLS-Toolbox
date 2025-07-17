@@ -504,14 +504,6 @@
           logo: images/电商插件/指纹浏览器.png
           url: https://virtualbrowser.cc?from=dy.199908.top
           description: 多店铺电商卖家必备，隔离ip
-        - title: 山海云端短视频解析
-          logo: images/电商插件/山海云端短视频解析.png
-          url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
-          description: 多平台视频解析下载
-        - title: Best视频下载器
-          logo: images/电商插件/山海云端短视频解析.png
-          url: https://www.bestvideow.com?from=dy.199908.top
-          description: 多平台视频解析下载
         - title: 猫爪
           logo: images/电商插件/猫爪.jpg
           url: https://cat-catch.bmmmd.com?from=dy.199908.top
@@ -945,10 +937,6 @@
           logo: images/广告投放/星榜.jpeg
           url: https://www.starrank.com?from=dy.199908.top
           description: 短视频博主内容营销和电商服务
-        - title: 传播易
-          logo: images/广告投放/传播易.png
-          url: https://www.chuanboyi.com?from=dy.199908.top
-          description: 广告投放网站
         - title: 广告门
           logo: images/广告投放/广告门.png
           url: https://www.adquan.com?from=dy.199908.top
@@ -985,33 +973,21 @@
           url: https://www.xinmei7.com?from=dy.199908.top
           description: AI视频剪辑与二创处理工具
         - title: 腾讯智影
-          logo: images/视频编辑/禅视频.png
+          logo: images/视频编辑/腾讯智影.png
           url: https://zenvideo.qq.com/home?from=dy.199908.top
           description: 腾讯AI智能创作平台
         - title: 短视频混剪工具
           logo: images/视频编辑/淘宝.png
           url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
           description: 淘宝短视频混剪工具
-        - title: 直播片段生成器
-          logo: images/视频编辑/淘宝.png
-          url: https://chuangyi.taobao.com/external/liveVideoClipper?from=dy.199908.top
-          description: 淘宝直播片段生成工具
         - title: 快影
-          logo: images/新媒运营/快影.png
-          url: https://kuaiying.tv?from=dy.199908.top
+          logo: images/视频编辑/快影.webp
+          url: https://h5.kwaiying.com/officialWebsite?from=dy.199908.top
           description: 快手旗下的视频剪辑工具，适合快手短视频创作
         - title: 轻剪辑
-          logo: images/新媒运营/轻剪辑.png
-          url: https://www.qingjianjie.com?from=dy.199908.top
+          logo: images/视频编辑/轻剪辑.jpeg
+          url: https://e.chuanying520.com?from=dy.199908.top
           description: 在线视频剪辑工具，无需下载安装，操作简单
-        - title: 万兴喵影
-          logo: images/新媒运营/万兴剪映.png
-          url: https://filmora.wondershare.cn?from=dy.199908.top
-          description: 专业的视频剪辑软件，提供丰富的特效和模板
-        - title: 剪辑师
-          logo: images/新媒运营/剪辑师.png
-          url: https://www.jianjiushi.cn?from=dy.199908.top
-          description: 在线视频剪辑工具，提供丰富的模板和素材
     - name: AI 视频
       links:
         - title: 即梦AI
@@ -1067,13 +1043,21 @@
           url: https://www.jianghudata.com?from=dy.199908.top
           description: 电商多功能软件
         - title: 八爪鱼采集器
-          logo: images/新媒运营/短视频工具.png
+          logo: images/视频编辑/八爪鱼.png
           url: https://www.bazhuayu.com?from=dy.199908.top
           description: 免费网络爬虫软件_网页大数据抓取工具
-        - title: 灵球去水印
-          logo: images/新媒运营/灵球去水印.png
-          url: https://videofk.com?from=dy.199908.top
+        - title: VideoFK 去水印
+          logo: images/视频编辑/山海云端短视频解析.png
+          url: https://www.videofk.com/zh-cn?from=dy.199908.top
           description: 支持无水印保存主流媒体平台视频/图片
+        - title: 山海云端短视频解析
+          logo: images/视频编辑/山海云端短视频解析.png
+          url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
+          description: 多平台视频解析下载
+        - title: Best视频下载器
+          logo: images/视频编辑/山海云端短视频解析.png
+          url: https://www.bestvideow.com?from=dy.199908.top
+          description: 多平台视频解析下载
 
 - taxonomy: 图文设计
   icon: fa-palette
