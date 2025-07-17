@@ -865,7 +865,6 @@
           logo: images/广告投放/直通车.png
           url: https://www.alimama.com?from=dy.199908.top
           description: 阿里巴巴集团旗下的网络营销平台
-
     - name: 快手
       links:
         - title: 磁力引擎
@@ -876,34 +875,20 @@
           logo: images/广告投放/磁力智投.png
           url: https://ad.e.kuaishou.com?from=dy.199908.top
           description: 快手智能广告投放平台
-        - title: 磁力营销
-          logo: images/图标字体/iconfont.png
-          url: https://e.kuaishou.com/ads?from=dy.199908.top
-          description: 快手广告营销平台
-        - title: 快手磁力
-          logo: images/图标字体/iconfont.png
-          url: https://ads.kuaishou.com?from=dy.199908.top
-          description: 快手广告投放平台
-
     - name: 京东
       links:
-        - title: 京东快车
-          logo: images/广告投放/京东快车.png
-          url: https://jzt.jd.com?from=dy.199908.top
-          description: 京东关键词推广工具
-        - title: 京东展位
-          logo: images/图标字体/iconfont.png
-          url: https://ad.jd.com?from=dy.199908.top
-          description: 京东展示广告投放平台
         - title: 京东联盟
-          logo: images/新媒运营/京东联盟.png
+          logo: images/广告投放/京东联盟.png
           url: https://union.jd.com?from=dy.199908.top
           description: 京东推广联盟平台
         - title: 京东商智
-          logo: images/新媒运营/京东商智.png
+          logo: images/广告投放/京东商智.png
           url: https://sz.jd.com?from=dy.199908.top
           description: 京东商业智能分析平台
-
+        - title: 京准通
+          logo: images/广告投放/京东.png
+          url: https://jzt.jd.com/gw/index?from=dy.199908.top
+          description: 京东关键词推广工具
     - name: 小红书
       links:
         - title: 聚光平台
@@ -911,52 +896,45 @@
           url: https://ad.xiaohongshu.com?from=dy.199908.top
           description: 小红书官方广告投放平台
         - title: 小红书蒲公英
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/小红书.jpg
           url: https://pgy.xiaohongshu.com?from=dy.199908.top
           description: 小红书品牌合作平台
-        - title: 小红书商业化
-          logo: images/电商辅助/小红书.jpg
-          url: https://business.xiaohongshu.com?from=dy.199908.top
-          description: 小红书商业化服务平台
-
     - name: 视频号
       links:
         - title: 微信广告
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/Wechat.jpg
           url: https://ad.weixin.qq.com?from=dy.199908.top
           description: 微信广告投放平台
+        - title: 视频号助手
+          logo: images/广告投放/视频号.jpg
+          url: https://channels.weixin.qq.com?from=dy.199908.top
+          description: 微信视频号创作者平台
         - title: 诸葛智投
           logo: images/广告投放/诸葛智投.png
           url: https://zgzt.v-ma.com?from=dy.199908.top
           description: 视频号投放管理工具
         - title: 微信红包封面开放平台
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/Wechat.jpg
           url: https://cover.weixin.qq.com?from=dy.199908.top
           description: 微信红包封面营销平台
-        - title: 视频号助手
-          logo: images/新媒运营/视频号助手.png
-          url: https://channels.weixin.qq.com?from=dy.199908.top
-          description: 微信视频号创作者平台
-
     - name: 拼多多
       links:
         - title: 多多搜索推广
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/拼多多.jpg
           url: https://mms.pinduoduo.com?from=dy.199908.top
           description: 拼多多搜索推广工具
         - title: 多多场景推广
-          logo: images/图标字体/iconfont.png
+          logo: images/广告投放/拼多多.jpg
           url: https://mms.pinduoduo.com?from=dy.199908.top
           description: 拼多多场景推广工具
         - title: 多多进宝
-          logo: images/新媒运营/多多进宝.png
+          logo: images/广告投放/拼多多.jpg
           url: https://jinbao.pinduoduo.com?from=dy.199908.top
           description: 拼多多推广联盟平台
         - title: 拼多多商家后台
-          logo: images/新媒运营/拼多多商家.png
+          logo: images/广告投放/拼多多.jpg
           url: https://mms.pinduoduo.com?from=dy.199908.top
           description: 拼多多商家管理后台
-
     - name: 其他
       links:
         - title: 百度营销中心
