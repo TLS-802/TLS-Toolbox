@@ -1098,17 +1098,15 @@
           url: https://picwish.cn?from=dy.199908.top
           description: AI在线抠图工具
         - title: tinypng
-          logo: images/图文设计/tinypng.png
-          url: https://tinypng.com?from=dy.199908.top
           logo: images/图文设计/TinyPNG.png
+          url: https://tinypng.com?from=dy.199908.top
           description: 图片压缩优化工具
         - title: 改图宝
           logo: images/图文设计/改图宝.png
           url: https://www.gaitubao.com?from=dy.199908.top
-          logo: images/图文设计/改图宝.png
           description: 在线图片编辑器
         - title: adobe色卡
-          logo: images/图文设计/adobe色卡.png
+          logo: images/图文设计/Adobe色卡.png
           url: https://color.adobe.com/zh/create/color-wheel?from=dy.199908.top
           description: Adobe配色工具
         - title: Coolors
@@ -1127,109 +1125,109 @@
       links:
         # 微信公众号排版工具
         - title: 135编辑器AI排版
-          logo: images/图文设计/135编辑器AI排版.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.135editor.com/ai_editor?from=dy.199908.top
           description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具
         - title: 135编辑器
-          logo: images/图文设计/135编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.135editor.com?from=dy.199908.top
           description: 微信公众号文章排版
         - title: 秀米编辑器
-          logo: images/图文设计/秀米编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://xiumi.us?from=dy.199908.top
           description: 微信公众号排版和H5制作工具
         - title: 壹伴
-          logo: images/图文设计/壹伴.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://yiban.io?from=dy.199908.top
           description: 在线微信编辑工具
         - title: 美编
-          logo: images/图文设计/美编.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.mbian.com?from=dy.199908.top
           description: 一款简单高效的新媒体运营工具
         - title: 365微信编辑器
-          logo: images/图文设计/365微信编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.365editor.com?from=dy.199908.top
           description: 微信公众号文章一键排版，微信图文美化，在线内容编辑工具
         - title: i排版
-          logo: images/图文设计/i排版.png
+          logo: images/图文设计/驼铃标志1.png
           url: http://ipaiban.com?from=dy.199908.top
           description: 微信排版工具
         - title: 小墨鹰编辑器
-          logo: images/图文设计/小墨鹰编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.xmyeditor.com?from=dy.199908.top
           description: 微信编辑器，公众号图文排版工具
         - title: 菜鸟编辑器
-          logo: images/图文设计/菜鸟编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.fzneditor.com?from=dy.199908.top
           description: 微信图文设计软件，微信公众号文章自动排版美化公众平台采集工具
         - title: 键盘喵速排
-          logo: images/图文设计/键盘喵速排.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.jianpanmiao.com?from=dy.199908.top
           description: 键盘喵速排官网，键盘猫，微信公众号编辑器，公众号素材模板特效
         - title: e2编辑器
-          logo: images/图文设计/e2编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.e2.cool?from=dy.199908.top
           description: 用于微信公众号文章排版和内容编辑
         - title: 91微信编辑器
-          logo: images/图文设计/91微信编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: http://bj.91join.com?from=dy.199908.top
           description: 免费微信公众平台图文排版网页编辑器
         - title: 迅蟒公众号助手
-          logo: images/图文设计/迅蟒公众号助手.png
+          logo: images/图文设计/驼铃标志1.png
           url: http://bjq.xunmang.com?from=dy.199908.top
           description: 微信编辑器，微信公众平台图文排版工具，图片素材文章内容编辑软件
         - title: 易点微信编辑器
-          logo: images/图文设计/易点微信编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: http://www.wxeditor.com?from=dy.199908.top
           description: 专为微信小编量身定做的一款微信公众号内容排版编辑工具
 
         # Markdown编辑工具
         - title: 墨滴mdnice编辑器
-          logo: images/图文设计/墨滴mdnice编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://product.mdnice.com?from=dy.199908.top
           description: 墨滴（mdnice）编辑器是一款专为Markdown排版优化的编辑工具，主要面向微信公众号、知乎和稀土掘金等平台的用户
         - title: 微信Markdown编辑器
-          logo: images/图文设计/微信Markdown编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://doocs.github.io/md?from=dy.199908.top
           description: 一款专为微信公众号排版设计的高效工具，旨在简化内容创作者的排版流程
         - title: NeuraPress
-          logo: images/图文设计/NeuraPress.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://md.leti.ltd?from=dy.199908.top
           description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown 内容到微信公众号中使用
         - title: 可能吧公众号排版器
-          logo: images/新媒运营/可能吧.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://knb.im/mp?from=dy.199908.top
           description: 一款专注于微信公众号文章排版的Markdown编辑工具
 
         # 小红书排版工具
         - title: 小红书爆款模板
-          logo: images/图文设计/小红书爆款模板.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://d.newrank.cn/nreditor/note?from=dy.199908.top
           description: 聚合小红书灵感AI、爆款模板/标题/表情包、内容违规词检测等相关功能，为自媒体运营者高效编辑小红书笔记，免费无广，方便好用
         - title: 135小红书排版
-          logo: images/图文设计/135小红书排版.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.135editor.com/red.html?from=dy.199908.top
           description: 135小红书排版神器是一款专为小红书平台设计的AI智能排版工具，旨在帮助用户优化笔记的视觉效果和内容布局，提升笔记的吸引力和阅读体验
 
         # 新媒体管理工具
         - title: 新媒体管家
-          logo: images/图文设计/新媒体管家.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://xmt.cn?from=dy.199908.top
           description: 集内容创作、排版、发布、数据分析于一体的新媒体运营工具
         - title: 新榜编辑器
-          logo: images/图文设计/新榜编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://edit.newrank.cn?from=dy.199908.top
           description: 新榜推出的新媒体内容创作工具，支持多平台内容创作和发布
         - title: Reditor编辑器
-          logo: images/图文设计/Reditor编辑器.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://help.reditorapp.com?from=dy.199908.top
           description: 小红书专业编辑工具，提供违禁词检测、AI文案生成等功能
         - title: XHSPlus
-          logo: images/图文设计/XHSPlus.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://xhsplus.io?from=dy.199908.top
           description: 小红书AI创作助手，提供爆款文案生成、编辑器和敏感词检测
         - title: 零克查词
-          logo: images/图文设计/零克查词.png
+          logo: images/图文设计/驼铃标志1.png
           url: https://www.liangekeji.com?from=dy.199908.top
           description: 专业小红书敏感词和违规词检测工具
     - name: 图片素材
@@ -1270,7 +1268,7 @@
           url: http://www.ooopic.com?from=dy.199908.top
           description: 正版设计作品交易平台
         - title: Shutterstock
-          logo: images/图文设计/Shutterstock.png
+          logo: images/图文设计/shutterstock.png
           url: https://www.shutterstock.com?from=dy.199908.top
           logo: images/图文设计/Shutterstock.png
           description: 全球领先的商业图库
@@ -1279,7 +1277,7 @@
           url: http://www.58pic.com?from=dy.199908.top
           description: 专注免费设计素材下载的网站
         - title: 图虫创意
-          logo: images/图文设计/图虫创意.png
+          logo: images/图文设计/图虫创意.jpeg
           url: https://stock.tuchong.com?from=dy.199908.top
           description: 正版图片素材库，提供海量高质量图片素材
         - title: 觅元素
@@ -1294,22 +1292,19 @@
           url: http://www.iconfont.cn?from=dy.199908.top
           description: 阿里巴巴矢量图标库
         - title: Flaticon
-          logo: images/图文设计/Flaticon.png
+          logo: images/图文设计/flaticon.png
           url: https://www.flaticon.com?from=dy.199908.top
-          logo: images/图文设计/Flaticon.png
           description: 634,000+ 免费矢量图标
         - title: IconPark
-          logo: images/图文设计/IconPark.png
+          logo: images/图文设计/iconpark.png
           url: https://iconpark.oceanengine.com?from=dy.199908.top
-          logo: images/图文设计/IconPark.png
           description: 字节跳动开源图标库
         - title: Icons8
-          logo: images/图文设计/Icons8.png
+          logo: images/图文设计/icons8.png
           url: https://icons8.com?from=dy.199908.top
-          logo: images/图文设计/Icons8.png
           description: 免费图标、插图和照片
         - title: Iconfinder
-          logo: images/图文设计/Iconfinder.png
+          logo: images/图文设计/iconfinder.png
           url: https://www.iconfinder.com?from=dy.199908.top
           description: 2,100,000+ free and premium vector icons
         - title: iconmonstr
@@ -1320,10 +1315,6 @@
           logo: images/图文设计/Icon_Archive.png
           url: http://www.iconarchive.com?from=dy.199908.top
           description: Search 590,912 free icons
-        - title: Material icons
-          logo: images/图文设计/Material_icons.png
-          url: https://material.io/icons?from=dy.199908.top
-          description: Access over 900 material system icons
         - title: Font Awesome Icon
           logo: images/图文设计/Font_Awesome_Icon.png
           url: https://fontawesome.com/icons?from=dy.199908.top
@@ -1390,11 +1381,6 @@
           url: https://storyset.com?from=dy.199908.top
           logo: images/图文设计/StorySet.png
           description: 免费可定制插画
-        - title: DrawkKit
-          logo: images/图文设计/DrawkKit.png
-          url: https://www.drawkit.io?from=dy.199908.top
-          logo: images/图文设计/DrawkKit.png
-          description: 免费矢量插画资源
         - title: Blush
           logo: images/图文设计/Blush.png
           url: https://blush.design?from=dy.199908.top
@@ -1415,11 +1401,6 @@
           url: https://pngtree.com?from=dy.199908.top
           logo: images/图文设计/Pngtree.png
           description: 数百万PNG图像、背景和矢量
-        - title: PNGWing
-          logo: images/图文设计/PNGWing.png
-          url: https://www.pngwing.com?from=dy.199908.top
-          logo: images/图文设计/PNGWing.png
-          description: 免费PNG透明图像库
         - title: FreePNGImg
           logo: images/图文设计/FreePNGImg.png
           url: https://freepngimg.com?from=dy.199908.top
@@ -1432,18 +1413,13 @@
           url: https://mixkit.co?from=dy.199908.top
           logo: images/图文设计/Mixkit.png
           description: 免费视频和音乐素材
-        - title: Videvo
-          logo: images/图文设计/Videvo.png
-          url: https://www.videvo.net?from=dy.199908.top
-          logo: images/图文设计/Videvo.png
-          description: 免费高清视频素材
         - title: Coverr
           logo: images/图文设计/Coverr.png
           url: https://coverr.co?from=dy.199908.top
           logo: images/图文设计/Coverr.png
           description: 免费视频背景素材
         - title: Pexels Videos
-          logo: images/图文设计/Pexels_Videos.png
+          logo: images/图文设计/Pexels.png
           url: https://www.pexels.com/videos?from=dy.199908.top
           logo: images/图文设计/PexelsVideos.png
           description: 免费高质量视频素材
@@ -1463,11 +1439,10 @@
           logo: images/图文设计/AudioJungle.png
           description: 版权音乐和音效市场
         - title: YouTube Audio Library
-          logo: images/图文设计/YouTube_Audio_Library.png
+          logo: images/图文设计/YouTube.png
           url: https://www.youtube.com/audiolibrary?from=dy.199908.top
           logo: images/图文设计/YouTubeAudio.png
           description: YouTube免费音频库
-
     - name: 办公模板
       links:
         - title: OfficePLUS
@@ -1486,21 +1461,10 @@
           logo: images/图文设计/第一PPT.png
           description: PPT模板免费下载
         - title: 51PPT模板
-          logo: images/图文设计/51PPT模板.png
+          logo: images/图文设计/51PPT模板.jpeg
           url: https://www.51pptmoban.com?from=dy.199908.top
           logo: images/图文设计/51PPT.png
           description: 免费PPT模板网
-        - title: 包图网
-          logo: images/图文设计/包图网.png
-          url: https://ibaotu.com?from=dy.199908.top
-          logo: images/图文设计/包图网.png
-          description: 正版商用设计素材
-        - title: 摄图网
-          logo: images/图文设计/摄图网.png
-          url: https://699pic.com?from=dy.199908.top
-          logo: images/图文设计/摄图网.png
-          description: 正版高清图片素材库
-
     - name: 专业软件
       links:
         # 图像处理
@@ -1517,7 +1481,7 @@
           logo: images/设计软件/Illustrator.png
           description: 矢量图形和插图设计软件
         - title: Affinity Designer
-          logo: images/图文设计/Affinity_Designer.png
+          logo: images/图文设计/AffinityDesigner.png
           url: https://affinity.serif.com?from=dy.199908.top
           logo: images/设计软件/AffinityDesigner.png
           description: 专业创意矢量图形设计软件
@@ -1531,7 +1495,7 @@
 
         # 3D建模
         - title: Cinema 4D
-          logo: images/图文设计/Cinema_4D.png
+          logo: images/图文设计/Cinema4D.png
           url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
           logo: images/设计软件/Cinema4D.png
           description: 专业的3D建模、动画和渲染软件
