@@ -1094,7 +1094,7 @@
           url: https://www.canva.com?from=dy.199908.top
           description: 在线平面设计平台
         - title: 佐糖-AI在线抠图
-          logo: images/图文设计/佐糖-AI在线抠图.png
+          logo: images/图文设计/佐糖.png
           url: https://picwish.cn?from=dy.199908.top
           description: AI在线抠图工具
         - title: tinypng
@@ -1118,7 +1118,7 @@
           url: https://818ps.com?from=dy.199908.top
           description: 在线平面设计工具，提供海报、banner、公众号首图等模板
         - title: 标小智
-          logo: images/图文设计/标小智.png
+          logo: images/图文设计/标小智.jpeg
           url: https://www.logosc.cn?from=dy.199908.top
           description: 在线LOGO设计工具，提供LOGO设计和品牌视觉设计服务
     - name: 排版编辑
@@ -1235,20 +1235,17 @@
         - title: Unsplash
           logo: images/图文设计/Unsplash.png
           url: https://unsplash.com?from=dy.199908.top
-          logo: images/图文设计/Unsplash.png
           description: 高质量免费图片素材
         - title: Pexels
           logo: images/图文设计/Pexels.png
           url: https://www.pexels.com?from=dy.199908.top
-          logo: images/图文设计/Pexels.png
           description: 免费可商用的高质量图片素材网站
         - title: pixabay
-          logo: images/图文设计/pixabay.png
-          url: https://pixabay.com?from=dy.199908.top
           logo: images/图文设计/Pixabay.png
+          url: https://pixabay.com?from=dy.199908.top
           description: 可在任何地方使用的免费图片和视频
         - title: freepik
-          logo: images/图文设计/freepik.png
+          logo: images/图文设计/Freepik.png
           url: https://www.freepik.com?from=dy.199908.top
           description: 超过百万免费矢量图、PSD、照片和图标
         - title: 花瓣网
@@ -1270,7 +1267,6 @@
         - title: Shutterstock
           logo: images/图文设计/shutterstock.png
           url: https://www.shutterstock.com?from=dy.199908.top
-          logo: images/图文设计/Shutterstock.png
           description: 全球领先的商业图库
         - title: 千图网
           logo: images/图文设计/千图网.png
@@ -1312,158 +1308,132 @@
           url: https://iconmonstr.com?from=dy.199908.top
           description: Free simple icons for your next project
         - title: Icon Archive
-          logo: images/图文设计/Icon_Archive.png
+          logo: images/图文设计/iconarchive.png
           url: http://www.iconarchive.com?from=dy.199908.top
           description: Search 590,912 free icons
         - title: Font Awesome Icon
-          logo: images/图文设计/Font_Awesome_Icon.png
+          logo: images/图文设计/fontawesome.png
           url: https://fontawesome.com/icons?from=dy.199908.top
           description: The complete set of 675 icons in Font Awesome
 
         # Logo设计工具
         - title: LogoMoose
-          logo: images/图文设计/LogoMoose.png
+          logo: images/图文设计/logomoose.jpeg
           url: https://www.logomoose.com?from=dy.199908.top
-          logo: images/图文设计/LogoMoose.png
           description: Logo设计灵感平台
         - title: FreeLogoDesign
-          logo: images/图文设计/FreeLogoDesign.png
+          logo: images/图文设计/freelogodesign.jpeg
           url: https://www.freelogodesign.org?from=dy.199908.top
-          logo: images/图文设计/FreeLogoDesign.png
           description: 在线Logo设计生成器
         - title: LogoMakr
-          logo: images/图文设计/LogoMakr.png
+          logo: images/图文设计/logomakr.jpeg
           url: https://logomakr.com?from=dy.199908.top
-          logo: images/图文设计/LogoMakr.png
           description: 免费Logo设计工具
         - title: WorldVectorLogo
-          logo: images/图文设计/WorldVectorLogo.png
+          logo: images/图文设计/worldvectorlogo.jpeg
           url: https://worldvectorlogo.com?from=dy.199908.top
-          logo: images/图文设计/WorldVectorLogo.png
           description: 品牌标识矢量图形库
 
         # 图标生成工具
         - title: IcoMoonApp
-          logo: images/图文设计/IcoMoonApp.png
+          logo: images/图文设计/icomoon.svg
           url: https://icomoon.io/app?from=dy.199908.top
           description: Icon Font, SVG, PDF & PNG Generator
 
         # 字体库
         - title: Google Font
-          logo: images/图文设计/Google_Font.png
+          logo: images/图文设计/Google Font.png
           url: https://fonts.google.com?from=dy.199908.top
-          logo: images/图标字体/GoogleFont.png
           description: Making the web more beautiful, fast, and open through great typography
         - title: 方正字库
           logo: images/图文设计/方正字库.png
           url: http://www.foundertype.com?from=dy.199908.top
-          logo: images/图标字体/方正字库.png
           description: 方正字库官方网站
         - title: 字体传奇网
           logo: images/图文设计/字体传奇网.png
           url: http://ziticq.com?from=dy.199908.top
-          logo: images/图标字体/字体传奇网.png
           description: 中国首个字体品牌设计师交流网
         - title: 私藏字体
           logo: images/图文设计/私藏字体.png
           url: http://sicangziti.com?from=dy.199908.top
-          logo: images/图标字体/私藏字体.png
           description: 优质字体免费下载站
     - name: 插画动图
       links:
         - title: unDraw
           logo: images/图文设计/unDraw.png
           url: https://undraw.co?from=dy.199908.top
-          logo: images/图文设计/unDraw.png
           description: 开源插画资源
         - title: StorySet
-          logo: images/图文设计/StorySet.png
+          logo: images/图文设计/storyset.png
           url: https://storyset.com?from=dy.199908.top
-          logo: images/图文设计/StorySet.png
           description: 免费可定制插画
         - title: Blush
-          logo: images/图文设计/Blush.png
+          logo: images/图文设计/blush.png
           url: https://blush.design?from=dy.199908.top
-          logo: images/图文设计/Blush.png
           description: 可定制的插画资源
         - title: Giphy
-          logo: images/图文设计/Giphy.png
+          logo: images/图文设计/giphy.png
           url: https://giphy.com?from=dy.199908.top
-          logo: images/图文设计/Giphy.png
           description: 最大的GIF动图库
         - title: Tenor
-          logo: images/图文设计/Tenor.png
+          logo: images/图文设计/tenor.png
           url: https://tenor.com?from=dy.199908.top
-          logo: images/图文设计/Tenor.png
           description: 搜索和分享GIF动图
         - title: Pngtree
-          logo: images/图文设计/Pngtree.png
+          logo: images/图文设计/pngtree.jpeg
           url: https://pngtree.com?from=dy.199908.top
-          logo: images/图文设计/Pngtree.png
           description: 数百万PNG图像、背景和矢量
         - title: FreePNGImg
-          logo: images/图文设计/FreePNGImg.png
+          logo: images/图文设计/freepngimg.png
           url: https://freepngimg.com?from=dy.199908.top
-          logo: images/图文设计/FreePNGImg.png
           description: 50,000+免费PNG图像
     - name: 视听素材
       links:
         - title: Mixkit
-          logo: images/图文设计/Mixkit.png
+          logo: images/图文设计/mixkit.jpeg
           url: https://mixkit.co?from=dy.199908.top
-          logo: images/图文设计/Mixkit.png
           description: 免费视频和音乐素材
         - title: Coverr
-          logo: images/图文设计/Coverr.png
+          logo: images/图文设计/coverr.png
           url: https://coverr.co?from=dy.199908.top
-          logo: images/图文设计/Coverr.png
           description: 免费视频背景素材
         - title: Pexels Videos
           logo: images/图文设计/Pexels.png
           url: https://www.pexels.com/videos?from=dy.199908.top
-          logo: images/图文设计/PexelsVideos.png
           description: 免费高质量视频素材
         - title: Freesound
-          logo: images/图文设计/Freesound.png
+          logo: images/图文设计/freesound.png
           url: https://freesound.org?from=dy.199908.top
-          logo: images/图文设计/Freesound.png
           description: 免费音效和音频素材
         - title: Zapsplat
-          logo: images/图文设计/Zapsplat.png
+          logo: images/图文设计/zapsplat.jpeg
           url: https://www.zapsplat.com?from=dy.199908.top
-          logo: images/图文设计/Zapsplat.png
           description: 音效和音乐素材库
         - title: AudioJungle
-          logo: images/图文设计/AudioJungle.png
+          logo: images/图文设计/audiojungle
           url: https://audiojungle.net?from=dy.199908.top
-          logo: images/图文设计/AudioJungle.png
           description: 版权音乐和音效市场
         - title: YouTube Audio Library
           logo: images/图文设计/YouTube.png
           url: https://www.youtube.com/audiolibrary?from=dy.199908.top
-          logo: images/图文设计/YouTubeAudio.png
           description: YouTube免费音频库
     - name: 办公模板
       links:
         - title: OfficePLUS
           logo: images/图文设计/OfficePLUS.png
           url: https://www.officeplus.cn?from=dy.199908.top
-          logo: images/图文设计/OfficePLUS.png
           description: 微软官方PPT模板
         - title: 优品PPT
           logo: images/图文设计/优品PPT.png
           url: https://www.ypppt.com?from=dy.199908.top
-          logo: images/图文设计/优品PPT.png
           description: 免费PPT模板下载
         - title: 第一PPT
           logo: images/图文设计/第一PPT.png
           url: https://www.1ppt.com?from=dy.199908.top
-          logo: images/图文设计/第一PPT.png
           description: PPT模板免费下载
         - title: 51PPT模板
           logo: images/图文设计/51PPT模板.jpeg
           url: https://www.51pptmoban.com?from=dy.199908.top
-          logo: images/图文设计/51PPT.png
           description: 免费PPT模板网
     - name: 专业软件
       links:
@@ -1471,42 +1441,36 @@
         - title: Photoshop
           logo: images/图文设计/Photoshop.png
           url: https://www.adobe.com/cn/products/photoshop.html?from=dy.199908.top
-          logo: images/设计软件/Photoshop.png
           description: 全球最强大的图像和图形设计软件
 
         # 矢量设计
         - title: Illustrator
           logo: images/图文设计/Illustrator.png
           url: https://www.adobe.com/cn/products/illustrator?from=dy.199908.top
-          logo: images/设计软件/Illustrator.png
           description: 矢量图形和插图设计软件
         - title: Affinity Designer
           logo: images/图文设计/AffinityDesigner.png
           url: https://affinity.serif.com?from=dy.199908.top
-          logo: images/设计软件/AffinityDesigner.png
           description: 专业创意矢量图形设计软件
 
         # 排版软件
         - title: InDesign
           logo: images/图文设计/InDesign.png
           url: http://www.adobe.com/cn/products/indesign.html?from=dy.199908.top
-          logo: images/设计软件/InDesign.png
           description: 页面设计、布局和出版软件
 
         # 3D建模
         - title: Cinema 4D
           logo: images/图文设计/Cinema4D.png
           url: https://www.maxon.net/en/products/cinema-4d/overview?from=dy.199908.top
-          logo: images/设计软件/Cinema4D.png
           description: 专业的3D建模、动画和渲染软件
         - title: 3ds Max
+          logo: images/图文设计/3dsMax.png
           url: https://www.autodesk.com/products/3ds-max/overview?from=dy.199908.top
-          logo: images/设计软件/3dsMax.png
           description: 3D建模、动画和渲染软件
         - title: Blender
           logo: images/图文设计/Blender.png
           url: https://www.blender.org?from=dy.199908.top
-          logo: images/设计软件/Blender.png
           description: 免费开源的3D创作套件
 
 - taxonomy: 媒体平台
