@@ -75,7 +75,7 @@ function search() {
     
     resultsList.innerHTML = '';  // 清空结果列表
     if (results.length > 0) {
-        var defaultLogo = rootPath+'images/favicon.png';
+        var defaultLogo = rootPath+'images/驼铃标志1.png';
         for (var j = 0; j < results.length; j++) {
         // 用高亮的标签替换匹配到的汉字
             if (results[j].wdMatch){
