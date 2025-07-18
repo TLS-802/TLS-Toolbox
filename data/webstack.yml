@@ -468,6 +468,94 @@
           url: https://www.zhuanzhuan.com?from=dy.199908.top
           description: 二手交易平台
 
+- taxonomy: AI-工具
+  icon: fa-cogs
+  links: 
+        - title: AiPPT（DeepSeek满血版）
+          logo: images/AI工具/aippt-1.webp
+          url: https://www.aippt.cn/?utm_type=Navweb&utm_source=yhzn&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=40478406
+          description: 免费生成！DeepSeek 大模型加持，AI 生成 PPT 更智能、更高效！
+        - title: DeepSeek满血版
+          logo: images/AI工具/wenxiaobai.webp
+          url: https://www.wenxiaobai.com/?forceLogin=true&source=yinghezhinan&ad_source=yinghezhinan
+          description: 免费不限次数，帮你写作、创作、分析和规划
+        - title: AI修复模糊图片
+          logo: images/AI工具/aitu-1.webp
+          url: https://www.ihuiwa.com/workspace/partial-redraw?editType=enhance-image&huiwaInviteCode=EUKWXL
+          description: 一键AI拯救渣画质，让老图变成新图
+        - title: 蛙蛙写作
+          logo: images/AI工具/wawa.webp
+          url: https://wawawriter.com/app/?utm_source=aiweb2
+          description: AI小说写作助手：写小说、拆书、小说转剧本
+        - title: AI智能消除笔
+          logo: images/AI工具/ai-eraser.webp
+          url: https://www.ihuiwa.com/workspace/ai-image/partial-redraw?editType=eraser-pen&huiwaInviteCode=EUKWXL
+          description: AI去图片水印、人物、杂物等
+        - title: AI帮你写文档
+          logo: images/AI工具/iflydocs.webp
+          url: https://gw.iflydocs.com/?from=AIjihe2
+          description: 轻松写材料、报告、通知、邀请函等
+        - title: 讯飞SparkDesk
+          logo: images/AI工具/xf-agent.webp
+          url: https://xinghuo.xfyun.cn/desk?ch=xh_1pr56o
+          description: 超过GPT-4 Turbo的讯飞星火AI助手
+        - title: 多图轻松变连贯短片
+          logo: images/AI工具/multi-img-video.webp
+          url: https://www.ihuiwa.com/workspace/ai-video/multi-img?huiwaInviteCode=EUKWXL
+          description: 选择多张图片，即可一键生成短片
+        - title: Trae：AI代码编辑器
+          logo: images/AI工具/trae.webp
+          url: https://www.trae.com.cn/?utm_source=advertising&utm_medium=yinghezhinan_ug_cpa&utm_term=hw_trae_yinghezhinan
+          description: 字节旗下AI代码助手
+        - title: 扣子空间
+          logo: images/AI工具/kouzi.webp
+          url: https://space.coze.cn/?utm_medium=daohang&utm_source=yinghezhinan&utm_content=home&utm_id=0&utm_campaign=&utm_term=hw_coze_yinghezhinan&utm_source_platform=
+          description: 和Agent一起开始你的工作
+        - title: 代码小浣熊
+          logo: images/AI工具/code-raccoon.webp
+          url: https://www.xiaohuanxiong.com/login?utm_source=blmay50
+          description: VSCode、JetBrains、在线AI编写代码的编程工具
+        - title: 堆友AI
+          logo: images/AI工具/duiyou.webp
+          url: https://d.design/?from=ab8
+          description: 多风格AI绘画神器
+        - title: 一句话生成图片
+          logo: images/AI工具/text-to-image.webp
+          url: https://www.ihuiwa.com/workspace/ai-image/creative-scene?huiwaInviteCode=EUKWXL
+          description: 输入你想象中的画面，得到一张理想的美图
+        - title: 星辰Agent
+          logo: images/AI工具/xingchen_agent.webp
+          url: https://agent.xfyun.cn/home?ch=xcagent-aitool7
+          description: 有什么任务就交给星辰Agent吧，解放你的大脑
+        - title: 豆包AI助手
+          logo: images/AI工具/doubao.webp
+          url: https://m.paluai.com/?code=dh63
+          description: 写作、作图、编程、搜索通通不是问题
+        - title: AI数据分析
+          logo: images/AI工具/office-raccoon.webp
+          url: https://www.xiaohuanxiong.com/login?utm_source=blmay50
+          description: AI帮你搞定数据分析、文档报告撰写等办公任务
+        - title: AI选题、配图、成文
+          logo: images/AI工具/turbodesk.webp
+          url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool7
+          description: 内容运营必备的「一站式创作」助手
+        - title: 逗逗AI游戏伙伴
+          logo: images/AI工具/doudou.webp
+          url: https://www.doudou.fun/?channel=web_aitool25
+          description: 黑神话、原神、英雄联盟、王者荣耀等游戏均支持
+        - title: AI制作视频
+          logo: images/AI工具/aibrm.webp
+          url: https://aibrm.com?code=dh_codyj
+          description: 一键生成视频、动画、人物形象等
+        - title: AI PPT助手
+          logo: images/AI工具/kapianppt.webp
+          url: https://www.cappt.cc/?mtm_campaign=CZQD-aidh-zd38-10080
+          description: AI一键生成PPT，从内容生成到智能设计，PPT 如此简单！
+        - title: AI一键换脸
+          logo: images/AI工具/face-swap.webp
+          url: https://yinghezhinan.com/go/?url=aHR0cHM6Ly9pbWdhaS5haS96aA%3D%3D
+          description: 智能生成、图片换脸、视频换脸等功能的AI图片处理工具集
+
 - taxonomy: 电商插件
   icon: fa-cogs
   links: 
