@@ -468,9 +468,20 @@
           url: https://www.zhuanzhuan.com?from=dy.199908.top
           description: 二手交易平台
 
-- taxonomy: AI - 工具
+- taxonomy: AI工具集
   icon: fa-cogs
-  links: 
+  list:  # 添加list属性，用于侧边栏显示
+    - term: 写作助手
+    - term: 聊天对话
+    - term: 办公提效
+    - term: 绘画平台
+    - term: 视频工具
+    - term: 音频工具
+    - term: 创意设计
+    - term: 虚拟形象
+  tabs:
+    - name: 写作助手
+      links:
         - title: AiPPT（DeepSeek满血版）
           logo: images/AI工具/aippt-1.webp
           url: https://www.aippt.cn/?utm_type=Navweb&utm_source=yhzn&utm_page=aippt&utm_plan=ppt&utm_unit=AIPPT&utm_keyword=40478406
@@ -555,6 +566,749 @@
           logo: images/AI工具/face-swap.webp
           url: https://yinghezhinan.com/go/?url=aHR0cHM6Ly9pbWdhaS5haS96aA%3D%3D
           description: 智能生成、图片换脸、视频换脸等功能的AI图片处理工具集
+        - title: DeepSeek满血版AI智能助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
+          description: 高性能版本，不会服务器繁忙，注册登录免费使用
+        - title: AI小说写作助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://wawawriter.com/app/?utm_source=aiweb5
+          description: 一站式润色、改写、扩写
+        - title: 在线游玩
+          logo: images/电商货源/驼铃标志1.png
+          url: https://newplace.shop?ref_id=d6371f24-449b-4511-b6eb-ba4e178151b9
+          description: 畅享言情自由。
+        - title: 深度推理能力全新升级
+          logo: images/电商货源/驼铃标志1.png
+          url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
+          description: 全面对标OpenAI o1
+        - title: 满血版DeepSeek-R1, 支持智能创意生成
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
+          description: 提升创作效率
+        - title: 高质量论文写作,300万大学生都在用的AI写作平台
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.66paper.cn/AI_A14BB05
+          description: 高质量论文写作,300万大学生都在用的AI写作平台
+        - title: 全能AI助手
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
+          description: 人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+        - title: 免费在线智能AI写作平台,AI自动生成高质量原创内容
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.xiaoyuxiezuo.com/AI_A14BB05
+          description: 免费在线智能AI写作平台,AI自动生成高质量原创内容
+        - title: 选题、配图、成文
+          logo: images/电商货源/驼铃标志1.png
+          url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
+          description: 一站式创作，让内容运营更高效
+        - title: 基于讯飞星火大模型进行文书数据定制训练
+          logo: images/电商货源/驼铃标志1.png
+          url: https://gw.iflydocs.com/?from=AIjihe6
+          description: 面向文书写作群体推出的一款AI材料写作平台
+        - title: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
+          description: 旨在帮助用户高效、便捷地完成图文内容的排版。
+        - title: 小红书笔记、公众号、周报总结、视频脚本等智能文案生成平台
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/276f1b8eebd948c08bde424e16335b3e
+          description: 小红书笔记、公众号、周报总结、视频脚本等智能文案生成平台
+        - title: 笔目鱼是一款专为中国科研人而研发的学术论文写作器
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.bmysci.com/?channelCode=bgrdhad
+          description: 功能集学术润色，改写改写，全文翻译，学科语料、一键插入参考文献、场景句式、查重、资料库管理为一体的云端学术论文写作器。
+        - title: 汇集爆款小说拆解、小说大纲一键生成、200+小说生成器、总结网文大神写作公式、精选小说资料库
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ibiling.cn/novel-workbench/?from=bgrnovel
+          description: 
+        - title: 全能型AI写作工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ibiling.cn/?from=bgrdh
+          description: AI 文章撰写、AI 论文写作、AI小说写作、文章降重降AI等
+        - title: 论文降AI神器！全网最先适配知网2.13升级+维普+万方
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ibiling.cn/paper-pass?from=bgrdhpass
+          description: 其他工具已失效，轻松通过检测！
+        - title: 一键生成万字原创
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.zeedeep.com
+          description: 论文写作辅助神器，专为论文而生。
+        - title: 利用人工智能技术为用户提供AI全能写作、新媒体写作、日常工作汇报等文稿
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.aichat1234.com/app/?bgrdh
+          description: 利用人工智能技术为用户提供AI全能写作、新媒体写作、日常工作汇报等文稿
+        - title: AI对话、AI绘画、文本生成、图像处理等
+          logo: images/电商货源/驼铃标志1.png
+          url: https://l.huiyan-ai.cn/s/JEWJ1G
+          description: AI对话、AI绘画、文本生成、图像处理等
+        - title: 专业级AI论文辅助工具、高质量学术文章写作
+          logo: images/电商货源/驼铃标志1.png
+          url: https://lunwen.168096.com
+          description: 专业级AI论文辅助工具、高质量学术文章写作
+        - title: 毕业论文、千字大纲免费生成
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ibiling.cn/paper?from=bgrpaper
+          description: 几万字专业初稿，答辩PPT一键生成，更可根据导师要求无限改稿！
+        - title: 免费英文写作及润色AI工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.editage.cn/paperpal?utm_source=bgrdh&utm_medium=Banner&utm_campaign=Banner
+          description: 兼备翻译及投稿检查等强大功能，大幅节省写作时长
+        - title: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
+          logo: images/电商货源/驼铃标志1.png
+          url: https://xiezuocat.com
+          description: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
+        - title: 论小文 可靠的学术助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.aipaperok.com
+          description: 免费生成大纲，一键生成3w+字论文。包括11种写作学术类型，支持查重降重，所有参考文献真实可查！
+        - title: AI文本人性化工具可将AI生成的内容转化为自然、拟人化的文本。它能优化语言流畅度
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.aitexthumanizer.app
+          description: 采用对话式表达，并避免机械化的措辞。可帮助用户为不同内容需求创作更自然、更具吸引力的材料。
+        - title: 文佳AI-专业AI论文生成,近百万人使用的AI论文生成平台,一键原创生成,快速高效！选题/生成大纲/完整论文生成/文献综述等一键完成,辅助论文写作神器！
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.paperflowai.com
+          description: 文佳AI-专业AI论文生成,近百万人使用的AI论文生成平台,一键原创生成,快速高效！选题/生成大纲/完整论文生成/文献综述等一键完成,辅助论文写作神器！
+        - title: 白果AI论文助手是一款专为学术写作场景设计的AI工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.baiguoai.com
+          description: 旨在帮助用户快速完成论文、报告和综述的撰写。
+        - title: 云之AI论文助手是一款专注于学术写作的AI工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://paper.humsun.com
+          description: 旨在帮助用户高效完成论文写作任务。
+        - title: Detectordeia可通过分析文本来确定文本是由人工智能撰写还是由人工撰写。完全免费
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.detectordeia.org
+          description: 无需注册即可使用。
+        - title: 笔启AI论文专业高质量、低查重论文生成平台
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.biqiai.cn
+          description: 免费生成大纲，支持无线改稿，包过查重！
+        - title: 答辩PPT、千字自述稿一键生成
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ibiling.cn/ppt?from=bgrpptdb
+          description: 预测导师提问，答辩一次过！
+        - title: 文字游侠是一款基于人工智能技术开发的AI写作工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://wenan.tcbot.cc/#/pages/login/reg?code=FetTbe
+          description: 旨在帮助用户高效生成高质量的文章内容，适用于教育、媒体、市场营销等多个领域。
+    - name: 聊天对话
+      links:
+        - title: 问小白
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
+          description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
+        - title: Ai女友❤(在线游玩)
+          logo: images/电商货源/驼铃标志1.png
+          url: https://newplace.shop?ref_id=d6371f24-449b-4511-b6eb-ba4e178151b9
+          description: 在线游玩，畅享言情自由。
+        - title: 讯飞星火
+          logo: images/电商货源/驼铃标志1.png
+          url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
+          description: 深度推理能力全新升级，全面对标OpenAI o1
+        - title: Flowith
+          logo: images/电商货源/驼铃标志1.png
+          url: https://flowith.net?inv=BGRDHH
+          description: Flowith 是一个专注于人工智能创作与任务执行的平台，旨在帮助用户将日常的洞察转化为创意突破。
+        - title: 稿定AI对话
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
+          description: 满血版DeepSeek-R1, 支持智能创意生成，提升创作效率
+        - title: 豆包
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
+          description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+        - title: DeepSeek
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.deepseek.com
+          description: 开源大模型平台
+        - title: 当贝AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ai.dangbei.com
+          description: 当贝AI官网DeepSeek满血版，当贝AI聚合全网优质AI大模型，包括满血版DeepSeek-R1 671B、豆包AI、通义千问等优质AI大模型，当贝AI提供一站式AI解决方案，极速、高效、免费、不限量！
+        - title: Qwen Chat
+          logo: images/电商货源/驼铃标志1.png
+          url: https://chat.qwen.ai
+          description: Qwen Chat 是阿里通义推出的一款多功能 AI 大型语言模型 Web 界面平台，旨在为用户提供高效、便捷的 AI 交互体验。
+        - title: 华为小艺
+          logo: images/电商货源/驼铃标志1.png
+          url: https://xiaoyi.huawei.com
+          description: 华为小艺是具备多种功能，包括AI问答、AI写作、AI识图、AI阅读、翻译、代码生成等，能够覆盖从科学到文化、从技术到社会等多个领域，全面提升用户的生活质量和工作效率。
+        - title: 慧言AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://l.huiyan-ai.cn/s/JEWJ1G
+          description: AI对话、AI绘画、文本生成、图像处理等
+        - title: 纳米AI助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://bot.n.cn
+          description: 360公司推出的一款创新性人工智能工具，核心功能包括多模态交互、智能问答、内容创作以及深度学习等
+        - title: 文小言
+          logo: images/电商货源/驼铃标志1.png
+          url: http://www.wenxiaoyan.com
+          description: 百度推出的一款智能助手
+        - title: 腾讯元宝
+          logo: images/电商货源/驼铃标志1.png
+          url: https://yuanbao.tencent.com
+          description: 腾讯元宝是腾讯公司推出的一款基于自研混元大模型技术的C端AI智能助手App，旨在为用户提供高效、便捷的智能服务。
+        - title: Kimi智能助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://kimi.moonshot.cn
+          description: 免费多功能AI助手，自从用了Kimi,每天都能准时下班了。日报周报？Kimi一键帮你搞定。
+        - title: 通义星尘
+          logo: images/电商货源/驼铃标志1.png
+          url: https://tongyi.aliyun.com/xingchen
+          description: 角色对话智能体
+        - title: 天工AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.tiangong.cn
+          description: 天工是一款支持搜索、写作、对话、文档分析、画画、做PPT的全能型AI助手。借助AI技术，检索信息、多语言翻译、写论文、写代码、写方案、写汇报、做PPT、归纳总结文档和音频视频等。
+        - title: 小悟空
+          logo: images/电商货源/驼铃标志1.png
+          url: https://wukong.com/tool
+          description: 字节跳动推出的AI对话助手和个人助理
+        - title: 智谱清言
+          logo: images/电商货源/驼铃标志1.png
+          url: https://chatglm.cn
+          description: 免费全能的AI助手
+        - title: 文心一言
+          logo: images/电商货源/驼铃标志1.png
+          url: https://yiyan.baidu.com
+          description: 百度全新一代知识增强大语言模型，文心一言官方网站在线网页版使用入口
+        - title: ChatGPT 引导语
+          logo: images/电商货源/驼铃标志1.png
+          url: https://prompts.fresns.cn
+          description: ChatGPT 引导语是一个汇集了丰富 ChatGPT 引导语、创意写作灵感与实用技巧的优质平台，致力于帮助用户激发无限创意，提升写作效率与质量。
+        - title: AiShort
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.aishort.top
+          description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的 AI 智能体，实现复杂任务的自动化。
+        - title: 大思政数智平台思政通
+          logo: images/电商货源/驼铃标志1.png
+          url: https://chatmarx.zihaoai.cn
+          description: 思政问答人工智能助手，大学思政教材问答GPT，可以向提问关于中国近现代史、思修、毛概、马原、社会时事新闻的问题，可以在切换人物设定。
+        - title: Poe
+          logo: images/电商货源/驼铃标志1.png
+          url: https://poe.com
+          description: Poe.com汇聚卓越人工智能，一站式体验。探索 GPT-4.5、Claude 3.7 Sonnet、DeepSeek-R1、Runway、ElevenLabs 以及数百万其他产品。
+        - title: 无涯问知
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.wuya-ai.com
+          description: 无涯问知，无涯Infinity，是一款基于星环大模型底座，结合个人知识库、企业知识库、法律法规、财经等多种知识源的企业级垂直领域问答产品
+        - title: QQ浏览器DeepSeek
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aisearch.qq.com
+          description: DeepSeekQQ浏览器专线版整合了DeepSeek-R1模型的先进AI技术，为用户提供深度思考、联网搜索、多轮对话以及历史记录回溯等强大功能。
+        - title: SCNet智能助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.scnet.cn/ui/chatbot
+          description: SCNet人工智能助手是一个多功能的AI工具，旨在为用户提供高效、智能的服务，涵盖了从编程辅助到创意写作、从信息检索到智能对话的多种功能。
+        - title: 万话创作者平台
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.wantalk.com
+          description: 万话创作者平台是一个专注于角色创建与管理的在线服务平台，旨在通过AI技术帮助用户构建和细化角色设定，从而推动剧情发展。
+        - title: MiniMax AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://chat.minimaxi.com
+          description: MiniMax AI是一款全能的AI助手，支持AI写作、AI搜题、AI办公、AI翻译、AI编程、AI创作、AI文档总结，AI聊天、AI对话、口语陪练、模拟面试等。
+        - title: 理想同学
+          logo: images/电商货源/驼铃标志1.png
+          url: https://livis.com
+          description: 理想同学是理想汽车推出的一款基于自研大模型Mind GPT开发的AI智能助手，旨在为用户提供全方位的智能服务。核心功能包括知识问答、视觉感知、语音交互以及联网搜索等。
+        - title: 浙大deepseek
+          logo: images/电商货源/驼铃标志1.png
+          url: https://chat.zju.edu.cn
+          description: 浙江大学浙大先生是一款基于DeepSeek V3和R1模型的深度融合智能体平台，旨在为全国高校师生提供教学、科研和生活场景的全方位AI服务。
+    - name: 办公提效
+      links:
+        - title: 问小白
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
+          description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
+        - title: 文多多AiPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://docmee.cn/?source=bangongr
+          description: AI根据主题、文档、网址智能生成PPT文档，同时支持在线编辑、美化、排版、导出、一键动效、自动生成演讲稿等功能
+        - title: 免费AI生成PPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.aippt.cn/?utm_type=Navweb&utm_source=bgrdh&utm_page=aippt&utm_plan=aippt&utm_unit=AIPPT&utm_keyword=36302531
+          description: 输入主题即可在3分钟内生成专业级PPT
+        - title: 豆包AI云盘
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
+          description: 免费无限容量,上传下载不限速网盘，豆包AI支持AI编程,搜索,图像生成,阅读等功能
+        - title: 小浣熊
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.xiaohuanxiong.com/login?utm_source=blmay14
+          description: AI 智能助手，提升工作效率好帮手
+        - title: 扣子空间
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/cozebgrdh.html
+          description: 在扣子空间，和 Agent 一起开始你的工作
+        - title: 讯飞智文
+          logo: images/电商货源/驼铃标志1.png
+          url: https://zhiwen.xfyun.cn/home?from=aitool4
+          description: 一键生成PPT和Word，让学习生活更轻松
+        - title: 绘蛙
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
+          description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
+        - title: 咔片PPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.cappt.cc/?mtm_campaign=CZQD-aidh-zd10-10051
+          description: AI助力，做PPT更简单！
+        - title: 酷表ChatExcel
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.chatexcel.com/#/home?partner_uuid=BCAB45078F33305692CBBBDA49B19FF7
+          description: AI Excel 数据分析辅助工具，北大团队开发的通过聊天来操作Excel表格的AI工具
+        - title: AI智能生成PPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ai.pptsupermarket.com/index/Y29tcGFueWlkPWJncmRoX2NvbV9xcV8zNjE1NTc3OTM4
+          description: 在线AI智能生成PPT
+        - title: 飞书多维表格
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/fsbgrdh.html
+          description: 表格形态的 AI 工作流搭建工具，支持批量化的AI创作与分析任务
+        - title: AI视频生成
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMAIFL
+          description: 模特图一键变视频，图片一键生成视频工具
+        - title: 博思AIPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://pptgo.cn?utm_source=referrals&utm_content=bgrdh&_channel_track_key=KajMySOp
+          description: 在线AI生成PPT软件
+        - title: 小绿鲸英文文献阅读器
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.xljsci.com?channelCode=FcROKT
+          description: 英文文献阅读器,专注提高SCI阅读效率
+        - title: 灵办AI助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ilingban.com/chat/?from=bgrdh
+          description: 国内免加速免费使用ChatGPT AI对话机器人
+        - title: 360AI办公
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aiwork.360.cn
+          description: 360AI办公，一站式AI办公工具集。涵盖AI图片、AI文档、AI写作、AI音视频、AI PPT、PDF处理等200种办公权益及30万模版资源，让你高效工作轻松生活。
+        - title: SheetNext表格
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.sheetnext.com
+          description: AI Excel 全自动制表工具，只需输入简单提示语，即可对Excel表格实现全自动化逻辑操作。支持智能录入、自动插入公式、样式修改、生成数据、生成模板、增删改查等任务。
+        - title: 迅捷AiPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.xunjieppt.com/aippt/?bgrdh
+          description: 迅捷PPT软件是一款高效实用的AI演示文稿制作工具，主打PPTAI生成
+        - title: 慧言AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://l.huiyan-ai.cn/s/JEWJ1G
+          description: AI对话、AI绘画、文本生成、图像处理等
+        - title: 晓象AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.bgrdh.com/sites/43824.html
+          description: 晓象AI小程序，整合全网资讯，24小时实时更新
+        - title: 笔格AIPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://bigppt.cn/?hmmd=BGR
+          description: 自动生成大纲，AI文字润色，AI文生图等多种智能服务
+        - title: 讯飞星火
+          logo: images/电商货源/驼铃标志1.png
+          url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
+          description: 科大讯飞推出的AI对话产品,AI助手,提供写作、绘画、搜索、问答、翻译、阅读等多种能力
+        - title: 百度文库AI助手
+          logo: images/电商货源/驼铃标志1.png
+          url: https://wenku.baidu.com/ndlaunch/browse/chat?fr=dist_wk_aiasis&dist_source=kfpt-WD&utm_account=dist&keyword=PPT&searchFr=1&third_id=wkds_fcb0bb2980fb6294dd88d0d233d4b14e84243efc_400000026
+          description: 百度文库AI助手是一款基于百度"文心一言"技术开发的智能文档助手，旨在通过人工智能技术提升用户的文档处理能力，为用户提供高效、便捷的写作和文档管理服务。
+        - title: 智能体
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gnomic.cn/?bangongren
+          description: 接入多种AI大模型,稳定性强,无广告
+        - title: ChatPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.chat-ppt.com/?channel=bgrdhAD
+          description: AI在线生成PPT文档
+        - title: AI提示语
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.tishi.top/?invite=ruSOOO
+          description: 访问丰富强大的 AI 模型并通过超过 100 个 AI 工具提升个人创造力与工作学习效率
+        - title: DeepWork AI侧边栏
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aisidebar.chat
+          description: DeepWork AI侧边栏在浏览器侧边栏中与AI聊天，解答问题、绘制图片、阅读文档、强化搜索结果、辅助创作、解释和扩写文本...以及更多强大的功能，随时随地助你效率提升！
+        - title: 熊猫简历
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.pandaresume.cn
+          description: 熊猫简历PandaResume专业在线简历制作；海量个人简历模板免费使用，简历模板下载，AI简历一键生成，AI辅助优化简历内容。
+        - title: Powerdrill
+          logo: images/电商货源/驼铃标志1.png
+          url: https://powerdrill.ai
+          description: Powerdrill 是一款以人工智能为核心的无代码数据分析SaaS平台，致力于通过自然语言交互帮助个人和企业快速挖掘数据价值，实现从基础查询到深度商业智能分析的全面覆盖。
+        - title: AI翻译工具
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ai-translator.cc/zh
+          description: 一款功能强大的免费 AI 翻译工具，支持多语言翻译。
+        - title: PDFMathTranslate
+          logo: images/电商货源/驼铃标志1.png
+          url: https://pdf2zh.com
+          description: PDFMathTranslate 是一款专为科学论文和复杂文档翻译设计的开源工具，旨在提供高精度、格式保留的双语对照翻译服务。
+        - title: 360文库
+          logo: images/电商货源/驼铃标志1.png
+          url: https://wenku.so.com
+          description: 360文库是一个综合性的在线文档分享平台，其主要功能包括文档上传、下载、搜索和分享，涵盖学术论文、行业报告、商业资料、办公模板等多领域内容，满足用户在学习、办公和创作中的多样化需求。
+        - title: 360AIPPT
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aippt.360.com
+          description: 360AIPPT是一款AIPPT制作工具，旨在通过智能化功能提升用户制作PPT的效率和质量。用户只需输入主题、关键词或内容描述，即可快速生成包含标题、大纲、内容和配图的完整PPT。
+        - title: AI TransPDF
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aitranspdf.com/zh-CN
+          description: AI TransPDF 是一款专注于智能翻译 PDF 文档的工具，旨在高效、准确地完成 PDF 文档的翻译工作。
+        - title: DomainGenius
+          logo: images/电商货源/驼铃标志1.png
+          url: https://domain.deepzero.ai
+          description: Domain Genius是一款AI智能域名生成器，核心功能包括基于关键词生成域名建议、支持多种域名样式（如随机混合、描述性、押韵、双关语等）以及灵活的域名长度和扩展选择。
+    - name: 绘画平台
+      links:
+        - title: 堆友
+          logo: images/电商货源/驼铃标志1.png
+          url: https://d.design/?from=ab3
+          description: 免费生成图片,阿里旗下堆友推出的多风格AI绘画生成器
+        - title: 绘蛙-创意文生图
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.ihuiwa.com/workspace/ai-image/creative-scene?huiwaInviteCode=EMAIFL
+          description: 免费在线AI文生图工具，输入你想象中的画面，自动生成多样化的创意图像
+        - title: 豆包
+          logo: images/电商货源/驼铃标志1.png
+          url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
+          description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+        - title: 绘蛙
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
+          description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
+        - title: 吉卜力滤镜
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/77847fe750e5476ea97a161a8ee01747
+          description: 一键打造宫崎骏动画风，AI吉卜力滤镜
+        - title: 稿定AI绘图
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/45dd0ffdf1394b63ab0993b060f86c82
+          description: 面向所有用户的一站式免费AI创意和绘画平台
+        - title: 稿定AI工具集
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.gaoding.com/utms/a9cf58991d7241b09ac178209c761006
+          description: AI图片处理、AI绘图等一站式AI图像创作和设计平台
+        - title: 百度画一画
+          logo: images/电商货源/驼铃标志1.png
+          url: https://image.baidu.com/front/aigc
+          description: 免费AI绘画工具，百度画一画是一款由百度推出的AI绘画工具，旨在通过文字描述生成图像
+        - title: NoMoreCopyright
+          logo: images/电商货源/驼铃标志1.png
+          url: https://nomorecopyright.com
+          description: 一个基于人工智能技术的在线平台，旨在帮助用户生成无版权的图像资源
+        - title: A1.art
+          logo: images/电商货源/驼铃标志1.png
+          url: https://a1.art/zh
+          description: a1是一个免费的在线AI图片生成器，轻松创建和使用图片滤镜，只需一键即可生成令人惊叹的AI艺术作品
+        - title: 亦心AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aigc.photosir.com
+          description: AI绘画创作平台，提供AI工坊、AI商品图、AI动漫、AI闪绘、AI艺术字等多种创作工具，覆盖图片生成、海报设计、商品图制作、动态漫画创作等多个领域
+        - title: 慧言AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://l.huiyan-ai.cn/s/JEWJ1G
+          description: AI对话、AI绘画、文本生成、图像处理等
+        - title: Raphael AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://raphael.app/zh
+          description: 免费无限制 AI 图像生成器，使用 Raphael 创建精美图像，这是全球首个完全免费且无限制的 AI 图像生成器，由 FLUX.1-Dev 模型驱动。无需注册，图像质量卓越
+        - title: 腾讯混元生图
+          logo: images/电商货源/驼铃标志1.png
+          url: https://image.hunyuan.tencent.com
+          description: 腾讯推出的一款创新的AI图像生成工具
+        - title: Midjourney AI作图
+          logo: images/电商货源/驼铃标志1.png
+          url: https://mj.xinpianchang.com/?utm_source=bgrdh&utm_medium=homeRec9
+          description: 媲美Midjourney的在线AI生图工具
+        - title: 免费AI生成图片
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.bgrdh.com/sites/36145.html
+          description: 免费AI一键生成图片工具
+        - title: StickerBaker
+          logo: images/电商货源/驼铃标志1.png
+          url: https://stickerbaker.com
+          description: 免费开源的AI贴纸生成工具
+        - title: Vega AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://applet.rightbrainai.cn
+          description: 国内专业的ai创作平台，支持文本生成图片，图片风格转换
+        - title: 腾讯云AI绘画
+          logo: images/AI工具集/腾讯云AI绘画.ico
+          url: https://ti-image.cloud.tencent.com/text-to-image
+          description: 腾讯云智能图像创作平台
+        - title: 海艺AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.haiyi.art
+          description: 一个免费的AI绘图平台
+        - title: 吐司AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://tusiart.com/?utm_source=bgr&source_id=bgr
+          description: 一键生成真实感美女，全网更齐全的模型库
+        - title: 即梦
+          logo: images/电商货源/驼铃标志1.png
+          url: https://jimeng.jianying.com
+          description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
+        - title: 通义万相
+          logo: images/电商货源/驼铃标志1.png
+          url: https://tongyi.aliyun.com/wanxiang
+          description: 阿里云通义旗下的AI创意作画平台
+        - title: 360智绘
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aigc.360.com
+          description: 360智脑AI绘画应用与分享平台
+        - title: 360鸿图
+          logo: images/电商货源/驼铃标志1.png
+          url: https://tu.360.cn
+          description: 输入关键词，立即生成图片
+        - title: 简单AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://ai.sohu.com
+          description: 搜狐旗下AI爱好者的社区
+        - title: 文心一格
+          logo: images/电商货源/驼铃标志1.png
+          url: https://yige.baidu.com
+          description: 百度文心一格AI艺术和创意辅助平台
+        - title: AI卡通形象生成器
+          logo: images/电商货源/驼铃标志1.png
+          url: https://aicartoongenerator.org
+          description: AI卡通形象生成器是一款免费在线AI卡通形象生成器，基于人工智能技术的在线工具，旨在将用户的照片快速转换为具有艺术感的卡通形象
+        - title: 免费AI图片生成器
+          logo: images/AI工具集/免费AI图片生成器.ico
+          url: https://freeimgen.com/zh
+          description: 免费AI图片生成器，秒级生成AI图片，100%免费，无需注册，无需信用卡
+        - title: FreeGen
+          logo: images/AI工具集/FreeGen.ico
+          url: https://freegen.godsbee.com
+          description: 无限生成令人惊叹的AI图片，永久免费，无需注册
+        - title: 图像转图像AI
+          logo: images/电商货源/驼铃标志1.png
+          url: https://imgtoimg.ai/zh
+          description: 图像转图像AI是一款领先的AI驱动工具，支持您高效地变形、风格化和重塑图像。与传统的文本生成图像不同，平台在应用用户描述的变换时，完美保留了输入图像的关键结构
+        - title: 吉卜力风格图片
+          logo: images/电商货源/驼铃标志1.png
+          url: https://www.amz123.com/ghibli
+          description: AMZ123跨境导航的吉卜力风格图片生成工具，无论是个人照片还是风景图，只需上传图片，点击生成按钮，即刻将图片转换为吉卜力艺术风格的作品
+    - name: 视频工具
+      links:
+        - title: 堆友
+          logo: images/AI工具集/堆友.png
+          url: https://d.design/?from=ab3
+          description: 免费生成图片,阿里旗下堆友推出的多风格AI绘画生成器
+        - title: 绘蛙-多图成片
+          logo: images/AI工具集/绘蛙-多图成片.png
+          url: https://www.ihuiwa.com/workspace/ai-video/multi-img?huiwaInviteCode=EMAIFL
+          description: 将多张静态图片快速合成为动态视频，适用于电商、社交媒体等多种场景
+        - title: 蝉镜
+          logo: images/AI工具集/蝉镜.png
+          url: https://www.chanjing.cc/refc/?type=hzBuy&id=r1AGlgGa2hWA8IM4MruNFPfd_RnJw_O-t9nq8PR3_Tc
+          description: 数字人视频创作平台
+        - title: 有言
+          logo: images/AI工具集/有言.png
+          url: https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh
+          description: 一站式AI视频创作，1200+免费3D数字人
+        - title: 白日梦AI
+          logo: images/AI工具集/白日梦AI.png
+          url: https://aibrm.com?code=dh_codyh
+          description: 白日梦AI视频生成是一个文生视频类AIGC创作平台
+        - title: SoundView声动视界
+          logo: images/AI工具集/SoundView声动视界.png
+          url: https://soundviewai.com/invitation?inviteCode=H61DsgTux&from=bgrdh
+          description: 一款解决跨境电商视频创作的平台，利用多语种翻译、语音合成、语音识别、大模型等技术，提供视频配音、视频翻译、文本配音等业务
+        - title: AI视频生成
+          logo: images/AI工具集/AI视频生成.png
+          url: https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMAIFL
+          description: 模特图一键变视频，图片一键生成视频工具
+        - title: Vidu AI
+          logo: images/AI工具集/Vidu_AI.png
+          url: https://www.vidu.cn/create
+          description: AI视频生成工具
+        - title: 讯飞绘镜
+          logo: images/AI工具集/讯飞绘镜.png
+          url: https://typemovie.art/?utm_source=nt-ai7#/dashboard
+          description: 讯飞绘镜是科大讯飞推出的一款基于人工智能技术的AI视频创作平台，旨在简化视频创作流程，帮助用户将创意快速转化为高质量的视频内容
+        - title: 可灵AI
+          logo: images/AI工具集/可灵AI.png
+          url: https://klingai.kuaishou.com
+          description: 快手推出的一款AI视频生成工具
+        - title: 万彩AI
+          logo: images/AI工具集/万彩AI.png
+          url: https://ai.kezhan365.com/?utm_code=bgr-gwn-dhl-005
+          description: 除了提供AI智能写作支持之外，还集成了AI换脸、照片数字人制作和AI短视频制作等强大的AI生成内容功能
+        - title: 度加
+          logo: images/AI工具集/度加.png
+          url: https://aigc.baidu.com
+          description: 百度官方出品的AIGC创作平台
+        - title: 即梦
+          logo: images/AI工具集/即梦.png
+          url: https://jimeng.jianying.com
+          description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
+        - title: 快剪辑
+          logo: images/AI工具集/快剪辑.png
+          url: https://www.kuaijianji.com
+          description: 好用的在线视频剪辑工具
+        - title: 腾讯智影
+          logo: images/AI工具集/腾讯智影.png
+          url: https://zenvideo.qq.com
+          description: 一款云端智能视频创作工具，集素材搜集、视频剪辑、渲染导出和发布于一体的免费在线剪辑平台
+        - title: PhotoTo.Video
+          logo: images/AI工具集/PhotoTo.Video.png
+          url: https://phototo.video
+          description: PhotoTo.Video 是一款基于人工智能技术的在线工具，旨在将静态照片转换为动态视频，帮助用户轻松创作富有创意和吸引力的视频内容
+        - title: 无痕AI
+          logo: images/AI工具集/无痕AI.png
+          url: https://www.wuhenai.com
+          description: 无痕AI是一款在线AI视频消除工具，支持无痕视频去水印文字，视频去字幕，以及去除视频中不想要的人或物。高清导出，不模糊画面，也不压缩画质
+        - title: Moonvalley
+          logo: images/AI工具集/Moonvalley.png
+          url: https://www.moonvalley.com
+          description: Moonvalley 是一个开创性的文本到视频生成 AI 模型，能够根据用户输入的简单文本提示，生成高质量的视频和动画，涵盖从超现实风格到动漫风格的多种视频类型
+        - title: Face Swap AI
+          logo: images/AI工具集/Face_Swap_AI.png
+          url: https://www.videofaceswap.ai
+          description: Video Face Swap AI 是一款基于人工智能的视频换脸工具，用户可以轻松创建高质量、自然的换脸视频。操作简单，适合内容创作者、社交媒体用户和短视频爱好者使用
+        - title: rask.ai
+          logo: images/AI工具集/rask.ai.png
+          url: https://zh.rask.ai
+          description: Rask AI是一个为全球企业提供智能视频本地化解决方案的平台，通过AI驱动的音频和视频配音服务，帮助用户将内容翻译并配音成130多种语言
+        - title: BoomCut
+          logo: images/AI工具集/BoomCut.png
+          url: https://boomcutai.com
+          description: BoomCut 爆剪辑提供出海营销一站式视频本地化解决方案，提供视频翻译、视频换脸、音色克隆、唇音驱动、智能擦除、字幕翻译等 AI 技术，快速完成本地化营销视频生成
+        - title: FalcoCut
+          logo: images/AI工具集/FalcoCut.png
+          url: https://falcocut.com
+          description: FalcoCut是一个专注于AI视频本地化与营销内容全球化的平台。其核心目标是通过人工智能技术（如唇语同步、面部替换、语音克隆等），帮助用户快速将视频内容适配多语言市场
+        - title: VidAU
+          logo: images/AI工具集/VidAU.png
+          url: https://affiliates.vidau.ai/q1ccS9
+          description: VidAU是一款由人工智能驱动的视频生成平台，旨在简化视频创作流程，提升效率并降低成本。适用于 TikTok、YouTube、市场营销、培训等多种使用场景
+        - title: DemoGet
+          logo: images/AI工具集/DemoGet.png
+          url: https://www.demoget.com/zh
+          description: DemoGet是一款免费的屏幕录制演示软件，支持4K导出，用户可以立即下载并使用。支持屏幕录制后自动编辑的免费工具，旨在让用户无需学习复杂软件操作即可完成屏幕录制和编辑
+        - title: 万兴录演
+          logo: images/AI工具集/万兴录演.png
+          url: https://www.bgrdh.com/sites/52912.html
+          description: 万兴录演是一款多功能屏幕录制与视频编辑软件，其核心功能包括高清屏幕录制、AI抠图、绿幕抠像、鼠标特效、虚拟形象录制以及丰富的视频模板资源
+        - title: 讯飞译制
+          logo: images/AI工具集/讯飞译制.png
+          url: https://yizhi.iflyrec.com
+          description: 讯飞译制是科大讯飞推出的一项智能译制服务，旨在为用户提供多语种音视频字幕生成翻译、译后配音以及自定义配音声音等服务
+        - title: pyVideoTrans
+          logo: images/AI工具集/pyVideoTrans.png
+          url: https://www.bgrdh.com/sites/52873.html
+          description: pyVideoTrans 是一款功能强大且易于使用的开源视频翻译和配音工具，旨在帮助用户轻松实现视频内容的多语言转换
+        - title: Arctime
+          logo: images/AI工具集/Arctime.png
+          url: https://www.bgrdh.com/sites/52582.html
+          description: Arctime 是一款功能强大的跨平台字幕制作软件，主要用于影视后期制作、广告制作和字幕编辑等领域
+        - title: Clipfly
+          logo: images/AI工具集/Clipfly.png
+          url: https://www.clipfly.ai
+          description: Clipfly 是一款一站式 AI 视频制作平台，旨在通过人工智能技术简化视频创作流程，使用户能够轻松生成高质量的视频内容
+        - title: Kapwing
+          logo: images/AI工具集/Kapwing.png
+          url: https://www.kapwing.com/cmn-hans-cn
+          description: Kapwing 是一个功能强大的在线视频编辑和内容创作平台，主要通过人工智能技术简化视频制作流程，适合个人用户、内容创作者、教育者和企业用户等多种用户群体
+        - title: AIMIX智剪
+          logo: images/AI工具集/AIMIX智剪.png
+          url: https://www.aimix.pro
+          description: AIMIX智剪是一款功能强大的AI短视频制作工具，专为提升短视频创作效率和质量而设计
+        - title: Captions
+          logo: images/AI工具集/Captions.png
+          url: https://www.captions.ai
+          description: Captions 是一款基于人工智能技术的视频编辑工具，集成了多种功能，包括视频剪辑、字幕添加、滤镜美颜等，能够快速生成高质量的视频内容
+        - title: 团队快剪
+          logo: images/AI工具集/团队快剪.png
+          url: https://teamcut.shanjian.tv
+          description: 团队快剪是一款由闪剪智能开发的AI视频创作系统，专为团队带货和短视频营销设计
+    - name: 音频工具
+      links:
+        - title: 配音神器99元永久
+          logo: images/AI工具集/配音神器99元永久.png
+          url: https://www.bgrdh.com/sites/4065.html
+          description: 一键文字转流畅自然声音,99元永久使用,支持电脑和手机
+        - title: 制片帮音分轨
+          logo: images/AI工具集/制片帮音分轨.png
+          url: https://au.zhipianbang.com/page/spread?spread=9d6ea37dbf05
+          description: 人声分离,一键将音频分离成人声和伴奏
+        - title: 听脑
+          logo: images/AI工具集/听脑.png
+          url: https://itingnao.com?source=3514&unit=3520
+          description: 音视频转文字神器，轻松搞定会议纪要、录音整理
+        - title: AudioTextHub
+          logo: images/AI工具集/AudioTextHub.png
+          url: https://www.audiotexthub.pro/zh
+          description: AudioTextHub是一款智能AI文本转语音平台。只需几秒钟，即可将文字转换成自然流畅的语音，支持100+种语言
+    - name: 创意设计
+      links:
+        - title: 堆友
+          logo: images/AI工具集/堆友.png
+          url: https://d.design/?from=ab3
+          description: 免费生成图片,阿里旗下堆友推出的多风格AI绘画生成器
+        - title: 即梦
+          logo: images/AI工具集/即梦.png
+          url: https://jimeng.jianying.com
+          description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
+        - title: 万彩AI
+          logo: images/AI工具集/万彩AI.png
+          url: https://ai.kezhan365.com/?utm_code=bgr-gwn-dhl-005
+          description: 除了提供AI智能写作支持之外，还集成了AI换脸、照片数字人制作和AI短视频制作等强大的AI生成内容功能
+        - title: 度加
+          logo: images/AI工具集/度加.png
+          url: https://aigc.baidu.com
+          description: 百度官方出品的AIGC创作平台
+        - title: 慧言AI
+          logo: images/AI工具集/慧言AI.png
+          url: https://l.huiyan-ai.cn/s/JEWJ1G
+          description: AI对话、AI绘画、文本生成、图像处理等
+        - title: Canva可画
+          logo: images/AI工具集/Canva可画.png
+          url: https://www.canva.cn
+          description: Canva可画是一个在线设计平台，提供丰富的设计模板和AI工具，帮助用户轻松创建专业的视觉内容
+        - title: 美图AI
+          logo: images/AI工具集/美图AI.png
+          url: https://ai.meitu.com
+          description: 美图AI是美图公司推出的人工智能创作平台，集成了多种AI功能，包括AI绘画、AI写真、AI设计等
+        - title: Pixso AI
+          logo: images/AI工具集/Pixso_AI.png
+          url: https://pixso.cn/ai
+          description: Pixso AI是一款集成了人工智能功能的在线协作设计工具，为设计师提供智能化的设计辅助功能
+    - name: 虚拟形象
+      links:
+        - title: 蝉镜
+          logo: images/AI工具集/蝉镜.png
+          url: https://www.chanjing.cc/refc/?type=hzBuy&id=r1AGlgGa2hWA8IM4MruNFPfd_RnJw_O-t9nq8PR3_Tc
+          description: 数字人视频创作平台
+        - title: 有言
+          logo: images/AI工具集/有言.png
+          url: https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh
+          description: 一站式AI视频创作，1200+免费3D数字人
+        - title: 万彩AI
+          logo: images/AI工具集/万彩AI.png
+          url: https://ai.kezhan365.com/?utm_code=bgr-gwn-dhl-005
+          description: 除了提供AI智能写作支持之外，还集成了AI换脸、照片数字人制作和AI短视频制作等强大的AI生成内容功能
+        - title: Face Swap AI
+          logo: images/AI工具集/Face_Swap_AI.png
+          url: https://www.videofaceswap.ai
+          description: Video Face Swap AI 是一款基于人工智能的视频换脸工具，用户可以轻松创建高质量、自然的换脸视频
+        - title: VidAU
+          logo: images/AI工具集/VidAU.png
+          url: https://affiliates.vidau.ai/q1ccS9
+          description: VidAU是一款由人工智能驱动的视频生成平台，支持数字人视频创作
+        - title: 万兴录演
+          logo: images/AI工具集/万兴录演.png
+          url: https://www.bgrdh.com/sites/52912.html
+          description: 万兴录演是一款多功能屏幕录制与视频编辑软件，支持虚拟形象录制功能
+
 
 - taxonomy: 电商插件
   icon: fa-cogs
@@ -2216,29 +2970,16 @@
 
 - taxonomy: 联系我们
   icon: fa-photo-video
-  list:  # 添加list属性，用于侧边栏显示
-    - term: 微信客服
-    - term: 抖音客服
-    - term: 飞书客服
-    - term: 开源仓库
-  tabs:
-    - name: 微信客服
-      links:
+  links:
         - title: 微信客服
           logo: images/联系我们/Wechat.jpg
           url: https://www.nodeimage.com/i/32451/KTcD1Tnp3WNR5XeGsc0yd3nSh4bLOEOx.png?from=dy.199908.top
-    - name: 抖音客服
-      links:
         - title: 抖音客服
           logo: images/联系我们/douyin.jpg
           url: https://v.douyin.com/OHq9e7844u8?from=dy.199908.top
-    - name: 飞书客服
-      links:
         - title: 飞书客服
           logo: images/联系我们/feishu.jpg
           url: https://www.nodeimage.com/i/32451/WqUooZnM3WNR5WkCsc0yRs9SO94tsAHz.png?from=dy.199908.top
-    - name: 开源仓库
-      links:
         - title: Github
           logo: images/联系我们/github.jpg
           url: https://github.com/TLS-802?from=dy.199908.top
