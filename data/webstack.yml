@@ -2805,18 +2805,30 @@
       logo: images/生活服务/GitHub.png
       url: https://github.com?from=dy.199908.top
       description: 全球最大的代码托管平台
-    - title: Stack Overflow
-      logo: images/生活服务/Stack_Overflow.ico
-      url: https://stackoverflow.com?from=dy.199908.top
-      description: 一个全球性的编程知识问答平台
-    - title: Reddit
-      logo: images/生活服务/Reddit.ico
-      url: https://www.reddit.com?from=dy.199908.top
-      description: The front page of the internet
-    - title: Google Cloud
-      logo: images/生活服务/Google_Cloud.ico
-      url: https://cloud.google.com?from=dy.199908.top
-      description: Build and scale with Google Cloud Platform
+    - title: 天涯
+      logo: images/生活服务/天涯.ico
+      url: https://tianya.im?from=dy.199908.top
+      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合性在线平台
+    - title: 威锋网
+      logo: images/生活服务/威锋网.ico
+      url: https://www.feng.com?from=dy.199908.top
+      description: 苹果用户社区
+    - title: 吾爱破解
+      logo: images/生活服务/吾爱破解.ico
+      url: https://www.52pojie.cn?from=dy.199908.top
+      description: 软件安全与病毒分析
+    - title: 今日头条
+      logo: images/生活服务/今日头条.ico
+      url: https://www.toutiao.com?from=dy.199908.top
+      description: 你关心的，才是头条
+    - title: LINUX DO
+      logo: images/生活服务/LINUX_DO.svg
+      url: https://linux.do?from=dy.199908.top
+      description: Linux技术社区
+    - title: NodeSeek
+      logo: images/生活服务/nodeseek.png
+      url: https://www.nodeseek.com?from=dy.199908.top
+      description: Linux技术社区
     - title: CSDN
       logo: images/生活服务/CSDN.ico
       url: https://www.csdn.net?from=dy.199908.top
@@ -2834,7 +2846,7 @@
       url: https://www.v2ex.com?from=dy.199908.top
       description: 创意工作者们的社区
     - title: NodeLoc
-      logo: images/站点图标.png
+      logo: images/生活服务/NodeLoc.ico
       url: https://www.nodeloc.com?from=dy.199908.top
       description: Nodeloc是一个关注于互联网的交流论坛，主要内容包括但不限于主机,节点,技术,域名,建站,评测等，NL是一个自由地分享互联网资源的社区
     - title: 什么值得买
@@ -2842,35 +2854,15 @@
       url: https://www.smzdm.com?from=dy.199908.top
       description: 消费决策平台
     - title: 虎扑
-      logo: images/站点图标.png
+      logo: images/生活服务/虎扑.ico
       url: https://www.hupu.com?from=dy.199908.top
       description: 体育文化社区
-    - title: 天涯
-      logo: images/站点图标.png
-      url: https://tianya.im?from=dy.199908.top
-      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合性在线平台
-    - title: 威锋网
-      logo: images/生活服务/威锋网.ico
-      url: https://www.feng.com?from=dy.199908.top
-      description: 苹果用户社区
-    - title: 吾爱破解
-      logo: images/生活服务/吾爱破解.ico
-      url: https://www.52pojie.cn?from=dy.199908.top
-      description: 软件安全与病毒分析
-    - title: 今日头条
-      logo: images/生活服务/今日头条.ico
-      url: https://www.toutiao.com?from=dy.199908.top
-      description: 你关心的，才是头条
-    - title: LINUX DO
-      logo: images/站点图标.png
-      url: https://linux.do?from=dy.199908.top
-      description: Linux技术社区
     - title: LearnKu
-      logo: images/站点图标.png
+      logo: images/生活服务/LearnKu.ico
       url: https://learnku.com?from=dy.199908.top
       description: 专为终身学习者定制的编程知识社区
     - title: 链滴社区
-      logo: images/站点图标.png
+      logo: images/生活服务/链滴社区.ico
       url: https://ld246.com?from=dy.199908.top
       description: 一个以技术为核心的开源社区
     - title: 小木虫
@@ -2878,17 +2870,26 @@
       url: https://muchong.com?from=dy.199908.top
       description: 学术科研互动社区，旨在为科研人员提供一个交流、学习和分享的平台
     - title: Fandom
-      logo: images/站点图标.png
+      logo: images/生活服务/Fandom.ico
       url: https://www.fandom.com?from=dy.199908.top
       description: Fandom是一个全球性的娱乐和粉丝社区平台，主要面向亚文化用户，提供百科全书式的娱乐内容和社交功能
     - title: stage1
-      logo: images/站点图标.png
+      logo: images/生活服务/stage1.svg
       url: https://www.saraba1st.com?from=dy.199908.top
       description: stage1/s1 游戏动漫论坛
     - title: 晋江文学城论坛
       logo: images/生活服务/晋江文学城论坛.svg
       url: https://bbs.jjwxc.net?from=dy.199908.top
       description: 晋江文学城读者、作者进行交流讨论的综合性论坛
+    - title: Stack Overflow
+      logo: images/生活服务/Stack_Overflow.ico
+      url: https://stackoverflow.com?from=dy.199908.top
+      description: 一个全球性的编程知识问答平台
+    - title: Reddit
+      logo: images/生活服务/Reddit.ico
+      url: https://www.reddit.com?from=dy.199908.top
+      description: The front page of the internet
+
   - name: 二手交易
   - name: 求职招聘
   - name: 房屋租售
