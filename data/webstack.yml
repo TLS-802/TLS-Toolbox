@@ -2801,26 +2801,70 @@
   tabs:
   - name: 社区论坛
     links:
+    - title: GitHub
+      logo: images/生活服务/GitHub.png
+      url: https://github.com?from=dy.199908.top
+      description: 全球最大的代码托管平台
     - title: Stack Overflow
       logo: images/生活服务/Stack_Overflow.ico
       url: https://stackoverflow.com?from=dy.199908.top
       description: 一个全球性的编程知识问答平台
-    - title: Fandom
-      logo: images/站点图标.png
-      url: https://www.fandom.com?from=dy.199908.top
-      description: Fandom是一个全球性的娱乐和粉丝社区平台，主要面向亚文化用户，提供百科全书式的娱乐内容和社交功能
-    - title: 天涯
-      logo: images/站点图标.png
-      url: https://tianya.im?from=dy.199908.top
-      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合性在线平台
-    - title: 小木虫
-      logo: images/站点图标.png
-      url: https://muchong.com?from=dy.199908.top
-      description: 学术科研互动社区，旨在为科研人员提供一个交流、学习和分享的平台
+    - title: Reddit
+      logo: images/生活服务/Reddit.ico
+      url: https://www.reddit.com?from=dy.199908.top
+      description: The front page of the internet
+    - title: Google Cloud
+      logo: images/生活服务/Google_Cloud.ico
+      url: https://cloud.google.com?from=dy.199908.top
+      description: Build and scale with Google Cloud Platform
+    - title: CSDN
+      logo: images/生活服务/CSDN.ico
+      url: https://www.csdn.net?from=dy.199908.top
+      description: 专业的中文IT技术社区
+    - title: 知乎
+      logo: images/生活服务/知乎.ico
+      url: https://www.zhihu.com?from=dy.199908.top
+      description: 有问题，就会有答案
+    - title: 豆瓣
+      logo: images/生活服务/豆瓣.ico
+      url: https://www.douban.com?from=dy.199908.top
+      description: 我们的精神角落
+    - title: V2EX
+      logo: images/生活服务/V2EX.png
+      url: https://www.v2ex.com?from=dy.199908.top
+      description: 创意工作者们的社区
     - title: NodeLoc
       logo: images/站点图标.png
       url: https://www.nodeloc.com?from=dy.199908.top
       description: Nodeloc是一个关注于互联网的交流论坛，主要内容包括但不限于主机,节点,技术,域名,建站,评测等，NL是一个自由地分享互联网资源的社区
+    - title: 什么值得买
+      logo: images/生活服务/什么值得买.ico
+      url: https://www.smzdm.com?from=dy.199908.top
+      description: 消费决策平台
+    - title: 虎扑
+      logo: images/站点图标.png
+      url: https://www.hupu.com?from=dy.199908.top
+      description: 体育文化社区
+    - title: 天涯
+      logo: images/站点图标.png
+      url: https://tianya.im?from=dy.199908.top
+      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合性在线平台
+    - title: 威锋网
+      logo: images/生活服务/威锋网.ico
+      url: https://www.feng.com?from=dy.199908.top
+      description: 苹果用户社区
+    - title: 吾爱破解
+      logo: images/生活服务/吾爱破解.ico
+      url: https://www.52pojie.cn?from=dy.199908.top
+      description: 软件安全与病毒分析
+    - title: 今日头条
+      logo: images/生活服务/今日头条.ico
+      url: https://www.toutiao.com?from=dy.199908.top
+      description: 你关心的，才是头条
+    - title: LINUX DO
+      logo: images/站点图标.png
+      url: https://linux.do?from=dy.199908.top
+      description: Linux技术社区
     - title: LearnKu
       logo: images/站点图标.png
       url: https://learnku.com?from=dy.199908.top
@@ -2829,6 +2873,14 @@
       logo: images/站点图标.png
       url: https://ld246.com?from=dy.199908.top
       description: 一个以技术为核心的开源社区
+    - title: 小木虫
+      logo: images/生活服务/小木虫.svg
+      url: https://muchong.com?from=dy.199908.top
+      description: 学术科研互动社区，旨在为科研人员提供一个交流、学习和分享的平台
+    - title: Fandom
+      logo: images/站点图标.png
+      url: https://www.fandom.com?from=dy.199908.top
+      description: Fandom是一个全球性的娱乐和粉丝社区平台，主要面向亚文化用户，提供百科全书式的娱乐内容和社交功能
     - title: stage1
       logo: images/站点图标.png
       url: https://www.saraba1st.com?from=dy.199908.top
@@ -2837,82 +2889,6 @@
       logo: images/生活服务/晋江文学城论坛.svg
       url: https://bbs.jjwxc.net?from=dy.199908.top
       description: 晋江文学城读者、作者进行交流讨论的综合性论坛
-    - title: 北邮人论坛
-      logo: images/生活服务/北邮人论坛.svg
-      url: https://bbs.byr.cn?from=dy.199908.top
-      description: 北邮校内最大的信息交流平台
-    - title: 家电论坛
-      logo: images/生活服务/家电论坛.svg
-      url: https://www.jdbbs.com?from=dy.199908.top
-      description: 家电产品综合讨论社区BBS
-    - title: 龙的天空
-      logo: images/生活服务/龙的天空.ico
-      url: https://www.lkong.com?from=dy.199908.top
-      description: 龙的天空网络文学
-    - title: 天门社区网
-      logo: images/生活服务/天门社区网.svg
-      url: https://www.tmbbs.com?from=dy.199908.top
-      description: 天门地区最具权威,影响力最大天门的综合性门户论坛
-    - title: 大天门论坛
-      logo: images/生活服务/大天门论坛.svg
-      url: http://bbs.datianmen.com?from=dy.199908.top
-      description: 天门人气和影响力领先的网站和手机APP
-    - title: UG爱好者论坛
-      logo: images/生活服务/UG爱好者论坛.svg
-      url: https://www.ugsnx.com?from=dy.199908.top
-      description: 百万Siemens UG NX工程师交流平台
-    - title: 矿石收音机
-      logo: images/生活服务/矿石收音机.svg
-      url: http://www.crystalradio.cn?from=dy.199908.top
-      description: 电子爱好者中文社区
-    - title: RCFans
-      logo: images/站点图标.png
-      url: https://www.rcfans.com?from=dy.199908.top
-      description: 专注于遥控模型（RC模型）的爱好者社区
-    - title: 手电大家谈
-      logo: images/站点图标.png
-      url: https://www.shoudian.org?from=dy.199908.top
-      description: 手电筒爱好者交流的论坛
-    - title: 股票之声
-      logo: images/站点图标.png
-      url: https://www.gupzs.com?from=dy.199908.top
-      description: 专注于财经新闻、上市公司动态、市场分析以及股票投资策略的在线平台
-    - title: cocos中文社区
-      logo: images/站点图标.png
-      url: https://forum.cocos.org?from=dy.199908.top
-      description: 为使用Cocos游戏引擎的开发者提供交流、分享和学习的平台
-    - title: Ubuntu中文论坛
-      logo: images/站点图标.png
-      url: https://forum.ubuntu.com.cn?from=dy.199908.top
-      description: 一个专门为Ubuntu用户提供中文支持和交流的平台
-    - title: 过早客
-      logo: images/站点图标.png
-      url: https://www.guozaoke.com?from=dy.199908.top
-      description: 创业、创意、IT、金融等最热话题的交流，招聘问答、活动交友等最新资讯的发布
-    - title: 中羽在线社区
-      logo: images/站点图标.png
-      url: https://bbs.badmintoncn.com?from=dy.199908.top
-      description: 一个专注于羽毛球爱好者的交流与服务平台
-    - title: 福步外贸论坛
-      logo: images/生活服务/福步外贸论坛.ico
-      url: https://bbs.fobshanghai.com?from=dy.199908.top
-      description: 中国专业外贸论坛
-    - title: 恩山无线论坛
-      logo: images/生活服务/恩山无线论坛.ico
-      url: https://www.right.com.cn?from=dy.199908.top
-      description: 一个专注于无线网络技术、路由器及相关设备的社区平台
-    - title: 小专栏
-      logo: images/生活服务/小专栏.ico
-      url: https://xiaozhuanlan.com?from=dy.199908.top
-      description: 专业人士的创作知识社区
-    - title: 迅维网
-      logo: images/站点图标.png
-      url: https://www.chinafix.com?from=dy.199908.top
-      description: 国内专业的手机维修、电脑维修技术分享和交流论坛
-    - title: Fandom后室
-      logo: images/站点图标.png
-      url: https://backrooms.fandom.com/zh/wiki/Backrooms_Wiki?from=dy.199908.top
-      description: Fandom后室（Backrooms）是一个基于4chan"令人不安的图片"讨论串而兴起的虚构网络社区，其内容主要围绕一个名为"后室"的虚拟世界展开，后室由多个层级（Levels）组成
   - name: 二手交易
   - name: 求职招聘
   - name: 房屋租售
