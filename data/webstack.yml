@@ -2511,6 +2511,7 @@
   - term: 短剧平台
   - term: 漫画网站
   - term: 小说文学
+  - term: 体育直播
   tabs:
   - name: 视频平台
     links:
@@ -2956,6 +2957,80 @@
       logo: images/媒体平台/QQ阅读.png
       url: https://book.qq.com?from=dy.199908.top
       description: QQ阅读是阅文集团旗下的重要在线阅读平台
+  - name: 体育直播
+    links:
+    - title: CCTV-5体育频道
+      logo: images/媒体平台/CCTV-5体育频道.png
+      url: https://tv.cctv.com/live/cctv5?from=dy.199908.top
+      description: CCTV-5高清体育直播在线观看
+    - title: 央视网体育
+      logo: images/媒体平台/央视网体育.png
+      url: https://sports.cctv.com?from=dy.199908.top
+      description: 提供最全面专业的体育赛事直播点播、图文资讯、评论报道
+    - title: 企鹅直播
+      logo: images/媒体平台/企鹅直播.png
+      url: https://live.qq.com?from=dy.199908.top
+      description: 费看高清NBA直播、NFL橄榄球直播、足球直播、台球直播、CBA、欧冠意甲西甲直播
+    - title: 进球时刻网
+      logo: images/媒体平台/进球时刻网.svg
+      url: https://www.8jijin.com?from=dy.199908.top
+      description: 世界足球全场回放集锦数据库,足球比赛回放进球集锦视频录像下载 | 涵盖国家队、俱乐部、球员生涯进球合集
+    - title: 321直播
+      logo: images/媒体平台/321直播.png
+      url: https://www.321tyzb.com?from=dy.199908.top
+      description: 321直播为你打造畅NBA篮球直播、享欧洲五大联赛、世界杯预选赛、欧洲杯、足球等体育盛事的绝佳平台。无需担心错过任何精彩瞬间，即刻观看欧冠、NBA、CBA等顶级赛事。
+    - title: 低调看球网
+      logo: images/媒体平台/低调看球网.ico
+      url: https://didiaokanqiu.net?from=dy.199908.top
+      description: 低调看球直播网是一个全新的绿色无广告的体育直播导航网站，球迷喜欢的英超直播、中超直播、NBA直播等比赛都有，分享低调看球直播网给更多的朋友让看直播速度更快
+    - title: 24直播吧
+      logo: images/媒体平台/24直播吧.png
+      url: https://www.24zhiboba.com?from=dy.199908.top
+      description: 24直播吧全程提供NBA,CBA,英超,西甲直播,CCTV5在线直播等热门体育赛事免费高清视频直播信号，看比赛上24直播吧
+    - title: 360吧
+      logo: images/媒体平台/360吧.png
+      url: https://www.360ba.co?from=dy.199908.top
+      description: 体育直播在线观看网站
+    - title: 直播站
+      logo: images/媒体平台/直播站.png
+      url: https://zhiboz.com?from=dy.199908.top
+      description: 足球、篮球、综合赛事,体育赛事的专业直播平台
+    - title: 篮球帝
+      logo: images/媒体平台/篮球帝.png
+      url: https://www.lanqiudi.com?from=dy.199908.top
+      description: 一个专注于篮球赛事直播与录像的综合性体育直播平台
+    - title: 壹直播
+      logo: images/媒体平台/壹直播.png
+      url: https://www.zhibo1.cc?from=dy.199908.top
+      description: 一个提供全方位体育赛事直播和相关资讯的网站
+    - title: 515直播
+      logo: images/媒体平台/515直播.png
+      url: https://www.515001.tv?from=dy.199908.top
+      description: 一个专注于体育赛事直播的专业平台
+    - title: 速赛体育
+      logo: images/媒体平台/速赛体育.ico
+      url: https://www.susai.cc?from=dy.199908.top
+      description: 速赛体育汇聚全球足球直播+NBA直播、CBA直播等热门体育赛事直播
+    - title: 好看体育
+      logo: images/媒体平台/好看体育.ico
+      url: https://www.haokan.tv?from=dy.199908.top
+      description: 一个专注于体育赛事直播、新闻资讯和精彩集锦的综合性体育平台
+    - title: 优直播
+      logo: images/媒体平台/优直播.ico
+      url: https://www.yoozhibo.net?from=dy.199908.top
+      description: 优直播提供欧洲杯直播,足球直播,CCTV5在线直播,广州恒大,广东体育直播,恒大直播,NBA直播,NBA录像,NBA录像回放,中超,英超,亚冠,欧冠,CBA等等体育视频录像
+    - title: 直播车
+      logo: images/媒体平台/直播车.ico
+      url: https://www.zhiboche8.com?from=dy.199908.top
+      description: 直播车是一家老牌体育直播吧网站，提供足球直播，nba直播和综合体育直播。涵盖直播吧、极速体育、360直播的赛事直播。在线观看NBA直播、英超直播、西甲、意甲、德甲、法甲、等五大联赛、欧冠、欧联和中超、CBA直播。
+    - title: 体育6
+      logo: images/媒体平台/体育6.png
+      url: https://www.zb06.com?from=dy.199908.top
+      description: 体育赛事直播导航网站，汇集了全球范围内的各种体育赛事直播链接，包括但不限于足球、篮球、足球、英超、NBA、世界杯、欧洲杯等
+    - title: 球迷网
+      logo: images/媒体平台/球迷网.png
+      url: https://24h.live?from=dy.199908.top
+      description: NBA直播,NBA重播吧,比赛视频,斯诺克直播网
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
