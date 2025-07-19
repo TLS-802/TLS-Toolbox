@@ -2795,9 +2795,9 @@
   - term: 求职招聘
   - term: 房屋租售
   - term: 法律咨询
-  - term: 行业报告
-  - term: 市场研究
-  - term: 科技研究
+  - term: 投诉举报
+  - term: 考公考研
+  - term: 职场考证
   tabs:
   - name: 社区论坛
     links:
@@ -3169,6 +3169,248 @@
       logo: images/生活服务/性行为同意协议系统.svg
       url: https://001.123408.xyz?from=dy.199908.top
       description: 性行为同意协议系统旨在帮助用户创建合法有效的性行为同意协议，确保各方权益得到保障。
+  - name: 投诉举报
+    links:
+    - title: 全国12315平台
+      logo: images/生活服务/全国12315平台.png
+      url: http://www.12315.cn?from=dy.199908.top
+      description: 通过平台向市场监管部门举报涉嫌违反市场监管法律、法规、规章的线索
+    - title: 国务院人民群众留言入口
+      logo: images/生活服务/国务院人民群众留言入口.png
+      url: http://www.gov.cn/hudong/index.htm?from=dy.199908.top
+      description: 政府面向社会的窗口,公众与政府互动的渠道
+    - title: 12345政务服务便民热线
+      logo: images/生活服务/12345政务服务便民热线.png
+      url: https://www.bgrdh.com/sites/8794.html?from=dy.199908.top
+      description: 市长信箱,12345热线
+    - title: 国家信访局
+      logo: images/生活服务/国家信访局.png
+      url: https://www.gjxfj.gov.cn?from=dy.199908.top
+      description: 处理国内群众和境外人士的来信来访事项，保证信访渠道畅通的部门
+    - title: 12309中国检察网
+      logo: images/生活服务/12309中国检察网.png
+      url: https://www.12309.gov.cn?from=dy.199908.top
+      description: 集案件信息公开,办事服务,监督意见等功能,可以网上信访
+    - title: 国家安全举报
+      logo: images/生活服务/国家安全举报.png
+      url: https://www.12339.gov.cn?from=dy.199908.top
+      description: 12339受理公民和组织举报危害国家安全行为的平台，危害国家安全犯罪行为、间谍行为和其他危害国家安全行为线索的举报受理
+    - title: 快递投诉
+      logo: images/生活服务/快递投诉.png
+      url: https://sswz.spb.gov.cn?from=dy.199908.top
+      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
+    - title: 电信用户申诉受理中心
+      logo: images/生活服务/电信用户申诉受理中心.png
+      url: https://yhssglxt.miit.gov.cn?from=dy.199908.top
+      description: 投诉电信、移动和联通
+    - title: 全国消协智慧315平台
+      logo: images/生活服务/全国消协智慧315平台.png
+      url: https://315.cca.org.cn?from=dy.199908.top
+      description: 全国消协智慧315平台是全国消费者协会组织联合打造的创新维权平台，旨在为消费者提供更便捷、高效的维权服务。
+    - title: 全文化和旅游市场举报投诉
+      logo: images/生活服务/全文化和旅游市场举报投诉.png
+      url: https://jbts.mct.gov.cn?from=dy.199908.top
+      description: 向文化和旅游部门举报涉嫌违反文化和旅游市场相关法律法规规章的线索
+    - title: 谣言举报
+      logo: images/生活服务/谣言举报.png
+      url: https://www.piyao.org.cn/xxjbrk.htm?from=dy.199908.top
+      description: 中国互联网联合辟谣平台,谣言举报中心,谣言线索提交
+    - title: 腾讯卫士
+      logo: images/生活服务/腾讯卫士.png
+      url: https://110.qq.com?from=dy.199908.top
+      description: 账号安全、QQ/微信违规行为举报受理综合服务平台
+    - title: 阿里安全中心
+      logo: images/生活服务/阿里安全中心.png
+      url: https://110.alibaba.com?from=dy.199908.top
+      description: 原名阿里110，面向淘宝会员解决安全问题的服务平台
+    - title: 啄木鸟投诉平台
+      logo: images/生活服务/啄木鸟投诉平台.png
+      url: https://tousu.china.com.cn?from=dy.199908.top
+      description: 消费者服务平台
+    - title: 消费保
+      logo: images/生活服务/消费保.png
+      url: https://www.xfb315.com?from=dy.199908.top
+      description: 消费服务保障平台
+    - title: 汽车质量问题投诉
+      logo: images/生活服务/汽车质量问题投诉.png
+      url: https://www.aqsiqauto.com/complaint?from=dy.199908.top
+      description: 中国汽车质量网-汽车质量问题投诉平台
+    - title: 电影院举报
+      logo: images/生活服务/电影院举报.png
+      url: http://jbzx.chinafilm.org.cn?from=dy.199908.top
+      description: 中国电影发行放映协会举报中心受理电影市场违规和放映质量问题举报
+    - title: 劳动争议调解
+      logo: images/生活服务/劳动争议调解.png
+      url: http://223.71.147.149/portal?from=dy.199908.top
+      description: 为劳动者和用人单位提供便捷的劳动人事争议调解服务
+  - name: 考公考研
+    links:
+    - title: 中国研究生招生信息网
+      logo: images/生活服务/中国研究生招生信息网.png
+      url: https://yz.chsi.com.cn?from=dy.199908.top
+      description: 隶属于教育部的以考研为主题的官方网站
+    - title: 中国教育考试网
+      logo: images/生活服务/中国教育考试网.png
+      url: http://www.neea.edu.cn?from=dy.199908.top
+      description: 教育部考试中心系教育部直属事业单位，主要承担教育考试专项职责任务
+    - title: 中公教育网
+      logo: images/生活服务/中公教育网.png
+      url: https://www.offcn.com?from=dy.199908.top
+      description: 大型的多品类职业教育机构
+    - title: 考研帮
+      logo: images/生活服务/考研帮.png
+      url: https://www.kaoyan.com?from=dy.199908.top
+      description: 考研交流平台和研究生招生信息网络发布平台
+    - title: 中公考研网
+      logo: images/生活服务/中公考研网.jpg
+      url: http://www.kaoyan365.cn?from=dy.199908.top
+      description: 提供考研时间、考研科目、考研复试调剂、考研专业目录及各科复习资料等信息
+    - title: 考研信息网
+      logo: images/生活服务/考研信息网.jpg
+      url: http://www.chinakaoyan.com?from=dy.199908.top
+      description: 为考生提供专业、可靠、贴心的考研资讯
+    - title: 自考365
+      logo: images/生活服务/自考365.png
+      url: https://www.zikao365.com?from=dy.199908.top
+      description: 专注于自学考试的专业网站
+    - title: 考研派
+      logo: images/生活服务/考研派.png
+      url: http://www.okaoyan.com?from=dy.199908.top
+      description: 考研派[考研网]考研网站平台,使命-帮助每位考研人成功，为考研人提供各院校研招网资讯、考研一对一辅导和研究生院考研官网资讯服务，旗下有：考研派之家微信公众号、考研派APP、考研网等
+    - title: 在职研究生招生信息网
+      logo: images/生活服务/在职研究生招生信息网.png
+      url: https://www.eduego.com?from=dy.199908.top
+      description: 提供在职硕士、在职博士、MBA、EMBA等类别的在职研究生招生简章、报考条件、报名时间、报名入口等招生信息，为学员提供全方位的咨询服务。
+    - title: 在职研究生教育信息网
+      logo: images/生活服务/在职研究生教育信息网.png
+      url: https://www.eduei.com?from=dy.199908.top
+      description: 提供免费的在职研究生招生信息，及准确的在职硕士、在职博士、EMBA 等类别的报考条件/时间、招生简章、报名入口/网站、考试科目/学费/专业等在职教育信息。
+    - title: N诺
+      logo: images/生活服务/N诺.png
+      url: https://noobdream.com?from=dy.199908.top
+      description: 计算机考研保研必备神器
+    - title: QZZN论坛
+      logo: images/生活服务/QZZN论坛.png
+      url: https://bbs.qzzn.com?from=dy.199908.top
+      description: 公务员考试论坛,公务员论坛,公考论坛
+    - title: 上岸鸭公考
+      logo: images/生活服务/上岸鸭公考.png
+      url: https://www.gwy.com?from=dy.199908.top
+      description: 公务员考试培训网，上岸鸭公考专注为学员提供包括公务员、事业单位、央国企、商业银行、教师招聘等在内的招录考试培训。
+    - title: 成公教育
+      logo: images/生活服务/成公教育.ico
+      url: https://www.cgzj.com?from=dy.199908.top
+      description: 【成公教育-公务员培训机构】提供2026国考、省考、事业编等考试公告、考试时间、考试职位表、考试报名、考试大纲、考试成绩、考试试题、笔试与面试辅导等。
+    - title: 稳啦公考
+      logo: images/生活服务/稳啦公考.png
+      url: https://wenlagongkao.com?spm=38986.12.0.1.1&from=dy.199908.top
+      description: 稳啦公考是专注于公职类考试培训的在线教育平台，致力于为考生提供系统化、高效化的备考解决方案。
+    - title: 公考雷达
+      logo: images/生活服务/公考雷达.ico
+      url: https://www.gongkaoleida.com?from=dy.199908.top
+      description: 公考雷达及时捕捉发布全国公职类(公务员、事业单位、教师、医疗、国企、银行、大学生村官、社区工作者等)招考公告和职位资讯,根据个人简历与职位信息精准匹配,锁定每一个好机会。
+    - title: SaDuck
+      logo: images/生活服务/SaDuck.png
+      url: https://saduck.top?from=dy.199908.top
+      description: 一个考公考编知识网站，包含行测、申论、公基、词语查询、行测助手、备考资料等等。
+    - title: 公考沉思路
+      logo: images/生活服务/公考沉思路.png
+      url: https://wcnuh3hc9b93.feishu.cn/wiki/LklIw8YoeiO0R0kbGGFcCi5CnUf?from=dy.199908.top
+      description: 公考沉思录官网是一个专注于公务员考试备考的综合性知识库平台，旨在为考生提供全面、系统的学习资源和备考策略，涵盖行测、申论、事业编、百科等多方面的内容。
+    - title: 公考沉思录
+      logo: images/生活服务/公考沉思录.svg
+      url: https://flowus.cn/share/03feab04-e594-4d92-a475-9ab7cb841a6b?from=dy.199908.top
+      description: 全网最全公考知识库
+    - title: 考途指南
+      logo: images/生活服务/考途指南.svg
+      url: https://pppw1my52v.feishu.cn/wiki/DGtMwJailirOwPk3OBIcTbTCnhg?from=dy.199908.top
+      description: 汇集了多种考试真题资料的在线文档平台，涵盖了公务员、军队文职、事业单位、三支一扶、教师资格等多个领域的考试资料
+    - title: 竹叶数据
+      logo: images/生活服务/竹叶数据.ico
+      url: https://plan.zygwy.cn?from=dy.199908.top
+      description: 公考数据统计、行测高频考点
+    - title: 公考AI技巧资料库
+      logo: images/生活服务/公考AI技巧资料库.png
+      url: https://www.wolai.com/o8beKCWFy2iBTxLftytgXd?from=dy.199908.top
+      description: 一个专注于公务员考试备考的综合性资源平台
+    - title: 公考学习目录
+      logo: images/生活服务/公考学习目录.svg
+      url: https://www.kdocs.cn/l/ctYoDB9lU4o9?from=dy.199908.top
+      description: 公考资料，相关网站等分享
+  - name: 职场考证
+    links:
+    - title: 中国人事考试网
+      logo: images/生活服务/中国人事考试网.png
+      url: http://www.cpta.com.cn?from=dy.199908.top
+      description: 中国人事考试网
+    - title: 中国教师资格网
+      logo: images/生活服务/中国教师资格网.jpg
+      url: https://www.jszg.edu.cn?from=dy.199908.top
+      description: 中国教师资格网官方网站登陆报名入口
+    - title: 中国计算机技术职业资格网
+      logo: images/生活服务/中国计算机技术职业资格网.png
+      url: https://www.ruankao.org.cn?from=dy.199908.top
+      description: 软考官网报名入口网站
+    - title: 中国建造师网
+      logo: images/生活服务/中国建造师网.png
+      url: https://www.coc.gov.cn?from=dy.199908.top
+      description: 住房和城乡建设部执业资格注册中心主办的全国建造师统一管理的网站
+    - title: 中公教育网
+      logo: images/生活服务/中公教育网.png
+      url: https://www.offcn.com?from=dy.199908.top
+      description: 大型的多品类职业教育机构
+    - title: 粉笔网
+      logo: images/生活服务/粉笔网.ico
+      url: https://www.fenbi.com?from=dy.199908.top
+      description: 主打职业教育考试服务
+    - title: 高顿教育
+      logo: images/生活服务/高顿教育.png
+      url: https://www.gaodun.com?from=dy.199908.top
+      description: 在线学会计,CPA,职称,ACCA,CFA,金融,为自己的财经人生加油
+    - title: 新东方网
+      logo: images/生活服务/新东方网.png
+      url: http://www.xdf.cn?from=dy.199908.top
+      description: 会计教师英语留言类培训考试
+    - title: 高途
+      logo: images/生活服务/高途.png
+      url: https://www.gaotu.cn?from=dy.199908.top
+      description: 实用英语、职场、考证、留学、考研、家庭教育、瑜伽等类别
+    - title: 233网校
+      logo: images/生活服务/233网校.ico
+      url: https://www.233.com?from=dy.199908.top
+      description: 233网校提供建筑、金融、职业、财经等4大类多种考试的在线培训、考试资讯、免费题库等考试服务，是拥有20年品牌的一站式学习网站。
+    - title: 中审网校
+      logo: images/生活服务/中审网校.png
+      url: http://www.auditcn.com?from=dy.199908.top
+      description: 审计财会考试培训知名品牌
+    - title: 继教网
+      logo: images/生活服务/继教网.png
+      url: http://www.teacher.com.cn?from=dy.199908.top
+      description: 面向全国中小幼教师及校长（园长）开展学历及非学历培训的大型专业网站
+    - title: 考试吧
+      logo: images/生活服务/考试吧.png
+      url: https://www.exam8.com?from=dy.199908.top
+      description: 专注于为中国考生提供各类考试的全面信息和培训服务
+    - title: 易贤网
+      logo: images/生活服务/易贤网.ico
+      url: https://www.ynpxrz.com?from=dy.199908.top
+      description: 原培训认证网,考试网,人事考试网,招聘网,人才网,报名,成绩查询
+    - title: 考试宝
+      logo: images/生活服务/考试宝.png
+      url: https://www.kaoshibao.com/classify?from=dy.199908.top
+      description: 可以导入题库的在线考试刷题学习平台
+    - title: 公开真题库
+      logo: images/生活服务/公开真题库.png
+      url: https://www.gkzenti.cn?from=dy.199908.top
+      description: 公务员、事业单位、教师资格、软考等考试题库
+    - title: CATTI
+      logo: images/生活服务/CATTI.png
+      url: http://www.catticenter.com?from=dy.199908.top
+      description: CATTI全国翻译专业资格(水平)考试网
+    - title: 全国通信专业技术人员职业水平考试网
+      logo: images/生活服务/全国通信专业技术人员职业水平考试网.png
+      url: http://www.txks.org.cn?from=dy.199908.top
+      description: 全国通信专业技术人员职业水平考试网站
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
