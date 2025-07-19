@@ -1141,6 +1141,82 @@
       description: 免费在线AI脸型检测工具，上传照片即可检测脸型-分享来自ζั͡-ั͡办ั͡公ั͡人ั͡导ั͡航ั͡✾
   - name: 视频工具
     links:
+    - title: 剪映
+      logo: images/视频编辑/剪映.png
+      url: https://www.capcut.cn?from=dy.199908.top
+      description: 全能易用的视频剪辑软件
+    - title: 易剪媒 Ai批量剪辑
+      logo: images/视频编辑/易剪媒.jpg
+      url: https://www.xinmei7.com?from=dy.199908.top
+      description: AI视频剪辑与二创处理工具
+    - title: 腾讯智影
+      logo: images/视频编辑/腾讯智影.png
+      url: https://zenvideo.qq.com/home?from=dy.199908.top
+      description: 腾讯AI智能创作平台
+    - title: 短视频混剪工具
+      logo: images/视频编辑/淘宝.png
+      url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
+      description: 淘宝短视频混剪工具
+    - title: 快影
+      logo: images/视频编辑/快影.webp
+      url: https://h5.kwaiying.com/officialWebsite?from=dy.199908.top
+      description: 快手旗下的视频剪辑工具，适合快手短视频创作
+    - title: 轻剪辑
+      logo: images/视频编辑/轻剪辑.jpeg
+      url: https://e.chuanying520.com?from=dy.199908.top
+      description: 在线视频剪辑工具，无需下载安装，操作简单
+    - title: 即梦AI
+      logo: images/视频编辑/即梦AI.png
+      url: https://jimeng.jianying.com?from=dy.199908.top
+      description: 一站式AI视频创作平台
+    - title: Vidu
+      logo: images/视频编辑/Vidu.jpeg
+      url: https://www.vidu.cn/create?from=dy.199908.top
+      description: 一站式AI视频创作平台
+    - title: SkyReels Tutorial
+      logo: images/视频编辑/SkyReels.jpeg
+      url: https://www.skyreels.ai?from=dy.199908.top
+      description: 一站式AI视频创作平台
+    - title: Viggle AI
+      logo: images/视频编辑/Viggle.jpeg
+      url: https://viggle.ai/app?from=dy.199908.top
+      description: 生成高质量、可控的动态视频
+    - title: 小白兔 AI
+      logo: images/视频编辑/小白兔AI.png
+      url: https://xiaobaituai.com?from=dy.199908.top
+      description: 一站式AI视频创作软件
+    - title: 红抖AI助手
+      logo: images/视频编辑/红抖AI助手.jpg
+      url: https://hd.jianliai.com?from=dy.199908.top
+      description: 最全的AI创作工具箱
+    - title: 鬼手剪辑
+      logo: images/视频编辑/鬼手剪辑.png
+      url: https://jollytoday.com/index/cn?from=dy.199908.top
+      description: 硬字幕翻译、视频去字幕
+    - title: 即时工具
+      logo: images/视频编辑/即时工具.png
+      url: https://www.67tool.com?from=dy.199908.top
+      description: 视频、图片处理工具箱
+    - title: 江湖工具箱
+      logo: images/视频编辑/江湖工具箱.png
+      url: https://www.jianghudata.com?from=dy.199908.top
+      description: 电商多功能软件
+    - title: 八爪鱼采集器
+      logo: images/视频编辑/八爪鱼.png
+      url: https://www.bazhuayu.com?from=dy.199908.top
+      description: 免费网络爬虫软件_网页大数据抓取工具
+    - title: VideoFK 去水印
+      logo: images/视频编辑/山海云端短视频解析.png
+      url: https://www.videofk.com/zh-cn?from=dy.199908.top
+      description: 支持无水印保存主流媒体平台视频/图片
+    - title: 山海云端短视频解析
+      logo: images/视频编辑/山海云端短视频解析.png
+      url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
+      description: 多平台视频解析下载
+    - title: Best视频下载器
+      logo: images/视频编辑/山海云端短视频解析.png
+      url: https://www.bestvideow.com?from=dy.199908.top
+      description: 多平台视频解析下载
     - title: 堆友
       logo: ./images/AI工具集/堆友.png
       url: https://d.design/?from=ab3
@@ -1276,6 +1352,18 @@
       description: 团队快剪是一款由闪剪智能开发的AI视频创作系统，专为团队带货和短视频营销设计。
   - name: 音频工具
     links:
+    - title: 闪电配音
+      logo: images/视频编辑/闪电配音.png
+      url: https://www.soundems.com?from=dy.199908.top
+      description: 配音平台
+    - title: 微软文本转语音
+      logo: images/视频编辑/微软文本转语音.png
+      url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
+      description: 微软文本转语音
+    - title: 讯飞智作
+      logo: images/视频编辑/讯飞智作.png
+      url: https://peiyin.xunfei.cn?from=dy.199908.top
+      description: 讯飞AI配音
     - title: 配音神器99元/永久
       logo: ./images/AI工具集/配音神器99元_永久.png
       url: https://www.bgrdh.com/sites/4065.html
@@ -1540,111 +1628,6 @@
       logo: ./images/AI工具集/有道数字人.png
       url: https://talk.youdao.com
       description: 有道小采样数字人
-
-- taxonomy: 视频剪辑
-  icon: fa-video
-  list:
-  - term: 剪辑软件
-  - term: AI 视频
-  - term: 配音工具
-  - term: 视频处理
-  tabs:
-  - name: 剪辑软件
-    links:
-    - title: 剪映
-      logo: images/视频编辑/剪映.png
-      url: https://www.capcut.cn?from=dy.199908.top
-      description: 全能易用的视频剪辑软件
-    - title: 易剪媒 Ai批量剪辑
-      logo: images/视频编辑/易剪媒.jpg
-      url: https://www.xinmei7.com?from=dy.199908.top
-      description: AI视频剪辑与二创处理工具
-    - title: 腾讯智影
-      logo: images/视频编辑/腾讯智影.png
-      url: https://zenvideo.qq.com/home?from=dy.199908.top
-      description: 腾讯AI智能创作平台
-    - title: 短视频混剪工具
-      logo: images/视频编辑/淘宝.png
-      url: https://chuangyi.taobao.com/external/meditorMix?from=dy.199908.top
-      description: 淘宝短视频混剪工具
-    - title: 快影
-      logo: images/视频编辑/快影.webp
-      url: https://h5.kwaiying.com/officialWebsite?from=dy.199908.top
-      description: 快手旗下的视频剪辑工具，适合快手短视频创作
-    - title: 轻剪辑
-      logo: images/视频编辑/轻剪辑.jpeg
-      url: https://e.chuanying520.com?from=dy.199908.top
-      description: 在线视频剪辑工具，无需下载安装，操作简单
-  - name: AI 视频
-    links:
-    - title: 即梦AI
-      logo: images/视频编辑/即梦AI.png
-      url: https://jimeng.jianying.com?from=dy.199908.top
-      description: 一站式AI视频创作平台
-    - title: Vidu
-      logo: images/视频编辑/Vidu.jpeg
-      url: https://www.vidu.cn/create?from=dy.199908.top
-      description: 一站式AI视频创作平台
-    - title: SkyReels Tutorial
-      logo: images/视频编辑/SkyReels.jpeg
-      url: https://www.skyreels.ai?from=dy.199908.top
-      description: 一站式AI视频创作平台
-    - title: Viggle AI
-      logo: images/视频编辑/Viggle.jpeg
-      url: https://viggle.ai/app?from=dy.199908.top
-      description: 生成高质量、可控的动态视频
-    - title: 小白兔 AI
-      logo: images/视频编辑/小白兔AI.png
-      url: https://xiaobaituai.com?from=dy.199908.top
-      description: 一站式AI视频创作软件
-    - title: 红抖AI助手
-      logo: images/视频编辑/红抖AI助手.jpg
-      url: https://hd.jianliai.com?from=dy.199908.top
-      description: 最全的AI创作工具箱
-  - name: 配音工具
-    links:
-    - title: 闪电配音
-      logo: images/视频编辑/闪电配音.png
-      url: https://www.soundems.com?from=dy.199908.top
-      description: 配音平台
-    - title: 微软文本转语音
-      logo: images/视频编辑/微软文本转语音.png
-      url: https://azure.microsoft.com/zh-cn/products/ai-services/text-to-speech?from=dy.199908.top
-      description: 微软文本转语音
-    - title: 讯飞智作
-      logo: images/视频编辑/讯飞智作.png
-      url: https://peiyin.xunfei.cn?from=dy.199908.top
-      description: 讯飞AI配音
-  - name: 视频处理
-    links:
-    - title: 鬼手剪辑
-      logo: images/视频编辑/鬼手剪辑.png
-      url: https://jollytoday.com/index/cn?from=dy.199908.top
-      description: 硬字幕翻译、视频去字幕
-    - title: 即时工具
-      logo: images/视频编辑/即时工具.png
-      url: https://www.67tool.com?from=dy.199908.top
-      description: 视频、图片处理工具箱
-    - title: 江湖工具箱
-      logo: images/视频编辑/江湖工具箱.png
-      url: https://www.jianghudata.com?from=dy.199908.top
-      description: 电商多功能软件
-    - title: 八爪鱼采集器
-      logo: images/视频编辑/八爪鱼.png
-      url: https://www.bazhuayu.com?from=dy.199908.top
-      description: 免费网络爬虫软件_网页大数据抓取工具
-    - title: VideoFK 去水印
-      logo: images/视频编辑/山海云端短视频解析.png
-      url: https://www.videofk.com/zh-cn?from=dy.199908.top
-      description: 支持无水印保存主流媒体平台视频/图片
-    - title: 山海云端短视频解析
-      logo: images/视频编辑/山海云端短视频解析.png
-      url: https://api.yyy001.com/tools/demo-videoparse.html?from=dy.199908.top
-      description: 多平台视频解析下载
-    - title: Best视频下载器
-      logo: images/视频编辑/山海云端短视频解析.png
-      url: https://www.bestvideow.com?from=dy.199908.top
-      description: 多平台视频解析下载
 
 - taxonomy: 图文设计
   icon: fa-palette
