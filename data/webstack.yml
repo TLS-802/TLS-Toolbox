@@ -1541,483 +1541,6 @@
       url: https://talk.youdao.com
       description: 有道小采样数字人
 
-- taxonomy: 电商插件
-  icon: fa-cogs
-  links:
-  - title: 灵邀AI
-    logo: images/电商插件/灵邀AI.jpg
-    url: https://limob.cn?from=dy.199908.top
-    description: 抖音微信达人邀约软件
-  - title: 店查查
-    logo: images/电商插件/店查查.png
-    url: https://www.dianchacha.com/chajian?from=dy.199908.top
-    description: 淘宝运营神器插件
-  - title: 店透视
-    logo: images/电商插件/店透视.png
-    url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
-    description: 指数还原详情插件
-  - title: AliPrice助手
-    logo: images/电商插件/aliexpress.png
-    url: https://www.aliprice.com?from=dy.199908.top
-    description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
-  - title: 哈士奇
-    logo: images/电商插件/哈士奇.jpg
-    url: https://hsq.dangxun.com?from=dy.199908.top
-    description: 多平台电商运营插件
-  - title: 至尊宝
-    logo: images/电商插件/至尊宝.jpg
-    url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
-    description: 多平台电商运营插件
-  - title: 指纹浏览器
-    logo: images/电商插件/指纹浏览器.png
-    url: https://virtualbrowser.cc?from=dy.199908.top
-    description: 多店铺电商卖家必备，隔离ip
-  - title: 猫爪
-    logo: images/电商插件/猫爪.jpg
-    url: https://cat-catch.bmmmd.com?from=dy.199908.top
-    description: 网页视频嗅探与下载插件
-  - title: 社媒助手
-    logo: images/电商插件/社媒助手.png
-    url: https://smc.iszhouhua.com?from=dy.199908.top
-    description: 多平台数据采集插件
-  - title: Fatkun图片下载
-    logo: images/电商插件/Fatkun图片下载.webp
-    url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
-    description: Fatkun图片下载插件
-  - title: 达连
-    logo: images/电商插件/达连.png
-    url: https://tool.kollink.net?from=dy.199908.top
-    description: TikTok达人邀约插件
-
-- taxonomy: 直播辅助
-  icon: fa-video
-  links:
-  - title: 抖音直播伴侣
-    logo: images/直播辅助/抖音直播伴侣.jpg
-    url: https://streamingtool.douyin.com?from=dy.199908.top
-    description: 抖音、火山官方直播工具
-  - title: 快手直播伴侣
-    logo: images/直播辅助/快手直播伴侣.png
-    url: https://live.kuaishou.com/live-partner?from=dy.199908.top
-    description: 快手平台直播软件
-  - title: 小红书直播助手
-    logo: images/直播辅助/小红书.jpg
-    url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
-    description: 小红书电脑直播助手
-  - title: 微信视频号助手
-    logo: images/直播辅助/视频号.png
-    url: https://channels.weixin.qq.com?from=dy.199908.top
-    description: 微信视频号创作者平台
-  - title: B站直播姬
-    logo: images/直播辅助/哔哩哔哩.png
-    url: https://live.bilibili.com/liveHime?from=dy.199908.top
-    description: 哔哩哔哩官方直播工具
-  - title: OBS
-    logo: images/直播辅助/OBS.png
-    url: https://obsproject.com?from=dy.199908.top
-    description: 多平台直播推流工具
-  - title: StreamCap
-    logo: images/直播辅助/StreamCap.jpg
-    url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
-    description: 多平台直播录屏软件
-  - title: 腾讯直播助手
-    logo: images/直播辅助/腾讯QQ.png
-    url: https://live.qq.com?from=dy.199908.top
-    description: 腾讯官方直播工具
-
-- taxonomy: 电商货源
-  icon: fa-video
-  list:
-  - term: 服装鞋帽
-  - term: 美妆护肤
-  - term: 数码3C
-  - term: 母婴用品
-  - term: 食品饮料
-  - term: 家居家装
-  - term: 汽车用品
-  - term: 跨境电商
-  - term: 其他
-  tabs:
-  - name: 服装鞋帽
-    links:
-    - title: 17货源网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://17zwd.com?from=dy.199908.top
-      description: 广州服装批发一手货源平台
-    - title: 搜好货
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.912688.com?from=dy.199908.top
-      description: 服装批发货源平台
-    - title: 搜款网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.go2.cn?from=dy.199908.top
-      description: 女鞋批发市场货源平台
-    - title: 开山鞋网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.k3.cn?from=dy.199908.top
-      description: 鞋类批发网站
-    - title: 中国鞋库网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.cnxieku.com?from=dy.199908.top
-      description: 中国鞋库网
-    - title: 包牛牛
-      logo: images/电商货源/驼铃标志1.png
-      url: http://www.bao66.cn/web?from=dy.199908.top
-      description: 白沟箱包批发货源平台
-  - name: 美妆护肤
-    links:
-    - title: 中国美容美发网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.138job.com?from=dy.199908.top
-      description: 美容美发用品货源平台
-    - title: 化妆品招商网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.hzpzs.net?from=dy.199908.top
-      description: 化妆品批发招商平台
-    - title: 中国化妆品网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.china-cosmetics.com?from=dy.199908.top
-      description: 化妆品行业门户网站
-    - title: 花西子
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.huaxizi.cn?from=dy.199908.top
-      description: 东方彩妆品牌，以花养妆
-    - title: 完美日记
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.perfectdiary.com?from=dy.199908.top
-      description: 国产彩妆品牌
-    - title: 毛戈平
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.maogepingbeauty.com?from=dy.199908.top
-      description: 毛戈平MGP官方彩妆护肤平台
-    - title: 戴春林
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.daichunlin.com.hk?from=dy.199908.top
-      description: 源自1628年的中华古典御妆
-    - title: 个秀名妆
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.geshow.com?from=dy.199908.top
-      description: 化妆品行业门户网站
-  - name: 数码3C
-    links:
-    - title: 华强电子
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.ickey.cn?from=dy.199908.top
-      description: 华强电子元器件平台
-    - title: 猎芯网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.ichunt.com?from=dy.199908.top
-      description: 电子元器件货源平台
-    - title: 中关村在线
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.zol.com.cn?from=dy.199908.top
-      description: 数码产品资讯平台
-    - title: 太平洋电脑网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.pconline.com.cn?from=dy.199908.top
-      description: 数码产品资讯平台
-  - name: 母婴用品
-    links:
-    - title: 中国婴童网
-      logo: images/电商货源/驼铃标志1.png
-      url: http://www.baobei360.com?from=dy.199908.top
-      description: 母婴用品批发货源平台
-    - title: 玩具巴巴
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.toybaba.com?from=dy.199908.top
-      description: 玩具批发货源平台
-  - name: 食品饮料
-    links:
-    - title: 中国食品网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.foodmate.net?from=dy.199908.top
-      description: 食品行业门户网站
-    - title: 糖酒快讯
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.tjkx.com?from=dy.199908.top
-      description: 糖酒食品批发货源平台
-  - name: 家居家装
-    links:
-    - title: 找家纺
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.zhaojiafang.com?from=dy.199908.top
-      description: 家纺批发货源平台
-    - title: 中国家具网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.jiaju.com?from=dy.199908.top
-      description: 家具批发货源平台
-    - title: 中华家居网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.cjiajv.com?from=dy.199908.top
-      description: 家居行业门户网站
-    - title: 中国照明网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://m.lightingchina.com?from=dy.199908.top
-      description: 灯饰批发货源平台
-    - title: 中国建材网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.bmlink.com?from=dy.199908.top
-      description: 建材批发货源平台
-    - title: 中国五金网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.wujin.com?from=dy.199908.top
-      description: 五金批发货源平台
-    - title: 慧聪五金网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.hczyw.com?from=dy.199908.top
-      description: 五金行业B2B平台
-  - name: 汽车用品
-    links:
-    - title: 汽配人
-      logo: images/电商货源/驼铃标志1.png
-      url: https://qpmall.com?from=dy.199908.top
-      description: 汽车配件货源平台
-    - title: 汽配中国
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.chinaautoparts.info?from=dy.199908.top
-      description: 汽车配件货源批发平台
-  - name: 跨境电商
-    links:
-    - title: 敦煌网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.dhgate.com?from=dy.199908.top
-      description: 跨境电商B2B平台
-    - title: 全球速卖通
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.aliexpress.com?from=dy.199908.top
-      description: 阿里巴巴跨境电商平台
-    - title: 中国供应商
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.gys.cn?from=dy.199908.top
-      description: 中国供应商B2B平台
-    - title: 环球资源
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.globalsources.com?from=dy.199908.top
-      description: 跨境电商B2B平台
-    - title: Taocarts
-      logo: images/电商货源/驼铃标志1.png
-      url: https://taocarts.com?from=dy.199908.top
-      description: 淘宝代购系统跨境电商平台
-  - name: 其他
-    links:
-    - title: 1688
-      logo: images/电商货源/1688.png
-      url: https://www.1688.com?from=dy.199908.top
-      description: 阿里巴巴1688货源平台
-    - title: 淘货源
-      logo: images/电商货源/驼铃标志1.png
-      url: https://tao.1688.com?from=dy.199908.top
-      description: 自由、赚钱的在线生意平台
-    - title: 义乌购
-      logo: images/电商货源/义乌购.png
-      url: https://www.yiwugo.com?from=dy.199908.top
-      description: 义乌购货源平台
-    - title: 中国制造网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://cn.made-in-china.com?from=dy.199908.top
-      description: 中国制造网-内贸站
-    - title: 世界工厂
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.made-in-china.com?from=dy.199908.top
-      description: 中国制造网-工厂货源平台
-    - title: 找厂网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.entfind.com?from=dy.199908.top
-      description: 工厂直供货源对接平台
-    - title: 中国体育用品网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.sports.cn?from=dy.199908.top
-      description: 体育用品批发货源平台
-    - title: 军埔批发网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.jp0663.com?from=dy.199908.top
-      description: 军埔货源平台
-
-- taxonomy: 广告投放
-  icon: fa-bullhorn
-  list:
-  - term: 抖音
-  - term: 淘宝
-  - term: 快手
-  - term: 京东
-  - term: 小红书
-  - term: 视频号
-  - term: 拼多多
-  - term: 其他
-  tabs:
-  - name: 抖音
-    links:
-    - title: 巨量引擎
-      logo: images/广告投放/巨量引擎.png
-      url: https://www.oceanengine.com?from=dy.199908.top
-      description: 抖音所有类型广告投放平台
-    - title: 巨量千川
-      logo: images/广告投放/巨量千川.png
-      url: https://qianchuan.jinritemai.com?from=dy.199908.top
-      description: 抖音电商广告投放平台
-    - title: 巨量星图
-      logo: images/广告投放/巨量云图.png
-      url: https://yuntu.oceanengine.com?from=dy.199908.top
-      description: 抖音星图，抖音KOL营销平台
-    - title: 巨量创意
-      logo: images/电商辅助/巨量创意.png
-      url: https://cc.oceanengine.com?from=dy.199908.top
-      description: 抖音广告创意平台
-    - title: DOU+
-      logo: images/广告投放/DOU.png
-      url: https://doujia.douyin.com?from=dy.199908.top
-      description: 抖音内容加热和营销推广产品
-    - title: 巨量本地推
-      logo: images/广告投放/巨量本地推.png
-      url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
-      description: 生活服务商家一站式营销平台，为本地商家提供便捷的广告投放能力
-    - title: 抖音来客
-      logo: images/广告投放/抖音来客.png
-      url: https://life.douyin.com/p/home?from=dy.199908.top
-      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升，强化经营效果
-    - title: 抖老板
-      logo: images/广告投放/抖老板.png
-      url: https://www.doulaobao.com?from=dy.199908.top
-      description: 抖音广告投放与数据分析工具
-    - title: 小火龙
-      logo: images/广告投放/小火龙.png
-      url: http://www.xiaohuolong.com?from=dy.199908.top
-      description: 抖音随心推投放工具
-    - title: 蜂鸟
-      logo: images/图标字体/iconfont.png
-      url: https://www.fengniaoai.com?from=dy.199908.top
-      description: 抖音内容营销和广告投放平台
-    - title: Tiktok广告投放
-      logo: images/电商辅助/抖音.jpg
-      url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
-      description: Tiktok海外广告投放平台
-    - title: Tiktok ADS
-      logo: images/电商辅助/抖音.jpg
-      url: https://ads.tiktok.com/i18n?from=dy.199908.top
-      description: Tiktok官方广告投放平台
-  - name: 淘宝
-    links:
-    - title: 直通车
-      logo: images/广告投放/直通车.png
-      url: https://subway.simba.taobao.com?from=dy.199908.top
-      description: 淘宝关键词推广工具
-    - title: 淘宝联盟
-      logo: images/广告投放/淘宝联盟.jpg
-      url: https://pub.alimama.com?from=dy.199908.top
-      description: 淘宝联盟推广平台
-    - title: 引力魔方
-      logo: images/广告投放/直通车.png
-      url: https://tuijian.taobao.com?from=dy.199908.top
-      description: 淘宝信息流推广工具
-    - title: 万相台
-      logo: images/广告投放/直通车.png
-      url: https://adbrain.taobao.com?from=dy.199908.top
-      description: 淘宝全域广告投放平台
-    - title: 品销宝
-      logo: images/广告投放/品销宝.png
-      url: https://branding.taobao.com?from=dy.199908.top
-      description: 淘宝品牌推广工具
-    - title: 阿里妈妈
-      logo: images/广告投放/直通车.png
-      url: https://www.alimama.com?from=dy.199908.top
-      description: 阿里巴巴集团旗下的网络营销平台
-  - name: 快手
-    links:
-    - title: 磁力引擎
-      logo: images/广告投放/磁力引擎.png
-      url: https://e.kuaishou.com?from=dy.199908.top
-      description: 快手广告投放平台
-    - title: 磁力智投
-      logo: images/广告投放/磁力智投.png
-      url: https://ad.e.kuaishou.com?from=dy.199908.top
-      description: 快手智能广告投放平台
-  - name: 京东
-    links:
-    - title: 京东联盟
-      logo: images/广告投放/京东联盟.png
-      url: https://union.jd.com?from=dy.199908.top
-      description: 京东推广联盟平台
-    - title: 京东商智
-      logo: images/广告投放/京东商智.png
-      url: https://sz.jd.com?from=dy.199908.top
-      description: 京东商业智能分析平台
-    - title: 京准通
-      logo: images/广告投放/京东.png
-      url: https://jzt.jd.com/gw/index?from=dy.199908.top
-      description: 京东关键词推广工具
-  - name: 小红书
-    links:
-    - title: 聚光平台
-      logo: images/广告投放/聚光.jpg
-      url: https://ad.xiaohongshu.com?from=dy.199908.top
-      description: 小红书官方广告投放平台
-    - title: 小红书蒲公英
-      logo: images/广告投放/小红书.jpg
-      url: https://pgy.xiaohongshu.com?from=dy.199908.top
-      description: 小红书品牌合作平台
-  - name: 视频号
-    links:
-    - title: 微信广告
-      logo: images/广告投放/Wechat.jpg
-      url: https://ad.weixin.qq.com?from=dy.199908.top
-      description: 微信广告投放平台
-    - title: 视频号助手
-      logo: images/广告投放/视频号.jpg
-      url: https://channels.weixin.qq.com?from=dy.199908.top
-      description: 微信视频号创作者平台
-    - title: 诸葛智投
-      logo: images/广告投放/诸葛智投.png
-      url: https://zgzt.v-ma.com?from=dy.199908.top
-      description: 视频号投放管理工具
-    - title: 微信红包封面开放平台
-      logo: images/广告投放/Wechat.jpg
-      url: https://cover.weixin.qq.com?from=dy.199908.top
-      description: 微信红包封面营销平台
-  - name: 拼多多
-    links:
-    - title: 多多搜索推广
-      logo: images/广告投放/拼多多.jpg
-      url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多搜索推广工具
-    - title: 多多场景推广
-      logo: images/广告投放/拼多多.jpg
-      url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多场景推广工具
-    - title: 多多进宝
-      logo: images/广告投放/拼多多.jpg
-      url: https://jinbao.pinduoduo.com?from=dy.199908.top
-      description: 拼多多推广联盟平台
-    - title: 拼多多商家后台
-      logo: images/广告投放/拼多多.jpg
-      url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多商家管理后台
-  - name: 其他
-    links:
-    - title: 百度推广
-      logo: images/广告投放/百度营销.png
-      url: https://e.baidu.com?from=dy.199908.top
-      description: 百度搜索推广平台
-    - title: 星榜
-      logo: images/广告投放/星榜.jpeg
-      url: https://www.starrank.com?from=dy.199908.top
-      description: 短视频博主内容营销和电商服务
-    - title: 广告门
-      logo: images/广告投放/广告门.png
-      url: https://www.adquan.com?from=dy.199908.top
-      description: 广告行业门户网站
-    - title: 360推广
-      logo: images/广告投放/360智慧商业.png
-      url: https://e.360.cn?from=dy.199908.top
-      description: 360搜索广告投放平台
-    - title: 微博广告
-      logo: images/广告投放/微博.png
-      url: https://tui.weibo.com/platform?from=dy.199908.top
-      description: 微博广告投放平台
-    - title: 知乎广告
-      logo: images/广告投放/知乎.png
-      url: https://xg.zhihu.com/home?from=dy.199908.top
-      description: 知乎广告投放平台
-
 - taxonomy: 视频剪辑
   icon: fa-video
   list:
@@ -2516,6 +2039,483 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
+
+- taxonomy: 电商插件
+  icon: fa-cogs
+  links:
+  - title: 灵邀AI
+    logo: images/电商插件/灵邀AI.jpg
+    url: https://limob.cn?from=dy.199908.top
+    description: 抖音微信达人邀约软件
+  - title: 店查查
+    logo: images/电商插件/店查查.png
+    url: https://www.dianchacha.com/chajian?from=dy.199908.top
+    description: 淘宝运营神器插件
+  - title: 店透视
+    logo: images/电商插件/店透视.png
+    url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
+    description: 指数还原详情插件
+  - title: AliPrice助手
+    logo: images/电商插件/aliexpress.png
+    url: https://www.aliprice.com?from=dy.199908.top
+    description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
+  - title: 哈士奇
+    logo: images/电商插件/哈士奇.jpg
+    url: https://hsq.dangxun.com?from=dy.199908.top
+    description: 多平台电商运营插件
+  - title: 至尊宝
+    logo: images/电商插件/至尊宝.jpg
+    url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
+    description: 多平台电商运营插件
+  - title: 指纹浏览器
+    logo: images/电商插件/指纹浏览器.png
+    url: https://virtualbrowser.cc?from=dy.199908.top
+    description: 多店铺电商卖家必备，隔离ip
+  - title: 猫爪
+    logo: images/电商插件/猫爪.jpg
+    url: https://cat-catch.bmmmd.com?from=dy.199908.top
+    description: 网页视频嗅探与下载插件
+  - title: 社媒助手
+    logo: images/电商插件/社媒助手.png
+    url: https://smc.iszhouhua.com?from=dy.199908.top
+    description: 多平台数据采集插件
+  - title: Fatkun图片下载
+    logo: images/电商插件/Fatkun图片下载.webp
+    url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
+    description: Fatkun图片下载插件
+  - title: 达连
+    logo: images/电商插件/达连.png
+    url: https://tool.kollink.net?from=dy.199908.top
+    description: TikTok达人邀约插件
+
+- taxonomy: 直播辅助
+  icon: fa-video
+  links:
+  - title: 抖音直播伴侣
+    logo: images/直播辅助/抖音直播伴侣.jpg
+    url: https://streamingtool.douyin.com?from=dy.199908.top
+    description: 抖音、火山官方直播工具
+  - title: 快手直播伴侣
+    logo: images/直播辅助/快手直播伴侣.png
+    url: https://live.kuaishou.com/live-partner?from=dy.199908.top
+    description: 快手平台直播软件
+  - title: 小红书直播助手
+    logo: images/直播辅助/小红书.jpg
+    url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
+    description: 小红书电脑直播助手
+  - title: 微信视频号助手
+    logo: images/直播辅助/视频号.png
+    url: https://channels.weixin.qq.com?from=dy.199908.top
+    description: 微信视频号创作者平台
+  - title: B站直播姬
+    logo: images/直播辅助/哔哩哔哩.png
+    url: https://live.bilibili.com/liveHime?from=dy.199908.top
+    description: 哔哩哔哩官方直播工具
+  - title: OBS
+    logo: images/直播辅助/OBS.png
+    url: https://obsproject.com?from=dy.199908.top
+    description: 多平台直播推流工具
+  - title: StreamCap
+    logo: images/直播辅助/StreamCap.jpg
+    url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
+    description: 多平台直播录屏软件
+  - title: 腾讯直播助手
+    logo: images/直播辅助/腾讯QQ.png
+    url: https://live.qq.com?from=dy.199908.top
+    description: 腾讯官方直播工具
+
+- taxonomy: 电商货源
+  icon: fa-video
+  list:
+  - term: 服装鞋帽
+  - term: 美妆护肤
+  - term: 数码3C
+  - term: 母婴用品
+  - term: 食品饮料
+  - term: 家居家装
+  - term: 汽车用品
+  - term: 跨境电商
+  - term: 其他
+  tabs:
+  - name: 服装鞋帽
+    links:
+    - title: 17货源网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://17zwd.com?from=dy.199908.top
+      description: 广州服装批发一手货源平台
+    - title: 搜好货
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.912688.com?from=dy.199908.top
+      description: 服装批发货源平台
+    - title: 搜款网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.go2.cn?from=dy.199908.top
+      description: 女鞋批发市场货源平台
+    - title: 开山鞋网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.k3.cn?from=dy.199908.top
+      description: 鞋类批发网站
+    - title: 中国鞋库网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.cnxieku.com?from=dy.199908.top
+      description: 中国鞋库网
+    - title: 包牛牛
+      logo: images/电商货源/驼铃标志1.png
+      url: http://www.bao66.cn/web?from=dy.199908.top
+      description: 白沟箱包批发货源平台
+  - name: 美妆护肤
+    links:
+    - title: 中国美容美发网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.138job.com?from=dy.199908.top
+      description: 美容美发用品货源平台
+    - title: 化妆品招商网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.hzpzs.net?from=dy.199908.top
+      description: 化妆品批发招商平台
+    - title: 中国化妆品网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.china-cosmetics.com?from=dy.199908.top
+      description: 化妆品行业门户网站
+    - title: 花西子
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.huaxizi.cn?from=dy.199908.top
+      description: 东方彩妆品牌，以花养妆
+    - title: 完美日记
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.perfectdiary.com?from=dy.199908.top
+      description: 国产彩妆品牌
+    - title: 毛戈平
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.maogepingbeauty.com?from=dy.199908.top
+      description: 毛戈平MGP官方彩妆护肤平台
+    - title: 戴春林
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.daichunlin.com.hk?from=dy.199908.top
+      description: 源自1628年的中华古典御妆
+    - title: 个秀名妆
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.geshow.com?from=dy.199908.top
+      description: 化妆品行业门户网站
+  - name: 数码3C
+    links:
+    - title: 华强电子
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.ickey.cn?from=dy.199908.top
+      description: 华强电子元器件平台
+    - title: 猎芯网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.ichunt.com?from=dy.199908.top
+      description: 电子元器件货源平台
+    - title: 中关村在线
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.zol.com.cn?from=dy.199908.top
+      description: 数码产品资讯平台
+    - title: 太平洋电脑网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.pconline.com.cn?from=dy.199908.top
+      description: 数码产品资讯平台
+  - name: 母婴用品
+    links:
+    - title: 中国婴童网
+      logo: images/电商货源/驼铃标志1.png
+      url: http://www.baobei360.com?from=dy.199908.top
+      description: 母婴用品批发货源平台
+    - title: 玩具巴巴
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.toybaba.com?from=dy.199908.top
+      description: 玩具批发货源平台
+  - name: 食品饮料
+    links:
+    - title: 中国食品网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.foodmate.net?from=dy.199908.top
+      description: 食品行业门户网站
+    - title: 糖酒快讯
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.tjkx.com?from=dy.199908.top
+      description: 糖酒食品批发货源平台
+  - name: 家居家装
+    links:
+    - title: 找家纺
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.zhaojiafang.com?from=dy.199908.top
+      description: 家纺批发货源平台
+    - title: 中国家具网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.jiaju.com?from=dy.199908.top
+      description: 家具批发货源平台
+    - title: 中华家居网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.cjiajv.com?from=dy.199908.top
+      description: 家居行业门户网站
+    - title: 中国照明网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://m.lightingchina.com?from=dy.199908.top
+      description: 灯饰批发货源平台
+    - title: 中国建材网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.bmlink.com?from=dy.199908.top
+      description: 建材批发货源平台
+    - title: 中国五金网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.wujin.com?from=dy.199908.top
+      description: 五金批发货源平台
+    - title: 慧聪五金网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.hczyw.com?from=dy.199908.top
+      description: 五金行业B2B平台
+  - name: 汽车用品
+    links:
+    - title: 汽配人
+      logo: images/电商货源/驼铃标志1.png
+      url: https://qpmall.com?from=dy.199908.top
+      description: 汽车配件货源平台
+    - title: 汽配中国
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.chinaautoparts.info?from=dy.199908.top
+      description: 汽车配件货源批发平台
+  - name: 跨境电商
+    links:
+    - title: 敦煌网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.dhgate.com?from=dy.199908.top
+      description: 跨境电商B2B平台
+    - title: 全球速卖通
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.aliexpress.com?from=dy.199908.top
+      description: 阿里巴巴跨境电商平台
+    - title: 中国供应商
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.gys.cn?from=dy.199908.top
+      description: 中国供应商B2B平台
+    - title: 环球资源
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.globalsources.com?from=dy.199908.top
+      description: 跨境电商B2B平台
+    - title: Taocarts
+      logo: images/电商货源/驼铃标志1.png
+      url: https://taocarts.com?from=dy.199908.top
+      description: 淘宝代购系统跨境电商平台
+  - name: 其他
+    links:
+    - title: 1688
+      logo: images/电商货源/1688.png
+      url: https://www.1688.com?from=dy.199908.top
+      description: 阿里巴巴1688货源平台
+    - title: 淘货源
+      logo: images/电商货源/驼铃标志1.png
+      url: https://tao.1688.com?from=dy.199908.top
+      description: 自由、赚钱的在线生意平台
+    - title: 义乌购
+      logo: images/电商货源/义乌购.png
+      url: https://www.yiwugo.com?from=dy.199908.top
+      description: 义乌购货源平台
+    - title: 中国制造网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://cn.made-in-china.com?from=dy.199908.top
+      description: 中国制造网-内贸站
+    - title: 世界工厂
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.made-in-china.com?from=dy.199908.top
+      description: 中国制造网-工厂货源平台
+    - title: 找厂网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.entfind.com?from=dy.199908.top
+      description: 工厂直供货源对接平台
+    - title: 中国体育用品网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.sports.cn?from=dy.199908.top
+      description: 体育用品批发货源平台
+    - title: 军埔批发网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.jp0663.com?from=dy.199908.top
+      description: 军埔货源平台
+
+- taxonomy: 广告投放
+  icon: fa-bullhorn
+  list:
+  - term: 抖音
+  - term: 淘宝
+  - term: 快手
+  - term: 京东
+  - term: 小红书
+  - term: 视频号
+  - term: 拼多多
+  - term: 其他
+  tabs:
+  - name: 抖音
+    links:
+    - title: 巨量引擎
+      logo: images/广告投放/巨量引擎.png
+      url: https://www.oceanengine.com?from=dy.199908.top
+      description: 抖音所有类型广告投放平台
+    - title: 巨量千川
+      logo: images/广告投放/巨量千川.png
+      url: https://qianchuan.jinritemai.com?from=dy.199908.top
+      description: 抖音电商广告投放平台
+    - title: 巨量星图
+      logo: images/广告投放/巨量云图.png
+      url: https://yuntu.oceanengine.com?from=dy.199908.top
+      description: 抖音星图，抖音KOL营销平台
+    - title: 巨量创意
+      logo: images/电商辅助/巨量创意.png
+      url: https://cc.oceanengine.com?from=dy.199908.top
+      description: 抖音广告创意平台
+    - title: DOU+
+      logo: images/广告投放/DOU.png
+      url: https://doujia.douyin.com?from=dy.199908.top
+      description: 抖音内容加热和营销推广产品
+    - title: 巨量本地推
+      logo: images/广告投放/巨量本地推.png
+      url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
+      description: 生活服务商家一站式营销平台，为本地商家提供便捷的广告投放能力
+    - title: 抖音来客
+      logo: images/广告投放/抖音来客.png
+      url: https://life.douyin.com/p/home?from=dy.199908.top
+      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升，强化经营效果
+    - title: 抖老板
+      logo: images/广告投放/抖老板.png
+      url: https://www.doulaobao.com?from=dy.199908.top
+      description: 抖音广告投放与数据分析工具
+    - title: 小火龙
+      logo: images/广告投放/小火龙.png
+      url: http://www.xiaohuolong.com?from=dy.199908.top
+      description: 抖音随心推投放工具
+    - title: 蜂鸟
+      logo: images/图标字体/iconfont.png
+      url: https://www.fengniaoai.com?from=dy.199908.top
+      description: 抖音内容营销和广告投放平台
+    - title: Tiktok广告投放
+      logo: images/电商辅助/抖音.jpg
+      url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
+      description: Tiktok海外广告投放平台
+    - title: Tiktok ADS
+      logo: images/电商辅助/抖音.jpg
+      url: https://ads.tiktok.com/i18n?from=dy.199908.top
+      description: Tiktok官方广告投放平台
+  - name: 淘宝
+    links:
+    - title: 直通车
+      logo: images/广告投放/直通车.png
+      url: https://subway.simba.taobao.com?from=dy.199908.top
+      description: 淘宝关键词推广工具
+    - title: 淘宝联盟
+      logo: images/广告投放/淘宝联盟.jpg
+      url: https://pub.alimama.com?from=dy.199908.top
+      description: 淘宝联盟推广平台
+    - title: 引力魔方
+      logo: images/广告投放/直通车.png
+      url: https://tuijian.taobao.com?from=dy.199908.top
+      description: 淘宝信息流推广工具
+    - title: 万相台
+      logo: images/广告投放/直通车.png
+      url: https://adbrain.taobao.com?from=dy.199908.top
+      description: 淘宝全域广告投放平台
+    - title: 品销宝
+      logo: images/广告投放/品销宝.png
+      url: https://branding.taobao.com?from=dy.199908.top
+      description: 淘宝品牌推广工具
+    - title: 阿里妈妈
+      logo: images/广告投放/直通车.png
+      url: https://www.alimama.com?from=dy.199908.top
+      description: 阿里巴巴集团旗下的网络营销平台
+  - name: 快手
+    links:
+    - title: 磁力引擎
+      logo: images/广告投放/磁力引擎.png
+      url: https://e.kuaishou.com?from=dy.199908.top
+      description: 快手广告投放平台
+    - title: 磁力智投
+      logo: images/广告投放/磁力智投.png
+      url: https://ad.e.kuaishou.com?from=dy.199908.top
+      description: 快手智能广告投放平台
+  - name: 京东
+    links:
+    - title: 京东联盟
+      logo: images/广告投放/京东联盟.png
+      url: https://union.jd.com?from=dy.199908.top
+      description: 京东推广联盟平台
+    - title: 京东商智
+      logo: images/广告投放/京东商智.png
+      url: https://sz.jd.com?from=dy.199908.top
+      description: 京东商业智能分析平台
+    - title: 京准通
+      logo: images/广告投放/京东.png
+      url: https://jzt.jd.com/gw/index?from=dy.199908.top
+      description: 京东关键词推广工具
+  - name: 小红书
+    links:
+    - title: 聚光平台
+      logo: images/广告投放/聚光.jpg
+      url: https://ad.xiaohongshu.com?from=dy.199908.top
+      description: 小红书官方广告投放平台
+    - title: 小红书蒲公英
+      logo: images/广告投放/小红书.jpg
+      url: https://pgy.xiaohongshu.com?from=dy.199908.top
+      description: 小红书品牌合作平台
+  - name: 视频号
+    links:
+    - title: 微信广告
+      logo: images/广告投放/Wechat.jpg
+      url: https://ad.weixin.qq.com?from=dy.199908.top
+      description: 微信广告投放平台
+    - title: 视频号助手
+      logo: images/广告投放/视频号.jpg
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号创作者平台
+    - title: 诸葛智投
+      logo: images/广告投放/诸葛智投.png
+      url: https://zgzt.v-ma.com?from=dy.199908.top
+      description: 视频号投放管理工具
+    - title: 微信红包封面开放平台
+      logo: images/广告投放/Wechat.jpg
+      url: https://cover.weixin.qq.com?from=dy.199908.top
+      description: 微信红包封面营销平台
+  - name: 拼多多
+    links:
+    - title: 多多搜索推广
+      logo: images/广告投放/拼多多.jpg
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多搜索推广工具
+    - title: 多多场景推广
+      logo: images/广告投放/拼多多.jpg
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多场景推广工具
+    - title: 多多进宝
+      logo: images/广告投放/拼多多.jpg
+      url: https://jinbao.pinduoduo.com?from=dy.199908.top
+      description: 拼多多推广联盟平台
+    - title: 拼多多商家后台
+      logo: images/广告投放/拼多多.jpg
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多商家管理后台
+  - name: 其他
+    links:
+    - title: 百度推广
+      logo: images/广告投放/百度营销.png
+      url: https://e.baidu.com?from=dy.199908.top
+      description: 百度搜索推广平台
+    - title: 星榜
+      logo: images/广告投放/星榜.jpeg
+      url: https://www.starrank.com?from=dy.199908.top
+      description: 短视频博主内容营销和电商服务
+    - title: 广告门
+      logo: images/广告投放/广告门.png
+      url: https://www.adquan.com?from=dy.199908.top
+      description: 广告行业门户网站
+    - title: 360推广
+      logo: images/广告投放/360智慧商业.png
+      url: https://e.360.cn?from=dy.199908.top
+      description: 360搜索广告投放平台
+    - title: 微博广告
+      logo: images/广告投放/微博.png
+      url: https://tui.weibo.com/platform?from=dy.199908.top
+      description: 微博广告投放平台
+    - title: 知乎广告
+      logo: images/广告投放/知乎.png
+      url: https://xg.zhihu.com/home?from=dy.199908.top
+      description: 知乎广告投放平台
 
 - taxonomy: 媒体平台
   icon: fa-video
