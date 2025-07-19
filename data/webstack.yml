@@ -2829,6 +2829,10 @@
       logo: images/生活服务/nodeseek.png
       url: https://www.nodeseek.com?from=dy.199908.top
       description: Linux技术社区
+    - title: V2EX
+      logo: images/生活服务/V2EX.png
+      url: https://www.v2ex.com?from=dy.199908.top
+      description: 创意工作者们的社区
     - title: CSDN
       logo: images/生活服务/CSDN.ico
       url: https://www.csdn.net?from=dy.199908.top
@@ -2841,10 +2845,6 @@
       logo: images/生活服务/豆瓣.ico
       url: https://www.douban.com?from=dy.199908.top
       description: 我们的精神角落
-    - title: V2EX
-      logo: images/生活服务/V2EX.png
-      url: https://www.v2ex.com?from=dy.199908.top
-      description: 创意工作者们的社区
     - title: NodeLoc
       logo: images/生活服务/NodeLoc.png
       url: https://www.nodeloc.com?from=dy.199908.top
