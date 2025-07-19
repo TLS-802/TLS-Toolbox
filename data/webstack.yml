@@ -2728,26 +2728,82 @@
       logo: images/媒体平台/蜻蜓fm.png
       url: https://www.qingting.fm?from=dy.199908.top
       description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
-    - title: 网易云音乐
-      logo: images/媒体平台/网易云.jpeg
-      url: https://music.163.com?from=dy.199908.top
-      description: 网易旗下的音乐平台，提供音乐播放、社区分享等服务
     - title: QQ音乐
-      logo: images/媒体平台/QQ音乐.svg
+      logo: images/媒体平台/QQ音乐.png
       url: https://y.qq.com?from=dy.199908.top
-      description: 腾讯旗下的音乐平台，提供正版音乐播放、MV、歌词等服务
+      description: 千万正版音乐海量无损曲库新歌热歌
+    - title: 网易云音乐
+      logo: images/媒体平台/网易云音乐.png
+      url: https://music.163.com?from=dy.199908.top
+      description: 专注于发现与分享音乐
+    - title: 酷我音乐
+      logo: images/媒体平台/酷我音乐.png
+      url: http://www.kuwo.cn?from=dy.199908.top
+      description: 无损音质正版在线试听网站
     - title: 酷狗音乐
       logo: images/媒体平台/酷狗音乐.png
       url: https://www.kugou.com?from=dy.199908.top
-      description: 酷狗音乐
+      description: 最新最全的在线正版音乐网站
     - title: 汽水音乐
       logo: images/媒体平台/汽水音乐.jpeg
       url: https://music.douyin.com/qishui?from=dy.199908.top
       description: 抖音旗下的音乐平台，提供音乐播放、MV、歌词等服务
-    - title: 酷我音乐
-      logo: images/媒体平台/酷我音乐.jpeg
-      url: https://www.kuwo.cn?from=dy.199908.top
-      description: 酷我音乐
+    - title: 米兔音乐
+      logo: images/媒体平台/米兔音乐.png
+      url: https://www.bgrdh.com/sites/59036.html?from=dy.199908.top
+      description: 米兔音乐是一款免费试听的在线音乐播放器，提供高品质Mp3、FLAC、WAV等格式下载。
+    - title: 闪闪音乐网
+      logo: images/媒体平台/闪闪音乐网.svg
+      url: https://www.33ve.com?from=dy.199908.top
+      description: 闪闪音乐网是一个专注于提供丰富音乐资源和推荐服务的平台，免费MP3下载，视频歌曲大全免费下载
+    - title: 音乐解析器
+      logo: images/媒体平台/音乐解析器.png
+      url: https://musicjx.com?from=dy.199908.top
+      description: 免费在线音乐搜索下载网站，在线网页版解析下载多平台音乐。
+    - title: 枫叶音乐盒
+      logo: images/媒体平台/枫叶音乐盒.png
+      url: https://mu-jie.cc/musicBox?from=dy.199908.top
+      description: 枫叶音乐盒，一个在线音乐播放器。点开就能听音乐，随时随地享受音乐，支持在线播放、搜索、收藏、导入音乐APP歌单、自建歌单、歌单推荐/分类等功能。
+    - title: 音乐库
+      logo: images/媒体平台/音乐库.svg
+      url: https://www.yinyueku.cn?from=dy.199908.top
+      description: 音乐库网站可以在线听音乐，搜索歌曲，下载歌曲
+    - title: XCloud音乐
+      logo: images/媒体平台/XCloud音乐.svg
+      url: https://music.xcloudv.top?from=dy.199908.top
+      description: XCloud音乐是一个免费在线音乐平台，提供了基础的登录、注册、音乐搜索和收藏功能。
+    - title: GD音乐台
+      logo: images/媒体平台/GD音乐台.ico
+      url: https://music.gdstudio.xyz?from=dy.199908.top
+      description: GD音乐台为用户提供高音质、全曲库的HiFi级聆听体验
+    - title: 铜钟音乐
+      logo: images/媒体平台/铜钟音乐.ico
+      url: https://tonzhon.com?from=dy.199908.top
+      description: 音乐在线听以及下载
+    - title: 清音陋屋
+      logo: images/媒体平台/清音陋屋.svg
+      url: http://www.52qingyin.cn?from=dy.199908.top
+      description: 优美纯音乐精美散文分享网站
+    - title: 爱音人轻音乐网
+      logo: images/媒体平台/爱音人轻音乐网.ico
+      url: http://www.iyinren.com?from=dy.199908.top
+      description: 好听的轻音乐下载,轻音乐钢琴曲,轻音乐在线播放
+    - title: imoongo
+      logo: images/媒体平台/imoongo.png
+      url: https://imoongo.com?from=dy.199908.top
+      description: 轻音乐分享网站
+    - title: 网抑云音乐
+      logo: images/媒体平台/网抑云音乐.png
+      url: http://mc.alger.fun?from=dy.199908.top
+      description: 一款免费的在线音乐播放器，免费在线听歌网站
+    - title: 听蛙纯音乐网
+      logo: images/媒体平台/听蛙纯音乐网.png
+      url: https://www.itingwa.com?from=dy.199908.top
+      description: 轻音乐纯音乐分享,试听,欣赏,下载,推荐,排行
+    - title: 音乐客
+      logo: images/媒体平台/音乐客.svg
+      url: https://www.yinyue.ee?from=dy.199908.top
+      description: 免费在线音乐平台
   - name: 短剧平台
     links:
     - title: 抖音网页版
