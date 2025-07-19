@@ -1711,7 +1711,7 @@
     description: 腾讯官方直播工具
 
 - taxonomy: 电商货源
-  icon: fa-video
+  icon: fa-shopping-bag
   list:
   - term: 服装鞋帽
   - term: 美妆护肤
@@ -1719,8 +1719,8 @@
   - term: 母婴用品
   - term: 食品饮料
   - term: 家居家装
-  - term: 汽车用品
-  - term: 跨境电商
+  - term: 综合平台
+  - term: 工业原料
   - term: 其他
   tabs:
   - name: 服装鞋帽
@@ -1773,14 +1773,6 @@
       logo: images/电商货源/3e3e_cn生意网.png
       url: http://www.3e3e.cn?from=dy.199908.top
       description: 湖州织里童装,童装货源批发
-    - title: 莆田潮牌鞋服一手货源
-      logo: images/电商货源/莆田潮牌鞋服一手货源.jpg
-      url: https://xie.yixuev.com?bgrdh&from=dy.199908.top
-      description: 主打中高端品质，超高性价比
-    - title: 美美淘
-      logo: images/电商货源/美美淘.png
-      url: http://www.mmgg.com?from=dy.199908.top
-      description: 专做女鞋批发的网站，女鞋一件代发，女鞋分销，女鞋货源，厂家直销
   - name: 美妆护肤
     links:
     - title: 个秀名妆
@@ -1837,26 +1829,6 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.instrument.com.cn?from=dy.199908.top
       description: 仪器行业B2B电子商务平台
-    - title: 云筑网
-      logo: images/电商货源/云筑网.ico
-      url: https://www.yzw.cn?from=dy.199908.top
-      description: 专注于建筑行业物资采购领域的垂直电子商务平台
-    - title: Alibaba
-      logo: images/电商货源/Alibaba.png
-      url: https://www.alibaba.com?from=dy.199908.top
-      description: 全球领先的B2B电子商务平台，专注于为全球贸易提供服务
-    - title: 马可波罗网
-      logo: images/电商货源/马可波罗网.png
-      url: http://china.makepolo.com?from=dy.199908.top
-      description: B2B电子商务平台，专注于为中小企业提供精准采购搜索和广告投放服务
-    - title: B2B商机网
-      logo: images/电商货源/B2B商机网.png
-      url: http://www.qb2b.com?from=dy.199908.top
-      description: 为企业提供供求信息发布和行业资讯的电子商务平台
-    - title: 黄页88网
-      logo: images/电商货源/黄页88网.png
-      url: http://www.huangye88.com?from=dy.199908.top
-      description: B2B电子商务平台,b2b平台免费发布信息网
     - title: 猎芯网
       logo: images/电商货源/驼铃标志1.png
       url: https://www.ichunt.com?from=dy.199908.top
@@ -1879,10 +1851,6 @@
       logo: images/电商货源/挚爱母婴.png
       url: https://www.babyzhiai.net?from=dy.199908.top
       description: 高端母婴用品B2B分销平台，孕婴童品牌招商，免费加盟代理，一件代发，正品货源
-    - title: 性商网
-      logo: images/电商货源/性商网.png
-      url: http://www.chinasexq.com?from=dy.199908.top
-      description: 情趣用品批发,安全套批发采购市场,情趣玩具批发
     - title: 中国婴童网
       logo: images/电商货源/驼铃标志1.png
       url: http://www.baobei360.com?from=dy.199908.top
@@ -1915,42 +1883,6 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.cheaa.com?from=dy.199908.top
       description: 家电行业B2B电子商务平台
-    - title: 工邦邦
-      logo: images/电商货源/工邦邦.ico
-      url: https://www.gongbangbang.com?from=dy.199908.top
-      description: 低价正品的工业用品电商
-    - title: 米思米
-      logo: images/电商货源/米思米.png
-      url: https://www.misumi.com.cn?from=dy.199908.top
-      description: 一站式工业品采购平台,工业用品闪购网上商城超市,标准件库
-    - title: 广材网
-      logo: images/电商货源/广材网.png
-      url: https://www.gldjc.com?from=dy.199908.top
-      description: 建筑工程造价行业材料价格查询平台
-    - title: 中国化工网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.chemnet.com?from=dy.199908.top
-      description: 化工行业B2B电子商务平台
-    - title: 中国五金商机网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.wjw.cn?from=dy.199908.top
-      description: 五金行业B2B电子商务平台
-    - title: 中国建材网
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.bmlink.com?from=dy.199908.top
-      description: 建材行业B2B电子商务平台
-    - title: Xchemi化工网
-      logo: images/电商货源/Xchemi化工网.png
-      url: https://www.xchemi.com?from=dy.199908.top
-      description: Xchemi化工网是一个专业的化学品跨境电商平台，旨在帮助化工企业实现全球市场的拓展和业务的高效运作。
-    - title: 有料网
-      logo: images/电商货源/有料网.ico
-      url: https://www.youliao.com?from=dy.199908.top
-      description: 西陇科学自营电商平台,为科研人员及相关企业提供优质的化学试剂与化工原料
-    - title: 盖德化工网
-      logo: images/电商货源/盖德化工网.png
-      url: https://china.guidechem.com?from=dy.199908.top
-      description: 网上化工贸易市场,化工行业门户网站
     - title: 找家纺
       logo: images/电商货源/驼铃标志1.png
       url: https://www.zhaojiafang.com?from=dy.199908.top
@@ -1975,8 +1907,52 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.hczyw.com?from=dy.199908.top
       description: 五金行业B2B平台
-  - name: 跨境电商
+    - title: 中国五金商机网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.wjw.cn?from=dy.199908.top
+      description: 五金行业B2B电子商务平台
+    - title: 中国建材网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.bmlink.com?from=dy.199908.top
+      description: 建材行业B2B电子商务平台
+    - title: 广材网
+      logo: images/电商货源/广材网.png
+      url: https://www.gldjc.com?from=dy.199908.top
+      description: 建筑工程造价行业材料价格查询平台
+  - name: 综合平台
     links:
+    - title: 1688
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.1688.com?from=dy.199908.top
+      description: 阿里巴巴1688货源平台
+    - title: 淘货源
+      logo: images/电商货源/驼铃标志1.png
+      url: https://tao.1688.com?from=dy.199908.top
+      description: 自由、赚钱的在线生意平台
+    - title: 义乌购
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.yiwugo.com?from=dy.199908.top
+      description: 义乌购货源平台
+    - title: 天猫供销平台
+      logo: images/电商货源/天猫供销平台.jpg
+      url: https://gongxiao.tmall.com?from=dy.199908.top
+      description: 阿里巴巴集团推出的一个高效、数字化的供应链管理工具，旨在为品牌商和分销商提供便捷的供应链解决方案
+    - title: Alibaba
+      logo: images/电商货源/Alibaba.png
+      url: https://www.alibaba.com?from=dy.199908.top
+      description: 全球领先的B2B电子商务平台，专注于为全球贸易提供服务
+    - title: 马可波罗网
+      logo: images/电商货源/马可波罗网.png
+      url: http://china.makepolo.com?from=dy.199908.top
+      description: B2B电子商务平台，专注于为中小企业提供精准采购搜索和广告投放服务
+    - title: B2B商机网
+      logo: images/电商货源/B2B商机网.png
+      url: http://www.qb2b.com?from=dy.199908.top
+      description: 为企业提供供求信息发布和行业资讯的电子商务平台
+    - title: 黄页88网
+      logo: images/电商货源/黄页88网.png
+      url: http://www.huangye88.com?from=dy.199908.top
+      description: B2B电子商务平台,b2b平台免费发布信息网
     - title: 中国供应商
       logo: images/电商货源/驼铃标志1.png
       url: https://www.china.cn?from=dy.199908.top
@@ -1993,16 +1969,44 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.gongchang.com?from=dy.199908.top
       description: B2B电子商务平台，为企业提供供求信息发布和行业资讯
-    - title: 维度网
-      logo: images/电商货源/维度网.png
-      url: https://www.wedoany.com/zh-cn?from=dy.199908.top
-      description: 维度网作为"一带一路"工程合作服务平台，全球传播依托品牌，积极响应国家高质量共建"一带一路"的号召，致力于推动中国智慧、中国方案走向世界，促进全球互联互通与可持续发展。
     - title: 敦煌网
       logo: images/电商货源/驼铃标志1.png
       url: https://www.dhgate.com?from=dy.199908.top
       description: 跨境电商B2B平台
-  - name: 汽车用品
+    - title: 维度网
+      logo: images/电商货源/维度网.png
+      url: https://www.wedoany.com/zh-cn?from=dy.199908.top
+      description: 维度网作为"一带一路"工程合作服务平台，全球传播依托品牌，积极响应国家高质量共建"一带一路"的号召，致力于推动中国智慧、中国方案走向世界，促进全球互联互通与可持续发展。
+    - title: 云筑网
+      logo: images/电商货源/云筑网.ico
+      url: https://www.yzw.cn?from=dy.199908.top
+      description: 专注于建筑行业物资采购领域的垂直电子商务平台
+  - name: 工业原料
     links:
+    - title: 中国化工网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.chemnet.com?from=dy.199908.top
+      description: 化工行业B2B电子商务平台
+    - title: Xchemi化工网
+      logo: images/电商货源/Xchemi化工网.png
+      url: https://www.xchemi.com?from=dy.199908.top
+      description: Xchemi化工网是一个专业的化学品跨境电商平台，旨在帮助化工企业实现全球市场的拓展和业务的高效运作。
+    - title: 有料网
+      logo: images/电商货源/有料网.ico
+      url: https://www.youliao.com?from=dy.199908.top
+      description: 西陇科学自营电商平台,为科研人员及相关企业提供优质的化学试剂与化工原料
+    - title: 盖德化工网
+      logo: images/电商货源/盖德化工网.png
+      url: https://china.guidechem.com?from=dy.199908.top
+      description: 网上化工贸易市场,化工行业门户网站
+    - title: 工邦邦
+      logo: images/电商货源/工邦邦.ico
+      url: https://www.gongbangbang.com?from=dy.199908.top
+      description: 低价正品的工业用品电商
+    - title: 米思米
+      logo: images/电商货源/米思米.png
+      url: https://www.misumi.com.cn?from=dy.199908.top
+      description: 一站式工业品采购平台,工业用品闪购网上商城超市,标准件库
     - title: 汽配人
       logo: images/电商货源/驼铃标志1.png
       url: https://qpmall.com?from=dy.199908.top
@@ -2013,6 +2017,10 @@
       description: 汽车配件货源批发平台
   - name: 其他
     links:
+    - title: 性商网
+      logo: images/电商货源/性商网.png
+      url: http://www.chinasexq.com?from=dy.199908.top
+      description: 情趣用品批发,安全套批发采购市场,情趣玩具批发
     - title: 中国安防网
       logo: images/电商货源/驼铃标志1.png
       url: https://www.21csp.com.cn?from=dy.199908.top
@@ -2025,10 +2033,6 @@
       logo: images/电商货源/驼铃标志1.png
       url: http://www.chinawuliu.com.cn?from=dy.199908.top
       description: 物流行业B2B电子商务平台
-    - title: 天猫供销平台
-      logo: images/电商货源/天猫供销平台.jpg
-      url: https://gongxiao.tmall.com?from=dy.199908.top
-      description: 阿里巴巴集团推出的一个高效、数字化的供应链管理工具，旨在为品牌商和分销商提供便捷的供应链解决方案
     - title: 找商网
       logo: images/电商货源/找商网.png
       url: https://www.zhaosw.com?from=dy.199908.top
@@ -2049,18 +2053,6 @@
       logo: images/电商货源/搜好货网.png
       url: https://www.912688.com?from=dy.199908.top
       description: 为中小企业提供精准的采购搜索和广告投放服务
-    - title: 1688
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.1688.com?from=dy.199908.top
-      description: 阿里巴巴1688货源平台
-    - title: 淘货源
-      logo: images/电商货源/驼铃标志1.png
-      url: https://tao.1688.com?from=dy.199908.top
-      description: 自由、赚钱的在线生意平台
-    - title: 义乌购
-      logo: images/电商货源/驼铃标志1.png
-      url: https://www.yiwugo.com?from=dy.199908.top
-      description: 义乌购货源平台
     - title: 中国制造网
       logo: images/电商货源/驼铃标志1.png
       url: https://cn.made-in-china.com?from=dy.199908.top
