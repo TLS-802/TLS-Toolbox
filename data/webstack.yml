@@ -2955,9 +2955,154 @@
       logo: images/生活服务/闪小白.png
       url: https://www.shanxiaobai.com?from=dy.199908.top
       description: 主营高品质二手商品、手机回收和苹果手机维修服务
-
   - name: 求职招聘
+    links:
+    - title: BOSS直聘
+      logo: images/生活服务/BOSS直聘.png
+      url: https://www.zhipin.com?from=dy.199908.top
+      description: 让求职者与Boss直接开聊、加快面试、即时反馈
+    - title: 智联招聘
+      logo: images/生活服务/智联招聘.png
+      url: https://www.zhaopin.com?from=dy.199908.top
+      description: 为求职者提供真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择
+    - title: 前程无忧
+      logo: images/生活服务/前程无忧.png
+      url: https://www.51job.com?from=dy.199908.top
+      description: 面向全国,提供准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务
+    - title: 人社部
+      logo: images/生活服务/人社部.png
+      url: https://www.mohrss.gov.cn?from=dy.199908.top
+      description: 中华人民共和国人力资源和社会保障部，负责统筹机关企事业单位人员管理和城乡就业、社会保障政策的国家权力机构。
+    - title: JavaGuide
+      logo: images/生活服务/JavaGuide.ico
+      url: https://javaguide.cn?from=dy.199908.top
+      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
+    - title: 编程满天星
+      logo: images/生活服务/编程满天星.png
+      url: https://itmtx.cn?from=dy.199908.top
+      description: 高质量程序员面试刷题网站，八股、算法、项目、面经、招聘信息、简历修改、模拟模式，一站式准备大厂面试
+    - title: 智面星
+      logo: images/生活服务/智面星.png
+      url: https://aiqtools.cn?from=dy.199908.top
+      description: 智面星，您的专属AI面试辅助，在线上面试中实时给予您实时答案提示。答案在一秒内生成并完全契合您的个人简历，覆盖所有专业问题，让你能从容应对面试官的一切提问。
+    - title: 面试狗
+      logo: images/生活服务/面试狗.png
+      url: https://interview.dog?from=dy.199908.top
+      description: 面试狗是一个AI面试辅助工具，旨在帮助求职者更高效地准备和应对面试。
+    - title: AI面试助手
+      logo: images/生活服务/AI面试助手.png
+      url: https://blog.aicuee.com?from=dy.199908.top
+      description: AI面试助手,远程面试辅助神器.开启你的专属AI面试助手远程面试神器,实时分析，提供高水准的参考提示
+    - title: 开面
+      logo: images/生活服务/开面.png
+      url: https://www.kaimian.top?from=dy.199908.top
+      description: 开面，自研垂直招聘大模型"开面者"，提供AI简历优化、AI模拟面试、AI辅助面试等服务，支持线上线下多场景。从简历准备到面试训练，再到真实面试，轻松通关直达Offer！
+    - title: 小爱面试
+      logo: images/生活服务/小爱面试.png
+      url: https://xinterview.cn?from=dy.199908.top
+      description: 小爱面试，AI面试助手，面试辅助神器，面试小帮手，实时面试答案提示，助您轻松拿到offer
+    - title: Offerin
+      logo: images/生活服务/Offerin.png
+      url: https://www.offerin.cn?from=dy.199908.top
+      description: Offer IN AI 面试助手，AI 时代 Interview Copilot，专为线上面试和笔试而生，一键使用联网回答，一键读屏，自动同步剪切板文本，双端联动，无忧备战。
+    - title: 吐司猫
+      logo: images/生活服务/吐司猫.ico
+      url: https://tusimao.cn?from=dy.199908.top
+      description: 吐司猫是一款面向求职者的AI面试辅助软件，包含了 AI 面试助手、 AI 模拟面试 等功能模块。一站式帮助求职者们快速斩获Offer。
+    - title: 面试猫AI
+      logo: images/生活服务/面试猫AI.png
+      url: https://www.offermore.co?from=dy.199908.top
+      description: 面试猫AI是一款强大的AI面试助手，支持实时语音识别、图片识别、智能辅助回答、多语言面试。全平台适用，助你轻松拿Offer。
+    - title: 青柚面试
+      logo: images/生活服务/青柚面试.png
+      url: https://qingyou.net?from=dy.199908.top
+      description: 一款简单好用的日语面试辅助工具，使用最新的AI技术，帮助用户在日语面试过程中提升表现力。
+    - title: 央国企招聘宝
+      logo: images/生活服务/央国企招聘宝.svg
+      url: https://lxsvmzrpx8v.feishu.cn/share/base/query/shrcnVrJqtOtcf4JVShybSimfcd?from=dy.199908.top
+      description: 央国企招聘宝是一个专门为求职者提供央企和国企招聘信息的平台，在线筛选国企央企招聘岗位信息。
+    - title: 云艺术人
+      logo: images/生活服务/云艺术人.png
+      url: https://www.yunysr.com?from=dy.199908.top
+      description: 云艺术人是一款专注于艺术行业招聘、发通告及作品展示的平台，平台涵盖八大艺术专业领域，包括演艺,影视,音乐,动漫,设计,互动游戏,广告传媒和绘画艺术。
+    - title: 互联网大厂工作
+      logo: images/生活服务/互联网大厂工作.ico
+      url: https://aab0.github.io?from=dy.199908.top
+      description: 互联网大厂工作机会、面试技巧、职业发展,帮助您在顶级科技公司获得理想职位。
   - name: 房屋租售
+    links:
+    - title: 贝壳找房
+      logo: images/生活服务/贝壳找房.jpg
+      url: https://www.ke.com?from=dy.199908.top
+      description: 提供真实房源的房产信息平台,为买房、二手房、新房购买以及租房需求的用户提供便捷服务
+    - title: 链家网
+      logo: images/生活服务/链家网.jpg
+      url: http://www.lianjia.com?from=dy.199908.top
+      description: 提供二手房买卖、新房、租房、房价查询等业务的专业房产网站
+    - title: 房天下
+      logo: images/生活服务/房天下.jpg
+      url: http://www.fang.com?from=dy.199908.top
+      description: 房地产家居网络平台
+    - title: 58同城
+      logo: images/生活服务/58同城.png
+      url: https://www.58.com?from=dy.199908.top
+      description: 提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等
+    - title: 安居客
+      logo: images/生活服务/安居客.png
+      url: http://www.anjuke.com?from=dy.199908.top
+      description: 为用户提供找房信息
+    - title: 自如
+      logo: images/生活服务/自如.jpg
+      url: https://www.ziroom.com?from=dy.199908.top
+      description: 房屋合租信息及月租价格,房屋整租信息及价格,以及公寓出租信息及价格
+    - title: 我爱我家
+      logo: images/生活服务/我爱我家.jpg
+      url: https://www.5i5j.com?from=dy.199908.top
+      description: 提供二手房信息、租房信息、二手房成交价格和二手房交易数据
+    - title: 房多多
+      logo: images/生活服务/房多多.jpg
+      url: http://www.fangdd.com?from=dy.199908.top
+      description: 为用户提供新房楼盘、二手房、租房的真房源房产网，包括最新政策、房价、资讯等信息
+    - title: 赶集网
+      logo: images/生活服务/赶集网.jpg
+      url: http://www.ganji.com?from=dy.199908.top
+      description: 房屋租售、求职招聘、二手物品、车辆买卖、生活黄页等
+    - title: 搜狐焦点
+      logo: images/生活服务/搜狐焦点.png
+      url: https://house.focus.cn?from=dy.199908.top
+      description: 为购房者提供房产信息、家居装修资讯,房产楼盘详情、买房流程、业主论坛、家居装修等全面内容信息,搜狐焦点网互联网的购房平台
+    - title: 乐居房产网
+      logo: images/生活服务/乐居房产网.jpg
+      url: http://www.leju.com?from=dy.199908.top
+      description: 为购房者提供找新房、二手房、租房、装修、家居、楼盘新闻等房产信息
+    - title: 中原地产
+      logo: images/生活服务/中原地产.png
+      url: http://default.centanet.com?from=dy.199908.top
+      description: 房产网网站,二手房,新房,租房,公寓,商铺,写字楼,海外,房价
+    - title: 365淘房
+      logo: images/生活服务/365淘房.png
+      url: http://www.house365.com?from=dy.199908.top
+      description: 房屋买卖,租赁,装修
+    - title: 楼盘网
+      logo: images/生活服务/楼盘网.png
+      url: https://www.loupan.com?from=dy.199908.top
+      description: 房地产家居门户信息网站
+    - title: 有路网
+      logo: images/生活服务/有路网.jpg
+      url: https://www.uoolu.com?from=dy.199908.top
+      description: 海外房产,海外房产投资,海外买房,海外房产网
+    - title: 乐乎
+      logo: images/生活服务/乐乎.png
+      url: https://www.lefull.cn?from=dy.199908.top
+      description: 租赁住房运营服务和资产管理
+    - title: 唯心所寓
+      logo: images/生活服务/唯心所寓.png
+      url: https://www.wellcee.com?from=dy.199908.top
+      description: 高品质租房平台，生活空间分享社区
+    - title: 筑房网
+      logo: images/生活服务/筑房网.svg
+      url: https://zfw.gyfc.net?from=dy.199908.top
+      description: 贵阳住宅与房地产信息网
   - name: 法律咨询
 
 - taxonomy: 数据研究
