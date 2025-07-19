@@ -3104,6 +3104,71 @@
       url: https://zfw.gyfc.net?from=dy.199908.top
       description: 贵阳住宅与房地产信息网
   - name: 法律咨询
+    links:
+    - title: 中国法律服务网
+      logo: images/生活服务/中国法律服务网.png
+      url: http://www.12348.gov.cn?from=dy.199908.top
+      description: 免费智能ai在线法律咨询,中国法律服务网12348中国法网
+    - title: 国家法律法规数据库
+      logo: images/生活服务/国家法律法规数据库.png
+      url: https://flk.npc.gov.cn?from=dy.199908.top
+      description: 国家法律法规数据库
+    - title: 北大法宝
+      logo: images/生活服务/北大法宝.png
+      url: https://www.pkulaw.com?from=dy.199908.top
+      description: 法律法规数据库,法律法规检索系统
+    - title: 华律网
+      logo: images/生活服务/华律网.png
+      url: https://www.66law.cn/question?from=dy.199908.top
+      description: 24小时为您提供法律在线咨询服务
+    - title: 找法网
+      logo: images/生活服务/找法网.jpg
+      url: https://china.findlaw.cn/ask?from=dy.199908.top
+      description: 免费法律咨询是找法网为全国公众免费提供的一项公益服务
+    - title: 法律快车
+      logo: images/生活服务/法律快车.png
+      url: https://www.lawtime.cn/ask?from=dy.199908.top
+      description: 提供免费法律咨询，您可在这里了解各地律师解答的法律咨询内容，也可在线咨询律师法律问题。
+    - title: 110法律咨询网
+      logo: images/生活服务/110法律咨询网.jpg
+      url: http://www.110.com?from=dy.199908.top
+      description: 免费解答在线法律咨询
+    - title: 律图
+      logo: images/生活服务/律图.jpg
+      url: http://www.64365.com?from=dy.199908.top
+      description: 专业的律师法律咨询网站
+    - title: 法行宝
+      logo: images/生活服务/法行宝.png
+      url: https://ailegal.baidu.com?from=dy.199908.top
+      description: 您的免费AI律师
+    - title: 无讼案例
+      logo: images/生活服务/无讼案例.png
+      url: https://www.itslaw.com?from=dy.199908.top
+      description: 无讼案例专注于为法律专业人士提供精准、高效且易用的法律检索服务，是法律人日常工作中不可或缺的工具。
+    - title: 法信
+      logo: images/生活服务/法信.png
+      url: https://www.faxin.cn?from=dy.199908.top
+      description: 为法律专业人士提供高效、精准的法律知识支持
+    - title: 法宣云平台
+      logo: images/生活服务/法宣云平台.png
+      url: http://www.faxuanyun.com?from=dy.199908.top
+      description: 无纸化学法用法及考试系统、法治宣传教育云平台
+    - title: 诉讼工具
+      logo: images/生活服务/诉讼工具.png
+      url: https://weifayuan.court.gov.cn/gjzs2.0/pages/tool.html?from=dy.199908.top
+      description: 人民法院官方提供的实用诉讼计算工具主要包括诉讼费计算器，该工具旨在帮助当事人和法院工作人员快速、准确地计算诉讼费用及相关法律费用。
+    - title: AI维权律师
+      logo: images/生活服务/AI维权律师.svg
+      url: https://ai-lawyer.yuanx.me?from=dy.199908.top
+      description: AI一键免费生成起诉书
+    - title: 法律法规数据库
+      logo: images/生活服务/法律法规数据库.jpg
+      url: https://www.bgrdh.com/sites/8520.html?from=dy.199908.top
+      description: 法律法规数据库查询检索系统网站网址大全导航
+    - title: 性行为同意协议系统
+      logo: images/生活服务/性行为同意协议系统.svg
+      url: https://001.123408.xyz?from=dy.199908.top
+      description: 性行为同意协议系统旨在帮助用户创建合法有效的性行为同意协议，确保各方权益得到保障。
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
