@@ -2708,15 +2708,41 @@
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
+  - term: 电商分析
   - term: 热点排行
   - term: 数据指数
-  - term: 电商分析
   - term: 数据可视
   - term: 网站分析
   - term: 行业报告
   - term: 市场研究
   - term: 科技研究
   tabs:
+  - name: 电商分析
+    links:
+    - title: 生意参谋
+      logo: images/数据分析/生意参谋.png
+      url: https://sycm.taobao.com?from=dy.199908.top
+      description: 阿里巴巴旗下的电商数据分析工具，为淘宝和天猫卖家提供销售数据分析
+    - title: 京东商智
+      logo: images/新媒运营/京东商智.png
+      url: https://sz.jd.com?from=dy.199908.top
+      description: 京东平台的商业智能分析工具，为京东卖家提供销售数据分析
+    - title: 拼多多商家后台
+      logo: images/新媒运营/拼多多商家.png
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多平台的商家数据分析工具，提供销售数据和用户行为分析
+    - title: 新榜
+      logo: images/新媒运营/新榜.png
+      url: https://www.newrank.cn?from=dy.199908.top
+      description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
+    - title: 巨量算数
+      logo: images/数据分析/巨量算数.svg
+      url: https://trendinsight.oceanengine.com?from=dy.199908.top
+      description: 字节跳动旗下的数据分析平台，提供抖音、今日头条等平台的数据洞察
+    - title: 西瓜数据
+      logo: images/新媒运营/西瓜数据.png
+      url: https://data.xiguaji.com?from=dy.199908.top
+      description: 专注于抖音、快手等短视频平台的数据分析工具
   - name: 热点排行
     links:
     - title: 百度热搜
@@ -2793,32 +2819,6 @@
       logo: images/新媒运营/清博大数据.png
       url: https://www.wrd.cn?from=dy.199908.top
       description: 全媒体传播分析平台
-  - name: 电商分析
-    links:
-    - title: 生意参谋
-      logo: images/数据分析/生意参谋.png
-      url: https://sycm.taobao.com?from=dy.199908.top
-      description: 阿里巴巴旗下的电商数据分析工具，为淘宝和天猫卖家提供销售数据分析
-    - title: 京东商智
-      logo: images/新媒运营/京东商智.png
-      url: https://sz.jd.com?from=dy.199908.top
-      description: 京东平台的商业智能分析工具，为京东卖家提供销售数据分析
-    - title: 拼多多商家后台
-      logo: images/新媒运营/拼多多商家.png
-      url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多平台的商家数据分析工具，提供销售数据和用户行为分析
-    - title: 新榜
-      logo: images/新媒运营/新榜.png
-      url: https://www.newrank.cn?from=dy.199908.top
-      description: 专注于自媒体数据分析和排行，提供公众号、微博等平台的内容创作者排行榜
-    - title: 巨量算数
-      logo: images/数据分析/巨量算数.svg
-      url: https://trendinsight.oceanengine.com?from=dy.199908.top
-      description: 字节跳动旗下的数据分析平台，提供抖音、今日头条等平台的数据洞察
-    - title: 西瓜数据
-      logo: images/新媒运营/西瓜数据.png
-      url: https://data.xiguaji.com?from=dy.199908.top
-      description: 专注于抖音、快手等短视频平台的数据分析工具
   - name: 数据可视
     links:
     - title: Tableau Public
