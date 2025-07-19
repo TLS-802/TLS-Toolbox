@@ -2508,6 +2508,7 @@
   - term: 新闻资讯
   - term: 自媒体平台
   - term: 音频平台
+  - term: 短剧平台
   tabs:
   - name: 视频平台
     links:
@@ -2687,6 +2688,32 @@
       logo: images/媒体平台/酷我音乐.jpeg
       url: https://www.kuwo.cn?from=dy.199908.top
       description: 酷我音乐
+  - name: 短剧平台
+    links:
+    - title: 抖音网页版
+      logo: images/AI工具集/抖音网页版.png
+      url: https://dis.csqixiang.cn/unpo/dybgrdh.html
+      description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
+    - title: 河马剧场
+      logo: images/AI工具集/河马剧场.ico
+      url: https://www.kuaikaw.cn
+      description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
+    - title: 快手小剧场
+      logo: images/AI工具集/快手小剧场.ico
+      url: https://www.kuaishou.com/theater/10000
+      description: 快手小剧场短剧电脑版在线观看
+    - title: 红果短剧
+      logo: images/AI工具集/红果短剧.png
+      url: https://novelquickapp.com
+      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
+    - title: 趣看看短剧
+      logo: images/AI工具集/趣看看短剧.png
+      url: https://v.contentchina.com
+      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
+    - title: 甜虾剧场
+      logo: images/AI工具集/甜虾剧场.png
+      url: https://www.360kuai.com/pc/mvideo/duanju
+      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
