@@ -2748,10 +2748,6 @@
       logo: images/媒体平台/汽水音乐.jpeg
       url: https://music.douyin.com/qishui?from=dy.199908.top
       description: 抖音旗下的音乐平台，提供音乐播放、MV、歌词等服务
-    - title: 米兔音乐
-      logo: images/媒体平台/米兔音乐.png
-      url: https://www.bgrdh.com/sites/59036.html?from=dy.199908.top
-      description: 米兔音乐是一款免费试听的在线音乐播放器，提供高品质Mp3、FLAC、WAV等格式下载。
     - title: 闪闪音乐网
       logo: images/媒体平台/闪闪音乐网.svg
       url: https://www.33ve.com?from=dy.199908.top
@@ -2788,46 +2784,34 @@
       logo: images/媒体平台/爱音人轻音乐网.ico
       url: http://www.iyinren.com?from=dy.199908.top
       description: 好听的轻音乐下载,轻音乐钢琴曲,轻音乐在线播放
-    - title: imoongo
-      logo: images/媒体平台/imoongo.png
-      url: https://imoongo.com?from=dy.199908.top
-      description: 轻音乐分享网站
     - title: 网抑云音乐
       logo: images/媒体平台/网抑云音乐.png
       url: http://mc.alger.fun?from=dy.199908.top
       description: 一款免费的在线音乐播放器，免费在线听歌网站
-    - title: 听蛙纯音乐网
-      logo: images/媒体平台/听蛙纯音乐网.png
-      url: https://www.itingwa.com?from=dy.199908.top
-      description: 轻音乐纯音乐分享,试听,欣赏,下载,推荐,排行
-    - title: 音乐客
-      logo: images/媒体平台/音乐客.svg
-      url: https://www.yinyue.ee?from=dy.199908.top
-      description: 免费在线音乐平台
   - name: 短剧平台
     links:
     - title: 抖音网页版
-      logo: images/AI工具集/抖音网页版.png
+      logo: images/媒体平台/抖音网页版.png
       url: https://dis.csqixiang.cn/unpo/dybgrdh.html
       description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
     - title: 河马剧场
-      logo: images/AI工具集/河马剧场.ico
+      logo: images/媒体平台/河马剧场.ico
       url: https://www.kuaikaw.cn
       description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
     - title: 快手小剧场
-      logo: images/AI工具集/快手小剧场.ico
+      logo: images/媒体平台/快手小剧场.ico
       url: https://www.kuaishou.com/theater/10000
       description: 快手小剧场短剧电脑版在线观看
     - title: 红果短剧
-      logo: images/AI工具集/红果短剧.png
+      logo: images/媒体平台/红果短剧.png
       url: https://novelquickapp.com
       description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
     - title: 趣看看短剧
-      logo: images/AI工具集/趣看看短剧.png
+      logo: images/媒体平台/趣看看短剧.png
       url: https://v.contentchina.com
       description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
     - title: 甜虾剧场
-      logo: images/AI工具集/甜虾剧场.png
+      logo: images/媒体平台/甜虾剧场.png
       url: https://www.360kuai.com/pc/mvideo/duanju
       description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
 
