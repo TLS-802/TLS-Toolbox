@@ -2889,8 +2889,73 @@
       logo: images/生活服务/Reddit.ico
       url: https://www.reddit.com?from=dy.199908.top
       description: The front page of the internet
-
   - name: 二手交易
+    links:
+    - title: 闲鱼
+      logo: images/生活服务/闲鱼.png
+      url: https://www.goofish.com?from=dy.199908.top
+      description: 闲鱼.淘宝二手是一个社区化的二手闲置交易市场
+    - title: 转转
+      logo: images/生活服务/转转.png
+      url: http://www.zhuanzhuan.com?from=dy.199908.top
+      description: 闲置二手交易平台
+    - title: 京东拍拍二手
+      logo: images/生活服务/京东拍拍二手.png
+      url: https://2.jd.com?from=dy.199908.top
+      description: 京东旗下的二手闲置交易平台
+    - title: 爱回收
+      logo: images/生活服务/爱回收.png
+      url: https://www.aihuishou.com?from=dy.199908.top
+      description: 电子产品回收平台
+    - title: 找靓机
+      logo: images/生活服务/找靓机.png
+      url: https://www.zhaoliangji.com?from=dy.199908.top
+      description: 专业二手手机自营平台，主营9成新及以上的原装正品二手手机、平板电脑、笔记本电脑以及3C配件等数码产品
+    - title: 孔夫子旧书网
+      logo: images/生活服务/孔夫子旧书网.jpg
+      url: https://www.kongfz.com?from=dy.199908.top
+      description: 国内专业的古旧书交易平台
+    - title: 多抓鱼
+      logo: images/生活服务/多抓鱼.png
+      url: https://www.duozhuayu.com?from=dy.199908.top
+      description: 多抓鱼二手书网
+    - title: 万表网
+      logo: images/生活服务/万表网.png
+      url: https://www.wbiao.cn?from=dy.199908.top
+      description: 新表销售、二手表回收及交易、钟表维修服务和手表资讯传媒等
+    - title: 只二App
+      logo: images/生活服务/只二App.png
+      url: https://www.goshare2.com?from=dy.199908.top
+      description: 专业正品二手买卖平台
+    - title: 妃鱼
+      logo: images/生活服务/妃鱼.jpg
+      url: https://www.feiyu.live?from=dy.199908.top
+      description: 闲置奢侈品直播买卖平台
+    - title: 胖虎奢侈品
+      logo: images/生活服务/胖虎奢侈品.jpg
+      url: https://ponhu.cn?from=dy.199908.top
+      description: 闲置奢侈品一站式交易服务平台
+    - title: 有路网
+      logo: images/生活服务/有路网.jpg
+      url: https://www.youlu.net?from=dy.199908.top
+      description: 二手图书交易网
+    - title: 飞蚂蚁
+      logo: images/生活服务/飞蚂蚁.png
+      url: http://web.fmy90.com?from=dy.199908.top
+      description: 旧衣回收
+    - title: 绿蜜蜂
+      logo: images/生活服务/绿蜜蜂.png
+      url: https://www.bgrdh.com/sites/36773.html?from=dy.199908.top
+      description: 旧衣物,家电,书籍,电子产品等回收
+    - title: 非象回收
+      logo: images/生活服务/非象回收.jpg
+      url: https://www.bgrdh.com/sites/36904.html?from=dy.199908.top
+      description: 二手旧衣物,家电,手机,书籍等回收
+    - title: 闪小白
+      logo: images/生活服务/闪小白.png
+      url: https://www.shanxiaobai.com?from=dy.199908.top
+      description: 主营高品质二手商品、手机回收和苹果手机维修服务
+
   - name: 求职招聘
   - name: 房屋租售
   - name: 法律咨询
