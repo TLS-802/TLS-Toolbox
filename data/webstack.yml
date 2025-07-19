@@ -2556,6 +2556,66 @@
       logo: images/媒体平台/1688.png
       url: https://live.1688.com?from=dy.199908.top
       description: 阿里巴巴旗下B2B平台直播功能
+    - title: 央视纪实纪录片
+      logo: images/AI工具集/央视纪实纪录片.png
+      url: http://jishi.cctv.com?from=dy.199908.top
+      description: 央视记录片在线观看
+    - title: 中国纪录片网
+      logo: images/AI工具集/中国纪录片网.png
+      url: http://www.docuchina.cn?from=dy.199908.top
+      description: 国家级纪录片新媒体综合性产业运营平台
+    - title: 蓝莓视频
+      logo: images/AI工具集/蓝莓视频.ico
+      url: http://www.zjstv.com?from=dy.199908.top
+      description: 蓝莓视频官网在线观看
+    - title: 欢喜首映放映厅
+      logo: images/AI工具集/欢喜首映放映厅.png
+      url: https://www.huanxi.com?from=dy.199908.top
+      description: 欢喜首映放映厅官方视频平台-高清完整版电影在线观看
+    - title: 天翼视讯
+      logo: images/AI工具集/天翼视讯.png
+      url: http://www.tv189.com?from=dy.199908.top
+      description: 汇聚了CCTV等160多路电视直播频道及节目预告
+    - title: 芒果TV海外版
+      logo: images/AI工具集/芒果TV海外版.jpg
+      url: https://w.mgtv.com?from=dy.199908.top
+      description: 芒果TV海外版官网网页版网址
+    - title: 腾讯视频海外版
+      logo: images/AI工具集/腾讯视频海外版.png
+      url: https://wetv.vip?from=dy.199908.top
+      description: 腾讯视频海外版wetv官网网页版网址
+    - title: 爱奇艺海外版
+      logo: images/AI工具集/爱奇艺海外版.png
+      url: https://www.iq.com?from=dy.199908.top
+      description: 爱奇艺海外版官网网页版网址
+    - title: 西瓜视频
+      logo: images/AI工具集/西瓜视频.jpg
+      url: https://www.ixigua.com?from=dy.199908.top
+      description: 西瓜视频是字节跳动旗下的一款领先的中视频平台，汇集了海量的视频资源，涵盖电影、电视剧、综艺、纪录片、游戏解说、旅行日记、时尚穿搭、社会人文等多个领域。
+    - title: 西影网
+      logo: images/AI工具集/西影网.jpg
+      url: https://www.1958xy.com?from=dy.199908.top
+      description: 一些老影视节目
+    - title: 搜狐视频
+      logo: images/AI工具集/搜狐视频.png
+      url: https://tv.sohu.com?from=dy.199908.top
+      description: 搜狐旗下专业的综合视频网站
+    - title: 芒果TV
+      logo: images/AI工具集/芒果TV.jpg
+      url: https://www.mgtv.com?from=dy.199908.top
+      description: 高清视频在线观看
+    - title: 风行网
+      logo: images/AI工具集/风行网.jpg
+      url: http://www.fun.tv?from=dy.199908.top
+      description: 视频内容在线观看
+    - title: PP视频
+      logo: images/AI工具集/PP视频.png
+      url: https://www.pptv.com?from=dy.199908.top
+      description: 综合视频门户网站平台
+    - title: 1905电影网
+      logo: images/AI工具集/1905电影网.png
+      url: https://www.1905.com?from=dy.199908.top
+      description: 电影频道官方网站
   - name: 社交媒体
     links:
     - title: 微博
@@ -2965,13 +3025,13 @@
   links:
   - title: 微信客服
     logo: images/联系我们/Wechat.jpg
-    url: https://www.nodeimage.com/i/32451/KTcD1Tnp3WNR5XeGsc0yd3nSh4bLOEOx.png?from=dy.199908.top
+    url: https://cdn.nodeimage.com/i/nmKJwQzYykkr7g17UY2UXGa1wc2h9WGH.webp?from=dy.199908.top
   - title: 抖音客服
     logo: images/联系我们/douyin.jpg
     url: https://v.douyin.com/OHq9e7844u8?from=dy.199908.top
   - title: 飞书客服
     logo: images/联系我们/feishu.jpg
-    url: https://www.nodeimage.com/i/32451/WqUooZnM3WNR5WkCsc0yRs9SO94tsAHz.png?from=dy.199908.top
+    url: https://cdn.nodeimage.com/i/YqMAhduA2TPeOppeGSzLCDXwHutoNWwX.webp?from=dy.199908.top
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
