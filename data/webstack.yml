@@ -2822,7 +2822,7 @@
       url: https://www.toutiao.com?from=dy.199908.top
       description: 你关心的，才是头条
     - title: LINUX DO
-      logo: images/生活服务/LINUX_DO.svg
+      logo: images/生活服务/LINUX_DO.png
       url: https://linux.do?from=dy.199908.top
       description: Linux技术社区
     - title: NodeSeek
@@ -2846,7 +2846,7 @@
       url: https://www.v2ex.com?from=dy.199908.top
       description: 创意工作者们的社区
     - title: NodeLoc
-      logo: images/生活服务/NodeLoc.ico
+      logo: images/生活服务/NodeLoc.png
       url: https://www.nodeloc.com?from=dy.199908.top
       description: Nodeloc是一个关注于互联网的交流论坛，主要内容包括但不限于主机,节点,技术,域名,建站,评测等，NL是一个自由地分享互联网资源的社区
     - title: 什么值得买
@@ -2874,7 +2874,7 @@
       url: https://www.fandom.com?from=dy.199908.top
       description: Fandom是一个全球性的娱乐和粉丝社区平台，主要面向亚文化用户，提供百科全书式的娱乐内容和社交功能
     - title: stage1
-      logo: images/生活服务/stage1.svg
+      logo: images/生活服务/stage1.png
       url: https://www.saraba1st.com?from=dy.199908.top
       description: stage1/s1 游戏动漫论坛
     - title: 晋江文学城论坛
