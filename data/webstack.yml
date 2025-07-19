@@ -478,409 +478,409 @@
   - name: 写作助手
     links:
     - title: 问小白
-      logo: static/images/AI工具集/问小白.jpg
+      logo: ./images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title: 蛙蛙写作
-      logo: static/images/AI工具集/蛙蛙写作.png
+      logo: ./images/AI工具集/蛙蛙写作.png
       url: https://wawawriter.com/app/?utm_source=aiweb5
       description: AI小说写作助手，一站式润色、改写、扩写
     - title: Ai女友❤(在线游玩)
-      logo: static/images/AI工具集/Ai女友❤(在线游玩).png
+      logo: ./images/AI工具集/Ai女友❤(在线游玩).png
       url: https://newplace.shop?ref_id=d6371f24-449b-4511-b6eb-ba4e178151b9
       description: 在线游玩，畅享言情自由。
     - title: 讯飞星火
-      logo: static/images/AI工具集/讯飞星火.png
+      logo: ./images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 深度推理能力全新升级，全面对标OpenAI o1
     - title: 稿定AI对话
-      logo: static/images/AI工具集/稿定AI对话.png
+      logo: ./images/AI工具集/稿定AI对话.png
       url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
       description: 满血版DeepSeek-R1, 支持智能创意生成，提升创作效率
     - title: 66论文
-      logo: static/images/AI工具集/66论文.png
+      logo: ./images/AI工具集/66论文.png
       url: https://www.66paper.cn/AI_A14BB05
       description: 高质量论文写作,300万大学生都在用的AI写作平台
     - title: 豆包
-      logo: static/images/AI工具集/豆包.png
+      logo: ./images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
     - title: 小鱼AI写作
-      logo: static/images/AI工具集/小鱼AI写作.png
+      logo: ./images/AI工具集/小鱼AI写作.png
       url: https://www.xiaoyuxiezuo.com/AI_A14BB05
       description: 免费在线智能AI写作平台,AI自动生成高质量原创内容
     - title: 讯飞绘文
-      logo: static/images/AI工具集/讯飞绘文.png
+      logo: ./images/AI工具集/讯飞绘文.png
       url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
       description: 选题、配图、成文，一站式创作，让内容运营更高效
     - title: 讯飞文书
-      logo: static/images/AI工具集/讯飞文书.png
+      logo: ./images/AI工具集/讯飞文书.png
       url: https://gw.iflydocs.com/?from=AIjihe6
       description: 基于讯飞星火大模型进行文书数据定制训练，面向文书写作群体推出的一款AI材料写作平台
     - title: 135编辑器AI排版
-      logo: static/images/AI工具集/135编辑器AI排版.png
+      logo: ./images/AI工具集/135编辑器AI排版.png
       url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
       description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版。
     - title: 稿定AI文案
-      logo: static/images/AI工具集/稿定AI文案.png
+      logo: ./images/AI工具集/稿定AI文案.png
       url: https://www.gaoding.com/utms/276f1b8eebd948c08bde424e16335b3e
       description: 小红书笔记、公众号、周报总结、视频脚本等智能文案生成平台
     - title: 笔目鱼英文论文写作器
-      logo: static/images/AI工具集/笔目鱼英文论文写作器.png
+      logo: ./images/AI工具集/笔目鱼英文论文写作器.png
       url: https://www.bmysci.com/?channelCode=bgrdhad
       description: 笔目鱼是一款专为中国科研人而研发的学术论文写作器，功能集学术润色，改写改写，全文翻译，学科语料、一键插入参考文献、场景句式、查重、资料库管理为一体的云端学术论文写作器。
     - title: 笔灵AI小说
-      logo: static/images/AI工具集/笔灵AI小说.png
+      logo: ./images/AI工具集/笔灵AI小说.png
       url: https://ibiling.cn/novel-workbench/?from=bgrnovel
       description: 汇集爆款小说拆解、小说大纲一键生成、200+小说生成器、总结网文大神写作公式、精选小说资料库。
     - title: 笔灵AI写作
-      logo: static/images/AI工具集/笔灵AI写作.png
+      logo: ./images/AI工具集/笔灵AI写作.png
       url: https://ibiling.cn/?from=bgrdh
       description: 全能型AI写作工具，AI 文章撰写、AI 论文写作、AI小说写作、文章降重降AI等
     - title: 论文降AIGC率
-      logo: static/images/AI工具集/论文降AIGC率.png
+      logo: ./images/AI工具集/论文降AIGC率.png
       url: https://ibiling.cn/paper-pass?from=bgrdhpass
       description: 论文降AI神器！全网最先适配知网2.13升级+维普+万方，其他工具已失效，轻松通过检测！
     - title: 知渊AI论文写作
-      logo: static/images/AI工具集/知渊AI论文写作.png
+      logo: ./images/AI工具集/知渊AI论文写作.png
       url: https://www.zeedeep.com
       description: 一键生成万字原创，论文写作辅助神器，专为论文而生。
     - title: 迅捷AI写作
-      logo: static/images/AI工具集/迅捷AI写作.png
+      logo: ./images/AI工具集/迅捷AI写作.png
       url: https://www.aichat1234.com/app/?bgrdh
       description: 利用人工智能技术为用户提供AI全能写作、新媒体写作、日常工作汇报等文稿
     - title: 慧言AI
-      logo: static/images/AI工具集/慧言AI.png
+      logo: ./images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: AI智匠
-      logo: static/images/AI工具集/AI智匠.jpg
+      logo: ./images/AI工具集/AI智匠.jpg
       url: https://lunwen.168096.com
       description: 专业级AI论文辅助工具、高质量学术文章写作
     - title: AI一键生成论文
-      logo: static/images/AI工具集/AI一键生成论文.png
+      logo: ./images/AI工具集/AI一键生成论文.png
       url: https://ibiling.cn/paper?from=bgrpaper
       description: 毕业论文、千字大纲免费生成，几万字专业初稿，答辩PPT一键生成，更可根据导师要求无限改稿！
     - title: Paperpal
-      logo: static/images/AI工具集/Paperpal.png
+      logo: ./images/AI工具集/Paperpal.png
       url: https://www.editage.cn/paperpal?utm_source=bgrdh&utm_medium=Banner&utm_campaign=Banner
       description: 免费英文写作及润色AI工具，兼备翻译及投稿检查等强大功能，大幅节省写作时长
     - title: 秘塔写作猫
-      logo: static/images/AI工具集/秘塔写作猫.png
+      logo: ./images/AI工具集/秘塔写作猫.png
       url: https://xiezuocat.com
       description: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
     - title: 论小文
-      logo: static/images/AI工具集/论小文.png
+      logo: ./images/AI工具集/论小文.png
       url: https://www.aipaperok.com
       description: 论小文 可靠的学术助手，免费生成大纲，一键生成3w+字论文。包括11种写作学术类型，支持查重降重，所有参考文献真实可查！
     - title: AI Text Humanizer
-      logo: static/images/AI工具集/AI Text Humanizer.svg
+      logo: ./images/AI工具集/AI Text Humanizer.svg
       url: https://www.aitexthumanizer.app
       description: AI文本人性化工具可将AI生成的内容转化为自然、拟人化的文本。它能优化语言流畅度，采用对话式表达，并避免机械化的措辞。可帮助用户为不同内容需求创作更自然、更具吸引力的材料。
     - title: 文佳AI论文写作
-      logo: static/images/AI工具集/文佳AI论文写作.png
+      logo: ./images/AI工具集/文佳AI论文写作.png
       url: https://www.paperflowai.com
       description: 文佳AI-专业AI论文生成,近百万人使用的AI论文生成平台,一键原创生成,快速高效！选题/生成大纲/完整论文生成/文献综述等一键完成,辅助论文写作神器！
     - title: 白果AI论文助手
-      logo: static/images/AI工具集/白果AI论文助手.png
+      logo: ./images/AI工具集/白果AI论文助手.png
       url: https://www.baiguoai.com
       description: 白果AI论文助手是一款专为学术写作场景设计的AI工具，旨在帮助用户快速完成论文、报告和综述的撰写。
     - title: 云之AI论文助手
-      logo: static/images/AI工具集/云之AI论文助手.svg
+      logo: ./images/AI工具集/云之AI论文助手.svg
       url: https://paper.humsun.com
       description: 云之AI论文助手是一款专注于学术写作的AI工具，旨在帮助用户高效完成论文写作任务。
     - title: Detectordeia
-      logo: static/images/AI工具集/Detectordeia.png
+      logo: ./images/AI工具集/Detectordeia.png
       url: https://www.detectordeia.org
       description: Detectordeia可通过分析文本来确定文本是由人工智能撰写还是由人工撰写。完全免费，无需注册即可使用。
     - title: 笔启AI论文
-      logo: static/images/AI工具集/笔启AI论文.ico
+      logo: ./images/AI工具集/笔启AI论文.ico
       url: https://www.biqiai.cn
       description: 笔启AI论文专业高质量、低查重论文生成平台，免费生成大纲，支持无线改稿，包过查重！
     - title: 答辩PPT一键生成
-      logo: static/images/AI工具集/答辩PPT一键生成.png
+      logo: ./images/AI工具集/答辩PPT一键生成.png
       url: https://ibiling.cn/ppt?from=bgrpptdb
       description: 答辩PPT、千字自述稿一键生成，预测导师提问，答辩一次过！
     - title: 文字游侠
-      logo: static/images/AI工具集/文字游侠.png
+      logo: ./images/AI工具集/文字游侠.png
       url: https://wenan.tcbot.cc/#/pages/login/reg?code=FetTbe
       description: 文字游侠是一款基于人工智能技术开发的AI写作工具，旨在帮助用户高效生成高质量的文章内容，适用于教育、媒体、市场营销等多个领域。
   - name: 聊天对话
     links:
     - title: 问小白
-      logo: static/images/AI工具集/问小白.jpg
+      logo: ./images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title: Ai女友❤(在线游玩)
-      logo: static/images/AI工具集/Ai女友❤(在线游玩).png
+      logo: ./images/AI工具集/Ai女友❤(在线游玩).png
       url: https://newplace.shop?ref_id=d6371f24-449b-4511-b6eb-ba4e178151b9
       description: 在线游玩，畅享言情自由。
     - title: 讯飞星火
-      logo: static/images/AI工具集/讯飞星火.png
+      logo: ./images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 深度推理能力全新升级，全面对标OpenAI o1
     - title: Flowith
-      logo: static/images/AI工具集/Flowith.png
+      logo: ./images/AI工具集/Flowith.png
       url: https://flowith.net?inv=BGRDHH
       description: Flowith 是一个专注于人工智能创作与任务执行的平台，旨在帮助用户将日常的洞察转化为创意突破。
     - title: 稿定AI对话
-      logo: static/images/AI工具集/稿定AI对话.png
+      logo: ./images/AI工具集/稿定AI对话.png
       url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
       description: 满血版DeepSeek-R1, 支持智能创意生成，提升创作效率
     - title: 豆包
-      logo: static/images/AI工具集/豆包.png
+      logo: ./images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
     - title: DeepSeek
-      logo: static/images/AI工具集/DeepSeek.png
+      logo: ./images/AI工具集/DeepSeek.png
       url: https://www.deepseek.com
       description: 开源大模型平台
     - title: 当贝AI
-      logo: static/images/AI工具集/当贝AI.png
+      logo: ./images/AI工具集/当贝AI.png
       url: https://ai.dangbei.com
       description: 当贝AI官网DeepSeek满血版，当贝AI聚合全网优质AI大模型，包括满血版DeepSeek-R1 671B、豆包AI、通义千问等优质AI大模型，当贝AI提供一站式AI解决方案，极速、高效、免费、不限量！
     - title: Qwen Chat
-      logo: static/images/AI工具集/Qwen Chat.png
+      logo: ./images/AI工具集/Qwen Chat.png
       url: https://chat.qwen.ai
       description: Qwen Chat 是阿里通义推出的一款多功能 AI 大型语言模型 Web 界面平台，旨在为用户提供高效、便捷的 AI 交互体验。
     - title: 华为小艺
-      logo: static/images/AI工具集/华为小艺.png
+      logo: ./images/AI工具集/华为小艺.png
       url: https://xiaoyi.huawei.com
       description: 华为小艺是具备多种功能，包括AI问答、AI写作、AI识图、AI阅读、翻译、代码生成等，能够覆盖从科学到文化、从技术到社会等多个领域，全面提升用户的生活质量和工作效率。
     - title: 慧言AI
-      logo: static/images/AI工具集/慧言AI.png
+      logo: ./images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: 纳米AI助手
-      logo: static/images/AI工具集/纳米AI助手.png
+      logo: ./images/AI工具集/纳米AI助手.png
       url: https://bot.n.cn
       description: 360公司推出的一款创新性人工智能工具，核心功能包括多模态交互、智能问答、内容创作以及深度学习等
     - title: 文小言
-      logo: static/images/AI工具集/文小言.png
+      logo: ./images/AI工具集/文小言.png
       url: http://www.wenxiaoyan.com
       description: 百度推出的一款智能助手
     - title: 讯飞星火
-      logo: static/images/AI工具集/讯飞星火.png
+      logo: ./images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 科大讯飞推出的AI对话产品,AI助手,提供写作、绘画、搜索、问答、翻译、阅读等多种能力
     - title: 腾讯元宝
-      logo: static/images/AI工具集/腾讯元宝.png
+      logo: ./images/AI工具集/腾讯元宝.png
       url: https://yuanbao.tencent.com
       description: 腾讯元宝是腾讯公司推出的一款基于自研混元大模型技术的C端AI智能助手App，旨在为用户提供高效、便捷的智能服务。
     - title: Kimi智能助手
-      logo: static/images/AI工具集/Kimi智能助手.jpg
+      logo: ./images/AI工具集/Kimi智能助手.jpg
       url: https://kimi.moonshot.cn
       description: 免费多功能AI助手，自从用了Kimi,每天都能准时下班了。日报周报？Kimi一键帮你搞定。
     - title: 通义星尘
-      logo: static/images/AI工具集/通义星尘.png
+      logo: ./images/AI工具集/通义星尘.png
       url: https://tongyi.aliyun.com/xingchen
       description: 角色对话智能体
     - title: 天工AI
-      logo: static/images/AI工具集/天工AI.png
+      logo: ./images/AI工具集/天工AI.png
       url: https://www.tiangong.cn
       description: 天工是一款支持搜索、写作、对话、文档分析、画画、做PPT的全能型AI助手。借助AI技术，检索信息、多语言翻译、写论文、写代码、写方案、写汇报、做PPT、归纳总结文档和音频视频等。
     - title: 小悟空
-      logo: static/images/AI工具集/小悟空.png
+      logo: ./images/AI工具集/小悟空.png
       url: https://wukong.com/tool
       description: 字节跳动推出的AI对话助手和个人助理
     - title: 智谱清言
-      logo: static/images/AI工具集/智谱清言.png
+      logo: ./images/AI工具集/智谱清言.png
       url: https://chatglm.cn
       description: 免费全能的AI助手
     - title: 文心一言
-      logo: static/images/AI工具集/文心一言.png
+      logo: ./images/AI工具集/文心一言.png
       url: https://yiyan.baidu.com
       description: 百度全新一代知识增强大语言模型，文心一言官方网站在线网页版使用入口
     - title: ChatGPT 引导语
-      logo: static/images/AI工具集/ChatGPT 引导语.png
+      logo: ./images/AI工具集/ChatGPT 引导语.png
       url: https://prompts.fresns.cn
       description: ChatGPT 引导语是一个汇集了丰富 ChatGPT 引导语、创意写作灵感与实用技巧的优质平台，致力于帮助用户激发无限创意，提升写作效率与质量。
     - title: AiShort
-      logo: static/images/AI工具集/AiShort.ico
+      logo: ./images/AI工具集/AiShort.ico
       url: https://www.aishort.top
       description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的
         AI 智能体，实现复杂任务的自动化。
     - title: 大思政数智平台“思政通”
-      logo: static/images/AI工具集/大思政数智平台"思政通".png
+      logo: ./images/AI工具集/大思政数智平台"思政通".png
       url: https://chatmarx.zihaoai.cn
       description: 思政问答人工智能助手，大学思政教材问答GPT，可以向提问关于中国近现代史、思修、毛概、马原、社会时事新闻的问题，可以在切换人物设定。
     - title:: Poe
-      logo: static/images/AI工具集/Poe.png
+      logo: ./images/AI工具集/Poe.png
       url: https://poe.com
       description: Poe.com汇聚卓越人工智能，一站式体验。探索 GPT-4.5、Claude 3.7 Sonnet、DeepSeek-R1、Runway、ElevenLabs
         以及数百万其他产品。
     - title:: 无涯问知
-      logo: static/images/AI工具集/无涯问知.png
+      logo: ./images/AI工具集/无涯问知.png
       url: https://www.wuya-ai.com
       description: 无涯问知，无涯Infinity，是一款基于星环大模型底座，结合个人知识库、企业知识库、法律法规、财经等多种知识源的企业级垂直领域问答产品
     - title:: QQ浏览器DeepSeek
-      logo: static/images/AI工具集/QQ浏览器DeepSeek.png
+      logo: ./images/AI工具集/QQ浏览器DeepSeek.png
       url: https://aisearch.qq.com
       description: DeepSeekQQ浏览器专线版整合了DeepSeek-R1模型的先进AI技术，为用户提供深度思考、联网搜索、多轮对话以及历史记录回溯等强大功能。
     - title:: SCNet智能助手
-      logo: static/images/AI工具集/SCNet智能助手.png
+      logo: ./images/AI工具集/SCNet智能助手.png
       url: https://www.scnet.cn/ui/chatbot
       description: SCNet人工智能助手是一个多功能的AI工具，旨在为用户提供高效、智能的服务，涵盖了从编程辅助到创意写作、从信息检索到智能对话的多种功能。
     - title:: 万话创作者平台
-      logo: static/images/AI工具集/万话创作者平台.png
+      logo: ./images/AI工具集/万话创作者平台.png
       url: https://www.wantalk.com
       description: 万话创作者平台是一个专注于角色创建与管理的在线服务平台，旨在通过AI技术帮助用户构建和细化角色设定，从而推动剧情发展。
     - title:: MiniMax AI
-      logo: static/images/AI工具集/MiniMax AI.png
+      logo: ./images/AI工具集/MiniMax AI.png
       url: https://chat.minimaxi.com
       description: MiniMax AI是一款全能的AI助手，支持AI写作、AI搜题、AI办公、AI翻译、AI编程、AI创作、AI文档总结，AI聊天、AI对话、口语陪练、模拟面试等。
     - title:: 理想同学
-      logo: static/images/AI工具集/理想同学.png
+      logo: ./images/AI工具集/理想同学.png
       url: https://livis.com
       description: 理想同学是理想汽车推出的一款基于自研大模型Mind GPT开发的AI智能助手，旨在为用户提供全方位的智能服务。核心功能包括知识问答、视觉感知、语音交互以及联网搜索等。
     - title:: 浙大deepseek
-      logo: static/images/AI工具集/浙大deepseek.png
+      logo: ./images/AI工具集/浙大deepseek.png
       url: https://chat.zju.edu.cn
       description: 浙江大学“浙大先生”是一款基于DeepSeek V3和R1模型的深度融合智能体平台，旨在为全国高校师生提供教学、科研和生活场景的全方位AI服务。
   - name: 办公提效
     links:
     - title:: 问小白
-      logo: static/images/AI工具集/问小白.jpg
+      logo: ./images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title:: 文多多AiPPT/免费生成
-      logo: static/images/AI工具集/文多多AiPPT_免费生成.png
+      logo: ./images/AI工具集/文多多AiPPT_免费生成.png
       url: https://docmee.cn/?source=bangongr
       description: AI根据主题、文档、网址智能生成PPT文档，同时支持在线编辑、美化、排版、导出、一键动效、自动生成演讲稿等功能
     - title:: 免费AI生成PPT
-      logo: static/images/AI工具集/免费AI生成PPT.png
+      logo: ./images/AI工具集/免费AI生成PPT.png
       url: https://www.aippt.cn/?utm_type=Navweb&utm_source=bgrdh&utm_page=aippt&utm_plan=aippt&utm_unit=AIPPT&utm_keyword=36302531
       description: 输入主题即可在3分钟内生成专业级PPT
     - title:: 豆包AI云盘
-      logo: static/images/AI工具集/豆包AI云盘.png
+      logo: ./images/AI工具集/豆包AI云盘.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 免费无限容量,上传下载不限速网盘，豆包AI支持AI编程,搜索,图像生成,阅读等功能
     - title:: 小浣熊
-      logo: static/images/AI工具集/小浣熊.png
+      logo: ./images/AI工具集/小浣熊.png
       url: https://www.xiaohuanxiong.com/login?utm_source=blmay14
       description: AI 智能助手，提升工作效率好帮手
     - title:: 扣子空间
-      logo: static/images/AI工具集/扣子空间.png
+      logo: ./images/AI工具集/扣子空间.png
       url: http://dis.csqixiang.cn/unpo/cozebgrdh.html
       description: 在扣子空间，和 Agent 一起开始你的工作
     - title:: 讯飞智文
-      logo: static/images/AI工具集/讯飞智文.png
+      logo: ./images/AI工具集/讯飞智文.png
       url: https://zhiwen.xfyun.cn/home?from=aitool4
       description: 一键生成PPT和Word，让学习生活更轻松
     - title:: 绘蛙
-      logo: static/images/AI工具集/绘蛙.png
+      logo: ./images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
       description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
     - title:: 咔片PPT
-      logo: static/images/AI工具集/咔片PPT.png
+      logo: ./images/AI工具集/咔片PPT.png
       url: https://www.cappt.cc/?mtm_campaign=CZQD-aidh-zd10-10051
       description: AI助力，做PPT更简单！
     - title:: 酷表ChatExcel
-      logo: static/images/AI工具集/酷表ChatExcel.png
+      logo: ./images/AI工具集/酷表ChatExcel.png
       url: https://www.chatexcel.com/#/home?partner_uuid=BCAB45078F33305692CBBBDA49B19FF7
       description: AI Excel 数据分析辅助工具，北大团队开发的通过聊天来操作Excel表格的AI工具
     - title:: AI智能生成PPT
-      logo: static/images/AI工具集/AI智能生成PPT.png
+      logo: ./images/AI工具集/AI智能生成PPT.png
       url: https://ai.pptsupermarket.com/index/Y29tcGFueWlkPWJncmRoX2NvbV9xcV8zNjE1NTc3OTM4
       description: 在线AI智能生成PPT
     - title:: 飞书多维表格
-      logo: static/images/AI工具集/飞书多维表格.png
+      logo: ./images/AI工具集/飞书多维表格.png
       url: http://dis.csqixiang.cn/unpo/fsbgrdh.html
       description: 表格形态的 AI 工作流搭建工具，支持批量化的AI创作与分析任务
     - title:: AI视频生成
-      logo: static/images/AI工具集/AI视频生成.png
+      logo: ./images/AI工具集/AI视频生成.png
       url: 'https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMAIFL '
       description: 模特图一键变视频，图片一键生成视频工具
     - title:: 博思AIPPT
-      logo: static/images/AI工具集/博思AIPPT.png
+      logo: ./images/AI工具集/博思AIPPT.png
       url: https://pptgo.cn?utm_source=referrals&utm_content=bgrdh&_channel_track_key=KajMySOp
       description: 在线AI生成PPT软件
     - title:: 小绿鲸英文文献阅读器
-      logo: static/images/AI工具集/小绿鲸英文文献阅读器.png
+      logo: ./images/AI工具集/小绿鲸英文文献阅读器.png
       url: https://www.xljsci.com?channelCode=FcROKT
       description: 英文文献阅读器,专注提高SCI阅读效率
     - title:: 灵办AI助手
-      logo: static/images/AI工具集/灵办AI助手.png
+      logo: ./images/AI工具集/灵办AI助手.png
       url: https://ilingban.com/chat/?from=bgrdh
       description: 国内免加速免费使用ChatGPT AI对话机器人
     - title:: 360AI办公
-      logo: static/images/AI工具集/360AI办公.png
+      logo: ./images/AI工具集/360AI办公.png
       url: https://aiwork.360.cn
       description: 360AI办公，一站式AI办公工具集。涵盖AI图片、AI文档、AI写作、AI音视频、AI PPT、PDF处理等200种办公权益及30万模版资源，让你高效工作轻松生活。
     - title:: SheetNext表格
-      logo: static/images/AI工具集/SheetNext表格.png
+      logo: ./images/AI工具集/SheetNext表格.png
       url: https://www.sheetnext.com
       description: AI Excel 全自动制表工具，只需输入简单提示语，即可对Excel表格实现全自动化逻辑操作。支持智能录入、自动插入公式、样式修改、生成数据、生成模板、增删改查等任务。
     - title:: 迅捷AiPPT
-      logo: static/images/AI工具集/迅捷AiPPT.png
+      logo: ./images/AI工具集/迅捷AiPPT.png
       url: https://www.xunjieppt.com/aippt/?bgrdh
       description: 迅捷PPT软件是一款高效实用的AI演示文稿制作工具，主打PPTAI生成
     - title:: 慧言AI
-      logo: static/images/AI工具集/慧言AI.png
+      logo: ./images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title:: 晓象AI
-      logo: static/images/AI工具集/晓象AI.png
+      logo: ./images/AI工具集/晓象AI.png
       url: https://www.bgrdh.com/sites/43824.html
       description: 晓象AI小程序，整合全网资讯，24小时实时更新
     - title:: 笔格AIPPT/免费生成
-      logo: static/images/AI工具集/笔格AIPPT_免费生成.png
+      logo: ./images/AI工具集/笔格AIPPT_免费生成.png
       url: https://bigppt.cn/?hmmd=BGR
       description: 自动生成大纲，AI文字润色，AI文生图等多种智能服务
     - title:: 讯飞星火
-      logo: static/images/AI工具集/讯飞星火.png
+      logo: ./images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 科大讯飞推出的AI对话产品,AI助手,提供写作、绘画、搜索、问答、翻译、阅读等多种能力
     - title:: 百度文库AI助手
-      logo: static/images/AI工具集/百度文库AI助手.png
+      logo: ./images/AI工具集/百度文库AI助手.png
       url: https://wenku.baidu.com/ndlaunch/browse/chat?fr=dist_wk_aiasis&dist_source=kfpt-WD&utm_account=dist&keyword=PPT&searchFr=1&third_id=wkds_fcb0bb2980fb6294dd88d0d233d4b14e84243efc_400000026
       description: 百度文库AI助手是一款基于百度“文心一言”技术开发的智能文档助手，旨在通过人工智能技术提升用户的文档处理能力，为用户提供高效、便捷的写作和文档管理服务。
     - title:: 智能体
-      logo: static/images/AI工具集/智能体.png
+      logo: ./images/AI工具集/智能体.png
       url: https://www.gnomic.cn/?bangongren
       description: 接入多种AI大模型,稳定性强,无广告
     - title:: ChatPPT
-      logo: static/images/AI工具集/ChatPPT.png
+      logo: ./images/AI工具集/ChatPPT.png
       url: https://www.chat-ppt.com/?channel=bgrdhAD
       description: AI在线生成PPT文档
     - title:: AI提示语
-      logo: static/images/AI工具集/AI提示语.png
+      logo: ./images/AI工具集/AI提示语.png
       url: https://www.tishi.top/?invite=ruSOOO
       description: 访问丰富强大的 AI 模型并通过超过 100 个 AI 工具提升个人创造力与工作学习效率
     - title:: DeepWork AI侧边栏
-      logo: static/images/AI工具集/DeepWork AI侧边栏.png
+      logo: ./images/AI工具集/DeepWork AI侧边栏.png
       url: https://aisidebar.chat
       description: DeepWork AI侧边栏在浏览器侧边栏中与AI聊天，解答问题、绘制图片、阅读文档、强化搜索结果、辅助创作、解释和扩写文本...以及更多强大的功能，随时随地助你效率提升！
     - title:: 熊猫简历
-      logo: static/images/AI工具集/熊猫简历.ico
+      logo: ./images/AI工具集/熊猫简历.ico
       url: https://www.pandaresume.cn
       description: 熊猫简历PandaResume专业在线简历制作；海量个人简历模板免费使用，简历模板下载，AI简历一键生成，AI辅助优化简历内容。
     - title:: Powerdrill
-      logo: static/images/AI工具集/Powerdrill.png
+      logo: ./images/AI工具集/Powerdrill.png
       url: https://powerdrill.ai
       description: Powerdrill 是一款以人工智能为核心的无代码数据分析SaaS平台，致力于通过自然语言交互帮助个人和企业快速挖掘数据价值，实现从基础查询到深度商业智能分析的全面覆盖。
     - title:: AI翻译工具
-      logo: static/images/AI工具集/AI翻译工具.png
+      logo: ./images/AI工具集/AI翻译工具.png
       url: https://ai-translator.cc/zh
       description: 一款功能强大的免费 AI 翻译工具，支持多语言翻译。
     - title:: PDFMathTranslate
-      logo: static/images/AI工具集/PDFMathTranslate.svg
+      logo: ./images/AI工具集/PDFMathTranslate.svg
       url: https://pdf2zh.com
       description: PDFMathTranslate 是一款专为科学论文和复杂文档翻译设计的开源工具，旨在提供高精度、格式保留的双语对照翻译服务。
     - title:: 360文库
-      logo: static/images/AI工具集/360文库.png
+      logo: ./images/AI工具集/360文库.png
       url: https://wenku.so.com
       description: 360文库是一个综合性的在线文档分享平台，其主要功能包括文档上传、下载、搜索和分享，涵盖学术论文、行业报告、商业资料、办公模板等多领域内容，满足用户在学习、办公和创作中的多样化需求。
     - title:: 360AIPPT
-      logo: static/images/AI工具集/360AIPPT.png
+      logo: ./images/AI工具集/360AIPPT.png
       url: https://aippt.360.com
       description: 360AIPPT是一款AIPPT制作工具，旨在通过智能化功能提升用户制作PPT的效率和质量。用户只需输入主题、关键词或内容描述，即可快速生成包含标题、大纲、内容和配图的完整PPT。
     - title:: AI TransPDF
-      logo: static/images/AI工具集/AI TransPDF.png
+      logo: ./images/AI工具集/AI TransPDF.png
       url: https://aitranspdf.com/zh-CN
       description: AI TransPDF 是一款专注于智能翻译 PDF 文档的工具，旨在高效、准确地完成 PDF 文档的翻译工作。
     - title:: DomainGenius
-      logo: static/images/AI工具集/DomainGenius.ico
+      logo: ./images/AI工具集/DomainGenius.ico
       url: https://domain.deepzero.ai
       description: Domain Genius是一款AI智能域名生成器，核心功能包括基于关键词生成域名建议、支持多种域名样式（如随机混合、描述性、押韵、双关语等）以及灵活的域名长度和扩展选择。
   - name: 绘画平台
