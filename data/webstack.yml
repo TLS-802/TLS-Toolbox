@@ -37,6 +37,7 @@
     logo: images/驼铃标志1.png
     url: https://tv1.199908.top/
     description: 免费影视资源，无需注册
+
 - taxonomy: 快捷导航
   icon: fa-shopping-cart
   list:
@@ -459,6 +460,7 @@
       logo: images/其他/zhuanzhuan.jpg
       url: https://www.zhuanzhuan.com?from=dy.199908.top
       description: 二手交易平台
+
 - taxonomy: AI工具集
   icon: fa-cogs
   list:
@@ -1257,6 +1259,7 @@
       logo: ./images/AI工具集/KreadoAI.png
       url: https://www.kreadoai.com
       description: AIGC数字营销创作平台
+
 - taxonomy: 图文设计
   icon: fa-palette
   list:
@@ -1622,6 +1625,7 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
+
 - taxonomy: 电商插件
   icon: fa-cogs
   links:
@@ -1669,6 +1673,7 @@
     logo: images/电商插件/达连.png
     url: https://tool.kollink.net?from=dy.199908.top
     description: TikTok达人邀约插件
+
 - taxonomy: 直播辅助
   icon: fa-video
   links:
@@ -1704,6 +1709,7 @@
     logo: images/直播辅助/腾讯QQ.png
     url: https://live.qq.com?from=dy.199908.top
     description: 腾讯官方直播工具
+
 - taxonomy: 电商货源
   icon: fa-video
   list:
@@ -1719,10 +1725,6 @@
   tabs:
   - name: 服装鞋帽
     links:
-    - title: 莆田潮牌鞋服一手货源
-      logo: images/电商货源/莆田潮牌鞋服一手货源.jpg
-      url: https://xie.yixuev.com?bgrdh&from=dy.199908.top
-      description: 主打中高端品质，超高性价比
     - title: 新款网
       logo: images/电商货源/新款网.svg
       url: http://www.xingfujie.cn?from=dy.199908.top
@@ -1739,10 +1741,6 @@
       logo: images/电商货源/鞋库网.ico
       url: https://www.cnxieku.com?from=dy.199908.top
       description: 全国童鞋男鞋女鞋电商批发,批发市场,爱搜鞋网新款爆款鞋子图片
-    - title: 美美淘
-      logo: images/电商货源/美美淘.png
-      url: http://www.mmgg.com?from=dy.199908.top
-      description: 专做女鞋批发的网站，女鞋一件代发，女鞋分销，女鞋货源，厂家直销
     - title: 17货源网
       logo: images/电商货源/17货源网.png
       url: https://www.17zwd.com?from=dy.199908.top
@@ -1757,7 +1755,7 @@
       description: 鞋服采购批发上青创网,真实档口一手货源
     - title: 二童网
       logo: images/电商货源/二童网.ico
-      url: https://www.2tong.cn?from=dy.199908.top
+      url: https://www.2tong.cn/web?from=dy.199908.top
       description: 童鞋采购,童鞋货源,童鞋批发市场
     - title: 爱搜鞋网批
       logo: images/电商货源/爱搜鞋网批.png
@@ -1931,7 +1929,7 @@
       description: 环保行业B2B电子商务平台
     - title: 中国物流网
       logo: images/电商货源/驼铃标志1.png
-      url: https://www.chinawuliu.com.cn?from=dy.199908.top
+      url: http://www.chinawuliu.com.cn?from=dy.199908.top
       description: 物流行业B2B电子商务平台
     - title: 天猫供销平台
       logo: images/电商货源/天猫供销平台.jpg
@@ -1943,7 +1941,7 @@
       description: 专注B2B电商服务,百度爱采购合作平台
     - title: 顺企网
       logo: images/电商货源/顺企网.png
-      url: http://www.11467.com?from=dy.199908.top
+      url: https://www.11467.com?from=dy.199908.top
       description: 企业黄页和供求信息发布平台
     - title: 搜了网
       logo: images/电商货源/搜了网.png
@@ -1957,6 +1955,7 @@
       logo: images/电商货源/搜好货网.png
       url: https://www.912688.com?from=dy.199908.top
       description: 为中小企业提供精准的采购搜索和广告投放服务
+
 - taxonomy: 广告投放
   icon: fa-bullhorn
   list:
@@ -2141,6 +2140,7 @@
       logo: images/广告投放/知乎.png
       url: https://xg.zhihu.com/home?from=dy.199908.top
       description: 知乎广告投放平台
+
 - taxonomy: 影音娱乐
   icon: fa-video
   list:
@@ -2672,6 +2672,7 @@
       logo: images/媒体平台/球迷网.png
       url: https://24h.live?from=dy.199908.top
       description: NBA直播,NBA重播吧,比赛视频,斯诺克直播网
+
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
@@ -2916,6 +2917,7 @@
       logo: images/新媒运营/数据研究.png
       url: https://www.ict.ac.cn?from=dy.199908.top
       description: 中国科学院计算技术研究所，计算机科学技术综合性学术研究机构
+
 - taxonomy: 联系我们
   icon: fa-photo-video
   links:
@@ -2931,6 +2933,7 @@
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
+
 - taxonomy: 友情链接
   icon: fa-link
   friend:
