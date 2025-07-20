@@ -1,5 +1,5 @@
 - taxonomy: 常用工具
-  icon: fa-tools
+  icon: fa-star
   links:
   - title: 驼铃电商知识库
     logo: images/驼铃标志1.png
@@ -39,7 +39,7 @@
     description: 免费影视资源，无需注册
 
 - taxonomy: 快捷导航
-  icon: fa-shopping-cart
+  icon: fa-compass
   list:
   - term: 淘宝
   - term: 抖音
@@ -462,7 +462,7 @@
       description: 二手交易平台
 
 - taxonomy: AI工具集
-  icon: fa-cogs
+  icon: fa-robot
   list:
   - term: 写作助手
   - term: 聊天对话
@@ -1251,7 +1251,7 @@
       description: AIGC数字营销创作平台
 
 - taxonomy: 图文设计
-  icon: fa-palette
+  icon: fa-paint-brush
   list:
   - term: 设计工具
   - term: 排版编辑
@@ -1616,7 +1616,7 @@
       description: 免费开源的3D创作套件
 
 - taxonomy: 电商辅助
-  icon: fa-video
+  icon: fa-shopping-cart
   list:
   - term: 电商插件
   - term: 直播辅助
@@ -1703,7 +1703,7 @@
       description: 腾讯官方直播工具
 
 - taxonomy: 电商货源
-  icon: fa-shopping-bag
+  icon: fa-boxes
   list:
   - term: 服装鞋帽
   - term: 美妆护肤
@@ -2067,7 +2067,7 @@
       description: 军埔货源平台
 
 - taxonomy: 广告投放
-  icon: fa-bullhorn
+  icon: fa-ad
   list:
   - term: 短视频平台
   - term: 电商平台
@@ -2342,7 +2342,7 @@
       description: 360搜索广告投放平台
 
 - taxonomy: 影音娱乐
-  icon: fa-video
+  icon: fa-play-circle
   list:
   - term: 视频平台
   - term: 短剧平台
@@ -2939,7 +2939,7 @@
       description: 免费动画漫画分享社群
 
 - taxonomy: 学习资源
-  icon: fa-chart-bar
+  icon: fa-graduation-cap
   list:
   - term: 考公考研
   - term: 职场考证
@@ -3481,7 +3481,7 @@
       description: 中文Web技术教程
 
 - taxonomy: 生活服务
-  icon: fa-chart-bar
+  icon: fa-home
   list:
   - term: 求职招聘
   - term: 房屋租售
@@ -4070,7 +4070,7 @@
       description: 中国电信旗下的21CN公司提供的电子邮件服务
 
 - taxonomy: 软件工具
-  icon: fa-chart-bar
+  icon: fa-tools
   list:
   - term: 电脑装机
   - term: 效率工具
@@ -4595,7 +4595,7 @@
       description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
 
 - taxonomy: 数据研究
-  icon: fa-chart-bar
+  icon: fa-chart-line
   list:
   - term: 数据分析
   - term: 热点指数
@@ -5124,7 +5124,7 @@
       description: 新商业知识平台
 
 - taxonomy: 联系我们
-  icon: fa-photo-video
+  icon: fa-envelope
   links:
   - title: 微信客服
     logo: images/联系我们/Wechat.jpg
@@ -5140,7 +5140,7 @@
     url: https://github.com/TLS-802?from=dy.199908.top
 
 - taxonomy: 友情链接
-  icon: fa-link
+  icon: fa-handshake
   friend:
   - title: 易剪媒 Ai批量剪辑
     url: https://www.xinmei7.com/?from=199908
