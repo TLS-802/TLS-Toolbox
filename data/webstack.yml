@@ -2263,14 +2263,14 @@
   icon: fa-video
   list:
   - term: 视频平台
-  - term: 社交媒体
-  - term: 新闻资讯
-  - term: 自媒体平台
-  - term: 音频平台
   - term: 短剧平台
-  - term: 漫画网站
-  - term: 小说文学
   - term: 体育直播
+  - term: 音频平台
+  - term: 新闻资讯
+  - term: 社交媒体
+  - term: 自媒体平台
+  - term: 小说文学
+  - term: 漫画网站
   tabs:
   - name: 视频平台
     links:
@@ -2370,6 +2370,214 @@
       logo: images/AI工具集/1905电影网.png
       url: https://www.1905.com?from=dy.199908.top
       description: 电影频道官方网站
+  - name: 短剧平台
+    links:
+    - title: 抖音网页版
+      logo: images/媒体平台/抖音网页版.png
+      url: https://dis.csqixiang.cn/unpo/dybgrdh.html
+      description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
+    - title: 河马剧场
+      logo: images/媒体平台/河马剧场.ico
+      url: https://www.kuaikaw.cn
+      description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
+    - title: 快手小剧场
+      logo: images/媒体平台/快手小剧场.ico
+      url: https://www.kuaishou.com/theater/10000
+      description: 快手小剧场短剧电脑版在线观看
+    - title: 红果短剧
+      logo: images/媒体平台/红果短剧.png
+      url: https://novelquickapp.com
+      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
+    - title: 趣看看短剧
+      logo: images/媒体平台/趣看看短剧.png
+      url: https://v.contentchina.com
+      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
+    - title: 甜虾剧场
+      logo: images/媒体平台/甜虾剧场.png
+      url: https://www.360kuai.com/pc/mvideo/duanju
+      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
+  - name: 体育直播
+    links:
+    - title: CCTV-5体育频道
+      logo: images/媒体平台/CCTV-5体育频道.png
+      url: https://tv.cctv.com/live/cctv5?from=dy.199908.top
+      description: CCTV-5高清体育直播在线观看
+    - title: 央视网体育
+      logo: images/媒体平台/央视网体育.png
+      url: https://sports.cctv.com?from=dy.199908.top
+      description: 提供最全面专业的体育赛事直播点播、图文资讯、评论报道
+    - title: 企鹅直播
+      logo: images/媒体平台/企鹅直播.png
+      url: https://live.qq.com?from=dy.199908.top
+      description: 费看高清NBA直播、NFL橄榄球直播、足球直播、台球直播、CBA、欧冠意甲西甲直播
+    - title: 168看球直播
+      logo: images/媒体平台/168看球直播.png
+      url: https://168zb85.com?from=dy.199908.top
+      description: 免费看球类直播的网站，包含篮球、足球、网球、羽毛球、棋牌电子等赛事。可以在网站直接观看，移动端可以与直播讲解的小姐姐互动。
+    - title: 进球时刻网
+      logo: images/媒体平台/进球时刻网.svg
+      url: https://www.8jijin.com?from=dy.199908.top
+      description: 世界足球全场回放集锦数据库,足球比赛回放进球集锦视频录像下载 | 涵盖国家队、俱乐部、球员生涯进球合集
+    - title: 321直播
+      logo: images/媒体平台/321直播.png
+      url: https://www.321tyzb.com?from=dy.199908.top
+      description: 321直播为你打造畅NBA篮球直播、享欧洲五大联赛、世界杯预选赛、欧洲杯、足球等体育盛事的绝佳平台。无需担心错过任何精彩瞬间，即刻观看欧冠、NBA、CBA等顶级赛事。
+    - title: 低调看球网
+      logo: images/媒体平台/低调看球网.ico
+      url: https://didiaokanqiu.net?from=dy.199908.top
+      description: 低调看球直播网是一个全新的绿色无广告的体育直播导航网站，球迷喜欢的英超直播、中超直播、NBA直播等比赛都有，分享低调看球直播网给更多的朋友让看直播速度更快
+    - title: 360吧
+      logo: images/媒体平台/360吧.png
+      url: https://www.360ba.co?from=dy.199908.top
+      description: 体育直播在线观看网站
+    - title: 直播站
+      logo: images/媒体平台/直播站.png
+      url: https://zhiboz.com?from=dy.199908.top
+      description: 足球、篮球、综合赛事,体育赛事的专业直播平台
+    - title: 篮球帝
+      logo: images/媒体平台/篮球帝.png
+      url: https://www.lanqiudi.com?from=dy.199908.top
+      description: 一个专注于篮球赛事直播与录像的综合性体育直播平台
+    - title: 壹直播
+      logo: images/媒体平台/壹直播.png
+      url: https://www.zhibo1.cc?from=dy.199908.top
+      description: 一个提供全方位体育赛事直播和相关资讯的网站
+    - title: 515直播
+      logo: images/媒体平台/515直播.png
+      url: https://www.515001.tv?from=dy.199908.top
+      description: 一个专注于体育赛事直播的专业平台
+    - title: 速赛体育
+      logo: images/媒体平台/速赛体育.ico
+      url: https://www.susai.cc?from=dy.199908.top
+      description: 速赛体育汇聚全球足球直播+NBA直播、CBA直播等热门体育赛事直播
+    - title: 好看体育
+      logo: images/媒体平台/好看体育.ico
+      url: https://www.haokan.tv?from=dy.199908.top
+      description: 一个专注于体育赛事直播、新闻资讯和精彩集锦的综合性体育平台
+    - title: 优直播
+      logo: images/媒体平台/优直播.ico
+      url: https://www.yoozhibo.net?from=dy.199908.top
+      description: 优直播提供欧洲杯直播,足球直播,CCTV5在线直播,广州恒大,广东体育直播,恒大直播,NBA直播,NBA录像,NBA录像回放,中超,英超,亚冠,欧冠,CBA等等体育视频录像
+    - title: 直播车
+      logo: images/媒体平台/直播车.ico
+      url: https://www.zhiboche8.com?from=dy.199908.top
+      description: 直播车是一家老牌体育直播吧网站，提供足球直播，nba直播和综合体育直播。涵盖直播吧、极速体育、360直播的赛事直播。在线观看NBA直播、英超直播、西甲、意甲、德甲、法甲、等五大联赛、欧冠、欧联和中超、CBA直播。
+    - title: 体育6
+      logo: images/媒体平台/体育6.png
+      url: https://www.zb06.com?from=dy.199908.top
+      description: 体育赛事直播导航网站，汇集了全球范围内的各种体育赛事直播链接，包括但不限于足球、篮球、足球、英超、NBA、世界杯、欧洲杯等
+    - title: 球迷网
+      logo: images/媒体平台/球迷网.png
+      url: https://24h.live?from=dy.199908.top
+      description: NBA直播,NBA重播吧,比赛视频,斯诺克直播网
+  - name: 音频平台
+    links:
+    - title: 网易云音乐
+      logo: images/媒体平台/网易云音乐.png
+      url: https://music.163.com?from=dy.199908.top
+      description: 网易云音乐是一款专注于发现与分享的音乐产品
+    - title: QQ音乐
+      logo: images/媒体平台/QQ音乐.png
+      url: https://y.qq.com?from=dy.199908.top
+      description: 腾讯公司推出的网络音乐平台，海量音乐在线试听、最新音乐播放器下载
+    - title: 酷狗音乐
+      logo: images/媒体平台/酷狗音乐.png
+      url: https://www.kugou.com?from=dy.199908.top
+      description: 中国领先的数字音乐交互服务提供商，互联网技术创新的领跑者
+    - title: 酷我音乐
+      logo: images/媒体平台/酷我音乐.png
+      url: https://www.kuwo.cn?from=dy.199908.top
+      description: 酷我音乐-无损音质正版在线音乐网站
+    - title: 咪咕音乐
+      logo: images/媒体平台/咪咕音乐.png
+      url: https://www.migu.cn?from=dy.199908.top
+      description: 中国移动旗下数字音乐平台，提供正版高品质音乐
+    - title: 千千音乐
+      logo: images/媒体平台/千千音乐.png
+      url: https://music.taihe.com?from=dy.199908.top
+      description: 百度旗下音乐平台，为用户提供歌曲搜索、在线试听、下载等服务
+    - title: 喜马拉雅
+      logo: images/媒体平台/喜马拉雅.png
+      url: https://www.ximalaya.com?from=dy.199908.top
+      description: 专业的音频分享平台，汇集了有声小说，有声读物，有声书，FM电台，儿童睡前故事，相声小品，鬼故事等数亿条音频
+    - title: 蜻蜓FM
+      logo: images/媒体平台/蜻蜓FM.png
+      url: https://www.qingting.fm?from=dy.199908.top
+      description: 倾听广播的力量
+    - title: 荔枝FM
+      logo: images/媒体平台/荔枝FM.png
+      url: https://www.lizhi.fm?from=dy.199908.top
+      description: 人人都是播客
+    - title: 懒人听书
+      logo: images/媒体平台/懒人听书.png
+      url: https://www.lrts.me?from=dy.199908.top
+      description: 提供免费听书、听电台、听新闻等有声数字娱乐服务
+    - title: 全民K歌
+      logo: images/媒体平台/全民K歌.png
+      url: https://kg.qq.com?from=dy.199908.top
+      description: 腾讯公司推出的K歌软件，具有智能打分、专业混音、好友擂台、趣味互动以及社交分享功能
+    - title: 唱吧
+      logo: images/媒体平台/唱吧.png
+      url: http://changba.com?from=dy.199908.top
+      description: 免费的社交K歌手机应用
+    - title: 5sing原创音乐
+      logo: images/媒体平台/5sing原创音乐.png
+      url: http://5sing.kugou.com?from=dy.199908.top
+      description: 中国原创音乐基地，数字音乐网站，提供MP3歌曲免费下载
+    - title: 猫耳FM
+      logo: images/媒体平台/猫耳FM.png
+      url: https://www.missevan.com?from=dy.199908.top
+      description: 弹幕音图站，专注ACG相关内容，提供广播剧、有声漫画、翻唱、vocaloid等音频内容
+    - title: 音乐磁场
+      logo: images/媒体平台/音乐磁场.png
+      url: https://www.hifini.com?from=dy.199908.top
+      description: 致力于为广大音乐爱好者提供一个纯净的音乐分享平台
+    - title: 落网
+      logo: images/媒体平台/落网.png
+      url: https://www.luoo.net?from=dy.199908.top
+      description: 独立音乐推荐网站
+    - title: 果核音乐
+      logo: images/媒体平台/果核音乐.png
+      url: https://music.ghxi.com?from=dy.199908.top
+      description: 果核音乐是一个免费的在线音乐搜索和播放平台，支持多个音乐平台的歌曲搜索，包括网易云音乐、QQ音乐、酷狗音乐、酷我音乐等
+    - title: 音乐直链搜索
+      logo: images/媒体平台/音乐直链搜索.png
+      url: https://music.liuzhijin.cn?from=dy.199908.top
+      description: 音乐直链搜索是一个免费的在线音乐搜索工具，支持搜索和播放来自多个音乐平台的歌曲，包括网易云音乐、QQ音乐、酷狗音乐、酷我音乐、百度音乐等
+    - title: 音乐搜索器
+      logo: images/媒体平台/音乐搜索器.png
+      url: https://music.zhuolin.wang?from=dy.199908.top
+      description: 音乐搜索器是一个免费的在线音乐搜索和播放工具，支持搜索和播放来自多个音乐平台的歌曲
+    - title: MyFreeMP3
+      logo: images/媒体平台/MyFreeMP3.png
+      url: https://tool.liumingye.cn/music?from=dy.199908.top
+      description: MyFreeMP3是一个免费的在线音乐搜索和下载工具，支持搜索和下载来自多个音乐平台的歌曲
+  - name: 新闻资讯
+    links:
+    - title: 今日头条
+      logo: images/媒体平台/今日头条.png
+      url: https://www.toutiao.com?from=dy.199908.top
+      description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
+    - title: 腾讯新闻
+      logo: images/媒体平台/腾讯网.jpeg
+      url: https://news.qq.com?from=dy.199908.top
+      description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
+    - title: 网易新闻
+      logo: images/媒体平台/网易新闻.jpeg
+      url: https://news.163.com?from=dy.199908.top
+      description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
+    - title: 搜狐新闻
+      logo: images/媒体平台/搜狐新闻.jpeg
+      url: https://news.sohu.com?from=dy.199908.top
+      description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+    - title: 澎湃新闻
+      logo: images/媒体平台/澎湃新闻.png
+      url: https://www.thepaper.cn?from=dy.199908.top
+      description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
+    - title: 一点号
+      logo: images/媒体平台/1点资讯.jpeg
+      url: https://www.yidianzixun.com?from=dy.199908.top
+      description: 一点资讯旗下内容创作平台
   - name: 社交媒体
     links:
     - title: 微博
@@ -2412,50 +2620,36 @@
       logo: images/媒体平台/360doc.jpeg
       url: http://www.360doc.com?from=dy.199908.top
       description: 免费的全民知识共享平台
-  - name: 新闻资讯
-    links:
-    - title: 今日头条
-      logo: images/媒体平台/今日头条.png
-      url: https://www.toutiao.com?from=dy.199908.top
-      description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
-    - title: 腾讯新闻
-      logo: images/媒体平台/腾讯网.jpeg
-      url: https://news.qq.com?from=dy.199908.top
-      description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
-    - title: 网易新闻
-      logo: images/媒体平台/网易新闻.jpeg
-      url: https://news.163.com?from=dy.199908.top
-      description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
-    - title: 搜狐新闻
-      logo: images/媒体平台/搜狐新闻.jpeg
-      url: https://news.sohu.com?from=dy.199908.top
-      description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
-    - title: 澎湃新闻
-      logo: images/媒体平台/澎湃新闻.png
-      url: https://www.thepaper.cn?from=dy.199908.top
-      description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
-    - title: 一点号
-      logo: images/媒体平台/1点资讯.jpeg
-      url: https://www.yidianzixun.com?from=dy.199908.top
-      description: 一点资讯旗下内容创作平台
   - name: 自媒体平台
     links:
     - title: 微信公众平台
-      logo: images/媒体平台/腾讯网.jpeg
+      logo: images/媒体平台/微信公众平台.png
       url: https://mp.weixin.qq.com?from=dy.199908.top
-      description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
-    - title: 百家号
-      logo: images/媒体平台/百家号.jpeg
-      url: https://baijiahao.baidu.com?from=dy.199908.top
-      description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
-    - title: 头条号
+      description: 微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台
+    - title: 今日头条号
       logo: images/媒体平台/今日头条.png
       url: https://mp.toutiao.com?from=dy.199908.top
-      description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
+      description: 今日头条自媒体平台，为内容创作者提供内容发布和变现服务
+    - title: 百家号
+      logo: images/媒体平台/百家号.png
+      url: https://baijiahao.baidu.com?from=dy.199908.top
+      description: 百度旗下的自媒体平台，为内容创作者提供多元化的内容创作和分发服务
     - title: 企鹅号
-      logo: images/媒体平台/腾讯网.jpeg
+      logo: images/媒体平台/企鹅号.png
       url: https://om.qq.com?from=dy.199908.top
-      description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
+      description: 腾讯旗下的自媒体平台，内容分发至腾讯新闻、天天快报等平台
+    - title: 搜狐号
+      logo: images/媒体平台/搜狐号.png
+      url: https://mp.sohu.com?from=dy.199908.top
+      description: 搜狐旗下的自媒体平台，为创作者提供内容发布和推广服务
+    - title: 网易号
+      logo: images/媒体平台/网易号.png
+      url: https://mp.163.com?from=dy.199908.top
+      description: 网易旗下的自媒体平台，内容覆盖网易新闻等平台
+    - title: 一点号
+      logo: images/媒体平台/一点号.png
+      url: https://mp.yidianzixun.com?from=dy.199908.top
+      description: 一点资讯旗下的自媒体平台，基于兴趣引擎的个性化内容分发
     - title: 大鱼号
       logo: images/媒体平台/大鱼号.jpeg
       url: https://mp.dayu.com?from=dy.199908.top
@@ -2468,180 +2662,6 @@
       logo: images/媒体平台/百度知道.png
       url: https://smartprogram.baidu.com?from=dy.199908.top
       description: 百度智能小程序平台
-  - name: 音频平台
-    links:
-    - title: 喜马拉雅
-      logo: images/媒体平台/喜马拉雅.png
-      url: https://www.ximalaya.com?from=dy.199908.top
-      description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
-    - title: 荔枝FM
-      logo: images/媒体平台/荔枝fm.png
-      url: https://www.lizhi.fm?from=dy.199908.top
-      description: 专业的音频分享平台，提供播客、有声书、音乐等内容
-    - title: 蜻蜓FM
-      logo: images/媒体平台/蜻蜓fm.png
-      url: https://www.qingting.fm?from=dy.199908.top
-      description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
-    - title: QQ音乐
-      logo: images/媒体平台/QQ音乐.png
-      url: https://y.qq.com?from=dy.199908.top
-      description: 千万正版音乐海量无损曲库新歌热歌
-    - title: 网易云音乐
-      logo: images/媒体平台/网易云音乐.png
-      url: https://music.163.com?from=dy.199908.top
-      description: 专注于发现与分享音乐
-    - title: 酷我音乐
-      logo: images/媒体平台/酷我音乐.png
-      url: http://www.kuwo.cn?from=dy.199908.top
-      description: 无损音质正版在线试听网站
-    - title: 酷狗音乐
-      logo: images/媒体平台/酷狗音乐.png
-      url: https://www.kugou.com?from=dy.199908.top
-      description: 最新最全的在线正版音乐网站
-    - title: 汽水音乐
-      logo: images/媒体平台/汽水音乐.jpeg
-      url: https://music.douyin.com/qishui?from=dy.199908.top
-      description: 抖音旗下的音乐平台，提供音乐播放、MV、歌词等服务
-    - title: 闪闪音乐网
-      logo: images/媒体平台/闪闪音乐网.svg
-      url: https://www.33ve.com?from=dy.199908.top
-      description: 闪闪音乐网是一个专注于提供丰富音乐资源和推荐服务的平台，免费MP3下载，视频歌曲大全免费下载
-    - title: 音乐解析器
-      logo: images/媒体平台/音乐解析器.png
-      url: https://musicjx.com?from=dy.199908.top
-      description: 免费在线音乐搜索下载网站，在线网页版解析下载多平台音乐。
-    - title: 枫叶音乐盒
-      logo: images/媒体平台/枫叶音乐盒.png
-      url: https://mu-jie.cc/musicBox?from=dy.199908.top
-      description: 枫叶音乐盒，一个在线音乐播放器。点开就能听音乐，随时随地享受音乐，支持在线播放、搜索、收藏、导入音乐APP歌单、自建歌单、歌单推荐/分类等功能。
-    - title: 音乐库
-      logo: images/媒体平台/音乐库.svg
-      url: https://www.yinyueku.cn?from=dy.199908.top
-      description: 音乐库网站可以在线听音乐，搜索歌曲，下载歌曲
-    - title: XCloud音乐
-      logo: images/媒体平台/XCloud音乐.svg
-      url: https://music.xcloudv.top?from=dy.199908.top
-      description: XCloud音乐是一个免费在线音乐平台，提供了基础的登录、注册、音乐搜索和收藏功能。
-    - title: GD音乐台
-      logo: images/媒体平台/GD音乐台.ico
-      url: https://music.gdstudio.xyz?from=dy.199908.top
-      description: GD音乐台为用户提供高音质、全曲库的HiFi级聆听体验
-    - title: 铜钟音乐
-      logo: images/媒体平台/铜钟音乐.ico
-      url: https://tonzhon.com?from=dy.199908.top
-      description: 音乐在线听以及下载
-    - title: 清音陋屋
-      logo: images/媒体平台/清音陋屋.svg
-      url: http://www.52qingyin.cn?from=dy.199908.top
-      description: 优美纯音乐精美散文分享网站
-    - title: 爱音人轻音乐网
-      logo: images/媒体平台/爱音人轻音乐网.ico
-      url: http://www.iyinren.com?from=dy.199908.top
-      description: 好听的轻音乐下载,轻音乐钢琴曲,轻音乐在线播放
-    - title: 网抑云音乐
-      logo: images/媒体平台/网抑云音乐.png
-      url: http://mc.alger.fun?from=dy.199908.top
-      description: 一款免费的在线音乐播放器，免费在线听歌网站
-  - name: 短剧平台
-    links:
-    - title: 抖音网页版
-      logo: images/媒体平台/抖音网页版.png
-      url: https://dis.csqixiang.cn/unpo/dybgrdh.html
-      description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
-    - title: 河马剧场
-      logo: images/媒体平台/河马剧场.ico
-      url: https://www.kuaikaw.cn
-      description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
-    - title: 快手小剧场
-      logo: images/媒体平台/快手小剧场.ico
-      url: https://www.kuaishou.com/theater/10000
-      description: 快手小剧场短剧电脑版在线观看
-    - title: 红果短剧
-      logo: images/媒体平台/红果短剧.png
-      url: https://novelquickapp.com
-      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
-    - title: 趣看看短剧
-      logo: images/媒体平台/趣看看短剧.png
-      url: https://v.contentchina.com
-      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
-    - title: 甜虾剧场
-      logo: images/媒体平台/甜虾剧场.png
-      url: https://www.360kuai.com/pc/mvideo/duanju
-      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
-  - name: 漫画网站
-    links:
-    - title: MyComic
-      logo: images/媒体平台/MyComic.svg
-      url: https://mycomic.com?from=dy.199908.top
-      description: MyComic是一款专为漫画爱好者设计的平台，集成了漫画、小说和动漫番剧的阅读功能，支持多种资源的聚合与实时更新。
-    - title: EhViewer
-      logo: images/媒体平台/EhViewer.png
-      url: https://www.bgrdh.com/sites/54164.html?from=dy.199908.top
-      description: EhViewer是一款专为漫画爱好者设计的阅读软件，提供海量的漫画资源，包括国内外的经典和热门作品，涵盖恋爱、冒险、奇幻、悬疑等多种题材，满足不同用户的阅读需求。
-    - title: UC漫画
-      logo: images/媒体平台/UC漫画.png
-      url: https://www.ucmanhua.com?from=dy.199908.top
-      description: 提供各种漫画阅读的平台，包括国产漫画、日本漫画、韩国漫画和欧美漫画等多种类型
-    - title: 读漫屋
-      logo: images/媒体平台/读漫屋.ico
-      url: http://www.dumanwu.com?from=dy.199908.top
-      description: 专注于漫画资源的在线阅读平台，聚集了大量热门、经典及最新漫画作品，涵盖日漫、韩漫、国漫等多种类型
-    - title: 漫画人
-      logo: images/媒体平台/漫画人.png
-      url: https://www.manhuaren.net?from=dy.199908.top
-      description: 一个专注于二次元漫画阅读的平台
-    - title: neko
-      logo: images/媒体平台/neko.svg
-      url: https://nekoyo.co?from=dy.199908.top
-      description: 漫画、动漫、轻小说、ASMR音声
-    - title: 漫画在线
-      logo: images/媒体平台/漫画在线.svg
-      url: https://www.manhuaol.com?from=dy.199908.top
-      description: 漫画免费在线阅读网站
-    - title: colamanga
-      logo: images/媒体平台/colamanga.png
-      url: https://www.colamanga.com?from=dy.199908.top
-      description: 海量的漫画资源，覆盖了日本、国产及其他国家和地区的作品
-    - title: 漫画狗
-      logo: images/媒体平台/漫画狗.png
-      url: https://www.manhuagou.net?from=dy.199908.top
-      description: 漫画大全,免费漫画在线看
-    - title: 学外漫画
-      logo: images/媒体平台/学外漫画.ico
-      url: https://www.xwmanhua.com?from=dy.199908.top
-      description: 优质人气漫画站,看下拉式漫画就在学外漫画
-    - title: 新新漫画
-      logo: images/媒体平台/新新漫画.ico
-      url: https://www.77mh.nl?from=dy.199908.top
-      description: 一个提供丰富漫画资源的在线阅读平台
-    - title: x漫画网
-      logo: images/媒体平台/x漫画网.png
-      url: https://www.xmanhua.com?from=dy.199908.top
-      description: 日本漫画,在线漫画阅读第一站,xmanhua
-    - title: 咪咕动漫
-      logo: images/媒体平台/咪咕动漫.png
-      url: https://www.migudm.cn?from=dy.199908.top
-      description: 专注于提供丰富的ACGN（动画、漫画、游戏、轻小说）内容
-    - title: 漫画1234
-      logo: images/媒体平台/漫画1234.png
-      url: https://www.gmh1234.com?from=dy.199908.top
-      description: 免费在线漫画网站
-    - title: 风之动漫
-      logo: images/媒体平台/风之动漫.png
-      url: https://www.fffdm.com?from=dy.199908.top
-      description: 在线漫画,日本动漫,火影忍者漫画,海贼王漫画
-    - title: KuKu动漫
-      logo: images/媒体平台/KuKu动漫.svg
-      url: http://manhua.dididm.cc?from=dy.199908.top
-      description: 在线漫画网站
-    - title: mox.moe漫画
-      logo: images/媒体平台/mox_moe漫画.png
-      url: https://mox.moe?from=dy.199908.top
-      description: 高清Kindle格式漫画下载,支持推送漫画到kindle设备
-    - title: 动漫狂
-      logo: images/媒体平台/动漫狂.svg
-      url: https://www.cartoonmad.com?from=dy.199908.top
-      description: 免费动画漫画分享社群
   - name: 小说文学
     links:
     - title: 笔趣阁
@@ -2716,7 +2736,81 @@
       logo: images/媒体平台/QQ阅读.png
       url: https://book.qq.com?from=dy.199908.top
       description: QQ阅读是阅文集团旗下的重要在线阅读平台
-  - name: 体育直播
+  - name: 漫画网站
+    links:
+    - title: MyComic
+      logo: images/媒体平台/MyComic.svg
+      url: https://mycomic.com?from=dy.199908.top
+      description: MyComic是一款专为漫画爱好者设计的平台，集成了漫画、小说和动漫番剧的阅读功能，支持多种资源的聚合与实时更新。
+    - title: EhViewer
+      logo: images/媒体平台/EhViewer.png
+      url: https://www.bgrdh.com/sites/54164.html?from=dy.199908.top
+      description: EhViewer是一款专为漫画爱好者设计的阅读软件，提供海量的漫画资源，包括国内外的经典和热门作品，涵盖恋爱、冒险、奇幻、悬疑等多种题材，满足不同用户的阅读需求。
+    - title: UC漫画
+      logo: images/媒体平台/UC漫画.png
+      url: https://www.ucmanhua.com?from=dy.199908.top
+      description: 提供各种漫画阅读的平台，包括国产漫画、日本漫画、韩国漫画和欧美漫画等多种类型
+    - title: 读漫屋
+      logo: images/媒体平台/读漫屋.ico
+      url: http://www.dumanwu.com?from=dy.199908.top
+      description: 专注于漫画资源的在线阅读平台，聚集了大量热门、经典及最新漫画作品，涵盖日漫、韩漫、国漫等多种类型
+    - title: 漫画人
+      logo: images/媒体平台/漫画人.png
+      url: https://www.manhuaren.net?from=dy.199908.top
+      description: 一个专注于二次元漫画阅读的平台
+    - title: neko
+      logo: images/媒体平台/neko.svg
+      url: https://nekoyo.co?from=dy.199908.top
+      description: 漫画、动漫、轻小说、ASMR音声
+    - title: 漫画在线
+      logo: images/媒体平台/漫画在线.svg
+      url: https://www.manhuaol.com?from=dy.199908.top
+      description: 漫画免费在线阅读网站
+    - title: colamanga
+      logo: images/媒体平台/colamanga.png
+      url: https://www.colamanga.com?from=dy.199908.top
+      description: 海量的漫画资源，覆盖了日本、国产及其他国家和地区的作品
+    - title: 漫画狗
+      logo: images/媒体平台/漫画狗.png
+      url: https://www.manhuagou.net?from=dy.199908.top
+      description: 漫画大全,免费漫画在线看
+    - title: 学外漫画
+      logo: images/媒体平台/学外漫画.ico
+      url: https://www.xwmanhua.com?from=dy.199908.top
+      description: 优质人气漫画站,看下拉式漫画就在学外漫画
+    - title: 新新漫画
+      logo: images/媒体平台/新新漫画.ico
+      url: https://www.77mh.nl?from=dy.199908.top
+      description: 一个提供丰富漫画资源的在线阅读平台
+    - title: x漫画网
+      logo: images/媒体平台/x漫画网.png
+      url: https://www.xmanhua.com?from=dy.199908.top
+      description: 日本漫画,在线漫画阅读第一站,xmanhua
+    - title: 咪咕动漫
+      logo: images/媒体平台/咪咕动漫.png
+      url: https://www.migudm.cn?from=dy.199908.top
+      description: 专注于提供丰富的ACGN（动画、漫画、游戏、轻小说）内容
+    - title: 漫画1234
+      logo: images/媒体平台/漫画1234.png
+      url: https://www.gmh1234.com?from=dy.199908.top
+      description: 免费在线漫画网站
+    - title: 风之动漫
+      logo: images/媒体平台/风之动漫.png
+      url: https://www.fffdm.com?from=dy.199908.top
+      description: 在线漫画,日本动漫,火影忍者漫画,海贼王漫画
+    - title: KuKu动漫
+      logo: images/媒体平台/KuKu动漫.svg
+      url: http://manhua.dididm.cc?from=dy.199908.top
+      description: 在线漫画网站
+    - title: mox.moe漫画
+      logo: images/媒体平台/mox_moe漫画.png
+      url: https://mox.moe?from=dy.199908.top
+      description: 高清Kindle格式漫画下载,支持推送漫画到kindle设备
+    - title: 动漫狂
+      logo: images/媒体平台/动漫狂.svg
+      url: https://www.cartoonmad.com?from=dy.199908.top
+      description: 免费动画漫画分享社群
+
     links:
     - title: CCTV-5体育频道
       logo: images/媒体平台/CCTV-5体育频道.png
