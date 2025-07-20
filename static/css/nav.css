@@ -309,6 +309,41 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 @media screen and (min-width:1200px){.col-md-3{width:20%}}
 /* 高分辨率大屏 */ 
 @media screen and (min-width:1600px){.col-md-3{width:16.666%}}
+/* 侧边栏滚动条优化 */
+.sidebar-menu.fixed .sidebar-menu-inner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: inherit;
+    overflow: hidden; /* Perfect Scrollbar 需要这个设置 */
+    height: 100vh; /* 确保高度为视窗高度 */
+}
+
+/* 确保侧边栏内容区域可以滚动 */
+.sidebar-menu .main-menu {
+    height: calc(100vh - 80px); /* 减去logo区域的高度 */
+    overflow: hidden; /* Perfect Scrollbar 需要这个设置 */
+}
+
+/* 移动端侧边栏滚动优化 */
+@media screen and (max-width: 767px) {
+    .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible {
+        max-height: calc(100vh - 60px); /* 移动端减去更小的logo区域高度 */
+        overflow: hidden;
+    }
+}
+
+/* 确保折叠状态下的滚动条正常工作 */
+.sidebar-menu.collapsed .sidebar-menu-inner {
+    overflow: visible; /* 折叠状态下允许子菜单溢出显示 */
+}
+
+.sidebar-menu.collapsed .main-menu {
+    height: auto; /* 折叠状态下高度自适应 */
+    overflow: visible;
+}
+
 /*本地搜索框*/
 #overlay{position:fixed;top:-100%;left:0;width:100%;height:100%;z-index:1000;animation:slideDown .5s forwards}
 #search-box{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:300px;padding:15px 15px 0 15px;border-radius:5px;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,.2)}

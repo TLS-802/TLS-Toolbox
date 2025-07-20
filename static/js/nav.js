@@ -18,10 +18,20 @@ function resizable(breakpoint)
 	// Large Screen Specific Script
 	if(is('largescreen'))
 	{
+		// 大屏幕下确保滚动条正常工作
+		if(public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed'))
+		{
+			ps_update(true);
+		}
 	}
 	// Tablet or larger screen
 	if(ismdxl())
 	{
+		// 中等屏幕下确保滚动条正常工作
+		if(public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed'))
+		{
+			ps_update(true);
+		}
 	}
 	// Tablet Screen Specific Script
 	if(is('tabletscreen'))
@@ -33,9 +43,16 @@ function resizable(breakpoint)
 		public_vars.$sidebarMenu.addClass('collapsed');
 		ps_destroy();
 	}
-	// Tablet Screen Specific Script
+	// Mobile Screen Specific Script
 	if(isxs())
 	{
+		// 移动端下，如果菜单可见则初始化滚动条
+		if(public_vars.$mainMenu.hasClass('mobile-is-visible'))
+		{
+			setTimeout(function() {
+				ps_init();
+			}, 100);
+		}
 	}
 	// Trigger Event
 	jQuery(window).trigger('xenon.resize');
@@ -718,15 +735,29 @@ function stickFooterToBottom()
 // Perfect scroll bar functions by Arlind Nushi
 function ps_update(destroy_init)
 {
-	//if(isxs())
-	//	return;
-	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
+	if(typeof PerfectScrollbar !== 'undefined')
 	{
 		if(public_vars.$sidebarMenu.hasClass('collapsed'))
 		{
 			return;
 		}
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('update');
+
+		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+		var scrollElement = $scrollContainer[0];
+
+		// 只有在已经初始化的情况下才更新
+		if(scrollElement && scrollElement.perfectScrollbarInstance)
+		{
+			try {
+				scrollElement.perfectScrollbarInstance.update();
+				console.log('Perfect Scrollbar updated successfully');
+			} catch(e) {
+				console.warn('Perfect Scrollbar update error:', e);
+				// 如果更新失败，尝试重新初始化
+				destroy_init = true;
+			}
+		}
+
 		if(destroy_init)
 		{
 			ps_destroy();
@@ -736,25 +767,72 @@ function ps_update(destroy_init)
 }
 function ps_init()
 {
-	//if(isxs())
-	//	return;
-	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
+	// 确保Perfect Scrollbar已加载
+	if(typeof PerfectScrollbar === 'undefined')
 	{
-		if(public_vars.$sidebarMenu.hasClass('collapsed') || ! public_vars.$sidebarMenu.hasClass('fixed'))
+		console.warn('Perfect Scrollbar not loaded');
+		return;
+	}
+
+	// 检查是否为折叠状态，折叠状态下不初始化滚动条
+	if(public_vars.$sidebarMenu.hasClass('collapsed'))
+	{
+		return;
+	}
+
+	// 确保侧边栏有fixed类或者在移动端显示时初始化滚动条
+	if(public_vars.$sidebarMenu.hasClass('fixed') ||
+	   (isxs() && public_vars.$mainMenu.hasClass('mobile-is-visible')))
+	{
+		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+		var scrollElement = $scrollContainer[0];
+
+		if(!scrollElement)
 		{
+			console.warn('Scroll container not found');
 			return;
 		}
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar({
-			wheelSpeed: 1,
-			wheelPropagation: public_vars.wheelPropagation
-		});
+
+		// 先销毁可能存在的滚动条实例
+		if(scrollElement.perfectScrollbarInstance)
+		{
+			scrollElement.perfectScrollbarInstance.destroy();
+			scrollElement.perfectScrollbarInstance = null;
+		}
+
+		// 初始化Perfect Scrollbar
+		try {
+			scrollElement.perfectScrollbarInstance = new PerfectScrollbar(scrollElement, {
+				wheelSpeed: 1,
+				wheelPropagation: public_vars.wheelPropagation || false,
+				suppressScrollX: true, // 只允许垂直滚动
+				minScrollbarLength: 20 // 最小滚动条长度
+			});
+
+			console.log('Perfect Scrollbar initialized successfully');
+		} catch(e) {
+			console.error('Failed to initialize Perfect Scrollbar:', e);
+		}
 	}
 }
 function ps_destroy()
 {
-	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
+	if(typeof PerfectScrollbar !== 'undefined')
 	{
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('destroy');
+		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+		var scrollElement = $scrollContainer[0];
+
+		if(scrollElement && scrollElement.perfectScrollbarInstance)
+		{
+			try {
+				scrollElement.perfectScrollbarInstance.destroy();
+				scrollElement.perfectScrollbarInstance = null;
+				console.log('Perfect Scrollbar destroyed successfully');
+			} catch(e) {
+				// 忽略销毁时的错误
+				console.warn('Perfect Scrollbar destroy error:', e);
+			}
+		}
 	}
 }
 // Element Attribute Helper
