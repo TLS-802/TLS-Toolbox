@@ -3340,6 +3340,79 @@
       url: https://www.jitatang.cn?from=dy.199908.top
       description: 一个专注于吉他爱好者的在线平台
   - name: IT技术类
+    links:
+    - title: 洛谷
+      logo: images/学习资源/洛谷.ico
+      url: https://www.luogu.com.cn?from=dy.199908.top
+      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台，旨在帮助用户提升编程技能和竞赛能力。
+    - title: OpenJudge
+      logo: images/学习资源/OpenJudge.svg
+      url: http://noi.openjudge.cn?from=dy.199908.top
+      description: OpenJudge是一个由北京大学POJ团队开发的在线编程评测平台，旨在为编程学习者提供一个支持性和交互式的编程环境。支持多种编程语言，包括C、C++、Java、Python等。
+    - title: 讯飞AI大学堂
+      logo: images/学习资源/讯飞AI大学堂.png
+      url: https://www.aidaxue.com/?ch=daxue_collection_10&from=dy.199908.top
+      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台，提供"学练赛证" 一体化服务
+    - title: 学习猿地
+      logo: images/学习资源/学习猿地.png
+      url: https://www.lmonkey.com?from=dy.199908.top
+      description: 学习猿地是零基础到就业的IT技能学习平台，专挑大牛录制全套的精品课程，将一门学科所需的全部精品资料汇总在一起
+    - title: 思否编程
+      logo: images/学习资源/思否编程.png
+      url: https://ke.segmentfault.com?from=dy.199908.top
+      description: 致力于帮助学员更好的学会编程、提升技术认知、获得专业能力上的突破，实现升职加薪
+    - title: 入职啦
+      logo: images/学习资源/入职啦.ico
+      url: https://ruzhila.cn?from=dy.199908.top
+      description: 专注于编程实战、智能简历制作和技术博客分享的平台
+    - title: cocos中文社区
+      logo: images/学习资源/cocos中文社区.png
+      url: https://forum.cocos.org?from=dy.199908.top
+      description: 为使用Cocos游戏引擎的开发者提供交流、分享和学习的平台
+    - title: 计蒜客
+      logo: images/学习资源/计蒜客.ico
+      url: https://www.jisuanke.com?from=dy.199908.top
+      description: 专注于计算机科学教育的在线平台
+    - title: freeCodeCamp
+      logo: images/学习资源/freeCodeCamp.png
+      url: https://www.freecodecamp.org/chinese?from=dy.199908.top
+      description: 免费学习编程网站
+    - title: Hello 算法
+      logo: images/学习资源/Hello_算法.png
+      url: https://www.hello-algo.com?from=dy.199908.top
+      description: 开源、免费、对新手友好的数据结构与算法入门教程
+    - title: 无涯教程网
+      logo: images/学习资源/无涯教程网.png
+      url: https://www.learnfk.com?from=dy.199908.top
+      description: 提供程序员在线零基础学IT编程技术教程
+    - title: 图灵社区
+      logo: images/学习资源/图灵社区.png
+      url: https://www.ituring.com.cn?from=dy.199908.top
+      description: 图灵社区网站高质量的科技书籍服务平台
+    - title: 百度前端技术学园
+      logo: images/学习资源/百度前端技术学园.png
+      url: http://ife.baidu.com?from=dy.199908.top
+      description: 百度创办的免费前端技术学习实践、交流、分享平台
+    - title: 看雪学苑
+      logo: images/学习资源/看雪学苑.png
+      url: https://www.kanxue.com/course.htm?from=dy.199908.top
+      description: 安全培训课程
+    - title: FreeBuf公开课
+      logo: images/学习资源/FreeBuf公开课.png
+      url: https://live.freebuf.com?from=dy.199908.top
+      description: 网络安全相关课程
+    - title: i春秋
+      logo: images/学习资源/i春秋.png
+      url: https://www.ichunqiu.com?from=dy.199908.top
+      description: 专注网络安全、信息安全、白帽子技术的在线学习
+    - title: CSDN学习
+      logo: images/学习资源/CSDN学习.jpg
+      url: https://edu.csdn.net?from=dy.199908.top
+      description: CSDN的IT在线教育平台
+    - title: W3School
+      logo: images/学习资源/W3School.png
+      url: https://www.w3school.com.cn?from=dy.199908.top
+      description: 中文Web技术教程
   - name: 人文历史
     links:
     - title: 故宫博物院
@@ -3349,100 +3422,81 @@
     - title: 全历史
       logo: images/学习资源/全历史.png
       url: https://www.allhistory.com?from=dy.199908.top
-      description: 一个以AI知识图谱为核心引擎的历史知识学习平台
-    - title: 故宫数字文物库
-      logo: images/学习资源/故宫数字文物库.ico
-      url: https://digicol.dpm.org.cn?from=dy.199908.top
-      description: 精心打造的数字化文物展示平台
-    - title: 数字敦煌
-      logo: images/学习资源/数字敦煌.png
-      url: https://www.e-dunhuang.com?from=dy.199908.top
-      description: 推出的数字化展示平台
-    - title: 国家图书馆
-      logo: images/学习资源/国家图书馆.svg
-      url: http://open.nlc.cn?from=dy.199908.top
-      description: 推出的在线公开课平台
-    - title: 中国数字科技馆
-      logo: images/学习资源/中国数字科技馆.png
-      url: https://www.cdstm.cn?from=dy.199908.top
-      description: 一个国家级的科技基础条件平台,通过数字化手段展示和传播科技知识
-    - title: 中华珍宝馆
-      logo: images/学习资源/中华珍宝馆.png
-      url: http://www.ltfc.net?from=dy.199908.top
-      description: 中华珍宝馆,线上艺术博物馆,珍品书画与文物的数字宝库
-    - title: 公版影像典藏计划
-      logo: images/学习资源/公版影像典藏计划.png
-      url: https://public.163.com?from=dy.199908.top
-      description: 网易公版影像典藏计划,收录珍贵影像资料,传承历史文化
-    - title: 时光图书馆
-      logo: images/学习资源/时光图书馆.png
-      url: https://atimebook.com?from=dy.199908.top
-      description: 专注于提供老照片,老期刊,老课本等历史文献资源的在线平台
-    - title: 中国纪录片网
-      logo: images/学习资源/中国纪录片网.png
-      url: http://www.docuchina.cn?from=dy.199908.top
-      description: 平台汇聚了众多优秀的纪录片作品,涵盖了历史,文化,自然,科技等多个领域,为观众提供了丰富的纪录片资源
-    - title: 地图书
-      logo: images/学习资源/地图书.png
-      url: https://www.ditushu.com?from=dy.199908.top
-      description: 人文结构化知识数据库平台,通过地理信息系统GIS技术.将历史,文化,地理等多领域知识进行结构化整理和可视化呈现
-    - title: 国史网
-      logo: images/学习资源/国史网.svg
-      url: http://www.hprc.org.cn?from=dy.199908.top
-      description: 由当代中国研究所主办的官方网站,专注于研究和展示中华人民共和国的历史与发展
-    - title: 古宫历史网
-      logo: images/学习资源/古宫历史网.jpg
-      url: https://www.gugong.net?from=dy.199908.top
-      description: 专注于历史内容的综合性网站,涵盖了中国历史,世界历史,历史故事,历史人物,历史朝代,历史传说,野史以及老照片等多个领域
-    - title: 历史剧网
-      logo: images/学习资源/历史剧网.png
-      url: https://www.lishiju.net?from=dy.199908.top
-      description: 一个专注于历史剧及相关历史内容的综合性网站,通过影视作品帮助用户更好地了解历史事件和人物
-    - title: 超星读书
-      logo: images/学习资源/超星读书.svg
-      url: http://book.chaoxing.com?from=dy.199908.top
-      description: 超星网提供的一个在线电子书阅读平台
-    - title: 中国哲学
-      logo: images/学习资源/中国哲学.png
-      url: https://ctext.org/zhs?from=dy.199908.top
-      description: 一个提供中文文本资源的网站
-    - title: 今日头条
-      logo: images/学习资源/今日头条.png
-      url: https://www.toutiao.com?from=dy.199908.top
-      description: 一个领先的新闻聚合和内容推荐平台
-    - title: 思方網
-      logo: images/学习资源/思方網.png
-      url: https://philosophy.hku.hk/think/chi?from=dy.199908.top
-      description: 一个致力于提升思考和自学能力的平台
-    - title: 中国国家地理
-      logo: images/学习资源/中国国家地理.png
-      url: http://www.dili360.com?from=dy.199908.top
-      description: 一个专注于地理知识和自然风光的网站
-    - title: 历史上的今天
-      logo: images/学习资源/历史上的今天.png
-      url: https://baike.baidu.com/calendar?from=dy.199908.top
-      description: 一个记录历史事件的平台
-    - title: 爱思想
-      logo: images/学习资源/爱思想.svg
-      url: https://www.aisixiang.com?from=dy.199908.top
-      description: 一个致力于促进思想交流和文化提升的平台
-    - title: 西窗烛
-      logo: images/学习资源/西窗烛.ico
-      url: http://m.xichuangzhu.com/library?from=dy.199908.top
-      description: 一个专注于古诗词的数字内容平台
+      description: 全历史（Allhistory）以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识。让用户沉浸在纵横开阖、左图右史的（历史、人文、社科等）知识海洋中。
+    links:
+    - title: 洛谷
+      logo: images/学习资源/洛谷.ico
+      url: https://www.luogu.com.cn?from=dy.199908.top
+      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台，旨在帮助用户提升编程技能和竞赛能力。
+    - title: OpenJudge
+      logo: images/学习资源/OpenJudge.svg
+      url: http://noi.openjudge.cn?from=dy.199908.top
+      description: OpenJudge是一个由北京大学POJ团队开发的在线编程评测平台，旨在为编程学习者提供一个支持性和交互式的编程环境。支持多种编程语言，包括C、C++、Java、Python等。
+    - title: 讯飞AI大学堂
+      logo: images/学习资源/讯飞AI大学堂.png
+      url: https://www.aidaxue.com/?ch=daxue_collection_10&from=dy.199908.top
+      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台，提供“学练赛证” 一体化服务
+    - title: 学习猿地
+      logo: images/学习资源/学习猿地.png
+      url: https://www.lmonkey.com?from=dy.199908.top
+      description: 学习猿地是零基础到就业的IT技能学习平台，专挑大牛录制全套的精品课程，将一门学科所需的全部精品资料汇总在一起
+    - title: 思否编程
+      logo: images/学习资源/思否编程.png
+      url: https://ke.segmentfault.com?from=dy.199908.top
+      description: 致力于帮助学员更好的学会编程、提升技术认知、获得专业能力上的突破，实现升职加薪
+    - title: 入职啦
+      logo: images/学习资源/入职啦.ico
+      url: https://ruzhila.cn?from=dy.199908.top
+      description: 专注于编程实战、智能简历制作和技术博客分享的平台
+    - title: cocos中文社区
+      logo: images/学习资源/cocos中文社区.png
+      url: https://forum.cocos.org?from=dy.199908.top
+      description: 为使用Cocos游戏引擎的开发者提供交流、分享和学习的平台
+    - title: 计蒜客
+      logo: images/学习资源/计蒜客.ico
+      url: https://www.jisuanke.com?from=dy.199908.top
+      description: 专注于计算机科学教育的在线平台
+    - title: freeCodeCamp
+      logo: images/学习资源/freeCodeCamp.png
+      url: https://www.freecodecamp.org/chinese?from=dy.199908.top
+      description: 免费学习编程网站
+    - title: Hello 算法
+      logo: images/学习资源/Hello_算法.png
+      url: https://www.hello-algo.com?from=dy.199908.top
+      description: 开源、免费、对新手友好的数据结构与算法入门教程
+    - title: 无涯教程网
+      logo: images/学习资源/无涯教程网.png
+      url: https://www.learnfk.com?from=dy.199908.top
+      description: 提供程序员在线零基础学IT编程技术教程
+    - title: 图灵社区
+      logo: images/学习资源/图灵社区.png
+      url: https://www.ituring.com.cn?from=dy.199908.top
+      description: 图灵社区网站高质量的科技书籍服务平台
+    - title: 百度前端技术学园
+      logo: images/学习资源/百度前端技术学园.png
+      url: http://ife.baidu.com?from=dy.199908.top
+      description: 百度创办的免费前端技术学习实践、交流、分享平台
+    - title: 看雪学苑
+      logo: images/学习资源/看雪学苑.png
+      url: https://www.kanxue.com/course.htm?from=dy.199908.top
+      description: 安全培训课程
+    - title: FreeBuf公开课
+      logo: images/学习资源/FreeBuf公开课.png
+      url: https://live.freebuf.com?from=dy.199908.top
+      description: 网络安全相关课程
+    - title: i春秋
+      logo: images/学习资源/i春秋.png
+      url: https://www.ichunqiu.com?from=dy.199908.top
+      description: 专注网络安全、信息安全、白帽子技术的在线学习
+    - title: CSDN学习
+      logo: images/学习资源/CSDN学习.jpg
+      url: https://edu.csdn.net?from=dy.199908.top
+      description: CSDN的IT在线教育平台
+    - title: W3School
+      logo: images/学习资源/W3School.png
+      url: https://www.w3school.com.cn?from=dy.199908.top
+      description: 中文Web技术教程
 
-- taxonomy: 生活服务
-  icon: fa-chart-bar
-  list:
-  - term: 求职招聘
-  - term: 房屋租售
-  - term: 社区论坛
-  - term: 二手交易
-  - term: 法律咨询
-  - term: 投诉举报
-  - term: 快递物流
-  - term: 邮箱登录
-  tabs:
   - name: 求职招聘
     links:
     - title: BOSS直聘
