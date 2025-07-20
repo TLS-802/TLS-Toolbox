@@ -4160,18 +4160,16 @@
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
-  - term: 电商分析
-  - term: 热点排行
-  - term: 数据指数
+  - term: 数据分析
+  - term: 热点指数
+  - term: 行业研报
+  - term: 市场咨询
+  - term: 投资研究
+  - term: 政府数据
   - term: 数据可视
   - term: 网站分析
-  - term: 行业报告
-  - term: 市场研究
-  - term: 科技研究
-  - term: 产业数据
-  - term: 投资研究
   tabs:
-  - name: 电商分析
+  - name: 数据分析
     links:
     - title: 生意参谋
       logo: images/数据研究/生意参谋.png
@@ -4197,8 +4195,40 @@
       logo: images/新媒运营/西瓜数据.png
       url: https://data.xiguaji.com?from=dy.199908.top
       description: 专注于抖音、快手等短视频平台的数据研究工具
-  - name: 热点排行
+    - title: 东方财富网数据中心
+      logo: images/数据研究/东方财富网数据中心.png
+      url: https://data.eastmoney.com?from=dy.199908.top
+      description: 整合了股票数据、基金数据和经济数据，并为投资者的投资决策提供重要依据
+    - title: 易观千帆
+      logo: images/数据研究/易观千帆.png
+      url: https://www.qianfan.tech?from=dy.199908.top
+      description: 移动互联网产品竞争分析
+    - title: 月狐数据
+      logo: images/数据研究/月狐数据.png
+      url: https://www.moonfox.cn?from=dy.199908.top
+      description: 全场景数据洞察与分析服务专家
+    - title: CBNData
+      logo: images/数据研究/CBNData.jpg
+      url: https://www.cbndata.com?from=dy.199908.top
+      description: 第一财经商业数据中心
+  - name: 热点指数
     links:
+    - title: 百度指数
+      logo: images/新媒运营/百度指数.png
+      url: https://index.baidu.com?from=dy.199908.top
+      description: 基于百度海量网民行为数据，科学分析并洞察互联网趋势的数据研究平台
+    - title: 微博指数
+      logo: images/新媒运营/微博指数.png
+      url: https://data.weibo.com/index?from=dy.199908.top
+      description: 基于微博平台的数据研究工具，提供热门话题和事件的传播分析
+    - title: 头条指数
+      logo: images/新媒运营/头条指数.png
+      url: https://index.toutiao.com?from=dy.199908.top
+      description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
+    - title: 微信指数
+      logo: images/新媒运营/微信指数.png
+      url: https://weixin.sogou.com?from=dy.199908.top
+      description: 基于微信平台的数据研究工具，提供微信公众号和文章的热度分析
     - title: 百度热搜
       logo: images/新媒运营/百度热搜.png
       url: https://top.baidu.com?from=dy.199908.top
@@ -4207,10 +4237,6 @@
       logo: images/新媒运营/微博热搜.png
       url: https://s.weibo.com/top/summary?from=dy.199908.top
       description: 新浪微博热搜榜，实时展示微博平台的热门话题和事件
-    - title: 今日头条热榜
-      logo: images/新媒运营/今日头条热榜.png
-      url: https://www.toutiao.com/hot-event?from=dy.199908.top
-      description: 今日头条平台的热门新闻和话题排行
     - title: 知乎热榜
       logo: images/新媒运营/知乎热榜.png
       url: https://www.zhihu.com/hot?from=dy.199908.top
@@ -4227,105 +4253,15 @@
       logo: images/新媒运营/数据研究.png
       url: https://aihot.today?from=dy.199908.top
       description: AI今日热榜汇集全球顶尖来源的最新AI新闻、研究和趋势
-    - title: 豆瓣电影榜
-      logo: images/新媒运营/豆瓣电影榜.png
-      url: https://movie.douban.com/chart?from=dy.199908.top
-      description: 豆瓣平台的电影评分和热度排行榜
-    - title: 猫眼电影票房榜
-      logo: images/新媒运营/猫眼电影.png
-      url: https://piaofang.maoyan.com/dashboard?from=dy.199908.top
-      description: 猫眼电影的实时票房数据和排行榜
-    - title: QQ音乐排行榜
-      logo: images/新媒运营/QQ音乐排行榜.png
-      url: https://y.qq.com/n/ryqq/toplist?from=dy.199908.top
-      description: QQ音乐平台的音乐热度和播放量排行榜
-    - title: 网易云音乐排行榜
-      logo: images/新媒运营/网易云音乐排行榜.png
-      url: https://music.163.com/#/discover/toplist?from=dy.199908.top
-      description: 网易云音乐平台的音乐热度和播放量排行榜
-  - name: 数据指数
-    links:
-    - title: 百度指数
-      logo: images/新媒运营/百度指数.png
-      url: https://index.baidu.com?from=dy.199908.top
-      description: 基于百度海量网民行为数据，科学分析并洞察互联网趋势的数据研究平台
-    - title: 微博指数
-      logo: images/新媒运营/微博指数.png
-      url: https://data.weibo.com/index?from=dy.199908.top
-      description: 基于微博平台的数据研究工具，提供热门话题和事件的传播分析
     - title: 阿里指数
       logo: images/新媒运营/阿里指数.png
       url: https://index.1688.com?from=dy.199908.top
       description: 阿里巴巴旗下的电商大数据研究平台，展示商品热度和行业趋势
-    - title: 头条指数
-      logo: images/新媒运营/头条指数.png
-      url: https://index.toutiao.com?from=dy.199908.top
-      description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
-    - title: 搜狗指数
-      logo: images/新媒运营/搜狗指数.png
-      url: https://index.sogou.com?from=dy.199908.top
-      description: 搜狗搜索引擎的热度分析工具，提供关键词搜索热度分析
-    - title: 微信指数
-      logo: images/新媒运营/微信指数.png
-      url: https://weixin.sogou.com?from=dy.199908.top
-      description: 基于微信平台的数据研究工具，提供微信公众号和文章的热度分析
     - title: 微热点
       logo: images/新媒运营/清博大数据.png
       url: https://www.wrd.cn?from=dy.199908.top
       description: 全媒体传播分析平台
-    - title: 东方财富网数据中心
-      logo: images/数据研究/东方财富网数据中心.png
-      url: https://data.eastmoney.com?from=dy.199908.top
-      description: 整合了股票数据、基金数据和经济数据，并为投资者的投资决策提供重要依据
-    - title: 巨量算数
-      logo: images/数据研究/巨量算数.png
-      url: https://trendinsight.oceanengine.com?from=dy.199908.top
-      description: 解析内容风向，解码营销未来
-  - name: 数据可视
-    links:
-    - title: Tableau Public
-      logo: images/新媒运营/Tableau.png
-      url: https://public.tableau.com?from=dy.199908.top
-      description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
-    - title: DataV.js
-      logo: images/新媒运营/DataV.png
-      url: https://datav.aliyun.com?from=dy.199908.top
-      description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
-    - title: ECharts
-      logo: images/新媒运营/ECharts.png
-      url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
-      description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
-    - title: D3.js
-      logo: images/新媒运营/D3js.png
-      url: https://d3js.org?from=dy.199908.top
-      description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
-    - title: Flourish
-      logo: images/新媒运营/Flourish.png
-      url: https://flourish.studio?from=dy.199908.top
-      description: 在线数据可视化工具，提供丰富的模板和交互功能
-  - name: 网站分析
-    links:
-    - title: Google Analytics
-      logo: images/新媒运营/GoogleAnalytics.png
-      url: https://analytics.google.com?from=dy.199908.top
-      description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
-    - title: 百度统计
-      logo: images/新媒运营/百度统计.png
-      url: https://tongji.baidu.com?from=dy.199908.top
-      description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
-    - title: GrowingIO
-      logo: images/新媒运营/GrowingIO.png
-      url: https://www.growingio.com?from=dy.199908.top
-      description: 提供网站和移动应用的用户行为分析和增长分析服务
-    - title: SimilarWeb
-      logo: images/新媒运营/SimilarWeb.png
-      url: https://www.similarweb.com?from=dy.199908.top
-      description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
-    - title: 友盟+
-      logo: images/新媒运营/友盟.png
-      url: https://www.umeng.com?from=dy.199908.top
-      description: 阿里巴巴旗下的移动应用统计分析平台
-  - name: 行业报告
+  - name: 行业研报
     links:
     - title: 乌拉邦研报
       logo: images/数据研究/乌拉邦研报.png
@@ -4371,92 +4307,6 @@
       logo: images/数据研究/艾媒网.jpg
       url: https://www.iimedia.cn?from=dy.199908.top
       description: 全球领先的新经济行业数据分析报告发布平台
-  - name: 市场研究
-    links:
-    - title: 腾讯调研云
-      logo: images/数据研究/腾讯调研云.png
-      url: https://research.tencent.com?from=dy.199908.top
-      description: 专业的研究分析平台
-    - title: 贝恩公司
-      logo: images/数据研究/贝恩公司.png
-      url: https://www.bain.cn?from=dy.199908.top
-      description: 全球性的管理咨询公司
-    - title: 智研咨询
-      logo: images/数据研究/智研咨询.png
-      url: https://www.chyxx.com?from=dy.199908.top
-      description: 专业研究产业发展现状及趋势前景的综合型咨询平台
-    - title: mckinsey麦肯锡
-      logo: images/数据研究/mckinsey麦肯锡.png
-      url: https://www.mckinsey.com.cn?from=dy.199908.top
-      description: 业务范围广泛，涵盖战略决策、电子商务战略、客户关系、企业成长、企业运作管理优化、供应链管理、组织与变革管理以及兼并重组等多个领域
-    - title: 易观分析
-      logo: images/数据研究/易观分析.png
-      url: https://www.analysys.cn?from=dy.199908.top
-      description: 提供多种行业报告和案例研究，其分析内容涵盖了多个领域，包括能源数字化、手机银行APP运营、DTC品牌增长、第三方支付市场、智慧家庭发展、制造业人工智能应用等
-    - title: 德勤中国
-      logo: images/数据研究/德勤中国.webp
-      url: https://www2.deloitte.com/cn/zh.html?from=dy.199908.top
-      description: 审计, 企业管理咨询, 财务咨询, 风险咨询, 税务服务及行业洞察
-    - title: 中金点睛
-      logo: images/数据研究/中金点睛.ico
-      url: https://research.cicc.com/index?from=dy.199908.top
-      description: 中金研究推出的一站式数字化投研平台，专注向机构投资者提供包括研报、活动、数据库在内的一站式投研信息服务
-    - title: CBNData
-      logo: images/数据研究/CBNData.jpg
-      url: https://www.cbndata.com?from=dy.199908.top
-      description: 第一财经商业数据中心
-    - title: 月狐数据
-      logo: images/数据研究/月狐数据.png
-      url: https://www.moonfox.cn?from=dy.199908.top
-      description: 全场景数据洞察与分析服务专家
-    - title: 易观千帆
-      logo: images/数据研究/易观千帆.png
-      url: https://www.qianfan.tech?from=dy.199908.top
-      description: 移动互联网产品竞争分析
-    - title: 比达网
-      logo: images/数据研究/比达网.png
-      url: http://www.bigdata-research.cn?from=dy.199908.top
-      description: 专注移动互联网行业的市场研究和数据交流平台
-    - title: QuestMobile
-      logo: images/数据研究/QuestMobile.jpg
-      url: https://www.questmobile.com.cn?from=dy.199908.top
-      description: 各行业研究报告
-    - title: 艾瑞咨询
-      logo: images/数据研究/艾瑞咨询.jpg
-      url: https://www.iresearch.com.cn?from=dy.199908.top
-      description: 报告研究,数据服务
-  - name: 科技研究
-    links:
-    - title: 中国宏观经济论坛（CMF）
-      logo: images/数据研究/中国宏观经济论坛_CMF_.png
-      url: http://ier.ruc.edu.cn?from=dy.199908.top
-      description: 高端学术平台，旨在汇聚经济学领域的顶尖研究力量，聚焦宏观经济动态及重大经济问题
-    - title: CEIC
-      logo: images/数据研究/CEIC.jpg
-      url: https://www.ceicdata.com.cn/zh-hans?from=dy.199908.top
-      description: 提供全球宏观经济和行业数据的数据库
-    - title: 中国信息通信研究院
-      logo: images/数据研究/中国信息通信研究院.png
-      url: http://www.caict.ac.cn?from=dy.199908.top
-      description: 主要宗旨和业务范围包括开展信息通信及工业相关领域问题研究，促进科技和产业发展
-    - title: 中国互联网络信息中心
-      logo: images/数据研究/中国互联网络信息中心.png
-      url: https://www.cnnic.net.cn?from=dy.199908.top
-      description: 国家互联网基础资源的管理和服务机构
-    - title: 阿里云研究院
-      logo: images/数据研究/阿里云研究院.png
-      url: http://www.aliresearch.com/cn/index?from=dy.199908.top
-      description: 海量的数据和案例，洞察新知、共创未来
-    - title: 国家数据
-      logo: images/数据研究/国家数据.jpg
-      url: https://data.stats.gov.cn?from=dy.199908.top
-      description: 国家统计局网站官网
-    - title: 阿里研究院
-      logo: images/数据研究/阿里研究院.jpg
-      url: http://www.aliresearch.com?from=dy.199908.top
-      description: 新商业知识平台
-  - name: 产业数据
-    links:
     - title: 一查就有
       logo: images/数据研究/一查就有.ico
       url: https://www.1c9u.com?from=dy.199908.top
@@ -4477,6 +4327,66 @@
       logo: images/数据研究/民航资源网.png
       url: http://www.carnoc.com?from=dy.199908.top
       description: 提供最新的民航新闻、资料、招聘、社区、博客、机场资料库等内容
+  - name: 市场咨询
+    links:
+    - title: mckinsey麦肯锡
+      logo: images/数据研究/mckinsey麦肯锡.png
+      url: https://www.mckinsey.com.cn?from=dy.199908.top
+      description: 业务范围广泛，涵盖战略决策、电子商务战略、客户关系、企业成长、企业运作管理优化、供应链管理、组织与变革管理以及兼并重组等多个领域
+    - title: 贝恩公司
+      logo: images/数据研究/贝恩公司.png
+      url: https://www.bain.cn?from=dy.199908.top
+      description: 全球性的管理咨询公司
+    - title: 德勤中国
+      logo: images/数据研究/德勤中国.webp
+      url: https://www2.deloitte.com/cn/zh.html?from=dy.199908.top
+      description: 审计, 企业管理咨询, 财务咨询, 风险咨询, 税务服务及行业洞察
+    - title: 易观分析
+      logo: images/数据研究/易观分析.png
+      url: https://www.analysys.cn?from=dy.199908.top
+      description: 提供多种行业报告和案例研究，其分析内容涵盖了多个领域，包括能源数字化、手机银行APP运营、DTC品牌增长、第三方支付市场、智慧家庭发展、制造业人工智能应用等
+    - title: 艾瑞咨询
+      logo: images/数据研究/艾瑞咨询.jpg
+      url: https://www.iresearch.com.cn?from=dy.199908.top
+      description: 报告研究,数据服务
+    - title: 智研咨询
+      logo: images/数据研究/智研咨询.png
+      url: https://www.chyxx.com?from=dy.199908.top
+      description: 专业研究产业发展现状及趋势前景的综合型咨询平台
+    - title: 腾讯调研云
+      logo: images/数据研究/腾讯调研云.png
+      url: https://research.tencent.com?from=dy.199908.top
+      description: 专业的研究分析平台
+    - title: QuestMobile
+      logo: images/数据研究/QuestMobile.jpg
+      url: https://www.questmobile.com.cn?from=dy.199908.top
+      description: 各行业研究报告
+    - title: 比达网
+      logo: images/数据研究/比达网.png
+      url: http://www.bigdata-research.cn?from=dy.199908.top
+      description: 专注移动互联网行业的市场研究和数据交流平台
+  - name: 政府数据
+    links:
+    - title: 国家数据
+      logo: images/数据研究/国家数据.jpg
+      url: https://data.stats.gov.cn?from=dy.199908.top
+      description: 国家统计局网站官网
+    - title: 中国信息通信研究院
+      logo: images/数据研究/中国信息通信研究院.png
+      url: http://www.caict.ac.cn?from=dy.199908.top
+      description: 主要宗旨和业务范围包括开展信息通信及工业相关领域问题研究，促进科技和产业发展
+    - title: 中国互联网络信息中心
+      logo: images/数据研究/中国互联网络信息中心.png
+      url: https://www.cnnic.net.cn?from=dy.199908.top
+      description: 国家互联网基础资源的管理和服务机构
+    - title: 中国宏观经济论坛（CMF）
+      logo: images/数据研究/中国宏观经济论坛_CMF_.png
+      url: http://ier.ruc.edu.cn?from=dy.199908.top
+      description: 高端学术平台，旨在汇聚经济学领域的顶尖研究力量，聚焦宏观经济动态及重大经济问题
+    - title: CEIC
+      logo: images/数据研究/CEIC.jpg
+      url: https://www.ceicdata.com.cn/zh-hans?from=dy.199908.top
+      description: 提供全球宏观经济和行业数据的数据库
     - title: 前瞻网
       logo: images/数据研究/前瞻网.png
       url: https://www.qianzhan.com?from=dy.199908.top
@@ -4493,6 +4403,28 @@
       logo: images/数据研究/中商情报网.svg
       url: https://www.askci.com?from=dy.199908.top
       description: 产业情报,产业地图,产业知识库
+  - name: 数据可视
+    links:
+    - title: Tableau Public
+      logo: images/新媒运营/Tableau.png
+      url: https://public.tableau.com?from=dy.199908.top
+      description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
+    - title: DataV.js
+      logo: images/新媒运营/DataV.png
+      url: https://datav.aliyun.com?from=dy.199908.top
+      description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
+    - title: ECharts
+      logo: images/新媒运营/ECharts.png
+      url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
+      description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
+    - title: D3.js
+      logo: images/新媒运营/D3js.png
+      url: https://d3js.org?from=dy.199908.top
+      description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
+    - title: Flourish
+      logo: images/新媒运营/Flourish.png
+      url: https://flourish.studio?from=dy.199908.top
+      description: 在线数据可视化工具，提供丰富的模板和交互功能
     - title: 巨潮资讯网
       logo: images/数据研究/巨潮资讯网.ico
       url: http://www.cninfo.com.cn?from=dy.199908.top
@@ -4505,16 +4437,16 @@
       logo: images/数据研究/中国百货商业协会.png
       url: http://www.ccagm.org.cn?from=dy.199908.top
       description: 中国百货商业协会
+    - title: MobTech研究院
+      logo: images/数据研究/MobTech研究院.jpg
+      url: https://www.mob.com/mobdata/report?from=dy.199908.top
+      description: 行业洞察报告,专业数据报告
   - name: 投资研究
     links:
-    - title: 行行查
-      logo: images/数据研究/行行查.png
-      url: https://www.hanghangcha.com?from=dy.199908.top
-      description: 专业行业研究数据库,包含海量细分行业研究报告，研究信息覆盖大消费、节能环保、传媒娱乐、信息科技、地产金融、生命健康、先进制造、传统行业等领域
-    - title: 乐晴智库
-      logo: images/数据研究/乐晴智库.png
-      url: http://www.767stock.com?from=dy.199908.top
-      description: 提供行业深度研究,覆盖大消费,节能环保,传媒娱乐,信息科技,地产金融,生命健康,先进制造等领域
+    - title: 中金点睛
+      logo: images/数据研究/中金点睛.ico
+      url: https://research.cicc.com/index?from=dy.199908.top
+      description: 中金研究推出的一站式数字化投研平台，专注向机构投资者提供包括研报、活动、数据库在内的一站式投研信息服务
     - title: 投中网
       logo: images/数据研究/投中网.jpg
       url: https://www.chinaventure.com.cn?from=dy.199908.top
@@ -4527,10 +4459,18 @@
       logo: images/数据研究/亿欧EqualOcean.jpg
       url: https://www.iyiou.com?from=dy.199908.top
       description: 专注科技+产业+投资的信息平台和智库
-    - title: MobTech研究院
-      logo: images/数据研究/MobTech研究院.jpg
-      url: https://www.mob.com/mobdata/report?from=dy.199908.top
-      description: 行业洞察报告,专业数据报告
+    - title: 36氪研究院
+      logo: images/数据研究/36氪研究院.jpg
+      url: https://36kr.com/academe.html?from=dy.199908.top
+      description: 专注于为政府、企业、投资机构等提供行业研究、产业规划、用户研究和股权投资研究等服务
+    - title: 行行查
+      logo: images/数据研究/行行查.png
+      url: https://www.hanghangcha.com?from=dy.199908.top
+      description: 专业行业研究数据库,包含海量细分行业研究报告，研究信息覆盖大消费、节能环保、传媒娱乐、信息科技、地产金融、生命健康、先进制造、传统行业等领域
+    - title: 乐晴智库
+      logo: images/数据研究/乐晴智库.png
+      url: http://www.767stock.com?from=dy.199908.top
+      description: 提供行业深度研究,覆盖大消费,节能环保,传媒娱乐,信息科技,地产金融,生命健康,先进制造等领域
     - title: 星图金融研究院
       logo: images/数据研究/星图金融研究院.png
       url: http://sif.suning.com?from=dy.199908.top
@@ -4539,10 +4479,36 @@
       logo: images/数据研究/京东大数据研究院.png
       url: https://research.jd.com?from=dy.199908.top
       description: 专注于电商趋势、人群研究和热点观察等领域的大数据分析和报告
-    - title: 36氪研究院
-      logo: images/数据研究/36氪研究院.jpg
-      url: https://36kr.com/academe.html?from=dy.199908.top
-      description: 专注于为政府、企业、投资机构等提供行业研究、产业规划、用户研究和股权投资研究等服务
+  - name: 网站分析
+    links:
+    - title: Google Analytics
+      logo: images/新媒运营/GoogleAnalytics.png
+      url: https://analytics.google.com?from=dy.199908.top
+      description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
+    - title: 百度统计
+      logo: images/新媒运营/百度统计.png
+      url: https://tongji.baidu.com?from=dy.199908.top
+      description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
+    - title: GrowingIO
+      logo: images/新媒运营/GrowingIO.png
+      url: https://www.growingio.com?from=dy.199908.top
+      description: 提供网站和移动应用的用户行为分析和增长分析服务
+    - title: SimilarWeb
+      logo: images/新媒运营/SimilarWeb.png
+      url: https://www.similarweb.com?from=dy.199908.top
+      description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
+    - title: 友盟+
+      logo: images/新媒运营/友盟.png
+      url: https://www.umeng.com?from=dy.199908.top
+      description: 阿里巴巴旗下的移动应用统计分析平台
+    - title: 阿里云研究院
+      logo: images/数据研究/阿里云研究院.png
+      url: http://www.aliresearch.com/cn/index?from=dy.199908.top
+      description: 海量的数据和案例，洞察新知、共创未来
+    - title: 阿里研究院
+      logo: images/数据研究/阿里研究院.jpg
+      url: http://www.aliresearch.com?from=dy.199908.top
+      description: 新商业知识平台
 
 - taxonomy: 联系我们
   icon: fa-photo-video
