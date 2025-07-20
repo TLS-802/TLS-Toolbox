@@ -2354,50 +2354,49 @@
   - term: 音频平台
   - term: 新闻资讯
   - term: 社交媒体
-  - term: 自媒体平台
   - term: 小说文学
   - term: 漫画网站
   tabs:
   - name: 视频平台
     links:
     - title: 哔哩哔哩
-      logo: images/媒体平台/哔哩哔哩.png
+      logo: images/影音娱乐/哔哩哔哩.png
       url: https://www.bilibili.com?from=dy.199908.top
       description: 国内知名的视频弹幕网站，提供高质量的视频内容，涵盖动画、游戏、科技、生活、音乐等多个领域
     - title: 腾讯视频
-      logo: images/媒体平台/腾讯视频.png
+      logo: images/影音娱乐/腾讯视频.png
       url: https://v.qq.com?from=dy.199908.top
       description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目、动漫等内容
     - title: 爱奇艺
-      logo: images/媒体平台/爱奇艺.png
+      logo: images/影音娱乐/爱奇艺.png
       url: https://www.iqiyi.com?from=dy.199908.top
       description: 国内领先的视频平台之一，提供丰富的影视剧、综艺、动漫等内容
     - title: 优酷
-      logo: images/媒体平台/优酷.jpg
+      logo: images/影音娱乐/优酷.jpg
       url: https://www.youku.com?from=dy.199908.top
       description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺、动漫等内容
     - title: 抖音
-      logo: images/媒体平台/抖音.jpg
+      logo: images/影音娱乐/抖音.jpg
       url: https://www.douyin.com?from=dy.199908.top
       description: 字节跳动旗下的短视频社交平台，用户可以拍摄、编辑和分享短视频
     - title: 快手
-      logo: images/媒体平台/快手.jpg
+      logo: images/影音娱乐/快手.jpg
       url: https://www.kuaishou.com?from=dy.199908.top
       description: 拥抱每一种生活，记录世界记录你
     - title: YouTube
-      logo: images/媒体平台/YouTube.png
+      logo: images/影音娱乐/YouTube.png
       url: https://www.youtube.com?from=dy.199908.top
       description: 全球最大的视频分享平台
     - title: 好看视频
-      logo: images/媒体平台/好看视频.jpeg
+      logo: images/影音娱乐/好看视频.jpeg
       url: https://haokan.baidu.com?from=dy.199908.top
       description: 百度旗下短视频平台
     - title: AcFun
-      logo: images/媒体平台/acfun.png
+      logo: images/影音娱乐/acfun.png
       url: https://www.acfun.cn?from=dy.199908.top
       description: 弹幕视频网站
     - title: 视频号助手
-      logo: images/媒体平台/腾讯视频.png
+      logo: images/影音娱乐/腾讯视频.png
       url: https://channels.weixin.qq.com?from=dy.199908.top
       description: 微信视频号官方助手
     - title: 央视纪实纪录片
@@ -2459,419 +2458,674 @@
   - name: 短剧平台
     links:
     - title: 抖音网页版
-      logo: images/媒体平台/抖音网页版.png
+      logo: images/影音娱乐/抖音网页版.png
       url: https://dis.csqixiang.cn/unpo/dybgrdh.html
       description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
     - title: 河马剧场
-      logo: images/媒体平台/河马剧场.ico
+      logo: images/影音娱乐/河马剧场.ico
       url: https://www.kuaikaw.cn
       description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
     - title: 快手小剧场
-      logo: images/媒体平台/快手小剧场.ico
+      logo: images/影音娱乐/快手小剧场.ico
       url: https://www.kuaishou.com/theater/10000
       description: 快手小剧场短剧电脑版在线观看
     - title: 红果短剧
-      logo: images/媒体平台/红果短剧.png
+      logo: images/影音娱乐/红果短剧.png
       url: https://novelquickapp.com
       description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
     - title: 趣看看短剧
-      logo: images/媒体平台/趣看看短剧.png
+      logo: images/影音娱乐/趣看看短剧.png
       url: https://v.contentchina.com
       description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
     - title: 甜虾剧场
-      logo: images/媒体平台/甜虾剧场.png
+      logo: images/影音娱乐/甜虾剧场.png
       url: https://www.360kuai.com/pc/mvideo/duanju
       description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
+    - title: 抖音短剧
+      logo: images/影音娱乐/抖音短剧.png
+      url: https://www.douyin.com/hashtag/1617649538430990?from=dy.199908.top
+      description: 是抖音平台上一个专注于短剧内容的板块,它汇集了各种创意短剧,为用户提供娱乐和轻松的观看体验
+    - title: 快手短剧
+      logo: images/影音娱乐/快手短剧.png
+      url: https://www.kuaishou.com/theater/10000?from=dy.199908.top
+      description: 是快手平台上一个专注于提供各类短剧资源内容的板块
+    - title: 河马剧场
+      logo: images/影音娱乐/河马剧场.png
+      url: https://www.kuaikaw.cn?from=dy.199908.top
+      description: 一个专注于微短剧和网络短剧的平台,提供各种免费网络短剧的在线观看服务
+    - title: 五五短剧
+      logo: images/影音娱乐/五五短剧.png
+      url: https://www.duanju55.com?from=dy.199908.top
+      description: 一个专门提供短剧视频内容的平台,用户可以在这里免费观看和分享最新的短剧视频
+    - title: 趣看看短剧
+      logo: images/影音娱乐/趣看看短剧.png
+      url: https://v.contentchina.com?from=dy.199908.top
+      description: 一个提供短剧在线观看的平台,专注于为用户提供高清的免费的短剧内容
+    - title: 短剧查查
+      logo: images/影音娱乐/短剧查查.png
+      url: https://duanjuchacha.com?from=dy.199908.top
+      description: 一个专注于短剧内容的平台，提供夸克短剧的每日更新
+    - title: 短剧库
+      logo: images/影音娱乐/短剧库.png
+      url: https://duanjuku.top?from=dy.199908.top
+      description: 一个提供丰富短剧资源的平台,用户可以在这里找到各种类型的短剧
+    - title: 短剧窝
+      logo: images/影音娱乐/短剧窝.png
+      url: https://www.djwo.cc?from=dy.199908.top
+      description: 一个提供短剧大全的平台,用户可以在这里免费观看各种短剧
+    - title: 短剧达人
+      logo: images/影音娱乐/短剧达人.png
+      url: https://www.ddmov.com?from=dy.199908.top
+      description: 一个提供免费短剧在线观看的平台,专注于最新热门短剧全集的分享
+    - title: 吉吉短剧
+      logo: images/影音娱乐/吉吉短剧.png
+      url: https://www.jjduanju.com?from=dy.199908.top
+      description: 一个专门提供免费短剧和电视剧在线观看的平台
+    - title: 爱你短剧
+      logo: images/影音娱乐/爱你短剧.png
+      url: https://ainidj.com?from=dy.199908.top
+      description: 一个提供丰富免费短剧资源的在线观看平台,专注于最新的爱情,战神,重生等题材的短剧
+    - title: 短剧网
+      logo: images/影音娱乐/短剧网.png
+      url: https://www.duanju001.com?from=dy.199908.top
+      description: 是一个专门提供免费短剧资源内容的在线观看的平台
+    - title: 优优短剧
+      logo: images/影音娱乐/优优短剧.png
+      url: https://uu123.vip?from=dy.199908.top
+      description: 提供最新最全的短剧夸克网盘资源，短剧免费观看全集在线观看及下载资源
+    - title: 短剧搜吧
+      logo: images/影音娱乐/短剧搜吧.png
+      url: https://www.duanjusouba.com?from=dy.199908.top
+      description: 一个专注于短剧资源的搜索引擎网站,提供了海量的免费完整版短剧资源
+    - title: 短剧猫
+      logo: images/影音娱乐/短剧猫.png
+      url: https://www.duanjumao.com?from=dy.199908.top
+      description: 一个提供网盘索引服务的平台,专注于免费短剧的在线观看和分享下载
+    - title: 4k影视网盘
+      logo: images/影音娱乐/4k影视网盘.png
+      url: https://panku8.com?from=dy.199908.top
+      description: 可以快速搜索各网盘资源,支持百度网盘,阿里云盘,夸克网盘,迅雷云盘搜索等网盘资源
+    - title: 好剧搜
+      logo: images/影音娱乐/好剧搜.png
+      url: https://pan.hyexz.com?from=dy.199908.top
+      description: 免费分享百万级网盘资源,提供夸克网盘的电影,电视剧,小说,工具资源搜索服务,致力打造顶尖网盘搜索引擎
+    - title: 夸克盘搜
+      logo: images/影音娱乐/夸克盘搜.png
+      url: https://www.panso.xyz?from=dy.199908.top
+      description: 一个专门针对夸克网盘资源的搜索引擎
+    - title: 好搜短剧
+      logo: images/影音娱乐/好搜短剧.png
+      url: https://www.haoso.net?from=dy.199908.top
+      description: 免费的短剧资源搜索平台,专注于提供短剧,短视频等资源的网盘搜索服务
   - name: 体育直播
     links:
     - title: CCTV-5体育频道
-      logo: images/媒体平台/CCTV-5体育频道.png
+      logo: images/影音娱乐/CCTV-5体育频道.png
       url: https://tv.cctv.com/live/cctv5?from=dy.199908.top
       description: CCTV-5高清体育直播在线观看
     - title: 央视网体育
-      logo: images/媒体平台/央视网体育.png
+      logo: images/影音娱乐/央视网体育.png
       url: https://sports.cctv.com?from=dy.199908.top
       description: 提供最全面专业的体育赛事直播点播、图文资讯、评论报道
     - title: 企鹅直播
-      logo: images/媒体平台/企鹅直播.png
+      logo: images/影音娱乐/企鹅直播.png
       url: https://live.qq.com?from=dy.199908.top
       description: 费看高清NBA直播、NFL橄榄球直播、足球直播、台球直播、CBA、欧冠意甲西甲直播
     - title: 168看球直播
-      logo: images/媒体平台/168看球直播.png
+      logo: images/影音娱乐/168看球直播.png
       url: https://168zb85.com?from=dy.199908.top
       description: 免费看球类直播的网站，包含篮球、足球、网球、羽毛球、棋牌电子等赛事。可以在网站直接观看，移动端可以与直播讲解的小姐姐互动。
     - title: 进球时刻网
-      logo: images/媒体平台/进球时刻网.svg
+      logo: images/影音娱乐/进球时刻网.svg
       url: https://www.8jijin.com?from=dy.199908.top
       description: 世界足球全场回放集锦数据库,足球比赛回放进球集锦视频录像下载 | 涵盖国家队、俱乐部、球员生涯进球合集
     - title: 321直播
-      logo: images/媒体平台/321直播.png
+      logo: images/影音娱乐/321直播.png
       url: https://www.321tyzb.com?from=dy.199908.top
       description: 321直播为你打造畅NBA篮球直播、享欧洲五大联赛、世界杯预选赛、欧洲杯、足球等体育盛事的绝佳平台。无需担心错过任何精彩瞬间，即刻观看欧冠、NBA、CBA等顶级赛事。
     - title: 低调看球网
-      logo: images/媒体平台/低调看球网.ico
+      logo: images/影音娱乐/低调看球网.ico
       url: https://didiaokanqiu.net?from=dy.199908.top
       description: 低调看球直播网是一个全新的绿色无广告的体育直播导航网站，球迷喜欢的英超直播、中超直播、NBA直播等比赛都有，分享低调看球直播网给更多的朋友让看直播速度更快
     - title: 360吧
-      logo: images/媒体平台/360吧.png
+      logo: images/影音娱乐/360吧.png
       url: https://www.360ba.co?from=dy.199908.top
       description: 体育直播在线观看网站
     - title: 直播站
-      logo: images/媒体平台/直播站.png
+      logo: images/影音娱乐/直播站.png
       url: https://zhiboz.com?from=dy.199908.top
       description: 足球、篮球、综合赛事,体育赛事的专业直播平台
     - title: 篮球帝
-      logo: images/媒体平台/篮球帝.png
+      logo: images/影音娱乐/篮球帝.png
       url: https://www.lanqiudi.com?from=dy.199908.top
       description: 一个专注于篮球赛事直播与录像的综合性体育直播平台
     - title: 壹直播
-      logo: images/媒体平台/壹直播.png
+      logo: images/影音娱乐/壹直播.png
       url: https://www.zhibo1.cc?from=dy.199908.top
       description: 一个提供全方位体育赛事直播和相关资讯的网站
     - title: 515直播
-      logo: images/媒体平台/515直播.png
+      logo: images/影音娱乐/515直播.png
       url: https://www.515001.tv?from=dy.199908.top
       description: 一个专注于体育赛事直播的专业平台
     - title: 速赛体育
-      logo: images/媒体平台/速赛体育.ico
+      logo: images/影音娱乐/速赛体育.ico
       url: https://www.susai.cc?from=dy.199908.top
       description: 速赛体育汇聚全球足球直播+NBA直播、CBA直播等热门体育赛事直播
     - title: 好看体育
-      logo: images/媒体平台/好看体育.ico
+      logo: images/影音娱乐/好看体育.ico
       url: https://www.haokan.tv?from=dy.199908.top
       description: 一个专注于体育赛事直播、新闻资讯和精彩集锦的综合性体育平台
     - title: 优直播
-      logo: images/媒体平台/优直播.ico
+      logo: images/影音娱乐/优直播.ico
       url: https://www.yoozhibo.net?from=dy.199908.top
       description: 优直播提供欧洲杯直播,足球直播,CCTV5在线直播,广州恒大,广东体育直播,恒大直播,NBA直播,NBA录像,NBA录像回放,中超,英超,亚冠,欧冠,CBA等等体育视频录像
     - title: 直播车
-      logo: images/媒体平台/直播车.ico
+      logo: images/影音娱乐/直播车.ico
       url: https://www.zhiboche8.com?from=dy.199908.top
       description: 直播车是一家老牌体育直播吧网站，提供足球直播，nba直播和综合体育直播。涵盖直播吧、极速体育、360直播的赛事直播。在线观看NBA直播、英超直播、西甲、意甲、德甲、法甲、等五大联赛、欧冠、欧联和中超、CBA直播。
     - title: 体育6
-      logo: images/媒体平台/体育6.png
+      logo: images/影音娱乐/体育6.png
       url: https://www.zb06.com?from=dy.199908.top
       description: 体育赛事直播导航网站，汇集了全球范围内的各种体育赛事直播链接，包括但不限于足球、篮球、足球、英超、NBA、世界杯、欧洲杯等
     - title: 球迷网
-      logo: images/媒体平台/球迷网.png
+      logo: images/影音娱乐/球迷网.png
       url: https://24h.live?from=dy.199908.top
       description: NBA直播,NBA重播吧,比赛视频,斯诺克直播网
   - name: 音频平台
     links:
     - title: 喜马拉雅
-      logo: images/媒体平台/喜马拉雅.png
+      logo: images/影音娱乐/喜马拉雅.png
       url: https://www.ximalaya.com?from=dy.199908.top
       description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
     - title: 荔枝FM
-      logo: images/媒体平台/荔枝fm.png
+      logo: images/影音娱乐/荔枝fm.png
       url: https://www.lizhi.fm?from=dy.199908.top
       description: 专业的音频分享平台，提供播客、有声书、音乐等内容
     - title: 蜻蜓FM
-      logo: images/媒体平台/蜻蜓fm.png
+      logo: images/影音娱乐/蜻蜓fm.png
       url: https://www.qingting.fm?from=dy.199908.top
       description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
     - title: QQ音乐
-      logo: images/媒体平台/QQ音乐.png
+      logo: images/影音娱乐/QQ音乐.png
       url: https://y.qq.com?from=dy.199908.top
       description: 千万正版音乐海量无损曲库新歌热歌
     - title: 网易云音乐
-      logo: images/媒体平台/网易云音乐.png
+      logo: images/影音娱乐/网易云音乐.png
       url: https://music.163.com?from=dy.199908.top
       description: 专注于发现与分享音乐
     - title: 酷我音乐
-      logo: images/媒体平台/酷我音乐.png
+      logo: images/影音娱乐/酷我音乐.png
       url: http://www.kuwo.cn?from=dy.199908.top
       description: 无损音质正版在线试听网站
     - title: 酷狗音乐
-      logo: images/媒体平台/酷狗音乐.png
+      logo: images/影音娱乐/酷狗音乐.png
       url: https://www.kugou.com?from=dy.199908.top
       description: 最新最全的在线正版音乐网站
     - title: 汽水音乐
-      logo: images/媒体平台/汽水音乐.jpeg
+      logo: images/影音娱乐/汽水音乐.jpeg
       url: https://music.douyin.com/qishui?from=dy.199908.top
       description: 抖音旗下的音乐平台，提供音乐播放、MV、歌词等服务
     - title: 闪闪音乐网
-      logo: images/媒体平台/闪闪音乐网.svg
+      logo: images/影音娱乐/闪闪音乐网.svg
       url: https://www.33ve.com?from=dy.199908.top
       description: 闪闪音乐网是一个专注于提供丰富音乐资源和推荐服务的平台，免费MP3下载，视频歌曲大全免费下载
     - title: 音乐解析器
-      logo: images/媒体平台/音乐解析器.png
+      logo: images/影音娱乐/音乐解析器.png
       url: https://musicjx.com?from=dy.199908.top
       description: 免费在线音乐搜索下载网站，在线网页版解析下载多平台音乐。
     - title: 枫叶音乐盒
-      logo: images/媒体平台/枫叶音乐盒.png
+      logo: images/影音娱乐/枫叶音乐盒.png
       url: https://mu-jie.cc/musicBox?from=dy.199908.top
       description: 枫叶音乐盒，一个在线音乐播放器。点开就能听音乐，随时随地享受音乐，支持在线播放、搜索、收藏、导入音乐APP歌单、自建歌单、歌单推荐/分类等功能。
     - title: 音乐库
-      logo: images/媒体平台/音乐库.svg
+      logo: images/影音娱乐/音乐库.svg
       url: https://www.yinyueku.cn?from=dy.199908.top
       description: 音乐库网站可以在线听音乐，搜索歌曲，下载歌曲
     - title: XCloud音乐
-      logo: images/媒体平台/XCloud音乐.svg
+      logo: images/影音娱乐/XCloud音乐.svg
       url: https://music.xcloudv.top?from=dy.199908.top
       description: XCloud音乐是一个免费在线音乐平台，提供了基础的登录、注册、音乐搜索和收藏功能。
     - title: GD音乐台
-      logo: images/媒体平台/GD音乐台.ico
+      logo: images/影音娱乐/GD音乐台.ico
       url: https://music.gdstudio.xyz?from=dy.199908.top
       description: GD音乐台为用户提供高音质、全曲库的HiFi级聆听体验
     - title: 铜钟音乐
-      logo: images/媒体平台/铜钟音乐.ico
+      logo: images/影音娱乐/铜钟音乐.ico
       url: https://tonzhon.com?from=dy.199908.top
       description: 音乐在线听以及下载
     - title: 清音陋屋
-      logo: images/媒体平台/清音陋屋.svg
+      logo: images/影音娱乐/清音陋屋.svg
       url: http://www.52qingyin.cn?from=dy.199908.top
       description: 优美纯音乐精美散文分享网站
     - title: 爱音人轻音乐网
-      logo: images/媒体平台/爱音人轻音乐网.ico
+      logo: images/影音娱乐/爱音人轻音乐网.ico
       url: http://www.iyinren.com?from=dy.199908.top
       description: 好听的轻音乐下载,轻音乐钢琴曲,轻音乐在线播放
     - title: 网抑云音乐
-      logo: images/媒体平台/网抑云音乐.png
+      logo: images/影音娱乐/网抑云音乐.png
       url: http://mc.alger.fun?from=dy.199908.top
       description: 一款免费的在线音乐播放器，免费在线听歌网站
   - name: 新闻资讯
     links:
     - title: 今日头条
-      logo: images/媒体平台/今日头条.png
+      logo: images/影音娱乐/今日头条.png
       url: https://www.toutiao.com?from=dy.199908.top
       description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
     - title: 腾讯新闻
-      logo: images/媒体平台/腾讯网.jpeg
+      logo: images/影音娱乐/腾讯网.jpeg
       url: https://news.qq.com?from=dy.199908.top
       description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
     - title: 网易新闻
-      logo: images/媒体平台/网易新闻.jpeg
+      logo: images/影音娱乐/网易新闻.jpeg
       url: https://news.163.com?from=dy.199908.top
       description: 网易旗下的新闻资讯平台，提供全面及时的新闻报道
     - title: 搜狐新闻
-      logo: images/媒体平台/搜狐新闻.jpeg
+      logo: images/影音娱乐/搜狐新闻.jpeg
       url: https://news.sohu.com?from=dy.199908.top
       description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
     - title: 澎湃新闻
-      logo: images/媒体平台/澎湃新闻.png
+      logo: images/影音娱乐/澎湃新闻.png
       url: https://www.thepaper.cn?from=dy.199908.top
       description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
     - title: 一点号
-      logo: images/媒体平台/1点资讯.jpeg
+      logo: images/影音娱乐/1点资讯.jpeg
       url: https://www.yidianzixun.com?from=dy.199908.top
       description: 一点资讯旗下内容创作平台
   - name: 社交媒体
     links:
     - title: 微博
-      logo: images/媒体平台/微博.png
+      logo: images/影音娱乐/微博.png
       url: https://weibo.com?from=dy.199908.top
       description: 中国领先的社交媒体平台，用户可以发布、分享和发现内容
     - title: 知乎
-      logo: images/媒体平台/知乎.png
+      logo: images/影音娱乐/知乎.png
       url: https://www.zhihu.com?from=dy.199908.top
       description: 中文互联网高质量的问答社区和创作者聚集的原创内容平台
     - title: 豆瓣
-      logo: images/媒体平台/豆瓣.png
+      logo: images/影音娱乐/豆瓣.png
       url: https://www.douban.com?from=dy.199908.top
       description: 提供图书、电影、音乐等评论和社区服务的网站
     - title: 小红书
-      logo: images/媒体平台/小红书.jpg
+      logo: images/影音娱乐/小红书.jpg
       url: https://www.xiaohongshu.com?from=dy.199908.top
       description: 年轻人的生活方式平台，用户分享生活中的好物和体验
     - title: 简书
-      logo: images/媒体平台/简书.png
+      logo: images/影音娱乐/简书.png
       url: https://www.jianshu.com?from=dy.199908.top
       description: 优质的创作社区，创作你的创作
     - title: CSDN
-      logo: images/媒体平台/csdn.png
+      logo: images/影音娱乐/csdn.png
       url: https://www.csdn.net?from=dy.199908.top
       description: 全球最大的中文IT技术交流平台
     - title: 美篇
-      logo: images/媒体平台/美篇.jpeg
+      logo: images/影音娱乐/美篇.jpeg
       url: https://www.meipian.cn?from=dy.199908.top
       description: 分享图文的分享应用
     - title: 什么值得买
-      logo: images/媒体平台/什么值得买.jpeg
+      logo: images/影音娱乐/什么值得买.jpeg
       url: https://www.smzdm.com?from=dy.199908.top
       description: 中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
     - title: 百度知道
-      logo: images/媒体平台/百度知道.png
+      logo: images/影音娱乐/百度知道.png
       url: https://zhidao.baidu.com?from=dy.199908.top
       description: 全球最大的中文互动问答平台
     - title: 360doc个人图书馆
-      logo: images/媒体平台/360doc.jpeg
+      logo: images/影音娱乐/360doc.jpeg
       url: http://www.360doc.com?from=dy.199908.top
       description: 免费的全民知识共享平台
-  - name: 自媒体平台
-    links:
     - title: 微信公众平台
-      logo: images/媒体平台/腾讯网.jpeg
+      logo: images/影音娱乐/腾讯网.jpeg
       url: https://mp.weixin.qq.com?from=dy.199908.top
       description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
     - title: 百家号
-      logo: images/媒体平台/百家号.jpeg
+      logo: images/影音娱乐/百家号.jpeg
       url: https://baijiahao.baidu.com?from=dy.199908.top
       description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
     - title: 头条号
-      logo: images/媒体平台/今日头条.png
+      logo: images/影音娱乐/今日头条.png
       url: https://mp.toutiao.com?from=dy.199908.top
       description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
     - title: 企鹅号
-      logo: images/媒体平台/腾讯网.jpeg
+      logo: images/影音娱乐/腾讯网.jpeg
       url: https://om.qq.com?from=dy.199908.top
       description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
     - title: 大鱼号
-      logo: images/媒体平台/大鱼号.jpeg
+      logo: images/影音娱乐/大鱼号.jpeg
       url: https://mp.dayu.com?from=dy.199908.top
       description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
     - title: 支付宝生活号平台
-      logo: images/媒体平台/支付宝.png
+      logo: images/影音娱乐/支付宝.png
       url: https://fuwu.alipay.com?from=dy.199908.top
       description: 支付宝生活号平台是支付宝推出的商家服务平台
     - title: 百度智能小程序
-      logo: images/媒体平台/百度知道.png
+      logo: images/影音娱乐/百度知道.png
       url: https://smartprogram.baidu.com?from=dy.199908.top
       description: 百度智能小程序平台
   - name: 小说文学
     links:
     - title: 笔趣阁
-      logo: images/媒体平台/笔趣阁.png
+      logo: images/影音娱乐/笔趣阁.png
       url: https://www.bqg200.com?from=dy.199908.top
       description: 免费小说阅读网
     - title: 洛书小说
-      logo: images/媒体平台/洛书小说.png
+      logo: images/影音娱乐/洛书小说.png
       url: https://www.luoshu1.com?from=dy.199908.top
       description: 免费在线小说网址
     - title: txt520
-      logo: images/媒体平台/txt520.svg
+      logo: images/影音娱乐/txt520.svg
       url: https://www.txt520.com?from=dy.199908.top
       description: txt520小说网是一个提供免费txt小说电子书下载和在线阅读服务的网站。txt小说下载网,全本小说下载和在线阅读
     - title: txt小说网
-      logo: images/媒体平台/txt小说网.png
+      logo: images/影音娱乐/txt小说网.png
       url: https://www.txtxiaoshuo.com?from=dy.199908.top
       description: txt小说网提供全本txt小说下载、完结txt小说下载、完本txt小说下载的网站。搜集网络上高质量的全集精校版完本小说、校对版全集小说，以及zxcs、知轩藏书、笔趣阁txt小说免费下载。
     - title: 经典书库
-      logo: images/媒体平台/经典书库.png
+      logo: images/影音娱乐/经典书库.png
       url: https://m.jingdianbook.com?from=dy.199908.top
       description: 经典书库免费提供好看的古典武侠小说、名侦探/科幻小说、经济学/哲学及宗教、轻松一刻、儿童睡前故事、传统文学名著等内容
     - title: 101看书
-      logo: images/媒体平台/101看书.png
+      logo: images/影音娱乐/101看书.png
       url: https://101kanshu.com?from=dy.199908.top
       description: 101看书是一个免费无广告弹窗，全免的费繁体在线小说阅读网
     - title: 盐选文库
-      logo: images/媒体平台/盐选文库.png
+      logo: images/影音娱乐/盐选文库.png
       url: https://www.yanxuanwk.com?from=dy.199908.top
       description: 织乎盐选文章、连载盐选小说，天涯神贴，各种精校小说免费阅读，免费分享，不间断更新，完全免费！盐选文库是最强大的盐选文章免费阅读站点，拥有最完美的阅读体验！
     - title: iRead趣读
-      logo: images/媒体平台/iRead趣读.svg
+      logo: images/影音娱乐/iRead趣读.svg
       url: https://iread.life?from=dy.199908.top
       description: iRead趣读-故事盐选是一个提供免费阅读知乎盐选故事的平台，用户可以通过该平台获取高质量的短篇小说内容，无需开通知乎会员即可享受会员用户的阅读体验。
     - title: 盐神阁
-      logo: images/媒体平台/盐神阁.png
+      logo: images/影音娱乐/盐神阁.png
       url: https://saltsgod.com?from=dy.199908.top
       description: 盐神居，互联网的搬运工，知乎盐选文章搬运工，免费在线盐选小说阅读网
     - title: 我不是盐神
-      logo: images/媒体平台/我不是盐神.ico
+      logo: images/影音娱乐/我不是盐神.ico
       url: https://onehu.xyz?from=dy.199908.top
       description: 我不是盐神是一个免费的知乎盐选会员文章在线阅读网站，可以通过复制标题或内容第一句话进行搜索，以找到相关文章。
     - title: 13听书网
-      logo: images/媒体平台/13听书网.svg
+      logo: images/影音娱乐/13听书网.svg
       url: https://www.ting13.cc?from=dy.199908.top
       description: 13听书网在线听书网提供最新最全热门有声小说,有声读物,评书有声小说每日更新,支持自动连播,无弹窗,13听书网在线听书网为你释放双眼，用耳朵享受阅读的乐趣!
     - title: 中文听书网
-      logo: images/媒体平台/中文听书网.png
+      logo: images/影音娱乐/中文听书网.png
       url: https://www.tingzh.com?from=dy.199908.top
       description: 中文听书网,有声小说,有声读物,童话故事,有声小说排行榜,有声读物等小说在线收听,有声小说免费打包下载.无需注册，点击即可在线收听，方便大家收听。
     - title: 博看网
-      logo: images/媒体平台/博看网.png
+      logo: images/影音娱乐/博看网.png
       url: http://new.bookan.com.cn?from=dy.199908.top
       description: 博看网是一个专注于提供数字阅读服务的平台，收录了大量中文期刊、图书和报纸资源，还通过多种技术手段（如AI、大数据和智能硬件）为用户提供高质量的阅读体验。
     - title: 仙人掌小说
-      logo: images/媒体平台/仙人掌小说.png
+      logo: images/影音娱乐/仙人掌小说.png
       url: https://www.360kuai.com/pc/novelgalery?from=dy.199908.top
       description: 仙人掌小说是360公司推出的一个小说阅读平台，提供多种体裁的文学作品，包括成功励志、都市生活、科幻悬疑、婚恋言情、古言穿越和历史军事等类型。
     - title: JOJO看报
-      logo: images/媒体平台/JOJO看报.png
+      logo: images/影音娱乐/JOJO看报.png
       url: https://reader.jojokanbao.cn?from=dy.199908.top
       description: JOJO看报是一个在线平台，专注于提供老报纸、期刊和杂志的在线阅读和下载服务。涵盖了《人民日报》、《参考消息》、《红旗》以及《人民画报》等报刊，时间跨度从建国时期到现代。
     - title: 云起书院
-      logo: images/媒体平台/云起书院.png
+      logo: images/影音娱乐/云起书院.png
       url: https://yunqi.qq.com?from=dy.199908.top
       description: 云起书院是腾讯阅文集团旗下专注于女性文学创作的门户网站，致力于打造全球领先的女性文学阅读与创作平台-办公 人导 航。
     - title: 大李敖全集5.0
-      logo: images/媒体平台/大李敖全集5_0.png
+      logo: images/影音娱乐/大李敖全集5_0.png
       url: https://books.leeao.net?from=dy.199908.top
       description: 《大李敖全集5.0》是李敖先生作品的最新集成，包含163本书，总字数达到3140842页，比之前的4.0版本增加了约200万字。
     - title: QQ阅读
-      logo: images/媒体平台/QQ阅读.png
+      logo: images/影音娱乐/QQ阅读.png
       url: https://book.qq.com?from=dy.199908.top
       description: QQ阅读是阅文集团旗下的重要在线阅读平台
   - name: 漫画网站
     links:
     - title: MyComic
-      logo: images/媒体平台/MyComic.svg
+      logo: images/影音娱乐/MyComic.svg
       url: https://mycomic.com?from=dy.199908.top
       description: MyComic是一款专为漫画爱好者设计的平台，集成了漫画、小说和动漫番剧的阅读功能，支持多种资源的聚合与实时更新。
     - title: UC漫画
-      logo: images/媒体平台/UC漫画.png
+      logo: images/影音娱乐/UC漫画.png
       url: https://www.ucmanhua.com?from=dy.199908.top
       description: 提供各种漫画阅读的平台，包括国产漫画、日本漫画、韩国漫画和欧美漫画等多种类型
     - title: 读漫屋
-      logo: images/媒体平台/读漫屋.ico
+      logo: images/影音娱乐/读漫屋.ico
       url: http://www.dumanwu.com?from=dy.199908.top
       description: 专注于漫画资源的在线阅读平台，聚集了大量热门、经典及最新漫画作品，涵盖日漫、韩漫、国漫等多种类型
     - title: 漫画人
-      logo: images/媒体平台/漫画人.png
+      logo: images/影音娱乐/漫画人.png
       url: https://www.manhuaren.net?from=dy.199908.top
       description: 一个专注于二次元漫画阅读的平台
     - title: neko
-      logo: images/媒体平台/neko.svg
+      logo: images/影音娱乐/neko.svg
       url: https://nekoyo.co?from=dy.199908.top
       description: 漫画、动漫、轻小说、ASMR音声
     - title: 漫画在线
-      logo: images/媒体平台/漫画在线.svg
+      logo: images/影音娱乐/漫画在线.svg
       url: https://www.manhuaol.com?from=dy.199908.top
       description: 漫画免费在线阅读网站
     - title: colamanga
-      logo: images/媒体平台/colamanga.png
+      logo: images/影音娱乐/colamanga.png
       url: https://www.colamanga.com?from=dy.199908.top
       description: 海量的漫画资源，覆盖了日本、国产及其他国家和地区的作品
     - title: 漫画狗
-      logo: images/媒体平台/漫画狗.png
+      logo: images/影音娱乐/漫画狗.png
       url: https://www.manhuagou.net?from=dy.199908.top
       description: 漫画大全,免费漫画在线看
     - title: 学外漫画
-      logo: images/媒体平台/学外漫画.ico
+      logo: images/影音娱乐/学外漫画.ico
       url: https://www.xwmanhua.com?from=dy.199908.top
       description: 优质人气漫画站,看下拉式漫画就在学外漫画
     - title: 新新漫画
-      logo: images/媒体平台/新新漫画.ico
+      logo: images/影音娱乐/新新漫画.ico
       url: https://www.77mh.nl?from=dy.199908.top
       description: 一个提供丰富漫画资源的在线阅读平台
     - title: x漫画网
-      logo: images/媒体平台/x漫画网.png
+      logo: images/影音娱乐/x漫画网.png
       url: https://www.xmanhua.com?from=dy.199908.top
       description: 日本漫画,在线漫画阅读第一站,xmanhua
     - title: 咪咕动漫
-      logo: images/媒体平台/咪咕动漫.png
+      logo: images/影音娱乐/咪咕动漫.png
       url: https://www.migudm.cn?from=dy.199908.top
       description: 专注于提供丰富的ACGN（动画、漫画、游戏、轻小说）内容
     - title: 漫画1234
-      logo: images/媒体平台/漫画1234.png
+      logo: images/影音娱乐/漫画1234.png
       url: https://www.gmh1234.com?from=dy.199908.top
       description: 免费在线漫画网站
     - title: 风之动漫
-      logo: images/媒体平台/风之动漫.png
+      logo: images/影音娱乐/风之动漫.png
       url: https://www.fffdm.com?from=dy.199908.top
       description: 在线漫画,日本动漫,火影忍者漫画,海贼王漫画
     - title: KuKu动漫
-      logo: images/媒体平台/KuKu动漫.svg
+      logo: images/影音娱乐/KuKu动漫.svg
       url: http://manhua.dididm.cc?from=dy.199908.top
       description: 在线漫画网站
     - title: mox.moe漫画
-      logo: images/媒体平台/mox_moe漫画.png
+      logo: images/影音娱乐/mox_moe漫画.png
       url: https://mox.moe?from=dy.199908.top
       description: 高清Kindle格式漫画下载,支持推送漫画到kindle设备
     - title: 动漫狂
-      logo: images/媒体平台/动漫狂.svg
+      logo: images/影音娱乐/动漫狂.svg
       url: https://www.cartoonmad.com?from=dy.199908.top
       description: 免费动画漫画分享社群
+
+- taxonomy: 学习资源
+  icon: fa-chart-bar
+  list:
+  - term: 考公考研
+  - term: 职场考证
+  - term: 人文历史
+  - term: 外语资源
+  - term: 设计学习
+  tabs:
+  - name: 考公考研
+    links:
+    - title: 中国研究生招生信息网
+      logo: images/学习资源/中国研究生招生信息网.png
+      url: https://yz.chsi.com.cn?from=dy.199908.top
+      description: 隶属于教育部的以考研为主题的官方网站
+    - title: 中国教育考试网
+      logo: images/学习资源/中国教育考试网.png
+      url: http://www.neea.edu.cn?from=dy.199908.top
+      description: 教育部考试中心系教育部直属事业单位，主要承担教育考试专项职责任务
+    - title: 中公教育网
+      logo: images/学习资源/中公教育网.png
+      url: https://www.offcn.com?from=dy.199908.top
+      description: 大型的多品类职业教育机构
+    - title: 考研帮
+      logo: images/学习资源/考研帮.png
+      url: https://www.kaoyan.com?from=dy.199908.top
+      description: 考研交流平台和研究生招生信息网络发布平台
+    - title: 中公考研网
+      logo: images/学习资源/中公考研网.jpg
+      url: http://www.kaoyan365.cn?from=dy.199908.top
+      description: 提供考研时间、考研科目、考研复试调剂、考研专业目录及各科复习资料等信息
+    - title: 考研信息网
+      logo: images/学习资源/考研信息网.jpg
+      url: http://www.chinakaoyan.com?from=dy.199908.top
+      description: 为考生提供专业、可靠、贴心的考研资讯
+    - title: 自考365
+      logo: images/学习资源/自考365.png
+      url: https://www.zikao365.com?from=dy.199908.top
+      description: 专注于自学考试的专业网站
+    - title: 考研派
+      logo: images/学习资源/考研派.png
+      url: http://www.okaoyan.com?from=dy.199908.top
+      description: 考研派[考研网]考研网站平台,使命-帮助每位考研人成功，为考研人提供各院校研招网资讯、考研一对一辅导和研究生院考研官网资讯服务，旗下有：考研派之家微信公众号、考研派APP、考研网等
+    - title: 在职研究生招生信息网
+      logo: images/学习资源/在职研究生招生信息网.png
+      url: https://www.eduego.com?from=dy.199908.top
+      description: 提供在职硕士、在职博士、MBA、EMBA等类别的在职研究生招生简章、报考条件、报名时间、报名入口等招生信息，为学员提供全方位的咨询服务。
+    - title: 在职研究生教育信息网
+      logo: images/学习资源/在职研究生教育信息网.png
+      url: https://www.eduei.com?from=dy.199908.top
+      description: 提供免费的在职研究生招生信息，及准确的在职硕士、在职博士、EMBA 等类别的报考条件/时间、招生简章、报名入口/网站、考试科目/学费/专业等在职教育信息。
+    - title: N诺
+      logo: images/学习资源/N诺.png
+      url: https://noobdream.com?from=dy.199908.top
+      description: 计算机考研保研必备神器
+    - title: QZZN论坛
+      logo: images/学习资源/QZZN论坛.png
+      url: https://bbs.qzzn.com?from=dy.199908.top
+      description: 公务员考试论坛,公务员论坛,公考论坛
+    - title: 上岸鸭公考
+      logo: images/学习资源/上岸鸭公考.png
+      url: https://www.gwy.com?from=dy.199908.top
+      description: 公务员考试培训网，上岸鸭公考专注为学员提供包括公务员、事业单位、央国企、商业银行、教师招聘等在内的招录考试培训。
+    - title: 成公教育
+      logo: images/学习资源/成公教育.ico
+      url: https://www.cgzj.com?from=dy.199908.top
+      description: 【成公教育-公务员培训机构】提供2026国考、省考、事业编等考试公告、考试时间、考试职位表、考试报名、考试大纲、考试成绩、考试试题、笔试与面试辅导等。
+    - title: 稳啦公考
+      logo: images/学习资源/稳啦公考.png
+      url: https://wenlagongkao.com?spm=38986.12.0.1.1&from=dy.199908.top
+      description: 稳啦公考是专注于公职类考试培训的在线教育平台，致力于为考生提供系统化、高效化的备考解决方案。
+    - title: 公考雷达
+      logo: images/学习资源/公考雷达.ico
+      url: https://www.gongkaoleida.com?from=dy.199908.top
+      description: 公考雷达及时捕捉发布全国公职类(公务员、事业单位、教师、医疗、国企、银行、大学生村官、社区工作者等)招考公告和职位资讯,根据个人简历与职位信息精准匹配,锁定每一个好机会。
+    - title: SaDuck
+      logo: images/学习资源/SaDuck.png
+      url: https://saduck.top?from=dy.199908.top
+      description: 一个考公考编知识网站，包含行测、申论、公基、词语查询、行测助手、备考资料等等。
+    - title: 公考沉思路
+      logo: images/学习资源/公考沉思路.png
+      url: https://wcnuh3hc9b93.feishu.cn/wiki/LklIw8YoeiO0R0kbGGFcCi5CnUf?from=dy.199908.top
+      description: 公考沉思录官网是一个专注于公务员考试备考的综合性知识库平台，旨在为考生提供全面、系统的学习资源和备考策略，涵盖行测、申论、事业编、百科等多方面的内容。
+    - title: 公考沉思录
+      logo: images/学习资源/公考沉思录.svg
+      url: https://flowus.cn/share/03feab04-e594-4d92-a475-9ab7cb841a6b?from=dy.199908.top
+      description: 全网最全公考知识库
+    - title: 考途指南
+      logo: images/学习资源/考途指南.svg
+      url: https://pppw1my52v.feishu.cn/wiki/DGtMwJailirOwPk3OBIcTbTCnhg?from=dy.199908.top
+      description: 汇集了多种考试真题资料的在线文档平台，涵盖了公务员、军队文职、事业单位、三支一扶、教师资格等多个领域的考试资料
+    - title: 竹叶数据
+      logo: images/学习资源/竹叶数据.ico
+      url: https://plan.zygwy.cn?from=dy.199908.top
+      description: 公考数据统计、行测高频考点
+    - title: 公考AI技巧资料库
+      logo: images/学习资源/公考AI技巧资料库.png
+      url: https://www.wolai.com/o8beKCWFy2iBTxLftytgXd?from=dy.199908.top
+      description: 一个专注于公务员考试备考的综合性资源平台
+    - title: 公考学习目录
+      logo: images/学习资源/公考学习目录.svg
+      url: https://www.kdocs.cn/l/ctYoDB9lU4o9?from=dy.199908.top
+      description: 公考资料，相关网站等分享
+  - name: 职场考证
+    links:
+    - title: 中国人事考试网
+      logo: images/学习资源/中国人事考试网.png
+      url: http://www.cpta.com.cn?from=dy.199908.top
+      description: 中国人事考试网
+    - title: 中国教师资格网
+      logo: images/学习资源/中国教师资格网.jpg
+      url: https://www.jszg.edu.cn?from=dy.199908.top
+      description: 中国教师资格网官方网站登陆报名入口
+    - title: 中国计算机技术职业资格网
+      logo: images/学习资源/中国计算机技术职业资格网.png
+      url: https://www.ruankao.org.cn?from=dy.199908.top
+      description: 软考官网报名入口网站
+    - title: 中国建造师网
+      logo: images/学习资源/中国建造师网.png
+      url: https://www.coc.gov.cn?from=dy.199908.top
+      description: 住房和城乡建设部执业资格注册中心主办的全国建造师统一管理的网站
+    - title: 中公教育网
+      logo: images/学习资源/中公教育网.png
+      url: https://www.offcn.com?from=dy.199908.top
+      description: 大型的多品类职业教育机构
+    - title: 粉笔网
+      logo: images/学习资源/粉笔网.ico
+      url: https://www.fenbi.com?from=dy.199908.top
+      description: 主打职业教育考试服务
+    - title: 高顿教育
+      logo: images/学习资源/高顿教育.png
+      url: https://www.gaodun.com?from=dy.199908.top
+      description: 在线学会计,CPA,职称,ACCA,CFA,金融,为自己的财经人生加油
+    - title: 新东方网
+      logo: images/学习资源/新东方网.png
+      url: http://www.xdf.cn?from=dy.199908.top
+      description: 会计教师英语留言类培训考试
+    - title: 高途
+      logo: images/学习资源/高途.png
+      url: https://www.gaotu.cn?from=dy.199908.top
+      description: 实用英语、职场、考证、留学、考研、家庭教育、瑜伽等类别
+    - title: 233网校
+      logo: images/学习资源/233网校.ico
+      url: https://www.233.com?from=dy.199908.top
+      description: 233网校提供建筑、金融、职业、财经等4大类多种考试的在线培训、考试资讯、免费题库等考试服务，是拥有20年品牌的一站式学习网站。
+    - title: 中审网校
+      logo: images/学习资源/中审网校.png
+      url: http://www.auditcn.com?from=dy.199908.top
+      description: 审计财会考试培训知名品牌
+    - title: 继教网
+      logo: images/学习资源/继教网.png
+      url: http://www.teacher.com.cn?from=dy.199908.top
+      description: 面向全国中小幼教师及校长（园长）开展学历及非学历培训的大型专业网站
+    - title: 考试吧
+      logo: images/学习资源/考试吧.png
+      url: https://www.exam8.com?from=dy.199908.top
+      description: 专注于为中国考生提供各类考试的全面信息和培训服务
+    - title: 易贤网
+      logo: images/学习资源/易贤网.ico
+      url: https://www.ynpxrz.com?from=dy.199908.top
+      description: 原培训认证网,考试网,人事考试网,招聘网,人才网,报名,成绩查询
+    - title: 考试宝
+      logo: images/学习资源/考试宝.png
+      url: https://www.kaoshibao.com/classify?from=dy.199908.top
+      description: 可以导入题库的在线考试刷题学习平台
+    - title: 公开真题库
+      logo: images/学习资源/公开真题库.png
+      url: https://www.gkzenti.cn?from=dy.199908.top
+      description: 公务员、事业单位、教师资格、软考等考试题库
+    - title: CATTI
+      logo: images/学习资源/CATTI.png
+      url: http://www.catticenter.com?from=dy.199908.top
+      description: CATTI全国翻译专业资格(水平)考试网
+    - title: 全国通信专业技术人员职业水平考试网
+      logo: images/学习资源/全国通信专业技术人员职业水平考试网.png
+      url: http://www.txks.org.cn?from=dy.199908.top
+      description: 全国通信专业技术人员职业水平考试网站
+  - name: 人文历史
+  - name: 外语资源
+  - name: 设计学习
 
 - taxonomy: 生活服务
   icon: fa-chart-bar
@@ -2880,8 +3134,6 @@
   - term: 房屋租售
   - term: 社区论坛
   - term: 二手交易
-  - term: 考公考研
-  - term: 职场考证
   - term: 法律咨询
   - term: 投诉举报
   - term: 快递物流
@@ -3183,174 +3435,6 @@
       logo: images/生活服务/闪小白.png
       url: https://www.shanxiaobai.com?from=dy.199908.top
       description: 主营高品质二手商品、手机回收和苹果手机维修服务
-  - name: 考公考研
-    links:
-    - title: 中国研究生招生信息网
-      logo: images/生活服务/中国研究生招生信息网.png
-      url: https://yz.chsi.com.cn?from=dy.199908.top
-      description: 隶属于教育部的以考研为主题的官方网站
-    - title: 中国教育考试网
-      logo: images/生活服务/中国教育考试网.png
-      url: http://www.neea.edu.cn?from=dy.199908.top
-      description: 教育部考试中心系教育部直属事业单位，主要承担教育考试专项职责任务
-    - title: 中公教育网
-      logo: images/生活服务/中公教育网.png
-      url: https://www.offcn.com?from=dy.199908.top
-      description: 大型的多品类职业教育机构
-    - title: 考研帮
-      logo: images/生活服务/考研帮.png
-      url: https://www.kaoyan.com?from=dy.199908.top
-      description: 考研交流平台和研究生招生信息网络发布平台
-    - title: 中公考研网
-      logo: images/生活服务/中公考研网.jpg
-      url: http://www.kaoyan365.cn?from=dy.199908.top
-      description: 提供考研时间、考研科目、考研复试调剂、考研专业目录及各科复习资料等信息
-    - title: 考研信息网
-      logo: images/生活服务/考研信息网.jpg
-      url: http://www.chinakaoyan.com?from=dy.199908.top
-      description: 为考生提供专业、可靠、贴心的考研资讯
-    - title: 自考365
-      logo: images/生活服务/自考365.png
-      url: https://www.zikao365.com?from=dy.199908.top
-      description: 专注于自学考试的专业网站
-    - title: 考研派
-      logo: images/生活服务/考研派.png
-      url: http://www.okaoyan.com?from=dy.199908.top
-      description: 考研派[考研网]考研网站平台,使命-帮助每位考研人成功，为考研人提供各院校研招网资讯、考研一对一辅导和研究生院考研官网资讯服务，旗下有：考研派之家微信公众号、考研派APP、考研网等
-    - title: 在职研究生招生信息网
-      logo: images/生活服务/在职研究生招生信息网.png
-      url: https://www.eduego.com?from=dy.199908.top
-      description: 提供在职硕士、在职博士、MBA、EMBA等类别的在职研究生招生简章、报考条件、报名时间、报名入口等招生信息，为学员提供全方位的咨询服务。
-    - title: 在职研究生教育信息网
-      logo: images/生活服务/在职研究生教育信息网.png
-      url: https://www.eduei.com?from=dy.199908.top
-      description: 提供免费的在职研究生招生信息，及准确的在职硕士、在职博士、EMBA 等类别的报考条件/时间、招生简章、报名入口/网站、考试科目/学费/专业等在职教育信息。
-    - title: N诺
-      logo: images/生活服务/N诺.png
-      url: https://noobdream.com?from=dy.199908.top
-      description: 计算机考研保研必备神器
-    - title: QZZN论坛
-      logo: images/生活服务/QZZN论坛.png
-      url: https://bbs.qzzn.com?from=dy.199908.top
-      description: 公务员考试论坛,公务员论坛,公考论坛
-    - title: 上岸鸭公考
-      logo: images/生活服务/上岸鸭公考.png
-      url: https://www.gwy.com?from=dy.199908.top
-      description: 公务员考试培训网，上岸鸭公考专注为学员提供包括公务员、事业单位、央国企、商业银行、教师招聘等在内的招录考试培训。
-    - title: 成公教育
-      logo: images/生活服务/成公教育.ico
-      url: https://www.cgzj.com?from=dy.199908.top
-      description: 【成公教育-公务员培训机构】提供2026国考、省考、事业编等考试公告、考试时间、考试职位表、考试报名、考试大纲、考试成绩、考试试题、笔试与面试辅导等。
-    - title: 稳啦公考
-      logo: images/生活服务/稳啦公考.png
-      url: https://wenlagongkao.com?spm=38986.12.0.1.1&from=dy.199908.top
-      description: 稳啦公考是专注于公职类考试培训的在线教育平台，致力于为考生提供系统化、高效化的备考解决方案。
-    - title: 公考雷达
-      logo: images/生活服务/公考雷达.ico
-      url: https://www.gongkaoleida.com?from=dy.199908.top
-      description: 公考雷达及时捕捉发布全国公职类(公务员、事业单位、教师、医疗、国企、银行、大学生村官、社区工作者等)招考公告和职位资讯,根据个人简历与职位信息精准匹配,锁定每一个好机会。
-    - title: SaDuck
-      logo: images/生活服务/SaDuck.png
-      url: https://saduck.top?from=dy.199908.top
-      description: 一个考公考编知识网站，包含行测、申论、公基、词语查询、行测助手、备考资料等等。
-    - title: 公考沉思路
-      logo: images/生活服务/公考沉思路.png
-      url: https://wcnuh3hc9b93.feishu.cn/wiki/LklIw8YoeiO0R0kbGGFcCi5CnUf?from=dy.199908.top
-      description: 公考沉思录官网是一个专注于公务员考试备考的综合性知识库平台，旨在为考生提供全面、系统的学习资源和备考策略，涵盖行测、申论、事业编、百科等多方面的内容。
-    - title: 公考沉思录
-      logo: images/生活服务/公考沉思录.svg
-      url: https://flowus.cn/share/03feab04-e594-4d92-a475-9ab7cb841a6b?from=dy.199908.top
-      description: 全网最全公考知识库
-    - title: 考途指南
-      logo: images/生活服务/考途指南.svg
-      url: https://pppw1my52v.feishu.cn/wiki/DGtMwJailirOwPk3OBIcTbTCnhg?from=dy.199908.top
-      description: 汇集了多种考试真题资料的在线文档平台，涵盖了公务员、军队文职、事业单位、三支一扶、教师资格等多个领域的考试资料
-    - title: 竹叶数据
-      logo: images/生活服务/竹叶数据.ico
-      url: https://plan.zygwy.cn?from=dy.199908.top
-      description: 公考数据统计、行测高频考点
-    - title: 公考AI技巧资料库
-      logo: images/生活服务/公考AI技巧资料库.png
-      url: https://www.wolai.com/o8beKCWFy2iBTxLftytgXd?from=dy.199908.top
-      description: 一个专注于公务员考试备考的综合性资源平台
-    - title: 公考学习目录
-      logo: images/生活服务/公考学习目录.svg
-      url: https://www.kdocs.cn/l/ctYoDB9lU4o9?from=dy.199908.top
-      description: 公考资料，相关网站等分享
-  - name: 职场考证
-    links:
-    - title: 中国人事考试网
-      logo: images/生活服务/中国人事考试网.png
-      url: http://www.cpta.com.cn?from=dy.199908.top
-      description: 中国人事考试网
-    - title: 中国教师资格网
-      logo: images/生活服务/中国教师资格网.jpg
-      url: https://www.jszg.edu.cn?from=dy.199908.top
-      description: 中国教师资格网官方网站登陆报名入口
-    - title: 中国计算机技术职业资格网
-      logo: images/生活服务/中国计算机技术职业资格网.png
-      url: https://www.ruankao.org.cn?from=dy.199908.top
-      description: 软考官网报名入口网站
-    - title: 中国建造师网
-      logo: images/生活服务/中国建造师网.png
-      url: https://www.coc.gov.cn?from=dy.199908.top
-      description: 住房和城乡建设部执业资格注册中心主办的全国建造师统一管理的网站
-    - title: 中公教育网
-      logo: images/生活服务/中公教育网.png
-      url: https://www.offcn.com?from=dy.199908.top
-      description: 大型的多品类职业教育机构
-    - title: 粉笔网
-      logo: images/生活服务/粉笔网.ico
-      url: https://www.fenbi.com?from=dy.199908.top
-      description: 主打职业教育考试服务
-    - title: 高顿教育
-      logo: images/生活服务/高顿教育.png
-      url: https://www.gaodun.com?from=dy.199908.top
-      description: 在线学会计,CPA,职称,ACCA,CFA,金融,为自己的财经人生加油
-    - title: 新东方网
-      logo: images/生活服务/新东方网.png
-      url: http://www.xdf.cn?from=dy.199908.top
-      description: 会计教师英语留言类培训考试
-    - title: 高途
-      logo: images/生活服务/高途.png
-      url: https://www.gaotu.cn?from=dy.199908.top
-      description: 实用英语、职场、考证、留学、考研、家庭教育、瑜伽等类别
-    - title: 233网校
-      logo: images/生活服务/233网校.ico
-      url: https://www.233.com?from=dy.199908.top
-      description: 233网校提供建筑、金融、职业、财经等4大类多种考试的在线培训、考试资讯、免费题库等考试服务，是拥有20年品牌的一站式学习网站。
-    - title: 中审网校
-      logo: images/生活服务/中审网校.png
-      url: http://www.auditcn.com?from=dy.199908.top
-      description: 审计财会考试培训知名品牌
-    - title: 继教网
-      logo: images/生活服务/继教网.png
-      url: http://www.teacher.com.cn?from=dy.199908.top
-      description: 面向全国中小幼教师及校长（园长）开展学历及非学历培训的大型专业网站
-    - title: 考试吧
-      logo: images/生活服务/考试吧.png
-      url: https://www.exam8.com?from=dy.199908.top
-      description: 专注于为中国考生提供各类考试的全面信息和培训服务
-    - title: 易贤网
-      logo: images/生活服务/易贤网.ico
-      url: https://www.ynpxrz.com?from=dy.199908.top
-      description: 原培训认证网,考试网,人事考试网,招聘网,人才网,报名,成绩查询
-    - title: 考试宝
-      logo: images/生活服务/考试宝.png
-      url: https://www.kaoshibao.com/classify?from=dy.199908.top
-      description: 可以导入题库的在线考试刷题学习平台
-    - title: 公开真题库
-      logo: images/生活服务/公开真题库.png
-      url: https://www.gkzenti.cn?from=dy.199908.top
-      description: 公务员、事业单位、教师资格、软考等考试题库
-    - title: CATTI
-      logo: images/生活服务/CATTI.png
-      url: http://www.catticenter.com?from=dy.199908.top
-      description: CATTI全国翻译专业资格(水平)考试网
-    - title: 全国通信专业技术人员职业水平考试网
-      logo: images/生活服务/全国通信专业技术人员职业水平考试网.png
-      url: http://www.txks.org.cn?from=dy.199908.top
-      description: 全国通信专业技术人员职业水平考试网站
   - name: 法律咨询
     links:
     - title: 中国法律服务网
@@ -4184,13 +4268,13 @@
       url: https://mms.pinduoduo.com?from=dy.199908.top
       description: 拼多多平台的商家数据研究工具，提供销售数据和用户行为分析
     - title: 新榜
-      logo: images/新媒运营/新榜.png
+      logo: images/数据研究/新榜.ico
       url: https://www.newrank.cn?from=dy.199908.top
-      description: 专注于自媒体数据研究和排行，提供公众号、微博等平台的内容创作者排行榜
+      description: 新媒体,找新榜
     - title: 巨量算数
-      logo: images/数据研究/巨量算数.svg
+      logo: images/数据研究/巨量算数.png
       url: https://trendinsight.oceanengine.com?from=dy.199908.top
-      description: 字节跳动旗下的数据研究平台，提供抖音、今日头条等平台的数据洞察
+      description: 解析内容风向，解码营销未来
     - title: 西瓜数据
       logo: images/新媒运营/西瓜数据.png
       url: https://data.xiguaji.com?from=dy.199908.top
@@ -4211,12 +4295,152 @@
       logo: images/数据研究/CBNData.jpg
       url: https://www.cbndata.com?from=dy.199908.top
       description: 第一财经商业数据中心
+    - title: 5118营销大数据
+      logo: images/数据研究/5118营销大数据.png
+      url: http://www.5118.com?promote=A54BC2?from=dy.199908.top
+      description: 提供关键词挖掘,行业词库,站群权重监控,关键词排名监控,指数词,流量词挖掘工具等排名工作人员必备百度站长工具平台
+    - title: 极致了数据
+      logo: images/数据研究/极致了数据.ico
+      url: https://www.jzl.com?from=dy.199908.top
+      description: 极致了数据——国内专业的高性价比服务平台，提供微信公众号,抖音、小红书、微博、视频号、知乎、头条等全媒体平台的数据洞察、分析、监控，及数据定制服务。
+    - title: SEMrush
+      logo: images/数据研究/SEMrush.png
+      url: https://zh.semrush.com?from=dy.199908.top
+      description: SEMrush是一款功能强大的在线营销和SEO分析工具，旨在帮助营销人员、网站所有者和SEO专家优化其在线表现
+    - title: 千瓜数据
+      logo: images/数据研究/千瓜数据.png
+      url: https://www.qian-gua.com?from=dy.199908.top
+      description: 千瓜数据是一款专注于小红书平台的数据分析工具，旨在为品牌和营销人员提供全面、精准的市场洞察和数据支持
+    - title: Tabcut特看数据
+      logo: images/数据研究/Tabcut特看数据.ico
+      url: https://www.tabcut.com/zh-CN?from=dy.199908.top
+      description: 一款服务全球电商的第三方TikTok数据分析平台，提供TikTok大盘趋势、选品数据分析、达人数据挖掘等功能
+    - title: 嘀嗒狗
+      logo: images/数据研究/嘀嗒狗.png
+      url: https://didadog.com?from=dy.199908.top
+      description: 为跨境卖家提供TikTok等海外短视频平台的数据服务，包括数据选品、广告投放、社交媒体消费体验分析等
+    - title: TikStar
+      logo: images/数据研究/TikStar.ico
+      url: https://www.tikstar.com/zh?from=dy.199908.top
+      description: TikStar是一款专为跨境电商行业设计的数据分析平台，旨在帮助品牌广告主、小店卖家和TikTok达人实现商业成功
+    - title: TikBuddy
+      logo: images/数据研究/TikBuddy.png
+      url: https://tikbuddy.com/zh?from=dy.199908.top
+      description: TikBuddy 是一个专为 TikTok 用户设计的在线分析、管理和营销解决方案平台。它提供免费的TikTok分析工具
+    - title: 新抖
+      logo: images/数据研究/新抖.ico
+      url: https://xd.newrank.cn?from=dy.199908.top
+      description: 新榜公司推出的一款专注于抖音短视频和直播电商的数据分析工具
+    - title: 抖查查
+      logo: images/数据研究/抖查查.png
+      url: https://www.douchacha.com?from=dy.199908.top
+      description: 短视频直播带货电商大数据分析平台
+    - title: 火烧云数据
+      logo: images/数据研究/火烧云数据.png
+      url: https://www.hsydata.com?from=dy.199908.top
+      description: B站数据分析平台
+    - title: 新红
+      logo: images/数据研究/新红.png
+      url: https://xh.newrank.cn?from=dy.199908.top
+      description: 新榜有数旗下小红书数据工具
+    - title: 考古加数据
+      logo: images/数据研究/考古加数据.png
+      url: https://www.kaogujia.com?from=dy.199908.top
+      description: 抖音直播数据分析平台
+    - title: 友望数据
+      logo: images/数据研究/友望数据.png
+      url: https://www.youwant.cn?from=dy.199908.top
+      description: 视频号数据分析平台
+    - title: 灰豚数据
+      logo: images/数据研究/灰豚数据.png
+      url: https://www.huitun.com?from=dy.199908.top
+      description: 短视频,直播电商数据分析平台
+    - title: iFans
+      logo: images/数据研究/iFans.png
+      url: https://ifans.i-click.cn?from=dy.199908.top
+      description: 专业的KOL营销价值分析平台
+    - title: 达多多数据
+      logo: images/数据研究/达多多数据.png
+      url: https://www.daduoduo.com?from=dy.199908.top
+      description: 抖音直播电商带货数据分析报告查看工具,免费查询抖音直播、短视频、抖店等抖音数据
+    - title: 蝉小红
+      logo: images/数据研究/蝉小红.ico
+      url: https://www.chanxiaohong.com?from=dy.199908.top
+      description: 专业提供小红书数据挖掘分析服务
+    - title: 云合数据
+      logo: images/数据研究/云合数据.png
+      url: https://www.enlightent.cn?from=dy.199908.top
+      description: 泛娱乐大数据服务商
+    - title: 骨朵数据
+      logo: images/数据研究/骨朵数据.png
+      url: http://guduodata.com?from=dy.199908.top
+      description: 网络影视数据分析平台
+    - title: 中国视听大数据
+      logo: images/数据研究/中国视听大数据.png
+      url: http://www.cavbd.cn?from=dy.199908.top
+      description: 收集和分析全国范围内的视听节目收视数据
+    - title: 猫眼专业版-实时票房
+      logo: images/数据研究/猫眼专业版_实时票房.png
+      url: https://piaofang.maoyan.com?from=dy.199908.top
+      description: 电影电视剧票房收视率热度排行榜查询
+    - title: 酷云eye
+      logo: images/数据研究/酷云eye.png
+      url: https://www.ky.live?from=dy.199908.top
+      description: 收视数据实时查询,实时收视率查询
+    - title: 星榜
+      logo: images/数据研究/星榜.png
+      url: https://www.starrank.com?from=dy.199908.top
+      description: 提供短视频域内容营销和电商服务整合解决方案
+    - title: 神策数据
+      logo: images/数据研究/神策数据.png
+      url: https://www.sensorsdata.cn?from=dy.199908.top
+      description: 大数据分析与营销科技解决方案服务商
+    - title: 微热点
+      logo: images/数据研究/微热点.png
+      url: https://www.wrd.cn?from=dy.199908.top
+      description: 媒体传播大数据应用平台
+    - title: 次幂数据
+      logo: images/数据研究/次幂数据.png
+      url: https://www.cimidata.com?from=dy.199908.top
+      description: 提供公众号榜单，发文监控，数据采集和分析，定制服务，支持微信文章搜索，爆款文章素材,历史文章查询等
+    - title: 果集
+      logo: images/数据研究/果集.png
+      url: http://www.guoji.pro?from=dy.199908.top
+      description: 社交媒体全链路服务商
+    - title: 热浪数据
+      logo: images/数据研究/热浪数据.png
+      url: https://www.relangdata.cn?from=dy.199908.top
+      description: 短视频直播电商一站式数据服务平台
+    - title: 七麦数据
+      logo: images/数据研究/七麦数据.ico
+      url: https://www.qimai.cn?from=dy.199908.top
+      description: 专业移动产品商业分析平台-ASO-ASM优化
+    - title: 艺恩娱数
+      logo: images/数据研究/艺恩娱数.ico
+      url: https://www.endata.com.cn/BoxOffice?from=dy.199908.top
+      description: 电影票房,电影排行
+    - title: 蝉妈妈
+      logo: images/数据研究/蝉妈妈.png
+      url: https://www.chanmama.com?from=dy.199908.top
+      description: 抖音短视频小红书电商的数据分析服务平台
+    - title: 飞常准大数据
+      logo: images/数据研究/飞常准大数据.png
+      url: https://data.variflight.com?from=dy.199908.top
+      description: 专注于航空行业的数据挖掘和分析，致力于利用大数据和人工智能技术提供全面的民航出行服务
+    - title: 壁虎看看
+      logo: images/数据研究/壁虎看看.png
+      url: https://www.bihukankan.com?from=dy.199908.top
+      description: 壁虎看看是一个专注于直播电商领域的专业数据服务平台，旨在为商家和主播提供全面的数据分析和优化工具。
+    - title: 听涛数据
+      logo: images/数据研究/听涛数据.png
+      url: https://tingtalks.com?from=dy.199908.top
+      description: 听涛数据是一家专注于TikTok直播数据分析的平台，旨在为商家、品牌和达人提供智能化的决策建议。
   - name: 热点指数
     links:
     - title: 百度指数
-      logo: images/新媒运营/百度指数.png
+      logo: images/数据研究/百度指数.png
       url: https://index.baidu.com?from=dy.199908.top
-      description: 基于百度海量网民行为数据，科学分析并洞察互联网趋势的数据研究平台
+      description: 这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。
     - title: 微博指数
       logo: images/新媒运营/微博指数.png
       url: https://data.weibo.com/index?from=dy.199908.top
@@ -4234,25 +4458,81 @@
       url: https://top.baidu.com?from=dy.199908.top
       description: 百度搜索风云榜，展示百度搜索热门排行榜单，反映当下社会热点
     - title: 微博热搜
-      logo: images/新媒运营/微博热搜.png
-      url: https://s.weibo.com/top/summary?from=dy.199908.top
-      description: 新浪微博热搜榜，实时展示微博平台的热门话题和事件
+      logo: images/数据研究/微博热搜.png
+      url: https://s.weibo.com/top/summary?cate=homepage?from=dy.199908.top
+      description: 新浪微博搜索-热搜榜
     - title: 知乎热榜
-      logo: images/新媒运营/知乎热榜.png
-      url: https://www.zhihu.com/hot?from=dy.199908.top
-      description: 知乎平台当前的热门问题和话题讨论
+      logo: images/数据研究/知乎热榜.png
+      url: https://www.zhihu.com/billboard?from=dy.199908.top
+      description: 实时更新并展示当前最热门的话题和问题
     - title: 抖音热点榜
-      logo: images/电商辅助/抖音.jpg
+      logo: images/数据研究/抖音.jpg
       url: https://www.douyin.com/discover?from=dy.199908.top
       description: 抖音平台的热门视频和话题排行
     - title: 热点聚合
-      logo: images/新媒运营/数据研究.png
+      logo: images/数据研究/热点聚合.png
       url: https://tophub.today?from=dy.199908.top
-      description: 各大网站热点聚合，实时热搜榜单
+      description: 国内外各大热门网站的聚合信息、热榜、榜单
     - title: AI今日热榜
-      logo: images/新媒运营/数据研究.png
+      logo: images/数据研究/AI今日热榜.png
       url: https://aihot.today?from=dy.199908.top
-      description: AI今日热榜汇集全球顶尖来源的最新AI新闻、研究和趋势
+      description: AI今日热榜汇集全球顶尖来源的最新AI新闻、研究和趋势，快速追踪信息来源，为您节省宝贵时间。
+    - title: 360趋势
+      logo: images/数据研究/360趋势.png
+      url: https://trends.so.com?from=dy.199908.top
+      description: 可通过搜索关键词，快速获取热度趋势、理解用户真实需求、了解关键字搜索的人群属性。
+    - title: 爱奇艺风云榜
+      logo: images/数据研究/爱奇艺风云榜.png
+      url: https://www.iqiyi.com/ranks1/home?from=dy.199908.top
+      description: 监控热度趋势，分析视频看点，洞察受众兴趣
+    - title: 移动观象台
+      logo: images/数据研究/移动观象台.png
+      url: http://mi.talkingdata.com?from=dy.199908.top
+      description: 应用排行、公众号排行、App Store排行、终端指数、数据报告、市场洞察，用户画像
+    - title: 哔哩哔哩排行榜
+      logo: images/数据研究/哔哩哔哩排行榜.png
+      url: https://www.bilibili.com/v/popular/rank/all?from=dy.199908.top
+      description: 哔哩哔哩排行榜
+    - title: 品牌网
+      logo: images/数据研究/品牌网.png
+      url: https://www.chinapp.com?from=dy.199908.top
+      description: 品牌网始终耕耘于品牌服务领域，品牌大数据一站式服务平台，也是查品牌，找品牌的首选平台，助力企业品牌扬帆远航
+    - title: 排行榜123网
+      logo: images/数据研究/排行榜123网.png
+      url: https://www.phb123.com?from=dy.199908.top
+      description: 分享十大、热门、人气排行榜,品牌排行榜
+    - title: 新榜排名
+      logo: images/数据研究/新榜排名.svg
+      url: https://www.newrank.cn/public/info/list.html?from=dy.199908.top
+      description: 各类自媒体排行榜单
+    - title: 盖得排行
+      logo: images/数据研究/盖得排行.png
+      url: https://www.guiderank-app.com/ranking?from=dy.199908.top
+      description: 盖得排行通过广泛收集全球最专业的消费测评数据，结合独立调研测评，发布公正的消费排行榜
+    - title: 十大品牌网
+      logo: images/数据研究/十大品牌网.png
+      url: https://www.cnpp.cn?from=dy.199908.top
+      description: 品牌排行榜，品牌网门户
+    - title: 新浪汽车排行榜
+      logo: images/数据研究/新浪汽车排行榜.jpg
+      url: https://auto.sina.com.cn/zhishu?from=dy.199908.top
+      description: 反映网友关于品牌和车型的热度、销量、网友口碑等的综合评价
+    - title: 买购网
+      logo: images/数据研究/买购网.jpg
+      url: https://www.maigoo.com?from=dy.199908.top
+      description: 知识榜,品牌榜,查排行,品牌十大与知识生活十大排行榜门户
+    - title: 胡润百富榜
+      logo: images/数据研究/胡润百富榜.png
+      url: https://www.hurun.net?from=dy.199908.top
+      description: 全球富豪榜,世界500强,富豪榜查询
+    - title: 软科
+      logo: images/数据研究/软科.png
+      url: https://www.shanghairanking.cn?from=dy.199908.top
+      description: 最新中国/世界/分专业的大学排名
+    - title: 清博大数据
+      logo: images/数据研究/清博大数据.ico
+      url: http://home.gsdata.cn?from=dy.199908.top
+      description: 融媒体、舆论和产业营销大数据服务者
     - title: 阿里指数
       logo: images/新媒运营/阿里指数.png
       url: https://index.1688.com?from=dy.199908.top
@@ -4327,6 +4607,22 @@
       logo: images/数据研究/民航资源网.png
       url: http://www.carnoc.com?from=dy.199908.top
       description: 提供最新的民航新闻、资料、招聘、社区、博客、机场资料库等内容
+    - title: 青塔网
+      logo: images/数据研究/青塔网.png
+      url: https://www.cingta.com?from=dy.199908.top
+      description: 青塔网是一个专注于高等教育领域数据分享与分析的平台，专注于高校权威数据监测、查询与深度分析应用，助力数据驱动、科学决策
+    - title: 药智网
+      logo: images/数据研究/药智网.png
+      url: https://www.yaozh.com?from=dy.199908.top
+      description: 健康产业大数据服务与赋能平台
+    - title: 健康界
+      logo: images/数据研究/健康界.png
+      url: https://rank.cn-healthcare.com?from=dy.199908.top
+      description: 一个专注于医疗健康领域的综合性信息平台
+    - title: 中国电影数据网
+      logo: images/数据研究/中国电影数据网.png
+      url: https://www.zgdypw.cn?from=dy.199908.top
+      description: 为电影行业提供政策法规、票房数据以及综合信息的平台
   - name: 市场咨询
     links:
     - title: mckinsey麦肯锡
@@ -4365,12 +4661,48 @@
       logo: images/数据研究/比达网.png
       url: http://www.bigdata-research.cn?from=dy.199908.top
       description: 专注移动互联网行业的市场研究和数据交流平台
+    - title: topklout克劳锐
+      logo: images/数据研究/topklout克劳锐.svg
+      url: https://www.topklout.com?from=dy.199908.top
+      description: TopKlout克劳锐是一家专注于社交媒体影响力评估和红人经济生态的第三方权威机构，提供多平台自媒体数据分析
+    - title: 数英指数
+      logo: images/数据研究/数英指数.ico
+      url: https://www.digitaling.com/dindex?from=dy.199908.top
+      description: 数英指数通过综合分析入驻近万家企业账号的活跃度、项目数量、项目品质、人气以及行业认可度等多维度数据
+    - title: TopKlout
+      logo: images/数据研究/TopKlout.svg
+      url: https://www.topklout.com?from=dy.199908.top
+      description: 专注于新媒体价值排行和版权经济管理的平台
+    - title: 数说故事
+      logo: images/数据研究/数说故事.png
+      url: https://www.datastory.com.cn?from=dy.199908.top
+      description: 大数据解决方案提供商，专注于社媒营销数智化、大数据营销、数字化转型和营销数字化的人工智能公司
+    - title: 磁流体
+      logo: images/数据研究/磁流体.png
+      url: https://www.ciliuti.com?from=dy.199908.top
+      description: 热点监控,舆情监控,问答营销,内容采集等
+    - title: 新浪舆情通
+      logo: images/数据研究/新浪舆情通.png
+      url: https://www.yqt365.com?from=dy.199908.top
+      description: 一款基于互联网信息聚合、文本挖掘和智能检索等技术的数据智能软件
   - name: 政府数据
     links:
     - title: 国家数据
       logo: images/数据研究/国家数据.jpg
       url: https://data.stats.gov.cn?from=dy.199908.top
       description: 国家统计局网站官网
+    - title: 国家统计局
+      logo: images/数据研究/国家统计局.png
+      url: http://www.stats.gov.cn?from=dy.199908.top
+      description: 聚合了国内各个领域最权威的统计数据
+    - title: 地铁数据库
+      logo: images/数据研究/地铁数据库.png
+      url: https://metrodb.org?from=dy.199908.top
+      description: 全国各个城市的地铁客流量在线查询工具
+    - title: 义乌·中国小商品指数
+      logo: images/数据研究/义乌_中国小商品指数.png
+      url: https://www.ywindex.com?from=dy.199908.top
+      description: 小商品价格指数和小商品市场景气指数，以及若干单独监测指标指数
     - title: 中国信息通信研究院
       logo: images/数据研究/中国信息通信研究院.png
       url: http://www.caict.ac.cn?from=dy.199908.top
@@ -4479,6 +4811,18 @@
       logo: images/数据研究/京东大数据研究院.png
       url: https://research.jd.com?from=dy.199908.top
       description: 专注于电商趋势、人群研究和热点观察等领域的大数据分析和报告
+    - title: 财富500强情报中心
+      logo: images/数据研究/财富500强情报中心.png
+      url: https://www.caifuzhongwen.com?from=dy.199908.top
+      description: 中国/美国/世界500强完整榜单和最新全球公司排名
+    - title: 福布斯榜单
+      logo: images/数据研究/福布斯榜单.png
+      url: https://www.forbeschina.com/lists?from=dy.199908.top
+      description: 福布斯榜单查询
+    - title: 死亡公司公墓
+      logo: images/数据研究/死亡公司公墓.png
+      url: https://www.itjuzi.com/deathCompany?from=dy.199908.top
+      description: 新经济死亡公司数据库
   - name: 网站分析
     links:
     - title: Google Analytics
@@ -4493,14 +4837,22 @@
       logo: images/新媒运营/GrowingIO.png
       url: https://www.growingio.com?from=dy.199908.top
       description: 提供网站和移动应用的用户行为分析和增长分析服务
-    - title: SimilarWeb
-      logo: images/新媒运营/SimilarWeb.png
-      url: https://www.similarweb.com?from=dy.199908.top
-      description: 提供网站流量分析和竞争情报的工具，可以查看网站访问量和用户来源
+    - title: Similarweb
+      logo: images/数据研究/Similarweb.png
+      url: https://www.similarweb.com/zh?from=dy.199908.top
+      description: 检查并分析任何网站
     - title: 友盟+
       logo: images/新媒运营/友盟.png
       url: https://www.umeng.com?from=dy.199908.top
       description: 阿里巴巴旗下的移动应用统计分析平台
+    - title: Clarity
+      logo: images/数据研究/Clarity.ico
+      url: https://clarity.microsoft.com?from=dy.199908.top
+      description: Microsoft Clarity 是一款由微软开发的免费网站分析工具，旨在帮助用户深入了解网站用户行为
+    - title: Search Suggest Pro
+      logo: images/数据研究/Search_Suggest_Pro.png
+      url: https://dropdown.top?from=dy.199908.top
+      description: Search Suggest Pro-多平台关键词研究工具，一站式查看并导出 Google、Bing、百度等搜索引擎的搜索建议，帮助您进行关键词研究和内容优化
     - title: 阿里云研究院
       logo: images/数据研究/阿里云研究院.png
       url: http://www.aliresearch.com/cn/index?from=dy.199908.top
