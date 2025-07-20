@@ -2553,10 +2553,7 @@
       logo: images/影音娱乐/夸克盘搜.png
       url: https://www.panso.xyz?from=dy.199908.top
       description: 一个专门针对夸克网盘资源的搜索引擎
-    - title: 好搜短剧
-      logo: images/影音娱乐/好搜短剧.png
-      url: https://www.haoso.net?from=dy.199908.top
-      description: 免费的短剧资源搜索平台,专注于提供短剧,短视频等资源的网盘搜索服务
+
   - name: 体育直播
     links:
     - title: CCTV-5体育频道
@@ -4657,10 +4654,6 @@
       logo: images/数据研究/易观千帆.png
       url: https://www.qianfan.tech?from=dy.199908.top
       description: 移动互联网产品竞争分析
-    - title: 月狐数据
-      logo: images/数据研究/月狐数据.png
-      url: https://www.moonfox.cn?from=dy.199908.top
-      description: 全场景数据洞察与分析服务专家
     - title: CBNData
       logo: images/数据研究/CBNData.jpg
       url: https://www.cbndata.com?from=dy.199908.top
@@ -4669,34 +4662,10 @@
       logo: images/数据研究/5118营销大数据.png
       url: http://www.5118.com?promote=A54BC2?from=dy.199908.top
       description: 提供关键词挖掘,行业词库,站群权重监控,关键词排名监控,指数词,流量词挖掘工具等排名工作人员必备百度站长工具平台
-    - title: 极致了数据
-      logo: images/数据研究/极致了数据.ico
-      url: https://www.jzl.com?from=dy.199908.top
-      description: 极致了数据——国内专业的高性价比服务平台，提供微信公众号,抖音、小红书、微博、视频号、知乎、头条等全媒体平台的数据洞察、分析、监控，及数据定制服务。
-    - title: SEMrush
-      logo: images/数据研究/SEMrush.png
-      url: https://zh.semrush.com?from=dy.199908.top
-      description: SEMrush是一款功能强大的在线营销和SEO分析工具，旨在帮助营销人员、网站所有者和SEO专家优化其在线表现
     - title: 千瓜数据
       logo: images/数据研究/千瓜数据.png
       url: https://www.qian-gua.com?from=dy.199908.top
       description: 千瓜数据是一款专注于小红书平台的数据分析工具，旨在为品牌和营销人员提供全面、精准的市场洞察和数据支持
-    - title: Tabcut特看数据
-      logo: images/数据研究/Tabcut特看数据.ico
-      url: https://www.tabcut.com/zh-CN?from=dy.199908.top
-      description: 一款服务全球电商的第三方TikTok数据分析平台，提供TikTok大盘趋势、选品数据分析、达人数据挖掘等功能
-    - title: 嘀嗒狗
-      logo: images/数据研究/嘀嗒狗.png
-      url: https://didadog.com?from=dy.199908.top
-      description: 为跨境卖家提供TikTok等海外短视频平台的数据服务，包括数据选品、广告投放、社交媒体消费体验分析等
-    - title: TikStar
-      logo: images/数据研究/TikStar.ico
-      url: https://www.tikstar.com/zh?from=dy.199908.top
-      description: TikStar是一款专为跨境电商行业设计的数据分析平台，旨在帮助品牌广告主、小店卖家和TikTok达人实现商业成功
-    - title: TikBuddy
-      logo: images/数据研究/TikBuddy.png
-      url: https://tikbuddy.com/zh?from=dy.199908.top
-      description: TikBuddy 是一个专为 TikTok 用户设计的在线分析、管理和营销解决方案平台。它提供免费的TikTok分析工具
     - title: 新抖
       logo: images/数据研究/新抖.ico
       url: https://xd.newrank.cn?from=dy.199908.top
@@ -4705,38 +4674,34 @@
       logo: images/数据研究/抖查查.png
       url: https://www.douchacha.com?from=dy.199908.top
       description: 短视频直播带货电商大数据分析平台
-    - title: 火烧云数据
-      logo: images/数据研究/火烧云数据.png
-      url: https://www.hsydata.com?from=dy.199908.top
-      description: B站数据分析平台
     - title: 新红
       logo: images/数据研究/新红.png
       url: https://xh.newrank.cn?from=dy.199908.top
       description: 新榜有数旗下小红书数据工具
-    - title: 考古加数据
-      logo: images/数据研究/考古加数据.png
-      url: https://www.kaogujia.com?from=dy.199908.top
-      description: 抖音直播数据分析平台
-    - title: 友望数据
-      logo: images/数据研究/友望数据.png
-      url: https://www.youwant.cn?from=dy.199908.top
-      description: 视频号数据分析平台
-    - title: 灰豚数据
-      logo: images/数据研究/灰豚数据.png
-      url: https://www.huitun.com?from=dy.199908.top
-      description: 短视频,直播电商数据分析平台
-    - title: iFans
-      logo: images/数据研究/iFans.png
-      url: https://ifans.i-click.cn?from=dy.199908.top
-      description: 专业的KOL营销价值分析平台
-    - title: 达多多数据
-      logo: images/数据研究/达多多数据.png
-      url: https://www.daduoduo.com?from=dy.199908.top
-      description: 抖音直播电商带货数据分析报告查看工具,免费查询抖音直播、短视频、抖店等抖音数据
-    - title: 蝉小红
-      logo: images/数据研究/蝉小红.ico
-      url: https://www.chanxiaohong.com?from=dy.199908.top
-      description: 专业提供小红书数据挖掘分析服务
+    - title: 蝉妈妈
+      logo: images/数据研究/蝉妈妈.png
+      url: https://www.chanmama.com?from=dy.199908.top
+      description: 抖音短视频小红书电商的数据分析服务平台
+    - title: 七麦数据
+      logo: images/数据研究/七麦数据.ico
+      url: https://www.qimai.cn?from=dy.199908.top
+      description: 专业移动产品商业分析平台-ASO-ASM优化
+    - title: 神策数据
+      logo: images/数据研究/神策数据.png
+      url: https://www.sensorsdata.cn?from=dy.199908.top
+      description: 大数据分析与营销科技解决方案服务商
+    - title: 微热点
+      logo: images/数据研究/微热点.png
+      url: https://www.wrd.cn?from=dy.199908.top
+      description: 媒体传播大数据应用平台
+    - title: 猫眼专业版-实时票房
+      logo: images/数据研究/猫眼专业版_实时票房.png
+      url: https://piaofang.maoyan.com?from=dy.199908.top
+      description: 电影电视剧票房收视率热度排行榜查询
+    - title: 艺恩娱数
+      logo: images/数据研究/艺恩娱数.ico
+      url: https://www.endata.com.cn/BoxOffice?from=dy.199908.top
+      description: 电影票房,电影排行
     - title: 云合数据
       logo: images/数据研究/云合数据.png
       url: https://www.enlightent.cn?from=dy.199908.top
@@ -4749,62 +4714,10 @@
       logo: images/数据研究/中国视听大数据.png
       url: http://www.cavbd.cn?from=dy.199908.top
       description: 收集和分析全国范围内的视听节目收视数据
-    - title: 猫眼专业版-实时票房
-      logo: images/数据研究/猫眼专业版_实时票房.png
-      url: https://piaofang.maoyan.com?from=dy.199908.top
-      description: 电影电视剧票房收视率热度排行榜查询
     - title: 酷云eye
       logo: images/数据研究/酷云eye.png
       url: https://www.ky.live?from=dy.199908.top
       description: 收视数据实时查询,实时收视率查询
-    - title: 星榜
-      logo: images/数据研究/星榜.png
-      url: https://www.starrank.com?from=dy.199908.top
-      description: 提供短视频域内容营销和电商服务整合解决方案
-    - title: 神策数据
-      logo: images/数据研究/神策数据.png
-      url: https://www.sensorsdata.cn?from=dy.199908.top
-      description: 大数据分析与营销科技解决方案服务商
-    - title: 微热点
-      logo: images/数据研究/微热点.png
-      url: https://www.wrd.cn?from=dy.199908.top
-      description: 媒体传播大数据应用平台
-    - title: 次幂数据
-      logo: images/数据研究/次幂数据.png
-      url: https://www.cimidata.com?from=dy.199908.top
-      description: 提供公众号榜单，发文监控，数据采集和分析，定制服务，支持微信文章搜索，爆款文章素材,历史文章查询等
-    - title: 果集
-      logo: images/数据研究/果集.png
-      url: http://www.guoji.pro?from=dy.199908.top
-      description: 社交媒体全链路服务商
-    - title: 热浪数据
-      logo: images/数据研究/热浪数据.png
-      url: https://www.relangdata.cn?from=dy.199908.top
-      description: 短视频直播电商一站式数据服务平台
-    - title: 七麦数据
-      logo: images/数据研究/七麦数据.ico
-      url: https://www.qimai.cn?from=dy.199908.top
-      description: 专业移动产品商业分析平台-ASO-ASM优化
-    - title: 艺恩娱数
-      logo: images/数据研究/艺恩娱数.ico
-      url: https://www.endata.com.cn/BoxOffice?from=dy.199908.top
-      description: 电影票房,电影排行
-    - title: 蝉妈妈
-      logo: images/数据研究/蝉妈妈.png
-      url: https://www.chanmama.com?from=dy.199908.top
-      description: 抖音短视频小红书电商的数据分析服务平台
-    - title: 飞常准大数据
-      logo: images/数据研究/飞常准大数据.png
-      url: https://data.variflight.com?from=dy.199908.top
-      description: 专注于航空行业的数据挖掘和分析，致力于利用大数据和人工智能技术提供全面的民航出行服务
-    - title: 壁虎看看
-      logo: images/数据研究/壁虎看看.png
-      url: https://www.bihukankan.com?from=dy.199908.top
-      description: 壁虎看看是一个专注于直播电商领域的专业数据服务平台，旨在为商家和主播提供全面的数据分析和优化工具。
-    - title: 听涛数据
-      logo: images/数据研究/听涛数据.png
-      url: https://tingtalks.com?from=dy.199908.top
-      description: 听涛数据是一家专注于TikTok直播数据分析的平台，旨在为商家、品牌和达人提供智能化的决策建议。
   - name: 热点指数
     links:
     - title: 百度指数
@@ -4843,10 +4756,6 @@
       logo: images/数据研究/热点聚合.png
       url: https://tophub.today?from=dy.199908.top
       description: 国内外各大热门网站的聚合信息、热榜、榜单
-    - title: AI今日热榜
-      logo: images/数据研究/AI今日热榜.png
-      url: https://aihot.today?from=dy.199908.top
-      description: AI今日热榜汇集全球顶尖来源的最新AI新闻、研究和趋势，快速追踪信息来源，为您节省宝贵时间。
     - title: 360趋势
       logo: images/数据研究/360趋势.png
       url: https://trends.so.com?from=dy.199908.top
@@ -4855,42 +4764,30 @@
       logo: images/数据研究/爱奇艺风云榜.png
       url: https://www.iqiyi.com/ranks1/home?from=dy.199908.top
       description: 监控热度趋势，分析视频看点，洞察受众兴趣
-    - title: 移动观象台
-      logo: images/数据研究/移动观象台.png
-      url: http://mi.talkingdata.com?from=dy.199908.top
-      description: 应用排行、公众号排行、App Store排行、终端指数、数据报告、市场洞察，用户画像
     - title: 哔哩哔哩排行榜
       logo: images/数据研究/哔哩哔哩排行榜.png
       url: https://www.bilibili.com/v/popular/rank/all?from=dy.199908.top
       description: 哔哩哔哩排行榜
-    - title: 品牌网
-      logo: images/数据研究/品牌网.png
-      url: https://www.chinapp.com?from=dy.199908.top
-      description: 品牌网始终耕耘于品牌服务领域，品牌大数据一站式服务平台，也是查品牌，找品牌的首选平台，助力企业品牌扬帆远航
-    - title: 排行榜123网
-      logo: images/数据研究/排行榜123网.png
-      url: https://www.phb123.com?from=dy.199908.top
-      description: 分享十大、热门、人气排行榜,品牌排行榜
+    - title: 移动观象台
+      logo: images/数据研究/移动观象台.png
+      url: http://mi.talkingdata.com?from=dy.199908.top
+      description: 应用排行、公众号排行、App Store排行、终端指数、数据报告、市场洞察，用户画像
     - title: 新榜排名
       logo: images/数据研究/新榜排名.svg
       url: https://www.newrank.cn/public/info/list.html?from=dy.199908.top
       description: 各类自媒体排行榜单
-    - title: 盖得排行
-      logo: images/数据研究/盖得排行.png
-      url: https://www.guiderank-app.com/ranking?from=dy.199908.top
-      description: 盖得排行通过广泛收集全球最专业的消费测评数据，结合独立调研测评，发布公正的消费排行榜
-    - title: 十大品牌网
-      logo: images/数据研究/十大品牌网.png
-      url: https://www.cnpp.cn?from=dy.199908.top
-      description: 品牌排行榜，品牌网门户
-    - title: 新浪汽车排行榜
-      logo: images/数据研究/新浪汽车排行榜.jpg
-      url: https://auto.sina.com.cn/zhishu?from=dy.199908.top
-      description: 反映网友关于品牌和车型的热度、销量、网友口碑等的综合评价
-    - title: 买购网
-      logo: images/数据研究/买购网.jpg
-      url: https://www.maigoo.com?from=dy.199908.top
-      description: 知识榜,品牌榜,查排行,品牌十大与知识生活十大排行榜门户
+    - title: 阿里指数
+      logo: images/新媒运营/阿里指数.png
+      url: https://index.1688.com?from=dy.199908.top
+      description: 阿里巴巴旗下的电商大数据研究平台，展示商品热度和行业趋势
+    - title: 清博大数据
+      logo: images/数据研究/清博大数据.ico
+      url: http://home.gsdata.cn?from=dy.199908.top
+      description: 融媒体、舆论和产业营销大数据服务者
+    - title: 微热点
+      logo: images/新媒运营/清博大数据.png
+      url: https://www.wrd.cn?from=dy.199908.top
+      description: 全媒体传播分析平台
     - title: 胡润百富榜
       logo: images/数据研究/胡润百富榜.png
       url: https://www.hurun.net?from=dy.199908.top
@@ -4899,18 +4796,26 @@
       logo: images/数据研究/软科.png
       url: https://www.shanghairanking.cn?from=dy.199908.top
       description: 最新中国/世界/分专业的大学排名
-    - title: 清博大数据
-      logo: images/数据研究/清博大数据.ico
-      url: http://home.gsdata.cn?from=dy.199908.top
-      description: 融媒体、舆论和产业营销大数据服务者
-    - title: 阿里指数
-      logo: images/新媒运营/阿里指数.png
-      url: https://index.1688.com?from=dy.199908.top
-      description: 阿里巴巴旗下的电商大数据研究平台，展示商品热度和行业趋势
-    - title: 微热点
-      logo: images/新媒运营/清博大数据.png
-      url: https://www.wrd.cn?from=dy.199908.top
-      description: 全媒体传播分析平台
+    - title: 品牌网
+      logo: images/数据研究/品牌网.png
+      url: https://www.chinapp.com?from=dy.199908.top
+      description: 品牌网始终耕耘于品牌服务领域，品牌大数据一站式服务平台，也是查品牌，找品牌的首选平台，助力企业品牌扬帆远航
+    - title: 排行榜123网
+      logo: images/数据研究/排行榜123网.png
+      url: https://www.phb123.com?from=dy.199908.top
+      description: 分享十大、热门、人气排行榜,品牌排行榜
+    - title: 盖得排行
+      logo: images/数据研究/盖得排行.png
+      url: https://www.guiderank-app.com/ranking?from=dy.199908.top
+      description: 盖得排行通过广泛收集全球最专业的消费测评数据，结合独立调研测评，发布公正的消费排行榜
+    - title: 十大品牌网
+      logo: images/数据研究/十大品牌网.png
+      url: https://www.cnpp.cn?from=dy.199908.top
+      description: 品牌排行榜，品牌网门户
+    - title: 买购网
+      logo: images/数据研究/买购网.jpg
+      url: https://www.maigoo.com?from=dy.199908.top
+      description: 知识榜,品牌榜,查排行,品牌十大与知识生活十大排行榜门户
   - name: 行业研报
     links:
     - title: 乌拉邦研报
