@@ -3497,6 +3497,18 @@
       url: https://www.w3school.com.cn?from=dy.199908.top
       description: 中文Web技术教程
 
+- taxonomy: 生活服务
+  icon: fa-chart-bar
+  list:
+  - term: 求职招聘
+  - term: 房屋租售
+  - term: 社区论坛
+  - term: 二手交易
+  - term: 法律咨询
+  - term: 投诉举报
+  - term: 快递物流
+  - term: 邮箱登录
+  tabs:
   - name: 求职招聘
     links:
     - title: BOSS直聘
