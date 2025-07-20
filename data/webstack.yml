@@ -3416,6 +3416,129 @@
       url: http://223.71.147.149/portal?from=dy.199908.top
       description: 为劳动者和用人单位提供便捷的劳动人事争议调解服务
 
+- taxonomy: 软件工具
+  icon: fa-chart-bar
+  list:
+  - term: 电脑装机
+  - term: 效率工具
+  - term: MAC资源
+  - term: 拓展插件
+  - term: 电视应用
+  - term: 转换工具
+  - term: 学习工具
+  - term: 工作工具
+  tabs:
+  - name: 电脑装机
+    links:
+    - title: 火绒电脑安全软件
+      logo: images/软件工具/火绒.png
+      url: https://www.huorong.cn?from=dy.199908.top
+      description: 电脑安全防护软件
+    - title: win原版系统下载网站
+      logo: images/软件工具/win原版系统下载网站.png
+      url: https://www.microsoft.com/zh-cn/software-download/windows10?from=dy.199908.top
+      description: windows原版系统下载网站
+    - title: 小白一键重装系统
+      logo: images/软件工具/小白一键重装系统.png
+      url: https://www.01xitong.com?from=dy.199908.top
+      description: 一键重装系统工具合集，重装系统工具推荐
+    - title: 微PE工具箱
+      logo: images/软件工具/微PE工具箱.png
+      url: https://www.wepe.com.cn?from=dy.199908.top
+      description: 一键重装系统工具合集，重装系统工具推荐
+    - title: 驱动精灵
+      logo: images/软件工具/驱动精灵.png
+      url: https://www.drivergenius.com?from=dy.199908.top
+      description: 电脑驱动安装软件
+    - title: 启动盘制作工具
+      logo: images/软件工具/启动盘制作工具.png
+      url: https://rufus.ie/zh?from=dy.199908.top
+      description: U盘启动盘制作工具
+    - title: linux系统
+      logo: images/软件工具/linux系统.png
+      url: https://ubuntu.com/download?from=dy.199908.top
+      description: 各linux操作系统官网及下载
+  - name: 效率工具
+    links:
+    - title: Diffchecker
+      logo: images/软件工具/Diffchecker.ico
+      url: https://www.diffchecker.com?from=dy.199908.top
+      description: Diffchecker 是一款功能强大的文本和文件差异比较工具，适用于多种场景和用户需求。
+    - title: CCompare
+      logo: images/软件工具/CCompare.png
+      url: https://www.scootersoftware.com?from=dy.199908.top
+      description: 免费的文件和代码对比工具，替代beyond compare的免费方案
+    - title: PasteBar
+      logo: images/软件工具/PasteBar.png
+      url: https://www.pastebar.app?from=dy.199908.top
+      description: 有效地管理和组织复制的文本、图片、文件、链接和代码片段等各类内容
+    - title: CopyQ
+      logo: images/软件工具/CopyQ.png
+      url: https://hluk.github.io/CopyQ?from=dy.199908.top
+      description: 剪贴板增强工具
+    - title: EcoPaste
+      logo: images/软件工具/EcoPaste.png
+      url: https://github.com/EcoPasteHub/EcoPaste?from=dy.199908.top
+      description: 免费开源的跨平台剪切板管理工具
+    - title: Clibor
+      logo: images/软件工具/Clibor.png
+      url: https://chigusa-web.com/en?from=dy.199908.top
+      description: 管理和记录用户的剪贴板历史，方便用户快速地重复使用之前复制的文本内容
+    - title: ReNamer Pro
+      logo: images/软件工具/ReNamer_Pro.png
+      url: https://www.den4b.com?from=dy.199908.top
+      description: 功能强大且灵活的文件批量重命名工具
+    - title: OncePower
+      logo: images/软件工具/OncePower.png
+      url: https://github.com/ilgnefz/once_power?from=dy.199908.top
+      description: 一款专为Windows平台设计的文件和文件夹批量重命名工具，分享来自ζั͡-ั͡办ั͡公ั͡人ั͡导ั͡航ั͡✾
+    - title: 文件名管理器
+      logo: images/软件工具/文件名管理器.png
+      url: https://www.advancedrenamer.com?from=dy.199908.top
+      description: 批量重命名工具,支持电影、音乐等文件整理
+    - title: Czkawka
+      logo: images/软件工具/Czkawka.png
+      url: https://github.com/qarmin/czkawka?from=dy.199908.top
+      description: 一款跨平台的开源文件清理工具，用于查找和删除重复文件、空文件夹、损坏文件等
+    - title: Lucy快速启动
+      logo: images/软件工具/Lucy快速启动.png
+      url: https://www.yuque.com/lucy/lucy/record?from=dy.199908.top
+      description: 轻量级且功能强大的快速启动工具
+    - title: 极客桌面
+      logo: images/软件工具/极客桌面.png
+      url: https://github.com/BookerLiu/GeekDesk?from=dy.199908.top
+      description: 桌面快速启动管理工具
+    - title: Quickinput
+      logo: images/软件工具/Quickinput.png
+      url: https://ruanyazyk.com/tools/other/autoClick.html?from=dy.199908.top
+      description: Quickinput是一个控制键盘鼠标的软件，里面可以设置各种条件，结构，循环并通过这些逻辑来控制按键的状态，通常用于游戏，软件的自动操作。
+    - title: Laziy Timer
+      logo: images/软件工具/Laziy_Timer.png
+      url: https://lazy-guy.github.io/tomodoro/index.html?from=dy.199908.top
+      description: Laziy Timer 是一款基于番茄工作法的时间管理工具，旨在帮助用户提高专注力和工作效率。
+    - title: 易歪歪
+      logo: images/软件工具/易歪歪.png
+      url: https://www.eyy250.com?from=dy.199908.top
+      description: posend易歪歪 单机版是一款免费且好用的快捷回复软件（客服聊天助手）,能够为您节省大量人员培训时间，实现统一,高效,标准化的讯息答复流程
+    - title: 边写边搜
+      logo: images/软件工具/边写边搜.png
+      url: https://www.fir.ai?from=dy.199908.top
+      description: 一款简单好用的辅助成文应用
+    - title: Style2Paints
+      logo: images/软件工具/Style2Paints.png
+      url: https://github.com/lllyasviel/style2paints?from=dy.199908.top
+      description: 免费的AI驱动的线稿上色软件工具
+    - title: Print Distributor
+      logo: images/软件工具/Print_Distributor.png
+      url: https://www.printdistributor.com?from=dy.199908.top
+      description: 可以实现多台打印机同时打印的软件
+  - name: MAC资源
+  - name: 拓展插件
+  - name: 电视应用
+  - name: 转换工具
+  - name: 学习工具
+  - name: 工作工具
+
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
