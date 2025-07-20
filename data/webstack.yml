@@ -2794,15 +2794,163 @@
 - taxonomy: 生活服务
   icon: fa-chart-bar
   list:
-  - term: 社区论坛
-  - term: 二手交易
   - term: 求职招聘
   - term: 房屋租售
-  - term: 法律咨询
-  - term: 投诉举报
+  - term: 社区论坛
+  - term: 二手交易
   - term: 考公考研
   - term: 职场考证
+  - term: 法律咨询
+  - term: 投诉举报
   tabs:
+  - name: 求职招聘
+    links:
+    - title: BOSS直聘
+      logo: images/生活服务/BOSS直聘.png
+      url: https://www.zhipin.com?from=dy.199908.top
+      description: 让求职者与Boss直接开聊、加快面试、即时反馈
+    - title: 智联招聘
+      logo: images/生活服务/智联招聘.png
+      url: https://www.zhaopin.com?from=dy.199908.top
+      description: 为求职者提供真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择
+    - title: 前程无忧
+      logo: images/生活服务/前程无忧.png
+      url: https://www.51job.com?from=dy.199908.top
+      description: 面向全国,提供准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务
+    - title: 人社部
+      logo: images/生活服务/人社部.png
+      url: https://www.mohrss.gov.cn?from=dy.199908.top
+      description: 中华人民共和国人力资源和社会保障部，负责统筹机关企事业单位人员管理和城乡就业、社会保障政策的国家权力机构。
+    - title: JavaGuide
+      logo: images/生活服务/JavaGuide.ico
+      url: https://javaguide.cn?from=dy.199908.top
+      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
+    - title: 编程满天星
+      logo: images/生活服务/编程满天星.png
+      url: https://itmtx.cn?from=dy.199908.top
+      description: 高质量程序员面试刷题网站，八股、算法、项目、面经、招聘信息、简历修改、模拟模式，一站式准备大厂面试
+    - title: 智面星
+      logo: images/生活服务/智面星.png
+      url: https://aiqtools.cn?from=dy.199908.top
+      description: 智面星，您的专属AI面试辅助，在线上面试中实时给予您实时答案提示。答案在一秒内生成并完全契合您的个人简历，覆盖所有专业问题，让你能从容应对面试官的一切提问。
+    - title: 面试狗
+      logo: images/生活服务/面试狗.png
+      url: https://interview.dog?from=dy.199908.top
+      description: 面试狗是一个AI面试辅助工具，旨在帮助求职者更高效地准备和应对面试。
+    - title: AI面试助手
+      logo: images/生活服务/AI面试助手.png
+      url: https://blog.aicuee.com?from=dy.199908.top
+      description: AI面试助手,远程面试辅助神器.开启你的专属AI面试助手远程面试神器,实时分析，提供高水准的参考提示
+    - title: 开面
+      logo: images/生活服务/开面.png
+      url: https://www.kaimian.top?from=dy.199908.top
+      description: 开面，自研垂直招聘大模型"开面者"，提供AI简历优化、AI模拟面试、AI辅助面试等服务，支持线上线下多场景。从简历准备到面试训练，再到真实面试，轻松通关直达Offer！
+    - title: 小爱面试
+      logo: images/生活服务/小爱面试.png
+      url: https://xinterview.cn?from=dy.199908.top
+      description: 小爱面试，AI面试助手，面试辅助神器，面试小帮手，实时面试答案提示，助您轻松拿到offer
+    - title: Offerin
+      logo: images/生活服务/Offerin.png
+      url: https://www.offerin.cn?from=dy.199908.top
+      description: Offer IN AI 面试助手，AI 时代 Interview Copilot，专为线上面试和笔试而生，一键使用联网回答，一键读屏，自动同步剪切板文本，双端联动，无忧备战。
+    - title: 吐司猫
+      logo: images/生活服务/吐司猫.ico
+      url: https://tusimao.cn?from=dy.199908.top
+      description: 吐司猫是一款面向求职者的AI面试辅助软件，包含了 AI 面试助手、 AI 模拟面试 等功能模块。一站式帮助求职者们快速斩获Offer。
+    - title: 面试猫AI
+      logo: images/生活服务/面试猫AI.png
+      url: https://www.offermore.co?from=dy.199908.top
+      description: 面试猫AI是一款强大的AI面试助手，支持实时语音识别、图片识别、智能辅助回答、多语言面试。全平台适用，助你轻松拿Offer。
+    - title: 青柚面试
+      logo: images/生活服务/青柚面试.png
+      url: https://qingyou.net?from=dy.199908.top
+      description: 一款简单好用的日语面试辅助工具，使用最新的AI技术，帮助用户在日语面试过程中提升表现力。
+    - title: 央国企招聘宝
+      logo: images/生活服务/央国企招聘宝.svg
+      url: https://lxsvmzrpx8v.feishu.cn/share/base/query/shrcnVrJqtOtcf4JVShybSimfcd?from=dy.199908.top
+      description: 央国企招聘宝是一个专门为求职者提供央企和国企招聘信息的平台，在线筛选国企央企招聘岗位信息。
+    - title: 云艺术人
+      logo: images/生活服务/云艺术人.png
+      url: https://www.yunysr.com?from=dy.199908.top
+      description: 云艺术人是一款专注于艺术行业招聘、发通告及作品展示的平台，平台涵盖八大艺术专业领域，包括演艺,影视,音乐,动漫,设计,互动游戏,广告传媒和绘画艺术。
+    - title: 互联网大厂工作
+      logo: images/生活服务/互联网大厂工作.ico
+      url: https://aab0.github.io?from=dy.199908.top
+      description: 互联网大厂工作机会、面试技巧、职业发展,帮助您在顶级科技公司获得理想职位。
+  - name: 房屋租售
+    links:
+    - title: 贝壳找房
+      logo: images/生活服务/贝壳找房.jpg
+      url: https://www.ke.com?from=dy.199908.top
+      description: 提供真实房源的房产信息平台,为买房、二手房、新房购买以及租房需求的用户提供便捷服务
+    - title: 链家网
+      logo: images/生活服务/链家网.jpg
+      url: http://www.lianjia.com?from=dy.199908.top
+      description: 提供二手房买卖、新房、租房、房价查询等业务的专业房产网站
+    - title: 房天下
+      logo: images/生活服务/房天下.jpg
+      url: http://www.fang.com?from=dy.199908.top
+      description: 房地产家居网络平台
+    - title: 58同城
+      logo: images/生活服务/58同城.png
+      url: https://www.58.com?from=dy.199908.top
+      description: 提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等
+    - title: 安居客
+      logo: images/生活服务/安居客.png
+      url: http://www.anjuke.com?from=dy.199908.top
+      description: 为用户提供找房信息
+    - title: 自如
+      logo: images/生活服务/自如.jpg
+      url: https://www.ziroom.com?from=dy.199908.top
+      description: 房屋合租信息及月租价格,房屋整租信息及价格,以及公寓出租信息及价格
+    - title: 我爱我家
+      logo: images/生活服务/我爱我家.jpg
+      url: https://www.5i5j.com?from=dy.199908.top
+      description: 提供二手房信息、租房信息、二手房成交价格和二手房交易数据
+    - title: 房多多
+      logo: images/生活服务/房多多.jpg
+      url: http://www.fangdd.com?from=dy.199908.top
+      description: 为用户提供新房楼盘、二手房、租房的真房源房产网，包括最新政策、房价、资讯等信息
+    - title: 赶集网
+      logo: images/生活服务/赶集网.jpg
+      url: http://www.ganji.com?from=dy.199908.top
+      description: 房屋租售、求职招聘、二手物品、车辆买卖、生活黄页等
+    - title: 搜狐焦点
+      logo: images/生活服务/搜狐焦点.png
+      url: https://house.focus.cn?from=dy.199908.top
+      description: 为购房者提供房产信息、家居装修资讯,房产楼盘详情、买房流程、业主论坛、家居装修等全面内容信息,搜狐焦点网互联网的购房平台
+    - title: 乐居房产网
+      logo: images/生活服务/乐居房产网.jpg
+      url: http://www.leju.com?from=dy.199908.top
+      description: 为购房者提供找新房、二手房、租房、装修、家居、楼盘新闻等房产信息
+    - title: 中原地产
+      logo: images/生活服务/中原地产.png
+      url: http://default.centanet.com?from=dy.199908.top
+      description: 房产网网站,二手房,新房,租房,公寓,商铺,写字楼,海外,房价
+    - title: 365淘房
+      logo: images/生活服务/365淘房.png
+      url: http://www.house365.com?from=dy.199908.top
+      description: 房屋买卖,租赁,装修
+    - title: 楼盘网
+      logo: images/生活服务/楼盘网.png
+      url: https://www.loupan.com?from=dy.199908.top
+      description: 房地产家居门户信息网站
+    - title: 有路网
+      logo: images/生活服务/有路网.jpg
+      url: https://www.uoolu.com?from=dy.199908.top
+      description: 海外房产,海外房产投资,海外买房,海外房产网
+    - title: 乐乎
+      logo: images/生活服务/乐乎.png
+      url: https://www.lefull.cn?from=dy.199908.top
+      description: 租赁住房运营服务和资产管理
+    - title: 唯心所寓
+      logo: images/生活服务/唯心所寓.png
+      url: https://www.wellcee.com?from=dy.199908.top
+      description: 高品质租房平台，生活空间分享社区
+    - title: 筑房网
+      logo: images/生活服务/筑房网.svg
+      url: https://zfw.gyfc.net?from=dy.199908.top
+      description: 贵阳住宅与房地产信息网
   - name: 社区论坛
     links:
     - title: GitHub
@@ -2959,294 +3107,6 @@
       logo: images/生活服务/闪小白.png
       url: https://www.shanxiaobai.com?from=dy.199908.top
       description: 主营高品质二手商品、手机回收和苹果手机维修服务
-  - name: 求职招聘
-    links:
-    - title: BOSS直聘
-      logo: images/生活服务/BOSS直聘.png
-      url: https://www.zhipin.com?from=dy.199908.top
-      description: 让求职者与Boss直接开聊、加快面试、即时反馈
-    - title: 智联招聘
-      logo: images/生活服务/智联招聘.png
-      url: https://www.zhaopin.com?from=dy.199908.top
-      description: 为求职者提供真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择
-    - title: 前程无忧
-      logo: images/生活服务/前程无忧.png
-      url: https://www.51job.com?from=dy.199908.top
-      description: 面向全国,提供准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务
-    - title: 人社部
-      logo: images/生活服务/人社部.png
-      url: https://www.mohrss.gov.cn?from=dy.199908.top
-      description: 中华人民共和国人力资源和社会保障部，负责统筹机关企事业单位人员管理和城乡就业、社会保障政策的国家权力机构。
-    - title: JavaGuide
-      logo: images/生活服务/JavaGuide.ico
-      url: https://javaguide.cn?from=dy.199908.top
-      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
-    - title: 编程满天星
-      logo: images/生活服务/编程满天星.png
-      url: https://itmtx.cn?from=dy.199908.top
-      description: 高质量程序员面试刷题网站，八股、算法、项目、面经、招聘信息、简历修改、模拟模式，一站式准备大厂面试
-    - title: 智面星
-      logo: images/生活服务/智面星.png
-      url: https://aiqtools.cn?from=dy.199908.top
-      description: 智面星，您的专属AI面试辅助，在线上面试中实时给予您实时答案提示。答案在一秒内生成并完全契合您的个人简历，覆盖所有专业问题，让你能从容应对面试官的一切提问。
-    - title: 面试狗
-      logo: images/生活服务/面试狗.png
-      url: https://interview.dog?from=dy.199908.top
-      description: 面试狗是一个AI面试辅助工具，旨在帮助求职者更高效地准备和应对面试。
-    - title: AI面试助手
-      logo: images/生活服务/AI面试助手.png
-      url: https://blog.aicuee.com?from=dy.199908.top
-      description: AI面试助手,远程面试辅助神器.开启你的专属AI面试助手远程面试神器,实时分析，提供高水准的参考提示
-    - title: 开面
-      logo: images/生活服务/开面.png
-      url: https://www.kaimian.top?from=dy.199908.top
-      description: 开面，自研垂直招聘大模型"开面者"，提供AI简历优化、AI模拟面试、AI辅助面试等服务，支持线上线下多场景。从简历准备到面试训练，再到真实面试，轻松通关直达Offer！
-    - title: 小爱面试
-      logo: images/生活服务/小爱面试.png
-      url: https://xinterview.cn?from=dy.199908.top
-      description: 小爱面试，AI面试助手，面试辅助神器，面试小帮手，实时面试答案提示，助您轻松拿到offer
-    - title: Offerin
-      logo: images/生活服务/Offerin.png
-      url: https://www.offerin.cn?from=dy.199908.top
-      description: Offer IN AI 面试助手，AI 时代 Interview Copilot，专为线上面试和笔试而生，一键使用联网回答，一键读屏，自动同步剪切板文本，双端联动，无忧备战。
-    - title: 吐司猫
-      logo: images/生活服务/吐司猫.ico
-      url: https://tusimao.cn?from=dy.199908.top
-      description: 吐司猫是一款面向求职者的AI面试辅助软件，包含了 AI 面试助手、 AI 模拟面试 等功能模块。一站式帮助求职者们快速斩获Offer。
-    - title: 面试猫AI
-      logo: images/生活服务/面试猫AI.png
-      url: https://www.offermore.co?from=dy.199908.top
-      description: 面试猫AI是一款强大的AI面试助手，支持实时语音识别、图片识别、智能辅助回答、多语言面试。全平台适用，助你轻松拿Offer。
-    - title: 青柚面试
-      logo: images/生活服务/青柚面试.png
-      url: https://qingyou.net?from=dy.199908.top
-      description: 一款简单好用的日语面试辅助工具，使用最新的AI技术，帮助用户在日语面试过程中提升表现力。
-    - title: 央国企招聘宝
-      logo: images/生活服务/央国企招聘宝.svg
-      url: https://lxsvmzrpx8v.feishu.cn/share/base/query/shrcnVrJqtOtcf4JVShybSimfcd?from=dy.199908.top
-      description: 央国企招聘宝是一个专门为求职者提供央企和国企招聘信息的平台，在线筛选国企央企招聘岗位信息。
-    - title: 云艺术人
-      logo: images/生活服务/云艺术人.png
-      url: https://www.yunysr.com?from=dy.199908.top
-      description: 云艺术人是一款专注于艺术行业招聘、发通告及作品展示的平台，平台涵盖八大艺术专业领域，包括演艺,影视,音乐,动漫,设计,互动游戏,广告传媒和绘画艺术。
-    - title: 互联网大厂工作
-      logo: images/生活服务/互联网大厂工作.ico
-      url: https://aab0.github.io?from=dy.199908.top
-      description: 互联网大厂工作机会、面试技巧、职业发展,帮助您在顶级科技公司获得理想职位。
-  - name: 房屋租售
-    links:
-    - title: 贝壳找房
-      logo: images/生活服务/贝壳找房.jpg
-      url: https://www.ke.com?from=dy.199908.top
-      description: 提供真实房源的房产信息平台,为买房、二手房、新房购买以及租房需求的用户提供便捷服务
-    - title: 链家网
-      logo: images/生活服务/链家网.jpg
-      url: http://www.lianjia.com?from=dy.199908.top
-      description: 提供二手房买卖、新房、租房、房价查询等业务的专业房产网站
-    - title: 房天下
-      logo: images/生活服务/房天下.jpg
-      url: http://www.fang.com?from=dy.199908.top
-      description: 房地产家居网络平台
-    - title: 58同城
-      logo: images/生活服务/58同城.png
-      url: https://www.58.com?from=dy.199908.top
-      description: 提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等
-    - title: 安居客
-      logo: images/生活服务/安居客.png
-      url: http://www.anjuke.com?from=dy.199908.top
-      description: 为用户提供找房信息
-    - title: 自如
-      logo: images/生活服务/自如.jpg
-      url: https://www.ziroom.com?from=dy.199908.top
-      description: 房屋合租信息及月租价格,房屋整租信息及价格,以及公寓出租信息及价格
-    - title: 我爱我家
-      logo: images/生活服务/我爱我家.jpg
-      url: https://www.5i5j.com?from=dy.199908.top
-      description: 提供二手房信息、租房信息、二手房成交价格和二手房交易数据
-    - title: 房多多
-      logo: images/生活服务/房多多.jpg
-      url: http://www.fangdd.com?from=dy.199908.top
-      description: 为用户提供新房楼盘、二手房、租房的真房源房产网，包括最新政策、房价、资讯等信息
-    - title: 赶集网
-      logo: images/生活服务/赶集网.jpg
-      url: http://www.ganji.com?from=dy.199908.top
-      description: 房屋租售、求职招聘、二手物品、车辆买卖、生活黄页等
-    - title: 搜狐焦点
-      logo: images/生活服务/搜狐焦点.png
-      url: https://house.focus.cn?from=dy.199908.top
-      description: 为购房者提供房产信息、家居装修资讯,房产楼盘详情、买房流程、业主论坛、家居装修等全面内容信息,搜狐焦点网互联网的购房平台
-    - title: 乐居房产网
-      logo: images/生活服务/乐居房产网.jpg
-      url: http://www.leju.com?from=dy.199908.top
-      description: 为购房者提供找新房、二手房、租房、装修、家居、楼盘新闻等房产信息
-    - title: 中原地产
-      logo: images/生活服务/中原地产.png
-      url: http://default.centanet.com?from=dy.199908.top
-      description: 房产网网站,二手房,新房,租房,公寓,商铺,写字楼,海外,房价
-    - title: 365淘房
-      logo: images/生活服务/365淘房.png
-      url: http://www.house365.com?from=dy.199908.top
-      description: 房屋买卖,租赁,装修
-    - title: 楼盘网
-      logo: images/生活服务/楼盘网.png
-      url: https://www.loupan.com?from=dy.199908.top
-      description: 房地产家居门户信息网站
-    - title: 有路网
-      logo: images/生活服务/有路网.jpg
-      url: https://www.uoolu.com?from=dy.199908.top
-      description: 海外房产,海外房产投资,海外买房,海外房产网
-    - title: 乐乎
-      logo: images/生活服务/乐乎.png
-      url: https://www.lefull.cn?from=dy.199908.top
-      description: 租赁住房运营服务和资产管理
-    - title: 唯心所寓
-      logo: images/生活服务/唯心所寓.png
-      url: https://www.wellcee.com?from=dy.199908.top
-      description: 高品质租房平台，生活空间分享社区
-    - title: 筑房网
-      logo: images/生活服务/筑房网.svg
-      url: https://zfw.gyfc.net?from=dy.199908.top
-      description: 贵阳住宅与房地产信息网
-  - name: 法律咨询
-    links:
-    - title: 中国法律服务网
-      logo: images/生活服务/中国法律服务网.png
-      url: http://www.12348.gov.cn?from=dy.199908.top
-      description: 免费智能ai在线法律咨询,中国法律服务网12348中国法网
-    - title: 国家法律法规数据库
-      logo: images/生活服务/国家法律法规数据库.png
-      url: https://flk.npc.gov.cn?from=dy.199908.top
-      description: 国家法律法规数据库
-    - title: 北大法宝
-      logo: images/生活服务/北大法宝.png
-      url: https://www.pkulaw.com?from=dy.199908.top
-      description: 法律法规数据库,法律法规检索系统
-    - title: 华律网
-      logo: images/生活服务/华律网.png
-      url: https://www.66law.cn/question?from=dy.199908.top
-      description: 24小时为您提供法律在线咨询服务
-    - title: 找法网
-      logo: images/生活服务/找法网.jpg
-      url: https://china.findlaw.cn/ask?from=dy.199908.top
-      description: 免费法律咨询是找法网为全国公众免费提供的一项公益服务
-    - title: 法律快车
-      logo: images/生活服务/法律快车.png
-      url: https://www.lawtime.cn/ask?from=dy.199908.top
-      description: 提供免费法律咨询，您可在这里了解各地律师解答的法律咨询内容，也可在线咨询律师法律问题。
-    - title: 110法律咨询网
-      logo: images/生活服务/110法律咨询网.jpg
-      url: http://www.110.com?from=dy.199908.top
-      description: 免费解答在线法律咨询
-    - title: 律图
-      logo: images/生活服务/律图.jpg
-      url: http://www.64365.com?from=dy.199908.top
-      description: 专业的律师法律咨询网站
-    - title: 法行宝
-      logo: images/生活服务/法行宝.png
-      url: https://ailegal.baidu.com?from=dy.199908.top
-      description: 您的免费AI律师
-    - title: 无讼案例
-      logo: images/生活服务/无讼案例.png
-      url: https://www.itslaw.com?from=dy.199908.top
-      description: 无讼案例专注于为法律专业人士提供精准、高效且易用的法律检索服务，是法律人日常工作中不可或缺的工具。
-    - title: 法信
-      logo: images/生活服务/法信.png
-      url: https://www.faxin.cn?from=dy.199908.top
-      description: 为法律专业人士提供高效、精准的法律知识支持
-    - title: 法宣云平台
-      logo: images/生活服务/法宣云平台.png
-      url: http://www.faxuanyun.com?from=dy.199908.top
-      description: 无纸化学法用法及考试系统、法治宣传教育云平台
-    - title: 诉讼工具
-      logo: images/生活服务/诉讼工具.png
-      url: https://weifayuan.court.gov.cn/gjzs2.0/pages/tool.html?from=dy.199908.top
-      description: 人民法院官方提供的实用诉讼计算工具主要包括诉讼费计算器，该工具旨在帮助当事人和法院工作人员快速、准确地计算诉讼费用及相关法律费用。
-    - title: AI维权律师
-      logo: images/生活服务/AI维权律师.svg
-      url: https://ai-lawyer.yuanx.me?from=dy.199908.top
-      description: AI一键免费生成起诉书
-    - title: 法律法规数据库
-      logo: images/生活服务/法律法规数据库.jpg
-      url: https://www.bgrdh.com/sites/8520.html?from=dy.199908.top
-      description: 法律法规数据库查询检索系统网站网址大全导航
-    - title: 性行为同意协议系统
-      logo: images/生活服务/性行为同意协议系统.svg
-      url: https://001.123408.xyz?from=dy.199908.top
-      description: 性行为同意协议系统旨在帮助用户创建合法有效的性行为同意协议，确保各方权益得到保障。
-  - name: 投诉举报
-    links:
-    - title: 全国12315平台
-      logo: images/生活服务/全国12315平台.png
-      url: http://www.12315.cn?from=dy.199908.top
-      description: 通过平台向市场监管部门举报涉嫌违反市场监管法律、法规、规章的线索
-    - title: 国务院人民群众留言入口
-      logo: images/生活服务/国务院人民群众留言入口.png
-      url: http://www.gov.cn/hudong/index.htm?from=dy.199908.top
-      description: 政府面向社会的窗口,公众与政府互动的渠道
-    - title: 12345政务服务便民热线
-      logo: images/生活服务/12345政务服务便民热线.png
-      url: https://www.bgrdh.com/sites/8794.html?from=dy.199908.top
-      description: 市长信箱,12345热线
-    - title: 国家信访局
-      logo: images/生活服务/国家信访局.png
-      url: https://www.gjxfj.gov.cn?from=dy.199908.top
-      description: 处理国内群众和境外人士的来信来访事项，保证信访渠道畅通的部门
-    - title: 12309中国检察网
-      logo: images/生活服务/12309中国检察网.png
-      url: https://www.12309.gov.cn?from=dy.199908.top
-      description: 集案件信息公开,办事服务,监督意见等功能,可以网上信访
-    - title: 国家安全举报
-      logo: images/生活服务/国家安全举报.png
-      url: https://www.12339.gov.cn?from=dy.199908.top
-      description: 12339受理公民和组织举报危害国家安全行为的平台，危害国家安全犯罪行为、间谍行为和其他危害国家安全行为线索的举报受理
-    - title: 快递投诉
-      logo: images/生活服务/快递投诉.png
-      url: https://sswz.spb.gov.cn?from=dy.199908.top
-      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
-    - title: 电信用户申诉受理中心
-      logo: images/生活服务/电信用户申诉受理中心.png
-      url: https://yhssglxt.miit.gov.cn?from=dy.199908.top
-      description: 投诉电信、移动和联通
-    - title: 全国消协智慧315平台
-      logo: images/生活服务/全国消协智慧315平台.png
-      url: https://315.cca.org.cn?from=dy.199908.top
-      description: 全国消协智慧315平台是全国消费者协会组织联合打造的创新维权平台，旨在为消费者提供更便捷、高效的维权服务。
-    - title: 全文化和旅游市场举报投诉
-      logo: images/生活服务/全文化和旅游市场举报投诉.png
-      url: https://jbts.mct.gov.cn?from=dy.199908.top
-      description: 向文化和旅游部门举报涉嫌违反文化和旅游市场相关法律法规规章的线索
-    - title: 谣言举报
-      logo: images/生活服务/谣言举报.png
-      url: https://www.piyao.org.cn/xxjbrk.htm?from=dy.199908.top
-      description: 中国互联网联合辟谣平台,谣言举报中心,谣言线索提交
-    - title: 腾讯卫士
-      logo: images/生活服务/腾讯卫士.png
-      url: https://110.qq.com?from=dy.199908.top
-      description: 账号安全、QQ/微信违规行为举报受理综合服务平台
-    - title: 阿里安全中心
-      logo: images/生活服务/阿里安全中心.png
-      url: https://110.alibaba.com?from=dy.199908.top
-      description: 原名阿里110，面向淘宝会员解决安全问题的服务平台
-    - title: 啄木鸟投诉平台
-      logo: images/生活服务/啄木鸟投诉平台.png
-      url: https://tousu.china.com.cn?from=dy.199908.top
-      description: 消费者服务平台
-    - title: 消费保
-      logo: images/生活服务/消费保.png
-      url: https://www.xfb315.com?from=dy.199908.top
-      description: 消费服务保障平台
-    - title: 汽车质量问题投诉
-      logo: images/生活服务/汽车质量问题投诉.png
-      url: https://www.aqsiqauto.com/complaint?from=dy.199908.top
-      description: 中国汽车质量网-汽车质量问题投诉平台
-    - title: 电影院举报
-      logo: images/生活服务/电影院举报.png
-      url: http://jbzx.chinafilm.org.cn?from=dy.199908.top
-      description: 中国电影发行放映协会举报中心受理电影市场违规和放映质量问题举报
-    - title: 劳动争议调解
-      logo: images/生活服务/劳动争议调解.png
-      url: http://223.71.147.149/portal?from=dy.199908.top
-      description: 为劳动者和用人单位提供便捷的劳动人事争议调解服务
   - name: 考公考研
     links:
     - title: 中国研究生招生信息网
@@ -3415,6 +3275,146 @@
       logo: images/生活服务/全国通信专业技术人员职业水平考试网.png
       url: http://www.txks.org.cn?from=dy.199908.top
       description: 全国通信专业技术人员职业水平考试网站
+  - name: 法律咨询
+    links:
+    - title: 中国法律服务网
+      logo: images/生活服务/中国法律服务网.png
+      url: http://www.12348.gov.cn?from=dy.199908.top
+      description: 免费智能ai在线法律咨询,中国法律服务网12348中国法网
+    - title: 国家法律法规数据库
+      logo: images/生活服务/国家法律法规数据库.png
+      url: https://flk.npc.gov.cn?from=dy.199908.top
+      description: 国家法律法规数据库
+    - title: 北大法宝
+      logo: images/生活服务/北大法宝.png
+      url: https://www.pkulaw.com?from=dy.199908.top
+      description: 法律法规数据库,法律法规检索系统
+    - title: 华律网
+      logo: images/生活服务/华律网.png
+      url: https://www.66law.cn/question?from=dy.199908.top
+      description: 24小时为您提供法律在线咨询服务
+    - title: 找法网
+      logo: images/生活服务/找法网.jpg
+      url: https://china.findlaw.cn/ask?from=dy.199908.top
+      description: 免费法律咨询是找法网为全国公众免费提供的一项公益服务
+    - title: 法律快车
+      logo: images/生活服务/法律快车.png
+      url: https://www.lawtime.cn/ask?from=dy.199908.top
+      description: 提供免费法律咨询，您可在这里了解各地律师解答的法律咨询内容，也可在线咨询律师法律问题。
+    - title: 110法律咨询网
+      logo: images/生活服务/110法律咨询网.jpg
+      url: http://www.110.com?from=dy.199908.top
+      description: 免费解答在线法律咨询
+    - title: 律图
+      logo: images/生活服务/律图.jpg
+      url: http://www.64365.com?from=dy.199908.top
+      description: 专业的律师法律咨询网站
+    - title: 法行宝
+      logo: images/生活服务/法行宝.png
+      url: https://ailegal.baidu.com?from=dy.199908.top
+      description: 您的免费AI律师
+    - title: 无讼案例
+      logo: images/生活服务/无讼案例.png
+      url: https://www.itslaw.com?from=dy.199908.top
+      description: 无讼案例专注于为法律专业人士提供精准、高效且易用的法律检索服务，是法律人日常工作中不可或缺的工具。
+    - title: 法信
+      logo: images/生活服务/法信.png
+      url: https://www.faxin.cn?from=dy.199908.top
+      description: 为法律专业人士提供高效、精准的法律知识支持
+    - title: 法宣云平台
+      logo: images/生活服务/法宣云平台.png
+      url: http://www.faxuanyun.com?from=dy.199908.top
+      description: 无纸化学法用法及考试系统、法治宣传教育云平台
+    - title: 诉讼工具
+      logo: images/生活服务/诉讼工具.png
+      url: https://weifayuan.court.gov.cn/gjzs2.0/pages/tool.html?from=dy.199908.top
+      description: 人民法院官方提供的实用诉讼计算工具主要包括诉讼费计算器，该工具旨在帮助当事人和法院工作人员快速、准确地计算诉讼费用及相关法律费用。
+    - title: AI维权律师
+      logo: images/生活服务/AI维权律师.svg
+      url: https://ai-lawyer.yuanx.me?from=dy.199908.top
+      description: AI一键免费生成起诉书
+    - title: 法律法规数据库
+      logo: images/生活服务/法律法规数据库.jpg
+      url: https://www.bgrdh.com/sites/8520.html?from=dy.199908.top
+      description: 法律法规数据库查询检索系统网站网址大全导航
+    - title: 性行为同意协议系统
+      logo: images/生活服务/性行为同意协议系统.svg
+      url: https://001.123408.xyz?from=dy.199908.top
+      description: 性行为同意协议系统旨在帮助用户创建合法有效的性行为同意协议，确保各方权益得到保障。
+  - name: 投诉举报
+    links:
+    - title: 全国12315平台
+      logo: images/生活服务/全国12315平台.png
+      url: http://www.12315.cn?from=dy.199908.top
+      description: 通过平台向市场监管部门举报涉嫌违反市场监管法律、法规、规章的线索
+    - title: 国务院人民群众留言入口
+      logo: images/生活服务/国务院人民群众留言入口.png
+      url: http://www.gov.cn/hudong/index.htm?from=dy.199908.top
+      description: 政府面向社会的窗口,公众与政府互动的渠道
+    - title: 12345政务服务便民热线
+      logo: images/生活服务/12345政务服务便民热线.png
+      url: https://www.bgrdh.com/sites/8794.html?from=dy.199908.top
+      description: 市长信箱,12345热线
+    - title: 国家信访局
+      logo: images/生活服务/国家信访局.png
+      url: https://www.gjxfj.gov.cn?from=dy.199908.top
+      description: 处理国内群众和境外人士的来信来访事项，保证信访渠道畅通的部门
+    - title: 12309中国检察网
+      logo: images/生活服务/12309中国检察网.png
+      url: https://www.12309.gov.cn?from=dy.199908.top
+      description: 集案件信息公开,办事服务,监督意见等功能,可以网上信访
+    - title: 国家安全举报
+      logo: images/生活服务/国家安全举报.png
+      url: https://www.12339.gov.cn?from=dy.199908.top
+      description: 12339受理公民和组织举报危害国家安全行为的平台，危害国家安全犯罪行为、间谍行为和其他危害国家安全行为线索的举报受理
+    - title: 快递投诉
+      logo: images/生活服务/快递投诉.png
+      url: https://sswz.spb.gov.cn?from=dy.199908.top
+      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
+    - title: 电信用户申诉受理中心
+      logo: images/生活服务/电信用户申诉受理中心.png
+      url: https://yhssglxt.miit.gov.cn?from=dy.199908.top
+      description: 投诉电信、移动和联通
+    - title: 全国消协智慧315平台
+      logo: images/生活服务/全国消协智慧315平台.png
+      url: https://315.cca.org.cn?from=dy.199908.top
+      description: 全国消协智慧315平台是全国消费者协会组织联合打造的创新维权平台，旨在为消费者提供更便捷、高效的维权服务。
+    - title: 全文化和旅游市场举报投诉
+      logo: images/生活服务/全文化和旅游市场举报投诉.png
+      url: https://jbts.mct.gov.cn?from=dy.199908.top
+      description: 向文化和旅游部门举报涉嫌违反文化和旅游市场相关法律法规规章的线索
+    - title: 谣言举报
+      logo: images/生活服务/谣言举报.png
+      url: https://www.piyao.org.cn/xxjbrk.htm?from=dy.199908.top
+      description: 中国互联网联合辟谣平台,谣言举报中心,谣言线索提交
+    - title: 腾讯卫士
+      logo: images/生活服务/腾讯卫士.png
+      url: https://110.qq.com?from=dy.199908.top
+      description: 账号安全、QQ/微信违规行为举报受理综合服务平台
+    - title: 阿里安全中心
+      logo: images/生活服务/阿里安全中心.png
+      url: https://110.alibaba.com?from=dy.199908.top
+      description: 原名阿里110，面向淘宝会员解决安全问题的服务平台
+    - title: 啄木鸟投诉平台
+      logo: images/生活服务/啄木鸟投诉平台.png
+      url: https://tousu.china.com.cn?from=dy.199908.top
+      description: 消费者服务平台
+    - title: 消费保
+      logo: images/生活服务/消费保.png
+      url: https://www.xfb315.com?from=dy.199908.top
+      description: 消费服务保障平台
+    - title: 汽车质量问题投诉
+      logo: images/生活服务/汽车质量问题投诉.png
+      url: https://www.aqsiqauto.com/complaint?from=dy.199908.top
+      description: 中国汽车质量网-汽车质量问题投诉平台
+    - title: 电影院举报
+      logo: images/生活服务/电影院举报.png
+      url: http://jbzx.chinafilm.org.cn?from=dy.199908.top
+      description: 中国电影发行放映协会举报中心受理电影市场违规和放映质量问题举报
+    - title: 劳动争议调解
+      logo: images/生活服务/劳动争议调解.png
+      url: http://223.71.147.149/portal?from=dy.199908.top
+      description: 为劳动者和用人单位提供便捷的劳动人事争议调解服务
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
