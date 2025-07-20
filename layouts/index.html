@@ -20,7 +20,6 @@
 <!-- CSS 样式文件引入 -->
 <link rel='stylesheet' id='font-awesome-css'  href='./css/font-awesome.min.css?ver=6.5.1' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='./css/bootstrap.css?ver=3.4.1' type='text/css' media='all' />
-<link rel='stylesheet' id='perfect-scrollbar-css'  href='./css/perfect-scrollbar.css?ver=1.5.6' type='text/css' media='all' />
 <link rel='stylesheet' id='nav-css'  href='./css/nav.css?ver=2.0.0' type='text/css' media='all' />
 <!-- 添加标签式菜单CSS -->
 <link rel='stylesheet' id='tabs-css'  href='./css/tabs.css?ver=1.0.0' type='text/css' media='all' />
@@ -303,41 +302,17 @@
     </div id="overlay"> 
 <script type="text/javascript">
     $(document).ready(function() {
-        // 黑暗和明亮模式切换功能 - 改进版本
-        function initThemeToggle() {
-            // 从localStorage读取主题设置
-            var savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                $('body').removeClass('white black').addClass(savedTheme);
-                var icon = savedTheme === 'black' ? 'fa-sun' : 'fa-moon';
-                $('.bright-dark i').removeClass('fa-moon fa-sun').addClass(icon);
-            }
-
-            // 绑定点击事件，使用事件委托确保移动端也能工作
-            $('body').on('click', '.bright-dark', function(e){
-                e.preventDefault();
-                var currentIcon = $(this).find('i').attr('class');
-                var newTheme, newIcon;
-
-                if (currentIcon.includes('fa-moon')) {
-                    newTheme = 'black';
-                    newIcon = 'fa-sun';
-                } else if (currentIcon.includes('fa-sun')) {
-                    newTheme = 'white';
-                    newIcon = 'fa-moon';
-                }
-
-                if (newTheme && newIcon) {
-                    $(this).find('i').removeClass('fa-moon fa-sun').addClass(newIcon);
-                    $('body').removeClass('white black').addClass(newTheme);
-
-                    // 保存到localStorage
-                    localStorage.setItem('theme', newTheme);
-                }
-            });
-        }
-
-        initThemeToggle();
+        // 黑暗和明亮模式切换功能
+        $('footer.main-footer .foot-button .bright-dark').click(function(){   
+            var currentIcon = $(this).find('i').attr('class'); 
+            if (currentIcon.includes('fa-moon')) {
+                $(this).find('i').removeClass('fa-moon').addClass('fa-sun');
+                $('body').removeClass('white').addClass('black');
+            }else if (currentIcon.includes('fa-sun')) { 
+                    $(this).find('i').removeClass('fa-sun').addClass('fa-moon');
+                    $('body').removeClass('black').addClass('white');
+            }        
+        });
         // 黑暗和明亮模式 END
         
         // 利用iowen API 获取网址icon
@@ -403,7 +378,6 @@
 <script type='text/javascript' src='./js/bootstrap.min.js'></script>
 <script type='text/javascript' src='./js/TweenMax.min.js'></script>
 <script type='text/javascript' src='./js/lazyload.min.js'></script>
-<script type='text/javascript' src='./js/perfect-scrollbar.min.js'></script>
 <script type='text/javascript' src='./js/nav.js'></script>
 <script type='text/javascript' src='./js/local-search.js'></script>
 {{ if .Site.Params.pinyin.enable }}

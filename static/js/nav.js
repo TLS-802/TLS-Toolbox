@@ -18,20 +18,10 @@ function resizable(breakpoint)
 	// Large Screen Specific Script
 	if(is('largescreen'))
 	{
-		// 大屏幕下确保滚动条正常工作
-		if(public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed'))
-		{
-			ps_update(true);
-		}
 	}
 	// Tablet or larger screen
 	if(ismdxl())
 	{
-		// 中等屏幕下确保滚动条正常工作
-		if(public_vars.$sidebarMenu.hasClass('fixed') && !public_vars.$sidebarMenu.hasClass('collapsed'))
-		{
-			ps_update(true);
-		}
 	}
 	// Tablet Screen Specific Script
 	if(is('tabletscreen'))
@@ -43,16 +33,9 @@ function resizable(breakpoint)
 		public_vars.$sidebarMenu.addClass('collapsed');
 		ps_destroy();
 	}
-	// Mobile Screen Specific Script
+	// Tablet Screen Specific Script
 	if(isxs())
 	{
-		// 移动端下，如果菜单可见则初始化滚动条
-		if(public_vars.$mainMenu.hasClass('mobile-is-visible'))
-		{
-			setTimeout(function() {
-				ps_init();
-			}, 100);
-		}
 	}
 	// Trigger Event
 	jQuery(window).trigger('xenon.resize');
@@ -210,34 +193,14 @@ function trigger_resizable()
 		$('a[data-toggle="mobile-menu"]').on('click', function(ev)
 		{
 			ev.preventDefault();
-			var isVisible = $("#main-menu").hasClass('mobile-is-visible');
-
 			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-			public_vars.$sidebarMenu.toggleClass('mobile-menu-visible');
-
-            if(!isVisible) {
-				// 显示菜单
+            if($("#main-menu").hasClass('mobile-is-visible') === true){
 				public_vars.$sidebarMenu.removeClass('collapsed');
-                $(".sidebar-menu-inner").css("max-height", window.innerHeight);
-
-                // 添加背景遮罩
-                if(!$('.mobile-sidebar-overlay').length) {
-                	$('body').append('<div class="mobile-sidebar-overlay"></div>');
-                }
-                $('.mobile-sidebar-overlay').addClass('visible');
-
-                // 初始化滚动条
-                setTimeout(function() {
-                	ps_init();
-                }, 100);
-
-                // 阻止body滚动
-                $('body').addClass('mobile-menu-open');
-            } else {
-            	// 隐藏菜单
+                $(".sidebar-menu-inner").css("max-height",window.innerHeight);
+                ps_init();
+            }
+            else{
                 ps_destroy();
-                $('.mobile-sidebar-overlay').removeClass('visible');
-                $('body').removeClass('mobile-menu-open');
             }
 		});
 		// Mobile Menu Trigger for Horizontal Menu
@@ -397,16 +360,11 @@ var public_vars = public_vars || {};
 			stickFooterToBottom();
 			$(window).on('xenon.resized', stickFooterToBottom);
 		}
-		// Perfect Scrollbar - 统一使用原生JavaScript版本
-		if(typeof PerfectScrollbar !== 'undefined')
+		// Perfect Scrollbar
+		if($.isFunction($.fn.perfectScrollbar))
 		{
-			// 抑制性能警告
-			suppressPerfectScrollbarWarnings();
-
 			if(public_vars.$sidebarMenu.hasClass('fixed'))
 				ps_init();
-
-			// 初始化其他滚动条
 			$(".ps-scrollbar").each(function(i, el)
 			{
 				var $el = $(el);
@@ -414,45 +372,14 @@ var public_vars = public_vars || {};
 				{
 					$el.scrollTop($el.prop('scrollHeight'));
 				}
-
-				// 使用原生PerfectScrollbar - 优化配置
-				if(!el.perfectScrollbarInstance) {
-					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
-					if (isTouchDevice) {
-						handlers.push('touch');
-					}
-
-					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
-						wheelSpeed: 1,
-						wheelPropagation: false,
-						suppressScrollX: true,
-						handlers: handlers,
-						swipeEasing: isTouchDevice
-					});
-				}
+				$el.perfectScrollbar({
+					wheelPropagation: false
+				});
 			});
-
 			// Chat Scrollbar
 			var $chat_inner = public_vars.$pageContainer.find('#chat .chat-inner');
-			if($chat_inner.length && $chat_inner.parent().hasClass('fixed'))
-			{
-				var chatElement = $chat_inner[0];
-				$chat_inner.css({maxHeight: $(window).height()});
-				if(!chatElement.perfectScrollbarInstance) {
-					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
-					if (isTouchDevice) {
-						handlers.push('touch');
-					}
-
-					chatElement.perfectScrollbarInstance = new PerfectScrollbar(chatElement, {
-						handlers: handlers,
-						swipeEasing: isTouchDevice
-					});
-				}
-			}
-
+			if($chat_inner.parent().hasClass('fixed'))
+				$chat_inner.css({maxHeight: $(window).height()}).perfectScrollbar();
 			// User info opening dropdown trigger PS update
 			$(".dropdown:has(.ps-scrollbar)").each(function(i, el)
 			{
@@ -462,77 +389,30 @@ var public_vars = public_vars || {};
 					ev.preventDefault();
 					setTimeout(function()
 					{
-						$scrollbar.each(function() {
-							if(this.perfectScrollbarInstance) {
-								this.perfectScrollbarInstance.update();
-							}
-						});
+						$scrollbar.perfectScrollbar('update');
 					}, 1);
 				});
 			});
-
 			// Scrollable
 			$("div.scrollable").each(function(i, el)
 			{
 				var $this = $(el),
 					max_height = parseInt(attrDefault($this, 'max-height', 200), 10);
 				max_height = max_height < 0 ? 200 : max_height;
-				$this.css({maxHeight: max_height});
-
-				if(!el.perfectScrollbarInstance) {
-					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
-					if (isTouchDevice) {
-						handlers.push('touch');
-					}
-
-					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
-						wheelSpeed: 1,
-						wheelPropagation: true,
-						suppressScrollX: true,
-						handlers: handlers,
-						swipeEasing: isTouchDevice
-					});
-				}
+				$this.css({maxHeight: max_height}).perfectScrollbar({
+					wheelPropagation: true
+				});
 			});
 		}
-		// Go to top links - 改进移动端兼容性
+		// Go to top links
 		$('body').on('click', 'a[rel="go-top"]', function(ev)
 		{
 			ev.preventDefault();
-
-			// 检查是否有TweenLite，如果没有则使用原生滚动
-			if(typeof TweenLite !== 'undefined') {
-				var obj = {pos: $(window).scrollTop()};
-				TweenLite.to(obj, .3, {pos: 0, ease:Power4.easeOut, onUpdate: function()
-				{
-					$(window).scrollTop(obj.pos);
-				}});
-			} else {
-				// 原生平滑滚动
-				window.scrollTo({
-					top: 0,
-					behavior: 'smooth'
-				});
-			}
-		});
-
-		// 移动端背景遮罩点击关闭菜单
-		$('body').on('click', '.mobile-sidebar-overlay', function(ev) {
-			ev.preventDefault();
-			$('a[data-toggle="mobile-menu"]').trigger('click');
-		});
-
-		// 移动端菜单项点击后自动关闭菜单
-		$('body').on('click', '.sidebar-menu .main-menu.mobile-is-visible a:not([data-toggle])', function(ev) {
-			if(window.innerWidth < 768) {
-				// 延迟关闭，让链接有时间跳转
-				setTimeout(function() {
-					if($('#main-menu').hasClass('mobile-is-visible')) {
-						$('a[data-toggle="mobile-menu"]').trigger('click');
-					}
-				}, 100);
-			}
+			var obj = {pos: $(window).scrollTop()};
+			TweenLite.to(obj, .3, {pos: 0, ease:Power4.easeOut, onUpdate: function()
+			{
+				$(window).scrollTop(obj.pos);
+			}});
 		});
 		// Auto hidden breadcrumbs
 		$(".breadcrumb.auto-hidden").each(function(i, el)
@@ -836,66 +716,17 @@ function stickFooterToBottom()
 	}
 }
 // Perfect scroll bar functions by Arlind Nushi
-// 优化Perfect Scrollbar的控制台输出
-function suppressPerfectScrollbarWarnings() {
-	// 临时抑制Perfect Scrollbar的性能警告
-	var originalConsoleWarn = console.warn;
-	var warningsSuppressed = false;
-
-	console.warn = function() {
-		var message = arguments[0];
-		if (typeof message === 'string' &&
-			(message.includes('Added non-passive event listener') ||
-			 message.includes('touchstart') ||
-			 message.includes('wheel') ||
-			 message.includes('Violation'))) {
-			// 忽略Perfect Scrollbar相关的性能警告
-			if (!warningsSuppressed) {
-				console.info('Perfect Scrollbar performance warnings suppressed for better UX');
-				warningsSuppressed = true;
-			}
-			return;
-		}
-		originalConsoleWarn.apply(console, arguments);
-	};
-
-	// 在页面加载完成后恢复console.warn
-	setTimeout(function() {
-		console.warn = originalConsoleWarn;
-		if (warningsSuppressed) {
-			console.info('Perfect Scrollbar warnings suppression ended');
-		}
-	}, 3000);
-}
-
 function ps_update(destroy_init)
 {
-	if(typeof PerfectScrollbar !== 'undefined')
+	//if(isxs())
+	//	return;
+	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
 		if(public_vars.$sidebarMenu.hasClass('collapsed'))
 		{
 			return;
 		}
-
-		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
-		var scrollElement = $scrollContainer[0];
-
-		// 只有在已经初始化的情况下才更新
-		if(scrollElement && scrollElement.perfectScrollbarInstance)
-		{
-			try {
-				scrollElement.perfectScrollbarInstance.update();
-				// 减少控制台日志输出
-				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-					console.log('Perfect Scrollbar updated successfully');
-				}
-			} catch(e) {
-				console.warn('Perfect Scrollbar update error:', e);
-				// 如果更新失败，尝试重新初始化
-				destroy_init = true;
-			}
-		}
-
+		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('update');
 		if(destroy_init)
 		{
 			ps_destroy();
@@ -905,95 +736,25 @@ function ps_update(destroy_init)
 }
 function ps_init()
 {
-	// 确保Perfect Scrollbar已加载
-	if(typeof PerfectScrollbar === 'undefined')
+	//if(isxs())
+	//	return;
+	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
-		console.warn('Perfect Scrollbar not loaded');
-		return;
-	}
-
-	// 检查是否为折叠状态，折叠状态下不初始化滚动条
-	if(public_vars.$sidebarMenu.hasClass('collapsed'))
-	{
-		return;
-	}
-
-	// 确保侧边栏有fixed类或者在移动端显示时初始化滚动条
-	if(public_vars.$sidebarMenu.hasClass('fixed') ||
-	   (isxs() && public_vars.$mainMenu.hasClass('mobile-is-visible')))
-	{
-		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
-		var scrollElement = $scrollContainer[0];
-
-		if(!scrollElement)
+		if(public_vars.$sidebarMenu.hasClass('collapsed') || ! public_vars.$sidebarMenu.hasClass('fixed'))
 		{
-			console.warn('Scroll container not found');
 			return;
 		}
-
-		// 抑制Perfect Scrollbar性能警告
-		suppressPerfectScrollbarWarnings();
-
-		// 先销毁可能存在的滚动条实例
-		if(scrollElement.perfectScrollbarInstance)
-		{
-			scrollElement.perfectScrollbarInstance.destroy();
-			scrollElement.perfectScrollbarInstance = null;
-		}
-
-		// 初始化Perfect Scrollbar - 优化性能配置
-		try {
-			// 检测是否为触摸设备
-			var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-
-			// 根据设备类型配置处理器
-			var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
-			if (isTouchDevice) {
-				// 只在真正的触摸设备上启用触摸处理器
-				handlers.push('touch');
-			}
-
-			scrollElement.perfectScrollbarInstance = new PerfectScrollbar(scrollElement, {
-				wheelSpeed: 1,
-				wheelPropagation: false,
-				suppressScrollX: true,
-				minScrollbarLength: 20,
-				handlers: handlers,
-				swipeEasing: isTouchDevice // 只在触摸设备上启用滑动缓动
-			});
-
-			// 减少控制台日志输出，只在开发模式下显示
-			if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-				console.log('Perfect Scrollbar initialized successfully for', isTouchDevice ? 'touch' : 'non-touch', 'device');
-			}
-		} catch(e) {
-			console.error('Failed to initialize Perfect Scrollbar:', e);
-		}
+		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar({
+			wheelSpeed: 1,
+			wheelPropagation: public_vars.wheelPropagation
+		});
 	}
 }
 function ps_destroy()
 {
-	if(typeof PerfectScrollbar !== 'undefined')
+	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
-		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
-		var scrollElement = $scrollContainer[0];
-
-		if(scrollElement && scrollElement.perfectScrollbarInstance)
-		{
-			try {
-				scrollElement.perfectScrollbarInstance.destroy();
-				scrollElement.perfectScrollbarInstance = null;
-				// 减少控制台日志输出
-				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-					console.log('Perfect Scrollbar destroyed successfully');
-				}
-			} catch(e) {
-				// 忽略销毁时的错误，只在开发模式下显示警告
-				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-					console.warn('Perfect Scrollbar destroy error:', e);
-				}
-			}
-		}
+		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('destroy');
 	}
 }
 // Element Attribute Helper
