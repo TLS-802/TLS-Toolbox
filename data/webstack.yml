@@ -3224,7 +3224,121 @@
       url: https://www.speaky.com?from=dy.199908.top
       description: Speaky 是一款全球领先的语言交换平台，旨在通过连接世界各地的语言学习者和母语者，促进语言学习和文化交流。
   - name: 设计学习
+    links:
+    - title: 羊课网
+      logo: images/学习资源/羊课网.png
+      url: https://www.yangkewang.cn?from=dy.199908.top
+      description: 免费绘画学习平台,插画学画画教程,动漫绘画教程,游戏原画教程大全
+    - title: 蓝铅笔
+      logo: images/学习资源/蓝铅笔.png
+      url: https://www.lanqb.com?from=dy.199908.top
+      description: 板绘,板绘培训,绘画学习,动画培训,漫画培训,插画培训
+    - title: 大触来了
+      logo: images/学习资源/大触来了.png
+      url: https://www.psai2046.com?from=dy.199908.top
+      description: 一个功能全面且资源丰富的绘画学习平台，适合对绘画有兴趣的爱好者和专业人士使用
+    - title: dinlab芝士学院
+      logo: images/学习资源/dinlab芝士学院.png
+      url: http://www.dinlab.cn?from=dy.199908.top
+      description: dinlab是全球前沿交互式设计人才成长平台，50万设计创意人才的能力提升加速站。
+    - title: 优阁
+      logo: images/学习资源/优阁.png
+      url: https://uigreat.com?from=dy.199908.top
+      description: UI设计师学习交流社区
+    - title: 穿针引线网
+      logo: images/学习资源/穿针引线网.jpg
+      url: http://www.eeff.net?from=dy.199908.top
+      description: 服装行业学习交流平台
+    - title: 直线网
+      logo: images/学习资源/直线网.jpg
+      url: https://www.linecg.com?from=dy.199908.top
+      description: 专业的设计学习交流平台
+    - title: 站酷高高手
+      logo: images/学习资源/站酷高高手.png
+      url: https://www.gogoup.com?from=dy.199908.top
+      description: 艺术设计在线教育平台 - 插画,品牌,平面,视觉,UI,运营设计,摄影艺术课程培训
+    - title: 巧匠课堂
+      logo: images/学习资源/巧匠课堂.png
+      url: https://www.2qj.com?from=dy.199908.top
+      description: 设计视频教程平台，覆盖PS、AI、C4D、DW 、视觉营销等
+    - title: 优优教程网
+      logo: images/学习资源/优优教程网.jpg
+      url: https://uiiiuiii.com?from=dy.199908.top
+      description: 免费设计软件自学平台
+    - title: 虎课网
+      logo: images/学习资源/虎课网.jpg
+      url: https://huke88.com?from=dy.199908.top
+      description: 设计、办公软件视频教程在线学习
+    - title: 羽兔网
+      logo: images/学习资源/羽兔网.jpg
+      url: https://www.yutu.cn?from=dy.199908.top
+      description: 自学设计平台
+    - title: 溜溜自学网
+      logo: images/学习资源/溜溜自学网.png
+      url: https://zixue.3d66.com?from=dy.199908.top
+      description: 设计在线学习
+    - title: Doyoudo
+      logo: images/学习资源/Doyoudo.png
+      url: https://www.doyoudo.com?from=dy.199908.top
+      description: 设计领域在线学习平台，专注平面设计、视频剪辑、动画包装、音乐音效等艺术设计领域的技能提升
+    - title: 翼狐网
+      logo: images/学习资源/翼狐网.png
+      url: https://www.yiihuu.com?from=dy.199908.top
+      description: 为用户提供优质的PS、CAD、maya、CDR、AI、AE、3dmax等软件教程
+    - title: 我要自学网
+      logo: images/学习资源/我要自学网.png
+      url: https://www.51zxw.net?from=dy.199908.top
+      description: 我要自学网-视频教程，自学电脑…
   - name: 音乐学习
+    links:
+    - title: 吉他网
+      logo: images/学习资源/吉他网.png
+      url: https://www.jita.com?from=dy.199908.top
+      description: 一个专注于吉他教学的平台
+    - title: 不枯燥的音乐理论
+      logo: images/学习资源/不枯燥的音乐理论.png
+      url: https://lightnote.com.cn?from=dy.199908.top
+      description: 一个专注于音乐理论学习的互动平台,旨在通过简单易懂的方式帮助用户掌握音乐基础知识
+    - title: melodyml
+      logo: images/学习资源/melodyml.png
+      url: https://melody.ml?from=dy.199908.top
+      description: 一个专注于音乐处理的人工智能平台
+    - title: 尤克里里吧
+      logo: images/学习资源/尤克里里吧.png
+      url: https://www.ukuleleba.com?from=dy.199908.top
+      description: 一个专注于尤克里里的曲谱,视频和教学分享网站
+    - title: 弹琴吧
+      logo: images/学习资源/弹琴吧.jpg
+      url: https://www.tan8.com?from=dy.199908.top
+      description: 一个提供钢琴谱和吉他谱大全的综合性音乐学习平台
+    - title: PianoMidi
+      logo: images/学习资源/PianoMidi.png
+      url: http://www.piano-midi.de/midicoll.htm?from=dy.199908.top
+      description: 一个致力于古典音乐爱好者的网站
+    - title: 虫虫钢琴
+      logo: images/学习资源/虫虫钢琴.png
+      url: https://www.gangqinpu.com?from=dy.199908.top
+      description: 一个专注于提供钢琴曲和钢琴谱下载的平台
+    - title: 音律屋
+      logo: images/学习资源/音律屋.jpg
+      url: http://yinlvwu.com?from=dy.199908.top
+      description: 一个专注于音乐制作教学的网站
+    - title: 中舞网
+      logo: images/学习资源/中舞网.png
+      url: https://www.dance365.com?from=dy.199908.top
+      description: 专业的舞蹈学习网站
+    - title: 蓝调口琴
+      logo: images/学习资源/蓝调口琴.jpg
+      url: http://www.tenholes.com?from=dy.199908.top
+      description: 一个专注于蓝调口琴（又称十孔口琴）的综合性网站
+    - title: 国际乐谱库
+      logo: images/学习资源/国际乐谱库.png
+      url: https://cn.imslp.org/?from=dy.199908.top
+      description: 一个致力于收集和分享音乐乐谱的非盈利项目
+    - title: 吉他堂
+      logo: images/学习资源/吉他堂.jpg
+      url: https://www.jitatang.cn?from=dy.199908.top
+      description: 一个专注于吉他爱好者的在线平台
   - name: IT技术类
   - name: 人文历史
     links:
