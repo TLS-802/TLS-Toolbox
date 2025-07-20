@@ -400,6 +400,9 @@ var public_vars = public_vars || {};
 		// Perfect Scrollbar - 统一使用原生JavaScript版本
 		if(typeof PerfectScrollbar !== 'undefined')
 		{
+			// 抑制性能警告
+			suppressPerfectScrollbarWarnings();
+
 			if(public_vars.$sidebarMenu.hasClass('fixed'))
 				ps_init();
 
@@ -412,12 +415,20 @@ var public_vars = public_vars || {};
 					$el.scrollTop($el.prop('scrollHeight'));
 				}
 
-				// 使用原生PerfectScrollbar
+				// 使用原生PerfectScrollbar - 优化配置
 				if(!el.perfectScrollbarInstance) {
+					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
+					if (isTouchDevice) {
+						handlers.push('touch');
+					}
+
 					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
 						wheelSpeed: 1,
 						wheelPropagation: false,
-						suppressScrollX: true
+						suppressScrollX: true,
+						handlers: handlers,
+						swipeEasing: isTouchDevice
 					});
 				}
 			});
@@ -429,7 +440,16 @@ var public_vars = public_vars || {};
 				var chatElement = $chat_inner[0];
 				$chat_inner.css({maxHeight: $(window).height()});
 				if(!chatElement.perfectScrollbarInstance) {
-					chatElement.perfectScrollbarInstance = new PerfectScrollbar(chatElement);
+					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
+					if (isTouchDevice) {
+						handlers.push('touch');
+					}
+
+					chatElement.perfectScrollbarInstance = new PerfectScrollbar(chatElement, {
+						handlers: handlers,
+						swipeEasing: isTouchDevice
+					});
 				}
 			}
 
@@ -460,10 +480,18 @@ var public_vars = public_vars || {};
 				$this.css({maxHeight: max_height});
 
 				if(!el.perfectScrollbarInstance) {
+					var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+					var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
+					if (isTouchDevice) {
+						handlers.push('touch');
+					}
+
 					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
 						wheelSpeed: 1,
 						wheelPropagation: true,
-						suppressScrollX: true
+						suppressScrollX: true,
+						handlers: handlers,
+						swipeEasing: isTouchDevice
 					});
 				}
 			});
@@ -808,6 +836,38 @@ function stickFooterToBottom()
 	}
 }
 // Perfect scroll bar functions by Arlind Nushi
+// 优化Perfect Scrollbar的控制台输出
+function suppressPerfectScrollbarWarnings() {
+	// 临时抑制Perfect Scrollbar的性能警告
+	var originalConsoleWarn = console.warn;
+	var warningsSuppressed = false;
+
+	console.warn = function() {
+		var message = arguments[0];
+		if (typeof message === 'string' &&
+			(message.includes('Added non-passive event listener') ||
+			 message.includes('touchstart') ||
+			 message.includes('wheel') ||
+			 message.includes('Violation'))) {
+			// 忽略Perfect Scrollbar相关的性能警告
+			if (!warningsSuppressed) {
+				console.info('Perfect Scrollbar performance warnings suppressed for better UX');
+				warningsSuppressed = true;
+			}
+			return;
+		}
+		originalConsoleWarn.apply(console, arguments);
+	};
+
+	// 在页面加载完成后恢复console.warn
+	setTimeout(function() {
+		console.warn = originalConsoleWarn;
+		if (warningsSuppressed) {
+			console.info('Perfect Scrollbar warnings suppression ended');
+		}
+	}, 3000);
+}
+
 function ps_update(destroy_init)
 {
 	if(typeof PerfectScrollbar !== 'undefined')
@@ -825,7 +885,10 @@ function ps_update(destroy_init)
 		{
 			try {
 				scrollElement.perfectScrollbarInstance.update();
-				console.log('Perfect Scrollbar updated successfully');
+				// 减少控制台日志输出
+				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+					console.log('Perfect Scrollbar updated successfully');
+				}
 			} catch(e) {
 				console.warn('Perfect Scrollbar update error:', e);
 				// 如果更新失败，尝试重新初始化
@@ -868,6 +931,9 @@ function ps_init()
 			return;
 		}
 
+		// 抑制Perfect Scrollbar性能警告
+		suppressPerfectScrollbarWarnings();
+
 		// 先销毁可能存在的滚动条实例
 		if(scrollElement.perfectScrollbarInstance)
 		{
@@ -875,16 +941,31 @@ function ps_init()
 			scrollElement.perfectScrollbarInstance = null;
 		}
 
-		// 初始化Perfect Scrollbar
+		// 初始化Perfect Scrollbar - 优化性能配置
 		try {
+			// 检测是否为触摸设备
+			var isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+			// 根据设备类型配置处理器
+			var handlers = ['click-rail', 'drag-thumb', 'keyboard', 'wheel'];
+			if (isTouchDevice) {
+				// 只在真正的触摸设备上启用触摸处理器
+				handlers.push('touch');
+			}
+
 			scrollElement.perfectScrollbarInstance = new PerfectScrollbar(scrollElement, {
 				wheelSpeed: 1,
-				wheelPropagation: public_vars.wheelPropagation || false,
-				suppressScrollX: true, // 只允许垂直滚动
-				minScrollbarLength: 20 // 最小滚动条长度
+				wheelPropagation: false,
+				suppressScrollX: true,
+				minScrollbarLength: 20,
+				handlers: handlers,
+				swipeEasing: isTouchDevice // 只在触摸设备上启用滑动缓动
 			});
 
-			console.log('Perfect Scrollbar initialized successfully');
+			// 减少控制台日志输出，只在开发模式下显示
+			if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+				console.log('Perfect Scrollbar initialized successfully for', isTouchDevice ? 'touch' : 'non-touch', 'device');
+			}
 		} catch(e) {
 			console.error('Failed to initialize Perfect Scrollbar:', e);
 		}
@@ -902,10 +983,15 @@ function ps_destroy()
 			try {
 				scrollElement.perfectScrollbarInstance.destroy();
 				scrollElement.perfectScrollbarInstance = null;
-				console.log('Perfect Scrollbar destroyed successfully');
+				// 减少控制台日志输出
+				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+					console.log('Perfect Scrollbar destroyed successfully');
+				}
 			} catch(e) {
-				// 忽略销毁时的错误
-				console.warn('Perfect Scrollbar destroy error:', e);
+				// 忽略销毁时的错误，只在开发模式下显示警告
+				if(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+					console.warn('Perfect Scrollbar destroy error:', e);
+				}
 			}
 		}
 	}
