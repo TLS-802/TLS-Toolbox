@@ -2802,6 +2802,8 @@
   - term: 职场考证
   - term: 法律咨询
   - term: 投诉举报
+  - term: 快递物流
+  - term: 邮箱登录
   tabs:
   - name: 求职招聘
     links:
@@ -3415,6 +3417,154 @@
       logo: images/生活服务/劳动争议调解.png
       url: http://223.71.147.149/portal?from=dy.199908.top
       description: 为劳动者和用人单位提供便捷的劳动人事争议调解服务
+  - name: 快递物流
+    links:
+    - title: 查快递
+      logo: images/生活服务/查快递.png
+      url: https://www.kuaidi100.com?from=dy.199908.top
+      description: 一站查询全球1000+快递公司单号查询、价格查询、时效查询
+    - title: 菜鸟裹裹
+      logo: images/生活服务/菜鸟裹裹.jpg
+      url: https://www.guoguo-app.com?from=dy.199908.top
+      description: 阿里巴巴旗下菜鸟网络官方出品，寄快递、查快递
+    - title: 顺丰速运
+      logo: images/生活服务/顺丰速运.png
+      url: https://www.sf-express.com/cn/sc/index.html?from=dy.199908.top
+      description: 国内最大的综合物流服务商
+    - title: Track123
+      logo: images/生活服务/Track123.png
+      url: https://www.track123.com/cn?from=dy.199908.top
+      description: Track123 是一家专注于全球物流追踪解决方案的公司，提供多种产品和服务，旨在帮助用户高效、准确地追踪包裹和物流信息。
+    - title: 中通快递
+      logo: images/生活服务/中通快递.jpg
+      url: https://www.zto.com?from=dy.199908.top
+      description: 中通快递
+    - title: 圆通速递
+      logo: images/生活服务/圆通速递.png
+      url: https://www.yto.net.cn?from=dy.199908.top
+      description: 圆通速递
+    - title: 申通快递
+      logo: images/生活服务/申通快递.png
+      url: http://www.sto.cn?from=dy.199908.top
+      description: 申通快递
+    - title: 京东物流
+      logo: images/生活服务/京东物流.jpg
+      url: https://www.jdl.cn?from=dy.199908.top
+      description: 京东物流
+    - title: 德邦快递
+      logo: images/生活服务/德邦快递.jpg
+      url: https://www.deppon.com?from=dy.199908.top
+      description: 德邦快递
+    - title: 快递投诉
+      logo: images/生活服务/快递投诉.png
+      url: https://sswz.spb.gov.cn?from=dy.199908.top
+      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
+    - title: 快递网
+      logo: images/生活服务/快递网.png
+      url: http://www.kuaidi.com?from=dy.199908.top
+      description: 一键查询顺丰、申通、圆通、韵达、汇通、天天、德邦、中通、宅急送、快捷、信丰、邮政包裹、挂号信及EMS等常见物流单号
+    - title: 快递100
+      logo: images/生活服务/快递100.png
+      url: https://www.kuaidi100.com?from=dy.199908.top
+      description: 综合性的快递查询与物流服务平台
+    - title: 全球物流查询平台
+      logo: images/生活服务/全球物流查询平台.png
+      url: https://www.17track.net/zh-cn?from=dy.199908.top
+      description: 17TRACK是一款全球物流查询平台，专注于提供包裹追踪、物流信息查询和管理服务，支持查询全球2100+运输商,190+航司
+    - title: 邮政EMS
+      logo: images/生活服务/邮政EMS.jpg
+      url: https://www.ems.com.cn?from=dy.199908.top
+      description: 中国邮政速递物流
+    - title: 韵达速递
+      logo: images/生活服务/韵达速递.jpg
+      url: http://www.yundaex.com?from=dy.199908.top
+      description: 韵达速递
+    - title: 中国邮政
+      logo: images/生活服务/中国邮政.jpg
+      url: http://yjcx.chinapost.com.cn?from=dy.199908.top
+      description: 给据邮件跟踪查询系统
+    - title: 极兔速递
+      logo: images/生活服务/极兔速递.jpg
+      url: https://www.jtexpress.com.cn?from=dy.199908.top
+      description: 极兔速递
+    - title: ups国际快递
+      logo: images/生活服务/ups国际快递.png
+      url: https://www.ups.com?from=dy.199908.top
+      description: 一家全球领先的快递和物流服务提供商
+  - name: 邮箱登录
+    links:
+    - title: QQ邮箱
+      logo: images/生活服务/QQ邮箱.jpg
+      url: https://mail.qq.com?from=dy.199908.top
+      description: QQ邮箱登陆入口，QQ邮箱-腾讯提供电子邮件服务
+    - title: 网易邮箱
+      logo: images/生活服务/网易邮箱.png
+      url: https://email.163.com?from=dy.199908.top
+      description: 网易免费邮箱，163，126，yeah邮箱登陆
+    - title: 阿里邮箱个人版
+      logo: images/生活服务/阿里邮箱个人版.png
+      url: https://mail.aliyun.com?from=dy.199908.top
+      description: 阿里邮箱个人版登陆
+    - title: 新浪邮箱
+      logo: images/生活服务/新浪邮箱.png
+      url: https://mail.sina.com.cn?from=dy.199908.top
+      description: 新浪邮箱登陆
+    - title: 189邮箱
+      logo: images/生活服务/189邮箱.png
+      url: https://webmail30.189.cn?from=dy.199908.top
+      description: 中国电信旗下邮箱服务
+    - title: 网易企业邮箱
+      logo: images/生活服务/网易企业邮箱.png
+      url: https://qiye.163.com/login?from=dy.199908.top
+      description: 网易企业邮箱登陆
+    - title: 腾讯企业邮箱
+      logo: images/生活服务/腾讯企业邮箱.png
+      url: https://exmail.qq.com/login?from=dy.199908.top
+      description: 腾讯企业邮箱登陆
+    - title: Outlook邮箱
+      logo: images/生活服务/Outlook邮箱.png
+      url: https://outlook.live.com?from=dy.199908.top
+      description: Outlook/Hotmail邮箱登陆
+    - title: 谷歌邮箱Gmail
+      logo: images/生活服务/谷歌邮箱Gmail.png
+      url: https://www.gmail.com?from=dy.199908.top
+      description: 谷歌邮箱Gmail
+    - title: 网易VIP邮箱
+      logo: images/生活服务/网易VIP邮箱.png
+      url: https://vipmail.163.com?from=dy.199908.top
+      description: 网易旗下收费高端邮箱品牌
+    - title: 阿里邮箱企业版
+      logo: images/生活服务/阿里邮箱企业版.png
+      url: https://qiye.aliyun.com?from=dy.199908.top
+      description: 阿里邮箱企业版登陆
+    - title: 中华邮
+      logo: images/生活服务/中华邮.png
+      url: https://mail.china.com?from=dy.199908.top
+      description: china.com邮箱，付费邮箱，全球贸易之选
+    - title: 中国移动139邮箱
+      logo: images/生活服务/中国移动139邮箱.png
+      url: https://mail.10086.cn?from=dy.199908.top
+      description: 中国移动提供的电子邮件业务
+    - title: 88完美邮箱
+      logo: images/生活服务/88完美邮箱.jpg
+      url: https://www.88.com?from=dy.199908.top
+      description: 88完美邮箱登陆
+    - title: TOM邮箱
+      logo: images/生活服务/TOM邮箱.png
+      url: https://mail.tom.com?from=dy.199908.top
+      description: TOM邮箱登陆
+    - title: 沃邮箱
+      logo: images/生活服务/沃邮箱.png
+      url: https://mail.wo.cn?from=dy.199908.top
+      description: 面向中国联通用户提供的多功能邮件服务
+    - title: 雅虎邮箱
+      logo: images/生活服务/雅虎邮箱.jpg
+      url: https://login.yahoo.com?from=dy.199908.top
+      description: 雅虎邮箱登陆
+    - title: 21CN个人邮箱
+      logo: images/生活服务/21CN个人邮箱.png
+      url: https://mail.21cn.com?from=dy.199908.top
+      description: 中国电信旗下的21CN公司提供的电子邮件服务
 
 - taxonomy: 软件工具
   icon: fa-chart-bar
@@ -3427,8 +3577,6 @@
   - term: 转换工具
   - term: 学习工具
   - term: 工作工具
-  - term: 快递物流
-  - term: 邮箱登录
   tabs:
   - name: 电脑装机
     links:
@@ -3950,81 +4098,6 @@
       logo: images/软件工具/Graph_Maker.svg
       url: https://graph-maker.online/zh?from=dy.199908.top
       description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
-  - name: 快递物流
-    links:
-    - title: 查快递
-      logo: images/软件工具/查快递.png
-      url: https://www.kuaidi100.com?from=dy.199908.top
-      description: 一站查询全球1000+快递公司单号查询、价格查询、时效查询
-    - title: 菜鸟裹裹
-      logo: images/软件工具/菜鸟裹裹.jpg
-      url: https://www.guoguo-app.com?from=dy.199908.top
-      description: 阿里巴巴旗下菜鸟网络官方出品，寄快递、查快递
-    - title: 顺丰速运
-      logo: images/软件工具/顺丰速运.png
-      url: https://www.sf-express.com/cn/sc/index.html?from=dy.199908.top
-      description: 国内最大的综合物流服务商
-    - title: Track123
-      logo: images/软件工具/Track123.png
-      url: https://www.track123.com/cn?from=dy.199908.top
-      description: Track123 是一家专注于全球物流追踪解决方案的公司，提供多种产品和服务，旨在帮助用户高效、准确地追踪包裹和物流信息。
-    - title: 中通快递
-      logo: images/软件工具/中通快递.jpg
-      url: https://www.zto.com?from=dy.199908.top
-      description: 中通快递
-    - title: 圆通速递
-      logo: images/软件工具/圆通速递.png
-      url: https://www.yto.net.cn?from=dy.199908.top
-      description: 圆通速递
-    - title: 申通快递
-      logo: images/软件工具/申通快递.png
-      url: http://www.sto.cn?from=dy.199908.top
-      description: 申通快递
-    - title: 京东物流
-      logo: images/软件工具/京东物流.jpg
-      url: https://www.jdl.cn?from=dy.199908.top
-      description: 京东物流
-    - title: 德邦快递
-      logo: images/软件工具/德邦快递.jpg
-      url: https://www.deppon.com?from=dy.199908.top
-      description: 德邦快递
-    - title: 快递投诉
-      logo: images/软件工具/快递投诉.png
-      url: https://sswz.spb.gov.cn?from=dy.199908.top
-      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
-    - title: 快递网
-      logo: images/软件工具/快递网.png
-      url: http://www.kuaidi.com?from=dy.199908.top
-      description: 一键查询顺丰、申通、圆通、韵达、汇通、天天、德邦、中通、宅急送、快捷、信丰、邮政包裹、挂号信及EMS等常见物流单号
-    - title: 快递100
-      logo: images/软件工具/快递100.png
-      url: https://www.kuaidi100.com?from=dy.199908.top
-      description: 综合性的快递查询与物流服务平台
-    - title: 全球物流查询平台
-      logo: images/软件工具/全球物流查询平台.png
-      url: https://www.17track.net/zh-cn?from=dy.199908.top
-      description: 17TRACK是一款全球物流查询平台，专注于提供包裹追踪、物流信息查询和管理服务，支持查询全球2100+运输商,190+航司
-    - title: 邮政EMS
-      logo: images/软件工具/邮政EMS.jpg
-      url: https://www.ems.com.cn?from=dy.199908.top
-      description: 中国邮政速递物流
-    - title: 韵达速递
-      logo: images/软件工具/韵达速递.jpg
-      url: http://www.yundaex.com?from=dy.199908.top
-      description: 韵达速递
-    - title: 中国邮政
-      logo: images/软件工具/中国邮政.jpg
-      url: http://yjcx.chinapost.com.cn?from=dy.199908.top
-      description: 给据邮件跟踪查询系统
-    - title: 极兔速递
-      logo: images/软件工具/极兔速递.jpg
-      url: https://www.jtexpress.com.cn?from=dy.199908.top
-      description: 极兔速递
-    - title: ups国际快递
-      logo: images/软件工具/ups国际快递.png
-      url: https://www.ups.com?from=dy.199908.top
-      description: 一家全球领先的快递和物流服务提供商
-  - name: 邮箱登录
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
