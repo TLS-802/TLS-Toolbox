@@ -2077,16 +2077,14 @@
 - taxonomy: 广告投放
   icon: fa-bullhorn
   list:
-  - term: 抖音
-  - term: 淘宝
-  - term: 快手
-  - term: 京东
-  - term: 小红书
-  - term: 视频号
-  - term: 拼多多
-  - term: 其他
+  - term: 短视频平台
+  - term: 电商平台
+  - term: 广告联盟
+  - term: 营销服务
+  - term: 社交媒体
+  - term: 搜索引擎
   tabs:
-  - name: 抖音
+  - name: 短视频平台
     links:
     - title: 巨量引擎
       logo: images/广告投放/巨量引擎.png
@@ -2096,6 +2094,10 @@
       logo: images/广告投放/巨量千川.png
       url: https://qianchuan.jinritemai.com?from=dy.199908.top
       description: 抖音电商广告投放平台
+    - title: DOU+
+      logo: images/广告投放/DOU.png
+      url: https://doujia.douyin.com?from=dy.199908.top
+      description: 抖音内容加热和营销推广产品
     - title: 巨量星图
       logo: images/广告投放/巨量云图.png
       url: https://yuntu.oceanengine.com?from=dy.199908.top
@@ -2104,10 +2106,6 @@
       logo: images/电商辅助/巨量创意.png
       url: https://cc.oceanengine.com?from=dy.199908.top
       description: 抖音广告创意平台
-    - title: DOU+
-      logo: images/广告投放/DOU.png
-      url: https://doujia.douyin.com?from=dy.199908.top
-      description: 抖音内容加热和营销推广产品
     - title: 巨量本地推
       logo: images/广告投放/巨量本地推.png
       url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
@@ -2128,42 +2126,6 @@
       logo: images/图标字体/iconfont.png
       url: https://www.fengniaoai.com?from=dy.199908.top
       description: 抖音内容营销和广告投放平台
-    - title: Tiktok广告投放
-      logo: images/电商辅助/抖音.jpg
-      url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
-      description: Tiktok海外广告投放平台
-    - title: Tiktok ADS
-      logo: images/电商辅助/抖音.jpg
-      url: https://ads.tiktok.com/i18n?from=dy.199908.top
-      description: Tiktok官方广告投放平台
-  - name: 淘宝
-    links:
-    - title: 直通车
-      logo: images/广告投放/直通车.png
-      url: https://subway.simba.taobao.com?from=dy.199908.top
-      description: 淘宝关键词推广工具
-    - title: 淘宝联盟
-      logo: images/广告投放/淘宝联盟.jpg
-      url: https://pub.alimama.com?from=dy.199908.top
-      description: 淘宝联盟推广平台
-    - title: 引力魔方
-      logo: images/广告投放/直通车.png
-      url: https://tuijian.taobao.com?from=dy.199908.top
-      description: 淘宝信息流推广工具
-    - title: 万相台
-      logo: images/广告投放/直通车.png
-      url: https://adbrain.taobao.com?from=dy.199908.top
-      description: 淘宝全域广告投放平台
-    - title: 品销宝
-      logo: images/广告投放/品销宝.png
-      url: https://branding.taobao.com?from=dy.199908.top
-      description: 淘宝品牌推广工具
-    - title: 阿里妈妈
-      logo: images/广告投放/直通车.png
-      url: https://www.alimama.com?from=dy.199908.top
-      description: 阿里巴巴集团旗下的网络营销平台
-  - name: 快手
-    links:
     - title: 磁力引擎
       logo: images/广告投放/磁力引擎.png
       url: https://e.kuaishou.com?from=dy.199908.top
@@ -2172,8 +2134,48 @@
       logo: images/广告投放/磁力智投.png
       url: https://ad.e.kuaishou.com?from=dy.199908.top
       description: 快手智能广告投放平台
-  - name: 京东
+    - title: 快手联盟
+      logo: images/广告投放/快手联盟.png
+      url: https://u.kuaishou.com?from=dy.199908.top
+      description: 快手科技推出的一站式视频商业能力转化平台，旨在通过短视频和直播的形式，为广告主、开发者和用户创造互惠共赢的生态系统
+    - title: Tiktok ADS
+      logo: images/电商辅助/抖音.jpg
+      url: https://ads.tiktok.com/i18n?from=dy.199908.top
+      description: Tiktok官方广告投放平台
+    - title: Tiktok广告投放
+      logo: images/电商辅助/抖音.jpg
+      url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
+      description: Tiktok海外广告投放平台
+  - name: 电商平台
     links:
+    - title: 直通车
+      logo: images/广告投放/直通车.png
+      url: https://subway.simba.taobao.com?from=dy.199908.top
+      description: 淘宝关键词推广工具
+    - title: 万相台
+      logo: images/广告投放/直通车.png
+      url: https://adbrain.taobao.com?from=dy.199908.top
+      description: 淘宝全域广告投放平台
+    - title: 引力魔方
+      logo: images/广告投放/直通车.png
+      url: https://tuijian.taobao.com?from=dy.199908.top
+      description: 淘宝信息流推广工具
+    - title: 淘宝联盟
+      logo: images/广告投放/淘宝联盟.jpg
+      url: https://pub.alimama.com?from=dy.199908.top
+      description: 淘宝联盟推广平台
+    - title: 阿里妈妈
+      logo: images/广告投放/直通车.png
+      url: https://www.alimama.com?from=dy.199908.top
+      description: 阿里巴巴集团旗下的网络营销平台
+    - title: 品销宝
+      logo: images/广告投放/品销宝.png
+      url: https://branding.taobao.com?from=dy.199908.top
+      description: 淘宝品牌推广工具
+    - title: 京准通
+      logo: images/广告投放/京东.png
+      url: https://jzt.jd.com/gw/index?from=dy.199908.top
+      description: 京东关键词推广工具
     - title: 京东联盟
       logo: images/广告投放/京东联盟.png
       url: https://union.jd.com?from=dy.199908.top
@@ -2182,40 +2184,6 @@
       logo: images/广告投放/京东商智.png
       url: https://sz.jd.com?from=dy.199908.top
       description: 京东商业智能分析平台
-    - title: 京准通
-      logo: images/广告投放/京东.png
-      url: https://jzt.jd.com/gw/index?from=dy.199908.top
-      description: 京东关键词推广工具
-  - name: 小红书
-    links:
-    - title: 聚光平台
-      logo: images/广告投放/聚光.jpg
-      url: https://ad.xiaohongshu.com?from=dy.199908.top
-      description: 小红书官方广告投放平台
-    - title: 小红书蒲公英
-      logo: images/广告投放/小红书.jpg
-      url: https://pgy.xiaohongshu.com?from=dy.199908.top
-      description: 小红书品牌合作平台
-  - name: 视频号
-    links:
-    - title: 微信广告
-      logo: images/广告投放/Wechat.jpg
-      url: https://ad.weixin.qq.com?from=dy.199908.top
-      description: 微信广告投放平台
-    - title: 视频号助手
-      logo: images/广告投放/视频号.jpg
-      url: https://channels.weixin.qq.com?from=dy.199908.top
-      description: 微信视频号创作者平台
-    - title: 诸葛智投
-      logo: images/广告投放/诸葛智投.png
-      url: https://zgzt.v-ma.com?from=dy.199908.top
-      description: 视频号投放管理工具
-    - title: 微信红包封面开放平台
-      logo: images/广告投放/Wechat.jpg
-      url: https://cover.weixin.qq.com?from=dy.199908.top
-      description: 微信红包封面营销平台
-  - name: 拼多多
-    links:
     - title: 多多搜索推广
       logo: images/广告投放/拼多多.jpg
       url: https://mms.pinduoduo.com?from=dy.199908.top
@@ -2232,24 +2200,140 @@
       logo: images/广告投放/拼多多.jpg
       url: https://mms.pinduoduo.com?from=dy.199908.top
       description: 拼多多商家管理后台
-  - name: 其他
+  - name: 广告联盟
     links:
-    - title: 百度推广
-      logo: images/广告投放/百度营销.png
-      url: https://e.baidu.com?from=dy.199908.top
-      description: 百度搜索推广平台
+    - title: 穿山甲广告联盟
+      logo: images/广告投放/穿山甲广告联盟.png
+      url: https://www.csjplatform.com?from=dy.199908.top
+      description: 为开发者提供流量变现、广告变现、用户增长、LTV提升等全生命周期成长服务
+    - title: Google AdMob
+      logo: images/广告投放/Google_AdMob.png
+      url: https://admob.google.com?from=dy.199908.top
+      description: 全球最大的移动APP广告平台
+    - title: 谷歌广告联盟
+      logo: images/广告投放/谷歌广告联盟.png
+      url: http://adsense.google.com?from=dy.199908.top
+      description: 帮助网站主通过展示广告来获得收入
+    - title: 小米移动广告联盟
+      logo: images/广告投放/小米移动广告联盟.png
+      url: https://dev.mi.com/xiaomihyperos/advertisement?from=dy.199908.top
+      description: 小米移动广告联盟（简称"米盟"）是小米公司推出的一项广告服务平台，旨在为开发者和广告主提供流量变现和广告投放的解决方案。
+    - title: OPPO广告联盟
+      logo: images/广告投放/OPPO广告联盟.ico
+      url: https://u.oppomobile.com?from=dy.199908.top
+      description: OPPO广告联盟是一个基于OPPO终端设备的广告平台，旨在帮助开发者实现流量变现和用户增长。
+    - title: vivo广告联盟
+      logo: images/广告投放/vivo广告联盟.png
+      url: https://adnet.vivo.com.cn?from=dy.199908.top
+      description: vivo广告联盟是一个依托vivo平台资源和技术优势，为广告主提供高效、精准广告投放与变现的平台。
+    - title: 荣耀广告联盟
+      logo: images/广告投放/荣耀广告联盟.svg
+      url: https://developer.honor.com/alliance/index.html?from=dy.199908.top
+      description: 荣耀广告联盟是依托荣耀终端优势，为开发者提供优质的流量变现服务，帮助开发者实现商业增长的平台。
+    - title: uni-ad广告联盟
+      logo: images/广告投放/uni_ad广告联盟.ico
+      url: https://uniad.dcloud.net.cn?from=dy.199908.top
+      description: uni-ad广告联盟是一个为开发者提供一站式广告变现解决方案的平台，支持多端应用（如uni-app、uni-h5和微信小程序）的广告接入。
+    - title: dcloud广告联盟
+      logo: images/广告投放/dcloud广告联盟.svg
+      url: https://www.dcloud.io/dad.html?from=dy.199908.top
+      description: DCloud广告联盟是DCloud推出的一项广告变现服务，旨在帮助开发者通过其平台实现广告收益。
+    - title: 4399广告联盟
+      logo: images/广告投放/4399广告联盟.svg
+      url: https://union.4399.cn?from=dy.199908.top
+      description: 4399广告联盟为手机游戏开发者提供全新的变现方式,依托于4399大数据人群分析,大量的优质广告主以及成熟的广告优化团队,通过丰富的广告样式为开发者提供最优质的商业化解决方案
+    - title: 多麦联盟
+      logo: images/广告投放/多麦联盟.png
+      url: https://home.duomai.com/zh?from=dy.199908.top
+      description: 一家专注于效果营销的优质广告服务商
+    - title: 360奇聚流量变现平台
+      logo: images/广告投放/360奇聚流量变现平台.png
+      url: http://ssp.360.cn?from=dy.199908.top
+      description: 360公司推出的一款旨在提升媒体变现能力的工具
+    - title: 万维广告
+      logo: images/广告投放/万维广告.png
+      url: https://wwads.cn?from=dy.199908.top
+      description: 专注于互联网广告交易的平台
+    - title: 口袋工厂
+      logo: images/广告投放/口袋工厂.png
+      url: https://www.13lm.com?from=dy.199908.top
+      description: 独立开发者广告联盟，一个数据真正公开透明的聚合广告平台
+    - title: 广告联盟
+      logo: images/广告投放/广告联盟.png
+      url: https://www.bgrdh.com/sites/36602.html?from=dy.199908.top
+      description: 接入推广广告赚钱
+  - name: 营销服务
+    links:
+    - title: 神赞
+      logo: images/广告投放/神赞.png
+      url: https://www.shenzan.com?from=dy.199908.top
+      description: 新媒体营销平台，KOL营销品牌种草内容带货
+    - title: 微播易
+      logo: images/广告投放/微播易.png
+      url: http://www.weiboyi.com?from=dy.199908.top
+      description: 一站式KOL资源采买服务
+    - title: 新榜有赚
+      logo: images/广告投放/新榜有赚.png
+      url: https://a.newrank.cn/trade?from=dy.199908.top
+      description: 公众号视频号接广告赚钱
     - title: 星榜
       logo: images/广告投放/星榜.jpeg
       url: https://www.starrank.com?from=dy.199908.top
       description: 短视频博主内容营销和电商服务
+    - title: 蜜蜂派单
+      logo: images/广告投放/蜜蜂派单.png
+      url: https://mifengpaidan.com?from=dy.199908.top
+      description: 微信公众号广告接单,公众号广告投放
+    - title: 传播易
+      logo: images/广告投放/传播易.png
+      url: https://www.chuanboyi.com?from=dy.199908.top
+      description: 投放广告网站
+    - title: 云自媒
+      logo: images/广告投放/云自媒.png
+      url: http://www.myunmei.com?from=dy.199908.top
+      description: 云自媒汇聚26万+优质自媒体资源
+    - title: 发呀
+      logo: images/广告投放/发呀.png
+      url: https://www.88faya.com?from=dy.199908.top
+      description: 一个专注于微信公众号广告投放和内容推广的数字化营销服务平台
+    - title: 领库
+      logo: images/广告投放/领库.png
+      url: http://www.kolstore.com?from=dy.199908.top
+      description: 社交自媒体广告平台
     - title: 广告门
       logo: images/广告投放/广告门.png
       url: https://www.adquan.com?from=dy.199908.top
       description: 广告行业门户网站
-    - title: 360推广
-      logo: images/广告投放/360智慧商业.png
-      url: https://e.360.cn?from=dy.199908.top
-      description: 360搜索广告投放平台
+    - title: Google AdSense替代品
+      logo: images/广告投放/Google_AdSense替代品.png
+      url: https://googleadsensealternatives.com/zh-CN?from=dy.199908.top
+      description: 发现优质的Google AdSense替代品，优化您的网站变现策略。为您的网站寻找最佳广告网络。
+  - name: 社交媒体
+    links:
+    - title: 微信广告
+      logo: images/广告投放/Wechat.jpg
+      url: https://ad.weixin.qq.com?from=dy.199908.top
+      description: 微信广告投放平台
+    - title: 视频号助手
+      logo: images/广告投放/视频号.jpg
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号创作者平台
+    - title: 微信红包封面开放平台
+      logo: images/广告投放/微信红包封面开放平台.png
+      url: https://cover.weixin.qq.com?from=dy.199908.top
+      description: 微信红包封面营销平台
+    - title: 诸葛智投
+      logo: images/广告投放/诸葛智投.png
+      url: https://zgzt.v-ma.com?from=dy.199908.top
+      description: 视频号投放管理工具
+    - title: 聚光平台
+      logo: images/广告投放/聚光.jpg
+      url: https://ad.xiaohongshu.com?from=dy.199908.top
+      description: 小红书官方广告投放平台
+    - title: 小红书蒲公英
+      logo: images/广告投放/小红书.jpg
+      url: https://pgy.xiaohongshu.com?from=dy.199908.top
+      description: 小红书品牌合作平台
     - title: 微博广告
       logo: images/广告投放/微博.png
       url: https://tui.weibo.com/platform?from=dy.199908.top
@@ -2258,6 +2342,24 @@
       logo: images/广告投放/知乎.png
       url: https://xg.zhihu.com/home?from=dy.199908.top
       description: 知乎广告投放平台
+  - name: 搜索引擎
+    links:
+    - title: 腾讯广告
+      logo: images/广告投放/腾讯广告.png
+      url: https://e.qq.com?from=dy.199908.top
+      description: 国内领先的广告平台
+    - title: 百度推广
+      logo: images/广告投放/百度营销.png
+      url: https://e.baidu.com?from=dy.199908.top
+      description: 百度搜索推广平台
+    - title: 百度营销中心
+      logo: images/广告投放/百度营销中心.png
+      url: https://yingxiao.baidu.com?from=dy.199908.top
+      description: 丰富广告资源，海量优质流量
+    - title: 360推广
+      logo: images/广告投放/360智慧商业.png
+      url: https://e.360.cn?from=dy.199908.top
+      description: 360搜索广告投放平台
 
 - taxonomy: 影音娱乐
   icon: fa-video
