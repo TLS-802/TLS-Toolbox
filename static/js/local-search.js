@@ -113,17 +113,37 @@ function search() {
 // 添加输入事件监听，使用防抖函数包裹搜索函数，设置延迟时间为300ms
 input.addEventListener("input", debounce(search, 300));
 
-/*搜索按钮：打开搜索框*/
-document.getElementById('search-btn').addEventListener('click', function() {  
-    var searchBox = document.getElementById('overlay');  
-    if (searchBox.style.display === 'none') {  
-    searchBox.style.display = 'block';
-    var inputElement = document.getElementById('search-input');  
-    inputElement.focus(); 
-    } else {  
-    searchBox.style.display = 'none';
-    }  
-});
+/*搜索按钮：打开搜索框 - 改进移动端兼容性*/
+function initSearchButton() {
+    var searchBtn = document.getElementById('search-btn');
+    if (searchBtn) {
+        searchBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            var searchBox = document.getElementById('overlay');
+            if (searchBox) {
+                if (searchBox.style.display === 'none' || !searchBox.style.display) {
+                    searchBox.style.display = 'block';
+                    var inputElement = document.getElementById('search-input');
+                    if (inputElement) {
+                        // 移动端延迟聚焦，避免键盘弹出问题
+                        setTimeout(function() {
+                            inputElement.focus();
+                        }, 100);
+                    }
+                } else {
+                    searchBox.style.display = 'none';
+                }
+            }
+        });
+    }
+}
+
+// 确保DOM加载完成后初始化
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSearchButton);
+} else {
+    initSearchButton();
+}
 /*Ctrl+F：打开搜索框*/
 document.addEventListener('keydown', function(event) { 
     var searchBox = document.getElementById('overlay');

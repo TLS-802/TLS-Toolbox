@@ -210,14 +210,34 @@ function trigger_resizable()
 		$('a[data-toggle="mobile-menu"]').on('click', function(ev)
 		{
 			ev.preventDefault();
+			var isVisible = $("#main-menu").hasClass('mobile-is-visible');
+
 			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-            if($("#main-menu").hasClass('mobile-is-visible') === true){
+			public_vars.$sidebarMenu.toggleClass('mobile-menu-visible');
+
+            if(!isVisible) {
+				// 显示菜单
 				public_vars.$sidebarMenu.removeClass('collapsed');
-                $(".sidebar-menu-inner").css("max-height",window.innerHeight);
-                ps_init();
-            }
-            else{
+                $(".sidebar-menu-inner").css("max-height", window.innerHeight);
+
+                // 添加背景遮罩
+                if(!$('.mobile-sidebar-overlay').length) {
+                	$('body').append('<div class="mobile-sidebar-overlay"></div>');
+                }
+                $('.mobile-sidebar-overlay').addClass('visible');
+
+                // 初始化滚动条
+                setTimeout(function() {
+                	ps_init();
+                }, 100);
+
+                // 阻止body滚动
+                $('body').addClass('mobile-menu-open');
+            } else {
+            	// 隐藏菜单
                 ps_destroy();
+                $('.mobile-sidebar-overlay').removeClass('visible');
+                $('body').removeClass('mobile-menu-open');
             }
 		});
 		// Mobile Menu Trigger for Horizontal Menu
@@ -377,11 +397,13 @@ var public_vars = public_vars || {};
 			stickFooterToBottom();
 			$(window).on('xenon.resized', stickFooterToBottom);
 		}
-		// Perfect Scrollbar
-		if($.isFunction($.fn.perfectScrollbar))
+		// Perfect Scrollbar - 统一使用原生JavaScript版本
+		if(typeof PerfectScrollbar !== 'undefined')
 		{
 			if(public_vars.$sidebarMenu.hasClass('fixed'))
 				ps_init();
+
+			// 初始化其他滚动条
 			$(".ps-scrollbar").each(function(i, el)
 			{
 				var $el = $(el);
@@ -389,14 +411,28 @@ var public_vars = public_vars || {};
 				{
 					$el.scrollTop($el.prop('scrollHeight'));
 				}
-				$el.perfectScrollbar({
-					wheelPropagation: false
-				});
+
+				// 使用原生PerfectScrollbar
+				if(!el.perfectScrollbarInstance) {
+					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
+						wheelSpeed: 1,
+						wheelPropagation: false,
+						suppressScrollX: true
+					});
+				}
 			});
+
 			// Chat Scrollbar
 			var $chat_inner = public_vars.$pageContainer.find('#chat .chat-inner');
-			if($chat_inner.parent().hasClass('fixed'))
-				$chat_inner.css({maxHeight: $(window).height()}).perfectScrollbar();
+			if($chat_inner.length && $chat_inner.parent().hasClass('fixed'))
+			{
+				var chatElement = $chat_inner[0];
+				$chat_inner.css({maxHeight: $(window).height()});
+				if(!chatElement.perfectScrollbarInstance) {
+					chatElement.perfectScrollbarInstance = new PerfectScrollbar(chatElement);
+				}
+			}
+
 			// User info opening dropdown trigger PS update
 			$(".dropdown:has(.ps-scrollbar)").each(function(i, el)
 			{
@@ -406,30 +442,69 @@ var public_vars = public_vars || {};
 					ev.preventDefault();
 					setTimeout(function()
 					{
-						$scrollbar.perfectScrollbar('update');
+						$scrollbar.each(function() {
+							if(this.perfectScrollbarInstance) {
+								this.perfectScrollbarInstance.update();
+							}
+						});
 					}, 1);
 				});
 			});
+
 			// Scrollable
 			$("div.scrollable").each(function(i, el)
 			{
 				var $this = $(el),
 					max_height = parseInt(attrDefault($this, 'max-height', 200), 10);
 				max_height = max_height < 0 ? 200 : max_height;
-				$this.css({maxHeight: max_height}).perfectScrollbar({
-					wheelPropagation: true
-				});
+				$this.css({maxHeight: max_height});
+
+				if(!el.perfectScrollbarInstance) {
+					el.perfectScrollbarInstance = new PerfectScrollbar(el, {
+						wheelSpeed: 1,
+						wheelPropagation: true,
+						suppressScrollX: true
+					});
+				}
 			});
 		}
-		// Go to top links
+		// Go to top links - 改进移动端兼容性
 		$('body').on('click', 'a[rel="go-top"]', function(ev)
 		{
 			ev.preventDefault();
-			var obj = {pos: $(window).scrollTop()};
-			TweenLite.to(obj, .3, {pos: 0, ease:Power4.easeOut, onUpdate: function()
-			{
-				$(window).scrollTop(obj.pos);
-			}});
+
+			// 检查是否有TweenLite，如果没有则使用原生滚动
+			if(typeof TweenLite !== 'undefined') {
+				var obj = {pos: $(window).scrollTop()};
+				TweenLite.to(obj, .3, {pos: 0, ease:Power4.easeOut, onUpdate: function()
+				{
+					$(window).scrollTop(obj.pos);
+				}});
+			} else {
+				// 原生平滑滚动
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth'
+				});
+			}
+		});
+
+		// 移动端背景遮罩点击关闭菜单
+		$('body').on('click', '.mobile-sidebar-overlay', function(ev) {
+			ev.preventDefault();
+			$('a[data-toggle="mobile-menu"]').trigger('click');
+		});
+
+		// 移动端菜单项点击后自动关闭菜单
+		$('body').on('click', '.sidebar-menu .main-menu.mobile-is-visible a:not([data-toggle])', function(ev) {
+			if(window.innerWidth < 768) {
+				// 延迟关闭，让链接有时间跳转
+				setTimeout(function() {
+					if($('#main-menu').hasClass('mobile-is-visible')) {
+						$('a[data-toggle="mobile-menu"]').trigger('click');
+					}
+				}, 100);
+			}
 		});
 		// Auto hidden breadcrumbs
 		$(".breadcrumb.auto-hidden").each(function(i, el)
