@@ -3533,8 +3533,199 @@
       url: https://www.printdistributor.com?from=dy.199908.top
       description: 可以实现多台打印机同时打印的软件
   - name: MAC资源
+    links:
+    - title: MacOS系统镜像
+      logo: images/软件工具/MacOS系统镜像.png
+      url: https://support.apple.com/zh-cn/102662?from=dy.199908.top
+      description: Mac OS系统镜像下载
+    - title: Awesome Mac
+      logo: images/软件工具/Awesome_Mac.svg
+      url: https://wangchujiang.com/awesome-mac?from=dy.199908.top
+      description: 实用优秀Mac软件推荐GitHub仓库
+    - title: CNET Download
+      logo: images/软件工具/CNET_Download.png
+      url: https://download.cnet.com?from=dy.199908.top
+      description: CNET Download 是一个全球知名的软件下载平台，专注于为用户提供各种类型的软件、应用和工具的下载服务，包括免费软件、共享软件以及付费软件。
+    - title: macvk
+      logo: images/软件工具/macvk.ico
+      url: https://www.macvk.com?from=dy.199908.top
+      description: 苹果mac电脑软件资源免费分享网站
+    - title: Mac中文
+      logo: images/软件工具/Mac中文.ico
+      url: https://www.maczh.com?from=dy.199908.top
+      description: Mac中文(MacZh) - 免费分享苹果电脑macSO系统应用程序Mac软件所有免费下载，支持Apple Silicon M1/M2芯片安装。
+    - title: MacWK
+      logo: images/软件工具/MacWK.png
+      url: https://www.macwk.com?from=dy.199908.top
+      description: MacWK是一个提供精品macOS软件下载的资源平台，以其免费、无广告、资源丰富和用户体验优良著称。AC应用软件,每天更新大量精品mac软件,为您提供优质的mac软件,mac破解版软件下载
+    - title: Xclient
+      logo: images/软件工具/Xclient.png
+      url: https://xclient.info?from=dy.199908.top
+      description: MAC应用分享
+    - title: 马可菠萝
+      logo: images/软件工具/马可菠萝.png
+      url: https://www.macbl.com?from=dy.199908.top
+      description: 专门分享MAC软件应用的网站
+    - title: 知您网
+      logo: images/软件工具/知您网.png
+      url: https://www.zhiniw.com?from=dy.199908.top
+      description: 提供苹果mac电脑软件,游戏下载
+    - title: Appstorrent
+      logo: images/软件工具/Appstorrent.svg
+      url: https://appstorrent.ru?from=dy.199908.top
+      description: Appstorrent 是一个俄罗斯创建的综合性 Mac 软件资源下载平台，提供丰富的软件、游戏和扩展资源，无需注册即可直接下载资源。
+    - title: ipadump
+      logo: images/软件工具/ipadump.png
+      url: https://ipadump.com?from=dy.199908.top
+      description: 中文ipa文件下载网站, 提供在线iOS应用下载服务
   - name: 拓展插件
+    links:
+    - title: Tampermonkey（油猴）
+      logo: images/软件工具/Tampermonkey_油猴_.png
+      url: https://www.tampermonkey.net?from=dy.199908.top
+      description: 油猴插件、脚本介绍及安装说明
+    - title: 广告拦截插件
+      logo: images/软件工具/广告拦截插件.png
+      url: https://github.com/gorhill/uBlock?from=dy.199908.top
+      description: 全网最受欢迎的常见的广告拦截插件推荐
+    - title: Violentmonkey
+      logo: images/软件工具/Violentmonkey.png
+      url: https://violentmonkey.github.io?from=dy.199908.top
+      description: Violentmonkey，又称"暴力猴"，是一款浏览器脚本管理器，通过加载用户脚本（UserScript）来实现网页功能的自定义和自动化操作，例如去除广告、美化界面、下载视频等。
+    - title: Greasemonkey
+      logo: images/软件工具/Greasemonkey.png
+      url: https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey?from=dy.199908.top
+      description: Greasemonkey（油猴子）是一款由Mozilla开发的浏览器扩展程序，它允许用户通过编写自定义脚本来修改网页的外观、功能或行为，从而实现个性化浏览体验。
+    - title: 谷歌扩展插件下载网站
+      logo: images/软件工具/谷歌扩展插件下载网站.png
+      url: https://chrome.google.com/webstore/category/extensions?from=dy.199908.top
+      description: 谷歌扩展插件下载网站
+    - title: DeepWork AI侧边栏
+      logo: images/软件工具/DeepWork_AI侧边栏.png
+      url: https://aisidebar.chat?from=dy.199908.top
+      description: DeepWork AI侧边栏在浏览器侧边栏中与AI聊天，解答问题、绘制图片、阅读文档、强化搜索结果、辅助创作、解释和扩写文本...以及更多强大的功能，随时随地助你效率提升！
+    - title: AixDownloader
+      logo: images/软件工具/AixDownloader.png
+      url: https://aixdownloader.com?from=dy.199908.top
+      description: 完全免费的网页视频,音频,图片下载工具
+    - title: Bilibili-Evolved
+      logo: images/软件工具/Bilibili_Evolved.svg
+      url: https://github.com/the1812/Bilibili-Evolved?from=dy.199908.top
+      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved 支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
+    - title: h5player
+      logo: images/软件工具/h5player.png
+      url: https://github.com/xxxily/h5player?from=dy.199908.top
+      description: h5player视频增强油猴脚本，支持所有H5视频网站，支持：倍速播放/加速播放、视频画面截图、画中画、网页全屏、调节亮度、饱和度、对比度、自定义配置功能增强等功能。
+    - title: 视频倍速
+      logo: images/软件工具/视频倍速.png
+      url: https://chrome.google.com/webstore/detail/video-speed-controller?from=dy.199908.top
+      description: 控制网页视频播放速度，视频倍速控制浏览器扩展插件，可以加速或者放慢播放速度
+    - title: Bilibili AI Skip
+      logo: images/软件工具/Bilibili_AI_Skip.svg
+      url: https://github.com/bilibili-ai-skip/bilibili-ai-skip?from=dy.199908.top
+      description: Bilibili AI Skip 是一款基于 AI 技术的 Chrome 扩展程序，旨在帮助用户自动跳过 Bilibili 视频中的广告。
+    - title: 网盘直链下载助手
+      logo: images/软件工具/网盘直链下载助手.svg
+      url: https://greasyfork.org/zh-CN/scripts/436446?from=dy.199908.top
+      description: 网盘直链下载助手是一款基于JavaScript开发的免费开源工具，旨在帮助用户快速获取网盘文件的直链下载地址，从而绕过网盘的限速限制，实现高速下载。
+    - title: web媒体雷达插件
+      logo: images/软件工具/web媒体雷达插件.jpg
+      url: https://chrome.google.com/webstore/detail/web-media-radar?from=dy.199908.top
+      description: 下载网站网页中的视频,音频等资源
+    - title: 网页右键限制解除
+      logo: images/软件工具/网页右键限制解除.jpg
+      url: https://greasyfork.org/zh-CN/scripts/28497?from=dy.199908.top
+      description: 破解解除网站网页右键复制功能
+    - title: Cloud Document Converter
+      logo: images/软件工具/Cloud_Document_Converter.png
+      url: https://chrome.google.com/webstore/detail/cloud-document-converter?from=dy.199908.top
+      description: Cloud Document Converter只读在线文档的复制工具，可以实现复制和下载那些不能复制的在线文档，并且还能最大程度的保留原文档格式。
+    - title: LinkSwift
+      logo: images/软件工具/LinkSwift.svg
+      url: https://greasyfork.org/zh-CN/scripts/linkswift?from=dy.199908.top
+      description: LinkSwift JS 是另一个基于 JavaScript 的工具，主要用于获取网盘文件的下载直链。
+    - title: 阿抖
+      logo: images/软件工具/阿抖.png
+      url: https://chrome.google.com/webstore/detail/adou-douyin-helper?from=dy.199908.top
+      description: 阿抖-抖音视频采集助手是一款专为抖音网页版设计的视频采集工具，支持用户通过浏览器插件一键下载视频、图文及评论等内容。
+    - title: mpmd
+      logo: images/软件工具/mpmd.png
+      url: https://github.com/doocs/md?from=dy.199908.top
+      description: mpmd是一款专为微信公众号图文创作设计的浏览器插件，集成了Markdown编辑器和主流图片托管平台，旨在为用户提供高效、便捷的图文创作体验。
   - name: 电视应用
+    links:
+    - title: 抖音TV
+      logo: images/软件工具/抖音TV.png
+      url: https://www.douyin.com/tv?from=dy.199908.top
+      description: 抖音TV版即鲜时光TV电视版，是一款专为电视大屏设计的短视频播放平台，旨在为用户提供更长的观看体验和更丰富的娱乐内容。
+    - title: 快手TV
+      logo: images/软件工具/快手TV.png
+      url: https://tv.kuaishou.com?from=dy.199908.top
+      description: 快手TV（云视听快TV）是快手公司为电视用户推出的官方短视频应用，旨在提供高清流畅的1080P视频体验。
+    - title: 百度网盘TV版
+      logo: images/软件工具/百度网盘TV版.png
+      url: https://pan.baidu.com/download?from=dy.199908.top
+      description: 百度推出的一款专为电视用户设计的云存储和播放应用
+    - title: 阿里云盘TV版
+      logo: images/软件工具/阿里云盘TV版.png
+      url: https://www.aliyundrive.com/download?from=dy.199908.top
+      description: 阿里云盘TV版专为智能电视设计，界面简洁清晰，运行流畅，支持多种功能，包括实时文件同步、4K高清视频播放、多设备管理、家庭空间共享和自动数据备份
+    - title: TVBox
+      logo: images/软件工具/TVBox.png
+      url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
+      description: TVBox电视盒子软件
+    - title: TvBox
+      logo: images/软件工具/TvBox.png
+      url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
+      description: 一款开源的电视盒子软件
+    - title: FongMi影视
+      logo: images/软件工具/FongMi影视.svg
+      url: https://www.100km.top?from=dy.199908.top
+      description: 基于开源项目TVBox的智能电视盒子应用
+    - title: TVbox助手
+      logo: images/软件工具/TVbox助手.png
+      url: https://github.com/o0HalfLife0o/TVBoxOSC?from=dy.199908.top
+      description: TVbox助手官网主页以及下载
+    - title: 电视猫
+      logo: images/软件工具/电视猫.png
+      url: http://m.ismartv.cn/tv/introductionTV?from=dy.199908.top
+      description: 影视点播,电视直播,电视回看
+    - title: 我的电视MYTV
+      logo: images/软件工具/我的电视MYTV.svg
+      url: https://github.com/lizongying/my-tv?from=dy.199908.top
+      description: 免费电视直播软件
+    - title: 直播电视软件
+      logo: images/软件工具/直播电视软件.png
+      url: https://github.com/lizongying/my-tv?from=dy.199908.top
+      description: 直播电视软件是一款专为安卓设备（如智能电视、电视盒子、安卓手机）设计的技术研究工具，旨在为具备一定技术基础的用户提供网络直播内容的访问与测试服务。
+    - title: FUSE(原HuYa)
+      logo: images/软件工具/FUSE_原HuYa_.png
+      url: https://github.com/xiaoyaocz/dart_simple_live?from=dy.199908.top
+      description: 聚合直播（FUSE）,支持虎牙/抖音/快手/哔哩哔哩/斗鱼/YY/网易CC/电视直播，支持手机/平板/电视/车机
+    - title: HTV
+      logo: images/软件工具/HTV.svg
+      url: https://github.com/htv-app/htv?from=dy.199908.top
+      description: A live media player app（手机、电视直播软件）app兼容Android 4.4和IPv4，可播放hls、rtp等各种源。
+    - title: 油桃TV
+      logo: images/软件工具/油桃TV.svg
+      url: https://www.utao.tv?from=dy.199908.top
+      description: 油桃TV,电视端浏览器,不再受爱奇艺等平台投屏限制,大屏观看高清视频
+    - title: 电视浏览器
+      logo: images/软件工具/电视浏览器.png
+      url: https://github.com/tv-browser/tv-browser?from=dy.199908.top
+      description: 电视浏览器，一款简易电视视频收看软件，用于方便的在机顶盒上收看网页视频。一个电视机顶盒及Android TV收看网页视频的浏览器
+    - title: WebView
+      logo: images/软件工具/WebView.svg
+      url: https://github.com/webview-tv/webview-tv?from=dy.199908.top
+      description: WebView 电视直播 App 是一款基于腾讯 X5 WebView 内核开发的电视直播应用，该应用支持多种设备，包括智能电视、网络机顶盒、投影仪、平板、车机和手机等安卓系统设备。
+    - title: 野草助手
+      logo: images/软件工具/野草助手.png
+      url: https://www.yecaozs.com?from=dy.199908.top
+      description: 野草助手是一款智能电视应用分享工具。用户在野草官网上传软件得到口令，智能电视端安装野草助手后，可以直接输入软件口令安装。除了口令安装，还支持U盘安装、远程安装和一键直达功能。
+    - title: 美家市场
+      logo: images/软件工具/美家市场.png
+      url: https://www.meijiashichang.com?from=dy.199908.top
+      description: 电视软件app应用市场
   - name: 转换工具
   - name: 学习工具
   - name: 工作工具
