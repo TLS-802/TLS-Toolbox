@@ -37,6 +37,7 @@
     logo: images/驼铃标志1.png
     url: https://tv1.199908.top/
     description: 免费影视资源，无需注册
+
 - taxonomy: 快捷导航
   icon: fa-shopping-cart
   list:
@@ -459,6 +460,7 @@
       logo: images/其他/zhuanzhuan.jpg
       url: https://www.zhuanzhuan.com?from=dy.199908.top
       description: 二手交易平台
+
 - taxonomy: AI工具集
   icon: fa-cogs
   list:
@@ -654,8 +656,7 @@
     - title: AiShort
       logo: images/AI工具集/AiShort.ico
       url: https://www.aishort.top
-      description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的
-        AI 智能体，实现复杂任务的自动化。
+      description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的 AI 智能体，实现复杂任务的自动化。
     - title: 大思政数智平台“思政通”
       logo: images/AI工具集/大思政数智平台“思政通”.png
       url: https://chatmarx.zihaoai.cn
@@ -663,8 +664,7 @@
     - 'title:': Poe
       logo: ./images/AI工具集/Poe.png
       url: https://poe.com
-      description: Poe.com汇聚卓越人工智能，一站式体验。探索 GPT-4.5、Claude 3.7 Sonnet、DeepSeek-R1、Runway、ElevenLabs
-        以及数百万其他产品。
+      description: Poe.com汇聚卓越人工智能，一站式体验。探索 GPT-4.5、Claude 3.7 Sonnet、DeepSeek-R1、Runway、ElevenLabs 以及数百万其他产品。
   - name: 办公提效
     links:
     - title: 问小白
@@ -824,8 +824,7 @@
     - title: Raphael AI
       logo: images/AI工具集/Raphael AI.png
       url: https://raphael.app/zh
-      description: 免费无限制 AI 图像生成器，使用 Raphael 创建精美图像，这是全球首个完全免费且无限制的 AI 图像生成器，由 FLUX.1-Dev
-        模型驱动。无需注册，图像质量卓越。
+      description: 免费无限制 AI 图像生成器，使用 Raphael 创建精美图像，这是全球首个完全免费且无限制的 AI 图像生成器，由 FLUX.1-Dev 模型驱动。无需注册，图像质量卓越。
     - title: A1.art
       logo: images/AI工具集/A1.art.png
       url: https://a1.art/zh
@@ -1033,8 +1032,7 @@
     - title: BoomCut
       logo: images/AI工具集/BoomCut.png
       url: https://boomcutai.com
-      description: BoomCut 爆剪辑提供出海营销一站式视频本地化解决方案，提供视频翻译、视频换脸、音色克隆、唇音驱动、智能擦除、字幕翻译等
-        AI 技术，快速完成本地化营销视频生成
+      description: BoomCut 爆剪辑提供出海营销一站式视频本地化解决方案，提供视频翻译、视频换脸、音色克隆、唇音驱动、智能擦除、字幕翻译等 AI 技术，快速完成本地化营销视频生成
     - title: VidAU
       logo: images/AI工具集/VidAU.png
       url: https://affiliates.vidau.ai/q1ccS9
@@ -1152,8 +1150,7 @@
     - title: Speechify
       logo: images/AI工具集/Speechify.png
       url: https://speechify.com/zh-hans
-      description: AI 文字转语音应用，帮助用户将书面文本转换为自然流畅的音频，提高阅读效率和体验。该应用支持多种语言和口音，覆盖超过 200
-        种自然声音，支持 60 多种语言。
+      description: AI 文字转语音应用，帮助用户将书面文本转换为自然流畅的音频，提高阅读效率和体验。该应用支持多种语言和口音，覆盖超过 200 种自然声音，支持 60 多种语言。
   - name: 虚拟形象
     links:
     - title: 秒创数字人直播助手
@@ -1183,8 +1180,7 @@
     - title: 一知智能芽势AI数字人
       logo: images/AI工具集/一知智能芽势AI数字人.png
       url: https://yashi.yiwise.com
-      description: 一知智能芽势数字人能够实现与人类的自然对话，并且具备逼真的外貌和动作表现能力，支持 2D 数字人风格化形象和声音定制，轻松复制
-        7x24 小时无人/半无人直播间，实现直播场景品牌化。
+      description: 一知智能芽势数字人能够实现与人类的自然对话，并且具备逼真的外貌和动作表现能力，支持 2D 数字人风格化形象和声音定制，轻松复制 7x24 小时无人/半无人直播间，实现直播场景品牌化。
     - title: BocaLive
       logo: images/AI工具集/BocaLive.png
       url: https://www.bocalive.ai/zh
@@ -1253,6 +1249,7 @@
       logo: images/AI工具集/KreadoAI.png
       url: https://www.kreadoai.com
       description: AIGC数字营销创作平台
+
 - taxonomy: 图文设计
   icon: fa-palette
   list:
@@ -1348,8 +1345,7 @@
     - title: NeuraPress
       logo: images/图文设计/NeuraPress.png
       url: https://md.leti.ltd?from=dy.199908.top
-      description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown
-        内容到微信公众号中使用。
+      description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown 内容到微信公众号中使用。
     - title: 易点微信编辑器
       logo: images/图文设计/易点微信编辑器.png
       url: http://www.wxeditor.com?from=dy.199908.top
@@ -1618,88 +1614,94 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
-- taxonomy: 电商插件
-  icon: fa-cogs
-  links:
-  - title: 灵邀AI
-    logo: images/电商插件/灵邀AI.jpg
-    url: https://limob.cn?from=dy.199908.top
-    description: 抖音微信达人邀约软件
-  - title: 店查查
-    logo: images/电商插件/店查查.png
-    url: https://www.dianchacha.com/chajian?from=dy.199908.top
-    description: 淘宝运营神器插件
-  - title: 店透视
-    logo: images/电商插件/店透视.png
-    url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
-    description: 指数还原详情插件
-  - title: AliPrice助手
-    logo: images/电商插件/aliexpress.png
-    url: https://www.aliprice.com?from=dy.199908.top
-    description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
-  - title: 哈士奇
-    logo: images/电商插件/哈士奇.jpg
-    url: https://hsq.dangxun.com?from=dy.199908.top
-    description: 多平台电商运营插件
-  - title: 至尊宝
-    logo: images/电商插件/至尊宝.jpg
-    url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
-    description: 多平台电商运营插件
-  - title: 指纹浏览器
-    logo: images/电商插件/指纹浏览器.png
-    url: https://virtualbrowser.cc?from=dy.199908.top
-    description: 多店铺电商卖家必备，隔离ip
-  - title: 猫爪
-    logo: images/电商插件/猫爪.jpg
-    url: https://cat-catch.bmmmd.com?from=dy.199908.top
-    description: 网页视频嗅探与下载插件
-  - title: 社媒助手
-    logo: images/电商插件/社媒助手.png
-    url: https://smc.iszhouhua.com?from=dy.199908.top
-    description: 多平台数据采集插件
-  - title: Fatkun图片下载
-    logo: images/电商插件/Fatkun图片下载.webp
-    url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
-    description: Fatkun图片下载插件
-  - title: 达连
-    logo: images/电商插件/达连.png
-    url: https://tool.kollink.net?from=dy.199908.top
-    description: TikTok达人邀约插件
-- taxonomy: 直播辅助
+
+- taxonomy: 电商辅助
   icon: fa-video
-  links:
-  - title: 抖音直播伴侣
-    logo: images/直播辅助/抖音直播伴侣.jpg
-    url: https://streamingtool.douyin.com?from=dy.199908.top
-    description: 抖音、火山官方直播工具
-  - title: 快手直播伴侣
-    logo: images/直播辅助/快手直播伴侣.png
-    url: https://live.kuaishou.com/live-partner?from=dy.199908.top
-    description: 快手平台直播软件
-  - title: 小红书直播助手
-    logo: images/直播辅助/小红书.jpg
-    url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
-    description: 小红书电脑直播助手
-  - title: 微信视频号助手
-    logo: images/直播辅助/视频号.png
-    url: https://channels.weixin.qq.com?from=dy.199908.top
-    description: 微信视频号创作者平台
-  - title: B站直播姬
-    logo: images/直播辅助/哔哩哔哩.png
-    url: https://live.bilibili.com/liveHime?from=dy.199908.top
-    description: 哔哩哔哩官方直播工具
-  - title: OBS
-    logo: images/直播辅助/OBS.png
-    url: https://obsproject.com?from=dy.199908.top
-    description: 多平台直播推流工具
-  - title: StreamCap
-    logo: images/直播辅助/StreamCap.jpg
-    url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
-    description: 多平台直播录屏软件
-  - title: 腾讯直播助手
-    logo: images/直播辅助/腾讯QQ.png
-    url: https://live.qq.com?from=dy.199908.top
-    description: 腾讯官方直播工具
+  list:
+  - term: 电商插件
+  - term: 直播辅助
+  tabs:
+  - name: 电商插件
+    links:
+    - title: 灵邀AI
+      logo: images/电商插件/灵邀AI.jpg
+      url: https://limob.cn?from=dy.199908.top
+      description: 抖音微信达人邀约软件
+    - title: 店查查
+      logo: images/电商插件/店查查.png
+      url: https://www.dianchacha.com/chajian?from=dy.199908.top
+      description: 淘宝运营神器插件
+    - title: 店透视
+      logo: images/电商插件/店透视.png
+      url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
+      description: 指数还原详情插件
+    - title: AliPrice助手
+      logo: images/电商插件/aliexpress.png
+      url: https://www.aliprice.com?from=dy.199908.top
+      description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
+    - title: 哈士奇
+      logo: images/电商插件/哈士奇.jpg
+      url: https://hsq.dangxun.com?from=dy.199908.top
+      description: 多平台电商运营插件
+    - title: 至尊宝
+      logo: images/电商插件/至尊宝.jpg
+      url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
+      description: 多平台电商运营插件
+    - title: 指纹浏览器
+      logo: images/电商插件/指纹浏览器.png
+      url: https://virtualbrowser.cc?from=dy.199908.top
+      description: 多店铺电商卖家必备，隔离ip
+    - title: 猫爪
+      logo: images/电商插件/猫爪.jpg
+      url: https://cat-catch.bmmmd.com?from=dy.199908.top
+      description: 网页视频嗅探与下载插件
+    - title: 社媒助手
+      logo: images/电商插件/社媒助手.png
+      url: https://smc.iszhouhua.com?from=dy.199908.top
+      description: 多平台数据采集插件
+    - title: Fatkun图片下载
+      logo: images/电商插件/Fatkun图片下载.webp
+      url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
+      description: Fatkun图片下载插件
+    - title: 达连
+      logo: images/电商插件/达连.png
+      url: https://tool.kollink.net?from=dy.199908.top
+      description: TikTok达人邀约插件
+  - name: 直播辅助
+    links:
+    - title: 抖音直播伴侣
+      logo: images/直播辅助/抖音直播伴侣.jpg
+      url: https://streamingtool.douyin.com?from=dy.199908.top
+      description: 抖音、火山官方直播工具
+    - title: 快手直播伴侣
+      logo: images/直播辅助/快手直播伴侣.png
+      url: https://live.kuaishou.com/live-partner?from=dy.199908.top
+      description: 快手平台直播软件
+    - title: 小红书直播助手
+      logo: images/直播辅助/小红书.jpg
+      url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
+      description: 小红书电脑直播助手
+    - title: 微信视频号助手
+      logo: images/直播辅助/视频号.png
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号创作者平台
+    - title: B站直播姬
+      logo: images/直播辅助/哔哩哔哩.png
+      url: https://live.bilibili.com/liveHime?from=dy.199908.top
+      description: 哔哩哔哩官方直播工具
+    - title: OBS
+      logo: images/直播辅助/OBS.png
+      url: https://obsproject.com?from=dy.199908.top
+      description: 多平台直播推流工具
+    - title: StreamCap
+      logo: images/直播辅助/StreamCap.jpg
+      url: https://fbjvryq00y.feishu.cn/drive/folder/Y0BTfqMWoleXphdT1cNci3fDnUg?from=dy.199908.top
+      description: 多平台直播录屏软件
+    - title: 腾讯直播助手
+      logo: images/直播辅助/腾讯QQ.png
+      url: https://live.qq.com?from=dy.199908.top
+      description: 腾讯官方直播工具
+
 - taxonomy: 电商货源
   icon: fa-shopping-bag
   list:
@@ -2063,6 +2065,7 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.jp0663.com?from=dy.199908.top
       description: 军埔货源平台
+
 - taxonomy: 广告投放
   icon: fa-bullhorn
   list:
@@ -2337,6 +2340,7 @@
       logo: images/广告投放/360智慧商业.png
       url: https://e.360.cn?from=dy.199908.top
       description: 360搜索广告投放平台
+
 - taxonomy: 影音娱乐
   icon: fa-video
   list:
@@ -2933,6 +2937,7 @@
       logo: images/影音娱乐/动漫狂.svg
       url: https://www.cartoonmad.com?from=dy.199908.top
       description: 免费动画漫画分享社群
+
 - taxonomy: 学习资源
   icon: fa-chart-bar
   list:
@@ -3474,6 +3479,7 @@
       logo: images/学习资源/W3School.png
       url: https://www.w3school.com.cn?from=dy.199908.top
       description: 中文Web技术教程
+
 - taxonomy: 生活服务
   icon: fa-chart-bar
   list:
@@ -3507,8 +3513,7 @@
     - title: JavaGuide
       logo: images/生活服务/JavaGuide.ico
       url: https://javaguide.cn?from=dy.199908.top
-      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java
-        技术栈的核心知识。
+      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
     - title: 编程满天星
       logo: images/生活服务/编程满天星.png
       url: https://itmtx.cn?from=dy.199908.top
@@ -4063,6 +4068,7 @@
       logo: images/生活服务/21CN个人邮箱.png
       url: https://mail.21cn.com?from=dy.199908.top
       description: 中国电信旗下的21CN公司提供的电子邮件服务
+
 - taxonomy: 软件工具
   icon: fa-chart-bar
   list:
@@ -4258,8 +4264,7 @@
     - title: Bilibili-Evolved
       logo: images/软件工具/Bilibili_Evolved.svg
       url: https://github.com/the1812/Bilibili-Evolved?from=dy.199908.top
-      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved
-        支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
+      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved 支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
     - title: h5player
       logo: images/软件工具/h5player.png
       url: https://github.com/xxxily/h5player?from=dy.199908.top
@@ -4387,8 +4392,7 @@
     - title: AnyConv
       logo: images/软件工具/AnyConv.png
       url: https://anyconv.com/tw?from=dy.199908.top
-      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD
-        文件等 。
+      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD 文件等 。
     - title: OCR图片转文字
       logo: images/软件工具/OCR图片转文字.jpg
       url: https://web.baimiaoapp.com?from=dy.199908.top
@@ -4396,8 +4400,7 @@
     - title: Online Video Converter
       logo: images/软件工具/Online_Video_Converter.png
       url: https://video-converter.com/cn?from=dy.199908.top
-      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300
-        多种视频格式，不需要注册或登录。
+      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300 多种视频格式，不需要注册或登录。
     - title: HEIC图像转换器
       logo: images/软件工具/HEIC图像转换器.jpg
       url: https://heicjpg.org?from=dy.199908.top
@@ -4590,6 +4593,7 @@
       logo: images/软件工具/Graph_Maker.svg
       url: https://graph-maker.online/zh?from=dy.199908.top
       description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
+
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
@@ -5118,6 +5122,7 @@
       logo: images/数据研究/阿里研究院.jpg
       url: http://www.aliresearch.com?from=dy.199908.top
       description: 新商业知识平台
+
 - taxonomy: 联系我们
   icon: fa-photo-video
   links:
@@ -5133,6 +5138,7 @@
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
+
 - taxonomy: 友情链接
   icon: fa-link
   friend:
