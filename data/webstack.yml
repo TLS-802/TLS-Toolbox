@@ -37,7 +37,6 @@
     logo: images/驼铃标志1.png
     url: https://tv1.199908.top/
     description: 免费影视资源，无需注册
-
 - taxonomy: 快捷导航
   icon: fa-shopping-cart
   list:
@@ -460,7 +459,6 @@
       logo: images/其他/zhuanzhuan.jpg
       url: https://www.zhuanzhuan.com?from=dy.199908.top
       description: 二手交易平台
-
 - taxonomy: AI工具集
   icon: fa-cogs
   list:
@@ -476,190 +474,190 @@
   - name: 写作助手
     links:
     - title: 问小白
-      logo: ./images/AI工具集/问小白.jpg
+      logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title: 豆包
-      logo: ./images/AI工具集/豆包.png
+      logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
     - title: 讯飞星火
-      logo: ./images/AI工具集/讯飞星火.png
+      logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 深度推理能力全新升级，全面对标OpenAI o1
     - title: 秘塔写作猫
-      logo: ./images/AI工具集/秘塔写作猫.png
+      logo: images/AI工具集/秘塔写作猫.png
       url: https://xiezuocat.com
       description: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
     - title: 笔灵AI写作
-      logo: ./images/AI工具集/笔灵AI写作.png
+      logo: images/AI工具集/笔灵AI写作.png
       url: https://ibiling.cn/?from=bgrdh
       description: 全能型AI写作工具，AI 文章撰写、AI 论文写作、AI小说写作、文章降重降AI等
     - title: 66论文
-      logo: ./images/AI工具集/66论文.png
+      logo: images/AI工具集/66论文.png
       url: https://www.66paper.cn/AI_A14BB05
       description: 高质量论文写作,300万大学生都在用的AI写作平台
     - title: AI一键生成论文
-      logo: ./images/AI工具集/AI一键生成论文.png
+      logo: images/AI工具集/AI一键生成论文.png
       url: https://ibiling.cn/paper?from=bgrpaper
       description: 毕业论文、千字大纲免费生成，几万字专业初稿，答辩PPT一键生成，更可根据导师要求无限改稿！
     - title: Paperpal
-      logo: ./images/AI工具集/Paperpal.png
+      logo: images/AI工具集/Paperpal.png
       url: https://www.editage.cn/paperpal?utm_source=bgrdh&utm_medium=Banner&utm_campaign=Banner
       description: 免费英文写作及润色AI工具，兼备翻译及投稿检查等强大功能，大幅节省写作时长
     - title: 迅捷AI写作
-      logo: ./images/AI工具集/迅捷AI写作.png
+      logo: images/AI工具集/迅捷AI写作.png
       url: https://www.aichat1234.com/app/?bgrdh
       description: 利用人工智能技术为用户提供AI全能写作、新媒体写作、日常工作汇报等文稿
     - title: 稿定AI文案
-      logo: ./images/AI工具集/稿定AI文案.png
+      logo: images/AI工具集/稿定AI文案.png
       url: https://www.gaoding.com/utms/276f1b8eebd948c08bde424e16335b3e
       description: 小红书笔记、公众号、周报总结、视频脚本等智能文案生成平台
     - title: 蛙蛙写作
-      logo: ./images/AI工具集/蛙蛙写作.png
+      logo: images/AI工具集/蛙蛙写作.png
       url: https://wawawriter.com/app/?utm_source=aiweb5
       description: AI小说写作助手，一站式润色、改写、扩写
     - title: 小鱼AI写作
-      logo: ./images/AI工具集/小鱼AI写作.png
+      logo: images/AI工具集/小鱼AI写作.png
       url: https://www.xiaoyuxiezuo.com/AI_A14BB05
       description: 免费在线智能AI写作平台,AI自动生成高质量原创内容
     - title: 讯飞绘文
-      logo: ./images/AI工具集/讯飞绘文.png
+      logo: images/AI工具集/讯飞绘文.png
       url: https://turbodesk.xfyun.cn/client-pro?channelid=aitool11
       description: 选题、配图、成文，一站式创作，让内容运营更高效
     - title: 讯飞文书
-      logo: ./images/AI工具集/讯飞文书.png
+      logo: images/AI工具集/讯飞文书.png
       url: https://gw.iflydocs.com/?from=AIjihe6
       description: 基于讯飞星火大模型进行文书数据定制训练，面向文书写作群体推出的一款AI材料写作平台
     - title: 135编辑器AI排版
-      logo: ./images/AI工具集/135编辑器AI排版.png
+      logo: images/AI工具集/135编辑器AI排版.png
       url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
       description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版。
     - title: 笔灵AI小说
-      logo: ./images/AI工具集/笔灵AI小说.png
+      logo: images/AI工具集/笔灵AI小说.png
       url: https://ibiling.cn/novel-workbench/?from=bgrnovel
       description: 汇集爆款小说拆解、小说大纲一键生成、200+小说生成器、总结网文大神写作公式、精选小说资料库。
     - title: 论文降AIGC率
-      logo: ./images/AI工具集/论文降AIGC率.png
+      logo: images/AI工具集/论文降AIGC率.png
       url: https://ibiling.cn/paper-pass?from=bgrdhpass
       description: 论文降AI神器！全网最先适配知网2.13升级+维普+万方，其他工具已失效，轻松通过检测！
     - title: 知渊AI论文写作
-      logo: ./images/AI工具集/知渊AI论文写作.png
+      logo: images/AI工具集/知渊AI论文写作.png
       url: https://www.zeedeep.com
       description: 一键生成万字原创，论文写作辅助神器，专为论文而生。
     - title: 论小文
-      logo: ./images/AI工具集/论小文.png
+      logo: images/AI工具集/论小文.png
       url: https://www.aipaperok.com
       description: 论小文 可靠的学术助手，免费生成大纲，一键生成3w+字论文。包括11种写作学术类型，支持查重降重，所有参考文献真实可查！
     - title: AI Text Humanizer
-      logo: ./images/AI工具集/AI Text Humanizer.svg
+      logo: images/AI工具集/AI Text Humanizer.svg
       url: https://www.aitexthumanizer.app
       description: AI文本人性化工具可将AI生成的内容转化为自然、拟人化的文本。它能优化语言流畅度，采用对话式表达，并避免机械化的措辞。可帮助用户为不同内容需求创作更自然、更具吸引力的材料。
     - title: 慧言AI
-      logo: ./images/AI工具集/慧言AI.png
+      logo: images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: 笔目鱼英文论文写作器
-      logo: ./images/AI工具集/笔目鱼英文论文写作器.png
+      logo: images/AI工具集/笔目鱼英文论文写作器.png
       url: https://www.bmysci.com/?channelCode=bgrdhad
       description: 笔目鱼是一款专为中国科研人而研发的学术论文写作器，功能集学术润色，改写改写，全文翻译，学科语料、一键插入参考文献、场景句式、查重、资料库管理为一体的云端学术论文写作器。
     - title: 文佳AI论文写作
-      logo: ./images/AI工具集/文佳AI论文写作.png
+      logo: images/AI工具集/文佳AI论文写作.png
       url: https://www.paperflowai.com
       description: 文佳AI-专业AI论文生成,近百万人使用的AI论文生成平台,一键原创生成,快速高效！选题/生成大纲/完整论文生成/文献综述等一键完成,辅助论文写作神器！
     - title: Detectordeia
-      logo: ./images/AI工具集/Detectordeia.png
+      logo: images/AI工具集/Detectordeia.png
       url: https://www.detectordeia.org
       description: Detectordeia可通过分析文本来确定文本是由人工智能撰写还是由人工撰写。完全免费，无需注册即可使用。
   - name: 聊天对话
     links:
     - title: 问小白
-      logo: ./images/AI工具集/问小白.jpg
+      logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title: 豆包
-      logo: ./images/AI工具集/豆包.png
+      logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
     - title: 讯飞星火
-      logo: ./images/AI工具集/讯飞星火.png
+      logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 深度推理能力全新升级，全面对标OpenAI o1
     - title: Kimi智能助手
-      logo: ./images/AI工具集/Kimi智能助手.jpg
+      logo: images/AI工具集/Kimi智能助手.jpg
       url: https://kimi.moonshot.cn
       description: 免费多功能AI助手，自从用了Kimi,每天都能准时下班了。日报周报？Kimi一键帮你搞定。
     - title: 文心一言
-      logo: ./images/AI工具集/文心一言.png
+      logo: images/AI工具集/文心一言.png
       url: https://yiyan.baidu.com
       description: 百度全新一代知识增强大语言模型，文心一言官方网站在线网页版使用入口
     - title: 智谱清言
-      logo: ./images/AI工具集/智谱清言.png
+      logo: images/AI工具集/智谱清言.png
       url: https://chatglm.cn
       description: 免费全能的AI助手
     - title: 腾讯元宝
-      logo: ./images/AI工具集/腾讯元宝.png
+      logo: images/AI工具集/腾讯元宝.png
       url: https://yuanbao.tencent.com
       description: 腾讯元宝是腾讯公司推出的一款基于自研混元大模型技术的C端AI智能助手App，旨在为用户提供高效、便捷的智能服务。
     - title: 天工AI
-      logo: ./images/AI工具集/天工AI.png
+      logo: images/AI工具集/天工AI.png
       url: https://www.tiangong.cn
       description: 天工是一款支持搜索、写作、对话、文档分析、画画、做PPT的全能型AI助手。借助AI技术，检索信息、多语言翻译、写论文、写代码、写方案、写汇报、做PPT、归纳总结文档和音频视频等。
     - title: DeepSeek
-      logo: ./images/AI工具集/DeepSeek.png
+      logo: images/AI工具集/DeepSeek.png
       url: https://www.deepseek.com
       description: 开源大模型平台
     - title: 当贝AI
-      logo: ./images/AI工具集/当贝AI.png
+      logo: images/AI工具集/当贝AI.png
       url: https://ai.dangbei.com
       description: 当贝AI官网DeepSeek满血版，当贝AI聚合全网优质AI大模型，包括满血版DeepSeek-R1 671B、豆包AI、通义千问等优质AI大模型，当贝AI提供一站式AI解决方案，极速、高效、免费、不限量！
     - title: Qwen Chat
-      logo: ./images/AI工具集/Qwen Chat.png
+      logo: images/AI工具集/Qwen Chat.png
       url: https://chat.qwen.ai
       description: Qwen Chat 是阿里通义推出的一款多功能 AI 大型语言模型 Web 界面平台，旨在为用户提供高效、便捷的 AI 交互体验。
     - title: 华为小艺
-      logo: ./images/AI工具集/华为小艺.png
+      logo: images/AI工具集/华为小艺.png
       url: https://xiaoyi.huawei.com
       description: 华为小艺是具备多种功能，包括AI问答、AI写作、AI识图、AI阅读、翻译、代码生成等，能够覆盖从科学到文化、从技术到社会等多个领域，全面提升用户的生活质量和工作效率。
     - title: 纳米AI助手
-      logo: ./images/AI工具集/纳米AI助手.png
+      logo: images/AI工具集/纳米AI助手.png
       url: https://bot.n.cn
       description: 360公司推出的一款创新性人工智能工具，核心功能包括多模态交互、智能问答、内容创作以及深度学习等
     - title: 小悟空
-      logo: ./images/AI工具集/小悟空.png
+      logo: images/AI工具集/小悟空.png
       url: https://wukong.com/tool
       description: 字节跳动推出的AI对话助手和个人助理
     - title: 通义星尘
-      logo: ./images/AI工具集/通义星尘.png
+      logo: images/AI工具集/通义星尘.png
       url: https://tongyi.aliyun.com/xingchen
       description: 角色对话智能体
     - title: 慧言AI
-      logo: ./images/AI工具集/慧言AI.png
+      logo: images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: 文小言
-      logo: ./images/AI工具集/文小言.png
+      logo: images/AI工具集/文小言.png
       url: http://www.wenxiaoyan.com
       description: 百度推出的一款智能助手
     - title: Flowith
-      logo: ./images/AI工具集/Flowith.png
+      logo: images/AI工具集/Flowith.png
       url: https://flowith.net?inv=BGRDHH
       description: Flowith 是一个专注于人工智能创作与任务执行的平台，旨在帮助用户将日常的洞察转化为创意突破。
     - title: 稿定AI对话
-      logo: ./images/AI工具集/稿定AI对话.png
+      logo: images/AI工具集/稿定AI对话.png
       url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
       description: 满血版DeepSeek-R1, 支持智能创意生成，提升创作效率
     - title: ChatGPT 引导语
-      logo: ./images/AI工具集/ChatGPT 引导语.png
+      logo: images/AI工具集/ChatGPT 引导语.png
       url: https://prompts.fresns.cn
       description: ChatGPT 引导语是一个汇集了丰富 ChatGPT 引导语、创意写作灵感与实用技巧的优质平台，致力于帮助用户激发无限创意，提升写作效率与质量。
     - title: AiShort
-      logo: ./images/AI工具集/AiShort.ico
+      logo: images/AI工具集/AiShort.ico
       url: https://www.aishort.top
       description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的
         AI 智能体，实现复杂任务的自动化。
     - title: 大思政数智平台“思政通”
-      logo: ./images/AI工具集/大思政数智平台"思政通".png
+      logo: images/AI工具集/大思政数智平台“思政通”.png
       url: https://chatmarx.zihaoai.cn
       description: 思政问答人工智能助手，大学思政教材问答GPT，可以向提问关于中国近现代史、思修、毛概、马原、社会时事新闻的问题，可以在切换人物设定。
     - 'title:': Poe
@@ -670,99 +668,99 @@
   - name: 办公提效
     links:
     - title: 问小白
-      logo: ./images/AI工具集/问小白.jpg
+      logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
       description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
     - title: 豆包
-      logo: ./images/AI工具集/豆包.png
+      logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
       description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
     - title: 讯飞星火
-      logo: ./images/AI工具集/讯飞星火.png
+      logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
       description: 深度推理能力全新升级，全面对标OpenAI o1
     - title: 文多多AiPPT/免费生成
-      logo: ./images/AI工具集/文多多AiPPT_免费生成.png
+      logo: images/AI工具集/文多多AiPPT_免费生成.png
       url: https://docmee.cn/?source=bangongr
       description: AI根据主题、文档、网址智能生成PPT文档，同时支持在线编辑、美化、排版、导出、一键动效、自动生成演讲稿等功能
     - title: 免费AI生成PPT
-      logo: ./images/AI工具集/免费AI生成PPT.png
+      logo: images/AI工具集/免费AI生成PPT.png
       url: https://www.aippt.cn/?utm_type=Navweb&utm_source=bgrdh&utm_page=aippt&utm_plan=aippt&utm_unit=AIPPT&utm_keyword=36302531
       description: 输入主题即可在3分钟内生成专业级PPT
     - title: 扣子空间
-      logo: ./images/AI工具集/扣子空间.png
+      logo: images/AI工具集/扣子空间.png
       url: https://www.coze.cn
       description: 扣子是新一代AI应用编辑平台
     - title: 讯飞智文
-      logo: ./images/AI工具集/讯飞智文.png
+      logo: images/AI工具集/讯飞智文.png
       url: https://zhiwen.xfyun.cn
       description: 讯飞智文是科大讯飞推出的一款基于人工智能技术的智能文档处理工具
     - title: 绘蛙
-      logo: ./images/AI工具集/绘蛙.png
+      logo: images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com
       description: 绘蛙是一款AI创作平台，提供AI绘画、AI写作等功能
     - title: 咔片PPT
-      logo: ./images/AI工具集/咔片PPT.png
+      logo: images/AI工具集/咔片PPT.png
       url: https://www.kapian.com
       description: 咔片PPT是一款AI智能PPT制作工具
     - title: 酷表ChatExcel
-      logo: ./images/AI工具集/酷表ChatExcel.png
+      logo: images/AI工具集/酷表ChatExcel.png
       url: https://chatexcel.com
       description: 酷表ChatExcel是一款基于AI的智能表格处理工具
     - title: AI智能生成PPT
-      logo: ./images/AI工具集/AI智能生成PPT.png
+      logo: images/AI工具集/AI智能生成PPT.png
       url: https://www.aippt.com
       description: AI智能生成PPT工具，快速制作专业演示文稿
     - title: 飞书多维表格
-      logo: ./images/AI工具集/飞书多维表格.png
+      logo: images/AI工具集/飞书多维表格.png
       url: https://www.feishu.cn/product/bitable
       description: 飞书多维表格是一款智能数据管理工具
     - title: 博思AIPPT
-      logo: ./images/AI工具集/博思AIPPT.png
+      logo: images/AI工具集/博思AIPPT.png
       url: https://pptgo.cn
       description: 博思AIPPT是一款在线AI生成PPT软件
     - title: 灵办AI助手
-      logo: ./images/AI工具集/灵办AI助手.png
+      logo: images/AI工具集/灵办AI助手.png
       url: https://www.lingban.com
       description: 灵办AI助手是一款智能办公助手
     - title: 360AI办公
-      logo: ./images/AI工具集/360AI办公.png
+      logo: images/AI工具集/360AI办公.png
       url: https://ai.360.cn
       description: 360AI办公是360推出的智能办公平台
     - title: SheetNext表格
-      logo: ./images/AI工具集/SheetNext表格.png
+      logo: images/AI工具集/SheetNext表格.png
       url: https://www.sheetnext.com
       description: SheetNext是一款智能表格工具
     - title: 迅捷AiPPT
-      logo: ./images/AI工具集/迅捷AiPPT.png
+      logo: images/AI工具集/迅捷AiPPT.png
       url: https://ppt.xunjiepdf.com
       description: 迅捷AiPPT是一款AI智能PPT制作工具
     - title: 慧言AI
-      logo: ./images/AI工具集/慧言AI.png
+      logo: images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: 笔格AIPPT/免费生成
-      logo: ./images/AI工具集/笔格AIPPT.png
+      logo: images/AI工具集/笔格AIPPT_免费生成.png
       url: https://www.bige.ai
       description: 笔格AIPPT免费生成专业PPT
     - title: 百度文库AI助手
-      logo: ./images/AI工具集/百度文库AI助手.png
+      logo: images/AI工具集/百度文库AI助手.png
       url: https://wenku.baidu.com
       description: 百度文库AI助手提供智能文档处理服务
     - title: 智能体
-      logo: ./images/AI工具集/智能体.png
+      logo: images/AI工具集/智能体.png
       url: https://agent.baidu.com
       description: 百度智能体平台
     - title: ChatPPT
-      logo: ./images/AI工具集/ChatPPT.png
+      logo: images/AI工具集/ChatPPT.png
       url: https://www.chatppt.com
       description: ChatPPT是一款AI驱动的PPT制作工具
     - title: AI提示语
-      logo: ./images/AI工具集/AI提示语.png
+      logo: images/AI工具集/AI提示语.png
       url: https://www.aiprompt.com
       description: AI提示语生成和优化工具
     - title: 熊猫简历
-      logo: ./images/AI工具集/熊猫简历.png
+      logo: images/AI工具集/熊猫简历.ico
       url: https://www.pandacv.com
       description: 熊猫简历是一款AI智能简历制作工具
   - name: 绘画平台
@@ -788,7 +786,7 @@
       url: https://www.gaoding.com/utms/a9cf58991d7241b09ac178209c761006
       description: AI图片处理、AI绘图等一站式AI图像创作和设计平台；
     - title: 百度画一画
-      logo: ./images/驼铃标志1.png
+      logo: images/AI工具集/百度画一画.svg
       url: https://image.baidu.com/front/aigc
       description: 免费AI绘画工具，百度画一画是一款由百度推出的AI绘画工具，旨在通过文字描述生成图像。
     - title: 腾讯混元生图
@@ -824,12 +822,12 @@
       url: https://l.huiyan-ai.cn/s/JEWJ1G
       description: AI对话、AI绘画、文本生成、图像处理等
     - title: Raphael AI
-      logo: images/AI工具集/Raphael_AI.png
+      logo: images/AI工具集/Raphael AI.png
       url: https://raphael.app/zh
       description: 免费无限制 AI 图像生成器，使用 Raphael 创建精美图像，这是全球首个完全免费且无限制的 AI 图像生成器，由 FLUX.1-Dev
         模型驱动。无需注册，图像质量卓越。
     - title: A1.art
-      logo: images/AI工具集/A1_art.png
+      logo: images/AI工具集/A1.art.png
       url: https://a1.art/zh
       description: a1是一个免费的在线AI图片生成器，轻松创建和使用图片滤镜，只需一键即可生成令人惊叹的AI艺术作品
     - title: 亦心AI
@@ -837,7 +835,7 @@
       url: https://aigc.photosir.com
       description: AI绘画创作平台，提供AI工坊、AI商品图、AI动漫、AI闪绘、AI艺术字等多种创作工具，覆盖图片生成、海报设计、商品图制作、动态漫画创作等多个领域
     - title: Vega AI
-      logo: images/AI工具集/Vega_AI.png
+      logo: images/AI工具集/Vega AI.png
       url: https://applet.rightbrainai.cn
       description: 国内专业的ai创作平台，支持文本生成图片，图片风格转换
     - title: 腾讯云AI绘画
@@ -845,7 +843,7 @@
       url: https://ti-image.cloud.tencent.com/text-to-image
       description: 腾讯云智能图像创作平台
     - title: Midjourney AI作图
-      logo: images/AI工具集/Midjourney_AI作图.png
+      logo: images/AI工具集/Midjourney AI作图.png
       url: https://mj.xinpianchang.com/?utm_source=bgrdh&utm_medium=homeRec9
       description: 媲美Midjourney的在线AI生图工具
     - title: 免费AI图片生成器
@@ -863,99 +861,99 @@
   - name: 创意设计
     links:
     - title: 堆友
-      logo: ./images/AI工具集/堆友.png
+      logo: images/AI工具集/堆友.png
       url: https://d.design/?from=ab3
       description: 免费生成图片,阿里旗下堆友推出的多风格AI绘画生成器
     - title: 绘蛙
-      logo: ./images/AI工具集/绘蛙.png
+      logo: images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
       description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
     - title: 稿定AI工具集
-      logo: ./images/AI工具集/稿定AI工具集.png
+      logo: images/AI工具集/稿定AI工具集.png
       url: https://www.gaoding.com/utms/a9cf58991d7241b09ac178209c761006
       description: AI图片处理、AI绘图等一站式AI图像创作和设计平台；
     - title: 稿定AI设计
-      logo: ./images/AI工具集/稿定AI设计.png
+      logo: images/AI工具集/稿定AI设计.png
       url: https://www.gaoding.com/utms/6099dcf205a2404d90c4757c893335b4
       description: 一站式在线创作设计平台，在线作图海量模版AI设计
     - title: 百度AI图片助手
-      logo: ./images/AI工具集/百度AI图片助手.png
+      logo: images/AI工具集/百度AI图片助手.png
       url: https://image.baidu.com
       description: 百度AI图片助手是一款由百度公司推出的强大且免费的在线图像处理工具，旨在为用户提供高效、便捷的图片编辑和优化服务。
     - title: 360智图
-      logo: ./images/AI工具集/360智图.png
+      logo: images/AI工具集/360智图.png
       url: https://pic.360.com
       description: 图片版权查询,图片处理
     - title: AI图像编辑器
-      logo: ./images/AI工具集/AI图像编辑器.png
+      logo: images/AI工具集/AI图像编辑器.png
       url: https://aiimageeditor.ai/zh
       description: 通过简洁的文字提示即可完成专业级图像编辑，在几秒内完成 AI 驱动的精细编辑，无需 PS 技能
     - title: 潮际好麦
-      logo: ./images/AI工具集/潮际好麦.ico
+      logo: images/AI工具集/潮际好麦.ico
       url: https://marketing.k-fashionshop.com
       description: 潮际好麦专注于提供虚拟试衣、AI换背景、虚拟试鞋、智能换脸、AI模特等服务，是一款AIGC电商内容生成工具。现在注册就可以免费生图50-100张
     - title: 在线AI换脸
-      logo: ./images/AI工具集/在线AI换脸.ico
+      logo: images/AI工具集/在线AI换脸.ico
       url: https://ai.138u.com
       description: 在线AI换脸提供了一个便捷、安全的平台，让用户能够轻松地将照片或视频中的面孔替换为其他面孔，创造出个性化和搞笑的视频或照片。
     - title: BeArt AI
-      logo: ./images/AI工具集/BeArt_AI.ico
+      logo: images/AI工具集/BeArt_AI.ico
       url: https://beart.ai/zh
       description: BeArt AI是一个专注于AI照片和视频换脸的在线工具，提供免费、无水印的服务，用户可以通过上传图片或视频实现面部交换功能。
     - title: Logent AI
-      logo: ./images/AI工具集/Logent_AI.png
+      logo: images/AI工具集/Logent_AI.png
       url: https://logent.ai/zh
       description: Logent AI 是一个基于 AI Agent 技术的在线 Logo 生成器，旨在为用户提供快速、高效且专业化的品牌形象设计解决方案。
     - title: Looka
-      logo: ./images/AI工具集/Looka.png
+      logo: images/AI工具集/Looka.png
       url: https://looka.com
       description: Looka 是一个由人工智能驱动的在线品牌设计平台，提供了一系列功能强大的设计工具，包括Logo设计、名片设计、社交媒体模板以及品牌套件等服务，适用于各种规模的企业和个人用户。
     - title: Spline
-      logo: ./images/AI工具集/Spline.png
+      logo: images/AI工具集/Spline.png
       url: https://spline.design
       description: Spline是一款基于浏览器的轻量级3D设计工具，适合快速创建交互式三维模型。其特点包括：支持实时协作、参数化建模、动画制作和物理模拟。
     - title: Immersity AI
-      logo: ./images/AI工具集/Immersity_AI.png
+      logo: images/AI工具集/Immersity_AI.png
       url: https://www.immersity.ai
       description: Immersity AI平台利用先进的神经深度引擎技术，能够快速生成高质量的深度图，从而将二维平面内容转化为具有深度和动态效果的三维内容，为用户提供前所未有的视觉体验。
     - title: 知末AI绘图
-      logo: ./images/AI工具集/知末AI绘图.png
+      logo: images/AI工具集/知末AI绘图.png
       url: https://ai.znzmo.cn/community/AIDrawPage.html
       description: 知末AI绘图，专注于 建筑、景观、室内 领域的智能绘图，支持 文生图、图生图、彩平图、智能编辑，一键生成高质量效果图，提升设计效率。
     - title: 创造家
-      logo: ./images/AI工具集/创造家.png
+      logo: images/AI工具集/创造家.png
       url: https://www.chuangzaojia.com
       description: 创造家聚合全球数百万的3D设计师，为您提供海量的3D模型下载，包括FBX,OBJ,glTF,STL,USDZ,DAE,3DS,MAX,GLB等主流3D格式。
     - title: PhotoMagic
-      logo: ./images/AI工具集/PhotoMagic.png
+      logo: images/AI工具集/PhotoMagic.png
       url: https://www.photomagic.cn
       description: PhotoMagic是一款AI商拍工具，核心功能包括模特换脸、场景转换、高清精修美化等，能够快速生成高质量的商品场景图，适用于服饰、鞋包、配饰等多种电商场景。
     - title: PixelForce
-      logo: ./images/AI工具集/PixelForce.ico
+      logo: images/AI工具集/PixelForce.ico
       url: https://pixel-home.hiforce.net
       description: PixelForce是一款专注于电商图片生成领域的AI工具，旨在通过前沿人工智能技术简化商业摄影流程，为用户提供高效、便捷的图像生成解决方案。
     - title: Mockey
-      logo: ./images/AI工具集/Mockey.png
+      logo: images/AI工具集/Mockey.png
       url: https://mockey.ai
       description: Mockey是一款功能强大的免费在线AI样机生成器，广泛应用于服装、配饰、电子产品等多种产品的模拟设计中。
     - title: 创自由
-      logo: ./images/AI工具集/创自由.png
+      logo: images/AI工具集/创自由.png
       url: https://www.chuangziyou.com
       description: 创自由是一款AI工具，功能强大，提供AI作图，AI穿衣，AI商品图合成替换，在线图片设计，海报/视频封面/广告图在线编辑制作，多个平台AI文案生成等功能。
     - title: 字体家AI造字
-      logo: ./images/AI工具集/字体家AI造字.ico
+      logo: images/AI工具集/字体家AI造字.ico
       url: https://www.ai.zitijia.com
       description: 字体家AI神笔是一款基于深度学习技术的个性化字体生成工具，由字体家团队开发，旨在通过用户的手写样本生成独特的字体模型。
     - title: 蜂鸟AI
-      logo: ./images/AI工具集/蜂鸟AI.png
+      logo: images/AI工具集/蜂鸟AI.png
       url: https://fengniaoai.com
       description: 蜂鸟AI是一款跨境电商AI营销工具，包括AI翻译、AI图片创作、AI文案写作以及AI图片编辑等，支持多语言版本转换、智能商拍、场景替换等功能。
     - title: 家作
-      logo: ./images/AI工具集/家作.png
+      logo: images/AI工具集/家作.png
       url: https://jiazuo.taobao.com
       description: 家作AI是一款AI设计工具，专注于家装、家居和家电行业的智能创意制作和营销平台。功能包括一键生成多种风格的场景图、支持自定义设计以及AI模特展示等，提升商家的设计效率和营销能力。
     - title: 唯象
-      logo: ./images/AI工具集/唯象.png
+      logo: images/AI工具集/唯象.png
       url: https://www.weshop.com
       description: WeShop唯象是专注电商需求的AI商拍工具，专注电商产品图片的智能生成。品牌方无需再受到模特、经纪、摄影、后期、场租、机酒的限制，高效产出优质商品图，大幅节约拍摄成本。
   - name: 视频工具
@@ -965,96 +963,96 @@
       url: https://www.capcut.cn?from=dy.199908.top
       description: 全能易用的视频剪辑软件
     - title: 腾讯智影
-      logo: ./images/AI工具集/腾讯智影.png
+      logo: images/AI工具集/腾讯智影.png
       url: https://zenvideo.qq.com
       description: 一款云端智能视频创作工具，集素材搜集、视频剪辑、渲染导出和发布于一体的免费在线剪辑平台
     - title: 即梦
-      logo: ./images/AI工具集/即梦.png
+      logo: images/AI工具集/即梦.png
       url: https://jimeng.jianying.com
       description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
     - title: 可灵AI
-      logo: ./images/AI工具集/可灵AI.png
+      logo: images/AI工具集/可灵AI.png
       url: https://klingai.kuaishou.com
       description: 快手推出的一款AI视频生成工具
     - title: Vidu AI
-      logo: ./images/AI工具集/Vidu_AI.png
+      logo: images/AI工具集/Vidu_AI.png
       url: https://www.vidu.cn/create
       description: AI视频生成工具
     - title: 讯飞绘镜
-      logo: ./images/AI工具集/讯飞绘镜.png
+      logo: images/AI工具集/讯飞绘镜.png
       url: https://typemovie.art/?utm_source=nt-ai7#/dashboard
       description: 讯飞绘镜是科大讯飞推出的一款基于人工智能技术的AI视频创作平台，旨在简化视频创作流程，帮助用户将创意快速转化为高质量的视频内容。
     - title: 度加
-      logo: ./images/AI工具集/度加.png
+      logo: images/AI工具集/度加.png
       url: https://aigc.baidu.com
       description: 百度官方出品的AIGC创作平台
     - title: 万彩AI
-      logo: ./images/AI工具集/万彩AI.png
+      logo: images/AI工具集/万彩AI.png
       url: https://ai.kezhan365.com/?utm_code=bgr-gwn-dhl-005
       description: 除了提供AI智能写作支持之外，还集成了AI换脸、照片数字人制作和AI短视频制作等强大的AI生成内容功能
     - title: 蝉镜
-      logo: ./images/AI工具集/蝉镜.png
+      logo: images/AI工具集/蝉镜.png
       url: https://www.chanjing.cc/refc/?type=hzBuy&id=r1AGlgGa2hWA8IM4MruNFPfd_RnJw_O-t9nq8PR3_Tc
       description: 数字人视频创作平台
     - title: 有言
-      logo: ./images/AI工具集/有言.png
+      logo: images/AI工具集/有言.png
       url: 'https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=bgrdh&from=bgrdh '
       description: 一站式AI视频创作，1200+免费3D数字人
     - title: 白日梦AI
-      logo: ./images/AI工具集/白日梦AI.jpg
+      logo: images/AI工具集/白日梦AI.jpg
       url: 'https://aibrm.com?code=dh_codyh '
       description: 白日梦AI视频生成是一个文生视频类AIGC创作平台
     - title: 绘蛙-多图成片
-      logo: ./images/AI工具集/绘蛙-多图成片.png
+      logo: images/AI工具集/绘蛙-多图成片.png
       url: https://www.ihuiwa.com/workspace/ai-video/multi-img?huiwaInviteCode=EMAIFL
       description: 将多张静态图片快速合成为动态视频，适用于电商、社交媒体等多种场景
     - title: AI视频生成
-      logo: ./images/AI工具集/AI视频生成.png
+      logo: images/AI工具集/AI视频生成.png
       url: 'https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMAIFL '
       description: 模特图一键变视频，图片一键生成视频工具
     - title: 快剪辑
-      logo: ./images/AI工具集/快剪辑.png
+      logo: images/AI工具集/快剪辑.png
       url: https://www.kuaijianji.com
       description: 好用的在线视频剪辑工具
     - title: 无痕AI
-      logo: ./images/AI工具集/无痕AI.png
+      logo: images/AI工具集/无痕AI.png
       url: https://www.wuhenai.com
       description: 无痕AI是一款在线AI视频消除工具，支持无痕视频去水印文字，视频去字幕，以及去除视频中不想要的人或物。高清导出，不模糊画面，也不压缩画质。
     - title: Moonvalley
-      logo: ./images/AI工具集/Moonvalley.png
+      logo: images/AI工具集/Moonvalley.png
       url: https://www.moonvalley.com
       description: Moonvalley 是一个开创性的文本到视频生成 AI 模型，能够根据用户输入的简单文本提示，生成高质量的视频和动画，涵盖从超现实风格到动漫风格的多种视频类型。
     - title: Face Swap AI
-      logo: ./images/AI工具集/Face_Swap_AI.png
+      logo: images/AI工具集/Face_Swap_AI.png
       url: https://www.videofaceswap.ai
       description: Video Face Swap AI 是一款基于人工智能的视频换脸工具，用户可以轻松创建高质量、自然的换脸视频。操作简单，适合内容创作者、社交媒体用户和短视频爱好者使用。
     - title: rask.ai
-      logo: ./images/AI工具集/rask_ai.png
+      logo: images/AI工具集/rask.ai.png
       url: https://zh.rask.ai
       description: Rask AI是一个为全球企业提供智能视频本地化解决方案的平台，通过AI驱动的音频和视频配音服务，帮助用户将内容翻译并配音成130多种语言。分享来自ζั͡-ั͡办ั͡公ั͡人ั͡导ั͡航ั͡✾
     - title: BoomCut
-      logo: ./images/AI工具集/BoomCut.png
+      logo: images/AI工具集/BoomCut.png
       url: https://boomcutai.com
       description: BoomCut 爆剪辑提供出海营销一站式视频本地化解决方案，提供视频翻译、视频换脸、音色克隆、唇音驱动、智能擦除、字幕翻译等
         AI 技术，快速完成本地化营销视频生成
     - title: VidAU
-      logo: ./images/AI工具集/VidAU.png
+      logo: images/AI工具集/VidAU.png
       url: https://affiliates.vidau.ai/q1ccS9
       description: VidAU是一款由人工智能驱动的视频生成平台，旨在简化视频创作流程，提升效率并降低成本。适用于 TikTok、YouTube、市场营销、培训等多种使用场景。
     - title: Clipfly
-      logo: ./images/AI工具集/Clipfly.png
+      logo: images/AI工具集/Clipfly.png
       url: https://www.clipfly.ai
       description: Clipfly 是一款一站式 AI 视频制作平台，旨在通过人工智能技术简化视频创作流程，使用户能够轻松生成高质量的视频内容。
     - title: Kapwing
-      logo: ./images/AI工具集/Kapwing.png
+      logo: images/AI工具集/Kapwing.png
       url: https://www.kapwing.com/cmn-hans-cn
       description: Kapwing 是一个功能强大的在线视频编辑和内容创作平台，主要通过人工智能技术简化视频制作流程，适合个人用户、内容创作者、教育者和企业用户等多种用户群体。
     - title: AIMIX智剪
-      logo: ./images/AI工具集/AIMIX智剪.png
+      logo: images/AI工具集/AIMIX智剪.png
       url: https://www.aimix.pro
       description: AIMIX智剪是一款功能强大的AI短视频制作工具，专为提升短视频创作效率和质量而设计。
     - title: Captions
-      logo: ./images/AI工具集/Captions.ico
+      logo: images/AI工具集/Captions.ico
       url: https://www.captions.ai
       description: Captions 是一款基于人工智能技术的视频编辑工具，集成了多种功能，包括视频剪辑、字幕添加、滤镜美颜等，能够快速生成高质量的视频内容
   - name: 音频工具
@@ -1072,190 +1070,189 @@
       url: https://peiyin.xunfei.cn?from=dy.199908.top
       description: 讯飞AI配音
     - title: 听脑
-      logo: ./images/AI工具集/听脑.png
+      logo: images/AI工具集/听脑.png
       url: https://itingnao.com?source=3514&unit=3520
       description: 音视频转文字神器，轻松搞定会议纪要、录音整理
     - title: AudioTextHub
-      logo: ./images/AI工具集/AudioTextHub.png
+      logo: images/AI工具集/AudioTextHub.png
       url: https://www.audiotexthub.pro/zh
       description: AudioTextHub是一款智能AI文本转语音平台。只需几秒钟，即可将文字转换成自然流畅的语音，支持100+种语言。
     - title: 免费语音克隆
-      logo: ./images/AI工具集/免费语音克隆.png
+      logo: images/AI工具集/免费语音克隆.png
       url: https://aiclonevoicefree.com/zh
       description: 免费语音克隆，生成与您声音完全一致的AI语音克隆，完全免费。无需订阅，无限使用。
     - title: Voice10
-      logo: ./images/AI工具集/Voice10.png
+      logo: images/AI工具集/Voice10.png
       url: https://voice10.com/index-zh.html
       description: Voice10是一款免费的AI语音生成工具，支持多语言文本转语音和声音克隆。无需注册即可无限制使用，为用户提供免费的语音内容生成服务。
     - title: DiffRhythm
-      logo: ./images/AI工具集/DiffRhythm.png
+      logo: images/AI工具集/DiffRhythm.png
       url: https://diffrhythm.com/zh
       description: DiffRhythm 是一个 AI 驱动的音乐生成平台，让您能够使用最先进的扩散模型技术创作专业级的音乐作品。
     - title: 逗哥配音神器
-      logo: ./images/AI工具集/逗哥配音神器.png
+      logo: images/AI工具集/逗哥配音神器.png
       url: https://www.douge.com
       description: 逗哥配音是一款500w+达人热推的的AI配音软件，独有的AI智能配音技术,更专业,更完美贴近真人配音。内置丰富的短视频创作工具，文案提取、人声分离等短视频必备功能。
     - title: 爱扒谱
-      logo: ./images/AI工具集/爱扒谱.png
+      logo: images/AI工具集/爱扒谱.png
       url: https://www.aibapu.cn
       description: 爱扒谱是一款用人工智能技术，专业提供人声分离、在线扒谱、在线ai生成音乐、转五线谱、在线MP3转MIDI格式服务，无损音频提取就找爱扒谱网
     - title: 鸭鸭配音
-      logo: ./images/AI工具集/鸭鸭配音.png
+      logo: images/AI工具集/鸭鸭配音.png
       url: https://www.yayapeiyin.com
       description: 鸭鸭配音是一个在线配音网站，采用先进的AI语音合成技术，为用户提供高可用性的在线AI配音工具，是一个为短视频创作者量身定制的视频配音网站。
     - title: Voicv
-      logo: ./images/AI工具集/Voicv.png
+      logo: images/AI工具集/Voicv.png
       url: https://voicv.com/zh
       description: Voicv 是一个尖端的语音克隆平台，能够将用户的语音快速转化为数字资产。其主要特点包括零样本语音克隆、多语言支持、实时处理、高准确性和跨平台支持等。
     - title: TransDuck
-      logo: ./images/AI工具集/TransDuck.png
+      logo: images/AI工具集/TransDuck.png
       url: https://a.transduck.com/sign-up?invite=DG6883JT
       description: AI音视频处理专家，提供专业的音视频翻译、AI配音、人声分离等一站式音视频处理解决方案，助力音视频创作者实现自动化的内容出海与内容引进
     - title: 分轨
-      logo: ./images/AI工具集/分轨.ico
+      logo: images/AI工具集/分轨.ico
       url: https://www.ifengui.com
       description: 分轨利用人工智能AI提供的人声提取算法对上传的音频中的人声、伴奏、乐器音轨在云端进行分离提取，并可对视频进行视频和人声提供音轨分离服务。
     - title: SongDonkey
-      logo: ./images/AI工具集/SongDonkey.png
+      logo: images/AI工具集/SongDonkey.png
       url: https://songdonkey.ai
       description: SongDonkey 是一个完全免费的人声伴奏分离在线工具，基于人工智能技术，能够从音频文件中分离出人声和伴奏。
     - title: 录音转文字助手
-      logo: ./images/AI工具集/录音转文字助手.ico
+      logo: images/AI工具集/录音转文字助手.ico
       url: https://www.luyinzhushou.com
       description: 录音转文字助手是一款在线语音转文字、文字转语音软件,提供在线免费录音转文字、文字转语音、主播配音、语音翻译等服务,解决语音和文本之间互转的难题
     - title: VocalRemover
-      logo: ./images/AI工具集/VocalRemover.png
+      logo: images/AI工具集/VocalRemover.png
       url: https://vocalremover.org/zh
       description: VocalRemover是一款AI在线音频处理工具，主要用于从音乐中分离人声和伴奏。能够高效地识别并去除音频文件中的人声部分，同时保留背景音乐的清晰度和音质。
     - title: Ondoku
-      logo: ./images/AI工具集/Ondoku.png
+      logo: images/AI工具集/Ondoku.png
       url: https://ondoku3.com/zh-hans
       description: Ondoku是一款功能强大的在线文字转语音（TTS）工具，支持多种语言和应用场景。
     - title: lalal.ai
-      logo: ./images/AI工具集/lalal_ai.png
+      logo: images/AI工具集/lalal.ai.png
       url: https://www.lalal.ai/zh-hans
       description: 使用Lalal.ai快速准确地分割人声和器乐曲目，用Lalal.ai快速准确地分割声乐和器乐轨道。上传任何音频文件，并在几秒钟内收到高质量的提取轨道。
     - title: Soundraw
-      logo: ./images/AI工具集/Soundraw.ico
+      logo: images/AI工具集/Soundraw.ico
       url: https://soundraw.io
       description: Soundraw 是一款 AI 音乐生成器，旨在为用户提供便捷、高效且个性化的音乐创作体验。
     - title: ElevenLabs
-      logo: ./images/AI工具集/ElevenLabs.ico
+      logo: images/AI工具集/ElevenLabs.ico
       url: https://elevenlabs.io
       description: ElevenLabs的文本转语音工具能够将文本内容转换为自然、逼真的语音，支持多种语言和音色选择。
     - title: Descript
-      logo: ./images/AI工具集/Descript.png
+      logo: images/AI工具集/Descript.png
       url: https://www.descript.com
       description: Descript 是一款集成了 AI 技术的多功能视频和音频编辑平台，旨在简化内容创作流程，提高效率。
     - title: AIVA
-      logo: ./images/AI工具集/AIVA.ico
+      logo: images/AI工具集/AIVA.ico
       url: https://www.aiva.ai
       description: AI音乐生成工具，适用于多种场景和用户需求,AIVA不仅能够生成高质量的原创音乐，还能提供个性化的音乐体验，为音乐创作和消费带来了新的可能性。
     - title: Speechify
-      logo: ./images/AI工具集/Speechify.png
+      logo: images/AI工具集/Speechify.png
       url: https://speechify.com/zh-hans
       description: AI 文字转语音应用，帮助用户将书面文本转换为自然流畅的音频，提高阅读效率和体验。该应用支持多种语言和口音，覆盖超过 200
         种自然声音，支持 60 多种语言。
   - name: 虚拟形象
     links:
     - title: 秒创数字人直播助手
-      logo: ./images/AI工具集/秒创数字人直播助手.png
+      logo: images/AI工具集/秒创数字人直播助手.png
       url: https://live.yizhentv.com/?_f=bgrdh
       description: AI数字人智能直播工具，一款低门槛低成本的直播神器
     - title: 蝉镜
-      logo: ./images/AI工具集/蝉镜.png
+      logo: images/AI工具集/蝉镜.png
       url: https://www.chanjing.cc/refc/?type=hzBuy&id=r1AGlgGa2hWA8IM4MruNFPfd_RnJw_O-t9nq8PR3_Tc
       description: 数字人视频创作平台
     - title: 腾讯智影
-      logo: ./images/AI工具集/腾讯智影.png
+      logo: images/AI工具集/腾讯智影.png
       url: https://zenvideo.qq.com
       description: 一款云端智能视频创作工具，集素材搜集、视频剪辑、渲染导出和发布于一体的免费在线剪辑平台
     - title: 语鹦学舌数字人
-      logo: ./images/AI工具集/语鹦学舌数字人.png
+      logo: images/AI工具集/语鹦学舌数字人.png
       url: https://crm.bytell.cn/retalk
       description: 语鹦学舌数字人分身系统通过先进AI技术，帮助用户快速生成逼真数字人分身，适用于直播带货、短视频创作、企业品牌形象等多场景。
     - title: 风平智能
-      logo: ./images/AI工具集/风平智能.png
+      logo: images/AI工具集/风平智能.png
       url: https://fullpeace.cn
       description: 风平智能是一个领先的AIGC解决方案提供商。风平IP智造平台是基于AIGC的智能化IP打造平台，提供虚拟数字人定制、数字人直播和AI短视频内容生产、IP培育和交易的一站式解决方案。
     - title: 星搭AI
-      logo: ./images/AI工具集/星搭AI.png
+      logo: images/AI工具集/星搭AI.png
       url: https://staringos.com
       description: 搭建你专属的AI数字员工，专注于基于大模型的AI小模型训练和微调
     - title: 一知智能芽势AI数字人
-      logo: ./images/AI工具集/一知智能芽势AI数字人.png
+      logo: images/AI工具集/一知智能芽势AI数字人.png
       url: https://yashi.yiwise.com
       description: 一知智能芽势数字人能够实现与人类的自然对话，并且具备逼真的外貌和动作表现能力，支持 2D 数字人风格化形象和声音定制，轻松复制
         7x24 小时无人/半无人直播间，实现直播场景品牌化。
     - title: BocaLive
-      logo: ./images/AI工具集/BocaLive.png
+      logo: images/AI工具集/BocaLive.png
       url: https://www.bocalive.ai/zh
       description: BocaLive是一款跨境电商AI数字人直播工具，支持TikTok、Shopee、Lazada、Tokopedia、Amazon、YouTube、Facebook和AliExpress、阿里国际站等多平台多店铺推流直播。
     - title: Heygem
-      logo: ./images/AI工具集/Heygem.png
+      logo: images/AI工具集/Heygem.png
       url: http://heygem.ai
       description: Heygem是一款开源数字人工具，这款工具的核心功能是通过AI技术精准克隆用户的外貌和声音，生成逼真的虚拟形象，并支持文本和语音驱动的虚拟化身，从而实现高效、便捷的视频合成。
     - title: 灰豚数字人
-      logo: ./images/AI工具集/灰豚数字人.png
+      logo: images/AI工具集/灰豚数字人.png
       url: https://www.huitunai.com
       description: AI数字人直播系统,123数字人口播短视频源码,虚拟数字人克隆,AI虚拟主持人制作平台
     - title: 奇妙问
-      logo: ./images/AI工具集/奇妙问.png
+      logo: images/AI工具集/奇妙问.png
       url: https://ai.weta365.com
       description: 交互数字人解决方案服务商
     - title: 工作数字人
-      logo: ./images/AI工具集/工作数字人.ico
+      logo: images/AI工具集/工作数字人.ico
       url: https://workbrain.cn
       description: 明途工作数字人WorkChat是基于WorkBrain模型开发的智能对话平台，提供政企办公领域知识问答、文档写作、图形绘制、任务办理等功能，帮助推动政企数智化转型。
     - title: 必剪Studio
-      logo: ./images/AI工具集/必剪Studio.png
+      logo: images/AI工具集/必剪Studio.png
       url: https://member.bilibili.com/york/bilibili-studio/home
       description: 哔哩哔哩（B站）推出的一款革命性AI视频创作工具
     - title: 火山引擎虚拟数字人
-      logo: ./images/AI工具集/火山引擎虚拟数字人.png
+      logo: images/AI工具集/火山引擎虚拟数字人.png
       url: https://www.volcengine.com/product/avatar
       description: 字节跳动旗下火山引擎推出的一款创新技术产品，旨在通过人工智能和多模态技术，打造高度拟人化的虚拟形象，为用户提供智能化的交互服务
     - title: 腾讯云智能数智人
-      logo: ./images/AI工具集/腾讯云智能数智人.png
+      logo: images/AI工具集/腾讯云智能数智人.png
       url: https://cloud.tencent.com/product/ivh
       description: 一款基于人工智能技术的创新产品，旨在通过打造具有智能、形象和交互能力的虚拟数字人
     - title: 阿里云虚拟数字人
-      logo: ./images/AI工具集/阿里云虚拟数字人.png
+      logo: images/AI工具集/阿里云虚拟数字人.png
       url: https://www.aliyun.com/product/ai/avatar
       description: 阿里云推出的一款基于人工智能技术的虚拟数字人产品
     - title: 创视元
-      logo: ./images/AI工具集/创视元.png
+      logo: images/AI工具集/创视元.png
       url: https://speaker.nnkosmos.com
       description: 新畅元推出的一款创新性数字人解决方案，致力于为企业提供高质量、高效率、低成本的一站式3D数字人服务
     - title: 造作AI数字人
-      logo: ./images/AI工具集/造作AI数字人.png
+      logo: images/AI工具集/造作AI数字人.png
       url: https://v.zaozuoai.com
       description: 一站式AI数字人视频制作平台
     - title: D-ID
-      logo: ./images/AI工具集/D-ID.png
+      logo: images/AI工具集/D-ID.png
       url: https://www.d-id.com
       description: 将静态图像转换为会说话的AI视频虚拟形象，并支持实时人像生成和虚拟口播功能
     - title: 慧播星
-      logo: ./images/AI工具集/慧播星.png
+      logo: images/AI工具集/慧播星.png
       url: https://huibo.baidu.com
       description: 百度电商数字人直播
     - title: 商汤如影
-      logo: ./images/AI工具集/商汤如影.png
+      logo: images/AI工具集/商汤如影.png
       url: https://senseavatar.sensetime.com
       description: 商汤科技推出的一款AI数字人视频生成平台
     - title: 即构数智人创作平台
-      logo: ./images/AI工具集/即构数智人创作平台.ico
+      logo: images/AI工具集/即构数智人创作平台.ico
       url: https://aigc.zego.im
       description: AI虚拟数字人视频创作平台
     - title: 讯飞智作
-      logo: ./images/AI工具集/讯飞智作.png
+      logo: images/AI工具集/讯飞智作.png
       url: https://www.xfzhizuo.cn
       description: AI虚拟人主播,AI视频制作,数字人配音合成,短视频配音等
     - title: KreadoAI
-      logo: ./images/AI工具集/KreadoAI.png
+      logo: images/AI工具集/KreadoAI.png
       url: https://www.kreadoai.com
       description: AIGC数字营销创作平台
-
 - taxonomy: 图文设计
   icon: fa-palette
   list:
@@ -1450,7 +1447,7 @@
       url: http://www.iconfont.cn?from=dy.199908.top
       description: 阿里巴巴矢量图标库
     - title: Flaticon
-      logo: images/图文设计/flaticon.png
+      logo: images/图文设计/Flaticon.png
       url: https://www.flaticon.com?from=dy.199908.top
       description: 634,000+ 免费矢量图标
     - title: IconPark
@@ -1462,19 +1459,19 @@
       url: https://icons8.com?from=dy.199908.top
       description: 免费图标、插图和照片
     - title: Iconfinder
-      logo: images/图文设计/iconfinder.png
+      logo: images/图文设计/Iconfinder.png
       url: https://www.iconfinder.com?from=dy.199908.top
       description: 2,100,000+ free and premium vector icons
     - title: iconmonstr
-      logo: images/图文设计/iconmonstr.png
+      logo: images/图文设计/Iconmonstr.png
       url: https://iconmonstr.com?from=dy.199908.top
       description: Free simple icons for your next project
     - title: Icon Archive
-      logo: images/图文设计/iconarchive.png
+      logo: images/图文设计/IconArchive.png
       url: http://www.iconarchive.com?from=dy.199908.top
       description: Search 590,912 free icons
     - title: Font Awesome Icon
-      logo: images/图文设计/fontawesome.png
+      logo: images/图文设计/FontAwesome.png
       url: https://fontawesome.com/icons?from=dy.199908.top
       description: The complete set of 675 icons in Font Awesome
     - title: LogoMoose
@@ -1498,7 +1495,7 @@
       url: https://icomoon.io/app?from=dy.199908.top
       description: Icon Font, SVG, PDF & PNG Generator
     - title: Google Font
-      logo: images/图文设计/Google Font.png
+      logo: images/图文设计/GoogleFont.png
       url: https://fonts.google.com?from=dy.199908.top
       description: Making the web more beautiful, fast, and open through great typography
     - title: 方正字库
@@ -1566,7 +1563,7 @@
       url: https://www.zapsplat.com?from=dy.199908.top
       description: 音效和音乐素材库
     - title: AudioJungle
-      logo: images/图文设计/audiojungle
+      logo: images/图文设计/Adobe色卡.png
       url: https://audiojungle.net?from=dy.199908.top
       description: 版权音乐和音效市场
     - title: YouTube Audio Library
@@ -1621,7 +1618,6 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
-
 - taxonomy: 电商插件
   icon: fa-cogs
   links:
@@ -1669,7 +1665,6 @@
     logo: images/电商插件/达连.png
     url: https://tool.kollink.net?from=dy.199908.top
     description: TikTok达人邀约插件
-
 - taxonomy: 直播辅助
   icon: fa-video
   links:
@@ -1705,7 +1700,6 @@
     logo: images/直播辅助/腾讯QQ.png
     url: https://live.qq.com?from=dy.199908.top
     description: 腾讯官方直播工具
-
 - taxonomy: 电商货源
   icon: fa-shopping-bag
   list:
@@ -1780,15 +1774,15 @@
       url: https://www.nala.com.cn?from=dy.199908.top
       description: 美妆采购批发网站，在线销售面膜，眼线笔，睫毛膏，美妆工具，个人护理等美妆日化产品
     - title: 中国美容美发网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/美美淘.png
       url: https://www.138job.com?from=dy.199908.top
       description: 美容美发用品货源平台
     - title: 化妆品招商网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/找商网.png
       url: https://www.hzpzs.net?from=dy.199908.top
       description: 化妆品批发招商平台
     - title: 中国化妆品网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/盖德化工网.png
       url: https://www.china-cosmetics.com?from=dy.199908.top
       description: 化妆品行业门户网站
     - title: 花西子
@@ -1818,7 +1812,7 @@
       url: https://www.ickey.cn?from=dy.199908.top
       description: 电子元器件采购,BOM配单,SMT贴片,PCB打样
     - title: 中国电子网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/华强电子网.ico
       url: https://www.ec.com.cn?from=dy.199908.top
       description: 电子行业B2B电子商务平台
     - title: 中国仪器网
@@ -1826,7 +1820,7 @@
       url: https://www.instrument.com.cn?from=dy.199908.top
       description: 仪器行业B2B电子商务平台
     - title: 猎芯网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/云筑网.ico
       url: https://www.ichunt.com?from=dy.199908.top
       description: 电子元器件货源平台
     - title: 中关村在线
@@ -1834,7 +1828,7 @@
       url: https://www.zol.com.cn?from=dy.199908.top
       description: 数码产品资讯平台
     - title: 太平洋电脑网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/华强电子网.ico
       url: https://www.pconline.com.cn?from=dy.199908.top
       description: 数码产品资讯平台
   - name: 母婴用品
@@ -1848,7 +1842,7 @@
       url: https://www.babyzhiai.net?from=dy.199908.top
       description: 高端母婴用品B2B分销平台，孕婴童品牌招商，免费加盟代理，一件代发，正品货源
     - title: 中国婴童网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/二童网.ico
       url: http://www.baobei360.com?from=dy.199908.top
       description: 母婴用品批发货源平台
     - title: 玩具巴巴
@@ -1876,11 +1870,11 @@
   - name: 家居家装
     links:
     - title: 中国家电网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/华强电子网.ico
       url: https://www.cheaa.com?from=dy.199908.top
       description: 家电行业B2B电子商务平台
     - title: 找家纺
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/找商网.png
       url: https://www.zhaojiafang.com?from=dy.199908.top
       description: 家纺批发货源平台
     - title: 中国家具网
@@ -1888,7 +1882,7 @@
       url: https://www.jiaju.com?from=dy.199908.top
       description: 家具批发货源平台
     - title: 中华家居网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/华强电子网.ico
       url: https://www.cjiajv.com?from=dy.199908.top
       description: 家居行业门户网站
     - title: 中国照明网
@@ -1904,11 +1898,11 @@
       url: https://www.hczyw.com?from=dy.199908.top
       description: 五金行业B2B平台
     - title: 中国五金商机网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/B2B商机网.png
       url: https://www.wjw.cn?from=dy.199908.top
       description: 五金行业B2B电子商务平台
     - title: 中国建材网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/广材网.png
       url: https://www.bmlink.com?from=dy.199908.top
       description: 建材行业B2B电子商务平台
     - title: 广材网
@@ -1918,15 +1912,15 @@
   - name: 综合平台
     links:
     - title: 1688
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/1688.png
       url: https://www.1688.com?from=dy.199908.top
       description: 阿里巴巴1688货源平台
     - title: 淘货源
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/17货源网.png
       url: https://tao.1688.com?from=dy.199908.top
       description: 自由、赚钱的在线生意平台
     - title: 义乌购
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/义乌购.png
       url: https://www.yiwugo.com?from=dy.199908.top
       description: 义乌购货源平台
     - title: 天猫供销平台
@@ -1958,15 +1952,15 @@
       url: https://www.made-in-china.com?from=dy.199908.top
       description: B2B电子商务平台，为企业提供供求信息发布和行业资讯
     - title: 环球资源
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/八方资源网.png
       url: https://www.globalsources.com?from=dy.199908.top
       description: B2B电子商务平台，为企业提供供求信息发布和行业资讯
     - title: 世界工厂网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/盖德化工网.png
       url: https://www.gongchang.com?from=dy.199908.top
       description: B2B电子商务平台，为企业提供供求信息发布和行业资讯
     - title: 敦煌网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/云筑网.ico
       url: https://www.dhgate.com?from=dy.199908.top
       description: 跨境电商B2B平台
     - title: 维度网
@@ -1980,7 +1974,7 @@
   - name: 工业原料
     links:
     - title: 中国化工网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/盖德化工网.png
       url: https://www.chemnet.com?from=dy.199908.top
       description: 化工行业B2B电子商务平台
     - title: Xchemi化工网
@@ -2058,7 +2052,7 @@
       url: https://www.made-in-china.com?from=dy.199908.top
       description: 中国制造网-工厂货源平台
     - title: 找厂网
-      logo: images/电商货源/驼铃标志1.png
+      logo: images/电商货源/找商网.png
       url: https://www.entfind.com?from=dy.199908.top
       description: 工厂直供货源对接平台
     - title: 中国体育用品网
@@ -2069,7 +2063,6 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.jp0663.com?from=dy.199908.top
       description: 军埔货源平台
-
 - taxonomy: 广告投放
   icon: fa-bullhorn
   list:
@@ -2099,7 +2092,7 @@
       url: https://yuntu.oceanengine.com?from=dy.199908.top
       description: 抖音星图，抖音KOL营销平台
     - title: 巨量创意
-      logo: images/电商辅助/巨量创意.png
+      logo: images/广告投放/巨量千川.png
       url: https://cc.oceanengine.com?from=dy.199908.top
       description: 抖音广告创意平台
     - title: 巨量本地推
@@ -2131,11 +2124,11 @@
       url: https://u.kuaishou.com?from=dy.199908.top
       description: 快手科技推出的一站式视频商业能力转化平台，旨在通过短视频和直播的形式，为广告主、开发者和用户创造互惠共赢的生态系统
     - title: Tiktok ADS
-      logo: images/电商辅助/抖音.jpg
+      logo: images/广告投放/uni_ad广告联盟.ico
       url: https://ads.tiktok.com/i18n?from=dy.199908.top
       description: Tiktok官方广告投放平台
     - title: Tiktok广告投放
-      logo: images/电商辅助/抖音.jpg
+      logo: images/广告投放/vivo广告联盟.png
       url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
       description: Tiktok海外广告投放平台
   - name: 电商平台
@@ -2253,11 +2246,11 @@
       url: https://www.shenzan.com?from=dy.199908.top
       description: 新媒体营销平台，KOL营销品牌种草内容带货
     - title: 微播易
-      logo: images/广告投放/微播易.png
+      logo: images/广告投放/传播易.png
       url: http://www.weiboyi.com?from=dy.199908.top
       description: 一站式KOL资源采买服务
     - title: 新榜有赚
-      logo: images/广告投放/新榜有赚.png
+      logo: images/广告投放/星榜.jpeg
       url: https://a.newrank.cn/trade?from=dy.199908.top
       description: 公众号视频号接广告赚钱
     - title: 星榜
@@ -2295,7 +2288,7 @@
   - name: 社交媒体
     links:
     - title: 微信广告
-      logo: images/广告投放/Wechat.jpg
+      logo: images/广告投放/广告门.png
       url: https://ad.weixin.qq.com?from=dy.199908.top
       description: 微信广告投放平台
     - title: 视频号助手
@@ -2337,14 +2330,13 @@
       url: https://e.baidu.com?from=dy.199908.top
       description: 百度搜索推广平台
     - title: 百度营销中心
-      logo: images/广告投放/百度营销中心.png
+      logo: images/广告投放/百度营销.png
       url: https://yingxiao.baidu.com?from=dy.199908.top
       description: 丰富广告资源，海量优质流量
     - title: 360推广
       logo: images/广告投放/360智慧商业.png
       url: https://e.360.cn?from=dy.199908.top
       description: 360搜索广告投放平台
-
 - taxonomy: 影音娱乐
   icon: fa-video
   list:
@@ -2396,63 +2388,63 @@
       url: https://www.acfun.cn?from=dy.199908.top
       description: 弹幕视频网站
     - title: 视频号助手
-      logo: images/影音娱乐/腾讯视频.png
+      logo: images/影音娱乐/好看视频.jpeg
       url: https://channels.weixin.qq.com?from=dy.199908.top
       description: 微信视频号官方助手
     - title: 央视纪实纪录片
-      logo: images/AI工具集/央视纪实纪录片.png
+      logo: images/影音娱乐/央视纪实纪录片.png
       url: http://jishi.cctv.com?from=dy.199908.top
       description: 央视记录片在线观看
     - title: 中国纪录片网
-      logo: images/AI工具集/中国纪录片网.png
+      logo: images/影音娱乐/中国纪录片网.png
       url: http://www.docuchina.cn?from=dy.199908.top
       description: 国家级纪录片新媒体综合性产业运营平台
     - title: 蓝莓视频
-      logo: images/AI工具集/蓝莓视频.ico
+      logo: images/影音娱乐/蓝莓视频.ico
       url: http://www.zjstv.com?from=dy.199908.top
       description: 蓝莓视频官网在线观看
     - title: 天翼视讯
-      logo: images/AI工具集/天翼视讯.png
+      logo: images/影音娱乐/天翼视讯.png
       url: http://www.tv189.com?from=dy.199908.top
       description: 汇聚了CCTV等160多路电视直播频道及节目预告
     - title: 芒果TV海外版
-      logo: images/AI工具集/芒果TV海外版.jpg
+      logo: images/影音娱乐/芒果TV海外版.jpg
       url: https://w.mgtv.com?from=dy.199908.top
       description: 芒果TV海外版官网网页版网址
     - title: 腾讯视频海外版
-      logo: images/AI工具集/腾讯视频海外版.png
+      logo: images/影音娱乐/腾讯视频海外版.png
       url: https://wetv.vip?from=dy.199908.top
       description: 腾讯视频海外版wetv官网网页版网址
     - title: 爱奇艺海外版
-      logo: images/AI工具集/爱奇艺海外版.png
+      logo: images/影音娱乐/爱奇艺海外版.png
       url: https://www.iq.com?from=dy.199908.top
       description: 爱奇艺海外版官网网页版网址
     - title: 西瓜视频
-      logo: images/AI工具集/西瓜视频.jpg
+      logo: images/影音娱乐/西瓜视频.jpg
       url: https://www.ixigua.com?from=dy.199908.top
       description: 西瓜视频是字节跳动旗下的一款领先的中视频平台，汇集了海量的视频资源，涵盖电影、电视剧、综艺、纪录片、游戏解说、旅行日记、时尚穿搭、社会人文等多个领域。
     - title: 西影网
-      logo: images/AI工具集/西影网.jpg
+      logo: images/影音娱乐/西影网.jpg
       url: https://www.1958xy.com?from=dy.199908.top
       description: 一些老影视节目
     - title: 搜狐视频
-      logo: images/AI工具集/搜狐视频.png
+      logo: images/影音娱乐/搜狐视频.png
       url: https://tv.sohu.com?from=dy.199908.top
       description: 搜狐旗下专业的综合视频网站
     - title: 芒果TV
-      logo: images/AI工具集/芒果TV.jpg
+      logo: images/影音娱乐/芒果TV.jpg
       url: https://www.mgtv.com?from=dy.199908.top
       description: 高清视频在线观看
     - title: 风行网
-      logo: images/AI工具集/风行网.jpg
+      logo: images/影音娱乐/风行网.jpg
       url: http://www.fun.tv?from=dy.199908.top
       description: 视频内容在线观看
     - title: PP视频
-      logo: images/AI工具集/PP视频.png
+      logo: images/影音娱乐/PP视频.png
       url: https://www.pptv.com?from=dy.199908.top
       description: 综合视频门户网站平台
     - title: 1905电影网
-      logo: images/AI工具集/1905电影网.png
+      logo: images/影音娱乐/1905电影网.png
       url: https://www.1905.com?from=dy.199908.top
       description: 电影频道官方网站
   - name: 短剧平台
@@ -2490,11 +2482,11 @@
       url: https://www.kuaishou.com/theater/10000?from=dy.199908.top
       description: 是快手平台上一个专注于提供各类短剧资源内容的板块
     - title: 河马剧场
-      logo: images/影音娱乐/河马剧场.png
+      logo: images/影音娱乐/河马剧场.ico
       url: https://www.kuaikaw.cn?from=dy.199908.top
       description: 一个专注于微短剧和网络短剧的平台,提供各种免费网络短剧的在线观看服务
     - title: 五五短剧
-      logo: images/影音娱乐/五五短剧.png
+      logo: images/影音娱乐/短剧猫.png
       url: https://www.duanju55.com?from=dy.199908.top
       description: 一个专门提供短剧视频内容的平台,用户可以在这里免费观看和分享最新的短剧视频
     - title: 趣看看短剧
@@ -2506,11 +2498,11 @@
       url: https://duanjuchacha.com?from=dy.199908.top
       description: 一个专注于短剧内容的平台，提供夸克短剧的每日更新
     - title: 短剧库
-      logo: images/影音娱乐/短剧库.png
+      logo: images/影音娱乐/短剧猫.png
       url: https://duanjuku.top?from=dy.199908.top
       description: 一个提供丰富短剧资源的平台,用户可以在这里找到各种类型的短剧
     - title: 短剧窝
-      logo: images/影音娱乐/短剧窝.png
+      logo: images/影音娱乐/短剧猫.png
       url: https://www.djwo.cc?from=dy.199908.top
       description: 一个提供短剧大全的平台,用户可以在这里免费观看各种短剧
     - title: 短剧达人
@@ -2518,7 +2510,7 @@
       url: https://www.ddmov.com?from=dy.199908.top
       description: 一个提供免费短剧在线观看的平台,专注于最新热门短剧全集的分享
     - title: 吉吉短剧
-      logo: images/影音娱乐/吉吉短剧.png
+      logo: images/影音娱乐/短剧猫.png
       url: https://www.jjduanju.com?from=dy.199908.top
       description: 一个专门提供免费短剧和电视剧在线观看的平台
     - title: 爱你短剧
@@ -2530,7 +2522,7 @@
       url: https://www.duanju001.com?from=dy.199908.top
       description: 是一个专门提供免费短剧资源内容的在线观看的平台
     - title: 优优短剧
-      logo: images/影音娱乐/优优短剧.png
+      logo: images/影音娱乐/短剧猫.png
       url: https://uu123.vip?from=dy.199908.top
       description: 提供最新最全的短剧夸克网盘资源，短剧免费观看全集在线观看及下载资源
     - title: 短剧搜吧
@@ -2553,7 +2545,6 @@
       logo: images/影音娱乐/夸克盘搜.png
       url: https://www.panso.xyz?from=dy.199908.top
       description: 一个专门针对夸克网盘资源的搜索引擎
-
   - name: 体育直播
     links:
     - title: CCTV-5体育频道
@@ -2643,7 +2634,7 @@
       url: https://www.qingting.fm?from=dy.199908.top
       description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
     - title: QQ音乐
-      logo: images/影音娱乐/QQ音乐.png
+      logo: images/影音娱乐/QQ音乐.svg
       url: https://y.qq.com?from=dy.199908.top
       description: 千万正版音乐海量无损曲库新歌热歌
     - title: 网易云音乐
@@ -2651,7 +2642,7 @@
       url: https://music.163.com?from=dy.199908.top
       description: 专注于发现与分享音乐
     - title: 酷我音乐
-      logo: images/影音娱乐/酷我音乐.png
+      logo: images/影音娱乐/酷我音乐.jpeg
       url: http://www.kuwo.cn?from=dy.199908.top
       description: 无损音质正版在线试听网站
     - title: 酷狗音乐
@@ -2725,7 +2716,7 @@
       url: https://www.thepaper.cn?from=dy.199908.top
       description: 上海报业集团旗下的新闻资讯平台，关注时政与思想类内容
     - title: 一点号
-      logo: images/影音娱乐/1点资讯.jpeg
+      logo: images/影音娱乐/百家号.jpeg
       url: https://www.yidianzixun.com?from=dy.199908.top
       description: 一点资讯旗下内容创作平台
   - name: 社交媒体
@@ -2783,7 +2774,7 @@
       url: https://mp.toutiao.com?from=dy.199908.top
       description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
     - title: 企鹅号
-      logo: images/影音娱乐/腾讯网.jpeg
+      logo: images/影音娱乐/企鹅直播.png
       url: https://om.qq.com?from=dy.199908.top
       description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
     - title: 大鱼号
@@ -2942,7 +2933,6 @@
       logo: images/影音娱乐/动漫狂.svg
       url: https://www.cartoonmad.com?from=dy.199908.top
       description: 免费动画漫画分享社群
-
 - taxonomy: 学习资源
   icon: fa-chart-bar
   list:
@@ -3309,7 +3299,7 @@
       url: https://www.tan8.com?from=dy.199908.top
       description: 一个提供钢琴谱和吉他谱大全的综合性音乐学习平台
     - title: PianoMidi
-      logo: images/学习资源/PianoMidi.png
+      logo: images/学习资源/LingoHut.jpg
       url: http://www.piano-midi.de/midicoll.htm?from=dy.199908.top
       description: 一个致力于古典音乐爱好者的网站
     - title: 虫虫钢琴
@@ -3412,15 +3402,6 @@
       description: 中文Web技术教程
   - name: 人文历史
     links:
-    - title: 故宫博物院
-      logo: images/学习资源/故宫博物院.png
-      url: https://www.dpm.org.cn?from=dy.199908.top
-      description: 官方信息发布平台
-    - title: 全历史
-      logo: images/学习资源/全历史.png
-      url: https://www.allhistory.com?from=dy.199908.top
-      description: 全历史（Allhistory）以AI知识图谱为核心引擎，通过高度时空化、关联化数据的方式构造及展现数字人文内容，尤其是历史知识。让用户沉浸在纵横开阖、左图右史的（历史、人文、社科等）知识海洋中。
-    links:
     - title: 洛谷
       logo: images/学习资源/洛谷.ico
       url: https://www.luogu.com.cn?from=dy.199908.top
@@ -3493,7 +3474,6 @@
       logo: images/学习资源/W3School.png
       url: https://www.w3school.com.cn?from=dy.199908.top
       description: 中文Web技术教程
-
 - taxonomy: 生活服务
   icon: fa-chart-bar
   list:
@@ -3527,7 +3507,8 @@
     - title: JavaGuide
       logo: images/生活服务/JavaGuide.ico
       url: https://javaguide.cn?from=dy.199908.top
-      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
+      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java
+        技术栈的核心知识。
     - title: 编程满天星
       logo: images/生活服务/编程满天星.png
       url: https://itmtx.cn?from=dy.199908.top
@@ -4082,7 +4063,6 @@
       logo: images/生活服务/21CN个人邮箱.png
       url: https://mail.21cn.com?from=dy.199908.top
       description: 中国电信旗下的21CN公司提供的电子邮件服务
-
 - taxonomy: 软件工具
   icon: fa-chart-bar
   list:
@@ -4098,7 +4078,7 @@
   - name: 电脑装机
     links:
     - title: 火绒电脑安全软件
-      logo: images/软件工具/火绒.png
+      logo: images/软件工具/电脑安全软件.png
       url: https://www.huorong.cn?from=dy.199908.top
       description: 电脑安全防护软件
     - title: win原版系统下载网站
@@ -4106,7 +4086,7 @@
       url: https://www.microsoft.com/zh-cn/software-download/windows10?from=dy.199908.top
       description: windows原版系统下载网站
     - title: 小白一键重装系统
-      logo: images/软件工具/小白一键重装系统.png
+      logo: images/软件工具/小白一键重装系统.jpeg
       url: https://www.01xitong.com?from=dy.199908.top
       description: 一键重装系统工具合集，重装系统工具推荐
     - title: 微PE工具箱
@@ -4114,7 +4094,7 @@
       url: https://www.wepe.com.cn?from=dy.199908.top
       description: 一键重装系统工具合集，重装系统工具推荐
     - title: 驱动精灵
-      logo: images/软件工具/驱动精灵.png
+      logo: images/软件工具/驱动精灵.jpeg
       url: https://www.drivergenius.com?from=dy.199908.top
       description: 电脑驱动安装软件
     - title: 启动盘制作工具
@@ -4278,7 +4258,8 @@
     - title: Bilibili-Evolved
       logo: images/软件工具/Bilibili_Evolved.svg
       url: https://github.com/the1812/Bilibili-Evolved?from=dy.199908.top
-      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved 支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
+      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved
+        支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
     - title: h5player
       logo: images/软件工具/h5player.png
       url: https://github.com/xxxily/h5player?from=dy.199908.top
@@ -4342,7 +4323,7 @@
       url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
       description: TVBox电视盒子软件
     - title: TvBox
-      logo: images/软件工具/TvBox.png
+      logo: images/软件工具/TVBox.png
       url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
       description: 一款开源的电视盒子软件
     - title: FongMi影视
@@ -4406,7 +4387,8 @@
     - title: AnyConv
       logo: images/软件工具/AnyConv.png
       url: https://anyconv.com/tw?from=dy.199908.top
-      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD 文件等 。
+      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD
+        文件等 。
     - title: OCR图片转文字
       logo: images/软件工具/OCR图片转文字.jpg
       url: https://web.baimiaoapp.com?from=dy.199908.top
@@ -4414,7 +4396,8 @@
     - title: Online Video Converter
       logo: images/软件工具/Online_Video_Converter.png
       url: https://video-converter.com/cn?from=dy.199908.top
-      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300 多种视频格式，不需要注册或登录。
+      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300
+        多种视频格式，不需要注册或登录。
     - title: HEIC图像转换器
       logo: images/软件工具/HEIC图像转换器.jpg
       url: https://heicjpg.org?from=dy.199908.top
@@ -4607,7 +4590,6 @@
       logo: images/软件工具/Graph_Maker.svg
       url: https://graph-maker.online/zh?from=dy.199908.top
       description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
-
 - taxonomy: 数据研究
   icon: fa-chart-bar
   list:
@@ -4627,7 +4609,7 @@
       url: https://sycm.taobao.com?from=dy.199908.top
       description: 阿里巴巴旗下的电商数据研究工具，为淘宝和天猫卖家提供销售数据研究
     - title: 京东商智
-      logo: images/新媒运营/京东商智.png
+      logo: images/数据研究/京东大数据研究院.png
       url: https://sz.jd.com?from=dy.199908.top
       description: 京东平台的商业智能分析工具，为京东卖家提供销售数据研究
     - title: 拼多多商家后台
@@ -4643,7 +4625,7 @@
       url: https://trendinsight.oceanengine.com?from=dy.199908.top
       description: 解析内容风向，解码营销未来
     - title: 西瓜数据
-      logo: images/新媒运营/西瓜数据.png
+      logo: images/数据研究/千瓜数据.png
       url: https://data.xiguaji.com?from=dy.199908.top
       description: 专注于抖音、快手等短视频平台的数据研究工具
     - title: 东方财富网数据中心
@@ -4725,19 +4707,19 @@
       url: https://index.baidu.com?from=dy.199908.top
       description: 这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。
     - title: 微博指数
-      logo: images/新媒运营/微博指数.png
+      logo: images/数据研究/数英指数.ico
       url: https://data.weibo.com/index?from=dy.199908.top
       description: 基于微博平台的数据研究工具，提供热门话题和事件的传播分析
     - title: 头条指数
-      logo: images/新媒运营/头条指数.png
+      logo: images/数据研究/数英指数.ico
       url: https://index.toutiao.com?from=dy.199908.top
       description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
     - title: 微信指数
-      logo: images/新媒运营/微信指数.png
+      logo: images/数据研究/数英指数.ico
       url: https://weixin.sogou.com?from=dy.199908.top
       description: 基于微信平台的数据研究工具，提供微信公众号和文章的热度分析
     - title: 百度热搜
-      logo: images/新媒运营/百度热搜.png
+      logo: images/数据研究/百度指数.png
       url: https://top.baidu.com?from=dy.199908.top
       description: 百度搜索风云榜，展示百度搜索热门排行榜单，反映当下社会热点
     - title: 微博热搜
@@ -4749,7 +4731,7 @@
       url: https://www.zhihu.com/billboard?from=dy.199908.top
       description: 实时更新并展示当前最热门的话题和问题
     - title: 抖音热点榜
-      logo: images/数据研究/抖音.jpg
+      logo: images/数据研究/微热点.png
       url: https://www.douyin.com/discover?from=dy.199908.top
       description: 抖音平台的热门视频和话题排行
     - title: 热点聚合
@@ -4777,7 +4759,7 @@
       url: https://www.newrank.cn/public/info/list.html?from=dy.199908.top
       description: 各类自媒体排行榜单
     - title: 阿里指数
-      logo: images/新媒运营/阿里指数.png
+      logo: images/数据研究/数英指数.ico
       url: https://index.1688.com?from=dy.199908.top
       description: 阿里巴巴旗下的电商大数据研究平台，展示商品热度和行业趋势
     - title: 清博大数据
@@ -4785,7 +4767,7 @@
       url: http://home.gsdata.cn?from=dy.199908.top
       description: 融媒体、舆论和产业营销大数据服务者
     - title: 微热点
-      logo: images/新媒运营/清博大数据.png
+      logo: images/数据研究/微热点.png
       url: https://www.wrd.cn?from=dy.199908.top
       description: 全媒体传播分析平台
     - title: 胡润百富榜
@@ -5013,15 +4995,15 @@
   - name: 数据可视
     links:
     - title: Tableau Public
-      logo: images/新媒运营/Tableau.png
+      logo: images/数据研究/CEIC.jpg
       url: https://public.tableau.com?from=dy.199908.top
       description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
     - title: DataV.js
-      logo: images/新媒运营/DataV.png
+      logo: images/数据研究/CBNData.jpg
       url: https://datav.aliyun.com?from=dy.199908.top
       description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
     - title: ECharts
-      logo: images/新媒运营/ECharts.png
+      logo: images/数据研究/Clarity.ico
       url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
       description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
     - title: D3.js
@@ -5029,7 +5011,7 @@
       url: https://d3js.org?from=dy.199908.top
       description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
     - title: Flourish
-      logo: images/新媒运营/Flourish.png
+      logo: images/数据研究/Clarity.ico
       url: https://flourish.studio?from=dy.199908.top
       description: 在线数据可视化工具，提供丰富的模板和交互功能
     - title: 巨潮资讯网
@@ -5101,11 +5083,11 @@
   - name: 网站分析
     links:
     - title: Google Analytics
-      logo: images/新媒运营/GoogleAnalytics.png
+      logo: images/数据研究/CEIC.jpg
       url: https://analytics.google.com?from=dy.199908.top
       description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
     - title: 百度统计
-      logo: images/新媒运营/百度统计.png
+      logo: images/数据研究/百度指数.png
       url: https://tongji.baidu.com?from=dy.199908.top
       description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
     - title: GrowingIO
@@ -5136,7 +5118,6 @@
       logo: images/数据研究/阿里研究院.jpg
       url: http://www.aliresearch.com?from=dy.199908.top
       description: 新商业知识平台
-
 - taxonomy: 联系我们
   icon: fa-photo-video
   links:
@@ -5152,7 +5133,6 @@
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
-
 - taxonomy: 友情链接
   icon: fa-link
   friend:
