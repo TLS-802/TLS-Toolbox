@@ -3427,6 +3427,8 @@
   - term: 转换工具
   - term: 学习工具
   - term: 工作工具
+  - term: 快递物流
+  - term: 邮箱登录
   tabs:
   - name: 电脑装机
     links:
@@ -3727,8 +3729,302 @@
       url: https://www.meijiashichang.com?from=dy.199908.top
       description: 电视软件app应用市场
   - name: 转换工具
+    links:
+    - title: 万能格式转换
+      logo: images/软件工具/万能格式转换.png
+      url: https://convertio.co/zh?from=dy.199908.top
+      description: 万能文件格式在线转换工具
+    - title: PDF在线工具
+      logo: images/软件工具/PDF在线工具.png
+      url: https://www.ilovepdf.com/zh-cn?from=dy.199908.top
+      description: 格式转换，合并分割，加密解密等
+    - title: AnyConv
+      logo: images/软件工具/AnyConv.png
+      url: https://anyconv.com/tw?from=dy.199908.top
+      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD 文件等 。
+    - title: OCR图片转文字
+      logo: images/软件工具/OCR图片转文字.jpg
+      url: https://web.baimiaoapp.com?from=dy.199908.top
+      description: 免费OCR在线图片转换成文字，在线图片识别文字
+    - title: Online Video Converter
+      logo: images/软件工具/Online_Video_Converter.png
+      url: https://video-converter.com/cn?from=dy.199908.top
+      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300 多种视频格式，不需要注册或登录。
+    - title: HEIC图像转换器
+      logo: images/软件工具/HEIC图像转换器.jpg
+      url: https://heicjpg.org?from=dy.199908.top
+      description: HEIC图像转换器,heic转JPG、PNG在线转换免费工具
+    - title: HeicJPG
+      logo: images/软件工具/HeicJPG.svg
+      url: https://heicjpg.org?from=dy.199908.top
+      description: HeicJPG支持将HEIC格式的图片批量转换为JPG、PNG或GIF格式。用户只需上传HEIC文件，选择输出格式，即可快速下载转换后的文件。该工具无需安装，操作简单，适合个人用户。
+    - title: 图片转换矢量图
+      logo: images/软件工具/图片转换矢量图.png
+      url: https://vectorizer.com/zh?from=dy.199908.top
+      description: 免费在线png转svg工具
+    - title: MP4T
+      logo: images/软件工具/MP4T.png
+      url: https://mp4t.com/zh?from=dy.199908.top
+      description: MP4 转 MP3，免费，安全，快速，支持接近 2GB 视频，免上传。还支持MKV转MP3，WebM转MP3，MP4转GIF，MKV转GIF，WebM转GIF。
+    - title: 在线制作ico图标
+      logo: images/软件工具/在线制作ico图标.png
+      url: https://www.bitbug.net?from=dy.199908.top
+      description: 在线制作转换ico图标工具
+    - title: 音频格式转换
+      logo: images/软件工具/音频格式转换.png
+      url: https://convertio.co/audio-converter/?from=dy.199908.top
+      description: 音频格式免费在线转换工具
+    - title: 视频转换
+      logo: images/软件工具/视频转换.png
+      url: https://cloudconvert.com/video-converter?from=dy.199908.top
+      description: 在线视频格式转换工具，视频格式转换器
+    - title: WebP转换
+      logo: images/软件工具/WebP转换.png
+      url: https://convertio.co/webp-converter/?from=dy.199908.top
+      description: WebP图片格式转换成其他格式或其他格式转成WebP
+    - title: 文字转语音
+      logo: images/软件工具/文字转语音.jpg
+      url: https://ttsmaker.com?from=dy.199908.top
+      description: 免费在线文字转语音工具
+    - title: 字体转换器
+      logo: images/软件工具/字体转换器.png
+      url: https://www.fontspace.com/category/converter?from=dy.199908.top
+      description: 艺术,POP,特殊字体转换器,字体在线转换生成网站大全
+    - title: 图片转像素画工具
+      logo: images/软件工具/图片转像素画工具.png
+      url: https://www.pixelart.com?from=dy.199908.top
+      description: 免费在线将普通图片转换为像素风格图像
+    - title: PDF转扫描
+      logo: images/软件工具/PDF转扫描.png
+      url: https://www.ilovepdf.com/scan_to_pdf?from=dy.199908.top
+      description: 免费在线将pdf文件转换成扫描件效果工具
+    - title: 人民币转大写工具
+      logo: images/软件工具/人民币转大写工具.png
+      url: https://c.runoob.com/unit-conversion/6907?from=dy.199908.top
+      description: 人民币大小写在线转换,人民币转大写
   - name: 学习工具
+    links:
+    - title: ptable
+      logo: images/软件工具/ptable.png
+      url: https://ptable.com?from=dy.199908.top
+      description: ptable元素周期表网站
+    - title: 一份爱小工具
+      logo: images/软件工具/一份爱小工具.ico
+      url: https://www.an2.net?from=dy.199908.top
+      description: 一份爱小工具,田字格字帖生成器系列工具
+    - title: 算术题生成器
+      logo: images/软件工具/算术题生成器.png
+      url: https://www.bgrdh.com/sites/57764.html?from=dy.199908.top
+      description: 在线即时生成题目，用户可以根据需求快速生成练习题，方便打印，非常适合需要快速练习的学生。
+    - title: 背单词计划表生成器
+      logo: images/软件工具/背单词计划表生成器.png
+      url: https://www.bgrdh.com/sites/31791.html?from=dy.199908.top
+      description: 免费在线制作生成背单词计划表网站
+    - title: 习题打印生成器
+      logo: images/软件工具/习题打印生成器.png
+      url: https://www.dayin.page?from=dy.199908.top
+      description: 一键生成数学题、描红字帖及各种空白模板
+    - title: 在线计算器
+      logo: images/软件工具/在线计算器.png
+      url: https://my-calculator.com?from=dy.199908.top
+      description: 在线计算器,科学计算器
+    - title: 字帖生成工具
+      logo: images/软件工具/字帖生成工具.png
+      url: https://paper.z2h.cn?from=dy.199908.top
+      description: 免费在线字帖生成工具
+    - title: mathsenior
+      logo: images/软件工具/mathsenior.jpg
+      url: https://zh.mathsenior.com?from=dy.199908.top
+      description: 数学加减乘除算术题目在线生成器
+    - title: 满分帮小学生练习题生成器
+      logo: images/软件工具/满分帮小学生练习题生成器.svg
+      url: https://www.ywmfb.com?from=dy.199908.top
+      description: 满分帮的练习题生成器具备高度的灵活性和可扩展性。用户可以根据需要选择题目的数量、难度级别以及运算类型，例如加减法、乘除法、括号运算等。
+    - title: 课本大狮
+      logo: images/软件工具/课本大狮.svg
+      url: http://www.kebendashi.com?from=dy.199908.top
+      description: 课本大狮口算生成器,可一键在线生成口算题卡,包括幼儿园10以内加减法口算考试题,一年级口算数学计算题100道及二年级数学口算题大全,小学上下册口算出题练习卷子,随机生成的口算题卡可直接打印
+    - title: 教育屋口算题生成器
+      logo: images/软件工具/教育屋口算题生成器.png
+      url: https://www.jiaoyuwu.com/calculate?from=dy.199908.top
+      description: 教育屋网提供各类小学口算练习题目生成，内含小学所有数学题型并支持打印
+    - title: 小学口算出题器
+      logo: images/软件工具/小学口算出题器.svg
+      url: http://www.daydayup365.com?from=dy.199908.top
+      description: 天天向上365小学口算出题器是一款专为小学生设计的数学口算练习工具，旨在帮助学生提升口算能力，增强数学运算思维。
+    - title: 魔力娃口算题生成器
+      logo: images/软件工具/魔力娃口算题生成器.ico
+      url: https://generate.moliwa.cn?from=dy.199908.top
+      description: 魔力娃口算题生成器是一款专为小学生设计的数学口算训练工具，旨在通过科学、系统的练习方式，帮助孩子提升数学运算能力。
+    - title: 闹表网
+      logo: images/软件工具/闹表网.png
+      url: https://www.naobiao.com?from=dy.199908.top
+      description: 闹表网是一个提供在线网页闹钟服务的网站，其主要功能是让用户能够快速便捷地设置闹钟，且无需下载软件即可使用。用户可以通过网页直接访问并设置闹钟，随时随地使用，非常方便。
+    - title: TimeGraphics
+      logo: images/软件工具/TimeGraphics.png
+      url: https://time.graphics/editor?from=dy.199908.top
+      description: Time.Graphics 是一个在线时间轴制作工具，旨在为用户提供简单直观的界面和丰富的功能，以创建和可视化时间线。
+    - title: 学于趣字帖
+      logo: images/软件工具/学于趣字帖.ico
+      url: https://zitie.xueyuqu.com?from=dy.199908.top
+      description: 学于趣字帖，免费在线田字格字帖生成器。汉字、拼音、数字、控笔训练、英文字帖免费生成；字帖内容、颜色、字体、田字格自由定制。
+    - title: Microsoft数学求解器
+      logo: images/软件工具/Microsoft数学求解器.png
+      url: https://math.microsoft.com/zh?from=dy.199908.top
+      description: 数学问题求解器和计算器
+    - title: SimpleTex
+      logo: images/软件工具/SimpleTex.png
+      url: https://simpletex.cn?from=dy.199908.top
+      description: 免费公式识别工具，主要用于将图片中的数学公式转换为 LaTeX 表达式
   - name: 工作工具
+    links:
+    - title: 酷表ChatExcel
+      logo: images/软件工具/酷表ChatExcel.png
+      url: https://www.chatexcel.com/#/home?partner_uuid=BCAB45078F33305692CBBBDA49B19FF7?from=dy.199908.top
+      description: AI Excel 数据分析辅助工具，北大团队开发的通过聊天来操作Excel表格的AI工具
+    - title: 在线录屏
+      logo: images/软件工具/在线录屏.png
+      url: https://recordscreen.io?from=dy.199908.top
+      description: 在线网页版录屏工具，免费在线录屏网站
+    - title: 在线提词器
+      logo: images/软件工具/在线提词器.png
+      url: https://prompter.online?from=dy.199908.top
+      description: 免费在线提词器网页版，适用于直播、视频录制、在线授课和演讲等场合，帮助用户避免忘词，使发言更加流畅自然。
+    - title: 劳法计算器
+      logo: images/软件工具/劳法计算器.png
+      url: https://web.laofa.com/calculator?from=dy.199908.top
+      description: 帮助企业和个人快速、精确地计算与劳动法相关的各项数据
+    - title: 发票排版助手
+      logo: images/软件工具/发票排版助手.png
+      url: https://fapiao.jimbray.xyz?from=dy.199908.top
+      description: 支持PDF、PNG、JPG，拖拽排序，批量排版，100%数据安全，免登录免费使用！
+    - title: ip计算器
+      logo: images/软件工具/ip计算器.png
+      url: https://ipjisuanqi.com?from=dy.199908.top
+      description: 提供多种IP地址计算工具的网站
+    - title: 在线文件压缩
+      logo: images/软件工具/在线文件压缩.png
+      url: https://compress-online.com/cn?from=dy.199908.top
+      description: 免费在线文件压缩工具,在线文件压缩器
+    - title: 文件在线预览
+      logo: images/软件工具/文件在线预览.png
+      url: https://file.kkview.cn?from=dy.199908.top
+      description: 文件在线预览工具
+    - title: 文件传输
+      logo: images/软件工具/文件传输.png
+      url: https://yunge.in?from=dy.199908.top
+      description: 局域网/公网文件传输工具
+    - title: 批量文件重命名
+      logo: images/软件工具/批量文件重命名.jpg
+      url: https://rename.jgrass.xyz?from=dy.199908.top
+      description: 在线批量文件重命名工具
+    - title: 工资个税计算器
+      logo: images/软件工具/工资个税计算器.png
+      url: https://hizdm.cn?from=dy.199908.top
+      description: 免费的五险一金及税后工资个税计算器 周边计算服务
+    - title: 法定退休年龄计算器
+      logo: images/软件工具/法定退休年龄计算器.png
+      url: https://si.12333.gov.cn/304647.jhtml?from=dy.199908.top
+      description: 国家社会保险公共服务平台法定退休年龄计算器查询入口
+    - title: 我的工资
+      logo: images/软件工具/我的工资.png
+      url: https://wodegongzi.com?from=dy.199908.top
+      description: 五险一金/社保/公积金/税后工资计算器，支持多城市
+    - title: 发票大师
+      logo: images/软件工具/发票大师.svg
+      url: https://fapiao.bangnimang.net?from=dy.199908.top
+      description: 发票大师是一款专为企业及个人设计的智能电子发票管理工具，致力于解决电子发票处理中的效率低下、操作繁琐等痛点。
+    - title: 录屏网
+      logo: images/软件工具/录屏网.png
+      url: https://www.lupingwang.com?from=dy.199908.top
+      description: 录屏网是一个提供免费在线录屏服务的网站，用户可以通过浏览器直接操作，无需下载软件或插件即可完成屏幕录制。
+    - title: 嗨格式免费在线录屏
+      logo: images/软件工具/嗨格式免费在线录屏.ico
+      url: https://tool.hgs.cn?from=dy.199908.top
+      description: 免费在线录屏，简单实用高效无水印。支持屏幕、窗口录制与网页标签录制，同时录制系统及麦克风声音，录制视频可下载到本地，无需下载任何软件或插件即可免费使用
+    - title: Recorder Online
+      logo: images/软件工具/Recorder_Online.ico
+      url: https://recorder-online.com/zh?from=dy.199908.top
+      description: Recorder Online免费且易于使用的在线屏幕录制工具，无需下载安装，无需注册，打开浏览器即可录屏
+    - title: Graph Maker
+      logo: images/软件工具/Graph_Maker.svg
+      url: https://graph-maker.online/zh?from=dy.199908.top
+      description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
+  - name: 快递物流
+    links:
+    - title: 查快递
+      logo: images/软件工具/查快递.png
+      url: https://www.kuaidi100.com?from=dy.199908.top
+      description: 一站查询全球1000+快递公司单号查询、价格查询、时效查询
+    - title: 菜鸟裹裹
+      logo: images/软件工具/菜鸟裹裹.jpg
+      url: https://www.guoguo-app.com?from=dy.199908.top
+      description: 阿里巴巴旗下菜鸟网络官方出品，寄快递、查快递
+    - title: 顺丰速运
+      logo: images/软件工具/顺丰速运.png
+      url: https://www.sf-express.com/cn/sc/index.html?from=dy.199908.top
+      description: 国内最大的综合物流服务商
+    - title: Track123
+      logo: images/软件工具/Track123.png
+      url: https://www.track123.com/cn?from=dy.199908.top
+      description: Track123 是一家专注于全球物流追踪解决方案的公司，提供多种产品和服务，旨在帮助用户高效、准确地追踪包裹和物流信息。
+    - title: 中通快递
+      logo: images/软件工具/中通快递.jpg
+      url: https://www.zto.com?from=dy.199908.top
+      description: 中通快递
+    - title: 圆通速递
+      logo: images/软件工具/圆通速递.png
+      url: https://www.yto.net.cn?from=dy.199908.top
+      description: 圆通速递
+    - title: 申通快递
+      logo: images/软件工具/申通快递.png
+      url: http://www.sto.cn?from=dy.199908.top
+      description: 申通快递
+    - title: 京东物流
+      logo: images/软件工具/京东物流.jpg
+      url: https://www.jdl.cn?from=dy.199908.top
+      description: 京东物流
+    - title: 德邦快递
+      logo: images/软件工具/德邦快递.jpg
+      url: https://www.deppon.com?from=dy.199908.top
+      description: 德邦快递
+    - title: 快递投诉
+      logo: images/软件工具/快递投诉.png
+      url: https://sswz.spb.gov.cn?from=dy.199908.top
+      description: 快递投诉国家邮政局申诉网站，投诉快递公司相关
+    - title: 快递网
+      logo: images/软件工具/快递网.png
+      url: http://www.kuaidi.com?from=dy.199908.top
+      description: 一键查询顺丰、申通、圆通、韵达、汇通、天天、德邦、中通、宅急送、快捷、信丰、邮政包裹、挂号信及EMS等常见物流单号
+    - title: 快递100
+      logo: images/软件工具/快递100.png
+      url: https://www.kuaidi100.com?from=dy.199908.top
+      description: 综合性的快递查询与物流服务平台
+    - title: 全球物流查询平台
+      logo: images/软件工具/全球物流查询平台.png
+      url: https://www.17track.net/zh-cn?from=dy.199908.top
+      description: 17TRACK是一款全球物流查询平台，专注于提供包裹追踪、物流信息查询和管理服务，支持查询全球2100+运输商,190+航司
+    - title: 邮政EMS
+      logo: images/软件工具/邮政EMS.jpg
+      url: https://www.ems.com.cn?from=dy.199908.top
+      description: 中国邮政速递物流
+    - title: 韵达速递
+      logo: images/软件工具/韵达速递.jpg
+      url: http://www.yundaex.com?from=dy.199908.top
+      description: 韵达速递
+    - title: 中国邮政
+      logo: images/软件工具/中国邮政.jpg
+      url: http://yjcx.chinapost.com.cn?from=dy.199908.top
+      description: 给据邮件跟踪查询系统
+    - title: 极兔速递
+      logo: images/软件工具/极兔速递.jpg
+      url: https://www.jtexpress.com.cn?from=dy.199908.top
+      description: 极兔速递
+    - title: ups国际快递
+      logo: images/软件工具/ups国际快递.png
+      url: https://www.ups.com?from=dy.199908.top
+      description: 一家全球领先的快递和物流服务提供商
+  - name: 邮箱登录
 
 - taxonomy: 数据研究
   icon: fa-chart-bar
