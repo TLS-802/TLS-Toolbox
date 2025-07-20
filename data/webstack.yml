@@ -2951,9 +2951,11 @@
   list:
   - term: 考公考研
   - term: 职场考证
-  - term: 人文历史
-  - term: 外语资源
+  - term: 外语学习
   - term: 设计学习
+  - term: 音乐学习
+  - term: IT技术类
+  - term: 人文历史
   tabs:
   - name: 考公考研
     links:
@@ -3123,9 +3125,197 @@
       logo: images/学习资源/全国通信专业技术人员职业水平考试网.png
       url: http://www.txks.org.cn?from=dy.199908.top
       description: 全国通信专业技术人员职业水平考试网站
-  - name: 人文历史
-  - name: 外语资源
+  - name: 外语学习
+    links:
+    - title: Duolingo
+      logo: images/学习资源/Duolingo.png
+      url: https://www.duolingo.cn?from=dy.199908.top
+      description: 世界上最受欢迎的语言学习平台。免费、有趣、科学。
+    - title: 英语流利说
+      logo: images/学习资源/英语流利说.jpg
+      url: https://www.liulishuo.com?from=dy.199908.top
+      description: 轻松学英语，用人工智能老师
+    - title: 沪江网校
+      logo: images/学习资源/沪江网校.png
+      url: https://www.hujiang.com?from=dy.199908.top
+      description: 英、日、法、韩、泰、德、西班牙等12国外语学习
+    - title: 扇贝
+      logo: images/学习资源/扇贝.png
+      url: https://www.shanbay.com?from=dy.199908.top
+      description: 扇贝单词、扇贝阅读、扇贝听力、扇贝口语
+    - title: 欧路词典
+      logo: images/学习资源/欧路词典.png
+      url: https://dict.eudic.net?from=dy.199908.top
+      description: 权威的英语在线词典，提供英语翻译、每日英语听力、英语入门听力发音、VOA听力、CNN听力、四六级等英语听力资源。
+    - title: 可可英语
+      logo: images/学习资源/可可英语.png
+      url: http://www.kekenet.com?from=dy.199908.top
+      description: 国内著名的免费英语学习网站
+    - title: 海词词典
+      logo: images/学习资源/海词词典.png
+      url: http://dict.cn?from=dy.199908.top
+      description: 在线词典，在线翻译
+    - title: 在线英语听力室
+      logo: images/学习资源/在线英语听力室.jpg
+      url: http://www.tingroom.com?from=dy.199908.top
+      description: 免费在线英语听力学习网站
+    - title: 听力课堂
+      logo: images/学习资源/听力课堂.png
+      url: https://www.tingclass.net?from=dy.199908.top
+      description: 在线英语学习网站
+    - title: 七彩英语
+      logo: images/学习资源/七彩英语.png
+      url: http://www.qcenglish.com?from=dy.199908.top
+      description: 提供各类英文原版电子书下载
+    - title: 开言英语
+      logo: images/学习资源/开言英语.png
+      url: https://www.openlanguage.com?from=dy.199908.top
+      description: 致力于打造最实用的英语课程
+    - title: 一点英语
+      logo: images/学习资源/一点英语.png
+      url: http://www.wumii.com/web/website/pc?from=dy.199908.top
+      description: 一个专为大学生和白领设计的英语学习应用，英语学习平台
+    - title: 英语家园
+      logo: images/学习资源/英语家园.jpg
+      url: https://www.enfamily.cn?from=dy.199908.top
+      description: 英语学习爱好者的美好家园
+    - title: 魔方英语
+      logo: images/学习资源/魔方英语.jpg
+      url: http://www.mofunenglish.com?from=dy.199908.top
+      description: 英语学习软件,看电影学英语
+    - title: 慢速英语网
+      logo: images/学习资源/慢速英语网.jpg
+      url: https://www.21voa.com?from=dy.199908.top
+      description: 美式英语学习网站，VOA慢速英语听力下
+    - title: 田间小站
+      logo: images/学习资源/田间小站.png
+      url: https://www.tjxz.cc?from=dy.199908.top
+      description: 高级英语学习网站
+    - title: 贯通日本
+      logo: images/学习资源/贯通日本.jpg
+      url: http://www.kantsuu.com?from=dy.199908.top
+      description: 了解日本 融会贯通
+    - title: 和风日语网
+      logo: images/学习资源/和风日语网.jpg
+      url: http://www.jpwind.com?from=dy.199908.top
+      description: 日语培训班，日语培训机构，日语入门学习
+    - title: 法语助手
+      logo: images/学习资源/法语助手.png
+      url: https://www.frdic.com?from=dy.199908.top
+      description: 权威的法语在线词典，提供法语翻译、法语动词变位、法语输入法、法语学校课程学习、法语题库字典、法语背单词、法语入门听力发音等
+    - title: 德语助手
+      logo: images/学习资源/德语助手.png
+      url: https://www.godic.net?from=dy.199908.top
+      description: 权威的德语在线词典，提供德语翻译、德语动词变位、德语输入法、德语学校课程学习、德语题库字典、德语背单词、德语入门听力发音等。
+    - title: 西语助手
+      logo: images/学习资源/西语助手.png
+      url: https://www.esdict.cn?from=dy.199908.top
+      description: 权威的西语在线词典，提供西语翻译、西语动词变位、西语输入法、西语学校课程学习、西语题库字典、西语背单词、西语入门听力发音等。
+    - title: 简明日语
+      logo: images/学习资源/简明日语.png
+      url: https://www.nhk.or.jp/lesson/zh?from=dy.199908.top
+      description: 由日本广播协会（NHK）推出的免费日语学习平台，旨在为不同水平的学习者提供高质量的日语学习资源
+    - title: LingoHut
+      logo: images/学习资源/LingoHut.jpg
+      url: https://www.lingohut.com?from=dy.199908.top
+      description: 免费在线外语课程
+    - title: Speaky
+      logo: images/学习资源/Speaky.png
+      url: https://www.speaky.com?from=dy.199908.top
+      description: Speaky 是一款全球领先的语言交换平台，旨在通过连接世界各地的语言学习者和母语者，促进语言学习和文化交流。
   - name: 设计学习
+  - name: 音乐学习
+  - name: IT技术类
+  - name: 人文历史
+    links:
+    - title: 故宫博物院
+      logo: images/学习资源/故宫博物院.png
+      url: https://www.dpm.org.cn?from=dy.199908.top
+      description: 官方信息发布平台
+    - title: 全历史
+      logo: images/学习资源/全历史.png
+      url: https://www.allhistory.com?from=dy.199908.top
+      description: 一个以AI知识图谱为核心引擎的历史知识学习平台
+    - title: 故宫数字文物库
+      logo: images/学习资源/故宫数字文物库.ico
+      url: https://digicol.dpm.org.cn?from=dy.199908.top
+      description: 精心打造的数字化文物展示平台
+    - title: 数字敦煌
+      logo: images/学习资源/数字敦煌.png
+      url: https://www.e-dunhuang.com?from=dy.199908.top
+      description: 推出的数字化展示平台
+    - title: 国家图书馆
+      logo: images/学习资源/国家图书馆.svg
+      url: http://open.nlc.cn?from=dy.199908.top
+      description: 推出的在线公开课平台
+    - title: 中国数字科技馆
+      logo: images/学习资源/中国数字科技馆.png
+      url: https://www.cdstm.cn?from=dy.199908.top
+      description: 一个国家级的科技基础条件平台,通过数字化手段展示和传播科技知识
+    - title: 中华珍宝馆
+      logo: images/学习资源/中华珍宝馆.png
+      url: http://www.ltfc.net?from=dy.199908.top
+      description: 中华珍宝馆,线上艺术博物馆,珍品书画与文物的数字宝库
+    - title: 公版影像典藏计划
+      logo: images/学习资源/公版影像典藏计划.png
+      url: https://public.163.com?from=dy.199908.top
+      description: 网易公版影像典藏计划,收录珍贵影像资料,传承历史文化
+    - title: 时光图书馆
+      logo: images/学习资源/时光图书馆.png
+      url: https://atimebook.com?from=dy.199908.top
+      description: 专注于提供老照片,老期刊,老课本等历史文献资源的在线平台
+    - title: 中国纪录片网
+      logo: images/学习资源/中国纪录片网.png
+      url: http://www.docuchina.cn?from=dy.199908.top
+      description: 平台汇聚了众多优秀的纪录片作品,涵盖了历史,文化,自然,科技等多个领域,为观众提供了丰富的纪录片资源
+    - title: 地图书
+      logo: images/学习资源/地图书.png
+      url: https://www.ditushu.com?from=dy.199908.top
+      description: 人文结构化知识数据库平台,通过地理信息系统GIS技术.将历史,文化,地理等多领域知识进行结构化整理和可视化呈现
+    - title: 国史网
+      logo: images/学习资源/国史网.svg
+      url: http://www.hprc.org.cn?from=dy.199908.top
+      description: 由当代中国研究所主办的官方网站,专注于研究和展示中华人民共和国的历史与发展
+    - title: 古宫历史网
+      logo: images/学习资源/古宫历史网.jpg
+      url: https://www.gugong.net?from=dy.199908.top
+      description: 专注于历史内容的综合性网站,涵盖了中国历史,世界历史,历史故事,历史人物,历史朝代,历史传说,野史以及老照片等多个领域
+    - title: 历史剧网
+      logo: images/学习资源/历史剧网.png
+      url: https://www.lishiju.net?from=dy.199908.top
+      description: 一个专注于历史剧及相关历史内容的综合性网站,通过影视作品帮助用户更好地了解历史事件和人物
+    - title: 超星读书
+      logo: images/学习资源/超星读书.svg
+      url: http://book.chaoxing.com?from=dy.199908.top
+      description: 超星网提供的一个在线电子书阅读平台
+    - title: 中国哲学
+      logo: images/学习资源/中国哲学.png
+      url: https://ctext.org/zhs?from=dy.199908.top
+      description: 一个提供中文文本资源的网站
+    - title: 今日头条
+      logo: images/学习资源/今日头条.png
+      url: https://www.toutiao.com?from=dy.199908.top
+      description: 一个领先的新闻聚合和内容推荐平台
+    - title: 思方網
+      logo: images/学习资源/思方網.png
+      url: https://philosophy.hku.hk/think/chi?from=dy.199908.top
+      description: 一个致力于提升思考和自学能力的平台
+    - title: 中国国家地理
+      logo: images/学习资源/中国国家地理.png
+      url: http://www.dili360.com?from=dy.199908.top
+      description: 一个专注于地理知识和自然风光的网站
+    - title: 历史上的今天
+      logo: images/学习资源/历史上的今天.png
+      url: https://baike.baidu.com/calendar?from=dy.199908.top
+      description: 一个记录历史事件的平台
+    - title: 爱思想
+      logo: images/学习资源/爱思想.svg
+      url: https://www.aisixiang.com?from=dy.199908.top
+      description: 一个致力于促进思想交流和文化提升的平台
+    - title: 西窗烛
+      logo: images/学习资源/西窗烛.ico
+      url: http://m.xichuangzhu.com/library?from=dy.199908.top
+      description: 一个专注于古诗词的数字内容平台
 
 - taxonomy: 生活服务
   icon: fa-chart-bar

@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover"><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><link rel="shortcut icon" href=./static/logo.png><title></title><style type=text/css>body {
+      font-size: 16px;
+    }
+
+    * {
+      font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    }</style><script>var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4cb018ca2fff3b106c6997ee0d051a8b";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();</script><script src=https://turing.captcha.qcloud.com/TCaptcha.js></script><link href=https://bigfile.xczim.com/static/css/app.054eaef41fa06d9f96d214949dc99434.css rel=stylesheet></head><body><div id=app-box></div><script type=text/javascript src=https://bigfile.xczim.com/static/js/manifest.648cc2d7c1caca65184a.js></script><script type=text/javascript src=https://bigfile.xczim.com/static/js/vendor.ea39fbae26c285e5897a.js></script><script type=text/javascript src=https://bigfile.xczim.com/static/js/app.4fd040df0c51acdeb11b.js></script><script type=text/javascript src=https://bigfile.xczim.com/static/js/polifill.73b8d3356d938a5c102e.js></script></body></html>
