@@ -118,6 +118,22 @@
       logo: images/快捷导航/tmall.png
       url: https://www.tmall.hk?from=dy.199908.top
       description: 天猫国际跨境电商平台
+    - title: 生意参谋
+      logo: images/数据研究/生意参谋.png
+      url: https://sycm.taobao.com?from=dy.199908.top
+      description: 阿里巴巴旗下的电商数据研究工具，为淘宝和天猫卖家提供销售数据研究
+    - title: 直通车
+      logo: images/广告投放/直通车.png
+      url: https://subway.simba.taobao.com?from=dy.199908.top
+      description: 淘宝关键词推广工具
+    - title: 万相台
+      logo: images/广告投放/直通车.png
+      url: https://adbrain.taobao.com?from=dy.199908.top
+      description: 淘宝全域广告投放平台
+    - title: 引力魔方
+      logo: images/广告投放/直通车.png
+      url: https://tuijian.taobao.com?from=dy.199908.top
+      description: 淘宝信息流推广工具
   - name: 抖音
     links:
     - title: 抖音小店
@@ -172,6 +188,18 @@
       logo: images/快捷导航/抖音.jpg
       url: https://doujia.douyin.com?from=dy.199908.top
       description: 抖音内容加热和营销推广产品
+    - title: 巨量算数
+      logo: images/数据研究/巨量算数.png
+      url: https://trendinsight.oceanengine.com?from=dy.199908.top
+      description: 解析内容风向，解码营销未来
+    - title: 抖查查
+      logo: images/数据研究/抖查查.png
+      url: https://www.douchacha.com?from=dy.199908.top
+      description: 短视频直播带货电商大数据分析平台
+    - title: 新抖
+      logo: images/数据研究/新抖.ico
+      url: https://xd.newrank.cn?from=dy.199908.top
+      description: 新榜公司推出的一款专注于抖音短视频和直播电商的数据分析工具
   - name: 京东
     links:
     - title: 京东入驻
@@ -206,6 +234,14 @@
       logo: images/快捷导航/京东.png
       url: https://www.jd.hk?from=dy.199908.top
       description: 京东国际跨境电商平台
+    - title: 京准通
+      logo: images/广告投放/京东.png
+      url: https://jzt.jd.com/gw/index?from=dy.199908.top
+      description: 京东关键词推广工具
+    - title: 京东商智
+      logo: images/广告投放/京东商智.png
+      url: https://sz.jd.com?from=dy.199908.top
+      description: 京东商业智能分析平台
   - name: 快手
     links:
     - title: 快手小店
@@ -248,6 +284,14 @@
       logo: images/快捷导航/kwaiying.png
       url: https://h5.kwaiying.com?from=dy.199908.top
       description: 快手官方视频剪辑工具
+    - title: 磁力引擎
+      logo: images/广告投放/磁力引擎.png
+      url: https://e.kuaishou.com?from=dy.199908.top
+      description: 快手广告投放平台
+    - title: 磁力智投
+      logo: images/广告投放/磁力智投.png
+      url: https://ad.e.kuaishou.com?from=dy.199908.top
+      description: 快手智能广告投放平台
   - name: 小红书
     links:
     - title: 小红书店铺
@@ -282,6 +326,14 @@
       logo: images/广告投放/聚光.jpg
       url: https://ad.xiaohongshu.com?from=dy.199908.top
       description: 小红书广告投放平台
+    - title: 千瓜数据
+      logo: images/数据研究/千瓜数据.png
+      url: https://www.qian-gua.com?from=dy.199908.top
+      description: 千瓜数据是一款专注于小红书平台的数据分析工具，旨在为品牌和营销人员提供全面、精准的市场洞察和数据支持
+    - title: 新红
+      logo: images/数据研究/新红.png
+      url: https://xh.newrank.cn?from=dy.199908.top
+      description: 新榜有数旗下小红书数据工具
   - name: 视频号
     links:
     - title: 视频号入驻
@@ -332,6 +384,14 @@
       logo: images/快捷导航/视频号.jpg
       url: https://channels.weixin.qq.com/promote?from=dy.199908.top
       description: 视频号加热平台
+    - title: 微信广告
+      logo: images/广告投放/广告门.png
+      url: https://ad.weixin.qq.com?from=dy.199908.top
+      description: 微信广告投放平台
+    - title: 诸葛智投
+      logo: images/广告投放/诸葛智投.png
+      url: https://zgzt.v-ma.com?from=dy.199908.top
+      description: 视频号投放管理工具
   - name: 拼多多
     links:
     - title: 拼多多入驻
@@ -366,6 +426,14 @@
       logo: images/快捷导航/拼多多.jpg
       url: https://shuyuan.pinduoduo.com?from=dy.199908.top
       description: 拼多多营销推广学习平台
+    - title: 多多搜索推广
+      logo: images/广告投放/拼多多.jpg
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多搜索推广工具
+    - title: 多多场景推广
+      logo: images/广告投放/拼多多.jpg
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多场景推广工具
   - name: 1688
     links:
     - title: 1688
@@ -392,6 +460,14 @@
       logo: images/快捷导航/阿里巴巴.png
       url: https://isupplier.1688.com?from=dy.199908.top
       description: 1688商家实力认证平台
+    - title: 义乌购
+      logo: images/电商货源/义乌购.png
+      url: https://www.yiwugo.com?from=dy.199908.top
+      description: 义乌小商品批发市场官方网站
+    - title: 慧聪网
+      logo: images/电商货源/慧聪网.png
+      url: https://www.hc360.com?from=dy.199908.top
+      description: 中国领先的B2B电子商务服务提供商
   - name: 跨境
     links:
     - title: 亚马逊Amazon
@@ -430,6 +506,14 @@
       logo: images/快捷导航/拼多多.jpg
       url: https://seller.kuajingmaihuo.com?from=dy.199908.top
       description: 拼多多旗下的跨境电商平台
+    - title: 中国制造网
+      logo: images/电商货源/驼铃标志1.png
+      url: https://cn.made-in-china.com?from=dy.199908.top
+      description: 中国制造网-内贸站
+    - title: 世界工厂
+      logo: images/电商货源/驼铃标志1.png
+      url: https://www.made-in-china.com?from=dy.199908.top
+      description: 中国制造网-工厂货源平台
   - name: 其他
     links:
     - title: 唯品会
