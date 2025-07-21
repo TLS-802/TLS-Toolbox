@@ -297,7 +297,7 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 .search-list{height:30px;overflow-y:hidden;overflow-x:scroll;white-space:nowrap}
 }
 /* --- 手机移动端 紧凑显示 --- */
-@media screen and (max-width:767px){.xe-card{position:relative;height:70px;margin:10px 0 0 0;font-size:12px;}.box2{height:70px}.img-circle{padding:0 0;}.xe-widget.xe-conversations{margin:0 5px}.xe-comment p{font-size:10px}}
+@media screen and (max-width:767px){.xe-card{position:relative;height:60px;margin:10px 0 0 0;font-size:12px;}.box2{height:60px}.img-circle{padding:0 0;}.xe-widget.xe-conversations{margin:0 5px}.xe-comment p{font-size:10px}}
 /* --- 卡片显示列数 自适应 --- */
 /* 手机横屏 */ 
 @media (min-width: 520px) and (max-width: 768px) {.col-xs-6{width:33.333%}}
