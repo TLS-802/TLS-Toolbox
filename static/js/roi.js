@@ -22,7 +22,7 @@ const 电商计算器App = (function() {
     // --- Configuration ---
     // Holds various constants and settings for the application.
     const CONFIG = {
-        // Multipliers for calculating bid suggestions for different ad platforms
+        // 出价建议倍数配置
         BID_MULTIPLIERS: {
             SXT_CONSERVATIVE: 0.8, SXT_STABLE: 1.0, SXT_AGGRESSIVE: 1.2, SXT_AGGRESSIVE_MAX_FACTOR: 1.5,
             QC_CONSERVATIVE: 0.85, QC_STABLE: 1.05, QC_AGGRESSIVE: 1.25, QC_AGGRESSIVE_MAX_FACTOR: 1.55,
@@ -31,112 +31,18 @@ const 电商计算器App = (function() {
             PURE_COMMISSION_11: 1.1, PURE_COMMISSION_12: 1.2, PURE_COMMISSION_13: 1.3,
             PURE_COMMISSION_14: 1.4, PURE_COMMISSION_15: 1.5,
         },
-        // CSS classes for active platform buttons
         ACTIVE_BUTTON_BASE_CLASSES: ['text-white', 'border-transparent'],
         ACTIVE_BUTTON_STYLE_MAP: {
             merchant: 'is-active-merchant',
             influencer: 'is-active-influencer',
             store_profit: 'is-active-store_profit',
         },
-        // 版本按钮颜色
         VERSION_COLORS: {
-            merchant: '#2c60ff',  // 蓝色 - 抖店
-            influencer: '#ffcc00', // 黄色 - 淘宝
-            store_profit: '#00bb29', // 绿色 - 快手
+            merchant: '#2c60ff',
+            influencer: '#ffcc00',
+            store_profit: '#00bb29',
         },
-        // CSS classes for inactive platform buttons
-        INACTIVE_BUTTON_CLASSES: ['bg-white', 'text-gray-700', 'hover:bg-gray-100', 'focus:ring-gray-400', 'border-gray-300'],
-        // Configuration for input fields for each calculator version
-        INPUT_CONFIGS: {
-            merchant: [
-                { id: 'merchant-price', name: '商品售价', rules: { required: true, numeric: true, min: 0 } },
-                { id: 'merchant-product-cost', name: '单件采购成本', rules: { required: true, numeric: true, min: 0 }, type: 'cost' },
-                { id: 'merchant-shipping-costs', name: '单件快递费(含运费险)', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'merchant-refund-rate', name: '综合退货/退款率', rules: { required: true, numeric: true, min: 0, max: 100 } },
-                { id: 'merchant-promo-commission-cost', name: '团队提成(含主播佣金率)', rules: { numeric: true, min: 0, max: 100 }, type: 'rate_optional' },
-                { id: 'merchant-platform-fee', name: '平台技术服务费率', rules: { required: true, numeric: true, min: 0, max: 100 } },
-                { id: 'merchant-other-variable-costs', name: '单件其他成本', rules: { numeric: true, min: 0 }, type: 'cost' },
-            ],
-            influencer: [
-                { id: 'influencer-price', name: '商品售价', rules: { required: true, numeric: true, min: 0 } },
-                { id: 'influencer-commission-rate', name: '约定佣金率', rules: { required: true, numeric: true, min: 0, max: 100 } },
-                { id: 'influencer-product-cost', name: '单件采购成本', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'influencer-refund-rate', name: '综合退货/退款率', rules: { required: true, numeric: true, min: 0, max: 100 } },
-                { id: 'influencer-shipping-costs', name: '单件快递费(含运费险)', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'influencer-promo-commission-cost', name: '团队提成', rules: { numeric: true, min: 0, max: 100 }, type: 'rate_optional' },
-                { id: 'influencer-platform-fee', name: '平台技术服务费率', rules: { required: true, numeric: true, min: 0, max: 100 } },
-                { id: 'influencer-other-variable-costs', name: '单件其他成本', rules: { numeric: true, min: 0 }, type: 'cost' },
-            ],
-            store_profit: [
-                { id: 'store-revenue', name: '总营业额(扣除退款)', rules: { required: true, numeric: true, min: 0 } },
-                { id: 'store-avg-salary', name: '员工总薪酬', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'store-product-dispatch-cost', name: '已售商品总采购成本', rules: { required: true, numeric: true, min: 0 }, type: 'cost' },
-                { id: 'store-platform-commission-rate', name: '技术服务费率(基于总营业额)', rules: { numeric: true, min: 0, max: 100 }, type: 'rate_optional' },
-                { id: 'store-shipping-total-cost', name: '总快递费(含运费险)', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'store-marketing-total-cost', name: '总营销费用(投流+物料)', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'store-operations-total-cost', name: '总运营费用(房租水电)', rules: { numeric: true, min: 0 }, type: 'cost' },
-                { id: 'store-other-total-costs', name: '其他总费用', rules: { numeric: true, min: 0 }, type: 'cost' }
-            ]
-        },
-        // Mappings for displaying results in the HTML
-        RESULT_MAPPINGS: {
-            merchant: [
-                { id: 'merchant-estimated-gross-profit', key: 'estimatedGrossProfit', suffix: '元' },
-                { id: 'merchant-gross-profit-margin', key: 'grossProfitMargin', suffix: '%' },
-                { id: 'merchant-settlement-net-profit', key: 'settlementNetProfit', suffix: '元' },
-                { id: 'merchant-net-profit-margin', key: 'netProfitMargin', suffix: '%' },
-                { id: 'merchant-breakeven-roi-gross', key: 'breakevenROIGross' },
-                { id: 'merchant-breakeven-roi-net', key: 'breakevenROINet' },
-                { id: 'merchant-sxt-conservative', keys: ['sxtConservativeMin', 'sxtConservativeMax'], type: 'range', suffix: '元' },
-                { id: 'merchant-sxt-aggressive', keys: ['sxtAggressiveMin', 'sxtAggressiveMax'], type: 'range', suffix: '元' },
-                { id: 'merchant-qc-conservative', keys: ['qcConservativeMin', 'qcConservativeMax'], type: 'range', suffix: '元' },
-                { id: 'merchant-qc-aggressive', keys: ['qcAggressiveMin', 'qcAggressiveMax'], type: 'range', suffix: '元' },
-                { id: 'merchant-qy-startup-roi', keys: ['qyStartupROIMin', 'qyStartupROIMax'], type: 'range' },
-                { id: 'merchant-qy-stable-roi', keys: ['qyStableROIMin', 'qyStableROIMax'], type: 'range' },
-                { id: 'merchant-pure-08', key: 'pure08', suffix: '元' }, { id: 'merchant-pure-09', key: 'pure09', suffix: '元' },
-                { id: 'merchant-pure-10', key: 'pure10', suffix: '元' }, { id: 'merchant-pure-11', key: 'pure11', suffix: '元' },
-                { id: 'merchant-pure-12', key: 'pure12', suffix: '元' }, { id: 'merchant-pure-13', key: 'pure13', suffix: '元' },
-                { id: 'merchant-pure-14', key: 'pure14', suffix: '元' }, { id: 'merchant-pure-15', key: 'pure15', suffix: '元' },
-            ],
-            influencer: [
-                { id: 'influencer-gross-commission', key: 'grossCommission', suffix: '元' },
-                { id: 'influencer-gross-commission-rate', key: 'grossCommissionRate', suffix: '%' },
-                { id: 'influencer-net-settlement-commission', key: 'netSettlementCommission', suffix: '元' },
-                { id: 'influencer-net-commission-rate', key: 'netCommissionRate', suffix: '%' },
-                { id: 'influencer-breakeven-roi-gross', key: 'breakevenROIGross' },
-                { id: 'influencer-breakeven-roi-net', key: 'breakevenROINet' },
-                { id: 'influencer-sxt-conservative', keys: ['sxtConservativeMin', 'sxtConservativeMax'], type: 'range', suffix: '元' },
-                { id: 'influencer-sxt-aggressive', keys: ['sxtAggressiveMin', 'sxtAggressiveMax'], type: 'range', suffix: '元' },
-                { id: 'influencer-qc-conservative', keys: ['qcConservativeMin', 'qcConservativeMax'], type: 'range', suffix: '元' },
-                { id: 'influencer-qc-aggressive', keys: ['qcAggressiveMin', 'qcAggressiveMax'], type: 'range', suffix: '元' },
-                { id: 'influencer-qy-startup-roi', keys: ['qyStartupROIMin', 'qyStartupROIMax'], type: 'range' },
-                { id: 'influencer-qy-stable-roi', keys: ['qyStableROIMin', 'qyStableROIMax'], type: 'range' },
-                { id: 'influencer-pure-08', key: 'pure08', suffix: '元' }, { id: 'influencer-pure-09', key: 'pure09', suffix: '元' },
-                { id: 'influencer-pure-10', key: 'pure10', suffix: '元' }, { id: 'influencer-pure-11', key: 'pure11', suffix: '元' },
-                { id: 'influencer-pure-12', key: 'pure12', suffix: '元' }, { id: 'influencer-pure-13', key: 'pure13', suffix: '元' },
-                { id: 'influencer-pure-14', key: 'pure14', suffix: '元' }, { id: 'influencer-pure-15', key: 'pure15', suffix: '元' },
-            ],
-            store_profit: [
-                { id: 'sp-total-revenue', key: 'totalRevenue' },
-                { id: 'sp-total-all-costs', key: 'totalAllCosts' },
-                { id: 'sp-net-profit', key: 'netProfit' },
-                { id: 'sp-overall-profit-margin', key: 'overallProfitMargin', suffix: '%' },
-                { id: 'sp-total-labor-cost', key: 'totalLaborCost' },
-                { id: 'sp-labor-cost-percentage', key: 'laborCostPercentage', suffix: '%' },
-                { id: 'sp-total-product-cost', key: 'totalProductCost' },
-                { id: 'sp-product-cost-percentage', key: 'productCostPercentage', suffix: '%' },
-                { id: 'sp-total-logistics-cost', key: 'totalLogisticsCost' },
-                { id: 'sp-logistics-cost-percentage', key: 'logisticsCostPercentage', suffix: '%' },
-                { id: 'sp-total-marketing-cost', key: 'totalMarketingCost' },
-                { id: 'sp-marketing-cost-percentage', key: 'marketingCostPercentage', suffix: '%' },
-                { id: 'sp-total-platform-fee', key: 'totalPlatformFee' },
-                { id: 'sp-platform-fee-percentage', key: 'platformFeePercentage', suffix: '%' },
-                { id: 'sp-total-operations-cost', key: 'totalOperationsCost' },
-                { id: 'sp-operations-cost-percentage', key: 'operationsCostPercentage', suffix: '%' },
-                { id: 'sp-total-other-costs', key: 'totalOtherCosts' },
-                { id: 'sp-other-costs-percentage', key: 'otherCostsPercentage', suffix: '%' },
-            ]
-        }
+        INACTIVE_BUTTON_CLASSES: ['bg-gray-100', 'text-gray-700', 'border-gray-300']
     };
 
     // --- Helper Functions ---
