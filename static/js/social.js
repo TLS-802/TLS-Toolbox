@@ -6,25 +6,25 @@ document.addEventListener('DOMContentLoaded', function() {
             platform: 'GitHub',
             url: 'https://github.com/TLS-802',
             ariaLabel: '我们的GitHub',
-            logo: './images/联系我们/github.jpg'
+            logo: 'images/联系我们/github.jpg'
         },
         {
             platform: '抖音',
             url: 'https://v.douyin.com/ICMNRjljVK8/',
             ariaLabel: '关注我的抖音',
-            logo: './images/联系我们/douyin.jpg'
+            logo: 'images/联系我们/douyin.jpg'
         },
         {
             platform: '微信',
             url: 'https://url.199908.top/VX2',
             ariaLabel: '关注我的微信',
-            logo: './images/联系我们/Wechat.jpg'
+            logo: 'images/联系我们/Wechat.jpg'
         },
         {
             platform: '飞书',
             url: 'https://www.feishu.cn/invitation/page/add_contact/?token=154u7d8e-d426-4b6a-b4ec-75f7ff732522&amp;unique_id=Lwo89tNN9CZrOi0uAwnjEw==',
             ariaLabel: '关注我的飞书',
-            logo: './images/联系我们/feishu.png'
+            logo: 'images/联系我们/feishu.png'
         }
     ];
 
