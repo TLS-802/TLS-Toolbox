@@ -2,20 +2,84 @@ body{background-color:#f9f9f9}a{color:#282828;outline:0 !important}p{color:#8788
 a:hover,a:focus{color:#232323;text-decoration:none}
 .box2{height:86px;border-radius:4px;padding:0px 30px 0px 30px;background-color:#fff;border-radius:4px;border:1px solid #e4ecf3;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
 .box2:hover{transform:translateY(-6px);-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-webkit-box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-moz-box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
-.ps-container .ps-scrollbar-x-rail{position:absolute;bottom:3px;height:5px;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0;-webkit-transition:background-color .2s linear,opacity .2s linear;-moz-transition:background-color .2s linear,opacity .2s linear;-o-transition:background-color .2s linear,opacity .2s linear;transition:background-color .2s linear,opacity .2s linear}
-.ps-container:hover .ps-scrollbar-x-rail,.ps-container.hover .ps-scrollbar-x-rail{zoom:1;filter:alpha(opacity=60);-webkit-opacity:.6;-moz-opacity:.6;opacity:.6}
-.ps-container .ps-scrollbar-x-rail:hover,.ps-container .ps-scrollbar-x-rail.hover{background-color:rgba(255,255,255,.5)}
-.ps-container .ps-scrollbar-x-rail.in-scrolling{background-color:rgba(255,255,255,.9)}
-.ps-container .ps-scrollbar-y-rail{position:absolute;right:2px;width:5px;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0;-webkit-transition:background-color .2s linear,opacity .2s linear;-moz-transition:background-color .2s linear,opacity .2s linear;-o-transition:background-color .2s linear,opacity .2s linear;transition:background-color .2s linear,opacity .2s linear}
-.ps-container:hover .ps-scrollbar-y-rail,.ps-container.hover .ps-scrollbar-y-rail{zoom:1;filter:alpha(opacity=60);-webkit-opacity:.6;-moz-opacity:.6;opacity:.6}
-.ps-container .ps-scrollbar-y-rail:hover,.ps-container .ps-scrollbar-y-rail.hover{background-color:rgba(255,255,255,.5)}
-.ps-container .ps-scrollbar-y-rail.in-scrolling{background-color:#eee;zoom:1;filter:alpha(opacity=90);-webkit-opacity:.9;-moz-opacity:.9;opacity:.9}
-.ps-container .ps-scrollbar-x{position:absolute;bottom:0;height:5px;background-color:#aaa;-o-transition:background-color .2s linear;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;transition:background-color .2s linear}
-.ps-container.ie6 .ps-scrollbar-x{font-size:0}.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x{background-color:#999}
-.ps-container .ps-scrollbar-y{position:absolute;right:0;width:5px;background-color:#aaa;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear}
-.ps-container.ie6 .ps-scrollbar-y{font-size:0}.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y,.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y{background-color:#fafafa}
-.ps-container.ie .ps-scrollbar-x,.ps-container.ie .ps-scrollbar-y{visibility:hidden}
-.ps-container.ie:hover .ps-scrollbar-x,.ps-container.ie:hover .ps-scrollbar-y,.ps-container.ie.hover .ps-scrollbar-x,.ps-container.ie.hover .ps-scrollbar-y{visibility:visible}
+/* 移除所有Perfect Scrollbar相关样式，替换为原生滚动条样式 */
+
+/* 侧边栏滚动条样式 */
+.sidebar-menu .sidebar-menu-inner {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 通用滚动条样式 */
+.ps-scrollbar {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ps-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ps-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.ps-scrollbar::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* 可滚动区域样式 */
+div.scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div.scrollable::-webkit-scrollbar {
+    width: 6px;
+}
+
+div.scrollable::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+div.scrollable::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* 聊天区域滚动条 */
+#chat .chat-inner {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#chat .chat-inner::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat .chat-inner::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+#chat .chat-inner::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 .xe-comment-entry img{float:left;display:block;margin-right:10px}
 .xe-comment {transform: translateY(-50%);position: absolute;margin-left: 50px;top: 50%;}
 .xe-comment p{margin-bottom:0px;margin-right:15px;font-size:12px}
