@@ -10,23 +10,9 @@ const DEFAULT_METRIC_OPTION_TEXT = '-- 请选择指标 --';
 const config = {
     douyin: {
         name: '抖店',
-        color: '#2c60ff',
+        color: '#2c60ff', // 蓝色
         metrics: {
-            pes: { 
-                name: '商品综合评分', 
-                type: 'positive_average', 
-                baseUnit: '有评分订单数', 
-                unit: '', 
-                idealValue: 5, 
-                inputs: [
-                    {id: 'current', label: '当前商品综合评分:', placeholder: '例如: 4.6500', type: 'number', step: '0.0001'}, 
-                    {id: 'base', label: '当前有评分订单数:', placeholder: '例如: 800', type: 'number'}, 
-                    {id: 'target', label: '目标商品综合评分:', placeholder: '例如: 4.7500', type: 'number', step: '0.0001'}
-                ], 
-                detailedAssumption: "假设补单均为5星好评", 
-                detailedUnit: "个5星好评的订单", 
-                smallText: "考核基数：近30天物流签收订单中有商品评分的订单数。假设补单为 5 星好评。" 
-            },
+            pes: { name: '商品综合评分', type: 'positive_average', baseUnit: '有评分订单数', unit: '', idealValue: 5, inputs: [{id: 'current', label: '当前商品综合评分:', placeholder: '例如: 4.6500', type: 'number', step: '0.0001'}, {id: 'base', label: '当前有评分订单数:', placeholder: '例如: 800', type: 'number'}, {id: 'target', label: '目标商品综合评分:', placeholder: '例如: 4.7500', type: 'number', step: '0.0001'}], detailedAssumption: "假设补单均为5星好评", detailedUnit: "个5星好评的订单", smallText: "考核基数：近30天物流签收订单中有商品评分的订单数。假设补单为 5 星好评。" },
             qrr: { name: '商品品质退款率', type: 'negative_rate', baseUnit: '物流签收订单量', unit: '%', inputs: [{id: 'current', label: '当前商品品质退款率:', placeholder: '例如: 1.5000', type: 'number', step: '0.0001', unitText: '%'}, {id: 'base', label: '当前物流签收订单量:', placeholder: '例如: 1000', type: 'number'}, {id: 'target', label: '目标商品品质退款率:', placeholder: '例如: 1.0000', type: 'number', step: '0.0001', unitText: '%'}], smallText: "考核基数：近30天物流签收订单。假设补单不产生品质退款。" },
             pta: { name: '揽收时效达成率', type: 'positive_rate', baseUnit: '应揽收订单总数', unit: '%', inputs: [{id: 'current', label: '当前揽收时效达成率:', placeholder: '例如: 95.0000', type: 'number', step: '0.0001', unitText: '%'}, {id: 'base', label: '当前应揽收订单总数:', placeholder: '例如: 500', type: 'number'}, {id: 'target', label: '目标揽收时效达成率:', placeholder: '例如: 98.0000', type: 'number', step: '0.0001', unitText: '%'}], smallText: "考核基数：近30天应揽收订单总数。假设补单均为按时揽收。" },
             dta: { name: '运送配送时效达成率', type: 'positive_rate', baseUnit: '物流应签收运单总数', unit: '%', inputs: [{id: 'current', label: '当前配送时效达成率:', placeholder: '例如: 90.0000', type: 'number', step: '0.0001', unitText: '%'}, {id: 'base', label: '当前物流应签收运单:', placeholder: '例如: 1200', type: 'number'}, {id: 'target', label: '目标配送时效达成率:', placeholder: '例如: 95.0000', type: 'number', step: '0.0001', unitText: '%'}], smallText: "考核基数：近30天物流应签收运单。假设补单均为按时送达。" },
@@ -37,7 +23,7 @@ const config = {
     },
     taobao: {
         name: '淘宝',
-        color: '#ffcc00',
+        color: '#ffcc00', // 黄色
         metrics: {
             tb_first_refund: { name: '首次品退率', type: 'negative_rate', baseUnit: '支付且已签收订单数', unit: '%', inputs: [{id: 'current', label: '当前首次品退率:', placeholder: '例如：0.5000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前支付且已签收订单:', placeholder: '例如：1000', type: 'number', min: "0"}, {id: 'target', label: '目标首次品退率:', placeholder: '例如：0.2000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}], smallText: "考核基数：近30天支付且已签收订单数。假设补单不产生首次品退。" },
             tb_bad_review: { name: '商品差评率', type: 'negative_rate', baseUnit: '确认收货订单数', unit: '%', inputs: [{id: 'current', label: '当前商品差评率:', placeholder: '例如：0.1000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前确认收货订单数:', placeholder: '例如：500', type: 'number', min: "0"}, {id: 'target', label: '目标商品差评率:', placeholder: '例如：0.0500', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}], detailedAssumption: "假设补单均为无差评订单", detailedUnit: "个无差评订单", smallText: "考核基数：近30天确认收货订单数。假设补单不产生商品差评。" },
@@ -53,7 +39,7 @@ const config = {
     },
     kuaishou: {
         name: '快手',
-        color: '#00bb29',
+        color: '#00bb29', // 绿色
         metrics: {
             ks_quality_refund: { name: '商品品质退款率', type: 'negative_rate', baseUnit: '支付订单数', unit: '%', inputs: [{id: 'current', label: '当前退款率:', placeholder: '例如：3.5', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前支付订单数:', placeholder: '例如：4500', type: 'number', min: "0"}, {id: 'target', label: '目标退款率:', placeholder: '例如：2.0', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}], smallText: "考核基数：近30天支付订单数。假设补单不产生品质退款。" },
             ks_quality_bad_review: { name: '商品质量差评率', type: 'negative_rate', baseUnit: '支付订单数', unit: '%', inputs: [{id: 'current', label: '当前差评率:', placeholder: '例如：0.0006', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前支付订单数:', placeholder: '例如：12020421', type: 'number', min: "0"}, {id: 'target', label: '目标差评率:', placeholder: '例如：0.0004', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}], detailedAssumption: "假设补单均为无差评订单", detailedUnit: "个无差评订单", smallText: "考核基数：近30天支付订单数。假设补单不产生质量差评。" },
@@ -68,7 +54,7 @@ const config = {
     },
     shipinhao: {
         name: '视频号',
-        color: '#00b7c3',
+        color: '#00b7c3', // 青色
         metrics: {
             sph_quality_refund: { name: '品质退款率', type: 'negative_rate', baseUnit: '已发货订单量', unit: '%', inputs: [{id: 'current', label: '当前退款率:', placeholder: '例如：0.71', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前已发货订单量:', placeholder: '例如：141', type: 'number', min: "0"}, {id: 'target', label: '目标退款率:', placeholder: '例如：0.29', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}], smallText: "考核基数：近30天已发货订单量。假设补单不产生品质退款。" },
             sph_good_comment: { name: '商品好评率', type: 'positive_rate', baseUnit: '有效评价量', unit: '%', inputs: [{id: 'current', label: '当前好评率:', placeholder: '例如：95.0', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前有效评价量:', placeholder: '例如：3000', type: 'number', min: "0"}, {id: 'target', label: '目标好评率:', placeholder: '例如：98.0', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}], detailedAssumption: "假设补单均为好评", detailedUnit: "个好评", smallText: "考核基数：近30天有效评价量。假设补单均为 100% 好评。" },
@@ -85,7 +71,7 @@ const config = {
     },
     xiaohongshu: {
         name: '小红书',
-        color: '#ff2b54',
+        color: '#ff2b54', // 红色
         metrics: {
             xhs_bad_review_rate: { name: '商品评分中差评率', type: 'negative_rate', baseUnit: '商品订单数', unit: '%', inputs: [{id: 'current', label: '当前差评率:', placeholder: '例如：0.5000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前商品订单数:', placeholder: '例如：1000', type: 'number', min: "0"}, {id: 'target', label: '目标差评率:', placeholder: '例如：0.2000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}], detailedAssumption: "假设补单均为无差评订单", detailedUnit: "个无差评订单", smallText: "考核基数：近15-104天商品订单数。假设补单不产生差评。" },
             xhs_quality_after_sale_rate: { name: '商品品质售后率', type: 'negative_rate', baseUnit: '商品订单数', unit: '%', inputs: [{id: 'current', label: '当前售后率:', placeholder: '例如：1.5000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前商品订单数:', placeholder: '例如：800', type: 'number', min: "0"}, {id: 'target', label: '目标售后率:', placeholder: '例如：1.0000', type: 'number', step: '0.0001', unitText: '%', min: "0", max: "100"}], smallText: "考核基数：近15-104天商品订单数。假设补单不产生品质售后。" },
@@ -101,7 +87,7 @@ const config = {
     },
     jd: {
          name: '京东',
-         color: '#9c27b0',
+         color: '#9c27b0', // 紫色
          metrics: {
              jd_response_time: { name: '咚咚平均响应时长', type: 'negative_average', baseUnit: '消息轮次', unit: '秒', idealValue: 5, inputs: [{id: 'current', label: '当前时长 (秒) :', placeholder: '例如：15.5', type: 'number', step: '0.01'}, {id: 'base', label: '当前消息轮次:', placeholder: '例如：10000', type: 'number', min: "0"}, {id: 'target', label: '目标时长 (秒) :', placeholder: '例如：10.0', type: 'number', step: '0.01', min: "0"}], detailedAssumption: "假设补单的对话响应时长为5秒", detailedUnit: "个5秒内响应对话", smallText: "考核基数：前6天至前35天。假设补单的对话响应时长为 5 秒。", calculationButtonText: "计算所需补会话量" },
              jd_same_day_pickup_rate: { name: '当日揽收率 (非预约订单)', type: 'positive_rate', baseUnit: '当日考核订单量', unit: '%', inputs: [{id: 'current', label: '当前及时率:', placeholder: '例如：98.5', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}, {id: 'base', label: '当前当日考核订单量:', placeholder: '例如：500', type: 'number', min: "0"}, {id: 'target', label: '目标及时率:', placeholder: '例如：99.0', type: 'number', step: '0.01', unitText: '%', min: "0", max: "100"}], smallText: "考核基数：当日考核订单量。假设补单订单均为当日揽收。" },
@@ -483,53 +469,6 @@ function calculateRate(platformKey, metricId, metricConfig) {
     if (base < 0) { displayResult(platformKey, metricId, `错误：【${metricConfig.name}】的当前${metricConfig.baseUnit} (${base}) 不能为负数。`, false); return; }
     if (metricConfig.countInput && currentNegativeCount < 0) { displayResult(platformKey, metricId, `错误：【${metricConfig.name}】的当前数量 (${currentNegativeCount}) 不能为负数。`, false); return; }
     if (!metricConfig.countInput && (currentRate < 0 || currentRate > 100)) { displayResult(platformKey, metricId, `错误：【${metricConfig.name}】的当前值 (${currentRate}%) 必须在 0% 到 100% 之间。`, false); return; }
-}
-
-// 优化初始化函数，移除冗余的try-catch和注释
-function initApp() {
-    // 检查URL参数，如果有平台参数，自动选择该平台
-    const urlParams = new URLSearchParams(window.location.search);
-    const platformParam = urlParams.get('platform');
-    if (platformParam && config[platformParam]) {
-        handlePlatformSelection(platformParam);
-    } else {
-        // 默认选择第一个平台
-        const firstPlatformKey = Object.keys(config)[0];
-        if (firstPlatformKey) {
-            handlePlatformSelection(firstPlatformKey);
-        }
-    }
-    
-    stabilizeContainers();
-}
-
-// 简化页面加载事件监听
-document.addEventListener('DOMContentLoaded', () => {
-    initApp();
-    window.addEventListener('resize', stabilizeContainers);
-});
-function initApp() {
-    // 检查URL参数，如果有平台参数，自动选择该平台
-    const urlParams = new URLSearchParams(window.location.search);
-    const platformParam = urlParams.get('platform');
-    if (platformParam && config[platformParam]) {
-        handlePlatformSelection(platformParam);
-    } else {
-        // 默认选择第一个平台
-        const firstPlatformKey = Object.keys(config)[0];
-        if (firstPlatformKey) {
-            handlePlatformSelection(firstPlatformKey);
-        }
-    }
-    
-    stabilizeContainers();
-}
-
-// 简化页面加载事件监听
-document.addEventListener('DOMContentLoaded', () => {
-    initApp();
-    window.addEventListener('resize', stabilizeContainers);
-});
     if (targetRate < 0 || targetRate > 100) { displayResult(platformKey, metricId, `错误：【${metricConfig.name}】的目标值 (${targetRate}%) 必须在 0% 到 100% 之间。`, false); return; }
 
     if (base === 0) {
