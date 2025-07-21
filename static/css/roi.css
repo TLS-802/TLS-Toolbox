@@ -135,31 +135,45 @@ textarea.form-input {
     box-shadow: 0 2px 5px rgba(0,0,0,0.12);
 }
 
-/* 合并重复的激活状态样式 */
-.platform-button.active,
+/* 激活状态样式 */
 .platform-button[data-version="merchant"].active,
 .platform-button.is-active-merchant {
+    background-color: #2c60ff; /* 蓝色 - 抖店 */
     color: white;
-    border-color: var(--platform-color);
-    background-color: var(--platform-color);
-}
-
-/* 设置各按钮的平台颜色变量 */
-.platform-button[data-version="merchant"] {
+    border-color: #2c60ff;
     --platform-color: #2c60ff;
 }
 
-.platform-button[data-version="influencer"] {
+.platform-button[data-version="influencer"].active,
+.platform-button.is-active-influencer {
+    background-color: #ffcc00; /* 黄色 - 淘宝 */
+    color: white;
+    border-color: #ffcc00;
     --platform-color: #ffcc00;
 }
 
-.platform-button[data-version="store_profit"] {
+.platform-button[data-version="store_profit"].active,
+.platform-button.is-active-store_profit {
+    background-color: #00bb29; /* 绿色 - 快手 */
+    color: white;
+    border-color: #00bb29;
     --platform-color: #00bb29;
 }
 
-/* 移除重复的顶部条纹样式，使用统一的伪元素 */
-.platform-button:before {
-    background-color: var(--platform-color);
+/* 设置各按钮的顶部条纹颜色 */
+.platform-button[data-version="merchant"]:before {
+    background-color: #2c60ff; /* 蓝色 - 抖店 */
+    --platform-color: #2c60ff;
+}
+
+.platform-button[data-version="influencer"]:before {
+    background-color: #ffcc00; /* 黄色 - 淘宝 */
+    --platform-color: #ffcc00;
+}
+
+.platform-button[data-version="store_profit"]:before {
+    background-color: #00bb29; /* 绿色 - 快手 */
+    --platform-color: #00bb29;
 }
 
 /* 计算按钮样式 */
