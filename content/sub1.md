@@ -123,7 +123,7 @@ data: #以下为导航链接内容
           logo: ../images/联系我们/douyin.jpg
           url: https://v.douyin.com/OHq9e7844u8?from=dy.199908.top
         - title: 飞书客服
-          logo: ../images/联系我们/feishu.jpg
+          logo: ../images/联系我们/feishu.png
           url: https://www.nodeimage.com/i/32451/WqUooZnM3WNR5WkCsc0yRs9SO94tsAHz.png?from=dy.199908.top
         - title: Github
           logo: ../images/联系我们/github.jpg
