@@ -19,8 +19,8 @@
 │   └── default.md                   # 默认内容模板
 ├── content/                         # 内容目录
 │   ├── about.md                     # "关于"页面内容
-│   ├── sub1.md                      # 电商黑科技内容页
-│   └── sub2.md                      # 辅助内容页
+│   ├── sub1.md                      # 辅助内容页1
+│   └── sub2.md                      # 辅助内容页2
 ├── data/                            # 数据目录
 │   └── webstack.yml                 # 主页导航网址数据配置
 ├── layouts/                         # 布局模板目录
@@ -57,29 +57,9 @@
 │   │   ├── budan.html               # 补单计算器页面
 │   │   └── roi.html                 # 千川ROI计算器页面
 │   ├── webfonts/                    # 网页字体
-│   │   ├── fa-brands-400.ttf        # Font Awesome品牌字体
-│   │   ├── fa-brands-400.woff2      # Font Awesome品牌字体(woff2)
-│   │   ├── fa-regular-400.ttf       # Font Awesome常规字体
-│   │   ├── fa-regular-400.woff2     # Font Awesome常规字体(woff2)
-│   │   ├── fa-solid-900.ttf         # Font Awesome实心字体
-│   │   ├── fa-solid-900.woff2       # Font Awesome实心字体(woff2)
-│   │   ├── fa-v4compatibility.ttf   # Font Awesome v4兼容字体
-│   │   └── fa-v4compatibility.woff2 # Font Awesome v4兼容字体(woff2)
 │   ├── _headers                     # Netlify/Vercel自定义HTTP头
 │   ├── _redirects                   # Netlify/Vercel重定向规则
 │   └── images/                      # 图片资源目录
-│       ├── 图文设计/                # 图文设计工具图标
-│       ├── 图标字体/                # 图标字体资源图标
-│       ├── 广告投放/                # 广告投放平台图标
-│       ├── 快捷导航/                # 主要电商平台图标
-│       ├── 数据分析/                # 数据分析工具图标
-│       ├── 电商辅助/                # 电商辅助工具图标
-│       ├── 视频编辑/                # 视频编辑工具图标
-│       ├── 联系我们/                # 联系方式图标
-│       ├── 设计软件/                # 设计软件图标
-│       ├── 站点图标.png             # 网站图标
-│       ├── 驼铃标志.jpg             # 驼铃标志
-│       └── 驼铃标志1.png            # 驼铃标志(备用)
 ├── hugo.toml                        # Hugo配置文件
 ├── LICENSE                          # 许可证文件
 └── README.md                        # 项目说明文档
