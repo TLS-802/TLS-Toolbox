@@ -1,0 +1,30 @@
+{
+  "name": "tls-toolbox",
+  "version": "1.0.0",
+  "description": "驼铃电商百宝箱 - 电商工具导航网站",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server",
+    "create": "hugo new",
+    "serve": "hugo server -D"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.128.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TLS-802/TLS-Toolbox.git"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "ecommerce",
+    "navigation",
+    "tools"
+  ],
+  "author": "TLS",
+  "license": "MIT"
+}
