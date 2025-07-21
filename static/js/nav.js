@@ -196,8 +196,10 @@ function trigger_resizable()
 			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
             if($("#main-menu").hasClass('mobile-is-visible') === true){
 				public_vars.$sidebarMenu.removeClass('collapsed');
-                $(".sidebar-menu-inner").css("max-height",window.innerHeight);
-                ps_init();
+                // 移动端滚动功能会自然适应可用空间
+                setTimeout(function() {
+                    ps_init();
+                }, 100);
             }
             else{
                 ps_destroy();
@@ -363,8 +365,8 @@ var public_vars = public_vars || {};
 		// Perfect Scrollbar
 		if($.isFunction($.fn.perfectScrollbar))
 		{
-			if(public_vars.$sidebarMenu.hasClass('fixed'))
-				ps_init();
+			// 总是尝试初始化侧边栏滚动条
+			ps_init();
 			$(".ps-scrollbar").each(function(i, el)
 			{
 				var $el = $(el);
@@ -736,25 +738,43 @@ function ps_update(destroy_init)
 }
 function ps_init()
 {
-	//if(isxs())
-	//	return;
 	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
-		if(public_vars.$sidebarMenu.hasClass('collapsed') || ! public_vars.$sidebarMenu.hasClass('fixed'))
+		// 简化初始化条件，确保在更多情况下都能启用滚动
+		if(public_vars.$sidebarMenu.hasClass('collapsed'))
 		{
 			return;
 		}
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar({
+
+		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+
+		// 销毁现有的滚动条实例（如果存在）
+		if($scrollContainer.data('ps-initialized'))
+		{
+			$scrollContainer.perfectScrollbar('destroy');
+		}
+
+		// 初始化Perfect Scrollbar
+		$scrollContainer.perfectScrollbar({
 			wheelSpeed: 1,
-			wheelPropagation: public_vars.wheelPropagation
+			wheelPropagation: public_vars.wheelPropagation,
+			suppressScrollX: true
 		});
+
+		// 标记为已初始化
+		$scrollContainer.data('ps-initialized', true);
 	}
 }
 function ps_destroy()
 {
 	if(jQuery.isFunction(jQuery.fn.perfectScrollbar))
 	{
-		public_vars.$sidebarMenu.find('.sidebar-menu-inner').perfectScrollbar('destroy');
+		var $scrollContainer = public_vars.$sidebarMenu.find('.sidebar-menu-inner');
+		if($scrollContainer.data('ps-initialized'))
+		{
+			$scrollContainer.perfectScrollbar('destroy');
+			$scrollContainer.removeData('ps-initialized');
+		}
 	}
 }
 // Element Attribute Helper

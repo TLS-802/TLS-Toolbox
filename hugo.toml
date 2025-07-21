@@ -10,8 +10,8 @@ copyright = "TLS"
 
 #网站信息，不显示，仅供搜索引擎参考
 [params]
-  keywords = "网址导航,webstack,hugo"
-  description = "Webstack Hugo版主题,网址导航"
+  keywords = "驼铃电商百宝箱,网址导航,webstack,hugo"
+  description = "驼铃电商百宝箱,驼铃百宝箱,电商百宝箱,助力商家更好的运营管理店铺"
 
 #是否开启搜索栏，true开启，false关闭
 [params.search]

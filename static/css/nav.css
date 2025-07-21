@@ -59,7 +59,26 @@ footer.main-footer .foot-button a:hover{background-color:rgba(44,46,47,.1)}foote
 .sidebar-menu .main-menu a>span{display:inline-block}
 .sidebar-menu .main-menu a:hover{color:#fff}
 .sidebar-menu.fixed{height:100%}
-.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow:hidden}
+.sidebar-menu.fixed .sidebar-menu-inner{position:fixed;left:0;top:0;bottom:0;width:inherit;overflow-y:auto}
+/* 侧边栏滚动条样式 - 让侧边栏自然适应可用空间 */
+.sidebar-menu .sidebar-menu-inner{
+    overflow-y:auto;
+}
+/* 自定义滚动条样式 */
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar{
+    width:6px;
+}
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-track{
+    background:rgba(255,255,255,0.1);
+    border-radius:3px;
+}
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,0.3);
+    border-radius:3px;
+}
+.sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-thumb:hover{
+    background:rgba(255,255,255,0.5);
+}
 .sidebar-menu .main-menu ul{display:none;margin:0;padding:0;overflow:hidden;list-style:none}
 .sidebar-menu .main-menu ul li{position:relative}
 @media screen and (min-width:768px){.sidebar-menu .main-menu ul li.is-hidden{left:-20px;zoom:1;filter:alpha(opacity=0);-webkit-opacity:0;-moz-opacity:0;opacity:0}
@@ -358,5 +377,15 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 .black .siteico{background:#222}
 .black .posts-nav{color:rgba(221,221,221,.2)}
 .black .input-group-addon{color:#ddd;background:#26282a;border-color:#26282a}
+/* 暗色模式下的侧边栏滚动条样式 */
+.black .sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-track{
+    background:rgba(0,0,0,0.2);
+}
+.black .sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,0.2);
+}
+.black .sidebar-menu .sidebar-menu-inner::-webkit-scrollbar-thumb:hover{
+    background:rgba(255,255,255,0.4);
+}
 
 
