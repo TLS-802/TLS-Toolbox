@@ -451,6 +451,7 @@ function setup_sidebar_menu()
 {
 	var $ = jQuery;
 	var $items_with_submenu = public_vars.$sidebarMenu.find('li:has(> ul)');
+	var $items_with_tab_link = public_vars.$sidebarMenu.find('li:has(> a[href*="-tab-"])');
 	
 	// 初始化时为带有子菜单的项目添加has-sub类
 	$items_with_submenu.addClass('has-sub');
@@ -492,6 +493,7 @@ function setup_sidebar_menu()
 		});
 		
 		// 判断是否应该默认展开子菜单
+		// 检查当前URL的哈希值是否与该菜单项下的子菜单项匹配
 		if(should_expand_sub_menu($li))
 		{
 			sidebar_menu_item_expand($li, $sub, false);
