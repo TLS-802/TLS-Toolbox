@@ -98,11 +98,14 @@ function trigger_resizable()
 			{
 				ev.preventDefault();
 				public_vars.$body.toggleClass('chat-open');
-				// 移除Perfect Scrollbar相关代码
-				setTimeout(function()
+				if($.isFunction($.fn.perfectScrollbar))
 				{
-					$(window).trigger('xenon.resize');
-				}, 1);
+					setTimeout(function()
+					{
+						public_vars.$chat.find('.chat_inner').perfectScrollbar('update');
+						$(window).trigger('xenon.resize');
+					}, 1);
+				}
 			});
 		});
 		// Settings Pane Toggler
@@ -176,12 +179,12 @@ function trigger_resizable()
 				if(public_vars.$sidebarMenu.hasClass('collapsed'))
 				{
 					public_vars.$sidebarMenu.removeClass('collapsed');
-					// 移除 ps_init() 调用
+					ps_init();
 				}
 				else
 				{
 					public_vars.$sidebarMenu.addClass('collapsed');
-					// 移除 ps_destroy() 调用
+					ps_destroy();
 				}
 				$(window).trigger('xenon.resize');
 			});
@@ -191,14 +194,14 @@ function trigger_resizable()
 		{
 			ev.preventDefault();
 			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-			if($("#main-menu").hasClass('mobile-is-visible') === true){
+            if($("#main-menu").hasClass('mobile-is-visible') === true){
 				public_vars.$sidebarMenu.removeClass('collapsed');
-				$(".sidebar-menu-inner").css("max-height",window.innerHeight);
-				// 移除 ps_init() 调用
-			}
-			else{
-				// 移除 ps_destroy() 调用
-			}
+                $(".sidebar-menu-inner").css("max-height",window.innerHeight);
+                ps_init();
+            }
+            else{
+                ps_destroy();
+            }
 		});
 		// Mobile Menu Trigger for Horizontal Menu
 		$('a[data-toggle="mobile-menu-horizontal"]').on('click', function(ev)
@@ -357,54 +360,50 @@ var public_vars = public_vars || {};
 			stickFooterToBottom();
 			$(window).on('xenon.resized', stickFooterToBottom);
 		}
-		// 原生滚动条处理
-		.r
-			$el.scrollTop($el.prop('scrollHeight'));
-			
-			el.css({
-			'overflow-y': 'auto',
-				overflow-x': 'hidden'
-			);
-		};ss
-'ovflw-y': 'u',
-				'overow-x': 'hiddn'
-		/ 聊天滚动条 - 使用原生滚动
-		ar $chat_inner = public_vars.$pageContainer.find('#chat .chat-inner');
-
-		f($聊天滚动条_- 使用原生滚动ent().hasClass('fixed'))
-		$chat_inner.css({
-			maxHeight: $(window).height(),
-			'overflow-y': 'au
-				to',,
-				'ovlow-y': 'au',
-				'ovrf-l-x':'hdn'
+		// Perfect Scrollbar
+		if($.isFunction($.fn.perfectScrollbar))
+		{
+			if(public_vars.$sidebarMenu.hasClass('fixed'))
+				ps_init();
+			$(".ps-scrollbar").each(function(i, el)
+			{
+				var $el = $(el);
+				if($el.hasClass('ps-scroll-down'))
+				{
+					$el.scrollTop($el.prop('scrollHeight'));
+				}
+				$el.perfectScrollbar({
+					wheelPropagation: false
+				});
 			});
-
-		// 用户信息下拉菜单触发器
-		});
-
-	// 用户信息下拉菜单触发器
-	$(".dropdown:has(.ps-scrollbar)").each(function(i, el)
-	{
-		var $scrollbar = $(thi
-		ev// 移除ault();更新调用
-		//perfectScrollbar更新调用
-	});
-
- 可滚动区域 -使用原生滚动
-	// 可滚动区域 - 使用原生滚动
-	$("div.scrollable").each(function(i, el)
-	{
-		var $this = $(el),
-			max_height = parseInt(attrDefault($this, 'max-height', 200), 10);
-		max_height =
-				 max_height < 0 ? 200,
-				'ovax_low-y': 'aui;',
-		$t'ov.rfcw-x''hiddn'
-			maxHeight: max_height,
-			'o	'overflow-x': 'hidden'
+			// Chat Scrollbar
+			var $chat_inner = public_vars.$pageContainer.find('#chat .chat-inner');
+			if($chat_inner.parent().hasClass('fixed'))
+				$chat_inner.css({maxHeight: $(window).height()}).perfectScrollbar();
+			// User info opening dropdown trigger PS update
+			$(".dropdown:has(.ps-scrollbar)").each(function(i, el)
+			{
+				var $scrollbar = $(this).find('.ps-scrollbar');
+				$(this).on('click', '[data-toggle="dropdown"]', function(ev)
+				{
+					ev.preventDefault();
+					setTimeout(function()
+					{
+						$scrollbar.perfectScrollbar('update');
+					}, 1);
+				});
 			});
-		});
+			// Scrollable
+			$("div.scrollable").each(function(i, el)
+			{
+				var $this = $(el),
+					max_height = parseInt(attrDefault($this, 'max-height', 200), 10);
+				max_height = max_height < 0 ? 200 : max_height;
+				$this.css({maxHeight: max_height}).perfectScrollbar({
+					wheelPropagation: true
+				});
+			});
+		}
 		// Go to top links
 		$('body').on('click', 'a[rel="go-top"]', function(ev)
 		{
