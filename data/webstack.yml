@@ -1713,7 +1713,7 @@
   - term: 电商插件
   - term: 电商直播
   - term: 电商工具
-  - name: 电商erp
+  - term: 电商erp
   tabs:
   - name: 电商插件
     links:
@@ -1855,7 +1855,7 @@
       logo: images/电商辅助/腾讯QQ.png
       url: https://live.qq.com?from=dy.199908.top
       description: 腾讯官方直播工具
-  - term: 电商工具
+  - name: 电商工具
     links:
     - title: 指纹浏览器
       logo: images/电商辅助/指纹浏览器.png
