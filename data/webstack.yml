@@ -1715,10 +1715,14 @@
   tabs:
   - name: 电商插件
     links:
-    - title: 灵邀AI
-      logo: images/电商插件/灵邀AI.jpg
-      url: https://limob.cn?from=dy.199908.top
-      description: 抖音微信达人邀约软件
+    - title: AliPrice助手
+      logo: images/电商插件/AliPrice助手.ico
+      url: https://www.aliprice.com?from=dy.199908.top
+      description: AliPrice是支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
+    - title: 至尊宝
+      logo: images/电商插件/至尊宝.jpg
+      url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
+      description: 多平台电商运营插件
     - title: 店查查
       logo: images/电商插件/店查查.png
       url: https://www.dianchacha.com/chajian?from=dy.199908.top
@@ -1727,22 +1731,30 @@
       logo: images/电商插件/店透视.png
       url: https://diantoushi.com/index.html?inviteCode=ak10wk&from=dy.199908.top
       description: 指数还原详情插件
-    - title: AliPrice助手
-      logo: images/电商插件/aliexpress.png
-      url: https://www.aliprice.com?from=dy.199908.top
-      description: 支持淘宝、1688、速卖通、拼多多等购物平台以图搜货和历史价格追踪的卖家助手
+    - title: 店侦探插件
+      logo: images/电商插件/店侦探插件.png
+      url: https://www.dianzhentan.com/chajian?from=dy.199908.top
+      description: 淘宝数据插件
+    - title: 小旺神插件
+      logo: images/电商插件/小旺神插件.ico
+      url: https://xiaowangshen.com?from=dy.199908.top
+      description: 淘宝指数还原工具
+    - title: 旺参谋插件
+      logo: images/电商插件/旺参谋插件.ico
+      url: https://wangcanmou.com?from=dy.199908.top
+      description: 1688生意参谋指数还原
     - title: 哈士奇
       logo: images/电商插件/哈士奇.jpg
       url: https://hsq.dangxun.com?from=dy.199908.top
-      description: 多平台电商运营插件
-    - title: 至尊宝
-      logo: images/电商插件/至尊宝.jpg
-      url: https://tool.zzbtool.com/index.html?shareKey=05C056C6EA1FBAF642A7457753B75A31#/register?from=dy.199908.top
       description: 多平台电商运营插件
     - title: 指纹浏览器
       logo: images/电商插件/指纹浏览器.png
       url: https://virtualbrowser.cc?from=dy.199908.top
       description: 多店铺电商卖家必备，隔离ip
+    - title: Fatkun图片下载
+      logo: images/电商插件/Fatkun图片下载.webp
+      url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
+      description: Fatkun图片下载插件
     - title: 猫爪
       logo: images/电商插件/猫爪.jpg
       url: https://cat-catch.bmmmd.com?from=dy.199908.top
@@ -1751,10 +1763,10 @@
       logo: images/电商插件/社媒助手.png
       url: https://smc.iszhouhua.com?from=dy.199908.top
       description: 多平台数据采集插件
-    - title: Fatkun图片下载
-      logo: images/电商插件/Fatkun图片下载.webp
-      url: https://www.fatkun.net/zh-CN/download?from=dy.199908.top
-      description: Fatkun图片下载插件
+    - title: 灵邀AI
+      logo: images/电商插件/灵邀AI.jpg
+      url: https://limob.cn?from=dy.199908.top
+      description: 抖音微信达人邀约软件
     - title: 达连
       logo: images/电商插件/达连.png
       url: https://tool.kollink.net?from=dy.199908.top
