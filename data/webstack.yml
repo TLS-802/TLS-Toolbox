@@ -41,12 +41,103 @@
 - taxonomy: 电商工具
   icon: fa-shopping-cart
   list:
+  - term: 电商后台
   - term: 电商插件
   - term: 电商直播
   - term: 电商辅助
   - term: 客服工具
   - term: 电商erp
   tabs:
+  - name: 电商后台
+    links:
+    - title: 抖音小店后台
+      logo: images/电商工具/抖音小店后台.png
+      url: https://fxg.jinritemai.com?from=dy.199908.top
+      description: 抖音小店后台
+    - title: 快手商家后台
+      logo: images/电商工具/快手商家后台.png
+      url: https://s.kwaixiaodian.com?from=dy.199908.top
+      description: 快手小店商家后台管理系统
+    - title: 小红书商家后台
+      logo: images/电商工具/小红书商家后台.png
+      url: https://ark.xiaohongshu.com?from=dy.199908.top
+      description: 小红书商家后台管理系统
+    - title: 有赞后台
+      logo: images/电商工具/有赞后台.png
+      url: https://www.youzan.com?from=dy.199908.top
+      description: 有赞商家后台管理系统
+    - title: 视频号商家后台
+      logo: images/电商工具/视频号商家后台.png
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号商家后台管理系统
+    - title: 淘宝后台
+      logo: images/电商工具/淘宝后台.png
+      url: https://seller.taobao.com?from=dy.199908.top
+      description: 淘宝卖家中心后台管理系统
+    - title: 天猫后台
+      logo: images/电商工具/天猫后台.png
+      url: https://myseller.tmall.com?from=dy.199908.top
+      description: 天猫商家后台管理系统
+    - title: 1688后台
+      logo: images/电商工具/1688后台.png
+      url: https://work.1688.com?from=dy.199908.top
+      description: 1688商家工作台后台管理系统
+    - title: 京东后台
+      logo: images/电商工具/京东后台.png
+      url: https://seller.jd.com?from=dy.199908.top
+      description: 京东商家后台管理系统
+    - title: 拼多多后台
+      logo: images/电商工具/拼多多后台.png
+      url: https://mms.pinduoduo.com?from=dy.199908.top
+      description: 拼多多商家后台管理系统
+    - title: 速卖通后台
+      logo: images/电商工具/速卖通后台.png
+      url: https://seller.aliexpress.com?from=dy.199908.top
+      description: 速卖通卖家后台管理系统
+    - title: 亚马逊后台
+      logo: images/电商工具/亚马逊后台.png
+      url: https://sellercentral.amazon.com?from=dy.199908.top
+      description: 亚马逊卖家中心后台管理系统
+    - title: eBay后台
+      logo: images/电商工具/eBay后台.png
+      url: https://www.ebay.com/sh/ovw?from=dy.199908.top
+      description: eBay卖家中心后台管理系统
+    - title: Wish后台
+      logo: images/电商工具/Wish后台.png
+      url: https://merchant.wish.com?from=dy.199908.top
+      description: Wish商家后台管理系统
+    - title: Shopee后台
+      logo: images/电商工具/Shopee后台.png
+      url: https://seller.shopee.cn?from=dy.199908.top
+      description: Shopee卖家中心后台管理系统
+    - title: TikTok后台
+      logo: images/电商工具/TikTok后台.png
+      url: https://ads.tiktok.com?from=dy.199908.top
+      description: TikTok商业广告后台管理系统
+    - title: Instagram后台
+      logo: images/电商工具/Instagram后台.png
+      url: https://business.instagram.com?from=dy.199908.top
+      description: Instagram商业账户后台管理系统
+    - title: Facebook后台
+      logo: images/电商工具/Facebook后台.png
+      url: https://business.facebook.com?from=dy.199908.top
+      description: Facebook商业管理平台后台系统
+    - title: Twitter后台
+      logo: images/电商工具/Twitter后台.png
+      url: https://ads.twitter.com?from=dy.199908.top
+      description: Twitter广告后台管理系统
+    - title: YouTube后台
+      logo: images/电商工具/YouTube后台.png
+      url: https://studio.youtube.com?from=dy.199908.top
+      description: YouTube创作者工作室后台管理系统
+    - title: Pinterest后台
+      logo: images/电商工具/Pinterest后台.png
+      url: https://ads.pinterest.com?from=dy.199908.top
+      description: Pinterest商业广告后台管理系统
+    - title: LinkedIn后台
+      logo: images/电商工具/LinkedIn后台.png
+      url: https://business.linkedin.com?from=dy.199908.top
+      description: LinkedIn商业解决方案后台管理系统
   - name: 电商插件
     links:
     - title: 阿明查查（原阿明工具）
@@ -269,10 +360,6 @@
       logo: images/电商工具/快洋淘指纹浏览器.png
       url: https://www.yangtao.com?from=dy.199908.top
       description: 洋淘浏览器由江苏星芒网络科技有限公司研发的首款跨境用户专属浏览器。
-    - title: 挖象浏览器
-      logo: images/电商工具/挖象浏览器.png
-      url: https://browser.waxiang.com?from=dy.199908.top
-      description: 挖象浏览器是万千电商卖家都在用的电商防关联浏览器，为多店铺运营、账号矩阵营销提供账号多开、安全防护、团队协作等功能，还内置有超多电商资源，助力广泛业务高效运营、快速发展！
     - title: 易得客浏览器
       logo: images/电商工具/易得客浏览器.png
       url: https://www.edecker.cn?from=dy.199908.top
