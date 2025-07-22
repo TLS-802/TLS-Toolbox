@@ -43,10 +43,11 @@
   list:
   - term: 电商后台
   - term: 电商插件
-  - term: 电商直播
+  - term: 直播辅助
   - term: 电商辅助
   - term: 客服工具
   - term: 电商erp
+  - term: 跨境平台
   tabs:
   - name: 电商后台
     links:
@@ -260,7 +261,7 @@
       logo: images/电商工具/AnyRec放大.png
       url: https://www.anyrec.io/zh/image-upscaler/?from=dy.199908.top
       description: AnyRec offers AI-powered
-  - name: 电商直播
+  - name: 直播辅助
     links:
     - title: 抖音直播伴侣
       logo: images/电商工具/抖音直播伴侣.jpg
@@ -500,6 +501,7 @@
       logo: images/电商工具/蓝鲸BI.png
       url: https://www.lingdongsz.com?from=dy.199908.top
       description: 美客多一站式选品，运营软件工具
+  - name: 跨境平台
 
 - taxonomy: AI工具集
   icon: fa-robot
