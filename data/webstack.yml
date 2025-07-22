@@ -37,7 +37,6 @@
     logo: images/驼铃标志1.png
     url: https://tv1.199908.top/
     description: 免费影视资源，无需注册
-
 - taxonomy: 电商工具
   icon: fa-shopping-cart
   list:
@@ -143,7 +142,7 @@
     - title: 阿明查查（原阿明工具）
       logo: images/电商工具/阿明查查_原阿明工具_.png
       url: https://www.amingchacha.com?from=dy.199908.top
-      description: 阿明工具，让数据会说话；生意参谋指数一键转化。阿明工具9折优惠码：MGE2Nz
+      description: 阿明工具，让数据会说话；生意参谋指数一键转化
     - title: 小旺神插件
       logo: images/电商工具/小旺神插件.ico
       url: https://xiaowangshen.com?from=dy.199908.top
@@ -163,15 +162,15 @@
     - title: 老司机电商工具
       logo: images/电商工具/老司机电商工具.png
       url: https://www.lsjztc.com?from=dy.199908.top
-      description: 老司机直通车，老司机社群平台为社群平台提供软件技术服务，所开发的软件对社群成员免费开放使用
+      description: 老司机直通车，老司机社群平台提供专业服务
     - title: 店查查
       logo: images/电商工具/店查查.png
       url: https://www.dianchacha.com/chajian?from=dy.199908.top
-      description: 店查查是提供淘宝数据统计、店铺关注、宝贝价格关注、直通车选词、标题优化、销售数据分析等网络服务商
+      description: 店查查是提供淘宝数据统计、店铺关注、宝贝价格关注
     - title: 幕思城将军令
       logo: images/电商工具/幕思城将军令___插件下载中心.png
       url: https://tool.musicheng.com/chajian?from=dy.199908.top
-      description: 幕思城将军令插件是淘宝天猫卖家必备的数据分析工具，有市场行情插件,淘宝直通车插件,超级推荐插件等功能
+      description: 幕思城将军令插件是淘宝天猫卖家必备的数据分析工具
     - title: 淘客助手
       logo: images/电商工具/淘客助手.png
       url: http://www.taokezhushou.com/plugin?from=dy.199908.top
@@ -179,35 +178,35 @@
     - title: 哈士奇电商插件
       logo: images/电商工具/哈士奇电商插件.png
       url: https://hsq.dangxun.com?from=dy.199908.top
-      description: 哈士奇电商插件官网，多功能免费，老电商人熟悉的一款浏览器插件，适用淘宝、天猫、1688、拼多多、京东、抖店、苏宁、跨境等各大电商平台的运营插件
+      description: 哈士奇电商插件官网，多功能免费
     - title: 至尊宝找货助手
       logo: images/电商工具/至尊宝找货助手.png
       url: https://zzb.3351r.com/update/index.html?from=dy.199908.top
-      description: 至尊宝免费提供一键多平台搜图/搜词选品，宝贝详情、SKU各项数据分析，全站开车和计划管理等功能，覆盖跨境和抖店等几十大货源平台
+      description: 至尊宝免费提供一键多平台搜图/搜词选品，宝贝详情
     - title: AliPrice卖家助手
       logo: images/电商工具/AliPrice卖家助手.png
       url: https://www.aliprice.com?from=dy.199908.top
-      description: AliPrice是支持淘宝、1688、速卖通、拼多多等购物平台以图搜同款和历史价格追踪的卖家助手
+      description: AliPrice是支持淘宝、1688、速卖通
     - title: 实选抖音选品检测工具
       logo: images/电商工具/实选抖音选品检测工具.png
       url: https://plugindy.shixuan.com?from=dy.199908.top
-      description: 一款高效的抖音选品检测工具，测高佣、测低价、测匹配度...无需到处查找商品信息，智能检测分析，快速选出好品
+      description: 一款高效的抖音选品检测工具，测高佣、测低价
     - title: 多兔淘客插件
       logo: images/电商工具/多兔淘客插件.png
       url: https://duotu.pro/plugs?from=dy.199908.top
-      description: 多兔淘客插件，一个实用方便数据全的淘客插件，商品信息、佣金查询、推广数据、优惠券信息、商家信息、招商信息、商品榜单、营销素材一键查询
+      description: 多兔淘客插件，一个实用方便数据全的淘客插件，商品信息
     - title: 店雷达
       logo: images/电商工具/店雷达.png
       url: https://www.dianleida.net?from=dy.199908.top
-      description: 店雷达1688选品运营插件，准确查询导出任意商品的交易数据、店铺分析等，帮助商家快速选品和竞店分析
+      description: 店雷达1688选品运营插件
     - title: 京品库插件
       logo: images/电商工具/京品库插件.png
       url: https://www.jingpinku.com/page/plug.do?from=dy.199908.top
-      description: 京品库插件，可查看商品的团长信息、月推广销量、月支出佣金，以及商品所有的优惠券信息、名称和到期时间，可根据自己的联盟ID转链等
+      description: 京品库插件，可查看商品的团长信息、月推广销量
     - title: 淘客易插件
       logo: images/电商工具/淘客易插件.png
       url: http://cj.tky.com?from=dy.199908.top
-      description: 淘客易插件是淘宝易(www.tky.com)出品，招商淘客专用的一款浏览器插件，可轻松查看推广数据
+      description: 淘客易插件是淘宝易(www.tky.com)出品
     - title: 店侦探
       logo: images/电商工具/店侦探插件.png
       url: https://www.dianzhentan.com/chajian?from=dy.199908.top
@@ -219,11 +218,11 @@
     - title: 数据银行插件
       logo: images/电商工具/数据银行插件.png
       url: https://www.dreamyshare.com/databank?from=dy.199908.top
-      description: 一款阿里数据银行的扩展插件；通过游览器插件使用，方便用户对图形化数据进行一键取数，达到人员对数据获取、留存、分析的目的
+      description: 一款阿里数据银行的扩展插件；通过游览器插件使用
     - title: 微查宝
       logo: images/电商工具/微查宝.png
       url: https://m.weichabao.com?from=dy.199908.top
-      description: 微查宝是一家专业的服务电商商家SAAS平台，为商家提供优质的客户信息分类，筛查，管理等系统集成商
+      description: 微查宝是一家专业的服务电商商家SAAS平台
     - title: 电商魔镜
       logo: images/电商工具/电商魔镜___实时观察同行数据.png
       url: http://www.moojing.com/extension?from=dy.199908.top
@@ -247,19 +246,19 @@
     - title: Eagle
       logo: images/电商工具/Eagle.png
       url: https://cn.eagle.cool/extensions?from=dy.199908.top
-      description: Eagle 可以轻松管理大量图片、视频、音频素材，满足素材「收藏、整理、查找」的各种场景，支持 Mac 与 Windows 系统。
+      description: Eagle 可以轻松管理大量图片、视频、音频素材
     - title: 像素蛋糕
       logo: images/电商工具/像素蛋糕.png
       url: https://www.pixcakeai.com/?from=dy.199908.top
-      description: 像素蛋糕是一款简单易用的AI修图工具，只需要拖入图片，即可实现一键智能Raw转档调色，一键磨皮全身液化，轻松实现“一秒初修，三秒精修”的批量修图操作
+      description: 像素蛋糕是一款简单易用的AI修图工具，只需要拖入图片
     - title: 零泉素材管理
       logo: images/电商工具/零泉素材管理.png
       url: https://lingquan.cool/extension?from=dy.199908.top
-      description: 零泉可以轻松和整理图片、视频等素材，保持创意灵感源源不断，让工作更高效
+      description: 零泉可以轻松和整理图片、视频等素材
     - title: AnyRec放大
       logo: images/电商工具/AnyRec放大.png
       url: https://www.anyrec.io/zh/image-upscaler/?from=dy.199908.top
-      description: AnyRec offers AI-powered tools for work, study, and life. So you can record, create, edit, and share content from any sources on your computer.
+      description: AnyRec offers AI-powered
   - name: 电商直播
     links:
     - title: 抖音直播伴侣
@@ -323,77 +322,77 @@
     - title: 小语言装修
       logo: images/电商工具/小语言装修.png
       url: http://www.zxtb.net/?from=dy.199908.top
-      description: 小语言装修,让装修更简单。海量模板覆盖各行各业, 超多酷炫特效应有尽有,强大、智能的编辑器,实现各种DIY。覆盖全电商平台的店铺装修SaaS系统。电商设计好帮手
+      description: 小语言装修,让装修更简单。海量模板覆盖各行各业
     - title: 阿明查查客户端
       logo: images/电商工具/阿明查查客户端.png
       url: https://browser.amingchacha.com?from=dy.199908.top
-      description: 除浏览器基础功能外，自带阿明查查。自动更新，无需二次安装。一款好用的浏览器的先决条件一定要快，阿明查查客户端采用谷歌原生内核，保证浏览网页的优质体验。并提供电商导航，支持自定义编辑。
+      description: 除浏览器基础功能外，自带阿明查查。自动更新
     - title: AdsPower指纹浏览器
       logo: images/电商工具/AdsPower指纹浏览器.ico
       url: https://www.adspower.net?from=dy.199908.top
-      description: 国内排名第一的指纹浏览器！AdsPower是一款专为跨境人打造的指纹浏览器，致力解决跨境人多账号登录问题，目前已通过所有网站检测。平台提供专业的浏览器自动化功能、灵活的IP配置方案、丰富的应用插件支持，为您的账号环境保驾护航！
+      description: 国内排名第一的指纹浏览器！
     - title: AdsMagics指纹浏览器
       logo: images/电商工具/AdsMagics指纹浏览器.png
       url: https://www.adsmagics.com?from=dy.199908.top
-      description: AdsMagics指纹浏览器利用浏览器技术，为您提供隐私保护，让您拥有无数的电脑，从根本上解决多账号登录、团队多人协作、账号登出被封问题。免费注册使用，资深客服一对一在线辅助。
+      description: AdsMagics指纹浏览器利用浏览器技术
     - title: DICloak指纹浏览器
       logo: images/电商工具/DICloak指纹浏览器.png
       url: https://dicloak.com?from=dy.199908.top
-      description: DICloak一款专注于多账户管理和账号防关联的指纹浏览器，为您的网络隐私和安全提供保护。无论您是在管理多个账户、开展您的跨境电商业务，还是确保您的社交媒体营销工作不中断，DICloak都是您必备的工具。
+      description: DICloak一款专注于多账户管理和账号防关联的指纹
     - title: VMLogin指纹浏览器
       logo: images/电商工具/VMLogin指纹浏览器.png
       url: https://www.vmlogin.org?from=dy.199908.top
-      description: VMLogin反指纹浏览器，一台电脑即可实现帐号同时多开浏览器，安全隔离防风控，全方位浏览器指纹保护
+      description: VMLogin反指纹浏览器
     - title: 候鸟指纹浏览器
       logo: images/电商工具/候鸟指纹浏览器.svg
       url: https://www.mbbrowser.com?from=dy.199908.top
-      description: 候鸟指纹浏览器是跨境电商领域的防关联超级工具软件，完美代替VPS系统、虚拟机、模拟器、云手机、一键新机等传统的小号多开软件
+      description: 候鸟指纹浏览器是跨境电商领域的防关联超级工具软件
     - title: 全球速连浏览器
       logo: images/电商工具/全球速连浏览器.svg
       url: https://www.globalbrowser.com?from=dy.199908.top
-      description: 全球速连浏览器Browser专注解决亚马逊等跨境电商店铺管理问题，为跨境电商卖家提供全方位账号安全解决方案，让店铺环境更独立，管理更便捷，数据加密更安全，防护更到位。
+      description: 全球速连浏览器Browser专注解决亚马逊等跨境电商
     - title: 山豹浏览器
       logo: images/电商工具/山豹浏览器.svg
       url: https://www.3866.com?from=dy.199908.top
-      description: 山豹浏览器-虚拟多登反指纹浏览器，用于亚马逊测评、FACEBOOK等多平台账号防关联批量管理，通过在每个浏览器中自配一个固定的静态IP地址，来实现全球网站多平台多帐号登录，安全隔离、隐私匿名、防风控检测。
+      description: 山豹浏览器-虚拟多登反指纹浏览器，用于亚马逊测评
     - title: 快洋淘指纹浏览器
       logo: images/电商工具/快洋淘指纹浏览器.png
       url: https://www.yangtao.com?from=dy.199908.top
-      description: 洋淘浏览器由江苏星芒网络科技有限公司研发的首款跨境用户专属浏览器。
+      description: 首款跨境用户专属浏览器。
     - title: 易得客浏览器
       logo: images/电商工具/易得客浏览器.png
       url: https://www.edecker.cn?from=dy.199908.top
-      description: 易得客提供独有的全球电商平台运营快速、高效接入方案，与传统VPS/专线相比，我们可以大大提升全球跨境电商店铺的接入速度和运营效率； 同时通过网络路由复用大幅降低您的网络成本。
+      description: 易得客提供独有的全球电商平台运营快速、高效接入方案
     - title: 比特浏览器
       logo: images/电商工具/比特浏览器.svg
       url: http://www.bitbrowser.cn?from=dy.199908.top
-      description: 账号验证、登出、被封？IP关联？亚马逊多账号管理,亚马逊多平台管理,Amazon多账号操作,ebay店铺关联,wish关联,用比特指纹浏览器解决！通过硬件帆布指纹检测，100%安全隔离
+      description: 账号验证、登出、被封？IP关联
     - title: 海贝浏览器
       logo: images/电商工具/海贝浏览器.svg
       url: https://www.haibeix.com?from=dy.199908.top
-      description: 海贝浏览器，专注跨境电商帐号安全运营，多平台，多店铺，多帐号防关联浏览器。多用户操作，数据云端同步，异地随时登录，专线加速访问。一台电脑同时管理多个店铺，固定IP+独立浏览器环境，与本地电脑物理环境完全隔离，互不干扰不产生关联，安全高效运营店铺。
+      description: 海贝浏览器，专注跨境电商帐号安全运营，多平台，多店铺
     - title: 爱跨境浏览器
       logo: images/电商工具/爱跨境浏览器.svg
       url: https://www.ikjllq.com?from=dy.199908.top
-      description: 爱跨境浏览器专注跨境电商亚马逊虾皮等账号安全运营,致力于用计算机科学技术、运维手段为跨境电商提供固定、安全、独立的账号操作环境。安全才是第一生产力
+      description: 爱跨境浏览器专注跨境电商亚马逊虾皮等账号安全运营
     - title: 站斧浏览器
       logo: images/电商工具/站斧浏览器.svg
       url: https://www.zhanfubrowser.com?from=dy.199908.top
-      description: 站斧浏览器专注解决Shopee、Lazada和独立站等跨境电商店铺管理问题,为Shopee、Lazada、Amazon、独立站等跨境电商卖家提供专业安全的店铺提速运营方案。站斧浏览器功能有店铺防关联、IP隔离、跨境超级加速等服务，精深的专业技术让您店铺安全更简单。
+      description: 站斧浏览器专注解决Shopee
     - title: 紫鸟浏览器SuperBrowser
       logo: images/电商工具/紫鸟浏览器SuperBrowser.svg
       url: https://www.superbrowser.com?from=dy.199908.top
-      description: 紫鸟浏览器，跨境电商一站式解决方案！支持多重数据加密，通过账号密码自动填充、权限管控、风险操作预警、登录日志溯源等方式多角度保护您的店铺安全，规避可能发生的风险。
+      description: 紫鸟浏览器，跨境电商一站式解决方案！支持多重数据加密
     - title: 跨境卫士
       logo: images/电商工具/跨境卫士.png
       url: https://www.kuajingvs.com?from=dy.199908.top
-      description: 跨境卫士专注跨境电商账号安全运营，解决多平台多账号关联问题，支持亚马逊，eBay、速卖通、Wish、shopee等更多平台。随时随地登录
+      description: 跨境卫士专注跨境电商账号安全运营
   - name: 客服工具
     links:
     - title: 举报职业投诉人（职业索赔联合治理）
       logo: images/电商工具/举报职业投诉人_职业索赔联合治理_.png
       url: https://seller110.taobao.com/#?from=dy.199908.top
-      description: 打击恶意行为，遏制职业举报！平台通过风控维度，为您主动识别疑似遭受职业索赔人索赔的订单，请您即时关注处理并进行举证核实，若核实成立，平台将会对该笔异常的订单指标进行剔除，并评估该买家帐户进行相应处置。
+      description: 打击恶意行为，遏制职业举报！平台通过风控维度
     - title: 八卦盾 – 营商保
       logo: images/电商工具/八卦盾___营商保.png
       url: https://ss.taobao.com?from=dy.199908.top
@@ -401,27 +400,27 @@
     - title: 反恶联盟 – 反职业打假人联盟
       logo: images/电商工具/反恶联盟___反职业打假人联盟.png
       url: http://www.felmvip.com?from=dy.199908.top
-      description: 反恶联盟(www.felmvip.com)是一个开放共享的反职业打假人联盟（淘宝、天猫、京东、苏宁、阿里巴巴），本站所有数据全由网站会员添加，本站只提供电商反恶交流平台！
+      description: 反恶联盟(www.felmvip.com)是一个开放
     - title: 国家邮政局申诉网站（投诉快递公司）
       logo: images/电商工具/国家邮政局申诉网站_投诉快递公司_.svg
       url: http://sswz.spb.gov.cn?from=dy.199908.top
-      description: 快递有问题，投诉到快递公司总部也解决不了，那就直接进入国家邮政局申诉，可以有效对快递和企业进行处罚。
+      description: 快递有问题，投诉到快递公司总部也解决不了
     - title: 客服宝快捷回复软件
       logo: images/电商工具/客服宝快捷回复软件.jpg
       url: https://www.kefubao.com?from=dy.199908.top
-      description: 客服宝是一款跨平台快捷回复工具，让客服少打字回复快，解决客服工作中相同问题重复回复，打字又慢又辛苦的问题，还能大幅提升对话质量。
+      description: 客服宝是一款跨平台快捷回复工具，让客服少打字回复快
     - title: 客聊宝 – 客服聊天助手
       logo: images/电商工具/客聊宝___客服聊天助手.svg
       url: http://www.keliaobao.com?from=dy.199908.top
-      description: 客聊宝是目前多款聊天助手里较为强大,比较专业的快捷回复软件,支持话术快捷发送与存储,一键发送,员工账户管理等相关功能,支持微信,千牛,阿里旺旺,拼多多等各类IM软件的快捷回复。
+      description: 客聊宝是目前多款聊天助手里较为强大,比较专业的快捷回
     - title: 快递100
       logo: images/电商工具/快递100.png
       url: https://www.kuaidi100.com?from=dy.199908.top
-      description: 一站式查快递、寄快递信息服务平台。支持全球1000+快递公司单号查询、价格查询、时效查询；支持商家寄件、寄快递，国际快递、同城快递、大件物流；提供企业级快递查询API接口、电子面单API接口、寄件API接口
+      description: 一站式查快递、寄快递信息服务平台
     - title: 恶意行为投诉中心
       logo: images/电商工具/恶意行为投诉中心.png
       url: https://tousu.taobao.com/#?from=dy.199908.top
-      description: “恶意行为投诉中心”是将原有规蜜、金箍棒、云标签3款恶防工具进行优质功能融合后的一款独立恶防工具。
+      description: “恶意行为投诉中心”是将原有规蜜、金箍棒
     - title: 掌柜查查 – 订单检测的反打假神器
       logo: images/电商工具/掌柜查查___订单检测的反打假神器.png
       url: https://www.zgchacha.com/plugin.html?from=dy.199908.top
@@ -429,11 +428,11 @@
     - title: 新榜小豆芽
       logo: images/电商工具/新榜小豆芽.png
       url: https://d.newrank.cn?from=dy.199908.top
-      description: 新榜旗下跨平台多账号自媒体管理工具，支持多账号管理，一键发布，私信/评论回复，AI混剪等功能
+      description: 新榜旗下跨平台多账号自媒体管理工具，支持多账号管理
     - title: 极速客服
       logo: images/电商工具/极速客服.png
       url: https://kf.hellomadou.com?from=dy.199908.top
-      description: 客服必备快捷聊天助手，提高回复效率，节省打字时间，下载即可使用，所有功能免费使用。
+      description: 客服必备快捷聊天助手，提高回复效率，节省打字时间
     - title: 淘宝 – 卖家服务中心
       logo: images/电商工具/淘宝___卖家服务中心.svg
       url: https://consumerservice.taobao.com?from=dy.199908.top
@@ -441,7 +440,7 @@
     - title: 淘宝举报中心
       logo: images/电商工具/淘宝举报中心.png
       url: https://jubao.taobao.com?from=dy.199908.top
-      description: 淘宝官方举报中心，全网举报平台目前受理的举报类型有：虚假交易举报、换宝贝举报、收到空包裹举报、假冒及盗版举报、滥发信息举报、天猫举报、违禁品举报哦。
+      description: 淘宝官方举报中心，全网举报平台目前受理的举报类型有
     - title: 评价好助手 – 中差评处理神器
       logo: images/电商工具/评价好助手___中差评处理神器.png
       url: http://www.dadaowl.cn/product?tab=0#tool&from=dy.199908.top
@@ -479,16 +478,14 @@
     - title: 通途ERP
       logo: images/电商工具/通途ERP.png
       url: https://www.tongtool.com?from=dy.199908.top
-      description: 联系微信18033050034，新客注册享100元优惠券
+      description: 联系微信18033050034
     - title: 妙手ERP
       logo: images/电商工具/妙手ERP.png
       url: https://erp.91miaoshou.com?from=dy.199908.top
-      description: 免费使用! 50万跨境卖家首选ERP，不限单量
       description: 新用户免费试用7天
     - title: 万里牛
       logo: images/电商工具/万里牛.png
       url: http://www.wanliniu.com?from=dy.199908.top
-      description: 免费试用15天
       description: 注册即免费赠送3000单
     - title: 全卖通
       logo: images/电商工具/全卖通.png
@@ -500,9 +497,8 @@
       description: TikTok美国本土店铺精细化运营ERP
     - title: 蓝鲸BI
       logo: images/电商工具/蓝鲸BI.png
-      url: https://www.partnershare.cn/product/lan-jing-bi-mei-ke-duo-shu-ju-fen-xi-zhuan-jia?from=dy.199908.top
-      description: 美客多数据分析专家
-
+      url: https://www.lingdongsz.com?from=dy.199908.top
+      description: 美客多一站式选品，运营软件工具
 - taxonomy: AI工具集
   icon: fa-robot
   list:
@@ -520,11 +516,11 @@
     - title: 问小白
       logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
-      description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
+      description: DeepSeek满血版AI智能助手，高性能版本
     - title: 豆包
       logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费A
     - title: 讯飞星火
       logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
@@ -532,11 +528,11 @@
     - title: 秘塔写作猫
       logo: images/AI工具集/秘塔写作猫.png
       url: https://xiezuocat.com
-      description: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
+      description: AI写作伴侣,帮你推敲用语、斟酌文法
     - title: 笔灵AI写作
       logo: images/AI工具集/笔灵AI写作.png
       url: https://ibiling.cn/?from=bgrdh
-      description: 全能型AI写作工具，AI 文章撰写、AI 论文写作、AI小说写作、文章降重降AI等
+      description: 全能型AI写作工具，AI 文章撰写、AI 论文写作
     - title: 66论文
       logo: images/AI工具集/66论文.png
       url: https://www.66paper.cn/AI_A14BB05
@@ -544,19 +540,19 @@
     - title: AI一键生成论文
       logo: images/AI工具集/AI一键生成论文.png
       url: https://ibiling.cn/paper?from=bgrpaper
-      description: 毕业论文、千字大纲免费生成，几万字专业初稿，答辩PPT一键生成，更可根据导师要求无限改稿！
+      description: 毕业论文、千字大纲免费生成，几万字专业初稿
     - title: Paperpal
       logo: images/AI工具集/Paperpal.png
       url: https://www.editage.cn/paperpal?utm_source=bgrdh&utm_medium=Banner&utm_campaign=Banner
-      description: 免费英文写作及润色AI工具，兼备翻译及投稿检查等强大功能，大幅节省写作时长
+      description: 免费英文写作及润色AI工具，兼备翻译及投稿检查等功能
     - title: 迅捷AI写作
       logo: images/AI工具集/迅捷AI写作.png
       url: https://www.aichat1234.com/app/?bgrdh
-      description: 利用人工智能技术为用户提供AI全能写作、新媒体写作、日常工作汇报等文稿
+      description: 利用人工智能技术为用户提供AI全能写作、新媒体写作
     - title: 稿定AI文案
       logo: images/AI工具集/稿定AI文案.png
       url: https://www.gaoding.com/utms/276f1b8eebd948c08bde424e16335b3e
-      description: 小红书笔记、公众号、周报总结、视频脚本等智能文案生成平台
+      description: 小红书笔记、公众号、周报总结
     - title: 蛙蛙写作
       logo: images/AI工具集/蛙蛙写作.png
       url: https://wawawriter.com/app/?utm_source=aiweb5
@@ -572,19 +568,19 @@
     - title: 讯飞文书
       logo: images/AI工具集/讯飞文书.png
       url: https://gw.iflydocs.com/?from=AIjihe6
-      description: 基于讯飞星火大模型进行文书数据定制训练，面向文书写作群体推出的一款AI材料写作平台
+      description: 基于讯飞星火大模型进行文书数据定制训练
     - title: 135编辑器AI排版
       logo: images/AI工具集/135编辑器AI排版.png
       url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl
-      description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版。
+      description: 135编辑器的AI排版功能专为智能图文排版工具
     - title: 笔灵AI小说
       logo: images/AI工具集/笔灵AI小说.png
       url: https://ibiling.cn/novel-workbench/?from=bgrnovel
-      description: 汇集爆款小说拆解、小说大纲一键生成、200+小说生成器、总结网文大神写作公式、精选小说资料库。
+      description: 汇集爆款小说拆解、小说大纲一键生成
     - title: 论文降AIGC率
       logo: images/AI工具集/论文降AIGC率.png
       url: https://ibiling.cn/paper-pass?from=bgrdhpass
-      description: 论文降AI神器！全网最先适配知网2.13升级+维普+万方，其他工具已失效，轻松通过检测！
+      description: 论文降AI神器！全网最先适配知网2.13升级+维普+
     - title: 知渊AI论文写作
       logo: images/AI工具集/知渊AI论文写作.png
       url: https://www.zeedeep.com
@@ -592,11 +588,11 @@
     - title: 论小文
       logo: images/AI工具集/论小文.png
       url: https://www.aipaperok.com
-      description: 论小文 可靠的学术助手，免费生成大纲，一键生成3w+字论文。包括11种写作学术类型，支持查重降重，所有参考文献真实可查！
+      description: 论小文 可靠的学术助手，免费生成大纲
     - title: AI Text Humanizer
       logo: images/AI工具集/AI Text Humanizer.svg
       url: https://www.aitexthumanizer.app
-      description: AI文本人性化工具可将AI生成的内容转化为自然、拟人化的文本。它能优化语言流畅度，采用对话式表达，并避免机械化的措辞。可帮助用户为不同内容需求创作更自然、更具吸引力的材料。
+      description: AI文本人性化工具可将AI生成的内容转化为自然
     - title: 慧言AI
       logo: images/AI工具集/慧言AI.png
       url: https://l.huiyan-ai.cn/s/JEWJ1G
@@ -604,25 +600,25 @@
     - title: 笔目鱼英文论文写作器
       logo: images/AI工具集/笔目鱼英文论文写作器.png
       url: https://www.bmysci.com/?channelCode=bgrdhad
-      description: 笔目鱼是一款专为中国科研人而研发的学术论文写作器，功能集学术润色，改写改写，全文翻译，学科语料、一键插入参考文献、场景句式、查重、资料库管理为一体的云端学术论文写作器。
+      description: 笔目鱼是一款专为中国科研人而研发的学术论文写作器
     - title: 文佳AI论文写作
       logo: images/AI工具集/文佳AI论文写作.png
       url: https://www.paperflowai.com
-      description: 文佳AI-专业AI论文生成,近百万人使用的AI论文生成平台,一键原创生成,快速高效！选题/生成大纲/完整论文生成/文献综述等一键完成,辅助论文写作神器！
+      description: 文佳AI-专业AI论文生成,近百万人使用的AI论文生
     - title: Detectordeia
       logo: images/AI工具集/Detectordeia.png
       url: https://www.detectordeia.org
-      description: Detectordeia可通过分析文本来确定文本是由人工智能撰写还是由人工撰写。完全免费，无需注册即可使用。
+      description: Detectordeia可通过分析文本来确定文本是由
   - name: 聊天对话
     links:
     - title: 问小白
       logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
-      description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
+      description: DeepSeek满血版AI智能助手，高性能版本
     - title: 豆包
       logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费A
     - title: 讯飞星火
       logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
@@ -630,11 +626,11 @@
     - title: Kimi智能助手
       logo: images/AI工具集/Kimi智能助手.jpg
       url: https://kimi.moonshot.cn
-      description: 免费多功能AI助手，自从用了Kimi,每天都能准时下班了。日报周报？Kimi一键帮你搞定。
+      description: 免费多功能AI助手，自从用了Kimi,每天都能准时下
     - title: 文心一言
       logo: images/AI工具集/文心一言.png
       url: https://yiyan.baidu.com
-      description: 百度全新一代知识增强大语言模型，文心一言官方网站在线网页版使用入口
+      description: 百度全新一代知识增强大语言模型
     - title: 智谱清言
       logo: images/AI工具集/智谱清言.png
       url: https://chatglm.cn
@@ -642,11 +638,11 @@
     - title: 腾讯元宝
       logo: images/AI工具集/腾讯元宝.png
       url: https://yuanbao.tencent.com
-      description: 腾讯元宝是腾讯公司推出的一款基于自研混元大模型技术的C端AI智能助手App，旨在为用户提供高效、便捷的智能服务。
+      description: 腾讯元宝是腾讯公司推出的一款基于自研混元大模型技术的
     - title: 天工AI
       logo: images/AI工具集/天工AI.png
       url: https://www.tiangong.cn
-      description: 天工是一款支持搜索、写作、对话、文档分析、画画、做PPT的全能型AI助手。借助AI技术，检索信息、多语言翻译、写论文、写代码、写方案、写汇报、做PPT、归纳总结文档和音频视频等。
+      description: 天工是一款支持搜索、写作、对话、文档分析、画画
     - title: DeepSeek
       logo: images/AI工具集/DeepSeek.png
       url: https://www.deepseek.com
@@ -654,19 +650,19 @@
     - title: 当贝AI
       logo: images/AI工具集/当贝AI.png
       url: https://ai.dangbei.com
-      description: 当贝AI官网DeepSeek满血版，当贝AI聚合全网优质AI大模型，包括满血版DeepSeek-R1 671B、豆包AI、通义千问等优质AI大模型，当贝AI提供一站式AI解决方案，极速、高效、免费、不限量！
+      description: 当贝AI官网DeepSeek满血版
     - title: Qwen Chat
       logo: images/AI工具集/Qwen Chat.png
       url: https://chat.qwen.ai
-      description: Qwen Chat 是阿里通义推出的一款多功能 AI 大型语言模型 Web 界面平台，旨在为用户提供高效、便捷的 AI 交互体验。
+      description: Qwen Chat 是阿里通义推出的一款多功能 AI
     - title: 华为小艺
       logo: images/AI工具集/华为小艺.png
       url: https://xiaoyi.huawei.com
-      description: 华为小艺是具备多种功能，包括AI问答、AI写作、AI识图、AI阅读、翻译、代码生成等，能够覆盖从科学到文化、从技术到社会等多个领域，全面提升用户的生活质量和工作效率。
+      description: 华为小艺是具备多种功能，包括AI问答、AI写作
     - title: 纳米AI助手
       logo: images/AI工具集/纳米AI助手.png
       url: https://bot.n.cn
-      description: 360公司推出的一款创新性人工智能工具，核心功能包括多模态交互、智能问答、内容创作以及深度学习等
+      description: 360公司推出的一款创新性人工智能工具
     - title: 小悟空
       logo: images/AI工具集/小悟空.png
       url: https://wukong.com/tool
@@ -686,37 +682,37 @@
     - title: Flowith
       logo: images/AI工具集/Flowith.png
       url: https://flowith.net?inv=BGRDHH
-      description: Flowith 是一个专注于人工智能创作与任务执行的平台，旨在帮助用户将日常的洞察转化为创意突破。
+      description: Flowith 是一个专注于人工智能创作与任务执行的
     - title: 稿定AI对话
       logo: images/AI工具集/稿定AI对话.png
       url: https://www.gaoding.com/utms/73cd9dc6ff4744f18dcfaa55064da7b5
-      description: 满血版DeepSeek-R1, 支持智能创意生成，提升创作效率
+      description: 满血版DeepSeek-R1, 支持智能创意生成
     - title: ChatGPT 引导语
       logo: images/AI工具集/ChatGPT 引导语.png
       url: https://prompts.fresns.cn
-      description: ChatGPT 引导语是一个汇集了丰富 ChatGPT 引导语、创意写作灵感与实用技巧的优质平台，致力于帮助用户激发无限创意，提升写作效率与质量。
+      description: ChatGPT 引导语是一个汇集了丰富
     - title: AiShort
       logo: images/AI工具集/AiShort.ico
       url: https://www.aishort.top
-      description: AiShort(ChatGPT Shortcut) 是一个高效的 AI 智能体与提示词平台，不仅能发现海量高质量的提示词，更能轻松构建、管理并一键运行强大的 AI 智能体，实现复杂任务的自动化。
+      description: AiShort(ChatGPT Shortcut)
     - title: 大思政数智平台“思政通”
       logo: images/AI工具集/大思政数智平台“思政通”.png
       url: https://chatmarx.zihaoai.cn
-      description: 思政问答人工智能助手，大学思政教材问答GPT，可以向提问关于中国近现代史、思修、毛概、马原、社会时事新闻的问题，可以在切换人物设定。
+      description: 思政问答人工智能助手，大学思政教材问答GPT
     - 'title:': Poe
       logo: ./images/AI工具集/Poe.png
       url: https://poe.com
-      description: Poe.com汇聚卓越人工智能，一站式体验。探索 GPT-4.5、Claude 3.7 Sonnet、DeepSeek-R1、Runway、ElevenLabs 以及数百万其他产品。
+      description: Poe.com汇聚卓越人工智能，一站式体验。探索
   - name: 办公提效
     links:
     - title: 问小白
       logo: images/AI工具集/问小白.jpg
       url: https://www.wenxiaobai.com/?forceLogin=true&source=bgrdh&ad_source=bgrdh
-      description: DeepSeek满血版AI智能助手，高性能版本，不会服务器繁忙，注册登录免费使用
+      description: DeepSeek满血版AI智能助手，高性能版本
     - title: 豆包
       logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费A
     - title: 讯飞星火
       logo: images/AI工具集/讯飞星火.png
       url: https://xinghuo.xfyun.cn/desk?ch=xh_Sltie
@@ -724,7 +720,7 @@
     - title: 文多多AiPPT/免费生成
       logo: images/AI工具集/文多多AiPPT_免费生成.png
       url: https://docmee.cn/?source=bangongr
-      description: AI根据主题、文档、网址智能生成PPT文档，同时支持在线编辑、美化、排版、导出、一键动效、自动生成演讲稿等功能
+      description: AI根据主题、文档、网址智能生成PPT文档
     - title: 免费AI生成PPT
       logo: images/AI工具集/免费AI生成PPT.png
       url: https://www.aippt.cn/?utm_type=Navweb&utm_source=bgrdh&utm_page=aippt&utm_plan=aippt&utm_unit=AIPPT&utm_keyword=36302531
@@ -736,7 +732,7 @@
     - title: 讯飞智文
       logo: images/AI工具集/讯飞智文.png
       url: https://zhiwen.xfyun.cn
-      description: 讯飞智文是科大讯飞推出的一款基于人工智能技术的智能文档处理工具
+      description: 讯飞智文是科大讯飞推出的一款基于人工智能技术的智能文
     - title: 绘蛙
       logo: images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com
@@ -748,7 +744,7 @@
     - title: 酷表ChatExcel
       logo: images/AI工具集/酷表ChatExcel.png
       url: https://chatexcel.com
-      description: 酷表ChatExcel是一款基于AI的智能表格处理工具
+      description: 酷表ChatExcel是一款基于AI的智能表格处理工
     - title: AI智能生成PPT
       logo: images/AI工具集/AI智能生成PPT.png
       url: https://www.aippt.com
@@ -814,11 +810,11 @@
     - title: 豆包
       logo: images/AI工具集/豆包.png
       url: http://dis.csqixiang.cn/unpo/dbcodingbgrdh.html
-      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费AI助手，答疑解惑，提供灵感，辅助创作，豆包AI编程
+      description: 全能AI助手，人人必备！豆包是字节跳动公司开发免费A
     - title: 绘蛙
       logo: images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
-      description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
+      description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创
     - title: 稿定AI绘图
       logo: images/AI工具集/稿定AI绘图.png
       url: https://www.gaoding.com/utms/45dd0ffdf1394b63ab0993b060f86c82
@@ -826,11 +822,11 @@
     - title: 稿定AI工具集
       logo: images/AI工具集/稿定AI工具集.png
       url: https://www.gaoding.com/utms/a9cf58991d7241b09ac178209c761006
-      description: AI图片处理、AI绘图等一站式AI图像创作和设计平台；
+      description: AI图片处理、AI绘图等一站式AI图像创作和设计平台
     - title: 百度画一画
       logo: images/AI工具集/百度画一画.svg
       url: https://image.baidu.com/front/aigc
-      description: 免费AI绘画工具，百度画一画是一款由百度推出的AI绘画工具，旨在通过文字描述生成图像。
+      description: 免费AI绘画工具，百度画一画是一款由百度推出的AI绘
     - title: 腾讯混元生图
       logo: images/AI工具集/腾讯混元生图.png
       url: https://image.hunyuan.tencent.com
@@ -850,7 +846,7 @@
     - title: 即梦
       logo: images/AI工具集/即梦.png
       url: https://jimeng.jianying.com
-      description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
+      description: 一站式AI创作平台，免费AI图片和视频生成
     - title: 海艺AI
       logo: images/AI工具集/海艺AI.png
       url: https://www.haiyi.art
@@ -866,19 +862,19 @@
     - title: Raphael AI
       logo: images/AI工具集/Raphael AI.png
       url: https://raphael.app/zh
-      description: 免费无限制 AI 图像生成器，使用 Raphael 创建精美图像，这是全球首个完全免费且无限制的 AI 图像生成器，由 FLUX.1-Dev 模型驱动。无需注册，图像质量卓越。
+      description: 免费无限制 AI 图像生成器，使用 Raphael
     - title: A1.art
       logo: images/AI工具集/A1.art.png
       url: https://a1.art/zh
-      description: a1是一个免费的在线AI图片生成器，轻松创建和使用图片滤镜，只需一键即可生成令人惊叹的AI艺术作品
+      description: a1是一个免费的在线AI图片生成器
     - title: 亦心AI
       logo: images/AI工具集/亦心AI.png
       url: https://aigc.photosir.com
-      description: AI绘画创作平台，提供AI工坊、AI商品图、AI动漫、AI闪绘、AI艺术字等多种创作工具，覆盖图片生成、海报设计、商品图制作、动态漫画创作等多个领域
+      description: AI绘画创作平台，提供多种创作工具，覆盖多个领域
     - title: Vega AI
       logo: images/AI工具集/Vega AI.png
       url: https://applet.rightbrainai.cn
-      description: 国内专业的ai创作平台，支持文本生成图片，图片风格转换
+      description: 国内专业的ai创作平台，支持文本生成图片
     - title: 腾讯云AI绘画
       logo: images/AI工具集/腾讯云AI绘画.ico
       url: https://ti-image.cloud.tencent.com/text-to-image
@@ -890,7 +886,7 @@
     - title: 免费AI图片生成器
       logo: images/AI工具集/免费AI图片生成器.ico
       url: https://freeimgen.com/zh
-      description: 免费AI图片生成器，秒级生成AI图片，100%免费，无需注册，无需信用卡
+      description: 免费AI图片生成器，秒级生成AI图片
     - title: FreeGen
       logo: images/AI工具集/FreeGen.ico
       url: https://freegen.godsbee.com
@@ -908,11 +904,11 @@
     - title: 绘蛙
       logo: images/AI工具集/绘蛙.png
       url: https://www.ihuiwa.com/invite?huiwaInviteCode=EMAIFL
-      description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创作的效率和质量
+      description: AI电商营销工具，旨在帮助商家和内容创作者提高内容创
     - title: 稿定AI工具集
       logo: images/AI工具集/稿定AI工具集.png
       url: https://www.gaoding.com/utms/a9cf58991d7241b09ac178209c761006
-      description: AI图片处理、AI绘图等一站式AI图像创作和设计平台；
+      description: AI图片处理、AI绘图等一站式AI图像创作和设计平台
     - title: 稿定AI设计
       logo: images/AI工具集/稿定AI设计.png
       url: https://www.gaoding.com/utms/6099dcf205a2404d90c4757c893335b4
@@ -920,7 +916,7 @@
     - title: 百度AI图片助手
       logo: images/AI工具集/百度AI图片助手.png
       url: https://image.baidu.com
-      description: 百度AI图片助手是一款由百度公司推出的强大且免费的在线图像处理工具，旨在为用户提供高效、便捷的图片编辑和优化服务。
+      description: 百度AI图片助手是一款由百度公司推出的强大且免费的在
     - title: 360智图
       logo: images/AI工具集/360智图.png
       url: https://pic.360.com
@@ -928,75 +924,75 @@
     - title: AI图像编辑器
       logo: images/AI工具集/AI图像编辑器.png
       url: https://aiimageeditor.ai/zh
-      description: 通过简洁的文字提示即可完成专业级图像编辑，在几秒内完成 AI 驱动的精细编辑，无需 PS 技能
+      description: 通过简洁的文字提示即可完成专业级图像编辑
     - title: 潮际好麦
       logo: images/AI工具集/潮际好麦.ico
       url: https://marketing.k-fashionshop.com
-      description: 潮际好麦专注于提供虚拟试衣、AI换背景、虚拟试鞋、智能换脸、AI模特等服务，是一款AIGC电商内容生成工具。现在注册就可以免费生图50-100张
+      description: 潮际好麦专注于提供虚拟试衣、AI换背景、虚拟试鞋
     - title: 在线AI换脸
       logo: images/AI工具集/在线AI换脸.ico
       url: https://ai.138u.com
-      description: 在线AI换脸提供了一个便捷、安全的平台，让用户能够轻松地将照片或视频中的面孔替换为其他面孔，创造出个性化和搞笑的视频或照片。
+      description: 在线AI换脸提供了一个便捷、安全的平台
     - title: BeArt AI
       logo: images/AI工具集/BeArt_AI.ico
       url: https://beart.ai/zh
-      description: BeArt AI是一个专注于AI照片和视频换脸的在线工具，提供免费、无水印的服务，用户可以通过上传图片或视频实现面部交换功能。
+      description: BeArt AI是一个专注于AI照片和视频换脸的在线
     - title: Logent AI
       logo: images/AI工具集/Logent_AI.png
       url: https://logent.ai/zh
-      description: Logent AI 是一个基于 AI Agent 技术的在线 Logo 生成器，旨在为用户提供快速、高效且专业化的品牌形象设计解决方案。
+      description: Logent AI 是一个基于 AI Agent
     - title: Looka
       logo: images/AI工具集/Looka.png
       url: https://looka.com
-      description: Looka 是一个由人工智能驱动的在线品牌设计平台，提供了一系列功能强大的设计工具，包括Logo设计、名片设计、社交媒体模板以及品牌套件等服务，适用于各种规模的企业和个人用户。
+      description: Looka 是一个由人工智能驱动的在线品牌设计平台
     - title: Spline
       logo: images/AI工具集/Spline.png
       url: https://spline.design
-      description: Spline是一款基于浏览器的轻量级3D设计工具，适合快速创建交互式三维模型。其特点包括：支持实时协作、参数化建模、动画制作和物理模拟。
+      description: Spline是一款基于浏览器的轻量级3D设计工具
     - title: Immersity AI
       logo: images/AI工具集/Immersity_AI.png
       url: https://www.immersity.ai
-      description: Immersity AI平台利用先进的神经深度引擎技术，能够快速生成高质量的深度图，从而将二维平面内容转化为具有深度和动态效果的三维内容，为用户提供前所未有的视觉体验。
+      description: Immersity AI平台利用先进的神经深度引擎技
     - title: 知末AI绘图
       logo: images/AI工具集/知末AI绘图.png
       url: https://ai.znzmo.cn/community/AIDrawPage.html
-      description: 知末AI绘图，专注于 建筑、景观、室内 领域的智能绘图，支持 文生图、图生图、彩平图、智能编辑，一键生成高质量效果图，提升设计效率。
+      description: 知末AI绘图，专注于 建筑、景观、室内
     - title: 创造家
       logo: images/AI工具集/创造家.png
       url: https://www.chuangzaojia.com
-      description: 创造家聚合全球数百万的3D设计师，为您提供海量的3D模型下载，包括FBX,OBJ,glTF,STL,USDZ,DAE,3DS,MAX,GLB等主流3D格式。
+      description: 创造家聚合全球数百万的3D设计师
     - title: PhotoMagic
       logo: images/AI工具集/PhotoMagic.png
       url: https://www.photomagic.cn
-      description: PhotoMagic是一款AI商拍工具，核心功能包括模特换脸、场景转换、高清精修美化等，能够快速生成高质量的商品场景图，适用于服饰、鞋包、配饰等多种电商场景。
+      description: PhotoMagic是一款AI商拍工具
     - title: PixelForce
       logo: images/AI工具集/PixelForce.ico
       url: https://pixel-home.hiforce.net
-      description: PixelForce是一款专注于电商图片生成领域的AI工具，旨在通过前沿人工智能技术简化商业摄影流程，为用户提供高效、便捷的图像生成解决方案。
+      description: PixelForce是一款专注于电商图片生成领域的A
     - title: Mockey
       logo: images/AI工具集/Mockey.png
       url: https://mockey.ai
-      description: Mockey是一款功能强大的免费在线AI样机生成器，广泛应用于服装、配饰、电子产品等多种产品的模拟设计中。
+      description: Mockey是一款功能强大的免费在线AI样机生成器
     - title: 创自由
       logo: images/AI工具集/创自由.png
       url: https://www.chuangziyou.com
-      description: 创自由是一款AI工具，功能强大，提供AI作图，AI穿衣，AI商品图合成替换，在线图片设计，海报/视频封面/广告图在线编辑制作，多个平台AI文案生成等功能。
+      description: 创自由是一款AI工具，功能强大，提供AI作图
     - title: 字体家AI造字
       logo: images/AI工具集/字体家AI造字.ico
       url: https://www.ai.zitijia.com
-      description: 字体家AI神笔是一款基于深度学习技术的个性化字体生成工具，由字体家团队开发，旨在通过用户的手写样本生成独特的字体模型。
+      description: 字体家AI神笔基于AI技术的个性化字体生成工具
     - title: 蜂鸟AI
       logo: images/AI工具集/蜂鸟AI.png
       url: https://fengniaoai.com
-      description: 蜂鸟AI是一款跨境电商AI营销工具，包括AI翻译、AI图片创作、AI文案写作以及AI图片编辑等，支持多语言版本转换、智能商拍、场景替换等功能。
+      description: 蜂鸟AI是一款跨境电商AI营销工具，包括AI翻译
     - title: 家作
       logo: images/AI工具集/家作.png
       url: https://jiazuo.taobao.com
-      description: 家作AI是一款AI设计工具，专注于家装、家居和家电行业的智能创意制作和营销平台。功能包括一键生成多种风格的场景图、支持自定义设计以及AI模特展示等，提升商家的设计效率和营销能力。
+      description: 家作AI是一款AI设计工具，专注于家装
     - title: 唯象
       logo: images/AI工具集/唯象.png
       url: https://www.weshop.com
-      description: WeShop唯象是专注电商需求的AI商拍工具，专注电商产品图片的智能生成。品牌方无需再受到模特、经纪、摄影、后期、场租、机酒的限制，高效产出优质商品图，大幅节约拍摄成本。
+      description: WeShop唯象是专注电商需求的AI商拍工具
   - name: 视频工具
     links:
     - title: 剪映
@@ -1006,11 +1002,11 @@
     - title: 腾讯智影
       logo: images/AI工具集/腾讯智影.png
       url: https://zenvideo.qq.com
-      description: 一款云端智能视频创作工具，集素材搜集、视频剪辑、渲染导出和发布于一体的免费在线剪辑平台
+      description: 一款云端智能视频创作工具，集素材搜集、视频剪辑
     - title: 即梦
       logo: images/AI工具集/即梦.png
       url: https://jimeng.jianying.com
-      description: 一站式AI创作平台，免费AI图片和视频生成，抖音旗下AI绘画工具
+      description: 一站式AI创作平台，免费AI图片和视频生成
     - title: 可灵AI
       logo: images/AI工具集/可灵AI.png
       url: https://klingai.kuaishou.com
@@ -1022,7 +1018,7 @@
     - title: 讯飞绘镜
       logo: images/AI工具集/讯飞绘镜.png
       url: https://typemovie.art/?utm_source=nt-ai7#/dashboard
-      description: 讯飞绘镜是科大讯飞推出的一款基于人工智能技术的AI视频创作平台，旨在简化视频创作流程，帮助用户将创意快速转化为高质量的视频内容。
+      description: 讯飞绘镜是科大讯飞推出的一款基于人工智能技术的AI视
     - title: 度加
       logo: images/AI工具集/度加.png
       url: https://aigc.baidu.com
@@ -1030,7 +1026,7 @@
     - title: 万彩AI
       logo: images/AI工具集/万彩AI.png
       url: https://ai.kezhan365.com/?utm_code=bgr-gwn-dhl-005
-      description: 除了提供AI智能写作支持之外，还集成了AI换脸、照片数字人制作和AI短视频制作等强大的AI生成内容功能
+      description: 除了提供AI智能写作支持之外，还集成了AI换脸
     - title: 蝉镜
       logo: images/AI工具集/蝉镜.png
       url: https://www.chanjing.cc/refc/?type=hzBuy&id=r1AGlgGa2hWA8IM4MruNFPfd_RnJw_O-t9nq8PR3_Tc
@@ -1046,7 +1042,7 @@
     - title: 绘蛙-多图成片
       logo: images/AI工具集/绘蛙-多图成片.png
       url: https://www.ihuiwa.com/workspace/ai-video/multi-img?huiwaInviteCode=EMAIFL
-      description: 将多张静态图片快速合成为动态视频，适用于电商、社交媒体等多种场景
+      description: 将多张静态图片快速合成为动态视频，适用多种场景
     - title: AI视频生成
       logo: images/AI工具集/AI视频生成.png
       url: 'https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMAIFL '
@@ -1058,43 +1054,43 @@
     - title: 无痕AI
       logo: images/AI工具集/无痕AI.png
       url: https://www.wuhenai.com
-      description: 无痕AI是一款在线AI视频消除工具，支持无痕视频去水印文字，视频去字幕，以及去除视频中不想要的人或物。高清导出，不模糊画面，也不压缩画质。
+      description: 无痕AI是一款在线AI视频消除工具
     - title: Moonvalley
       logo: images/AI工具集/Moonvalley.png
       url: https://www.moonvalley.com
-      description: Moonvalley 是一个开创性的文本到视频生成 AI 模型，能够根据用户输入的简单文本提示，生成高质量的视频和动画，涵盖从超现实风格到动漫风格的多种视频类型。
+      description: Moonvalley 是一个开创性的文本到视频生成
     - title: Face Swap AI
       logo: images/AI工具集/Face_Swap_AI.png
       url: https://www.videofaceswap.ai
-      description: Video Face Swap AI 是一款基于人工智能的视频换脸工具，用户可以轻松创建高质量、自然的换脸视频。操作简单，适合内容创作者、社交媒体用户和短视频爱好者使用。
+      description: Video Face Swap AI
     - title: rask.ai
       logo: images/AI工具集/rask.ai.png
       url: https://zh.rask.ai
-      description: Rask AI是一个为全球企业提供智能视频本地化解决方案的平台，通过AI驱动的音频和视频配音服务，帮助用户将内容翻译并配音成130多种语言。分享来自ζั͡-ั͡办ั͡公ั͡人ั͡导ั͡航ั͡✾
+      description: Rask AI是一个提供专业服务
     - title: BoomCut
       logo: images/AI工具集/BoomCut.png
       url: https://boomcutai.com
-      description: BoomCut 爆剪辑提供出海营销一站式视频本地化解决方案，提供视频翻译、视频换脸、音色克隆、唇音驱动、智能擦除、字幕翻译等 AI 技术，快速完成本地化营销视频生成
+      description: BoomCut 爆剪辑提供出海营销一站式解决方案
     - title: VidAU
       logo: images/AI工具集/VidAU.png
       url: https://affiliates.vidau.ai/q1ccS9
-      description: VidAU是一款由人工智能驱动的视频生成平台，旨在简化视频创作流程，提升效率并降低成本。适用于 TikTok、YouTube、市场营销、培训等多种使用场景。
+      description: VidAU是一款由人工智能驱动的视频生成平台
     - title: Clipfly
       logo: images/AI工具集/Clipfly.png
       url: https://www.clipfly.ai
-      description: Clipfly 是一款一站式 AI 视频制作平台，旨在通过人工智能技术简化视频创作流程，使用户能够轻松生成高质量的视频内容。
+      description: Clipfly 是一款一站式 AI 视频制作平台
     - title: Kapwing
       logo: images/AI工具集/Kapwing.png
       url: https://www.kapwing.com/cmn-hans-cn
-      description: Kapwing 是一个功能强大的在线视频编辑和内容创作平台，主要通过人工智能技术简化视频制作流程，适合个人用户、内容创作者、教育者和企业用户等多种用户群体。
+      description: Kapwing 是一个功能强大的在线视频编辑和内容创
     - title: AIMIX智剪
       logo: images/AI工具集/AIMIX智剪.png
       url: https://www.aimix.pro
-      description: AIMIX智剪是一款功能强大的AI短视频制作工具，专为提升短视频创作效率和质量而设计。
+      description: AIMIX智剪是一款功能强大的AI短视频制作工具
     - title: Captions
       logo: images/AI工具集/Captions.ico
       url: https://www.captions.ai
-      description: Captions 是一款基于人工智能技术的视频编辑工具，集成了多种功能，包括视频剪辑、字幕添加、滤镜美颜等，能够快速生成高质量的视频内容
+      description: Captions 基于AI技术的视频编辑工具
   - name: 音频工具
     links:
     - title: 闪电配音
@@ -1116,83 +1112,83 @@
     - title: AudioTextHub
       logo: images/AI工具集/AudioTextHub.png
       url: https://www.audiotexthub.pro/zh
-      description: AudioTextHub是一款智能AI文本转语音平台。只需几秒钟，即可将文字转换成自然流畅的语音，支持100+种语言。
+      description: AudioTextHub是一款智能AI文本转语音平台
     - title: 免费语音克隆
       logo: images/AI工具集/免费语音克隆.png
       url: https://aiclonevoicefree.com/zh
-      description: 免费语音克隆，生成与您声音完全一致的AI语音克隆，完全免费。无需订阅，无限使用。
+      description: 免费语音克隆，生成与您声音完全一致的AI语音克隆
     - title: Voice10
       logo: images/AI工具集/Voice10.png
       url: https://voice10.com/index-zh.html
-      description: Voice10是一款免费的AI语音生成工具，支持多语言文本转语音和声音克隆。无需注册即可无限制使用，为用户提供免费的语音内容生成服务。
+      description: Voice10是一款免费的AI语音生成工具
     - title: DiffRhythm
       logo: images/AI工具集/DiffRhythm.png
       url: https://diffrhythm.com/zh
-      description: DiffRhythm 是一个 AI 驱动的音乐生成平台，让您能够使用最先进的扩散模型技术创作专业级的音乐作品。
+      description: DiffRhythm 是一个 AI
     - title: 逗哥配音神器
       logo: images/AI工具集/逗哥配音神器.png
       url: https://www.douge.com
-      description: 逗哥配音是一款500w+达人热推的的AI配音软件，独有的AI智能配音技术,更专业,更完美贴近真人配音。内置丰富的短视频创作工具，文案提取、人声分离等短视频必备功能。
+      description: 逗哥配音是一款500w+达人热推的的AI配音软件
     - title: 爱扒谱
       logo: images/AI工具集/爱扒谱.png
       url: https://www.aibapu.cn
-      description: 爱扒谱是一款用人工智能技术，专业提供人声分离、在线扒谱、在线ai生成音乐、转五线谱、在线MP3转MIDI格式服务，无损音频提取就找爱扒谱网
+      description: 爱扒谱是一款用人工智能技术，专业提供人声分离
     - title: 鸭鸭配音
       logo: images/AI工具集/鸭鸭配音.png
       url: https://www.yayapeiyin.com
-      description: 鸭鸭配音是一个在线配音网站，采用先进的AI语音合成技术，为用户提供高可用性的在线AI配音工具，是一个为短视频创作者量身定制的视频配音网站。
+      description: 鸭鸭配音是一个在线配音网站
     - title: Voicv
       logo: images/AI工具集/Voicv.png
       url: https://voicv.com/zh
-      description: Voicv 是一个尖端的语音克隆平台，能够将用户的语音快速转化为数字资产。其主要特点包括零样本语音克隆、多语言支持、实时处理、高准确性和跨平台支持等。
+      description: Voicv 是一个尖端的语音克隆平台
     - title: TransDuck
       logo: images/AI工具集/TransDuck.png
       url: https://a.transduck.com/sign-up?invite=DG6883JT
-      description: AI音视频处理专家，提供专业的音视频翻译、AI配音、人声分离等一站式音视频处理解决方案，助力音视频创作者实现自动化的内容出海与内容引进
+      description: AI音视频处理专家，提供专业的音视频翻译、AI配音
     - title: 分轨
       logo: images/AI工具集/分轨.ico
       url: https://www.ifengui.com
-      description: 分轨利用人工智能AI提供的人声提取算法对上传的音频中的人声、伴奏、乐器音轨在云端进行分离提取，并可对视频进行视频和人声提供音轨分离服务。
+      description: 分轨利用人工智能AI提供的人声提取算法对上传的音频中
     - title: SongDonkey
       logo: images/AI工具集/SongDonkey.png
       url: https://songdonkey.ai
-      description: SongDonkey 是一个完全免费的人声伴奏分离在线工具，基于人工智能技术，能够从音频文件中分离出人声和伴奏。
+      description: SongDonkey 是一个的人声伴奏分离在线工具
     - title: 录音转文字助手
       logo: images/AI工具集/录音转文字助手.ico
       url: https://www.luyinzhushou.com
-      description: 录音转文字助手是一款在线语音转文字、文字转语音软件,提供在线免费录音转文字、文字转语音、主播配音、语音翻译等服务,解决语音和文本之间互转的难题
+      description: 录音转文字助手是一款在线语音转文字
     - title: VocalRemover
       logo: images/AI工具集/VocalRemover.png
       url: https://vocalremover.org/zh
-      description: VocalRemover是一款AI在线音频处理工具，主要用于从音乐中分离人声和伴奏。能够高效地识别并去除音频文件中的人声部分，同时保留背景音乐的清晰度和音质。
+      description: VocalRemover是一款AI在线音频处理工具
     - title: Ondoku
       logo: images/AI工具集/Ondoku.png
       url: https://ondoku3.com/zh-hans
-      description: Ondoku是一款功能强大的在线文字转语音（TTS）工具，支持多种语言和应用场景。
+      description: Ondoku是一款功能强大的在线文字转语音（TTS）
     - title: lalal.ai
       logo: images/AI工具集/lalal.ai.png
       url: https://www.lalal.ai/zh-hans
-      description: 使用Lalal.ai快速准确地分割人声和器乐曲目，用Lalal.ai快速准确地分割声乐和器乐轨道。上传任何音频文件，并在几秒钟内收到高质量的提取轨道。
+      description: 使用Lalal.ai快速准确地分割人声和器乐曲目
     - title: Soundraw
       logo: images/AI工具集/Soundraw.ico
       url: https://soundraw.io
-      description: Soundraw 是一款 AI 音乐生成器，旨在为用户提供便捷、高效且个性化的音乐创作体验。
+      description: Soundraw 是一款 AI 音乐生成器，提供便捷
     - title: ElevenLabs
       logo: images/AI工具集/ElevenLabs.ico
       url: https://elevenlabs.io
-      description: ElevenLabs的文本转语音工具能够将文本内容转换为自然、逼真的语音，支持多种语言和音色选择。
+      description: ElevenLabs的文本转语音工具能够将文本内容转
     - title: Descript
       logo: images/AI工具集/Descript.png
       url: https://www.descript.com
-      description: Descript 是一款集成了 AI 技术的多功能视频和音频编辑平台，旨在简化内容创作流程，提高效率。
+      description: Descript 是一款集成了 AI
     - title: AIVA
       logo: images/AI工具集/AIVA.ico
       url: https://www.aiva.ai
-      description: AI音乐生成工具，适用于多种场景和用户需求,AIVA不仅能够生成高质量的原创音乐，还能提供个性化的音乐体验，为音乐创作和消费带来了新的可能性。
+      description: AI音乐生成工具，适用于多种场景和用户需求,AIVA
     - title: Speechify
       logo: images/AI工具集/Speechify.png
       url: https://speechify.com/zh-hans
-      description: AI 文字转语音应用，帮助用户将书面文本转换为自然流畅的音频，提高阅读效率和体验。该应用支持多种语言和口音，覆盖超过 200 种自然声音，支持 60 多种语言。
+      description: AI 文字转语音应用，帮助用户将书面文本转换为自然流
   - name: 虚拟形象
     links:
     - title: 秒创数字人直播助手
@@ -1206,35 +1202,35 @@
     - title: 腾讯智影
       logo: images/AI工具集/腾讯智影.png
       url: https://zenvideo.qq.com
-      description: 一款云端智能视频创作工具，集素材搜集、视频剪辑、渲染导出和发布于一体的免费在线剪辑平台
+      description: 一款云端智能视频创作工具，集素材搜集、视频剪辑
     - title: 语鹦学舌数字人
       logo: images/AI工具集/语鹦学舌数字人.png
       url: https://crm.bytell.cn/retalk
-      description: 语鹦学舌数字人分身系统通过先进AI技术，帮助用户快速生成逼真数字人分身，适用于直播带货、短视频创作、企业品牌形象等多场景。
+      description: 语鹦学舌数字人分身系统通过先进AI技术
     - title: 风平智能
       logo: images/AI工具集/风平智能.png
       url: https://fullpeace.cn
-      description: 风平智能是一个领先的AIGC解决方案提供商。风平IP智造平台是基于AIGC的智能化IP打造平台，提供虚拟数字人定制、数字人直播和AI短视频内容生产、IP培育和交易的一站式解决方案。
+      description: 风平智能是一个领先的AIGC解决方案提供商
     - title: 星搭AI
       logo: images/AI工具集/星搭AI.png
       url: https://staringos.com
-      description: 搭建你专属的AI数字员工，专注于基于大模型的AI小模型训练和微调
+      description: 搭建你专属的AI数字员工，专注于基于大模型的AI小模
     - title: 一知智能芽势AI数字人
       logo: images/AI工具集/一知智能芽势AI数字人.png
       url: https://yashi.yiwise.com
-      description: 一知智能芽势数字人能够实现与人类的自然对话，并且具备逼真的外貌和动作表现能力，支持 2D 数字人风格化形象和声音定制，轻松复制 7x24 小时无人/半无人直播间，实现直播场景品牌化。
+      description: 一知智能芽势数字人能够实现与人类的自然对话
     - title: BocaLive
       logo: images/AI工具集/BocaLive.png
       url: https://www.bocalive.ai/zh
-      description: BocaLive是一款跨境电商AI数字人直播工具，支持TikTok、Shopee、Lazada、Tokopedia、Amazon、YouTube、Facebook和AliExpress、阿里国际站等多平台多店铺推流直播。
+      description: BocaLive是一款跨境电商AI数字人直播工具
     - title: Heygem
       logo: images/AI工具集/Heygem.png
       url: http://heygem.ai
-      description: Heygem是一款开源数字人工具，这款工具的核心功能是通过AI技术精准克隆用户的外貌和声音，生成逼真的虚拟形象，并支持文本和语音驱动的虚拟化身，从而实现高效、便捷的视频合成。
+      description: Heygem是一款开源数字人工具
     - title: 灰豚数字人
       logo: images/AI工具集/灰豚数字人.png
       url: https://www.huitunai.com
-      description: AI数字人直播系统,123数字人口播短视频源码,虚拟数字人克隆,AI虚拟主持人制作平台
+      description: AI数字人直播系统,123数字人口播短视频源码,虚拟
     - title: 奇妙问
       logo: images/AI工具集/奇妙问.png
       url: https://ai.weta365.com
@@ -1242,7 +1238,7 @@
     - title: 工作数字人
       logo: images/AI工具集/工作数字人.ico
       url: https://workbrain.cn
-      description: 明途工作数字人WorkChat是基于WorkBrain模型开发的智能对话平台，提供政企办公领域知识问答、文档写作、图形绘制、任务办理等功能，帮助推动政企数智化转型。
+      description: 明途工作数字人WorkChat是基于WorkBrai
     - title: 必剪Studio
       logo: images/AI工具集/必剪Studio.png
       url: https://member.bilibili.com/york/bilibili-studio/home
@@ -1250,11 +1246,11 @@
     - title: 火山引擎虚拟数字人
       logo: images/AI工具集/火山引擎虚拟数字人.png
       url: https://www.volcengine.com/product/avatar
-      description: 字节跳动旗下火山引擎推出的一款创新技术产品，旨在通过人工智能和多模态技术，打造高度拟人化的虚拟形象，为用户提供智能化的交互服务
+      description: 字节跳动旗下火山引擎推出的一款创新技术产品
     - title: 腾讯云智能数智人
       logo: images/AI工具集/腾讯云智能数智人.png
       url: https://cloud.tencent.com/product/ivh
-      description: 一款基于人工智能技术的创新产品，旨在通过打造具有智能、形象和交互能力的虚拟数字人
+      description: 一款基于人工智能技术的创新产品，旨在通过打造具有智能
     - title: 阿里云虚拟数字人
       logo: images/AI工具集/阿里云虚拟数字人.png
       url: https://www.aliyun.com/product/ai/avatar
@@ -1262,7 +1258,7 @@
     - title: 创视元
       logo: images/AI工具集/创视元.png
       url: https://speaker.nnkosmos.com
-      description: 新畅元推出的一款创新性数字人解决方案，致力于为企业提供高质量、高效率、低成本的一站式3D数字人服务
+      description: 新畅元推出的一款创新性数字人解决方案，致力提供高质量
     - title: 造作AI数字人
       logo: images/AI工具集/造作AI数字人.png
       url: https://v.zaozuoai.com
@@ -1270,7 +1266,7 @@
     - title: D-ID
       logo: images/AI工具集/D-ID.png
       url: https://www.d-id.com
-      description: 将静态图像转换为会说话的AI视频虚拟形象，并支持实时人像生成和虚拟口播功能
+      description: 将静态图像转换为会说话的AI视频虚拟形象
     - title: 慧播星
       logo: images/AI工具集/慧播星.png
       url: https://huibo.baidu.com
@@ -1286,12 +1282,11 @@
     - title: 讯飞智作
       logo: images/AI工具集/讯飞智作.png
       url: https://www.xfzhizuo.cn
-      description: AI虚拟人主播,AI视频制作,数字人配音合成,短视频配音等
+      description: AI虚拟人主播,AI视频制作,数字人配音合成,短视频
     - title: KreadoAI
       logo: images/AI工具集/KreadoAI.png
       url: https://www.kreadoai.com
       description: AIGC数字营销创作平台
-
 - taxonomy: 图文设计
   icon: fa-paint-brush
   list:
@@ -1349,11 +1344,11 @@
     - title: 图怪兽
       logo: images/图文设计/图怪兽.png
       url: https://818ps.com?from=dy.199908.top
-      description: 在线平面设计工具，提供海报、banner、公众号首图等模板
+      description: 在线平面设计工具，提供海报、banner
     - title: 标小智
       logo: images/图文设计/标小智.jpeg
       url: https://www.logosc.cn?from=dy.199908.top
-      description: 在线LOGO设计工具，提供LOGO设计和品牌视觉设计服务
+      description: 在线LOGO设计工具，提供LOGO设计和品牌视觉设计
   - name: 排版编辑
     links:
     - title: 小鱼AI写作
@@ -1363,47 +1358,47 @@
     - title: 135编辑器AI排版
       logo: images/图文设计/135编辑器AI排版.png
       url: https://www.135editor.com/ai_editor?share_code=MTUzOTA5NzguMS4xNzQwMDM5NjM2&type=fxyl&from=dy.199908.top
-      description: 专享优惠链接！135编辑器的AI排版功能是一款专为公众号设计的智能图文排版工具，旨在帮助用户高效、便捷地完成图文内容的排版。
+      description: 135编辑器的AI排版功能专为智能图文排版工具
     - title: 小红书爆款模板
       logo: images/图文设计/小红书爆款模板.png
       url: https://d.newrank.cn/nreditor/note?source=tab_xgj_bgrdh&from=dy.199908.top
-      description: 聚合小红书灵感AI、爆款模板/标题/表情包、内容违规词检测等相关功能，为自媒体运营者高效编辑小红书笔记，免费无广，方便好用
+      description: 聚合小红书灵感AI、爆款模板/标题/表情包
     - title: 秘塔写作猫
       logo: images/图文设计/秘塔写作猫.png
       url: https://xiezuocat.com?from=dy.199908.top
-      description: AI写作伴侣,帮你推敲用语、斟酌文法、改写文风,还能实时同步翻译
+      description: AI写作伴侣,帮你推敲用语、斟酌文法
     - title: 微信Markdown编辑器
       logo: images/图文设计/微信Markdown编辑器.png
       url: https://www.md2wechat.cn?from=dy.199908.top
-      description: 微信Markdown编辑器是一款专为微信公众号内容创作者设计的强大工具，它能够将Markdown文档自动即时渲染为微信图文，让用户彻底摆脱繁琐的排版工作。
+      description: 微信Markdown编辑器专为强大工具
     - title: 墨滴mdnice编辑器
       logo: images/图文设计/墨滴mdnice编辑器.png
       url: https://product.mdnice.com?from=dy.199908.top
-      description: 墨滴（mdnice）编辑器是一款专为Markdown排版优化的编辑工具，主要面向微信公众号、知乎和稀土掘金等平台的用户。
+      description: 墨滴（mdnice）编辑器是一款专为Markdown
     - title: 微信Markdown编辑器(doocs)
       logo: images/图文设计/微信Markdown编辑器_doocs.svg
       url: https://doocs.github.io/md?from=dy.199908.top
-      description: 一款专为微信公众号排版设计的高效工具，旨在简化内容创作者的排版流程
+      description: 一款专为微信公众号排版设计的高效工具
     - title: NeuraPress
       logo: images/图文设计/NeuraPress.png
       url: https://md.leti.ltd?from=dy.199908.top
-      description: NeuraPress 是一个将 Markdown 内容转换为微信公众号内容的工具，它允许用户无需进行任何调整即可一键复制 Markdown 内容到微信公众号中使用。
+      description: NeuraPress 是一个将 Markdown
     - title: 易点微信编辑器
       logo: images/图文设计/易点微信编辑器.png
       url: http://www.wxeditor.com?from=dy.199908.top
-      description: 易点微信编辑器是专为微信小编量身定做的一款微信公众号内容排版编辑工具，将以简洁的界面，精美的素材，强大的功能持续为广大微信公众号从业者提供服务。
+      description: 易点微信编辑器是专提供专业服务
     - title: H排版编辑工具
       logo: images/图文设计/H排版编辑工具.svg
       url: https://www.mian.host?from=dy.199908.top
-      description: 一键排版格式化在线网编工具，可以实现一键清除新闻文章等多余格式代码，一键排版网络文章、word文件实现快速格式化。在线一键排版网编工具帮助网络编辑提高文章排版工作效率。
+      description: 一键排版格式化在线网编工具
     - title: 135小红书排版
       logo: images/图文设计/135小红书排版.png
       url: https://www.135editor.com/red.html?from=dy.199908.top
-      description: 135小红书排版神器是一款专为小红书平台设计的AI智能排版工具，旨在帮助用户优化笔记的视觉效果和内容布局，提升笔记的吸引力和阅读体验
+      description: 135小红书排版神器专为AI智能排版工具
     - title: 可能吧公众号排版器
       logo: images/图文设计/可能吧公众号排版器.ico
       url: https://knb.im/mp?from=dy.199908.top
-      description: 一款专注于微信公众号文章排版的Markdown编辑工具
+      description: 一款专注于微信公众号文章排版的Markdown编辑工
     - title: 壹写作
       logo: images/图文设计/壹写作.png
       url: https://www.1xiezuo.com?from=dy.199908.top
@@ -1411,15 +1406,15 @@
     - title: 迅蟒公众号助手
       logo: images/图文设计/迅蟒公众号助手.png
       url: http://bjq.xunmang.com?from=dy.199908.top
-      description: 微信编辑器,微信公众平台图文排版工具,图片素材文章内容编辑软件
+      description: 微信编辑器,微信公众平台图文排版工具,图片素材文章内
     - title: 菜鸟编辑器
       logo: images/图文设计/菜鸟编辑器.ico
       url: https://www.fzneditor.com?from=dy.199908.top
-      description: 微信图文设计软件,微信公众号文章自动排版美化公众平台采集工具
+      description: 微信图文设计软件,微信公众号文章自动排版美化公众平台
     - title: 键盘喵速排
       logo: images/图文设计/键盘喵速排.ico
       url: https://www.jianpanmiao.com?from=dy.199908.top
-      description: 键盘喵速排官网,键盘猫,微信公众号编辑器,公众号素材模板特效
+      description: 键盘喵速排官网,键盘猫,微信公众号编辑器,公众号素材
     - title: e2编辑器
       logo: images/图文设计/e2编辑器.png
       url: https://www.e2.cool?from=dy.199908.top
@@ -1427,7 +1422,7 @@
     - title: 墨星写作网
       logo: images/图文设计/墨星写作网.png
       url: https://www.mx-xz.com?from=dy.199908.top
-      description: 提供各类小说写作技巧学习，网文小说写作素材资料查阅以及各类写作辅助生成工具
+      description: 提供各类小说写作技巧学习，网文小说写作素材资料查阅以
   - name: 图片素材
     links:
     - title: Unsplash
@@ -1499,11 +1494,11 @@
     - title: Iconfinder
       logo: images/图文设计/Iconfinder.png
       url: https://www.iconfinder.com?from=dy.199908.top
-      description: 2,100,000+ free and premium vector icons
+      description: 2,100,000+ free and
     - title: iconmonstr
       logo: images/图文设计/Iconmonstr.png
       url: https://iconmonstr.com?from=dy.199908.top
-      description: Free simple icons for your next project
+      description: Free simple icons for your
     - title: Icon Archive
       logo: images/图文设计/IconArchive.png
       url: http://www.iconarchive.com?from=dy.199908.top
@@ -1511,7 +1506,7 @@
     - title: Font Awesome Icon
       logo: images/图文设计/FontAwesome.png
       url: https://fontawesome.com/icons?from=dy.199908.top
-      description: The complete set of 675 icons in Font Awesome
+      description: The complete set of 675
     - title: LogoMoose
       logo: images/图文设计/logomoose.jpeg
       url: https://www.logomoose.com?from=dy.199908.top
@@ -1531,11 +1526,11 @@
     - title: IcoMoonApp
       logo: images/图文设计/icomoon.svg
       url: https://icomoon.io/app?from=dy.199908.top
-      description: Icon Font, SVG, PDF & PNG Generator
+      description: Icon Font, SVG, PDF & PNG
     - title: Google Font
       logo: images/图文设计/GoogleFont.png
       url: https://fonts.google.com?from=dy.199908.top
-      description: Making the web more beautiful, fast, and open through great typography
+      description: Making the web more
     - title: 方正字库
       logo: images/图文设计/方正字库.png
       url: http://www.foundertype.com?from=dy.199908.top
@@ -1656,7 +1651,6 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
-
 - taxonomy: 电商货源
   icon: fa-boxes
   list:
@@ -1675,7 +1669,7 @@
     - title: 新款网
       logo: images/电商货源/新款网.svg
       url: http://www.xingfujie.cn?from=dy.199908.top
-      description: 专业的男鞋、运动鞋货源平台,新款网为福建泉州数千男鞋、运动鞋生产厂商提供推广销售渠道，面向全国网销卖家、实体批发商提供最具竞争力的货源
+      description: 专业的男鞋、运动鞋货源平台,新款网为福建泉州数千男鞋
     - title: 搜款网vvic
       logo: images/电商货源/搜款网vvic.ico
       url: https://www.vvic.com?from=dy.199908.top
@@ -1683,11 +1677,11 @@
     - title: 开山网
       logo: images/电商货源/开山网.ico
       url: http://www.k3.cn?from=dy.199908.top
-      description: 女鞋货源上开山，网销女鞋货源，7000家实体认证的浙江女鞋工厂批发代销货源平台，淘宝女鞋货源，微商女鞋货源不二之选
+      description: 女鞋货源上开山，网销女鞋货源
     - title: 鞋库网
       logo: images/电商货源/鞋库网.ico
       url: https://www.cnxieku.com?from=dy.199908.top
-      description: 全国童鞋男鞋女鞋电商批发,批发市场,爱搜鞋网新款爆款鞋子图片
+      description: 全国童鞋男鞋女鞋电商批发,批发市场,爱搜鞋网新款爆款
     - title: 17货源网
       logo: images/电商货源/17货源网.png
       url: https://www.17zwd.com?from=dy.199908.top
@@ -1715,7 +1709,7 @@
     - title: 童商网
       logo: images/电商货源/童商网.png
       url: https://www.5ts.com?from=dy.199908.top
-      description: 童商网已入驻7000+童装厂家,汇海量一手童装货源,一件起批一件代发，面向全国童装厂家、卖家提供原材供应-设计开款-批发拿货-店铺代运营-物流代发-售后退换等全链路的供应服务
+      description: 童商网已入驻7000+童装厂家,汇海量一手童装货源,
     - title: 3e3e.cn生意网
       logo: images/电商货源/3e3e_cn生意网.png
       url: http://www.3e3e.cn?from=dy.199908.top
@@ -1729,7 +1723,7 @@
     - title: 娜拉美妆
       logo: images/电商货源/娜拉美妆.ico
       url: https://www.nala.com.cn?from=dy.199908.top
-      description: 美妆采购批发网站，在线销售面膜，眼线笔，睫毛膏，美妆工具，个人护理等美妆日化产品
+      description: 美妆采购批发网站，在线销售面膜，眼线笔，睫毛膏
     - title: 中国美容美发网
       logo: images/电商货源/美美淘.png
       url: https://www.138job.com?from=dy.199908.top
@@ -1797,7 +1791,7 @@
     - title: 挚爱母婴
       logo: images/电商货源/挚爱母婴.png
       url: https://www.babyzhiai.net?from=dy.199908.top
-      description: 高端母婴用品B2B分销平台，孕婴童品牌招商，免费加盟代理，一件代发，正品货源
+      description: 高端母婴用品B2B分销平台，孕婴童品牌招商
     - title: 中国婴童网
       logo: images/电商货源/二童网.ico
       url: http://www.baobei360.com?from=dy.199908.top
@@ -1883,15 +1877,15 @@
     - title: 天猫供销平台
       logo: images/电商货源/天猫供销平台.jpg
       url: https://gongxiao.tmall.com?from=dy.199908.top
-      description: 阿里巴巴集团推出的一个高效、数字化的供应链管理工具，旨在为品牌商和分销商提供便捷的供应链解决方案
+      description: 阿里巴巴集团推出的一个高效、数字化的供应链管理工具
     - title: Alibaba
       logo: images/电商货源/Alibaba.png
       url: https://www.alibaba.com?from=dy.199908.top
-      description: 全球领先的B2B电子商务平台，专注于为全球贸易提供服务
+      description: 全球领先的B2B电子商务平台，专注提供服务
     - title: 马可波罗网
       logo: images/电商货源/马可波罗网.png
       url: http://china.makepolo.com?from=dy.199908.top
-      description: B2B电子商务平台，专注于为中小企业提供精准采购搜索和广告投放服务
+      description: B2B电子商务平台，专注提供精准采购搜索和广告投放服
     - title: B2B商机网
       logo: images/电商货源/B2B商机网.png
       url: http://www.qb2b.com?from=dy.199908.top
@@ -1923,7 +1917,7 @@
     - title: 维度网
       logo: images/电商货源/维度网.png
       url: https://www.wedoany.com/zh-cn?from=dy.199908.top
-      description: 维度网作为"一带一路"工程合作服务平台，全球传播依托品牌，积极响应国家高质量共建"一带一路"的号召，致力于推动中国智慧、中国方案走向世界，促进全球互联互通与可持续发展。
+      description: 维度网作为"一带一路"工程合作服务平台
     - title: 云筑网
       logo: images/电商货源/云筑网.ico
       url: https://www.yzw.cn?from=dy.199908.top
@@ -1937,11 +1931,11 @@
     - title: Xchemi化工网
       logo: images/电商货源/Xchemi化工网.png
       url: https://www.xchemi.com?from=dy.199908.top
-      description: Xchemi化工网是一个专业的化学品跨境电商平台，旨在帮助化工企业实现全球市场的拓展和业务的高效运作。
+      description: Xchemi化工网是一个专业的化学品跨境电商平台
     - title: 有料网
       logo: images/电商货源/有料网.ico
       url: https://www.youliao.com?from=dy.199908.top
-      description: 西陇科学自营电商平台,为科研人员及相关企业提供优质的化学试剂与化工原料
+      description: 西陇科学自营电商平台,为科研人员及相关企业提供优质的
     - title: 盖德化工网
       logo: images/电商货源/盖德化工网.png
       url: https://china.guidechem.com?from=dy.199908.top
@@ -1953,7 +1947,7 @@
     - title: 米思米
       logo: images/电商货源/米思米.png
       url: https://www.misumi.com.cn?from=dy.199908.top
-      description: 一站式工业品采购平台,工业用品闪购网上商城超市,标准件库
+      description: 一站式工业品采购平台,工业用品闪购网上商城超市,标准
     - title: 汽配人
       logo: images/电商货源/驼铃标志1.png
       url: https://qpmall.com?from=dy.199908.top
@@ -1991,7 +1985,7 @@
     - title: 搜了网
       logo: images/电商货源/搜了网.png
       url: https://www.51sole.com?from=dy.199908.top
-      description: 领先的垂直商业搜索引擎与系统化网络营销平台，专业的网上推广和贸易平台
+      description: 领先的垂直商业搜索引擎与系统化网络营销平台
     - title: 八方资源网
       logo: images/电商货源/八方资源网.png
       url: https://www.b2b168.com?from=dy.199908.top
@@ -2020,7 +2014,6 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.jp0663.com?from=dy.199908.top
       description: 军埔货源平台
-
 - taxonomy: 广告投放
   icon: fa-ad
   list:
@@ -2056,11 +2049,11 @@
     - title: 巨量本地推
       logo: images/广告投放/巨量本地推.png
       url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
-      description: 生活服务商家一站式营销平台，为本地商家提供便捷的广告投放能力
+      description: 生活服务商家一站式营销平台
     - title: 抖音来客
       logo: images/广告投放/抖音来客.png
       url: https://life.douyin.com/p/home?from=dy.199908.top
-      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升，强化经营效果
+      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升
     - title: 抖老板
       logo: images/广告投放/抖老板.png
       url: https://www.doulaobao.com?from=dy.199908.top
@@ -2080,7 +2073,7 @@
     - title: 快手联盟
       logo: images/广告投放/快手联盟.png
       url: https://u.kuaishou.com?from=dy.199908.top
-      description: 快手科技推出的一站式视频商业能力转化平台，旨在通过短视频和直播的形式，为广告主、开发者和用户创造互惠共赢的生态系统
+      description: 快手科技推出的一站式视频商业能力转化平台
     - title: Tiktok ADS
       logo: images/广告投放/uni_ad广告联盟.ico
       url: https://ads.tiktok.com/i18n?from=dy.199908.top
@@ -2156,31 +2149,31 @@
     - title: 小米移动广告联盟
       logo: images/广告投放/小米移动广告联盟.png
       url: https://dev.mi.com/xiaomihyperos/advertisement?from=dy.199908.top
-      description: 小米移动广告联盟（简称"米盟"）是小米公司推出的一项广告服务平台，旨在为开发者和广告主提供流量变现和广告投放的解决方案。
+      description: 小米移动广告联盟（简称"米盟"）是小米公司推出的一项
     - title: OPPO广告联盟
       logo: images/广告投放/OPPO广告联盟.ico
       url: https://u.oppomobile.com?from=dy.199908.top
-      description: OPPO广告联盟是一个基于OPPO终端设备的广告平台，旨在帮助开发者实现流量变现和用户增长。
+      description: OPPO广告联盟是一个基于OPPO终端设备的广告平台
     - title: vivo广告联盟
       logo: images/广告投放/vivo广告联盟.png
       url: https://adnet.vivo.com.cn?from=dy.199908.top
-      description: vivo广告联盟是一个依托vivo平台资源和技术优势，为广告主提供高效、精准广告投放与变现的平台。
+      description: vivo广告联盟是一个依托vivo平台资源和技术优势
     - title: 荣耀广告联盟
       logo: images/广告投放/荣耀广告联盟.svg
       url: https://developer.honor.com/alliance/index.html?from=dy.199908.top
-      description: 荣耀广告联盟是依托荣耀终端优势，为开发者提供优质的流量变现服务，帮助开发者实现商业增长的平台。
+      description: 荣耀广告联盟是依托荣耀终端优势，提供专业服务
     - title: uni-ad广告联盟
       logo: images/广告投放/uni_ad广告联盟.ico
       url: https://uniad.dcloud.net.cn?from=dy.199908.top
-      description: uni-ad广告联盟是一个为开发者提供一站式广告变现解决方案的平台，支持多端应用（如uni-app、uni-h5和微信小程序）的广告接入。
+      description: uni-ad广告联盟是一个为开发者提供一站式解决方案
     - title: dcloud广告联盟
       logo: images/广告投放/dcloud广告联盟.svg
       url: https://www.dcloud.io/dad.html?from=dy.199908.top
-      description: DCloud广告联盟是DCloud推出的一项广告变现服务，旨在帮助开发者通过其平台实现广告收益。
+      description: DCloud广告联盟是DCloud推出的一项广告变现
     - title: 4399广告联盟
       logo: images/广告投放/4399广告联盟.svg
       url: https://union.4399.cn?from=dy.199908.top
-      description: 4399广告联盟为手机游戏开发者提供全新的变现方式,依托于4399大数据人群分析,大量的优质广告主以及成熟的广告优化团队,通过丰富的广告样式为开发者提供最优质的商业化解决方案
+      description: 4399广告联盟为手机游戏开发者提供全新的变现方式,
     - title: 多麦联盟
       logo: images/广告投放/多麦联盟.png
       url: https://home.duomai.com/zh?from=dy.199908.top
@@ -2196,7 +2189,7 @@
     - title: 口袋工厂
       logo: images/广告投放/口袋工厂.png
       url: https://www.13lm.com?from=dy.199908.top
-      description: 独立开发者广告联盟，一个数据真正公开透明的聚合广告平台
+      description: 独立开发者广告联盟，一个数据真正公开透明的聚合广告平
   - name: 营销服务
     links:
     - title: 神赞
@@ -2230,7 +2223,7 @@
     - title: 发呀
       logo: images/广告投放/发呀.png
       url: https://www.88faya.com?from=dy.199908.top
-      description: 一个专注于微信公众号广告投放和内容推广的数字化营销服务平台
+      description: 一个专注于微信公众号广告投放和内容推广的数字化营销服
     - title: 领库
       logo: images/广告投放/领库.png
       url: http://www.kolstore.com?from=dy.199908.top
@@ -2242,7 +2235,7 @@
     - title: Google AdSense替代品
       logo: images/广告投放/Google_AdSense替代品.png
       url: https://googleadsensealternatives.com/zh-CN?from=dy.199908.top
-      description: 发现优质的Google AdSense替代品，优化您的网站变现策略。为您的网站寻找最佳广告网络。
+      description: 发现优质的Google AdSense替代品
   - name: 社交媒体
     links:
     - title: 微信广告
@@ -2295,7 +2288,6 @@
       logo: images/广告投放/360智慧商业.png
       url: https://e.360.cn?from=dy.199908.top
       description: 360搜索广告投放平台
-
 - taxonomy: 影音娱乐
   icon: fa-play-circle
   list:
@@ -2314,23 +2306,23 @@
     - title: 哔哩哔哩
       logo: images/影音娱乐/哔哩哔哩.png
       url: https://www.bilibili.com?from=dy.199908.top
-      description: 国内知名的视频弹幕网站，提供高质量的视频内容，涵盖动画、游戏、科技、生活、音乐等多个领域
+      description: 国内知名的视频弹幕网站，提供高质量的视频内容
     - title: 腾讯视频
       logo: images/影音娱乐/腾讯视频.png
       url: https://v.qq.com?from=dy.199908.top
-      description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目、动漫等内容
+      description: 腾讯旗下的大型视频平台，提供电视剧、电影、综艺节目
     - title: 爱奇艺
       logo: images/影音娱乐/爱奇艺.png
       url: https://www.iqiyi.com?from=dy.199908.top
-      description: 国内领先的视频平台之一，提供丰富的影视剧、综艺、动漫等内容
+      description: 国内领先的视频平台之一，提供丰富的影视剧、综艺
     - title: 优酷
       logo: images/影音娱乐/优酷.jpg
       url: https://www.youku.com?from=dy.199908.top
-      description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺、动漫等内容
+      description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺
     - title: 抖音
       logo: images/影音娱乐/抖音.jpg
       url: https://www.douyin.com?from=dy.199908.top
-      description: 字节跳动旗下的短视频社交平台，用户可以拍摄、编辑和分享短视频
+      description: 字节跳动旗下的短视频社交平台，用户可以拍摄
     - title: 快手
       logo: images/影音娱乐/快手.jpg
       url: https://www.kuaishou.com?from=dy.199908.top
@@ -2382,7 +2374,7 @@
     - title: 西瓜视频
       logo: images/影音娱乐/西瓜视频.jpg
       url: https://www.ixigua.com?from=dy.199908.top
-      description: 西瓜视频是字节跳动旗下的一款领先的中视频平台，汇集了海量的视频资源，涵盖电影、电视剧、综艺、纪录片、游戏解说、旅行日记、时尚穿搭、社会人文等多个领域。
+      description: 西瓜视频是字节跳动旗下的一款领先的中视频平台
     - title: 西影网
       logo: images/影音娱乐/西影网.jpg
       url: https://www.1958xy.com?from=dy.199908.top
@@ -2412,11 +2404,11 @@
     - title: 抖音网页版
       logo: images/影音娱乐/抖音网页版.png
       url: https://dis.csqixiang.cn/unpo/dybgrdh.html
-      description: 可以免费在线观看短剧，电影，电视剧，直播，短视频等内容
+      description: 可以免费在线观看短剧，电影，电视剧，直播
     - title: 河马剧场
       logo: images/影音娱乐/河马剧场.ico
       url: https://www.kuaikaw.cn
-      description: 河马剧场是一个专注于提供高质量短剧的平台。平台汇集了各种类型好看的短剧，包括微短剧、网络短剧、搞笑短剧等
+      description: 河马剧场是一个专注于提供高质量短剧的平台
     - title: 快手小剧场
       logo: images/影音娱乐/快手小剧场.ico
       url: https://www.kuaishou.com/theater/10000
@@ -2424,19 +2416,19 @@
     - title: 红果短剧
       logo: images/影音娱乐/红果短剧.png
       url: https://novelquickapp.com
-      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式，提供海量微短剧资源，涵盖都市、甜宠、悬疑、古装等多元题材，同时整合电影、电视剧、小说、听书等内容。
+      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式
     - title: 趣看看短剧
       logo: images/影音娱乐/趣看看短剧.png
       url: https://v.contentchina.com
-      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清热门网络短剧，方便、快捷的短剧观看平台。为用户提供了海量优质的行业精品短剧内容、简洁流畅的追剧体验，且全部免费
+      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清
     - title: 甜虾剧场
       logo: images/影音娱乐/甜虾剧场.png
       url: https://www.360kuai.com/pc/mvideo/duanju
-      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品。你可以看到世界各地奇妙有趣的瞬间，享受工作和生活中的每一刻精彩！
+      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品
     - title: 抖音短剧
       logo: images/影音娱乐/抖音短剧.png
       url: https://www.douyin.com/hashtag/1617649538430990?from=dy.199908.top
-      description: 是抖音平台上一个专注于短剧内容的板块,它汇集了各种创意短剧,为用户提供娱乐和轻松的观看体验
+      description: 是抖音平台上一个专注于短剧内容的板块,它汇集了各种创
     - title: 快手短剧
       logo: images/影音娱乐/快手短剧.png
       url: https://www.kuaishou.com/theater/10000?from=dy.199908.top
@@ -2444,15 +2436,15 @@
     - title: 河马剧场
       logo: images/影音娱乐/河马剧场.ico
       url: https://www.kuaikaw.cn?from=dy.199908.top
-      description: 一个专注于微短剧和网络短剧的平台,提供各种免费网络短剧的在线观看服务
+      description: 一个专注于微短剧和网络短剧的平台,提供各种免费网络短
     - title: 五五短剧
       logo: images/影音娱乐/短剧猫.png
       url: https://www.duanju55.com?from=dy.199908.top
-      description: 一个专门提供短剧视频内容的平台,用户可以在这里免费观看和分享最新的短剧视频
+      description: 一个专门提供短剧视频内容的平台,用户可以在这里免费观
     - title: 趣看看短剧
       logo: images/影音娱乐/趣看看短剧.png
       url: https://v.contentchina.com?from=dy.199908.top
-      description: 一个提供短剧在线观看的平台,专注于为用户提供高清的免费的短剧内容
+      description: 一个提供短剧在线观看的平台,专注提供高清的免费的短剧
     - title: 短剧查查
       logo: images/影音娱乐/短剧查查.png
       url: https://duanjuchacha.com?from=dy.199908.top
@@ -2460,15 +2452,15 @@
     - title: 短剧库
       logo: images/影音娱乐/短剧猫.png
       url: https://duanjuku.top?from=dy.199908.top
-      description: 一个提供丰富短剧资源的平台,用户可以在这里找到各种类型的短剧
+      description: 一个提供丰富短剧资源的平台,用户可以在这里找到各种类
     - title: 短剧窝
       logo: images/影音娱乐/短剧猫.png
       url: https://www.djwo.cc?from=dy.199908.top
-      description: 一个提供短剧大全的平台,用户可以在这里免费观看各种短剧
+      description: 一个提供短剧大全的平台,用户可以在这里免费观看各种短
     - title: 短剧达人
       logo: images/影音娱乐/短剧达人.png
       url: https://www.ddmov.com?from=dy.199908.top
-      description: 一个提供免费短剧在线观看的平台,专注于最新热门短剧全集的分享
+      description: 一个提供免费短剧在线观看的平台,专注于最新热门短剧全
     - title: 吉吉短剧
       logo: images/影音娱乐/短剧猫.png
       url: https://www.jjduanju.com?from=dy.199908.top
@@ -2476,7 +2468,7 @@
     - title: 爱你短剧
       logo: images/影音娱乐/爱你短剧.png
       url: https://ainidj.com?from=dy.199908.top
-      description: 一个提供丰富免费短剧资源的在线观看平台,专注于最新的爱情,战神,重生等题材的短剧
+      description: 一个提供丰富免费短剧资源的在线观看平台,专注于最新的
     - title: 短剧网
       logo: images/影音娱乐/短剧网.png
       url: https://www.duanju001.com?from=dy.199908.top
@@ -2484,23 +2476,23 @@
     - title: 优优短剧
       logo: images/影音娱乐/短剧猫.png
       url: https://uu123.vip?from=dy.199908.top
-      description: 提供最新最全的短剧夸克网盘资源，短剧免费观看全集在线观看及下载资源
+      description: 提供最新最全的短剧夸克网盘资源
     - title: 短剧搜吧
       logo: images/影音娱乐/短剧搜吧.png
       url: https://www.duanjusouba.com?from=dy.199908.top
-      description: 一个专注于短剧资源的搜索引擎网站,提供了海量的免费完整版短剧资源
+      description: 一个专注于短剧资源的搜索引擎网站,提供了海量的免费完
     - title: 短剧猫
       logo: images/影音娱乐/短剧猫.png
       url: https://www.duanjumao.com?from=dy.199908.top
-      description: 一个提供网盘索引服务的平台,专注于免费短剧的在线观看和分享下载
+      description: 一个提供网盘索引服务的平台,专注于免费短剧的在线观看
     - title: 4k影视网盘
       logo: images/影音娱乐/4k影视网盘.png
       url: https://panku8.com?from=dy.199908.top
-      description: 可以快速搜索各网盘资源,支持百度网盘,阿里云盘,夸克网盘,迅雷云盘搜索等网盘资源
+      description: 可以快速搜索各网盘资源,支持百度网盘,阿里云盘,夸克
     - title: 好剧搜
       logo: images/影音娱乐/好剧搜.png
       url: https://pan.hyexz.com?from=dy.199908.top
-      description: 免费分享百万级网盘资源,提供夸克网盘的电影,电视剧,小说,工具资源搜索服务,致力打造顶尖网盘搜索引擎
+      description: 免费分享百万级网盘资源,提供夸克网盘的电影,电视剧,
     - title: 夸克盘搜
       logo: images/影音娱乐/夸克盘搜.png
       url: https://www.panso.xyz?from=dy.199908.top
@@ -2518,23 +2510,23 @@
     - title: 企鹅直播
       logo: images/影音娱乐/企鹅直播.png
       url: https://live.qq.com?from=dy.199908.top
-      description: 费看高清NBA直播、NFL橄榄球直播、足球直播、台球直播、CBA、欧冠意甲西甲直播
+      description: 费看高清NBA直播、NFL橄榄球直播、足球直播
     - title: 168看球直播
       logo: images/影音娱乐/168看球直播.png
       url: https://168zb85.com?from=dy.199908.top
-      description: 免费看球类直播的网站，包含篮球、足球、网球、羽毛球、棋牌电子等赛事。可以在网站直接观看，移动端可以与直播讲解的小姐姐互动。
+      description: 免费看球类直播的网站，包含篮球、足球、网球、羽毛球
     - title: 进球时刻网
       logo: images/影音娱乐/进球时刻网.svg
       url: https://www.8jijin.com?from=dy.199908.top
-      description: 世界足球全场回放集锦数据库,足球比赛回放进球集锦视频录像下载 | 涵盖国家队、俱乐部、球员生涯进球合集
+      description: 世界足球全场回放集锦数据库,足球比赛回放进球集锦视频
     - title: 321直播
       logo: images/影音娱乐/321直播.png
       url: https://www.321tyzb.com?from=dy.199908.top
-      description: 321直播为你打造畅NBA篮球直播、享欧洲五大联赛、世界杯预选赛、欧洲杯、足球等体育盛事的绝佳平台。无需担心错过任何精彩瞬间，即刻观看欧冠、NBA、CBA等顶级赛事。
+      description: 321直播为你打造畅NBA篮球直播、享欧洲五大联赛
     - title: 低调看球网
       logo: images/影音娱乐/低调看球网.ico
       url: https://didiaokanqiu.net?from=dy.199908.top
-      description: 低调看球直播网是一个全新的绿色无广告的体育直播导航网站，球迷喜欢的英超直播、中超直播、NBA直播等比赛都有，分享低调看球直播网给更多的朋友让看直播速度更快
+      description: 低调看球直播网是一个全新的绿色无广告的体育直播导航网
     - title: 360吧
       logo: images/影音娱乐/360吧.png
       url: https://www.360ba.co?from=dy.199908.top
@@ -2558,23 +2550,23 @@
     - title: 速赛体育
       logo: images/影音娱乐/速赛体育.ico
       url: https://www.susai.cc?from=dy.199908.top
-      description: 速赛体育汇聚全球足球直播+NBA直播、CBA直播等热门体育赛事直播
+      description: 速赛体育汇聚全球足球直播+NBA直播
     - title: 好看体育
       logo: images/影音娱乐/好看体育.ico
       url: https://www.haokan.tv?from=dy.199908.top
-      description: 一个专注于体育赛事直播、新闻资讯和精彩集锦的综合性体育平台
+      description: 一个专注于体育赛事直播、新闻资讯和精彩集锦的综合性体
     - title: 优直播
       logo: images/影音娱乐/优直播.ico
       url: https://www.yoozhibo.net?from=dy.199908.top
-      description: 优直播提供欧洲杯直播,足球直播,CCTV5在线直播,广州恒大,广东体育直播,恒大直播,NBA直播,NBA录像,NBA录像回放,中超,英超,亚冠,欧冠,CBA等等体育视频录像
+      description: 优直播提供欧洲杯直播,足球直播,CCTV5在线直播,
     - title: 直播车
       logo: images/影音娱乐/直播车.ico
       url: https://www.zhiboche8.com?from=dy.199908.top
-      description: 直播车是一家老牌体育直播吧网站，提供足球直播，nba直播和综合体育直播。涵盖直播吧、极速体育、360直播的赛事直播。在线观看NBA直播、英超直播、西甲、意甲、德甲、法甲、等五大联赛、欧冠、欧联和中超、CBA直播。
+      description: 直播车是一家老牌体育直播吧网站，提供足球直播
     - title: 体育6
       logo: images/影音娱乐/体育6.png
       url: https://www.zb06.com?from=dy.199908.top
-      description: 体育赛事直播导航网站，汇集了全球范围内的各种体育赛事直播链接，包括但不限于足球、篮球、足球、英超、NBA、世界杯、欧洲杯等
+      description: 体育赛事直播导航网站，汇集了全球范围内的各种体育赛事
     - title: 球迷网
       logo: images/影音娱乐/球迷网.png
       url: https://24h.live?from=dy.199908.top
@@ -2616,15 +2608,15 @@
     - title: 闪闪音乐网
       logo: images/影音娱乐/闪闪音乐网.svg
       url: https://www.33ve.com?from=dy.199908.top
-      description: 闪闪音乐网是一个专注于提供丰富音乐资源和推荐服务的平台，免费MP3下载，视频歌曲大全免费下载
+      description: 闪闪音乐网是一个专注于提供丰富音乐资源和推荐服务的平
     - title: 音乐解析器
       logo: images/影音娱乐/音乐解析器.png
       url: https://musicjx.com?from=dy.199908.top
-      description: 免费在线音乐搜索下载网站，在线网页版解析下载多平台音乐。
+      description: 免费在线音乐搜索下载网站，在线网页版解析下载多平台音
     - title: 枫叶音乐盒
       logo: images/影音娱乐/枫叶音乐盒.png
       url: https://mu-jie.cc/musicBox?from=dy.199908.top
-      description: 枫叶音乐盒，一个在线音乐播放器。点开就能听音乐，随时随地享受音乐，支持在线播放、搜索、收藏、导入音乐APP歌单、自建歌单、歌单推荐/分类等功能。
+      description: 枫叶音乐盒，一个在线音乐播放器。点开就能听音乐
     - title: 音乐库
       logo: images/影音娱乐/音乐库.svg
       url: https://www.yinyueku.cn?from=dy.199908.top
@@ -2632,11 +2624,11 @@
     - title: XCloud音乐
       logo: images/影音娱乐/XCloud音乐.svg
       url: https://music.xcloudv.top?from=dy.199908.top
-      description: XCloud音乐是一个免费在线音乐平台，提供了基础的登录、注册、音乐搜索和收藏功能。
+      description: XCloud音乐是一个免费在线音乐平台
     - title: GD音乐台
       logo: images/影音娱乐/GD音乐台.ico
       url: https://music.gdstudio.xyz?from=dy.199908.top
-      description: GD音乐台为用户提供高音质、全曲库的HiFi级聆听体验
+      description: GD音乐台为用户提供高音质
     - title: 铜钟音乐
       logo: images/影音娱乐/铜钟音乐.ico
       url: https://tonzhon.com?from=dy.199908.top
@@ -2658,11 +2650,11 @@
     - title: 今日头条
       logo: images/影音娱乐/今日头条.png
       url: https://www.toutiao.com?from=dy.199908.top
-      description: 字节跳动旗下的新闻和信息内容平台，通过算法推荐个性化内容
+      description: 字节跳动旗下的新闻和信息内容平台
     - title: 腾讯新闻
       logo: images/影音娱乐/腾讯网.jpeg
       url: https://news.qq.com?from=dy.199908.top
-      description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经、体育等多领域内容
+      description: 腾讯旗下的新闻资讯平台，提供时事新闻、财经
     - title: 网易新闻
       logo: images/影音娱乐/网易新闻.jpeg
       url: https://news.163.com?from=dy.199908.top
@@ -2670,7 +2662,7 @@
     - title: 搜狐新闻
       logo: images/影音娱乐/搜狐新闻.jpeg
       url: https://news.sohu.com?from=dy.199908.top
-      description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+      description: 搜狐旗下的新闻资讯平台，提供国内外新闻、财经
     - title: 澎湃新闻
       logo: images/影音娱乐/澎湃新闻.png
       url: https://www.thepaper.cn?from=dy.199908.top
@@ -2686,19 +2678,19 @@
     - title: 新浪新闻
       logo: images/影音娱乐/新浪新闻.png
       url: https://news.sina.com.cn?from=dy.199908.top
-      description: 新浪旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+      description: 新浪旗下的新闻资讯平台，提供国内外新闻、财经
     - title: 凤凰新闻
       logo: images/影音娱乐/凤凰新闻.png
       url: https://news.ifeng.com?from=dy.199908.top
-      description: 凤凰卫视旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+      description: 凤凰卫视旗下的新闻资讯平台，提供国内外新闻、财经
     - title: 央视新闻
       logo: images/影音娱乐/央视新闻.png
       url: https://www.cctv.com?from=dy.199908.top
-      description: 中央电视台旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+      description: 中央电视台旗下的新闻资讯平台，提供国内外新闻、财经
     - title: 人民网
       logo: images/影音娱乐/人民网.png
       url: https://www.people.com.cn?from=dy.199908.top
-      description: 人民日报旗下的新闻资讯平台，提供国内外新闻、财经、体育等内容
+      description: 人民日报旗下的新闻资讯平台，提供国内外新闻、财经
   - name: 社交媒体
     links:
     - title: 微博
@@ -2732,7 +2724,7 @@
     - title: 什么值得买
       logo: images/影音娱乐/什么值得买.jpeg
       url: https://www.smzdm.com?from=dy.199908.top
-      description: 中国领先的消费决策平台，提供商品比价、购物指南、用户评价等服务
+      description: 中国领先的消费决策平台，提供商品比价、购物指南
     - title: 百度知道
       logo: images/影音娱乐/百度知道.png
       url: https://zhidao.baidu.com?from=dy.199908.top
@@ -2744,23 +2736,23 @@
     - title: 微信公众平台
       logo: images/影音娱乐/腾讯网.jpeg
       url: https://mp.weixin.qq.com?from=dy.199908.top
-      description: 腾讯旗下的自媒体平台，支持图文、音频、视频等多种内容形式
+      description: 腾讯旗下的自媒体平台，支持多种内容形式
     - title: 百家号
       logo: images/影音娱乐/百家号.jpeg
       url: https://baijiahao.baidu.com?from=dy.199908.top
-      description: 百度旗下的内容创作平台，为创作者提供内容发布和变现服务
+      description: 百度旗下的内容创作平台，提供专业服务
     - title: 头条号
       logo: images/影音娱乐/今日头条.png
       url: https://mp.toutiao.com?from=dy.199908.top
-      description: 今日头条旗下的自媒体平台，为创作者提供内容发布和分发服务
+      description: 今日头条旗下的自媒体平台，提供专业服务
     - title: 企鹅号
       logo: images/影音娱乐/企鹅直播.png
       url: https://om.qq.com?from=dy.199908.top
-      description: 腾讯旗下的自媒体平台，内容覆盖腾讯新闻、天天快报等多个平台
+      description: 腾讯旗下的自媒体平台，内容覆盖多个平台
     - title: 大鱼号
       logo: images/影音娱乐/大鱼号.jpeg
       url: https://mp.dayu.com?from=dy.199908.top
-      description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器、优酷等平台
+      description: 阿里巴巴旗下的自媒体平台，内容覆盖UC浏览器
     - title: 支付宝生活号平台
       logo: images/影音娱乐/支付宝.png
       url: https://fuwu.alipay.com?from=dy.199908.top
@@ -2826,7 +2818,7 @@
     - title: Quora
       logo: images/影音娱乐/Quora.png
       url: https://www.quora.com?from=dy.199908.top
-      description: "外国知乎"
+      description: 外国知乎
     - title: Vkontakte
       logo: images/影音娱乐/Vkontakte.jpg
       url: https://vk.com?from=dy.199908.top
@@ -2838,7 +2830,7 @@
     - title: Azar
       logo: images/影音娱乐/Azar.png
       url: https://www.azarlive.com?from=dy.199908.top
-      description: 全球范围内受欢迎的视频社交应用之一，中东1V1视频聊天软件鼻祖
+      description: 全球范围内受欢迎的视频社交应用之一
     - title: LivU
       logo: images/影音娱乐/LivU.png
       url: https://www.livu.com?from=dy.199908.top
@@ -2860,63 +2852,63 @@
     - title: txt520
       logo: images/影音娱乐/txt520.svg
       url: https://www.txt520.com?from=dy.199908.top
-      description: txt520小说网是一个提供免费txt小说电子书下载和在线阅读服务的网站。txt小说下载网,全本小说下载和在线阅读
+      description: txt520小说网是一个提供免费txt小说电子书下载
     - title: txt小说网
       logo: images/影音娱乐/txt小说网.png
       url: https://www.txtxiaoshuo.com?from=dy.199908.top
-      description: txt小说网提供全本txt小说下载、完结txt小说下载、完本txt小说下载的网站。搜集网络上高质量的全集精校版完本小说、校对版全集小说，以及zxcs、知轩藏书、笔趣阁txt小说免费下载。
+      description: txt小说网提供全本txt小说下载
     - title: 经典书库
       logo: images/影音娱乐/经典书库.png
       url: https://m.jingdianbook.com?from=dy.199908.top
-      description: 经典书库免费提供好看的古典武侠小说、名侦探/科幻小说、经济学/哲学及宗教、轻松一刻、儿童睡前故事、传统文学名著等内容
+      description: 经典书库免费提供好看的古典武侠小说、名侦探/科幻小说
     - title: 101看书
       logo: images/影音娱乐/101看书.png
       url: https://101kanshu.com?from=dy.199908.top
-      description: 101看书是一个免费无广告弹窗，全免的费繁体在线小说阅读网
+      description: 101看书是一个告弹窗，全免的费繁体在线小说阅读网
     - title: 盐选文库
       logo: images/影音娱乐/盐选文库.png
       url: https://www.yanxuanwk.com?from=dy.199908.top
-      description: 织乎盐选文章、连载盐选小说，天涯神贴，各种精校小说免费阅读，免费分享，不间断更新，完全免费！盐选文库是最强大的盐选文章免费阅读站点，拥有最完美的阅读体验！
+      description: 织乎盐选文章、连载盐选小说，天涯神贴
     - title: iRead趣读
       logo: images/影音娱乐/iRead趣读.svg
       url: https://iread.life?from=dy.199908.top
-      description: iRead趣读-故事盐选是一个提供免费阅读知乎盐选故事的平台，用户可以通过该平台获取高质量的短篇小说内容，无需开通知乎会员即可享受会员用户的阅读体验。
+      description: iRead趣读-故事盐选是一个提供免费阅读知乎盐选故
     - title: 盐神阁
       logo: images/影音娱乐/盐神阁.png
       url: https://saltsgod.com?from=dy.199908.top
-      description: 盐神居，互联网的搬运工，知乎盐选文章搬运工，免费在线盐选小说阅读网
+      description: 盐神居，互联网的搬运工，知乎盐选文章搬运工
     - title: 我不是盐神
       logo: images/影音娱乐/我不是盐神.ico
       url: https://onehu.xyz?from=dy.199908.top
-      description: 我不是盐神是一个免费的知乎盐选会员文章在线阅读网站，可以通过复制标题或内容第一句话进行搜索，以找到相关文章。
+      description: 我不是盐神是一个免费的知乎盐选会员文章在线阅读网站
     - title: 13听书网
       logo: images/影音娱乐/13听书网.svg
       url: https://www.ting13.cc?from=dy.199908.top
-      description: 13听书网在线听书网提供最新最全热门有声小说,有声读物,评书有声小说每日更新,支持自动连播,无弹窗,13听书网在线听书网为你释放双眼，用耳朵享受阅读的乐趣!
+      description: 13听书网在线听书网提供最新最全热门有声小说,有声读
     - title: 中文听书网
       logo: images/影音娱乐/中文听书网.png
       url: https://www.tingzh.com?from=dy.199908.top
-      description: 中文听书网,有声小说,有声读物,童话故事,有声小说排行榜,有声读物等小说在线收听,有声小说免费打包下载.无需注册，点击即可在线收听，方便大家收听。
+      description: 中文听书网,有声小说,有声读物,童话故事,有声小说排
     - title: 博看网
       logo: images/影音娱乐/博看网.png
       url: http://new.bookan.com.cn?from=dy.199908.top
-      description: 博看网是一个专注于提供数字阅读服务的平台，收录了大量中文期刊、图书和报纸资源，还通过多种技术手段（如AI、大数据和智能硬件）为用户提供高质量的阅读体验。
+      description: 博看网是一个专注于提供数字阅读服务的平台
     - title: 仙人掌小说
       logo: images/影音娱乐/仙人掌小说.png
       url: https://www.360kuai.com/pc/novelgalery?from=dy.199908.top
-      description: 仙人掌小说是360公司推出的一个小说阅读平台，提供多种体裁的文学作品，包括成功励志、都市生活、科幻悬疑、婚恋言情、古言穿越和历史军事等类型。
+      description: 仙人掌小说是360公司推出的一个小说阅读平台
     - title: JOJO看报
       logo: images/影音娱乐/JOJO看报.png
       url: https://reader.jojokanbao.cn?from=dy.199908.top
-      description: JOJO看报是一个在线平台，专注于提供老报纸、期刊和杂志的在线阅读和下载服务。涵盖了《人民日报》、《参考消息》、《红旗》以及《人民画报》等报刊，时间跨度从建国时期到现代。
+      description: JOJO看报是一个在线平台，专注于提供老报纸
     - title: 云起书院
       logo: images/影音娱乐/云起书院.png
       url: https://yunqi.qq.com?from=dy.199908.top
-      description: 云起书院是腾讯阅文集团旗下专注于女性文学创作的门户网站，致力于打造全球领先的女性文学阅读与创作平台-办公 人导 航。
+      description: 云起书院是腾讯阅文集团旗下专注于女性文学创作的门户网
     - title: 大李敖全集5.0
       logo: images/影音娱乐/大李敖全集5_0.png
       url: https://books.leeao.net?from=dy.199908.top
-      description: 《大李敖全集5.0》是李敖先生作品的最新集成，包含163本书，总字数达到3140842页，比之前的4.0版本增加了约200万字。
+      description: 《大李敖全集5.0》是李敖先生作品的最新集成
     - title: QQ阅读
       logo: images/影音娱乐/QQ阅读.png
       url: https://book.qq.com?from=dy.199908.top
@@ -2926,15 +2918,15 @@
     - title: MyComic
       logo: images/影音娱乐/MyComic.svg
       url: https://mycomic.com?from=dy.199908.top
-      description: MyComic是一款专为漫画爱好者设计的平台，集成了漫画、小说和动漫番剧的阅读功能，支持多种资源的聚合与实时更新。
+      description: MyComic专为平台，集成了漫画
     - title: UC漫画
       logo: images/影音娱乐/UC漫画.png
       url: https://www.ucmanhua.com?from=dy.199908.top
-      description: 提供各种漫画阅读的平台，包括国产漫画、日本漫画、韩国漫画和欧美漫画等多种类型
+      description: 提供各种漫画阅读的平台
     - title: 读漫屋
       logo: images/影音娱乐/读漫屋.ico
       url: http://www.dumanwu.com?from=dy.199908.top
-      description: 专注于漫画资源的在线阅读平台，聚集了大量热门、经典及最新漫画作品，涵盖日漫、韩漫、国漫等多种类型
+      description: 专注于漫画资源的在线阅读平台，聚集了大量热门
     - title: 漫画人
       logo: images/影音娱乐/漫画人.png
       url: https://www.manhuaren.net?from=dy.199908.top
@@ -2950,7 +2942,7 @@
     - title: colamanga
       logo: images/影音娱乐/colamanga.png
       url: https://www.colamanga.com?from=dy.199908.top
-      description: 海量的漫画资源，覆盖了日本、国产及其他国家和地区的作品
+      description: 海量的漫画资源，覆盖了日本
     - title: 漫画狗
       logo: images/影音娱乐/漫画狗.png
       url: https://www.manhuagou.net?from=dy.199908.top
@@ -2970,7 +2962,7 @@
     - title: 咪咕动漫
       logo: images/影音娱乐/咪咕动漫.png
       url: https://www.migudm.cn?from=dy.199908.top
-      description: 专注于提供丰富的ACGN（动画、漫画、游戏、轻小说）内容
+      description: 专注于提供丰富的ACGN（动画、漫画、游戏
     - title: 漫画1234
       logo: images/影音娱乐/漫画1234.png
       url: https://www.gmh1234.com?from=dy.199908.top
@@ -2986,12 +2978,11 @@
     - title: mox.moe漫画
       logo: images/影音娱乐/mox_moe漫画.png
       url: https://mox.moe?from=dy.199908.top
-      description: 高清Kindle格式漫画下载,支持推送漫画到kindle设备
+      description: 高清Kindle格式漫画下载,支持推送漫画到kind
     - title: 动漫狂
       logo: images/影音娱乐/动漫狂.svg
       url: https://www.cartoonmad.com?from=dy.199908.top
       description: 免费动画漫画分享社群
-
 - taxonomy: 学习资源
   icon: fa-graduation-cap
   list:
@@ -3012,7 +3003,7 @@
     - title: 中国教育考试网
       logo: images/学习资源/中国教育考试网.png
       url: http://www.neea.edu.cn?from=dy.199908.top
-      description: 教育部考试中心系教育部直属事业单位，主要承担教育考试专项职责任务
+      description: 教育部考试中心系教育部直属事业单位
     - title: 中公教育网
       logo: images/学习资源/中公教育网.png
       url: https://www.offcn.com?from=dy.199908.top
@@ -3024,7 +3015,7 @@
     - title: 中公考研网
       logo: images/学习资源/中公考研网.jpg
       url: http://www.kaoyan365.cn?from=dy.199908.top
-      description: 提供考研时间、考研科目、考研复试调剂、考研专业目录及各科复习资料等信息
+      description: 提供考研时间、考研科目、考研复试调剂
     - title: 考研信息网
       logo: images/学习资源/考研信息网.jpg
       url: http://www.chinakaoyan.com?from=dy.199908.top
@@ -3036,15 +3027,15 @@
     - title: 考研派
       logo: images/学习资源/考研派.png
       url: http://www.okaoyan.com?from=dy.199908.top
-      description: 考研派[考研网]考研网站平台,使命-帮助每位考研人成功，为考研人提供各院校研招网资讯、考研一对一辅导和研究生院考研官网资讯服务，旗下有：考研派之家微信公众号、考研派APP、考研网等
+      description: 考研派[考研网]考研网站平台,使命-帮助每位考研人成
     - title: 在职研究生招生信息网
       logo: images/学习资源/在职研究生招生信息网.png
       url: https://www.eduego.com?from=dy.199908.top
-      description: 提供在职硕士、在职博士、MBA、EMBA等类别的在职研究生招生简章、报考条件、报名时间、报名入口等招生信息，为学员提供全方位的咨询服务。
+      description: 提供在职硕士、在职博士、MBA
     - title: 在职研究生教育信息网
       logo: images/学习资源/在职研究生教育信息网.png
       url: https://www.eduei.com?from=dy.199908.top
-      description: 提供免费的在职研究生招生信息，及准确的在职硕士、在职博士、EMBA 等类别的报考条件/时间、招生简章、报名入口/网站、考试科目/学费/专业等在职教育信息。
+      description: 提供免费的在职研究生招生信息，及准确的在职硕士
     - title: N诺
       logo: images/学习资源/N诺.png
       url: https://noobdream.com?from=dy.199908.top
@@ -3056,27 +3047,27 @@
     - title: 上岸鸭公考
       logo: images/学习资源/上岸鸭公考.png
       url: https://www.gwy.com?from=dy.199908.top
-      description: 公务员考试培训网，上岸鸭公考专注为学员提供包括公务员、事业单位、央国企、商业银行、教师招聘等在内的招录考试培训。
+      description: 公务员考试培训网，上岸鸭公考专注为学员提供包括公务员
     - title: 成公教育
       logo: images/学习资源/成公教育.ico
       url: https://www.cgzj.com?from=dy.199908.top
-      description: 【成公教育-公务员培训机构】提供2026国考、省考、事业编等考试公告、考试时间、考试职位表、考试报名、考试大纲、考试成绩、考试试题、笔试与面试辅导等。
+      description: 【成公教育-公务员培训机构】提供2026国考、省考
     - title: 稳啦公考
       logo: images/学习资源/稳啦公考.png
       url: https://wenlagongkao.com?spm=38986.12.0.1.1&from=dy.199908.top
-      description: 稳啦公考是专注于公职类考试培训的在线教育平台，致力于为考生提供系统化、高效化的备考解决方案。
+      description: 稳啦公考是专注于公职类考试培训的在线教育平台
     - title: 公考雷达
       logo: images/学习资源/公考雷达.ico
       url: https://www.gongkaoleida.com?from=dy.199908.top
-      description: 公考雷达及时捕捉发布全国公职类(公务员、事业单位、教师、医疗、国企、银行、大学生村官、社区工作者等)招考公告和职位资讯,根据个人简历与职位信息精准匹配,锁定每一个好机会。
+      description: 公考雷达及时捕捉发布全国公职类(公务员、事业单位
     - title: SaDuck
       logo: images/学习资源/SaDuck.png
       url: https://saduck.top?from=dy.199908.top
-      description: 一个考公考编知识网站，包含行测、申论、公基、词语查询、行测助手、备考资料等等。
+      description: 一个考公考编知识网站，包含行测、申论、公基、词语查询
     - title: 公考沉思路
       logo: images/学习资源/公考沉思路.png
       url: https://wcnuh3hc9b93.feishu.cn/wiki/LklIw8YoeiO0R0kbGGFcCi5CnUf?from=dy.199908.top
-      description: 公考沉思录官网是一个专注于公务员考试备考的综合性知识库平台，旨在为考生提供全面、系统的学习资源和备考策略，涵盖行测、申论、事业编、百科等多方面的内容。
+      description: 公考沉思录官网是一个专注于公务员考试备考的综合性知识
     - title: 公考沉思录
       logo: images/学习资源/公考沉思录.svg
       url: https://flowus.cn/share/03feab04-e594-4d92-a475-9ab7cb841a6b?from=dy.199908.top
@@ -3084,7 +3075,7 @@
     - title: 考途指南
       logo: images/学习资源/考途指南.svg
       url: https://pppw1my52v.feishu.cn/wiki/DGtMwJailirOwPk3OBIcTbTCnhg?from=dy.199908.top
-      description: 汇集了多种考试真题资料的在线文档平台，涵盖了公务员、军队文职、事业单位、三支一扶、教师资格等多个领域的考试资料
+      description: 汇集了多种考试真题资料的在线文档平台，涵盖了公务员
     - title: 竹叶数据
       logo: images/学习资源/竹叶数据.ico
       url: https://plan.zygwy.cn?from=dy.199908.top
@@ -3114,7 +3105,7 @@
     - title: 中国建造师网
       logo: images/学习资源/中国建造师网.png
       url: https://www.coc.gov.cn?from=dy.199908.top
-      description: 住房和城乡建设部执业资格注册中心主办的全国建造师统一管理的网站
+      description: 住房和城乡建设部执业资格注册中心主办的全国建造师统一
     - title: 中公教育网
       logo: images/学习资源/中公教育网.png
       url: https://www.offcn.com?from=dy.199908.top
@@ -3126,7 +3117,7 @@
     - title: 高顿教育
       logo: images/学习资源/高顿教育.png
       url: https://www.gaodun.com?from=dy.199908.top
-      description: 在线学会计,CPA,职称,ACCA,CFA,金融,为自己的财经人生加油
+      description: 在线学会计,CPA,职称,ACCA,CFA,金融,为
     - title: 新东方网
       logo: images/学习资源/新东方网.png
       url: http://www.xdf.cn?from=dy.199908.top
@@ -3134,11 +3125,11 @@
     - title: 高途
       logo: images/学习资源/高途.png
       url: https://www.gaotu.cn?from=dy.199908.top
-      description: 实用英语、职场、考证、留学、考研、家庭教育、瑜伽等类别
+      description: 实用英语、职场、考证、留学、考研、家庭教育
     - title: 233网校
       logo: images/学习资源/233网校.ico
       url: https://www.233.com?from=dy.199908.top
-      description: 233网校提供建筑、金融、职业、财经等4大类多种考试的在线培训、考试资讯、免费题库等考试服务，是拥有20年品牌的一站式学习网站。
+      description: 233网校提供建筑、金融、职业
     - title: 中审网校
       logo: images/学习资源/中审网校.png
       url: http://www.auditcn.com?from=dy.199908.top
@@ -3146,7 +3137,7 @@
     - title: 继教网
       logo: images/学习资源/继教网.png
       url: http://www.teacher.com.cn?from=dy.199908.top
-      description: 面向全国中小幼教师及校长（园长）开展学历及非学历培训的大型专业网站
+      description: 面向全国中小幼教师及校长（园长）开展学历及非学历培训
     - title: 考试吧
       logo: images/学习资源/考试吧.png
       url: https://www.exam8.com?from=dy.199908.top
@@ -3154,7 +3145,7 @@
     - title: 易贤网
       logo: images/学习资源/易贤网.ico
       url: https://www.ynpxrz.com?from=dy.199908.top
-      description: 原培训认证网,考试网,人事考试网,招聘网,人才网,报名,成绩查询
+      description: 原培训认证网,考试网,人事考试网,招聘网,人才网,报
     - title: 考试宝
       logo: images/学习资源/考试宝.png
       url: https://www.kaoshibao.com/classify?from=dy.199908.top
@@ -3192,7 +3183,7 @@
     - title: 欧路词典
       logo: images/学习资源/欧路词典.png
       url: https://dict.eudic.net?from=dy.199908.top
-      description: 权威的英语在线词典，提供英语翻译、每日英语听力、英语入门听力发音、VOA听力、CNN听力、四六级等英语听力资源。
+      description: 权威的英语在线词典，提供英语翻译、每日英语听力
     - title: 可可英语
       logo: images/学习资源/可可英语.png
       url: http://www.kekenet.com?from=dy.199908.top
@@ -3248,19 +3239,19 @@
     - title: 法语助手
       logo: images/学习资源/法语助手.png
       url: https://www.frdic.com?from=dy.199908.top
-      description: 权威的法语在线词典，提供法语翻译、法语动词变位、法语输入法、法语学校课程学习、法语题库字典、法语背单词、法语入门听力发音等
+      description: 权威的法语在线词典，提供法语翻译、法语动词变位
     - title: 德语助手
       logo: images/学习资源/德语助手.png
       url: https://www.godic.net?from=dy.199908.top
-      description: 权威的德语在线词典，提供德语翻译、德语动词变位、德语输入法、德语学校课程学习、德语题库字典、德语背单词、德语入门听力发音等。
+      description: 权威的德语在线词典，提供德语翻译、德语动词变位
     - title: 西语助手
       logo: images/学习资源/西语助手.png
       url: https://www.esdict.cn?from=dy.199908.top
-      description: 权威的西语在线词典，提供西语翻译、西语动词变位、西语输入法、西语学校课程学习、西语题库字典、西语背单词、西语入门听力发音等。
+      description: 权威的西语在线词典，提供西语翻译、西语动词变位
     - title: 简明日语
       logo: images/学习资源/简明日语.png
       url: https://www.nhk.or.jp/lesson/zh?from=dy.199908.top
-      description: 由日本广播协会（NHK）推出的免费日语学习平台，旨在为不同水平的学习者提供高质量的日语学习资源
+      description: 由日本广播协会（NHK）推出的免费日语学习平台
     - title: LingoHut
       logo: images/学习资源/LingoHut.jpg
       url: https://www.lingohut.com?from=dy.199908.top
@@ -3268,25 +3259,25 @@
     - title: Speaky
       logo: images/学习资源/Speaky.png
       url: https://www.speaky.com?from=dy.199908.top
-      description: Speaky 是一款全球领先的语言交换平台，旨在通过连接世界各地的语言学习者和母语者，促进语言学习和文化交流。
+      description: Speaky 是一款全球领先的语言交换平台
   - name: 设计学习
     links:
     - title: 羊课网
       logo: images/学习资源/羊课网.png
       url: https://www.yangkewang.cn?from=dy.199908.top
-      description: 免费绘画学习平台,插画学画画教程,动漫绘画教程,游戏原画教程大全
+      description: 免费绘画学习平台,插画学画画教程,动漫绘画教程,游戏
     - title: 蓝铅笔
       logo: images/学习资源/蓝铅笔.png
       url: https://www.lanqb.com?from=dy.199908.top
-      description: 板绘,板绘培训,绘画学习,动画培训,漫画培训,插画培训
+      description: 板绘,板绘培训,绘画学习,动画培训,漫画培训,插画培
     - title: 大触来了
       logo: images/学习资源/大触来了.png
       url: https://www.psai2046.com?from=dy.199908.top
-      description: 一个功能全面且资源丰富的绘画学习平台，适合对绘画有兴趣的爱好者和专业人士使用
+      description: 一个功能全面且资源丰富的绘画学习平台
     - title: dinlab芝士学院
       logo: images/学习资源/dinlab芝士学院.png
       url: http://www.dinlab.cn?from=dy.199908.top
-      description: dinlab是全球前沿交互式设计人才成长平台，50万设计创意人才的能力提升加速站。
+      description: dinlab是全球前沿交互式设计人才成长平台
     - title: 优阁
       logo: images/学习资源/优阁.png
       url: https://uigreat.com?from=dy.199908.top
@@ -3302,11 +3293,11 @@
     - title: 站酷高高手
       logo: images/学习资源/站酷高高手.png
       url: https://www.gogoup.com?from=dy.199908.top
-      description: 艺术设计在线教育平台 - 插画,品牌,平面,视觉,UI,运营设计,摄影艺术课程培训
+      description: 艺术设计在线教育平台 - 插画,品牌,平面,视觉,U
     - title: 巧匠课堂
       logo: images/学习资源/巧匠课堂.png
       url: https://www.2qj.com?from=dy.199908.top
-      description: 设计视频教程平台，覆盖PS、AI、C4D、DW 、视觉营销等
+      description: 设计视频教程平台，覆盖PS、AI、C4D、DW
     - title: 优优教程网
       logo: images/学习资源/优优教程网.jpg
       url: https://uiiiuiii.com?from=dy.199908.top
@@ -3326,11 +3317,11 @@
     - title: Doyoudo
       logo: images/学习资源/Doyoudo.png
       url: https://www.doyoudo.com?from=dy.199908.top
-      description: 设计领域在线学习平台，专注平面设计、视频剪辑、动画包装、音乐音效等艺术设计领域的技能提升
+      description: 设计领域在线学习平台，专注平面设计、视频剪辑
     - title: 翼狐网
       logo: images/学习资源/翼狐网.png
       url: https://www.yiihuu.com?from=dy.199908.top
-      description: 为用户提供优质的PS、CAD、maya、CDR、AI、AE、3dmax等软件教程
+      description: 为用户提供优质的PS、CAD、maya、CDR、AI
     - title: 我要自学网
       logo: images/学习资源/我要自学网.png
       url: https://www.51zxw.net?from=dy.199908.top
@@ -3344,7 +3335,7 @@
     - title: 不枯燥的音乐理论
       logo: images/学习资源/不枯燥的音乐理论.png
       url: https://lightnote.com.cn?from=dy.199908.top
-      description: 一个专注于音乐理论学习的互动平台,旨在通过简单易懂的方式帮助用户掌握音乐基础知识
+      description: 一个专注于音乐理论学习的互动平台,旨在通过简单易懂的
     - title: melodyml
       logo: images/学习资源/melodyml.png
       url: https://melody.ml?from=dy.199908.top
@@ -3390,23 +3381,23 @@
     - title: 洛谷
       logo: images/学习资源/洛谷.ico
       url: https://www.luogu.com.cn?from=dy.199908.top
-      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台，旨在帮助用户提升编程技能和竞赛能力。
+      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台
     - title: OpenJudge
       logo: images/学习资源/OpenJudge.svg
       url: http://noi.openjudge.cn?from=dy.199908.top
-      description: OpenJudge是一个由北京大学POJ团队开发的在线编程评测平台，旨在为编程学习者提供一个支持性和交互式的编程环境。支持多种编程语言，包括C、C++、Java、Python等。
+      description: OpenJudge是一个由北京大学POJ团队开发的在
     - title: 讯飞AI大学堂
       logo: images/学习资源/讯飞AI大学堂.png
       url: https://www.aidaxue.com/?ch=daxue_collection_10&from=dy.199908.top
-      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台，提供"学练赛证" 一体化服务
+      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台
     - title: 学习猿地
       logo: images/学习资源/学习猿地.png
       url: https://www.lmonkey.com?from=dy.199908.top
-      description: 学习猿地是零基础到就业的IT技能学习平台，专挑大牛录制全套的精品课程，将一门学科所需的全部精品资料汇总在一起
+      description: 学习猿地是零基础到就业的IT技能学习平台
     - title: 思否编程
       logo: images/学习资源/思否编程.png
       url: https://ke.segmentfault.com?from=dy.199908.top
-      description: 致力于帮助学员更好的学会编程、提升技术认知、获得专业能力上的突破，实现升职加薪
+      description: 致力于帮助学员更好的学会编程、提升技术认知
     - title: 入职啦
       logo: images/学习资源/入职啦.ico
       url: https://ruzhila.cn?from=dy.199908.top
@@ -3414,7 +3405,7 @@
     - title: cocos中文社区
       logo: images/学习资源/cocos中文社区.png
       url: https://forum.cocos.org?from=dy.199908.top
-      description: 为使用Cocos游戏引擎的开发者提供交流、分享和学习的平台
+      description: 为使用Cocos游戏引擎的开发者提供交流
     - title: 计蒜客
       logo: images/学习资源/计蒜客.ico
       url: https://www.jisuanke.com?from=dy.199908.top
@@ -3464,23 +3455,23 @@
     - title: 洛谷
       logo: images/学习资源/洛谷.ico
       url: https://www.luogu.com.cn?from=dy.199908.top
-      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台，旨在帮助用户提升编程技能和竞赛能力。
+      description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台
     - title: OpenJudge
       logo: images/学习资源/OpenJudge.svg
       url: http://noi.openjudge.cn?from=dy.199908.top
-      description: OpenJudge是一个由北京大学POJ团队开发的在线编程评测平台，旨在为编程学习者提供一个支持性和交互式的编程环境。支持多种编程语言，包括C、C++、Java、Python等。
+      description: OpenJudge是一个由北京大学POJ团队开发的在
     - title: 讯飞AI大学堂
       logo: images/学习资源/讯飞AI大学堂.png
       url: https://www.aidaxue.com/?ch=daxue_collection_10&from=dy.199908.top
-      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台，提供“学练赛证” 一体化服务
+      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台
     - title: 学习猿地
       logo: images/学习资源/学习猿地.png
       url: https://www.lmonkey.com?from=dy.199908.top
-      description: 学习猿地是零基础到就业的IT技能学习平台，专挑大牛录制全套的精品课程，将一门学科所需的全部精品资料汇总在一起
+      description: 学习猿地是零基础到就业的IT技能学习平台
     - title: 思否编程
       logo: images/学习资源/思否编程.png
       url: https://ke.segmentfault.com?from=dy.199908.top
-      description: 致力于帮助学员更好的学会编程、提升技术认知、获得专业能力上的突破，实现升职加薪
+      description: 致力于帮助学员更好的学会编程、提升技术认知
     - title: 入职啦
       logo: images/学习资源/入职啦.ico
       url: https://ruzhila.cn?from=dy.199908.top
@@ -3488,7 +3479,7 @@
     - title: cocos中文社区
       logo: images/学习资源/cocos中文社区.png
       url: https://forum.cocos.org?from=dy.199908.top
-      description: 为使用Cocos游戏引擎的开发者提供交流、分享和学习的平台
+      description: 为使用Cocos游戏引擎的开发者提供交流
     - title: 计蒜客
       logo: images/学习资源/计蒜客.ico
       url: https://www.jisuanke.com?from=dy.199908.top
@@ -3533,7 +3524,6 @@
       logo: images/学习资源/W3School.png
       url: https://www.w3school.com.cn?from=dy.199908.top
       description: 中文Web技术教程
-
 - taxonomy: 生活服务
   icon: fa-home
   list:
@@ -3555,81 +3545,81 @@
     - title: 智联招聘
       logo: images/生活服务/智联招聘.png
       url: https://www.zhaopin.com?from=dy.199908.top
-      description: 为求职者提供真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择
+      description: 为求职者提供真实准确的全国求职招聘信息,海量的高薪职
     - title: 前程无忧
       logo: images/生活服务/前程无忧.png
       url: https://www.51job.com?from=dy.199908.top
-      description: 面向全国,提供准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务
+      description: 面向全国,提供准确的招聘网站信息,提供专业服务
     - title: 人社部
       logo: images/生活服务/人社部.png
       url: https://www.mohrss.gov.cn?from=dy.199908.top
-      description: 中华人民共和国人力资源和社会保障部，负责统筹机关企事业单位人员管理和城乡就业、社会保障政策的国家权力机构。
+      description: 中华人民共和国人力资源和社会保障部
     - title: JavaGuide
       logo: images/生活服务/JavaGuide.ico
       url: https://javaguide.cn?from=dy.199908.top
-      description: JavaGuide 是一个专为 Java 程序员设计的在线学习资源平台，旨在帮助开发者提升编程技能、准备面试以及深入理解 Java 技术栈的核心知识。
+      description: JavaGuide 是一个专为 Java
     - title: 编程满天星
       logo: images/生活服务/编程满天星.png
       url: https://itmtx.cn?from=dy.199908.top
-      description: 高质量程序员面试刷题网站，八股、算法、项目、面经、招聘信息、简历修改、模拟模式，一站式准备大厂面试
+      description: 高质量程序员面试刷题网站，八股、算法、项目、面经
     - title: 智面星
       logo: images/生活服务/智面星.png
       url: https://aiqtools.cn?from=dy.199908.top
-      description: 智面星，您的专属AI面试辅助，在线上面试中实时给予您实时答案提示。答案在一秒内生成并完全契合您的个人简历，覆盖所有专业问题，让你能从容应对面试官的一切提问。
+      description: 智面星，您的专属AI面试辅助
     - title: 面试狗
       logo: images/生活服务/面试狗.png
       url: https://interview.dog?from=dy.199908.top
-      description: 面试狗是一个AI面试辅助工具，旨在帮助求职者更高效地准备和应对面试。
+      description: 面试狗是一个AI面试辅助工具
     - title: AI面试助手
       logo: images/生活服务/AI面试助手.png
       url: https://blog.aicuee.com?from=dy.199908.top
-      description: AI面试助手,远程面试辅助神器.开启你的专属AI面试助手远程面试神器,实时分析，提供高水准的参考提示
+      description: AI面试助手,远程面试辅助神器.开启你的专属AI面试
     - title: 开面
       logo: images/生活服务/开面.png
       url: https://www.kaimian.top?from=dy.199908.top
-      description: 开面，自研垂直招聘大模型"开面者"，提供AI简历优化、AI模拟面试、AI辅助面试等服务，支持线上线下多场景。从简历准备到面试训练，再到真实面试，轻松通关直达Offer！
+      description: 开面，自研垂直招聘大模型"开面者"，提供AI简历优化
     - title: 小爱面试
       logo: images/生活服务/小爱面试.png
       url: https://xinterview.cn?from=dy.199908.top
-      description: 小爱面试，AI面试助手，面试辅助神器，面试小帮手，实时面试答案提示，助您轻松拿到offer
+      description: 小爱面试，AI面试助手，面试辅助神器，面试小帮手
     - title: Offerin
       logo: images/生活服务/Offerin.png
       url: https://www.offerin.cn?from=dy.199908.top
-      description: Offer IN AI 面试助手，AI 时代 Interview Copilot，专为线上面试和笔试而生，一键使用联网回答，一键读屏，自动同步剪切板文本，双端联动，无忧备战。
+      description: Offer IN AI 面试助手，AI 时代
     - title: 吐司猫
       logo: images/生活服务/吐司猫.ico
       url: https://tusimao.cn?from=dy.199908.top
-      description: 吐司猫是一款面向求职者的AI面试辅助软件，包含了 AI 面试助手、 AI 模拟面试 等功能模块。一站式帮助求职者们快速斩获Offer。
+      description: 吐司猫是一款面向求职者的AI面试辅助软件，包含了
     - title: 面试猫AI
       logo: images/生活服务/面试猫AI.png
       url: https://www.offermore.co?from=dy.199908.top
-      description: 面试猫AI是一款强大的AI面试助手，支持实时语音识别、图片识别、智能辅助回答、多语言面试。全平台适用，助你轻松拿Offer。
+      description: 面试猫AI是一款强大的AI面试助手，支持实时语音识别
     - title: 青柚面试
       logo: images/生活服务/青柚面试.png
       url: https://qingyou.net?from=dy.199908.top
-      description: 一款简单好用的日语面试辅助工具，使用最新的AI技术，帮助用户在日语面试过程中提升表现力。
+      description: 一款简单好用的日语面试辅助工具，使用最新的AI技术
     - title: 央国企招聘宝
       logo: images/生活服务/央国企招聘宝.svg
       url: https://lxsvmzrpx8v.feishu.cn/share/base/query/shrcnVrJqtOtcf4JVShybSimfcd?from=dy.199908.top
-      description: 央国企招聘宝是一个专门为求职者提供央企和国企招聘信息的平台，在线筛选国企央企招聘岗位信息。
+      description: 央国企招聘宝是一个专门为求职者提供央企和国企招聘信息
     - title: 云艺术人
       logo: images/生活服务/云艺术人.png
       url: https://www.yunysr.com?from=dy.199908.top
-      description: 云艺术人是一款专注于艺术行业招聘、发通告及作品展示的平台，平台涵盖八大艺术专业领域，包括演艺,影视,音乐,动漫,设计,互动游戏,广告传媒和绘画艺术。
+      description: 云艺术人是一款专注于艺术行业招聘
     - title: 互联网大厂工作
       logo: images/生活服务/互联网大厂工作.ico
       url: https://aab0.github.io?from=dy.199908.top
-      description: 互联网大厂工作机会、面试技巧、职业发展,帮助您在顶级科技公司获得理想职位。
+      description: 互联网大厂工作机会、面试技巧
   - name: 房屋租售
     links:
     - title: 贝壳找房
       logo: images/生活服务/贝壳找房.jpg
       url: https://www.ke.com?from=dy.199908.top
-      description: 提供真实房源的房产信息平台,为买房、二手房、新房购买以及租房需求的用户提供便捷服务
+      description: 提供真实房源的房产信息平台,提供专业服务
     - title: 链家网
       logo: images/生活服务/链家网.jpg
       url: http://www.lianjia.com?from=dy.199908.top
-      description: 提供二手房买卖、新房、租房、房价查询等业务的专业房产网站
+      description: 提供二手房买卖、新房、租房
     - title: 房天下
       logo: images/生活服务/房天下.jpg
       url: http://www.fang.com?from=dy.199908.top
@@ -3637,7 +3627,7 @@
     - title: 58同城
       logo: images/生活服务/58同城.png
       url: https://www.58.com?from=dy.199908.top
-      description: 提供房产、招聘、黄页、团购、交友、二手、宠物、车辆、周边游等
+      description: 提供房产、招聘、黄页、团购、交友、二手、宠物、车辆
     - title: 安居客
       logo: images/生活服务/安居客.png
       url: http://www.anjuke.com?from=dy.199908.top
@@ -3645,15 +3635,15 @@
     - title: 自如
       logo: images/生活服务/自如.jpg
       url: https://www.ziroom.com?from=dy.199908.top
-      description: 房屋合租信息及月租价格,房屋整租信息及价格,以及公寓出租信息及价格
+      description: 房屋合租信息及月租价格,房屋整租信息及价格,以及公寓
     - title: 我爱我家
       logo: images/生活服务/我爱我家.jpg
       url: https://www.5i5j.com?from=dy.199908.top
-      description: 提供二手房信息、租房信息、二手房成交价格和二手房交易数据
+      description: 提供二手房信息、租房信息、二手房成交价格和二手房交易
     - title: 房多多
       logo: images/生活服务/房多多.jpg
       url: http://www.fangdd.com?from=dy.199908.top
-      description: 为用户提供新房楼盘、二手房、租房的真房源房产网，包括最新政策、房价、资讯等信息
+      description: 为用户提供新房楼盘、二手房、租房的真房源房产网
     - title: 赶集网
       logo: images/生活服务/赶集网.jpg
       url: http://www.ganji.com?from=dy.199908.top
@@ -3661,15 +3651,15 @@
     - title: 搜狐焦点
       logo: images/生活服务/搜狐焦点.png
       url: https://house.focus.cn?from=dy.199908.top
-      description: 为购房者提供房产信息、家居装修资讯,房产楼盘详情、买房流程、业主论坛、家居装修等全面内容信息,搜狐焦点网互联网的购房平台
+      description: 为购房者提供房产信息、家居装修资讯,房产楼盘详情
     - title: 乐居房产网
       logo: images/生活服务/乐居房产网.jpg
       url: http://www.leju.com?from=dy.199908.top
-      description: 为购房者提供找新房、二手房、租房、装修、家居、楼盘新闻等房产信息
+      description: 为购房者提供找新房、二手房、租房、装修、家居
     - title: 中原地产
       logo: images/生活服务/中原地产.png
       url: http://default.centanet.com?from=dy.199908.top
-      description: 房产网网站,二手房,新房,租房,公寓,商铺,写字楼,海外,房价
+      description: 房产网网站,二手房,新房,租房,公寓,商铺,写字楼,
     - title: 365淘房
       logo: images/生活服务/365淘房.png
       url: http://www.house365.com?from=dy.199908.top
@@ -3703,7 +3693,7 @@
     - title: 天涯
       logo: images/生活服务/天涯.ico
       url: https://tianya.im?from=dy.199908.top
-      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合性在线平台
+      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合
     - title: 威锋网
       logo: images/生活服务/威锋网.ico
       url: https://www.feng.com?from=dy.199908.top
@@ -3743,7 +3733,7 @@
     - title: NodeLoc
       logo: images/生活服务/NodeLoc.png
       url: https://www.nodeloc.com?from=dy.199908.top
-      description: Nodeloc是一个关注于互联网的交流论坛，主要内容包括但不限于主机,节点,技术,域名,建站,评测等，NL是一个自由地分享互联网资源的社区
+      description: Nodeloc是一个关注于互联网的交流论坛
     - title: 什么值得买
       logo: images/生活服务/什么值得买.ico
       url: https://www.smzdm.com?from=dy.199908.top
@@ -3763,11 +3753,11 @@
     - title: 小木虫
       logo: images/生活服务/小木虫.svg
       url: https://muchong.com?from=dy.199908.top
-      description: 学术科研互动社区，旨在为科研人员提供一个交流、学习和分享的平台
+      description: 学术科研互动社区，旨在为科研人员提供一个交流
     - title: Fandom
       logo: images/生活服务/Fandom.ico
       url: https://www.fandom.com?from=dy.199908.top
-      description: Fandom是一个全球性的娱乐和粉丝社区平台，主要面向亚文化用户，提供百科全书式的娱乐内容和社交功能
+      description: Fandom是一个全球性的娱乐和粉丝社区平台
     - title: stage1
       logo: images/生活服务/stage1.png
       url: https://www.saraba1st.com?from=dy.199908.top
@@ -3783,7 +3773,7 @@
     - title: Reddit
       logo: images/生活服务/Reddit.ico
       url: https://www.reddit.com?from=dy.199908.top
-      description: The front page of the internet
+      description: The front page of the
   - name: 二手交易
     links:
     - title: 闲鱼
@@ -3805,7 +3795,7 @@
     - title: 找靓机
       logo: images/生活服务/找靓机.png
       url: https://www.zhaoliangji.com?from=dy.199908.top
-      description: 专业二手手机自营平台，主营9成新及以上的原装正品二手手机、平板电脑、笔记本电脑以及3C配件等数码产品
+      description: 专业二手手机自营平台，主营9成新及以上的原装正品二手
     - title: 孔夫子旧书网
       logo: images/生活服务/孔夫子旧书网.jpg
       url: https://www.kongfz.com?from=dy.199908.top
@@ -3817,7 +3807,7 @@
     - title: 万表网
       logo: images/生活服务/万表网.png
       url: https://www.wbiao.cn?from=dy.199908.top
-      description: 新表销售、二手表回收及交易、钟表维修服务和手表资讯传媒等
+      description: 新表销售、二手表回收及交易
     - title: 只二App
       logo: images/生活服务/只二App.png
       url: https://www.goshare2.com?from=dy.199908.top
@@ -3847,7 +3837,7 @@
     - title: 中国法律服务网
       logo: images/生活服务/中国法律服务网.png
       url: http://www.12348.gov.cn?from=dy.199908.top
-      description: 免费智能ai在线法律咨询,中国法律服务网12348中国法网
+      description: 免费智能ai在线法律咨询,中国法律服务网12348中
     - title: 国家法律法规数据库
       logo: images/生活服务/国家法律法规数据库.png
       url: https://flk.npc.gov.cn?from=dy.199908.top
@@ -3867,7 +3857,7 @@
     - title: 法律快车
       logo: images/生活服务/法律快车.png
       url: https://www.lawtime.cn/ask?from=dy.199908.top
-      description: 提供免费法律咨询，您可在这里了解各地律师解答的法律咨询内容，也可在线咨询律师法律问题。
+      description: 提供免费法律咨询，您可在这里了解各地律师解答的法律咨
     - title: 110法律咨询网
       logo: images/生活服务/110法律咨询网.jpg
       url: http://www.110.com?from=dy.199908.top
@@ -3883,7 +3873,7 @@
     - title: 无讼案例
       logo: images/生活服务/无讼案例.png
       url: https://www.itslaw.com?from=dy.199908.top
-      description: 无讼案例专注于为法律专业人士提供精准、高效且易用的法律检索服务，是法律人日常工作中不可或缺的工具。
+      description: 无讼案例专注提供精准、高效且易用的法律检索服务
     - title: 法信
       logo: images/生活服务/法信.png
       url: https://www.faxin.cn?from=dy.199908.top
@@ -3895,7 +3885,7 @@
     - title: 诉讼工具
       logo: images/生活服务/诉讼工具.png
       url: https://weifayuan.court.gov.cn/gjzs2.0/pages/tool.html?from=dy.199908.top
-      description: 人民法院官方提供的实用诉讼计算工具主要包括诉讼费计算器，该工具旨在帮助当事人和法院工作人员快速、准确地计算诉讼费用及相关法律费用。
+      description: 人民法院官方提供的实用诉讼计算工具主要包括诉讼费计算
     - title: AI维权律师
       logo: images/生活服务/AI维权律师.svg
       url: https://ai-lawyer.yuanx.me?from=dy.199908.top
@@ -3903,13 +3893,13 @@
     - title: 性行为同意协议系统
       logo: images/生活服务/性行为同意协议系统.svg
       url: https://001.123408.xyz?from=dy.199908.top
-      description: 性行为同意协议系统旨在帮助用户创建合法有效的性行为同意协议，确保各方权益得到保障。
+      description: 性行为同意协议系统帮助用户创建合法有效的性行为同意协
   - name: 投诉举报
     links:
     - title: 全国12315平台
       logo: images/生活服务/全国12315平台.png
       url: http://www.12315.cn?from=dy.199908.top
-      description: 通过平台向市场监管部门举报涉嫌违反市场监管法律、法规、规章的线索
+      description: 通过平台向市场监管部门举报涉嫌违反市场监管法律、法规
     - title: 国务院人民群众留言入口
       logo: images/生活服务/国务院人民群众留言入口.png
       url: http://www.gov.cn/hudong/index.htm?from=dy.199908.top
@@ -3917,15 +3907,15 @@
     - title: 国家信访局
       logo: images/生活服务/国家信访局.png
       url: https://www.gjxfj.gov.cn?from=dy.199908.top
-      description: 处理国内群众和境外人士的来信来访事项，保证信访渠道畅通的部门
+      description: 处理国内群众和境外人士的来信来访事项
     - title: 12309中国检察网
       logo: images/生活服务/12309中国检察网.png
       url: https://www.12309.gov.cn?from=dy.199908.top
-      description: 集案件信息公开,办事服务,监督意见等功能,可以网上信访
+      description: 集案件信息公开,办事服务,监督意见等功能,可以网上信
     - title: 国家安全举报
       logo: images/生活服务/国家安全举报.png
       url: https://www.12339.gov.cn?from=dy.199908.top
-      description: 12339受理公民和组织举报危害国家安全行为的平台，危害国家安全犯罪行为、间谍行为和其他危害国家安全行为线索的举报受理
+      description: 12339受理公民和组织举报危害国家安全行为的平台
     - title: 快递投诉
       logo: images/生活服务/快递投诉.png
       url: https://sswz.spb.gov.cn?from=dy.199908.top
@@ -3937,11 +3927,11 @@
     - title: 全国消协智慧315平台
       logo: images/生活服务/全国消协智慧315平台.png
       url: https://315.cca.org.cn?from=dy.199908.top
-      description: 全国消协智慧315平台是全国消费者协会组织联合打造的创新维权平台，旨在为消费者提供更便捷、高效的维权服务。
+      description: 全国消协智慧315平台是全国消费者协会组织联合打造的
     - title: 全文化和旅游市场举报投诉
       logo: images/生活服务/全文化和旅游市场举报投诉.png
       url: https://jbts.mct.gov.cn?from=dy.199908.top
-      description: 向文化和旅游部门举报涉嫌违反文化和旅游市场相关法律法规规章的线索
+      description: 向文化和旅游部门举报涉嫌违反文化和旅游市场相关法律法
     - title: 谣言举报
       logo: images/生活服务/谣言举报.png
       url: https://www.piyao.org.cn/xxjbrk.htm?from=dy.199908.top
@@ -3969,7 +3959,7 @@
     - title: 电影院举报
       logo: images/生活服务/电影院举报.png
       url: http://jbzx.chinafilm.org.cn?from=dy.199908.top
-      description: 中国电影发行放映协会举报中心受理电影市场违规和放映质量问题举报
+      description: 中国电影发行放映协会举报中心受理电影市场违规和放映质
     - title: 劳动争议调解
       logo: images/生活服务/劳动争议调解.png
       url: http://223.71.147.149/portal?from=dy.199908.top
@@ -3979,7 +3969,7 @@
     - title: 查快递
       logo: images/生活服务/查快递.png
       url: https://www.kuaidi100.com?from=dy.199908.top
-      description: 一站查询全球1000+快递公司单号查询、价格查询、时效查询
+      description: 一站查询全球1000+快递公司单号查询、价格查询
     - title: 菜鸟裹裹
       logo: images/生活服务/菜鸟裹裹.jpg
       url: https://www.guoguo-app.com?from=dy.199908.top
@@ -3991,7 +3981,7 @@
     - title: Track123
       logo: images/生活服务/Track123.png
       url: https://www.track123.com/cn?from=dy.199908.top
-      description: Track123 是一家专注于全球物流追踪解决方案的公司，提供多种产品和服务，旨在帮助用户高效、准确地追踪包裹和物流信息。
+      description: Track123 是一家专注于全球物流追踪解决方案的
     - title: 中通快递
       logo: images/生活服务/中通快递.jpg
       url: https://www.zto.com?from=dy.199908.top
@@ -4019,7 +4009,7 @@
     - title: 快递网
       logo: images/生活服务/快递网.png
       url: http://www.kuaidi.com?from=dy.199908.top
-      description: 一键查询顺丰、申通、圆通、韵达、汇通、天天、德邦、中通、宅急送、快捷、信丰、邮政包裹、挂号信及EMS等常见物流单号
+      description: 一键查询顺丰、申通、圆通、韵达、汇通、天天、德邦
     - title: 快递100
       logo: images/生活服务/快递100.png
       url: https://www.kuaidi100.com?from=dy.199908.top
@@ -4027,7 +4017,7 @@
     - title: 全球物流查询平台
       logo: images/生活服务/全球物流查询平台.png
       url: https://www.17track.net/zh-cn?from=dy.199908.top
-      description: 17TRACK是一款全球物流查询平台，专注于提供包裹追踪、物流信息查询和管理服务，支持查询全球2100+运输商,190+航司
+      description: 17TRACK是一款全球物流查询平台
     - title: 邮政EMS
       logo: images/生活服务/邮政EMS.jpg
       url: https://www.ems.com.cn?from=dy.199908.top
@@ -4122,7 +4112,6 @@
       logo: images/生活服务/21CN个人邮箱.png
       url: https://mail.21cn.com?from=dy.199908.top
       description: 中国电信旗下的21CN公司提供的电子邮件服务
-
 - taxonomy: 软件工具
   icon: fa-tools
   list:
@@ -4170,15 +4159,15 @@
     - title: Diffchecker
       logo: images/软件工具/Diffchecker.ico
       url: https://www.diffchecker.com?from=dy.199908.top
-      description: Diffchecker 是一款功能强大的文本和文件差异比较工具，适用于多种场景和用户需求。
+      description: Diffchecker 是一款功能强大的文本和文件差
     - title: CCompare
       logo: images/软件工具/CCompare.png
       url: https://www.scootersoftware.com?from=dy.199908.top
-      description: 免费的文件和代码对比工具，替代beyond compare的免费方案
+      description: 免费的文件和代码对比工具，替代beyond
     - title: PasteBar
       logo: images/软件工具/PasteBar.png
       url: https://www.pastebar.app?from=dy.199908.top
-      description: 有效地管理和组织复制的文本、图片、文件、链接和代码片段等各类内容
+      description: 有效地管理和组织复制的文本、图片、文件
     - title: CopyQ
       logo: images/软件工具/CopyQ.png
       url: https://hluk.github.io/CopyQ?from=dy.199908.top
@@ -4190,7 +4179,7 @@
     - title: Clibor
       logo: images/软件工具/Clibor.png
       url: https://chigusa-web.com/en?from=dy.199908.top
-      description: 管理和记录用户的剪贴板历史，方便用户快速地重复使用之前复制的文本内容
+      description: 管理和记录用户的剪贴板历史
     - title: ReNamer Pro
       logo: images/软件工具/ReNamer_Pro.png
       url: https://www.den4b.com?from=dy.199908.top
@@ -4198,7 +4187,7 @@
     - title: OncePower
       logo: images/软件工具/OncePower.png
       url: https://github.com/ilgnefz/once_power?from=dy.199908.top
-      description: 一款专为Windows平台设计的文件和文件夹批量重命名工具，分享来自ζั͡-ั͡办ั͡公ั͡人ั͡导ั͡航ั͡✾
+      description: 一款专为Windows平台设计的文件和文件夹批量重命
     - title: 文件名管理器
       logo: images/软件工具/文件名管理器.png
       url: https://www.advancedrenamer.com?from=dy.199908.top
@@ -4206,7 +4195,7 @@
     - title: Czkawka
       logo: images/软件工具/Czkawka.png
       url: https://github.com/qarmin/czkawka?from=dy.199908.top
-      description: 一款跨平台的开源文件清理工具，用于查找和删除重复文件、空文件夹、损坏文件等
+      description: 一款跨平台的开源文件清理工具，用于查找和删除重复文件
     - title: Lucy快速启动
       logo: images/软件工具/Lucy快速启动.png
       url: https://www.yuque.com/lucy/lucy/record?from=dy.199908.top
@@ -4218,15 +4207,15 @@
     - title: Quickinput
       logo: images/软件工具/Quickinput.png
       url: https://ruanyazyk.com/tools/other/autoClick.html?from=dy.199908.top
-      description: Quickinput是一个控制键盘鼠标的软件，里面可以设置各种条件，结构，循环并通过这些逻辑来控制按键的状态，通常用于游戏，软件的自动操作。
+      description: Quickinput是一个控制键盘鼠标的软件
     - title: Laziy Timer
       logo: images/软件工具/Laziy_Timer.png
       url: https://lazy-guy.github.io/tomodoro/index.html?from=dy.199908.top
-      description: Laziy Timer 是一款基于番茄工作法的时间管理工具，旨在帮助用户提高专注力和工作效率。
+      description: Laziy Timer 是一款基于番茄工作法的时间管
     - title: 易歪歪
       logo: images/软件工具/易歪歪.png
       url: https://www.eyy250.com?from=dy.199908.top
-      description: posend易歪歪 单机版是一款免费且好用的快捷回复软件（客服聊天助手）,能够为您节省大量人员培训时间，实现统一,高效,标准化的讯息答复流程
+      description: posend易歪歪 单机版是一款免费且好用的快捷回复
     - title: 边写边搜
       logo: images/软件工具/边写边搜.png
       url: https://www.fir.ai?from=dy.199908.top
@@ -4252,7 +4241,7 @@
     - title: CNET Download
       logo: images/软件工具/CNET_Download.png
       url: https://download.cnet.com?from=dy.199908.top
-      description: CNET Download 是一个全球知名的软件下载平台，专注于为用户提供各种类型的软件、应用和工具的下载服务，包括免费软件、共享软件以及付费软件。
+      description: CNET Download
     - title: macvk
       logo: images/软件工具/macvk.ico
       url: https://www.macvk.com?from=dy.199908.top
@@ -4260,11 +4249,11 @@
     - title: Mac中文
       logo: images/软件工具/Mac中文.ico
       url: https://www.maczh.com?from=dy.199908.top
-      description: Mac中文(MacZh) - 免费分享苹果电脑macSO系统应用程序Mac软件所有免费下载，支持Apple Silicon M1/M2芯片安装。
+      description: Mac中文(MacZh) -
     - title: MacWK
       logo: images/软件工具/MacWK.png
       url: https://www.macwk.com?from=dy.199908.top
-      description: MacWK是一个提供精品macOS软件下载的资源平台，以其免费、无广告、资源丰富和用户体验优良著称。AC应用软件,每天更新大量精品mac软件,为您提供优质的mac软件,mac破解版软件下载
+      description: MacWK是一个提供精品macOS软件下载的资源平台
     - title: Xclient
       logo: images/软件工具/Xclient.png
       url: https://xclient.info?from=dy.199908.top
@@ -4280,7 +4269,7 @@
     - title: Appstorrent
       logo: images/软件工具/Appstorrent.svg
       url: https://appstorrent.ru?from=dy.199908.top
-      description: Appstorrent 是一个俄罗斯创建的综合性 Mac 软件资源下载平台，提供丰富的软件、游戏和扩展资源，无需注册即可直接下载资源。
+      description: Appstorrent 是一个俄罗斯创建的综合性
     - title: ipadump
       logo: images/软件工具/ipadump.png
       url: https://ipadump.com?from=dy.199908.top
@@ -4298,11 +4287,11 @@
     - title: Violentmonkey
       logo: images/软件工具/Violentmonkey.png
       url: https://violentmonkey.github.io?from=dy.199908.top
-      description: Violentmonkey，又称"暴力猴"，是一款浏览器脚本管理器，通过加载用户脚本（UserScript）来实现网页功能的自定义和自动化操作，例如去除广告、美化界面、下载视频等。
+      description: Violentmonkey，又称"暴力猴"
     - title: Greasemonkey
       logo: images/软件工具/Greasemonkey.png
       url: https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey?from=dy.199908.top
-      description: Greasemonkey（油猴子）是一款由Mozilla开发的浏览器扩展程序，它允许用户通过编写自定义脚本来修改网页的外观、功能或行为，从而实现个性化浏览体验。
+      description: Greasemonkey（油猴子）是一款由Mozil
     - title: 谷歌扩展插件下载网站
       logo: images/软件工具/谷歌扩展插件下载网站.png
       url: https://chrome.google.com/webstore/category/extensions?from=dy.199908.top
@@ -4310,7 +4299,7 @@
     - title: DeepWork AI侧边栏
       logo: images/软件工具/DeepWork_AI侧边栏.png
       url: https://aisidebar.chat?from=dy.199908.top
-      description: DeepWork AI侧边栏在浏览器侧边栏中与AI聊天，解答问题、绘制图片、阅读文档、强化搜索结果、辅助创作、解释和扩写文本...以及更多强大的功能，随时随地助你效率提升！
+      description: DeepWork AI侧边栏在浏览器侧边栏中与AI聊
     - title: AixDownloader
       logo: images/软件工具/AixDownloader.png
       url: https://aixdownloader.com?from=dy.199908.top
@@ -4318,23 +4307,23 @@
     - title: Bilibili-Evolved
       logo: images/软件工具/Bilibili_Evolved.svg
       url: https://github.com/the1812/Bilibili-Evolved?from=dy.199908.top
-      description: Bilibili-Evolved 是一款专为 Bilibili（哔哩哔哩）设计的增强脚本，旨在优化用户的观看体验，Bilibili-Evolved 支持界面美化、广告屏蔽、弹幕增强、视频下载等功能。
+      description: Bilibili-Evolved 专为增强脚本
     - title: h5player
       logo: images/软件工具/h5player.png
       url: https://github.com/xxxily/h5player?from=dy.199908.top
-      description: h5player视频增强油猴脚本，支持所有H5视频网站，支持：倍速播放/加速播放、视频画面截图、画中画、网页全屏、调节亮度、饱和度、对比度、自定义配置功能增强等功能。
+      description: h5player视频增强油猴脚本
     - title: 视频倍速
       logo: images/软件工具/视频倍速.png
       url: https://chrome.google.com/webstore/detail/video-speed-controller?from=dy.199908.top
-      description: 控制网页视频播放速度，视频倍速控制浏览器扩展插件，可以加速或者放慢播放速度
+      description: 控制网页视频播放速度，视频倍速控制浏览器扩展插件
     - title: Bilibili AI Skip
       logo: images/软件工具/Bilibili_AI_Skip.svg
       url: https://github.com/bilibili-ai-skip/bilibili-ai-skip?from=dy.199908.top
-      description: Bilibili AI Skip 是一款基于 AI 技术的 Chrome 扩展程序，旨在帮助用户自动跳过 Bilibili 视频中的广告。
+      description: Bilibili AI Skip 基于AI技术的
     - title: 网盘直链下载助手
       logo: images/软件工具/网盘直链下载助手.svg
       url: https://greasyfork.org/zh-CN/scripts/436446?from=dy.199908.top
-      description: 网盘直链下载助手是一款基于JavaScript开发的免费开源工具，旨在帮助用户快速获取网盘文件的直链下载地址，从而绕过网盘的限速限制，实现高速下载。
+      description: 网盘直链下载助手是一款基于JavaScript开发的
     - title: web媒体雷达插件
       logo: images/软件工具/web媒体雷达插件.jpg
       url: https://chrome.google.com/webstore/detail/web-media-radar?from=dy.199908.top
@@ -4346,29 +4335,29 @@
     - title: Cloud Document Converter
       logo: images/软件工具/Cloud_Document_Converter.png
       url: https://chrome.google.com/webstore/detail/cloud-document-converter?from=dy.199908.top
-      description: Cloud Document Converter只读在线文档的复制工具，可以实现复制和下载那些不能复制的在线文档，并且还能最大程度的保留原文档格式。
+      description: Cloud Document
     - title: LinkSwift
       logo: images/软件工具/LinkSwift.svg
       url: https://greasyfork.org/zh-CN/scripts/linkswift?from=dy.199908.top
-      description: LinkSwift JS 是另一个基于 JavaScript 的工具，主要用于获取网盘文件的下载直链。
+      description: LinkSwift JS 是另一个基于
     - title: 阿抖
       logo: images/软件工具/阿抖.png
       url: https://chrome.google.com/webstore/detail/adou-douyin-helper?from=dy.199908.top
-      description: 阿抖-抖音视频采集助手是一款专为抖音网页版设计的视频采集工具，支持用户通过浏览器插件一键下载视频、图文及评论等内容。
+      description: 阿抖-抖音视频采集助手专为视频采集工具
     - title: mpmd
       logo: images/软件工具/mpmd.png
       url: https://github.com/doocs/md?from=dy.199908.top
-      description: mpmd是一款专为微信公众号图文创作设计的浏览器插件，集成了Markdown编辑器和主流图片托管平台，旨在为用户提供高效、便捷的图文创作体验。
+      description: mpmd专为浏览器插件，集成了Markdown编辑器
   - name: 电视应用
     links:
     - title: 抖音TV
       logo: images/软件工具/抖音TV.png
       url: https://www.douyin.com/tv?from=dy.199908.top
-      description: 抖音TV版即鲜时光TV电视版，是一款专为电视大屏设计的短视频播放平台，旨在为用户提供更长的观看体验和更丰富的娱乐内容。
+      description: 抖音TV版即鲜时光TV电视版，专为短视频播放平台
     - title: 快手TV
       logo: images/软件工具/快手TV.png
       url: https://tv.kuaishou.com?from=dy.199908.top
-      description: 快手TV（云视听快TV）是快手公司为电视用户推出的官方短视频应用，旨在提供高清流畅的1080P视频体验。
+      description: 快手TV（云视听快TV）是快手公司为电视用户推出的官
     - title: 百度网盘TV版
       logo: images/软件工具/百度网盘TV版.png
       url: https://pan.baidu.com/download?from=dy.199908.top
@@ -4376,7 +4365,7 @@
     - title: 阿里云盘TV版
       logo: images/软件工具/阿里云盘TV版.png
       url: https://www.aliyundrive.com/download?from=dy.199908.top
-      description: 阿里云盘TV版专为智能电视设计，界面简洁清晰，运行流畅，支持多种功能，包括实时文件同步、4K高清视频播放、多设备管理、家庭空间共享和自动数据备份
+      description: 阿里云盘TV版专为智能电视设计，界面简洁清晰
     - title: TVBox
       logo: images/软件工具/TVBox.png
       url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
@@ -4404,31 +4393,31 @@
     - title: 直播电视软件
       logo: images/软件工具/直播电视软件.png
       url: https://github.com/lizongying/my-tv?from=dy.199908.top
-      description: 直播电视软件是一款专为安卓设备（如智能电视、电视盒子、安卓手机）设计的技术研究工具，旨在为具备一定技术基础的用户提供网络直播内容的访问与测试服务。
+      description: 直播电视软件专提供专业服务
     - title: FUSE(原HuYa)
       logo: images/软件工具/FUSE_原HuYa_.png
       url: https://github.com/xiaoyaocz/dart_simple_live?from=dy.199908.top
-      description: 聚合直播（FUSE）,支持虎牙/抖音/快手/哔哩哔哩/斗鱼/YY/网易CC/电视直播，支持手机/平板/电视/车机
+      description: 聚合直播（FUSE）,支持虎牙/抖音/快手/哔哩哔哩
     - title: HTV
       logo: images/软件工具/HTV.svg
       url: https://github.com/htv-app/htv?from=dy.199908.top
-      description: A live media player app（手机、电视直播软件）app兼容Android 4.4和IPv4，可播放hls、rtp等各种源。
+      description: A live media player app（手机
     - title: 油桃TV
       logo: images/软件工具/油桃TV.svg
       url: https://www.utao.tv?from=dy.199908.top
-      description: 油桃TV,电视端浏览器,不再受爱奇艺等平台投屏限制,大屏观看高清视频
+      description: 油桃TV,电视端浏览器,不再受爱奇艺等平台投屏限制,
     - title: 电视浏览器
       logo: images/软件工具/电视浏览器.png
       url: https://github.com/tv-browser/tv-browser?from=dy.199908.top
-      description: 电视浏览器，一款简易电视视频收看软件，用于方便的在机顶盒上收看网页视频。一个电视机顶盒及Android TV收看网页视频的浏览器
+      description: 电视浏览器，一款简易电视视频收看软件
     - title: WebView
       logo: images/软件工具/WebView.svg
       url: https://github.com/webview-tv/webview-tv?from=dy.199908.top
-      description: WebView 电视直播 App 是一款基于腾讯 X5 WebView 内核开发的电视直播应用，该应用支持多种设备，包括智能电视、网络机顶盒、投影仪、平板、车机和手机等安卓系统设备。
+      description: WebView 电视直播 App 是一款基于腾讯
     - title: 野草助手
       logo: images/软件工具/野草助手.png
       url: https://www.yecaozs.com?from=dy.199908.top
-      description: 野草助手是一款智能电视应用分享工具。用户在野草官网上传软件得到口令，智能电视端安装野草助手后，可以直接输入软件口令安装。除了口令安装，还支持U盘安装、远程安装和一键直达功能。
+      description: 野草助手是一款智能电视应用分享工具
     - title: 美家市场
       logo: images/软件工具/美家市场.png
       url: https://www.meijiashichang.com?from=dy.199908.top
@@ -4446,7 +4435,7 @@
     - title: AnyConv
       logo: images/软件工具/AnyConv.png
       url: https://anyconv.com/tw?from=dy.199908.top
-      description: AnyConv 是一款免费的在线文件转换工具，为用户提供便捷的文件格式转换服务。支持超过 400 种文件格式，包括文档、图片、音频、视频、电子书、压缩文件、字体、CAD 文件等 。
+      description: AnyConv 是一款免费的在线文件转换工具
     - title: OCR图片转文字
       logo: images/软件工具/OCR图片转文字.jpg
       url: https://web.baimiaoapp.com?from=dy.199908.top
@@ -4454,15 +4443,15 @@
     - title: Online Video Converter
       logo: images/软件工具/Online_Video_Converter.png
       url: https://video-converter.com/cn?from=dy.199908.top
-      description: 一款可以转换视频文件的免费 web 应用，可以让您在浏览器中更改视频格式、分辨率和大小。上传文件最大支持 4 GB，支持 300 多种视频格式，不需要注册或登录。
+      description: 一款可以转换视频文件的免费 web 应用
     - title: HEIC图像转换器
       logo: images/软件工具/HEIC图像转换器.jpg
       url: https://heicjpg.org?from=dy.199908.top
-      description: HEIC图像转换器,heic转JPG、PNG在线转换免费工具
+      description: HEIC图像转换器,heic转JPG
     - title: HeicJPG
       logo: images/软件工具/HeicJPG.svg
       url: https://heicjpg.org?from=dy.199908.top
-      description: HeicJPG支持将HEIC格式的图片批量转换为JPG、PNG或GIF格式。用户只需上传HEIC文件，选择输出格式，即可快速下载转换后的文件。该工具无需安装，操作简单，适合个人用户。
+      description: HeicJPG支持将HEIC格式的图片批量转换为JP
     - title: 图片转换矢量图
       logo: images/软件工具/图片转换矢量图.png
       url: https://vectorizer.com/zh?from=dy.199908.top
@@ -4470,7 +4459,7 @@
     - title: MP4T
       logo: images/软件工具/MP4T.png
       url: https://mp4t.com/zh?from=dy.199908.top
-      description: MP4 转 MP3，免费，安全，快速，支持接近 2GB 视频，免上传。还支持MKV转MP3，WebM转MP3，MP4转GIF，MKV转GIF，WebM转GIF。
+      description: MP4 转 MP3，免费，安全，快速，支持接近
     - title: 在线制作ico图标
       logo: images/软件工具/在线制作ico图标.png
       url: https://www.bitbug.net?from=dy.199908.top
@@ -4494,7 +4483,7 @@
     - title: 字体转换器
       logo: images/软件工具/字体转换器.png
       url: https://www.fontspace.com/category/converter?from=dy.199908.top
-      description: 艺术,POP,特殊字体转换器,字体在线转换生成网站大全
+      description: 艺术,POP,特殊字体转换器,字体在线转换生成网站大
     - title: 图片转像素画工具
       logo: images/软件工具/图片转像素画工具.png
       url: https://www.pixelart.com?from=dy.199908.top
@@ -4536,35 +4525,35 @@
     - title: 满分帮小学生练习题生成器
       logo: images/软件工具/满分帮小学生练习题生成器.svg
       url: https://www.ywmfb.com?from=dy.199908.top
-      description: 满分帮的练习题生成器具备高度的灵活性和可扩展性。用户可以根据需要选择题目的数量、难度级别以及运算类型，例如加减法、乘除法、括号运算等。
+      description: 满分帮的练习题生成器具备高度的灵活性和可扩展性
     - title: 课本大狮
       logo: images/软件工具/课本大狮.svg
       url: http://www.kebendashi.com?from=dy.199908.top
-      description: 课本大狮口算生成器,可一键在线生成口算题卡,包括幼儿园10以内加减法口算考试题,一年级口算数学计算题100道及二年级数学口算题大全,小学上下册口算出题练习卷子,随机生成的口算题卡可直接打印
+      description: 课本大狮口算生成器,可一键在线生成口算题卡,包括幼儿
     - title: 教育屋口算题生成器
       logo: images/软件工具/教育屋口算题生成器.png
       url: https://www.jiaoyuwu.com/calculate?from=dy.199908.top
-      description: 教育屋网提供各类小学口算练习题目生成，内含小学所有数学题型并支持打印
+      description: 教育屋网提供各类小学口算练习题目生成
     - title: 小学口算出题器
       logo: images/软件工具/小学口算出题器.svg
       url: http://www.daydayup365.com?from=dy.199908.top
-      description: 天天向上365小学口算出题器是一款专为小学生设计的数学口算练习工具，旨在帮助学生提升口算能力，增强数学运算思维。
+      description: 天天向上365小学口算出题器专为数学口算练习工具
     - title: 魔力娃口算题生成器
       logo: images/软件工具/魔力娃口算题生成器.ico
       url: https://generate.moliwa.cn?from=dy.199908.top
-      description: 魔力娃口算题生成器是一款专为小学生设计的数学口算训练工具，旨在通过科学、系统的练习方式，帮助孩子提升数学运算能力。
+      description: 魔力娃口算题生成器专为数学口算训练工具，旨在通过科学
     - title: 闹表网
       logo: images/软件工具/闹表网.png
       url: https://www.naobiao.com?from=dy.199908.top
-      description: 闹表网是一个提供在线网页闹钟服务的网站，其主要功能是让用户能够快速便捷地设置闹钟，且无需下载软件即可使用。用户可以通过网页直接访问并设置闹钟，随时随地使用，非常方便。
+      description: 闹表网是一个提供在线网页闹钟服务的网站
     - title: TimeGraphics
       logo: images/软件工具/TimeGraphics.png
       url: https://time.graphics/editor?from=dy.199908.top
-      description: Time.Graphics 是一个在线时间轴制作工具，旨在为用户提供简单直观的界面和丰富的功能，以创建和可视化时间线。
+      description: Time.Graphics 是一个在线时间轴制作工具
     - title: 学于趣字帖
       logo: images/软件工具/学于趣字帖.ico
       url: https://zitie.xueyuqu.com?from=dy.199908.top
-      description: 学于趣字帖，免费在线田字格字帖生成器。汉字、拼音、数字、控笔训练、英文字帖免费生成；字帖内容、颜色、字体、田字格自由定制。
+      description: 学于趣字帖，免费在线田字格字帖生成器。汉字、拼音
     - title: Microsoft数学求解器
       logo: images/软件工具/Microsoft数学求解器.png
       url: https://math.microsoft.com/zh?from=dy.199908.top
@@ -4572,13 +4561,13 @@
     - title: SimpleTex
       logo: images/软件工具/SimpleTex.png
       url: https://simpletex.cn?from=dy.199908.top
-      description: 免费公式识别工具，主要用于将图片中的数学公式转换为 LaTeX 表达式
+      description: 免费公式识别工具，主要用于将图片中的数学公式转换为
   - name: 工作工具
     links:
     - title: 酷表ChatExcel
       logo: images/软件工具/酷表ChatExcel.png
       url: https://www.chatexcel.com/#/home?partner_uuid=BCAB45078F33305692CBBBDA49B19FF7?from=dy.199908.top
-      description: AI Excel 数据研究辅助工具，北大团队开发的通过聊天来操作Excel表格的AI工具
+      description: AI Excel 数据研究辅助工具
     - title: 在线录屏
       logo: images/软件工具/在线录屏.png
       url: https://recordscreen.io?from=dy.199908.top
@@ -4586,7 +4575,7 @@
     - title: 在线提词器
       logo: images/软件工具/在线提词器.png
       url: https://prompter.online?from=dy.199908.top
-      description: 免费在线提词器网页版，适用于直播、视频录制、在线授课和演讲等场合，帮助用户避免忘词，使发言更加流畅自然。
+      description: 免费在线提词器网页版，适用于直播、视频录制
     - title: 劳法计算器
       logo: images/软件工具/劳法计算器.png
       url: https://web.laofa.com/calculator?from=dy.199908.top
@@ -4594,7 +4583,7 @@
     - title: 发票排版助手
       logo: images/软件工具/发票排版助手.png
       url: https://fapiao.jimbray.xyz?from=dy.199908.top
-      description: 支持PDF、PNG、JPG，拖拽排序，批量排版，100%数据安全，免登录免费使用！
+      description: 支持PDF、PNG、JPG，拖拽排序，批量排版
     - title: ip计算器
       logo: images/软件工具/ip计算器.png
       url: https://ipjisuanqi.com?from=dy.199908.top
@@ -4630,24 +4619,23 @@
     - title: 发票大师
       logo: images/软件工具/发票大师.svg
       url: https://fapiao.bangnimang.net?from=dy.199908.top
-      description: 发票大师是一款专为企业及个人设计的智能电子发票管理工具，致力于解决电子发票处理中的效率低下、操作繁琐等痛点。
+      description: 发票大师专为智能电子发票管理工具
     - title: 录屏网
       logo: images/软件工具/录屏网.png
       url: https://www.lupingwang.com?from=dy.199908.top
-      description: 录屏网是一个提供免费在线录屏服务的网站，用户可以通过浏览器直接操作，无需下载软件或插件即可完成屏幕录制。
+      description: 录屏网是一个提供免费在线录屏服务的网站
     - title: 嗨格式免费在线录屏
       logo: images/软件工具/嗨格式免费在线录屏.ico
       url: https://tool.hgs.cn?from=dy.199908.top
-      description: 免费在线录屏，简单实用高效无水印。支持屏幕、窗口录制与网页标签录制，同时录制系统及麦克风声音，录制视频可下载到本地，无需下载任何软件或插件即可免费使用
+      description: 免费在线录屏，简单实用高效无水印。支持屏幕
     - title: Recorder Online
       logo: images/软件工具/Recorder_Online.ico
       url: https://recorder-online.com/zh?from=dy.199908.top
-      description: Recorder Online免费且易于使用的在线屏幕录制工具，无需下载安装，无需注册，打开浏览器即可录屏
+      description: Recorder Online免费且易于使用的在线屏
     - title: Graph Maker
       logo: images/软件工具/Graph_Maker.svg
       url: https://graph-maker.online/zh?from=dy.199908.top
-      description: Graph Maker是一个功能强大的在线图表生成工具，专为需要可视化数据的用户量身打造。
-
+      description: Graph Maker是一个功能强大的在线图表生成工
 - taxonomy: 数据研究
   icon: fa-chart-line
   list:
@@ -4665,15 +4653,15 @@
     - title: 生意参谋
       logo: images/数据研究/生意参谋.png
       url: https://sycm.taobao.com?from=dy.199908.top
-      description: 阿里巴巴旗下的电商数据研究工具，为淘宝和天猫卖家提供销售数据研究
+      description: 阿里巴巴旗下的电商数据研究工具
     - title: 京东商智
       logo: images/数据研究/京东大数据研究院.png
       url: https://sz.jd.com?from=dy.199908.top
-      description: 京东平台的商业智能分析工具，为京东卖家提供销售数据研究
+      description: 京东平台的商业智能分析工具
     - title: 拼多多商家后台
       logo: images/新媒运营/拼多多商家.png
       url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多平台的商家数据研究工具，提供销售数据和用户行为分析
+      description: 拼多多平台的商家数据研究工具
     - title: 新榜
       logo: images/数据研究/新榜.ico
       url: https://www.newrank.cn?from=dy.199908.top
@@ -4689,7 +4677,7 @@
     - title: 东方财富网数据中心
       logo: images/数据研究/东方财富网数据中心.png
       url: https://data.eastmoney.com?from=dy.199908.top
-      description: 整合了股票数据、基金数据和经济数据，并为投资者的投资决策提供重要依据
+      description: 整合了股票数据、基金数据和经济数据
     - title: 易观千帆
       logo: images/数据研究/易观千帆.png
       url: https://www.qianfan.tech?from=dy.199908.top
@@ -4701,15 +4689,15 @@
     - title: 5118营销大数据
       logo: images/数据研究/5118营销大数据.png
       url: http://www.5118.com?promote=A54BC2?from=dy.199908.top
-      description: 提供关键词挖掘,行业词库,站群权重监控,关键词排名监控,指数词,流量词挖掘工具等排名工作人员必备百度站长工具平台
+      description: 提供关键词挖掘,行业词库,站群权重监控,关键词排名监
     - title: 千瓜数据
       logo: images/数据研究/千瓜数据.png
       url: https://www.qian-gua.com?from=dy.199908.top
-      description: 千瓜数据是一款专注于小红书平台的数据分析工具，旨在为品牌和营销人员提供全面、精准的市场洞察和数据支持
+      description: 千瓜数据是一款专注于小红书平台的数据分析工具
     - title: 新抖
       logo: images/数据研究/新抖.ico
       url: https://xd.newrank.cn?from=dy.199908.top
-      description: 新榜公司推出的一款专注于抖音短视频和直播电商的数据分析工具
+      description: 新榜公司推出的一款专注于抖音短视频和直播电商的数据分
     - title: 抖查查
       logo: images/数据研究/抖查查.png
       url: https://www.douchacha.com?from=dy.199908.top
@@ -4763,23 +4751,23 @@
     - title: 百度指数
       logo: images/数据研究/百度指数.png
       url: https://index.baidu.com?from=dy.199908.top
-      description: 这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。
+      description: 这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求
     - title: 微博指数
       logo: images/数据研究/数英指数.ico
       url: https://data.weibo.com/index?from=dy.199908.top
-      description: 基于微博平台的数据研究工具，提供热门话题和事件的传播分析
+      description: 基于微博平台的数据研究工具
     - title: 头条指数
       logo: images/数据研究/数英指数.ico
       url: https://index.toutiao.com?from=dy.199908.top
-      description: 今日头条旗下的内容热度分析工具，提供内容热度和传播分析
+      description: 今日头条旗下的内容热度分析工具
     - title: 微信指数
       logo: images/数据研究/数英指数.ico
       url: https://weixin.sogou.com?from=dy.199908.top
-      description: 基于微信平台的数据研究工具，提供微信公众号和文章的热度分析
+      description: 基于微信平台的数据研究工具
     - title: 百度热搜
       logo: images/数据研究/百度指数.png
       url: https://top.baidu.com?from=dy.199908.top
-      description: 百度搜索风云榜，展示百度搜索热门排行榜单，反映当下社会热点
+      description: 百度搜索风云榜，展示百度搜索热门排行榜单
     - title: 微博热搜
       logo: images/数据研究/微博热搜.png
       url: https://s.weibo.com/top/summary?cate=homepage?from=dy.199908.top
@@ -4799,7 +4787,7 @@
     - title: 360趋势
       logo: images/数据研究/360趋势.png
       url: https://trends.so.com?from=dy.199908.top
-      description: 可通过搜索关键词，快速获取热度趋势、理解用户真实需求、了解关键字搜索的人群属性。
+      description: 可通过搜索关键词，快速获取热度趋势、理解用户真实需求
     - title: 爱奇艺风云榜
       logo: images/数据研究/爱奇艺风云榜.png
       url: https://www.iqiyi.com/ranks1/home?from=dy.199908.top
@@ -4811,7 +4799,7 @@
     - title: 移动观象台
       logo: images/数据研究/移动观象台.png
       url: http://mi.talkingdata.com?from=dy.199908.top
-      description: 应用排行、公众号排行、App Store排行、终端指数、数据报告、市场洞察，用户画像
+      description: 应用排行、公众号排行、App Store排行
     - title: 新榜排名
       logo: images/数据研究/新榜排名.svg
       url: https://www.newrank.cn/public/info/list.html?from=dy.199908.top
@@ -4819,7 +4807,7 @@
     - title: 阿里指数
       logo: images/数据研究/数英指数.ico
       url: https://index.1688.com?from=dy.199908.top
-      description: 阿里巴巴旗下的电商大数据研究平台，展示商品热度和行业趋势
+      description: 阿里巴巴旗下的电商大数据研究平台
     - title: 清博大数据
       logo: images/数据研究/清博大数据.ico
       url: http://home.gsdata.cn?from=dy.199908.top
@@ -4839,7 +4827,7 @@
     - title: 品牌网
       logo: images/数据研究/品牌网.png
       url: https://www.chinapp.com?from=dy.199908.top
-      description: 品牌网始终耕耘于品牌服务领域，品牌大数据一站式服务平台，也是查品牌，找品牌的首选平台，助力企业品牌扬帆远航
+      description: 品牌网始终耕耘于品牌服务领域
     - title: 排行榜123网
       logo: images/数据研究/排行榜123网.png
       url: https://www.phb123.com?from=dy.199908.top
@@ -4847,7 +4835,7 @@
     - title: 盖得排行
       logo: images/数据研究/盖得排行.png
       url: https://www.guiderank-app.com/ranking?from=dy.199908.top
-      description: 盖得排行通过广泛收集全球最专业的消费测评数据，结合独立调研测评，发布公正的消费排行榜
+      description: 盖得排行通过广泛收集全球最专业的消费测评数据
     - title: 十大品牌网
       logo: images/数据研究/十大品牌网.png
       url: https://www.cnpp.cn?from=dy.199908.top
@@ -4855,17 +4843,17 @@
     - title: 买购网
       logo: images/数据研究/买购网.jpg
       url: https://www.maigoo.com?from=dy.199908.top
-      description: 知识榜,品牌榜,查排行,品牌十大与知识生活十大排行榜门户
+      description: 知识榜,品牌榜,查排行,品牌十大与知识生活十大排行榜
   - name: 行业研报
     links:
     - title: 乌拉邦研报
       logo: images/数据研究/乌拉邦研报.png
       url: https://www.ulapia.com?from=dy.199908.top
-      description: 乌拉邦证券研报全文搜索引擎,提供最新、最全的新股、个股、行业、策略研究分析报告可在线免费阅读和免费下载，收录及时覆盖全
+      description: 乌拉邦证券研报全文搜索引擎,提供最新、最全的新股
     - title: 烽火研报
       logo: images/数据研究/烽火研报.png
       url: https://www.fhyanbao.com/?invite_code=xkG6xo?from=dy.199908.top
-      description: 专业研报平台丨收录海量行业报告、券商研报丨免费分享行业研报
+      description: 专业研报平台丨收录海量行业报告
     - title: 镝数聚
       logo: images/数据研究/镝数聚.png
       url: https://www.dydata.io?from=dy.199908.top
@@ -4885,7 +4873,7 @@
     - title: 报告厅
       logo: images/数据研究/报告厅.png
       url: https://www.baogaoting.com?from=dy.199908.top
-      description: 报告,研报,行业报告,文档资料,会议资料，有用的资料都在这
+      description: 报告,研报,行业报告,文档资料,会议资料
     - title: 报告查一查
       logo: images/数据研究/报告查一查.png
       url: http://report.seedsufe.com?from=dy.199908.top
@@ -4897,7 +4885,7 @@
     - title: 199IT
       logo: images/数据研究/199IT.jpg
       url: http://www.199it.com?from=dy.199908.top
-      description: 互联网数据资讯网,发现数据的价值,中文互联网数据研究资讯中心
+      description: 互联网数据资讯网,发现数据的价值,中文互联网数据研究
     - title: 艾媒网
       logo: images/数据研究/艾媒网.jpg
       url: https://www.iimedia.cn?from=dy.199908.top
@@ -4913,7 +4901,7 @@
     - title: 房天下产业网
       logo: images/数据研究/房天下产业网.png
       url: https://fdc.fang.com?from=dy.199908.top
-      description: 专注于房地产数据和市场分析的平台，提供住宅成交数据、住宅市场报告、新房指数走势等信息，帮助用户了解楼市动态和投资机会
+      description: 专注于房地产数据和市场分析的平台，提供住宅成交数据
     - title: 中研网
       logo: images/数据研究/中研网.png
       url: https://www.chinairn.com?from=dy.199908.top
@@ -4921,11 +4909,11 @@
     - title: 民航资源网
       logo: images/数据研究/民航资源网.png
       url: http://www.carnoc.com?from=dy.199908.top
-      description: 提供最新的民航新闻、资料、招聘、社区、博客、机场资料库等内容
+      description: 提供最新的民航新闻、资料、招聘、社区、博客
     - title: 青塔网
       logo: images/数据研究/青塔网.png
       url: https://www.cingta.com?from=dy.199908.top
-      description: 青塔网是一个专注于高等教育领域数据分享与分析的平台，专注于高校权威数据监测、查询与深度分析应用，助力数据驱动、科学决策
+      description: 青塔网是一个专注于高等教育领域数据分享与分析的平台
     - title: 药智网
       logo: images/数据研究/药智网.png
       url: https://www.yaozh.com?from=dy.199908.top
@@ -4943,7 +4931,7 @@
     - title: mckinsey麦肯锡
       logo: images/数据研究/mckinsey麦肯锡.png
       url: https://www.mckinsey.com.cn?from=dy.199908.top
-      description: 业务范围广泛，涵盖战略决策、电子商务战略、客户关系、企业成长、企业运作管理优化、供应链管理、组织与变革管理以及兼并重组等多个领域
+      description: 业务范围广泛，涵盖战略决策、电子商务战略、客户关系
     - title: 贝恩公司
       logo: images/数据研究/贝恩公司.png
       url: https://www.bain.cn?from=dy.199908.top
@@ -4951,11 +4939,11 @@
     - title: 德勤中国
       logo: images/数据研究/德勤中国.webp
       url: https://www2.deloitte.com/cn/zh.html?from=dy.199908.top
-      description: 审计, 企业管理咨询, 财务咨询, 风险咨询, 税务服务及行业洞察
+      description: 审计, 企业管理咨询, 财务咨询, 风险咨询,
     - title: 易观分析
       logo: images/数据研究/易观分析.png
       url: https://www.analysys.cn?from=dy.199908.top
-      description: 提供多种行业报告和案例研究，其分析内容涵盖了多个领域，包括能源数字化、手机银行APP运营、DTC品牌增长、第三方支付市场、智慧家庭发展、制造业人工智能应用等
+      description: 提供多种行业报告和案例研究，其分析内容涵盖了多个领域
     - title: 艾瑞咨询
       logo: images/数据研究/艾瑞咨询.jpg
       url: https://www.iresearch.com.cn?from=dy.199908.top
@@ -4979,11 +4967,11 @@
     - title: topklout克劳锐
       logo: images/数据研究/topklout克劳锐.svg
       url: https://www.topklout.com?from=dy.199908.top
-      description: TopKlout克劳锐是一家专注于社交媒体影响力评估和红人经济生态的第三方权威机构，提供多平台自媒体数据分析
+      description: TopKlout克劳锐是一家专注于社交媒体影响力评估
     - title: 数英指数
       logo: images/数据研究/数英指数.ico
       url: https://www.digitaling.com/dindex?from=dy.199908.top
-      description: 数英指数通过综合分析入驻近万家企业账号的活跃度、项目数量、项目品质、人气以及行业认可度等多维度数据
+      description: 数英指数通过综合分析入驻近万家企业账号的活跃度
     - title: TopKlout
       logo: images/数据研究/TopKlout.svg
       url: https://www.topklout.com?from=dy.199908.top
@@ -4991,7 +4979,7 @@
     - title: 数说故事
       logo: images/数据研究/数说故事.png
       url: https://www.datastory.com.cn?from=dy.199908.top
-      description: 大数据解决方案提供商，专注于社媒营销数智化、大数据营销、数字化转型和营销数字化的人工智能公司
+      description: 大数据解决方案提供商，专注于社媒营销数智化
     - title: 磁流体
       logo: images/数据研究/磁流体.png
       url: https://www.ciliuti.com?from=dy.199908.top
@@ -4999,7 +4987,7 @@
     - title: 新浪舆情通
       logo: images/数据研究/新浪舆情通.png
       url: https://www.yqt365.com?from=dy.199908.top
-      description: 一款基于互联网信息聚合、文本挖掘和智能检索等技术的数据智能软件
+      description: 一款基于互联网信息聚合、文本挖掘和智能检索等技术的数
   - name: 政府数据
     links:
     - title: 国家数据
@@ -5017,11 +5005,11 @@
     - title: 义乌·中国小商品指数
       logo: images/数据研究/义乌_中国小商品指数.png
       url: https://www.ywindex.com?from=dy.199908.top
-      description: 小商品价格指数和小商品市场景气指数，以及若干单独监测指标指数
+      description: 小商品价格指数和小商品市场景气指数
     - title: 中国信息通信研究院
       logo: images/数据研究/中国信息通信研究院.png
       url: http://www.caict.ac.cn?from=dy.199908.top
-      description: 主要宗旨和业务范围包括开展信息通信及工业相关领域问题研究，促进科技和产业发展
+      description: 主要宗旨和业务范围包括开展信息通信及工业相关领域问题
     - title: 中国互联网络信息中心
       logo: images/数据研究/中国互联网络信息中心.png
       url: https://www.cnnic.net.cn?from=dy.199908.top
@@ -5029,7 +5017,7 @@
     - title: 中国宏观经济论坛（CMF）
       logo: images/数据研究/中国宏观经济论坛_CMF_.png
       url: http://ier.ruc.edu.cn?from=dy.199908.top
-      description: 高端学术平台，旨在汇聚经济学领域的顶尖研究力量，聚焦宏观经济动态及重大经济问题
+      description: 高端学术平台，旨在汇聚经济学领域的顶尖研究力量
     - title: CEIC
       logo: images/数据研究/CEIC.jpg
       url: https://www.ceicdata.com.cn/zh-hans?from=dy.199908.top
@@ -5037,7 +5025,7 @@
     - title: 前瞻网
       logo: images/数据研究/前瞻网.png
       url: https://www.qianzhan.com?from=dy.199908.top
-      description: 产业研究型资讯服务平台，专注于研究中国与全球各个细分产业发展动向与变迁趋势，对当下产业新风口、新趋势、新模式及案例进行前瞻性分析解读
+      description: 产业研究型资讯服务平台，专注于研究中国与全球各个细分
     - title: 新华财经
       logo: images/数据研究/新华财经.png
       url: https://www.cnfin.com?from=dy.199908.top
@@ -5055,19 +5043,19 @@
     - title: Tableau Public
       logo: images/数据研究/CEIC.jpg
       url: https://public.tableau.com?from=dy.199908.top
-      description: 免费的数据可视化工具，可以创建交互式的数据可视化作品并在线分享
+      description: 免费的数据可视化工具，可以创建交互式的数据可视化作品
     - title: DataV.js
       logo: images/数据研究/CBNData.jpg
       url: https://datav.aliyun.com?from=dy.199908.top
-      description: 阿里云推出的数据可视化解决方案，提供丰富的可视化组件和模板
+      description: 阿里云推出的数据可视化解决方案
     - title: ECharts
       logo: images/数据研究/Clarity.ico
       url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
-      description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定制能力
+      description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定
     - title: D3.js
       logo: images/新媒运营/D3js.png
       url: https://d3js.org?from=dy.199908.top
-      description: 强大的JavaScript数据可视化库，可以创建各种自定义的交互式数据可视化
+      description: 强大的JavaScript数据可视化库
     - title: Flourish
       logo: images/数据研究/Clarity.ico
       url: https://flourish.studio?from=dy.199908.top
@@ -5093,11 +5081,11 @@
     - title: 中金点睛
       logo: images/数据研究/中金点睛.ico
       url: https://research.cicc.com/index?from=dy.199908.top
-      description: 中金研究推出的一站式数字化投研平台，专注向机构投资者提供包括研报、活动、数据库在内的一站式投研信息服务
+      description: 中金研究推出的一站式数字化投研平台
     - title: 投中网
       logo: images/数据研究/投中网.jpg
       url: https://www.chinaventure.com.cn?from=dy.199908.top
-      description: 提供关于创业、科技、金融和医疗等行业的最新新闻、数据、分析和评论
+      description: 提供关于创业、科技、金融和医疗等行业的最新新闻、数据
     - title: IT桔子
       logo: images/数据研究/IT桔子.png
       url: https://www.itjuzi.com?from=dy.199908.top
@@ -5109,15 +5097,15 @@
     - title: 36氪研究院
       logo: images/数据研究/36氪研究院.jpg
       url: https://36kr.com/academe.html?from=dy.199908.top
-      description: 专注于为政府、企业、投资机构等提供行业研究、产业规划、用户研究和股权投资研究等服务
+      description: 专注提供行业研究、产业规划
     - title: 行行查
       logo: images/数据研究/行行查.png
       url: https://www.hanghangcha.com?from=dy.199908.top
-      description: 专业行业研究数据库,包含海量细分行业研究报告，研究信息覆盖大消费、节能环保、传媒娱乐、信息科技、地产金融、生命健康、先进制造、传统行业等领域
+      description: 专业行业研究数据库,包含海量细分行业研究报告
     - title: 乐晴智库
       logo: images/数据研究/乐晴智库.png
       url: http://www.767stock.com?from=dy.199908.top
-      description: 提供行业深度研究,覆盖大消费,节能环保,传媒娱乐,信息科技,地产金融,生命健康,先进制造等领域
+      description: 提供行业深度研究,覆盖大消费,节能环保,传媒娱乐,信
     - title: 星图金融研究院
       logo: images/数据研究/星图金融研究院.png
       url: http://sif.suning.com?from=dy.199908.top
@@ -5125,7 +5113,7 @@
     - title: 京东大数据研究院
       logo: images/数据研究/京东大数据研究院.png
       url: https://research.jd.com?from=dy.199908.top
-      description: 专注于电商趋势、人群研究和热点观察等领域的大数据分析和报告
+      description: 专注于电商趋势、人群研究和热点观察等领域的大数据分析
     - title: 财富500强情报中心
       logo: images/数据研究/财富500强情报中心.png
       url: https://www.caifuzhongwen.com?from=dy.199908.top
@@ -5143,11 +5131,11 @@
     - title: Google Analytics
       logo: images/数据研究/CEIC.jpg
       url: https://analytics.google.com?from=dy.199908.top
-      description: 谷歌提供的网站流量分析工具，提供网站访问数据和用户行为分析
+      description: 谷歌提供的网站流量分析工具
     - title: 百度统计
       logo: images/数据研究/百度指数.png
       url: https://tongji.baidu.com?from=dy.199908.top
-      description: 百度提供的网站流量分析工具，提供网站访问数据和用户行为分析
+      description: 百度提供的网站流量分析工具
     - title: GrowingIO
       logo: images/新媒运营/GrowingIO.png
       url: https://www.growingio.com?from=dy.199908.top
@@ -5163,11 +5151,11 @@
     - title: Clarity
       logo: images/数据研究/Clarity.ico
       url: https://clarity.microsoft.com?from=dy.199908.top
-      description: Microsoft Clarity 是一款由微软开发的免费网站分析工具，旨在帮助用户深入了解网站用户行为
+      description: Microsoft Clarity
     - title: Search Suggest Pro
       logo: images/数据研究/Search_Suggest_Pro.png
       url: https://dropdown.top?from=dy.199908.top
-      description: Search Suggest Pro-多平台关键词研究工具，一站式查看并导出 Google、Bing、百度等搜索引擎的搜索建议，帮助您进行关键词研究和内容优化
+      description: Search Suggest
     - title: 阿里云研究院
       logo: images/数据研究/阿里云研究院.png
       url: http://www.aliresearch.com/cn/index?from=dy.199908.top
@@ -5176,7 +5164,6 @@
       logo: images/数据研究/阿里研究院.jpg
       url: http://www.aliresearch.com?from=dy.199908.top
       description: 新商业知识平台
-
 - taxonomy: 联系我们
   icon: fa-envelope
   links:
@@ -5192,7 +5179,6 @@
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
-
 - taxonomy: 友情链接
   icon: fa-handshake
   friend:
