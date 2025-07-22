@@ -37,6 +37,7 @@
     logo: images/驼铃标志1.png
     url: https://tv1.199908.top/
     description: 免费影视资源，无需注册
+
 - taxonomy: 电商工具
   icon: fa-shopping-cart
   list:
@@ -499,6 +500,7 @@
       logo: images/电商工具/蓝鲸BI.png
       url: https://www.lingdongsz.com?from=dy.199908.top
       description: 美客多一站式选品，运营软件工具
+
 - taxonomy: AI工具集
   icon: fa-robot
   list:
@@ -1287,6 +1289,7 @@
       logo: images/AI工具集/KreadoAI.png
       url: https://www.kreadoai.com
       description: AIGC数字营销创作平台
+
 - taxonomy: 图文设计
   icon: fa-paint-brush
   list:
@@ -1651,6 +1654,7 @@
       logo: images/图文设计/Blender.png
       url: https://www.blender.org?from=dy.199908.top
       description: 免费开源的3D创作套件
+
 - taxonomy: 电商货源
   icon: fa-boxes
   list:
@@ -2014,6 +2018,7 @@
       logo: images/电商货源/驼铃标志1.png
       url: https://www.jp0663.com?from=dy.199908.top
       description: 军埔货源平台
+
 - taxonomy: 广告投放
   icon: fa-ad
   list:
@@ -2288,6 +2293,7 @@
       logo: images/广告投放/360智慧商业.png
       url: https://e.360.cn?from=dy.199908.top
       description: 360搜索广告投放平台
+
 - taxonomy: 影音娱乐
   icon: fa-play-circle
   list:
@@ -2983,6 +2989,7 @@
       logo: images/影音娱乐/动漫狂.svg
       url: https://www.cartoonmad.com?from=dy.199908.top
       description: 免费动画漫画分享社群
+
 - taxonomy: 学习资源
   icon: fa-graduation-cap
   list:
@@ -3524,6 +3531,7 @@
       logo: images/学习资源/W3School.png
       url: https://www.w3school.com.cn?from=dy.199908.top
       description: 中文Web技术教程
+
 - taxonomy: 生活服务
   icon: fa-home
   list:
@@ -4112,6 +4120,7 @@
       logo: images/生活服务/21CN个人邮箱.png
       url: https://mail.21cn.com?from=dy.199908.top
       description: 中国电信旗下的21CN公司提供的电子邮件服务
+
 - taxonomy: 软件工具
   icon: fa-tools
   list:
@@ -4636,6 +4645,7 @@
       logo: images/软件工具/Graph_Maker.svg
       url: https://graph-maker.online/zh?from=dy.199908.top
       description: Graph Maker是一个功能强大的在线图表生成工
+
 - taxonomy: 数据研究
   icon: fa-chart-line
   list:
@@ -5164,6 +5174,7 @@
       logo: images/数据研究/阿里研究院.jpg
       url: http://www.aliresearch.com?from=dy.199908.top
       description: 新商业知识平台
+
 - taxonomy: 联系我们
   icon: fa-envelope
   links:
@@ -5179,6 +5190,7 @@
   - title: Github
     logo: images/联系我们/github.jpg
     url: https://github.com/TLS-802?from=dy.199908.top
+
 - taxonomy: 友情链接
   icon: fa-handshake
   friend:
