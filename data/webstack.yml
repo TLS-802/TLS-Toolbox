@@ -1758,7 +1758,7 @@
       url: https://hsq.dangxun.com?from=dy.199908.top
       description: 哈士奇电商插件官网，多功能免费，老电商人熟悉的一款浏览器插件，适用淘宝、天猫、1688、拼多多、京东、抖店、苏宁、跨境等各大电商平台的运营插件
     - title: 至尊宝找货助手
-      logo: images/电商辅助/至尊宝找货助手___插件下载.png
+      logo: images/电商辅助/至尊宝找货助手.png
       url: https://zzb.3351r.com/update/index.html?from=dy.199908.top
       description: 至尊宝免费提供一键多平台搜图/搜词选品，宝贝详情、SKU各项数据分析，全站开车和计划管理等功能，覆盖跨境和抖店等几十大货源平台
     - title: AliPrice卖家助手
@@ -1821,6 +1821,75 @@
       logo: images/电商辅助/达连.png
       url: https://tool.kollink.net?from=dy.199908.top
       description: TikTok达人邀约插件
+    - title: Hugging Face
+      logo: images/电商辅助/Hugging_Face.png
+      url: https://huggingface.co/?from=dy.199908.top
+      description: We’re on a journey to advance and democratize artificial intelligence through open source and open science.
+    - title: 扣子工作流
+      logo: images/电商辅助/扣子工作流.png
+      url: https://www.coze.cn/?from=dy.199908.top
+      description: Coze is a next-generation AI application and chatbot developing platform for everyone. Regardless of your programming experience, Coze enables you to effortlessly create various chatbots and deploy them across different social platforms and messaging apps.
+    - title: Eagle
+      logo: images/电商辅助/Eagle.png
+      url: https://cn.eagle.cool/?from=dy.199908.top
+      description: Eagle 可以轻松管理大量图片、视频、音频素材，满足素材「收藏、整理、查找」的各种场景，支持 Mac 与 Windows 系统。
+    - title: Upscayl图片放大
+      logo: images/电商辅助/Upscayl图片放大.png
+      url: https://www.upscayl.org/?from=dy.199908.top
+      description: 免费AI图片变清晰
+    - title: 图牛助理 ps插件
+      logo: images/电商辅助/图牛助理.jpg
+      url: https://www.ps6b.com/?from=dy.199908.top
+      description: 图牛助理PS插件，一款基于PS开发的、提供一系列高效设计的插件，开启高效设计，帮助设计师把重复的工作一键化，集成各种一键操作功能，小白秒变大师，轻松解决繁琐臃肿的PS设计工作，是广大设计师的必备神器
+    - title: 设计助理 PS插件
+      logo: images/电商辅助/设计助理PS插件.png
+      url: https://www.pszhuli.com/?from=dy.199908.top
+      description: 稿定设计助理PS插件，一款基于PS软件开发的、提供一系列高效设计工具的设计插件，开启高效设计，帮助设计师轻松解决繁琐臃肿的PS设计工作量，是广大设计师的必备PS设计神器
+    - title: StartAI官网
+      logo: images/电商辅助/StartAI官网.jpg
+      url: https://www.istarry.com.cn/?sfrom=4WUqBY&from=dy.199908.top
+      description: StartAI PS插件是由StartAI推出的一款专为设计师打造的基于Photoshop的AI工具，提供了一系列强大的AI功能，轻松提升设计效率，激发无限创意。
+    - title: 八爪鱼RPA
+      logo: images/电商辅助/八爪鱼RPA.png
+      url: https://rpa.bazhuayu.com/?from=dy.199908.top
+      description: 八爪鱼RPA是一款免费流程自动化机器人，可以模拟人在电脑上的各种操作，结合AI打造人人可用的小白神器，解放重复性工作，提升组织人效。
+    - title: 包小盒
+      logo: images/电商辅助/包小盒.png
+      url: https://www.baoxiaohe.com/?from=dy.199908.top
+      description: 包小盒
+    - title: 疯狂的美工
+      logo: images/电商辅助/疯狂的美工.png
+      url: https://www.fkdmg.com/?from=dy.199908.top
+      description: 疯狂的美工一站式电商设计师店铺代码装修工具交流学习平台是一个内容丰富的淘宝天猫/阿里1688/京东/阿里国际站美工设计师店铺代码装修工具、设计工具及教程资源发布网站,本站同时为广大设计师提供了灵感分享、学习交流的平台。
+    - title: 像素蛋糕
+      logo: images/电商辅助/像素蛋糕.png
+      url: https://www.pixcakeai.com/?from=dy.199908.top
+      description: 像素蛋糕是一款简单易用的AI修图工具，只需要拖入图片，即可实现一键智能Raw转档调色，一键磨皮全身液化，轻松实现“一秒初修，三秒精修”的批量修图操作
+    - title: 零泉素材管理
+      logo: images/电商辅助/零泉素材管理.png
+      url: https://lingquan.cool/?from=dy.199908.top
+      description: 零泉可以轻松和整理图片、视频等素材，保持创意灵感源源不断，让工作更高效
+    - title: PICPIK AI
+      logo: images/电商辅助/PICPIK_AI.svg
+      url: https://www.picpik.ai/zh?from=dy.199908.top
+      description: PICPIK.AI PS插件
+    - title: 批量裁剪工具
+      logo: images/电商辅助/批量裁剪工具.png
+      url: https://www.birme.net/?from=dy.199908.top
+      description: 批量裁剪图片工具
+    - title: AnyRec放大
+      logo: images/电商辅助/AnyRec放大.png
+      url: https://www.anyrec.io/zh/image-upscaler/?from=dy.199908.top
+      description: AnyRec offers AI-powered tools for work, study, and life. So you can record, create, edit, and share content from any sources on your computer.
+    - title: 图象可视化
+      logo: images/电商辅助/图象可视化.png
+      url: https://www.tuuux.com/plugin/download?from=dy.199908.top
+      description: 图象可视化_聚焦国内外可视化创意社区
+    - title: 小语言装修
+      logo: images/电商辅助/小语言装修.png
+      url: http://www.zxtb.net/?from=dy.199908.top
+      description: 小语言装修,让装修更简单。海量模板覆盖各行各业, 超多酷炫特效应有尽有,强大、智能的编辑器,实现各种DIY。覆盖全电商平台的店铺装修SaaS系统。电商设计好帮手
+
   - name: 电商直播
     links:
     - title: 抖音直播伴侣
