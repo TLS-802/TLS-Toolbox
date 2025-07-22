@@ -2795,7 +2795,52 @@
     - title: 人民网
       logo: images/影音娱乐/人民网.png
       url: https://www.people.com.cn?from=dy.199908.top
-      description: 人民日报旗下的新闻资讯平台，提供国内外新闻、财经
+      description: 人民日报旗下的新闻资讯平台，提供国内外新闻、财经    
+    - title: 电商在线
+      logo: images/影音娱乐/电商在线.png
+      url: https://www.imaijia.com/#/?from=dy.199908.top
+      description: 专注电商行业的观点分享平台
+    - title: 电商报
+      logo: images/影音娱乐/电商报.png
+      url: https://www.dsb.cn/?from=dy.199908.top
+      description: 电子商务媒体和电子商务专业研究机构
+    - title: 亿恩跨境
+      logo: images/影音娱乐/亿恩跨境.png
+      url: https://www.ennews.com/?from=dy.199908.top
+      description: 为跨境电商行业提供全球跨境电商新闻资讯
+    - title: 亿邦动力网
+      logo: images/影音娱乐/亿邦动力网.png
+      url: https://www.ebrun.com/?from=dy.199908.top
+      description: 国内最大的电子商务专业媒体
+    - title: 同花顺财经
+      logo: images/影音娱乐/同花顺财经.png
+      url: https://www.10jqka.com.cn/?from=dy.199908.top
+      description: 让投资变得简单
+    - title: 太平洋汽车
+      logo: images/影音娱乐/太平洋汽车.png
+      url: https://www.pcauto.com.cn/?from=dy.199908.top
+      description: 汽车评测以及新闻、导航、维修、保养、安全
+    - title: 汽车之家
+      logo: images/影音娱乐/汽车之家.png
+      url: https://www.autohome.com.cn/beijing/?from=dy.199908.top
+      description: 提供最新汽车报价，汽车图片，汽车价格大全
+    - title: 虎啸
+      logo: images/影音娱乐/虎啸.png
+      url: https://www.huxiu.com/?from=dy.199908.top
+      description: 在虎啸不错过互联网的每个重要时刻
+    - title: 财经网
+      logo: images/影音娱乐/财经网.png
+      url: https://www.caijing.com.cn/?from=dy.199908.top
+      description: 一览海内外重大财经新闻
+    - title: 财联社
+      logo: images/影音娱乐/财联社.png
+      url: https://www.cls.cn/?from=dy.199908.top
+      description: A股24小时电报，专业权威的证券咨询服务平台
+    - title: 雪球网
+      logo: images/影音娱乐/雪球网.png
+      url: https://xueqiu.com/?from=dy.199908.top
+      description: 聪明的投资者都在这里
+
   - name: 社交媒体
     links:
     - title: 微博
