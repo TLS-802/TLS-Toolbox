@@ -48,6 +48,7 @@
   - term: 客服工具
   - term: 电商erp
   - term: 跨境平台
+  - term: 企业查询
   tabs:
   - name: 电商后台
     links:
@@ -599,6 +600,32 @@
       logo: images/电商工具/日本雅虎购物.png
       url: https://shopping.yahoo.co.jp/?from=dy.199908.top
       description: 日本知名购物平台
+  - name: 企业查询
+    links:
+    - title: 风鸟
+      logo: images/电商工具/风鸟.jpeg
+      url: https://riskbird.com/#/?inviteCode=7607D07920E3AD43?from=dy.199908.top
+      description: 风鸟企业查询，新注册送5年SVIP
+    - title: 企业信用信息公示系统
+      logo: images/电商工具/企业信用信息公示系统.jpeg
+      url: https://www.gsxt.gov.cn/index.html?from=dy.199908.top
+      description: 企业信用信息公示系统
+    - title: 天眼查
+      logo: images/电商工具/天眼查.jpeg
+      url: https://www.tianyancha.com?from=dy.199908.top
+      description: 天眼查
+    - title: 企查查
+      logo: images/电商工具/企查查.jpeg
+      url: https://www.qichacha.com?from=dy.199908.top
+      description: 企查查
+    - title: 爱企查
+      logo: images/电商工具/爱企查.jpeg
+      url: https://aiqicha.baidu.com?from=dy.199908.top
+      description: 爱企查
+    - title: 企知道
+      logo: images/电商工具/企知道.png
+      url: https://qiye.qizhidao.com?from=dy.199908.top
+      description: 企知道
 
 - taxonomy: AI工具集
   icon: fa-robot
