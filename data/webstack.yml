@@ -502,6 +502,103 @@
       url: https://www.lingdongsz.com?from=dy.199908.top
       description: 美客多一站式选品，运营软件工具
   - name: 跨境平台
+    links:
+    - title: TikTok
+      logo: images/电商工具/TikTok.png
+      url: https://www.tiktok.com/?from=dy.199908.top
+      description: TikTok是全球最受欢迎的短视频应用
+    - title: Amazon
+      logo: images/电商工具/Amazon.png
+      url: https://www.amazon.com/?from=dy.199908.top
+      description: 美国跨国电子商务企业 亚马逊
+    - title: TEMU
+      logo: images/电商工具/TEMU.png
+      url: https://www.temu.com/?from=dy.199908.top
+      description: 中国最大的跨境电商平台
+    - title: Aliexpress-速卖通
+      logo: images/电商工具/Aliexpress_速卖通.png
+      url: https://www.aliexpress.com/?from=dy.199908.top
+      description: 中国最大的跨境出口B2C平台
+    - title: eBay
+      logo: images/电商工具/eBay.png
+      url: https://www.ebay.com/?from=dy.199908.top
+      description: 美国线上拍卖及购物网站
+    - title: 阿里巴巴国际
+      logo: images/电商工具/阿里巴巴国际.png
+      url: https://supplier.alibaba.com/?from=dy.199908.top
+      description: 全球领先的跨境贸易B2B电子商务平台
+    - title: Shopee
+      logo: images/电商工具/Shopee.png
+      url: https://shopee.com/?from=dy.199908.top
+      description: 东南亚与台湾电商平台
+    - title: Lazada
+      logo: images/电商工具/Lazada.png
+      url: https://www.lazada.com/en/?from=dy.199908.top
+      description: 东南亚地区最大的在线购物网站之一
+    - title: Etsy
+      logo: images/电商工具/Etsy.png
+      url: https://www.etsy.com/?from=dy.199908.top
+      description: 世界上最具活力的手工艺品交易网
+    - title: Wayfair
+      logo: images/电商工具/Wayfair.png
+      url: https://www.wayfair.com/?from=dy.199908.top
+      description: Wayfair美国，主要销售家具和家居用品。
+    - title: Flipkart
+      logo: images/电商工具/Flipkart.png
+      url: https://www.flipkart.com/?from=dy.199908.top
+      description: 印度最大电商平台
+    - title: 日本乐天
+      logo: images/电商工具/日本乐天.png
+      url: https://www.rakuten.co.jp/?from=dy.199908.top
+      description: 日本数一数二的电商平台
+    - title: Coupang
+      logo: images/电商工具/Coupang.png
+      url: https://www.coupang.com/?from=dy.199908.top
+      description: 韩国最大的电商平台
+    - title: Gmarket
+      logo: images/电商工具/Gmarket.png
+      url: https://www.gmarket.co.kr/?from=dy.199908.top
+      description: 韩国综合购物网站，eBay旗下
+    - title: 敦煌网
+      logo: images/电商工具/敦煌网.jpg
+      url: https://www.dhgate.com/?from=dy.199908.top
+      description: 领先的在线外贸交易平台
+    - title: TradeMe
+      logo: images/电商工具/TradeMe.jpg
+      url: https://www.trademe.co.nz/?from=dy.199908.top
+      description: 新西兰最大的电商网站
+    - title: Catch
+      logo: images/电商工具/Catch.png
+      url: https://www.catch.com.au/?from=dy.199908.top
+      description: 澳大利亚最大的在线零售商之一
+    - title: Myntra
+      logo: images/电商工具/Myntra.jpg
+      url: https://www.myntra.com/?from=dy.199908.top
+      description: 印度最大的时尚电商平台
+    - title: Snapdeal
+      logo: images/电商工具/Snapdeal.png
+      url: https://www.snapdeal.com/?from=dy.199908.top
+      description: 印度知名电商平台
+    - title: Noon
+      logo: images/电商工具/Noon.png
+      url: https://www.noon.com/uae-en/?from=dy.199908.top
+      description: 中东物流时效较快的平台
+    - title: Fordeal
+      logo: images/电商工具/Fordeal.png
+      url: https://www.fordeal.com/en-AE/?from=dy.199908.top
+      description: 中东领先的电商平台
+    - title: Chewy
+      logo: images/电商工具/Chewy.png
+      url: https://www.chewy.com/?from=dy.199908.top
+      description: 美国最大的宠物电商网站
+    - title: Poshmark
+      logo: images/电商工具/Poshmark.png
+      url: https://poshmark.com/?from=dy.199908.top
+      description: 美国版“闲鱼”
+    - title: 日本雅虎购物
+      logo: images/电商工具/日本雅虎购物.png
+      url: https://shopping.yahoo.co.jp/?from=dy.199908.top
+      description: 日本知名购物平台
 
 - taxonomy: AI工具集
   icon: fa-robot
