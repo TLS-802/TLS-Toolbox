@@ -123,12 +123,20 @@
       description: TEMU卖家中心后台管理系统
   - name: 电商插件
     links:
+    - title: 哈士奇电商插件
+      logo: images/电商工具/哈士奇电商插件.png
+      url: https://hsq.dangxun.com?from=dy.199908.top
+      description: 哈士奇电商插件官网，多功能免费
+    - title: 至尊宝找货助手
+      logo: images/电商工具/至尊宝找货助手.png
+      url: https://zzb.3351r.com/update/index.html?from=dy.199908.top
+      description: 至尊宝免费提供一键多平台搜图/搜词选品，宝贝详情
     - title: 阿明查查
       logo: images/电商工具/阿明查查.png
       url: https://www.amingchacha.com?from=dy.199908.top
       description: 阿明工具，让数据会说话；生意参谋指数一键转化
     - title: 小旺神插件
-      logo: images/电商工具/小旺神插件.ico
+      logo: images/电商工具/小旺神插件.png
       url: https://xiaowangshen.com?from=dy.199908.top
       description: 小旺神为您提供新版生意参谋指数一键还原
     - title: 店透视
@@ -140,7 +148,7 @@
       url: http://www.91laihama.com/Tool/Plug?from=dy.199908.top
       description: 癞蛤蟆电商工具箱，是一款能够帮助卖家赚钱的软件
     - title: 旺参谋插件
-      logo: images/电商工具/旺参谋插件.ico
+      logo: images/电商工具/旺参谋插件.png
       url: https://wangcanmou.com?from=dy.199908.top
       description: 旺参谋为您提供新版1688生意参谋指数一键还原
     - title: 老司机电商工具
@@ -152,23 +160,15 @@
       url: https://www.dianchacha.com/chajian?from=dy.199908.top
       description: 店查查是提供淘宝数据统计、店铺关注、宝贝价格关注
     - title: 幕思城将军令
-      logo: images/电商工具/幕思城将军令___插件下载中心.png
+      logo: images/电商工具/幕思城将军令.png
       url: https://tool.musicheng.com/chajian?from=dy.199908.top
       description: 幕思城将军令插件是淘宝天猫卖家必备的数据分析工具
     - title: 淘客助手
       logo: images/电商工具/淘客助手.png
       url: http://www.taokezhushou.com/plugin?from=dy.199908.top
       description: 做最贴心的淘客浏览器插件
-    - title: 哈士奇电商插件
-      logo: images/电商工具/哈士奇电商插件.png
-      url: https://hsq.dangxun.com?from=dy.199908.top
-      description: 哈士奇电商插件官网，多功能免费
-    - title: 至尊宝找货助手
-      logo: images/电商工具/至尊宝找货助手.png
-      url: https://zzb.3351r.com/update/index.html?from=dy.199908.top
-      description: 至尊宝免费提供一键多平台搜图/搜词选品，宝贝详情
     - title: AliPrice卖家助手
-      logo: images/电商工具/AliPrice卖家助手.png
+      logo: images/电商工具/aliexpress.png
       url: https://www.aliprice.com?from=dy.199908.top
       description: AliPrice是支持淘宝、1688、速卖通
     - title: 实选抖音选品检测工具
@@ -207,8 +207,8 @@
       logo: images/电商工具/微查宝.png
       url: https://m.weichabao.com?from=dy.199908.top
       description: 微查宝是一家专业的服务电商商家SAAS平台
-    - title: 电商魔镜
-      logo: images/电商工具/电商魔镜___实时观察同行数据.png
+    - title: 洞察魔镜
+      logo: images/电商工具/电商魔镜.png
       url: http://www.moojing.com/extension?from=dy.199908.top
       description: 实时观察同行竞店数据，免费魔镜浏览器插件
     - title: Fatkun图片下载
