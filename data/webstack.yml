@@ -605,10 +605,14 @@
       logo: images/电商工具/抖音.jpg
       url: https://ippro.bytedance.com?from=dy.199908.top
       description: 抖音电商原创保护平台
-    - title: 淘宝知识产权保护
+    - title: 淘宝原创保护
       logo: images/电商工具/淘宝.png
       url: https://yc.alibaba.com?from=dy.199908.top
-      description: 阿里巴巴原创保护平台
+      description: 淘宝原创保护平台
+    - title: 淘宝知识产权保护
+      logo: images/电商工具/淘宝.png
+      url: https://ipp.taobao.com/home.htm#/login?from=dy.199908.top
+      description: 淘宝知识产权保护平台
     - title: 京东知识产权保护
       logo: images/电商工具/京东.png
       url: https://jdgroupip.com?from=dy.199908.top
