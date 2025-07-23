@@ -265,8 +265,7 @@
       logo: images/电商工具/光圈智播.jpeg
       url: http://bo.meideng.net/common/home?from=dy.199908.top
       description: 直播间自动弹窗工具，自动评论，一键改价改库存。
-      
-  - name: 电商辅助
+        - name: 电商辅助
     links:
     - title: 灵邀AI
       logo: images/电商工具/灵邀AI.jpg
@@ -425,7 +424,7 @@
       url: http://www.wanliniu.com?from=dy.199908.top
       description: 注册即免费赠送3000单
     - title: 全卖通
-      logo: images/电商工具/全卖通.png
+      logo: images/电商工具/全卖通.jpeg
       url: https://www.quanmaitong.com?from=dy.199908.top
       description: 亚马逊店铺运营系统
     - title: GreatBoss ERP
@@ -1178,11 +1177,11 @@
   - name: 音频工具
     links:
     - title: 鸭鸭配音
-      logo: images/AI工具集/鸭鸭配音.png
+      logo: images/AI工具集/鸭鸭配音.jpeg
       url: https://www.yayapeiyin.com?from=dy.199908.top
       description: 鸭鸭配音是一个在线配音网站
     - title: Voice10
-      logo: images/AI工具集/Voice10.png
+      logo: images/AI工具集/Voice10.jpeg
       url: https://voice10.com/index-zh.html?from=dy.199908.top
       description: Voice10是一款免费的AI语音生成工具
     - title: 闪电配音
