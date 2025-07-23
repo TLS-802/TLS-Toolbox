@@ -2256,34 +2256,14 @@
       logo: images/广告投放/DOU.png
       url: https://doujia.douyin.com?from=dy.199908.top
       description: 抖音内容加热和营销推广产品
-    - title: 巨量星图
-      logo: images/广告投放/巨量云图.png
-      url: https://yuntu.oceanengine.com?from=dy.199908.top
-      description: 抖音星图，抖音KOL营销平台
-    - title: 巨量创意
-      logo: images/广告投放/巨量千川.png
-      url: https://cc.oceanengine.com?from=dy.199908.top
-      description: 抖音广告创意平台
-    - title: 巨量本地推
-      logo: images/广告投放/巨量本地推.png
-      url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
-      description: 生活服务商家一站式营销平台
-    - title: 抖音来客
-      logo: images/广告投放/抖音来客.png
-      url: https://life.douyin.com/p/home?from=dy.199908.top
-      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升
-    - title: 抖老板
-      logo: images/广告投放/抖老板.png
-      url: https://www.doulaobao.com?from=dy.199908.top
-      description: 抖音广告投放与数据研究工具
-    - title: 小火龙
-      logo: images/广告投放/小火龙.png
-      url: http://www.xiaohuolong.com?from=dy.199908.top
-      description: 抖音随心推投放工具
     - title: 磁力引擎
       logo: images/广告投放/磁力引擎.png
       url: https://e.kuaishou.com?from=dy.199908.top
       description: 快手广告投放平台
+    - title: 巨量星图
+      logo: images/广告投放/巨量云图.png
+      url: https://yuntu.oceanengine.com?from=dy.199908.top
+      description: 抖音星图，抖音KOL营销平台
     - title: 磁力智投
       logo: images/广告投放/磁力智投.png
       url: https://ad.e.kuaishou.com?from=dy.199908.top
@@ -2296,16 +2276,44 @@
       logo: images/广告投放/uni_ad广告联盟.ico
       url: https://ads.tiktok.com/i18n?from=dy.199908.top
       description: Tiktok官方广告投放平台
+    - title: 巨量创意
+      logo: images/广告投放/巨量千川.png
+      url: https://cc.oceanengine.com?from=dy.199908.top
+      description: 抖音广告创意平台
+    - title: 巨量本地推
+      logo: images/广告投放/巨量本地推.png
+      url: https://e.oceanengine.com/account/page/service/login?from=dy.199908.top
+      description: 生活服务商家一站式营销平台
+    - title: 抖音来客
+      logo: images/广告投放/抖音来客.png
+      url: https://life.douyin.com/p/home?from=dy.199908.top
+      description: 生活服务商家在抖音平台的基础经营平台，实现客流提升
     - title: Tiktok广告投放
       logo: images/广告投放/vivo广告联盟.png
       url: https://www.tiktokforbusinessoutbound.com?from=dy.199908.top
       description: Tiktok海外广告投放平台
+    - title: 抖老板
+      logo: images/广告投放/抖老板.png
+      url: https://www.doulaobao.com?from=dy.199908.top
+      description: 抖音广告投放与数据研究工具
+    - title: 小火龙
+      logo: images/广告投放/小火龙.png
+      url: http://www.xiaohuolong.com?from=dy.199908.top
+      description: 抖音随心推投放工具
   - name: 电商平台
     links:
+    - title: 阿里妈妈
+      logo: images/广告投放/直通车.png
+      url: https://www.alimama.com?from=dy.199908.top
+      description: 阿里巴巴集团旗下的网络营销平台
     - title: 直通车
       logo: images/广告投放/直通车.png
       url: https://subway.simba.taobao.com?from=dy.199908.top
       description: 淘宝关键词推广工具
+    - title: 淘宝联盟
+      logo: images/广告投放/淘宝联盟.jpg
+      url: https://pub.alimama.com?from=dy.199908.top
+      description: 淘宝联盟推广平台
     - title: 万相台
       logo: images/广告投放/直通车.png
       url: https://adbrain.taobao.com?from=dy.199908.top
@@ -2314,18 +2322,6 @@
       logo: images/广告投放/直通车.png
       url: https://tuijian.taobao.com?from=dy.199908.top
       description: 淘宝信息流推广工具
-    - title: 淘宝联盟
-      logo: images/广告投放/淘宝联盟.jpg
-      url: https://pub.alimama.com?from=dy.199908.top
-      description: 淘宝联盟推广平台
-    - title: 阿里妈妈
-      logo: images/广告投放/直通车.png
-      url: https://www.alimama.com?from=dy.199908.top
-      description: 阿里巴巴集团旗下的网络营销平台
-    - title: 品销宝
-      logo: images/广告投放/品销宝.png
-      url: https://branding.taobao.com?from=dy.199908.top
-      description: 淘宝品牌推广工具
     - title: 京准通
       logo: images/广告投放/京东.png
       url: https://jzt.jd.com/gw/index?from=dy.199908.top
@@ -2334,6 +2330,10 @@
       logo: images/广告投放/京东联盟.png
       url: https://union.jd.com?from=dy.199908.top
       description: 京东推广联盟平台
+    - title: 品销宝
+      logo: images/广告投放/品销宝.png
+      url: https://branding.taobao.com?from=dy.199908.top
+      description: 淘宝品牌推广工具
     - title: 京东商智
       logo: images/广告投放/京东商智.png
       url: https://sz.jd.com?from=dy.199908.top
@@ -2352,10 +2352,6 @@
       description: 拼多多推广联盟平台
   - name: 广告联盟
     links:
-    - title: 穿山甲广告联盟
-      logo: images/广告投放/穿山甲广告联盟.png
-      url: https://www.csjplatform.com?from=dy.199908.top
-      description: 为开发者提供流量变现、广告变现、用户增长、LTV提升等全生命周期成长服务
     - title: Google AdMob
       logo: images/广告投放/Google_AdMob.png
       url: https://admob.google.com?from=dy.199908.top
@@ -2364,6 +2360,10 @@
       logo: images/广告投放/谷歌广告联盟.png
       url: http://adsense.google.com?from=dy.199908.top
       description: 帮助网站主通过展示广告来获得收入
+    - title: 穿山甲广告联盟
+      logo: images/广告投放/穿山甲广告联盟.png
+      url: https://www.csjplatform.com?from=dy.199908.top
+      description: 为开发者提供流量变现、广告变现、用户增长、LTV提升等全生命周期成长服务
     - title: 小米移动广告联盟
       logo: images/广告投放/小米移动广告联盟.png
       url: https://dev.mi.com/xiaomihyperos/advertisement?from=dy.199908.top
@@ -2380,14 +2380,10 @@
       logo: images/广告投放/荣耀广告联盟.svg
       url: https://developer.honor.com/alliance/index.html?from=dy.199908.top
       description: 荣耀广告联盟是依托荣耀终端优势，提供专业服务
-    - title: uni-ad广告联盟
-      logo: images/广告投放/uni_ad广告联盟.ico
-      url: https://uniad.dcloud.net.cn?from=dy.199908.top
-      description: uni-ad广告联盟是一个为开发者提供一站式解决方案
-    - title: dcloud广告联盟
-      logo: images/广告投放/dcloud广告联盟.svg
-      url: https://www.dcloud.io/dad.html?from=dy.199908.top
-      description: DCloud广告联盟是DCloud推出的一项广告变现
+    - title: 360奇聚流量变现平台
+      logo: images/广告投放/360奇聚流量变现平台.png
+      url: http://ssp.360.cn?from=dy.199908.top
+      description: 360公司推出的一款旨在提升媒体变现能力的工具
     - title: 4399广告联盟
       logo: images/广告投放/4399广告联盟.svg
       url: https://union.4399.cn?from=dy.199908.top
@@ -2396,10 +2392,14 @@
       logo: images/广告投放/多麦联盟.png
       url: https://home.duomai.com/zh?from=dy.199908.top
       description: 一家专注于效果营销的优质广告服务商
-    - title: 360奇聚流量变现平台
-      logo: images/广告投放/360奇聚流量变现平台.png
-      url: http://ssp.360.cn?from=dy.199908.top
-      description: 360公司推出的一款旨在提升媒体变现能力的工具
+    - title: uni-ad广告联盟
+      logo: images/广告投放/uni_ad广告联盟.ico
+      url: https://uniad.dcloud.net.cn?from=dy.199908.top
+      description: uni-ad广告联盟是一个为开发者提供一站式解决方案
+    - title: dcloud广告联盟
+      logo: images/广告投放/dcloud广告联盟.svg
+      url: https://www.dcloud.io/dad.html?from=dy.199908.top
+      description: DCloud广告联盟是DCloud推出的一项广告变现
     - title: 万维广告
       logo: images/广告投放/万维广告.png
       url: https://wwads.cn?from=dy.199908.top
@@ -2410,10 +2410,6 @@
       description: 独立开发者广告联盟，一个数据真正公开透明的聚合广告平
   - name: 营销服务
     links:
-    - title: 神赞
-      logo: images/广告投放/神赞.png
-      url: https://www.shenzan.com?from=dy.199908.top
-      description: 新媒体营销平台，KOL营销品牌种草内容带货
     - title: 微播易
       logo: images/广告投放/传播易.png
       url: http://www.weiboyi.com?from=dy.199908.top
@@ -2422,14 +2418,14 @@
       logo: images/广告投放/星榜.jpeg
       url: https://a.newrank.cn/trade?from=dy.199908.top
       description: 公众号视频号接广告赚钱
+    - title: 神赞
+      logo: images/广告投放/神赞.png
+      url: https://www.shenzan.com?from=dy.199908.top
+      description: 新媒体营销平台，KOL营销品牌种草内容带货
     - title: 星榜
       logo: images/广告投放/星榜.jpeg
       url: https://www.starrank.com?from=dy.199908.top
       description: 短视频博主内容营销和电商服务
-    - title: 蜜蜂派单
-      logo: images/广告投放/蜜蜂派单.png
-      url: https://mifengpaidan.com?from=dy.199908.top
-      description: 微信公众号广告接单,公众号广告投放
     - title: 传播易
       logo: images/广告投放/传播易.png
       url: https://www.chuanboyi.com?from=dy.199908.top
@@ -2438,6 +2434,10 @@
       logo: images/广告投放/云自媒.png
       url: http://www.myunmei.com?from=dy.199908.top
       description: 云自媒汇聚26万+优质自媒体资源
+    - title: 蜜蜂派单
+      logo: images/广告投放/蜜蜂派单.png
+      url: https://mifengpaidan.com?from=dy.199908.top
+      description: 微信公众号广告接单,公众号广告投放
     - title: 发呀
       logo: images/广告投放/发呀.png
       url: https://www.88faya.com?from=dy.199908.top
@@ -2456,18 +2456,6 @@
       logo: images/广告投放/Wechat.jpg
       url: https://ad.weixin.qq.com?from=dy.199908.top
       description: 微信广告投放平台
-    - title: 视频号助手
-      logo: images/广告投放/视频号.jpg
-      url: https://channels.weixin.qq.com?from=dy.199908.top
-      description: 微信视频号创作者平台
-    - title: 微信红包封面开放平台
-      logo: images/广告投放/微信红包封面开放平台.png
-      url: https://cover.weixin.qq.com?from=dy.199908.top
-      description: 微信红包封面营销平台
-    - title: 诸葛智投
-      logo: images/广告投放/诸葛智投.png
-      url: https://zgzt.v-ma.com?from=dy.199908.top
-      description: 视频号投放管理工具
     - title: 聚光平台
       logo: images/广告投放/聚光.jpg
       url: https://ad.xiaohongshu.com?from=dy.199908.top
@@ -2480,16 +2468,24 @@
       logo: images/广告投放/微博.png
       url: https://tui.weibo.com/platform?from=dy.199908.top
       description: 微博广告投放平台
+    - title: 视频号助手
+      logo: images/广告投放/视频号.jpg
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号创作者平台
     - title: 知乎广告
       logo: images/广告投放/知乎.png
       url: https://xg.zhihu.com/home?from=dy.199908.top
       description: 知乎广告投放平台
+    - title: 微信红包封面开放平台
+      logo: images/广告投放/微信红包封面开放平台.png
+      url: https://cover.weixin.qq.com?from=dy.199908.top
+      description: 微信红包封面营销平台
+    - title: 诸葛智投
+      logo: images/广告投放/诸葛智投.png
+      url: https://zgzt.v-ma.com?from=dy.199908.top
+      description: 视频号投放管理工具
   - name: 搜索引擎
     links:
-    - title: 腾讯广告
-      logo: images/广告投放/腾讯广告.png
-      url: https://e.qq.com?from=dy.199908.top
-      description: 国内领先的广告平台
     - title: 百度推广
       logo: images/广告投放/百度营销.png
       url: https://e.baidu.com?from=dy.199908.top
@@ -2498,6 +2494,10 @@
       logo: images/广告投放/百度营销.png
       url: https://yingxiao.baidu.com?from=dy.199908.top
       description: 丰富广告资源，海量优质流量
+    - title: 腾讯广告
+      logo: images/广告投放/腾讯广告.png
+      url: https://e.qq.com?from=dy.199908.top
+      description: 国内领先的广告平台
     - title: 360推广
       logo: images/广告投放/360智慧商业.png
       url: https://e.360.cn?from=dy.199908.top
@@ -2518,10 +2518,22 @@
   tabs:
   - name: 视频平台
     links:
+    - title: YouTube
+      logo: images/影音娱乐/YouTube.png
+      url: https://www.youtube.com?from=dy.199908.top
+      description: 全球最大的视频分享平台
     - title: 哔哩哔哩
       logo: images/影音娱乐/哔哩哔哩.png
       url: https://www.bilibili.com?from=dy.199908.top
       description: 国内知名的视频弹幕网站，提供高质量的视频内容
+    - title: 抖音
+      logo: images/影音娱乐/抖音.jpg
+      url: https://www.douyin.com?from=dy.199908.top
+      description: 字节跳动旗下的短视频社交平台，用户可以拍摄
+    - title: 快手
+      logo: images/影音娱乐/快手.jpg
+      url: https://www.kuaishou.com?from=dy.199908.top
+      description: 拥抱每一种生活，记录世界记录你
     - title: 腾讯视频
       logo: images/影音娱乐/腾讯视频.png
       url: https://v.qq.com?from=dy.199908.top
@@ -2534,30 +2546,42 @@
       logo: images/影音娱乐/优酷.jpg
       url: https://www.youku.com?from=dy.199908.top
       description: 阿里巴巴旗下的视频网站，提供电影、电视剧、综艺
-    - title: 抖音
-      logo: images/影音娱乐/抖音.jpg
-      url: https://www.douyin.com?from=dy.199908.top
-      description: 字节跳动旗下的短视频社交平台，用户可以拍摄
-    - title: 快手
-      logo: images/影音娱乐/快手.jpg
-      url: https://www.kuaishou.com?from=dy.199908.top
-      description: 拥抱每一种生活，记录世界记录你
-    - title: YouTube
-      logo: images/影音娱乐/YouTube.png
-      url: https://www.youtube.com?from=dy.199908.top
-      description: 全球最大的视频分享平台
+    - title: 西瓜视频
+      logo: images/影音娱乐/西瓜视频.jpg
+      url: https://www.ixigua.com?from=dy.199908.top
+      description: 西瓜视频是字节跳动旗下的一款领先的中视频平台
+    - title: 芒果TV
+      logo: images/影音娱乐/芒果TV.jpg
+      url: https://www.mgtv.com?from=dy.199908.top
+      description: 高清视频在线观看
+    - title: 搜狐视频
+      logo: images/影音娱乐/搜狐视频.png
+      url: https://tv.sohu.com?from=dy.199908.top
+      description: 搜狐旗下专业的综合视频网站
+    - title: PP视频
+      logo: images/影音娱乐/PP视频.png
+      url: https://www.pptv.com?from=dy.199908.top
+      description: 综合视频门户网站平台
     - title: 好看视频
       logo: images/影音娱乐/好看视频.jpeg
       url: https://haokan.baidu.com?from=dy.199908.top
       description: 百度旗下短视频平台
-    - title: AcFun
-      logo: images/影音娱乐/acfun.png
-      url: https://www.acfun.cn?from=dy.199908.top
-      description: 弹幕视频网站
     - title: 视频号助手
       logo: images/影音娱乐/好看视频.jpeg
       url: https://channels.weixin.qq.com?from=dy.199908.top
       description: 微信视频号官方助手
+    - title: AcFun
+      logo: images/影音娱乐/acfun.png
+      url: https://www.acfun.cn?from=dy.199908.top
+      description: 弹幕视频网站
+    - title: 1905电影网
+      logo: images/影音娱乐/1905电影网.png
+      url: https://www.1905.com?from=dy.199908.top
+      description: 电影频道官方网站
+    - title: 风行网
+      logo: images/影音娱乐/风行网.jpg
+      url: http://www.fun.tv?from=dy.199908.top
+      description: 视频内容在线观看
     - title: 央视纪实纪录片
       logo: images/影音娱乐/央视纪实纪录片.png
       url: http://jishi.cctv.com?from=dy.199908.top
@@ -2586,52 +2610,12 @@
       logo: images/影音娱乐/爱奇艺海外版.png
       url: https://www.iq.com?from=dy.199908.top
       description: 爱奇艺海外版官网网页版网址
-    - title: 西瓜视频
-      logo: images/影音娱乐/西瓜视频.jpg
-      url: https://www.ixigua.com?from=dy.199908.top
-      description: 西瓜视频是字节跳动旗下的一款领先的中视频平台
     - title: 西影网
       logo: images/影音娱乐/西影网.jpg
       url: https://www.1958xy.com?from=dy.199908.top
       description: 一些老影视节目
-    - title: 搜狐视频
-      logo: images/影音娱乐/搜狐视频.png
-      url: https://tv.sohu.com?from=dy.199908.top
-      description: 搜狐旗下专业的综合视频网站
-    - title: 芒果TV
-      logo: images/影音娱乐/芒果TV.jpg
-      url: https://www.mgtv.com?from=dy.199908.top
-      description: 高清视频在线观看
-    - title: 风行网
-      logo: images/影音娱乐/风行网.jpg
-      url: http://www.fun.tv?from=dy.199908.top
-      description: 视频内容在线观看
-    - title: PP视频
-      logo: images/影音娱乐/PP视频.png
-      url: https://www.pptv.com?from=dy.199908.top
-      description: 综合视频门户网站平台
-    - title: 1905电影网
-      logo: images/影音娱乐/1905电影网.png
-      url: https://www.1905.com?from=dy.199908.top
-      description: 电影频道官方网站
   - name: 短剧平台
     links:
-    - title: 河马剧场
-      logo: images/影音娱乐/河马剧场.ico
-      url: https://www.kuaikaw.cn?from=dy.199908.top
-      description: 河马剧场是一个专注于提供高质量短剧的平台
-    - title: 红果短剧
-      logo: images/影音娱乐/红果短剧.png
-      url: https://novelquickapp.com?from=dy.199908.top
-      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式
-    - title: 趣看看短剧
-      logo: images/影音娱乐/趣看看短剧.png
-      url: https://v.contentchina.com?from=dy.199908.top
-      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清
-    - title: 甜虾剧场
-      logo: images/影音娱乐/甜虾剧场.png
-      url: https://www.360kuai.com/pc/mvideo/duanju?from=dy.199908.top
-      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品
     - title: 抖音短剧
       logo: images/影音娱乐/抖音短剧.png
       url: https://www.douyin.com/hashtag/1617649538430990?from=dy.199908.top
@@ -2640,6 +2624,22 @@
       logo: images/影音娱乐/快手短剧.png
       url: https://www.kuaishou.com/theater/10000?from=dy.199908.top
       description: 是快手平台上一个专注于提供各类短剧资源内容的板块
+    - title: 红果短剧
+      logo: images/影音娱乐/红果短剧.png
+      url: https://novelquickapp.com?from=dy.199908.top
+      description: 红果短剧是字节跳动旗下的短视频平台，主打免费观看模式
+    - title: 河马剧场
+      logo: images/影音娱乐/河马剧场.ico
+      url: https://www.kuaikaw.cn?from=dy.199908.top
+      description: 河马剧场是一个专注于提供高质量短剧的平台
+    - title: 趣看看短剧
+      logo: images/影音娱乐/趣看看短剧.png
+      url: https://v.contentchina.com?from=dy.199908.top
+      description: 免费短剧高清在线观看，趣看看短剧是一家专注于提供高清
+    - title: 甜虾剧场
+      logo: images/影音娱乐/甜虾剧场.png
+      url: https://www.360kuai.com/pc/mvideo/duanju?from=dy.199908.top
+      description: 《甜虾剧场》是一款能让您在电脑端看短视频的休闲产品
     - title: 五五短剧
       logo: images/影音娱乐/短剧猫.png
       url: https://www.duanju55.com?from=dy.199908.top
@@ -2760,18 +2760,6 @@
       description: NBA直播,NBA重播吧,比赛视频,斯诺克直播网
   - name: 音频平台
     links:
-    - title: 喜马拉雅
-      logo: images/影音娱乐/喜马拉雅.png
-      url: https://www.ximalaya.com?from=dy.199908.top
-      description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
-    - title: 荔枝FM
-      logo: images/影音娱乐/荔枝fm.png
-      url: https://www.lizhi.fm?from=dy.199908.top
-      description: 专业的音频分享平台，提供播客、有声书、音乐等内容
-    - title: 蜻蜓FM
-      logo: images/影音娱乐/蜻蜓fm.png
-      url: https://www.qingting.fm?from=dy.199908.top
-      description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
     - title: QQ音乐
       logo: images/影音娱乐/QQ音乐.svg
       url: https://y.qq.com?from=dy.199908.top
@@ -2780,14 +2768,26 @@
       logo: images/影音娱乐/网易云音乐.png
       url: https://music.163.com?from=dy.199908.top
       description: 专注于发现与分享音乐
-    - title: 酷我音乐
-      logo: images/影音娱乐/酷我音乐.jpeg
-      url: http://www.kuwo.cn?from=dy.199908.top
-      description: 无损音质正版在线试听网站
     - title: 酷狗音乐
       logo: images/影音娱乐/酷狗音乐.png
       url: https://www.kugou.com?from=dy.199908.top
       description: 最新最全的在线正版音乐网站
+    - title: 酷我音乐
+      logo: images/影音娱乐/酷我音乐.jpeg
+      url: http://www.kuwo.cn?from=dy.199908.top
+      description: 无损音质正版在线试听网站
+    - title: 喜马拉雅
+      logo: images/影音娱乐/喜马拉雅.png
+      url: https://www.ximalaya.com?from=dy.199908.top
+      description: 中国领先的音频分享平台，提供有声书、音乐、教育等内容
+    - title: 蜻蜓FM
+      logo: images/影音娱乐/蜻蜓fm.png
+      url: https://www.qingting.fm?from=dy.199908.top
+      description: 专业的音频内容平台，提供广播电台、有声书、音乐等内容
+    - title: 荔枝FM
+      logo: images/影音娱乐/荔枝fm.png
+      url: https://www.lizhi.fm?from=dy.199908.top
+      description: 专业的音频分享平台，提供播客、有声书、音乐等内容
     - title: 汽水音乐
       logo: images/影音娱乐/汽水音乐.jpeg
       url: https://music.douyin.com/qishui?from=dy.199908.top
@@ -2995,26 +2995,26 @@
       description: 百度智能小程序平台
   - name: 海外平台
     links:
-    - title: Facebook
-      logo: images/影音娱乐/Facebook.png
-      url: https://www.facebook.com?from=dy.199908.top
-      description: 美国排名第一的照片分享站点
     - title: YouTube
       logo: images/影音娱乐/YouTube.png
       url: https://www.youtube.com?from=dy.199908.top
       description: 全球最大的视频网站
+    - title: Facebook
+      logo: images/影音娱乐/Facebook.png
+      url: https://www.facebook.com?from=dy.199908.top
+      description: 美国排名第一的照片分享站点
     - title: Instagram
       logo: images/影音娱乐/Instagram.png
       url: https://www.instagram.com?from=dy.199908.top
       description: 图片视频分享平台
-    - title: Twitter
-      logo: images/影音娱乐/Twitter.png
-      url: https://twitter.com?from=dy.199908.top
-      description: 社交服务网站
     - title: TikTok
       logo: images/影音娱乐/TikTok.png
       url: https://www.tiktok.com?from=dy.199908.top
       description: 全球领先的短视频娱乐平台
+    - title: Twitter
+      logo: images/影音娱乐/Twitter.png
+      url: https://twitter.com?from=dy.199908.top
+      description: 社交服务网站
     - title: Linkedin
       logo: images/影音娱乐/Linkedin.png
       url: https://www.linkedin.com?from=dy.199908.top
@@ -3397,6 +3397,10 @@
       description: 全国通信专业技术人员职业水平考试网站
   - name: 外语学习
     links:
+    - title: 沪江网校
+      logo: images/学习资源/沪江网校.png
+      url: https://www.hujiang.com?from=dy.199908.top
+      description: 英、日、法、韩、泰、德、西班牙等12国外语学习
     - title: Duolingo
       logo: images/学习资源/Duolingo.png
       url: https://www.duolingo.cn?from=dy.199908.top
@@ -3405,10 +3409,6 @@
       logo: images/学习资源/英语流利说.jpg
       url: https://www.liulishuo.com?from=dy.199908.top
       description: 轻松学英语，用人工智能老师
-    - title: 沪江网校
-      logo: images/学习资源/沪江网校.png
-      url: https://www.hujiang.com?from=dy.199908.top
-      description: 英、日、法、韩、泰、德、西班牙等12国外语学习
     - title: 扇贝
       logo: images/学习资源/扇贝.png
       url: https://www.shanbay.com?from=dy.199908.top
@@ -3611,18 +3611,26 @@
       description: 一个专注于吉他爱好者的在线平台
   - name: IT技术类
     links:
+    - title: freeCodeCamp
+      logo: images/学习资源/freeCodeCamp.png
+      url: https://www.freecodecamp.org/chinese?from=dy.199908.top
+      description: 免费学习编程网站
+    - title: W3School
+      logo: images/学习资源/W3School.png
+      url: https://www.w3school.com.cn?from=dy.199908.top
+      description: 中文Web技术教程
+    - title: CSDN学习
+      logo: images/学习资源/CSDN学习.jpg
+      url: https://edu.csdn.net?from=dy.199908.top
+      description: CSDN的IT在线教育平台
     - title: 洛谷
       logo: images/学习资源/洛谷.ico
       url: https://www.luogu.com.cn?from=dy.199908.top
       description: 洛谷是一个提供编程题目、比赛、讨论和学习资源的平台
-    - title: OpenJudge
-      logo: images/学习资源/OpenJudge.svg
-      url: http://noi.openjudge.cn?from=dy.199908.top
-      description: OpenJudge是一个由北京大学POJ团队开发的在
-    - title: 讯飞AI大学堂
-      logo: images/学习资源/讯飞AI大学堂.png
-      url: https://www.aidaxue.com?from=dy.199908.top
-      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台
+    - title: Hello 算法
+      logo: images/学习资源/Hello_算法.png
+      url: https://www.hello-algo.com?from=dy.199908.top
+      description: 开源、免费、对新手友好的数据结构与算法入门教程
     - title: 学习猿地
       logo: images/学习资源/学习猿地.png
       url: https://www.lmonkey.com?from=dy.199908.top
@@ -3631,26 +3639,18 @@
       logo: images/学习资源/思否编程.png
       url: https://ke.segmentfault.com?from=dy.199908.top
       description: 致力于帮助学员更好的学会编程、提升技术认知
-    - title: 入职啦
-      logo: images/学习资源/入职啦.ico
-      url: https://ruzhila.cn?from=dy.199908.top
-      description: 专注于编程实战、智能简历制作和技术博客分享的平台
-    - title: cocos中文社区
-      logo: images/学习资源/cocos中文社区.png
-      url: https://forum.cocos.org?from=dy.199908.top
-      description: 为使用Cocos游戏引擎的开发者提供交流
-    - title: 计蒜客
-      logo: images/学习资源/计蒜客.ico
-      url: https://www.jisuanke.com?from=dy.199908.top
-      description: 专注于计算机科学教育的在线平台
-    - title: freeCodeCamp
-      logo: images/学习资源/freeCodeCamp.png
-      url: https://www.freecodecamp.org/chinese?from=dy.199908.top
-      description: 免费学习编程网站
-    - title: Hello 算法
-      logo: images/学习资源/Hello_算法.png
-      url: https://www.hello-algo.com?from=dy.199908.top
-      description: 开源、免费、对新手友好的数据结构与算法入门教程
+    - title: 图灵社区
+      logo: images/学习资源/图灵社区.png
+      url: https://www.ituring.com.cn?from=dy.199908.top
+      description: 图灵社区网站高质量的科技书籍服务平台
+    - title: 百度前端技术学园
+      logo: images/学习资源/百度前端技术学园.png
+      url: http://ife.baidu.com?from=dy.199908.top
+      description: 百度创办的免费前端技术学习实践、交流、分享平台
+    - title: 讯飞AI大学堂
+      logo: images/学习资源/讯飞AI大学堂.png
+      url: https://www.aidaxue.com?from=dy.199908.top
+      description: AI 大学堂是科大讯飞打造的专业 AI 在线学习平台
     - title: 无涯教程网
       logo: images/学习资源/无涯教程网.png
       url: https://www.learnfk.com?from=dy.199908.top
@@ -3788,10 +3788,6 @@
   tabs:
   - name: 求职招聘
     links:
-    - title: BOSS直聘
-      logo: images/生活服务/BOSS直聘.png
-      url: https://www.zhipin.com?from=dy.199908.top
-      description: 让求职者与Boss直接开聊、加快面试、即时反馈
     - title: 智联招聘
       logo: images/生活服务/智联招聘.png
       url: https://www.zhaopin.com?from=dy.199908.top
@@ -3800,6 +3796,10 @@
       logo: images/生活服务/前程无忧.png
       url: https://www.51job.com?from=dy.199908.top
       description: 面向全国,提供准确的招聘网站信息,提供专业服务
+    - title: BOSS直聘
+      logo: images/生活服务/BOSS直聘.png
+      url: https://www.zhipin.com?from=dy.199908.top
+      description: 让求职者与Boss直接开聊、加快面试、即时反馈
     - title: 人社部
       logo: images/生活服务/人社部.png
       url: https://www.mohrss.gov.cn?from=dy.199908.top
@@ -3936,50 +3936,54 @@
       description: 贵阳住宅与房地产信息网
   - name: 社区论坛
     links:
-    - title: GitHub
-      logo: images/生活服务/GitHub.png
-      url: https://github.com?from=dy.199908.top
-      description: 全球最大的代码托管平台
-    - title: 天涯
-      logo: images/生活服务/天涯.ico
-      url: https://tianya.im?from=dy.199908.top
-      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合
-    - title: 威锋网
-      logo: images/生活服务/威锋网.ico
-      url: https://www.feng.com?from=dy.199908.top
-      description: 苹果用户社区
-    - title: 吾爱破解
-      logo: images/生活服务/吾爱破解.ico
-      url: https://www.52pojie.cn?from=dy.199908.top
-      description: 软件安全与病毒分析
-    - title: 今日头条
-      logo: images/生活服务/今日头条.ico
-      url: https://www.toutiao.com?from=dy.199908.top
-      description: 你关心的，才是头条
-    - title: LINUX DO
-      logo: images/生活服务/LINUX_DO.png
-      url: https://linux.do?from=dy.199908.top
-      description: Linux技术社区
-    - title: NodeSeek
-      logo: images/生活服务/nodeseek.png
-      url: https://www.nodeseek.com?from=dy.199908.top
-      description: Linux技术社区
-    - title: V2EX
-      logo: images/生活服务/V2EX.png
-      url: https://www.v2ex.com?from=dy.199908.top
-      description: 创意工作者们的社区
-    - title: CSDN
-      logo: images/生活服务/CSDN.ico
-      url: https://www.csdn.net?from=dy.199908.top
-      description: 专业的中文IT技术社区
     - title: 知乎
       logo: images/生活服务/知乎.ico
       url: https://www.zhihu.com?from=dy.199908.top
       description: 有问题，就会有答案
+    - title: GitHub
+      logo: images/生活服务/GitHub.png
+      url: https://github.com?from=dy.199908.top
+      description: 全球最大的代码托管平台
     - title: 豆瓣
       logo: images/生活服务/豆瓣.ico
       url: https://www.douban.com?from=dy.199908.top
       description: 我们的精神角落
+    - title: CSDN
+      logo: images/生活服务/CSDN.ico
+      url: https://www.csdn.net?from=dy.199908.top
+      description: 专业的中文IT技术社区
+    - title: 今日头条
+      logo: images/生活服务/今日头条.ico
+      url: https://www.toutiao.com?from=dy.199908.top
+      description: 你关心的，才是头条
+    - title: 虎扑
+      logo: images/生活服务/虎扑.ico
+      url: https://www.hupu.com?from=dy.199908.top
+      description: 体育文化社区
+    - title: 什么值得买
+      logo: images/生活服务/什么值得买.ico
+      url: https://www.smzdm.com?from=dy.199908.top
+      description: 消费决策平台
+    - title: V2EX
+      logo: images/生活服务/V2EX.png
+      url: https://www.v2ex.com?from=dy.199908.top
+      description: 创意工作者们的社区
+    - title: 天涯
+      logo: images/生活服务/天涯.ico
+      url: https://tianya.im?from=dy.199908.top
+      description: 一个集娱乐、资讯、生活、教育等多方面内容于一体的综合
+    - title: 吾爱破解
+      logo: images/生活服务/吾爱破解.ico
+      url: https://www.52pojie.cn?from=dy.199908.top
+      description: 软件安全与病毒分析
+    - title: 威锋网
+      logo: images/生活服务/威锋网.ico
+      url: https://www.feng.com?from=dy.199908.top
+      description: 苹果用户社区
+    - title: LINUX DO
+      logo: images/生活服务/LINUX_DO.png
+      url: https://linux.do?from=dy.199908.top
+      description: Linux技术社区
     - title: NodeLoc
       logo: images/生活服务/NodeLoc.png
       url: https://www.nodeloc.com?from=dy.199908.top
@@ -4407,18 +4411,6 @@
       description: 各linux操作系统官网及下载
   - name: 效率工具
     links:
-    - title: Diffchecker
-      logo: images/软件工具/Diffchecker.ico
-      url: https://www.diffchecker.com?from=dy.199908.top
-      description: Diffchecker 是一款功能强大的文本和文件差
-    - title: CCompare
-      logo: images/软件工具/CCompare.png
-      url: https://www.scootersoftware.com?from=dy.199908.top
-      description: 免费的文件和代码对比工具，替代beyond
-    - title: PasteBar
-      logo: images/软件工具/PasteBar.png
-      url: https://www.pastebar.app?from=dy.199908.top
-      description: 有效地管理和组织复制的文本、图片、文件
     - title: CopyQ
       logo: images/软件工具/CopyQ.png
       url: https://hluk.github.io/CopyQ?from=dy.199908.top
@@ -4427,6 +4419,18 @@
       logo: images/软件工具/EcoPaste.png
       url: https://github.com/EcoPasteHub/EcoPaste?from=dy.199908.top
       description: 免费开源的跨平台剪切板管理工具
+    - title: PasteBar
+      logo: images/软件工具/PasteBar.png
+      url: https://www.pastebar.app?from=dy.199908.top
+      description: 有效地管理和组织复制的文本、图片、文件
+    - title: Diffchecker
+      logo: images/软件工具/Diffchecker.ico
+      url: https://www.diffchecker.com?from=dy.199908.top
+      description: Diffchecker 是一款功能强大的文本和文件差
+    - title: CCompare
+      logo: images/软件工具/CCompare.png
+      url: https://www.scootersoftware.com?from=dy.199908.top
+      description: 免费的文件和代码对比工具，替代beyond
     - title: Clibor
       logo: images/软件工具/Clibor.png
       url: https://chigusa-web.com/en?from=dy.199908.top
@@ -4527,6 +4531,10 @@
       description: 中文ipa文件下载网站, 提供在线iOS应用下载服务
   - name: 拓展插件
     links:
+    - title: 谷歌扩展插件下载网站
+      logo: images/软件工具/谷歌扩展插件下载网站.png
+      url: https://chrome.google.com/webstore/category/extensions?from=dy.199908.top
+      description: 谷歌扩展插件下载网站
     - title: Tampermonkey（油猴）
       logo: images/软件工具/Tampermonkey_油猴_.png
       url: https://www.tampermonkey.net?from=dy.199908.top
@@ -4543,10 +4551,6 @@
       logo: images/软件工具/Greasemonkey.png
       url: https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey?from=dy.199908.top
       description: Greasemonkey（油猴子）是一款由Mozil
-    - title: 谷歌扩展插件下载网站
-      logo: images/软件工具/谷歌扩展插件下载网站.png
-      url: https://chrome.google.com/webstore/category/extensions?from=dy.199908.top
-      description: 谷歌扩展插件下载网站
     - title: DeepWork AI侧边栏
       logo: images/软件工具/DeepWork_AI侧边栏.png
       url: https://aisidebar.chat?from=dy.199908.top
