@@ -283,6 +283,14 @@
       logo: images/电商工具/火豹浏览器.png
       url: https://www.firebrowser.cn?from=dy.199908.top
       description: 多平台运营，隔离ip
+    - title: 站斧浏览器
+      logo: images/电商工具/站斧浏览器.svg
+      url: https://www.zhanfubrowser.com?from=dy.199908.top
+      description: 站斧浏览器专注解决Shopee
+    - title: 紫鸟浏览器SuperBrowser
+      logo: images/电商工具/紫鸟浏览器SuperBrowser.svg
+      url: https://www.superbrowser.com?from=dy.199908.top
+      description: 紫鸟浏览器，跨境电商一站式解决方案！支持多重数据加密
     - title: 云登浏览器
       logo: images/电商工具/云登浏览器.png
       url: https://www.yunlogin.com?from=dy.199908.top
@@ -335,14 +343,6 @@
       logo: images/电商工具/爱跨境浏览器.svg
       url: https://www.ikjllq.com?from=dy.199908.top
       description: 爱跨境浏览器专注跨境电商亚马逊虾皮等账号安全运营
-    - title: 站斧浏览器
-      logo: images/电商工具/站斧浏览器.svg
-      url: https://www.zhanfubrowser.com?from=dy.199908.top
-      description: 站斧浏览器专注解决Shopee
-    - title: 紫鸟浏览器SuperBrowser
-      logo: images/电商工具/紫鸟浏览器SuperBrowser.svg
-      url: https://www.superbrowser.com?from=dy.199908.top
-      description: 紫鸟浏览器，跨境电商一站式解决方案！支持多重数据加密
     - title: 跨境卫士
       logo: images/电商工具/跨境卫士.png
       url: https://www.kuajingvs.com?from=dy.199908.top
@@ -373,6 +373,14 @@
       logo: images/电商工具/视频号.jpg
       url: https://store.weixin.qq.com/shop/kf?from=dy.199908.top
       description: 视频号商家客服端
+    - title: 小抖商家助手
+      logo: images/电商工具/小抖商家助手.png
+      url: https://xd.fandi.vip?from=dy.199908.top
+      description: 专业的抖店运营必备营销软件，可以帮助商家统一管理抖音小店
+    - title: 小迪客服助手
+      logo: images/电商工具/小迪客服助手.png
+      url: http://xdkefu.fandi.vip?from=dy.199908.top
+      description: 支持绑定抖店,淘宝,天猫店铺，不限制电脑使用，让你不再为回复率考核烦恼~
     - title: 客服宝
       logo: images/电商工具/客服宝.ico
       url: https://www.kefubao.com?from=dy.199908.top
