@@ -1221,6 +1221,14 @@
       description: Captions 基于AI技术的视频编辑工具
   - name: 音频工具
     links:
+    - title: 鸭鸭配音
+      logo: images/AI工具集/鸭鸭配音.png
+      url: https://www.yayapeiyin.com
+      description: 鸭鸭配音是一个在线配音网站
+    - title: Voice10
+      logo: images/AI工具集/Voice10.png
+      url: https://voice10.com/index-zh.html
+      description: Voice10是一款免费的AI语音生成工具
     - title: 闪电配音
       logo: images/AI工具集/闪电配音.png
       url: https://www.soundems.com?from=dy.199908.top
