@@ -1245,10 +1245,6 @@
       logo: images/AI工具集/免费语音克隆.png
       url: https://aiclonevoicefree.com/zh
       description: 免费语音克隆，生成与您声音完全一致的AI语音克隆
-    - title: Voice10
-      logo: images/AI工具集/Voice10.png
-      url: https://voice10.com/index-zh.html
-      description: Voice10是一款免费的AI语音生成工具
     - title: DiffRhythm
       logo: images/AI工具集/DiffRhythm.png
       url: https://diffrhythm.com/zh
@@ -1261,10 +1257,6 @@
       logo: images/AI工具集/爱扒谱.png
       url: https://www.aibapu.cn
       description: 爱扒谱是一款用人工智能技术，专业提供人声分离
-    - title: 鸭鸭配音
-      logo: images/AI工具集/鸭鸭配音.png
-      url: https://www.yayapeiyin.com
-      description: 鸭鸭配音是一个在线配音网站
     - title: Voicv
       logo: images/AI工具集/Voicv.png
       url: https://voicv.com/zh
@@ -2358,7 +2350,7 @@
   - name: 社交媒体
     links:
     - title: 微信广告
-      logo: images/广告投放/广告门.png
+      logo: images/广告投放/Wechat.jpg
       url: https://ad.weixin.qq.com?from=dy.199908.top
       description: 微信广告投放平台
     - title: 视频号助手
@@ -2521,10 +2513,6 @@
       description: 电影频道官方网站
   - name: 短剧平台
     links:
-    - title: 抖音网页版
-      logo: images/影音娱乐/抖音网页版.png
-      url: https://dis.csqixiang.cn/unpo/dybgrdh.html
-      description: 可以免费在线观看短剧，电影，电视剧，直播
     - title: 河马剧场
       logo: images/影音娱乐/河马剧场.ico
       url: https://www.kuaikaw.cn?from=dy.199908.top
@@ -2593,18 +2581,6 @@
       logo: images/影音娱乐/短剧猫.png
       url: https://www.duanjumao.com?from=dy.199908.top
       description: 一个提供网盘索引服务的平台,专注于免费短剧的在线观看
-    - title: 4k影视网盘
-      logo: images/影音娱乐/4k影视网盘.png
-      url: https://panku8.com?from=dy.199908.top
-      description: 可以快速搜索各网盘资源,支持百度网盘,阿里云盘,夸克
-    - title: 好剧搜
-      logo: images/影音娱乐/好剧搜.png
-      url: https://pan.hyexz.com?from=dy.199908.top
-      description: 免费分享百万级网盘资源,提供夸克网盘的电影,电视剧,
-    - title: 夸克盘搜
-      logo: images/影音娱乐/夸克盘搜.png
-      url: https://www.panso.xyz?from=dy.199908.top
-      description: 一个专门针对夸克网盘资源的搜索引擎
   - name: 体育直播
     links:
     - title: CCTV-5体育频道
@@ -4823,10 +4799,6 @@
       logo: images/数据研究/京东大数据研究院.png
       url: https://sz.jd.com?from=dy.199908.top
       description: 京东平台的商业智能分析工具
-    - title: 拼多多商家后台
-      logo: images/数据研究/拼多多商家.png
-      url: https://mms.pinduoduo.com?from=dy.199908.top
-      description: 拼多多平台的商家数据研究工具
     - title: 新榜
       logo: images/数据研究/新榜.ico
       url: https://www.newrank.cn?from=dy.199908.top
