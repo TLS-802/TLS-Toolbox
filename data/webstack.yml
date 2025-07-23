@@ -459,6 +459,18 @@
       logo: images/电商工具/蓝鲸BI.png
       url: https://www.lingdongsz.com?from=dy.199908.top
       description: 美客多一站式选品，运营软件工具
+    - title: 亿看ERP
+      logo: images/电商工具/亿看ERP.png
+      url: https://www.ecount.cn?from=dy.199908.top
+      description: 包括库存、采购、销售、生产、财务、会计、人事、工资、协同办公等公司需要的多种功能 无附加开发费用，您只需要选择对应的功能使用即可。 即使企业环境发生变化或职员增加，也能按照公司需求进行设置，符合公司使用。
+    - title: 彬匠ERP
+      logo: images/电商工具/彬匠ERP.png
+      url: https://www.binjiang-tech.com?from=dy.199908.top
+      description: 致力于成为跨境出海企业最信赖的定制化解决方案服务商，聚焦于为规模性客户赋能其全球业务，产品定位于全场景、一站式、业财一体化的解决方案！
+    - title: 金蝶
+      logo: images/电商工具/金蝶.png
+      url: https://www.kingdee.com/EBCzt?from=dy.199908.top
+      description: EBC（企业业务能力）包含五大能力： 链接客户、链接伙伴、链接员工、链接万物、数据驱动
   - name: 跨境平台
     links:
     - title: TikTok
