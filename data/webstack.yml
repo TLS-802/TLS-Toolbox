@@ -3690,8 +3690,8 @@
       logo: images/学习资源/爱思想.svg
       url: https://www.aisixiang.com?from=dy.199908.top
       description: 一个致力于促进思想交流和文化提升的平台
-    - title: 西窗烛
-      logo: images/学习资源/西窗烛.ico
+    - title: 文库·中华诗词库
+      logo: images/学习资源/中华诗词库.png
       url: http://m.xichuangzhu.com/library?from=dy.199908.top
       description: 一个专注于古诗词的数字内容平台
 
@@ -4538,10 +4538,6 @@
       logo: images/软件工具/阿里云盘TV版.png
       url: https://www.aliyundrive.com/download?from=dy.199908.top
       description: 阿里云盘TV版专为智能电视设计，界面简洁清晰
-    - title: TVBox
-      logo: images/软件工具/TVBox.png
-      url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
-      description: TVBox电视盒子软件
     - title: TvBox
       logo: images/软件工具/TVBox.png
       url: https://github.com/CatVodTVOfficial/TVBoxOSC?from=dy.199908.top
@@ -4550,10 +4546,6 @@
       logo: images/软件工具/FongMi影视.svg
       url: https://www.100km.top?from=dy.199908.top
       description: 基于开源项目TVBox的智能电视盒子应用
-    - title: TVbox助手
-      logo: images/软件工具/TVbox助手.png
-      url: https://github.com/o0HalfLife0o/TVBoxOSC?from=dy.199908.top
-      description: TVbox助手官网主页以及下载
     - title: 电视猫
       logo: images/软件工具/电视猫.png
       url: http://m.ismartv.cn/tv/introductionTV?from=dy.199908.top
@@ -4832,7 +4824,7 @@
       url: https://sz.jd.com?from=dy.199908.top
       description: 京东平台的商业智能分析工具
     - title: 拼多多商家后台
-      logo: images/新媒运营/拼多多商家.png
+      logo: images/数据研究/拼多多商家.png
       url: https://mms.pinduoduo.com?from=dy.199908.top
       description: 拼多多平台的商家数据研究工具
     - title: 新榜
@@ -5226,7 +5218,7 @@
       url: https://echarts.apache.org/zh/index.html?from=dy.199908.top
       description: 百度开源的数据可视化库，提供丰富的图表类型和强大的定
     - title: D3.js
-      logo: images/新媒运营/D3js.jpeg
+      logo: images/数据研究/D3js.jpeg
       url: https://d3js.org?from=dy.199908.top
       description: 强大的JavaScript数据可视化库
     - title: Flourish
@@ -5310,7 +5302,7 @@
       url: https://tongji.baidu.com?from=dy.199908.top
       description: 百度提供的网站流量分析工具
     - title: GrowingIO
-      logo: images/新媒运营/GrowingIO.png
+      logo: images/数据研究/GrowingIO.png
       url: https://www.growingio.com?from=dy.199908.top
       description: 提供网站和移动应用的用户行为分析和增长分析服务
     - title: Similarweb
