@@ -49,6 +49,7 @@
   - term: 电商erp
   - term: 跨境平台
   - term: 企业查询
+  - term: 知识产权
   tabs:
   - name: 电商后台
     links:
@@ -56,22 +57,6 @@
       logo: images/电商工具/抖音.jpg
       url: https://fxg.jinritemai.com?from=dy.199908.top
       description: 抖音小店后台
-    - title: 快手商家后台
-      logo: images/电商工具/快手.jpg
-      url: https://s.kwaixiaodian.com?from=dy.199908.top
-      description: 快手小店商家后台管理系统
-    - title: 小红书商家后台
-      logo: images/电商工具/小红书.jpg
-      url: https://ark.xiaohongshu.com?from=dy.199908.top
-      description: 小红书商家后台管理系统
-    - title: 有赞后台
-      logo: images/电商工具/有赞.png
-      url: https://www.youzan.com?from=dy.199908.top
-      description: 有赞商家后台管理系统
-    - title: 视频号商家后台
-      logo: images/电商工具/视频号.png
-      url: https://channels.weixin.qq.com?from=dy.199908.top
-      description: 微信视频号商家后台管理系统
     - title: 淘宝后台
       logo: images/电商工具/淘宝.png
       url: https://seller.taobao.com?from=dy.199908.top
@@ -88,10 +73,26 @@
       logo: images/电商工具/京东.png
       url: https://seller.jd.com?from=dy.199908.top
       description: 京东商家后台管理系统
+    - title: 快手商家后台
+      logo: images/电商工具/快手.jpg
+      url: https://s.kwaixiaodian.com?from=dy.199908.top
+      description: 快手小店商家后台管理系统
+    - title: 小红书商家后台
+      logo: images/电商工具/小红书.jpg
+      url: https://ark.xiaohongshu.com?from=dy.199908.top
+      description: 小红书商家后台管理系统
+    - title: 视频号商家后台
+      logo: images/电商工具/视频号.jpg
+      url: https://channels.weixin.qq.com?from=dy.199908.top
+      description: 微信视频号商家后台管理系统
     - title: 拼多多后台
       logo: images/电商工具/拼多多.jpg
       url: https://mms.pinduoduo.com?from=dy.199908.top
       description: 拼多多商家后台管理系统
+    - title: 有赞后台
+      logo: images/电商工具/有赞.png
+      url: https://www.youzan.com?from=dy.199908.top
+      description: 有赞商家后台管理系统
     - title: TikTok后台
       logo: images/电商工具/抖音.jpg
       url: https://ads.tiktok.com?from=dy.199908.top
@@ -261,7 +262,7 @@
       url: https://www.xiaohongshu.com/zhibo/robs?from=dy.199908.top
       description: 小红书电脑直播助手
     - title: 微信视频号助手
-      logo: images/电商工具/视频号.png
+      logo: images/电商工具/视频号.jpg
       url: https://channels.weixin.qq.com?from=dy.199908.top
       description: 微信视频号创作者平台
     - title: B站直播姬
@@ -376,14 +377,30 @@
       description: 跨境卫士专注跨境电商账号安全运营
   - name: 客服工具
     links:
-    - title: 营商保
-      logo: images/电商工具/营商保.png
+    - title: 飞鸽
+      logo: images/电商工具/飞鸽.png
       url: https://ss.taobao.com?from=dy.199908.top
-      description: 从此刻起，对恶意买家说不！
-    - title: 反恶联盟
-      logo: images/电商工具/反恶联盟.png
-      url: http://www.felmvip.com?from=dy.199908.top
-      description: 反恶联盟(www.felmvip.com)是一个开放
+      description: 抖音商家客服软件
+    - title: 千牛
+      logo: images/电商工具/千牛.jpg
+      url: https://ss.taobao.com?from=dy.199908.top
+      description: 淘宝商家客服软件
+    - title: 京麦
+      logo: images/电商工具/京麦.jpg
+      url: https://ss.taobao.com?from=dy.199908.top
+      description: 京东商家客服软件
+    - title: 千帆
+      logo: images/电商工具/千帆.jpg
+      url: https://ss.taobao.com?from=dy.199908.top
+      description: 小红书商家客服软件
+    - title: 快语
+      logo: images/电商工具/快语.jpg
+      url: https://ss.taobao.com?from=dy.199908.top
+      description: 快手商家客服软件
+    - title: 视频号客服
+      logo: images/电商工具/视频号.png
+      url: https://store.weixin.qq.com/shop/kf?from=dy.199908.top
+      description: 视频号商家客服端
     - title: 客服宝
       logo: images/电商工具/客服宝.ico
       url: https://www.kefubao.com?from=dy.199908.top
@@ -392,42 +409,50 @@
       logo: images/电商工具/客聊宝.ico
       url: http://www.keliaobao.com?from=dy.199908.top
       description: 客聊宝是目前多款聊天助手里较为强大,比较专业的快捷回
-    - title: 新榜小豆芽
-      logo: images/电商工具/新榜小豆芽.png
-      url: https://d.newrank.cn?from=dy.199908.top
-      description: 新榜旗下跨平台多账号自媒体管理工具，支持多账号管理
     - title: 极速客服
       logo: images/电商工具/极速客服.ico
       url: https://kf.hellomadou.com?from=dy.199908.top
       description: 客服必备快捷聊天助手，提高回复效率，节省打字时间
+    - title: 营商保
+      logo: images/电商工具/营商保.png
+      url: https://ss.taobao.com?from=dy.199908.top
+      description: 从此刻起，对恶意买家说不！
+    - title: 反恶联盟
+      logo: images/电商工具/反恶联盟.png
+      url: http://www.felmvip.com?from=dy.199908.top
+      description: 反恶联盟(www.felmvip.com)是一个开放
     - title: 举报职业投诉人
       logo: images/电商工具/举报职业投诉人.gif
       url: https://seller110.taobao.com/#?from=dy.199908.top
       description: 打击恶意行为，遏制职业举报！平台通过风控维度
+    - title: 新榜小豆芽
+      logo: images/电商工具/新榜小豆芽.png
+      url: https://d.newrank.cn?from=dy.199908.top
+      description: 新榜旗下跨平台多账号自媒体管理工具，支持多账号管理
   - name: 电商erp
     links:
     - title: 旺店通ERP
-      logo: images/电商工具/旺店通ERP.png
+      logo: images/电商工具/旺店通.png
       url: https://www.wangdian.cn/erp.html?from=dy.199908.top
       description: 为跨境电商提供全流程管理服务
     - title: 聚水潭ERP
-      logo: images/电商工具/聚水潭ERP.png
+      logo: images/电商工具/聚水潭.png
       url: https://www.jushuitan.com?from=dy.199908.top
       description: 为跨境电商提供全流程管理服务
     - title: 领星ERP
-      logo: images/电商工具/领星ERP.png
+      logo: images/电商工具/领星.png
       url: https://www.lingxing.com?from=dy.199908.top
       description: 5000单以下全功能免费使用，注册后联系人工领取福利
     - title: 马帮ERP
-      logo: images/电商工具/马帮ERP.png
+      logo: images/电商工具/马帮.png
       url: https://www.mabangerp.com?from=dy.199908.top
       description: 提供全流程跨境电商ERP管理软件解决方案
     - title: 店小秘ERP
-      logo: images/电商工具/店小秘ERP.png
+      logo: images/电商工具/店小秘.png
       url: https://www.dianxiaomi.com?from=dy.199908.top
       description: 为全球电商卖家提供SaaS系统服务
     - title: 易仓ERP
-      logo: images/电商工具/易仓ERP.png
+      logo: images/电商工具/易仓.png
       url: https://www.eccang.com?from=dy.199908.top
       description: 跨境行业全生态链软件服务供应商
     - title: 妙手ERP
@@ -574,6 +599,32 @@
       logo: images/电商工具/企知道.png
       url: https://qiye.qizhidao.com?from=dy.199908.top
       description: 企知道企业查询
+  - name: 知识产权
+    links:
+    - title: 抖音知识产权保护
+      logo: images/电商辅助/抖音.jpg
+      url: https://ippro.bytedance.com?from=dy.199908.top
+      description: 抖音电商原创保护平台
+    - title: 淘宝知识产权保护
+      logo: images/电商辅助/淘宝.png
+      url: https://yc.alibaba.com?from=dy.199908.top
+      description: 阿里巴巴原创保护平台
+    - title: 京东知识产权保护
+      logo: images/电商辅助/京东.png
+      url: https://jdgroupip.com?from=dy.199908.top
+      description: 京东知识产权保护平台
+    - title: 快手知识产权保护
+      logo: images/电商辅助/快手.jpg
+      url: https://ipp.kuaishou.com?from=dy.199908.top
+      description: 快手电商原创保护平台
+    - title: 小红书权利人保护
+      logo: images/电商辅助/小红书.jpg
+      url: https://ipp.xiaohongshu.com/login?from=dy.199908.top
+      description: 小红书电商原创保护平台
+    - title: 拼多多知识产权保护
+      logo: images/电商辅助/拼多多.jpg
+      url: https://ipp.pinduoduo.com?from=dy.199908.top
+      description: 拼多多原创保护平台
 
 - taxonomy: AI工具集
   icon: fa-robot
