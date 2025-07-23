@@ -2103,10 +2103,6 @@
       logo: images/电商货源/SaleYee赛盈分销.png
       url: https://www.saleyee.cn?from=dy.199908.top
       description: 赛盈分销平台精选30000+海外仓现货SKU，免费入驻，支持欧美等海外仓外贸货源一件代发，无缝对接Amazon、Walmart、eBay、Wish、Shopify等平台，实现跨境电商无门槛分销
-    - title: 东南商机网
-      logo: images/电商货源/东南商机网.png
-      url: https://www.dn160.com?from=dy.199908.top
-      description: 东南商机网是爱采购指定官方合作伙伴，可全国免费发布求购信息，采购信息，供求信息，商务信息，是多元化的B2B采购求购平台，商家首选的网上贸易推广平台。
     - title: 云筑网
       logo: images/电商货源/云筑网.ico
       url: https://www.yzw.cn?from=dy.199908.top
@@ -2648,14 +2644,6 @@
       logo: images/影音娱乐/短剧查查.png
       url: https://duanjuchacha.com?from=dy.199908.top
       description: 一个专注于短剧内容的平台，提供夸克短剧的每日更新
-    - title: 短剧库
-      logo: images/影音娱乐/短剧猫.png
-      url: https://duanjuku.top?from=dy.199908.top
-      description: 一个提供丰富短剧资源的平台,用户可以在这里找到各种类
-    - title: 短剧窝
-      logo: images/影音娱乐/短剧猫.png
-      url: https://www.djwo.cc?from=dy.199908.top
-      description: 一个提供短剧大全的平台,用户可以在这里免费观看各种短
     - title: 短剧达人
       logo: images/影音娱乐/短剧达人.png
       url: https://www.ddmov.com?from=dy.199908.top
@@ -2672,18 +2660,10 @@
       logo: images/影音娱乐/短剧网.png
       url: https://www.duanju001.com?from=dy.199908.top
       description: 是一个专门提供免费短剧资源内容的在线观看的平台
-    - title: 优优短剧
-      logo: images/影音娱乐/短剧猫.png
-      url: https://uu123.vip?from=dy.199908.top
-      description: 提供最新最全的短剧夸克网盘资源
     - title: 短剧搜吧
       logo: images/影音娱乐/短剧搜吧.png
       url: https://www.duanjusouba.com?from=dy.199908.top
       description: 一个专注于短剧资源的搜索引擎网站,提供了海量的免费完
-    - title: 短剧猫
-      logo: images/影音娱乐/短剧猫.png
-      url: https://www.duanjumao.com?from=dy.199908.top
-      description: 一个提供网盘索引服务的平台,专注于免费短剧的在线观看
   - name: 体育直播
     links:
     - title: CCTV-5体育频道
@@ -2922,7 +2902,6 @@
       logo: images/影音娱乐/雪球网.png
       url: https://xueqiu.com/?from=dy.199908.top
       description: 聪明的投资者都在这里
-
   - name: 社交媒体
     links:
     - title: 微博
@@ -3067,10 +3046,6 @@
       logo: images/影音娱乐/LivU.png
       url: https://www.livu.com?from=dy.199908.top
       description: 实时一对一视频聊天门户，提供多种结识新朋友的酷炫方式
-    - title: Flicker
-      logo: images/影音娱乐/Flicker.png
-      url: https://www.flickr.com?from=dy.199908.top
-      description: 全球最佳网络相片管理和分享工具
   - name: 小说文学
     links:
     - title: 笔趣阁
@@ -3675,14 +3650,6 @@
       logo: images/学习资源/i春秋.png
       url: https://www.ichunqiu.com?from=dy.199908.top
       description: 专注网络安全、信息安全、白帽子技术的在线学习
-    - title: CSDN学习
-      logo: images/学习资源/CSDN学习.jpg
-      url: https://edu.csdn.net?from=dy.199908.top
-      description: CSDN的IT在线教育平台
-    - title: W3School
-      logo: images/学习资源/W3School.png
-      url: https://www.w3school.com.cn?from=dy.199908.top
-      description: 中文Web技术教程
   - name: 人文历史
     links:
     - title: 故宫博物院
