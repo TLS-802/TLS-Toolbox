@@ -123,8 +123,8 @@
       description: TEMU卖家中心后台管理系统
   - name: 电商插件
     links:
-    - title: 阿明查查（原阿明工具）
-      logo: images/电商工具/阿明查查_原阿明工具_.png
+    - title: 阿明查查
+      logo: images/电商工具/阿明查查.png
       url: https://www.amingchacha.com?from=dy.199908.top
       description: 阿明工具，让数据会说话；生意参谋指数一键转化
     - title: 小旺神插件
@@ -283,6 +283,10 @@
       description: 腾讯官方直播工具
   - name: 电商辅助
     links:
+    - title: 灵邀AI
+      logo: images/电商工具/灵邀AI.jpg
+      url: https://limob.cn?from=dy.199908.top
+      description: 抖音微信达人邀约软件
     - title: 指纹浏览器
       logo: images/电商工具/指纹浏览器.png
       url: https://virtualbrowser.cc?from=dy.199908.top
@@ -295,26 +299,6 @@
       logo: images/电商工具/云登浏览器.png
       url: https://www.yunlogin.com?from=dy.199908.top
       description: 多平台运营，隔离ip
-    - title: 灵邀AI
-      logo: images/电商工具/灵邀AI.jpg
-      url: https://limob.cn?from=dy.199908.top
-      description: 抖音微信达人邀约软件
-    - title: PICPIK AI
-      logo: images/电商工具/PICPIK_AI.svg
-      url: https://www.picpik.ai/zh?from=dy.199908.top
-      description: PICPIK.AI PS插件
-    - title: 批量裁剪工具
-      logo: images/电商工具/批量裁剪工具.png
-      url: https://www.birme.net/?from=dy.199908.top
-      description: 批量裁剪图片工具
-    - title: 小语言装修
-      logo: images/电商工具/小语言装修.png
-      url: http://www.zxtb.net/?from=dy.199908.top
-      description: 小语言装修,让装修更简单。海量模板覆盖各行各业
-    - title: 阿明查查客户端
-      logo: images/电商工具/阿明查查客户端.png
-      url: https://browser.amingchacha.com?from=dy.199908.top
-      description: 除浏览器基础功能外，自带阿明查查。自动更新
     - title: AdsPower指纹浏览器
       logo: images/电商工具/AdsPower指纹浏览器.ico
       url: https://www.adspower.net?from=dy.199908.top
@@ -398,7 +382,7 @@
       url: https://ss.taobao.com?from=dy.199908.top
       description: 快手商家客服软件
     - title: 视频号客服
-      logo: images/电商工具/视频号.png
+      logo: images/电商工具/视频号.jpg
       url: https://store.weixin.qq.com/shop/kf?from=dy.199908.top
       description: 视频号商家客服端
     - title: 客服宝
