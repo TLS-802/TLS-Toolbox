@@ -53,93 +53,73 @@
   - name: 电商后台
     links:
     - title: 抖音小店后台
-      logo: images/电商工具/抖音小店后台.png
+      logo: images/电商工具/抖音.jpg
       url: https://fxg.jinritemai.com?from=dy.199908.top
       description: 抖音小店后台
     - title: 快手商家后台
-      logo: images/电商工具/快手商家后台.png
+      logo: images/电商工具/快手.jpg
       url: https://s.kwaixiaodian.com?from=dy.199908.top
       description: 快手小店商家后台管理系统
     - title: 小红书商家后台
-      logo: images/电商工具/小红书商家后台.png
+      logo: images/电商工具/小红书.jpg
       url: https://ark.xiaohongshu.com?from=dy.199908.top
       description: 小红书商家后台管理系统
     - title: 有赞后台
-      logo: images/电商工具/有赞后台.png
+      logo: images/电商工具/有赞.png
       url: https://www.youzan.com?from=dy.199908.top
       description: 有赞商家后台管理系统
     - title: 视频号商家后台
-      logo: images/电商工具/视频号商家后台.png
+      logo: images/电商工具/视频号.png
       url: https://channels.weixin.qq.com?from=dy.199908.top
       description: 微信视频号商家后台管理系统
     - title: 淘宝后台
-      logo: images/电商工具/淘宝后台.png
+      logo: images/电商工具/淘宝.png
       url: https://seller.taobao.com?from=dy.199908.top
       description: 淘宝卖家中心后台管理系统
     - title: 天猫后台
-      logo: images/电商工具/天猫后台.png
+      logo: images/电商工具/天猫.jpeg
       url: https://myseller.tmall.com?from=dy.199908.top
       description: 天猫商家后台管理系统
     - title: 1688后台
-      logo: images/电商工具/1688后台.png
+      logo: images/电商工具/1688.png
       url: https://work.1688.com?from=dy.199908.top
       description: 1688商家工作台后台管理系统
     - title: 京东后台
-      logo: images/电商工具/京东后台.png
+      logo: images/电商工具/京东.png
       url: https://seller.jd.com?from=dy.199908.top
       description: 京东商家后台管理系统
     - title: 拼多多后台
-      logo: images/电商工具/拼多多后台.png
+      logo: images/电商工具/拼多多.jpg
       url: https://mms.pinduoduo.com?from=dy.199908.top
       description: 拼多多商家后台管理系统
+    - title: TikTok后台
+      logo: images/电商工具/抖音.jpg
+      url: https://ads.tiktok.com?from=dy.199908.top
+      description: TikTok商业广告后台管理系统
     - title: 速卖通后台
-      logo: images/电商工具/速卖通后台.png
+      logo: images/电商工具/速卖通.png
       url: https://seller.aliexpress.com?from=dy.199908.top
       description: 速卖通卖家后台管理系统
     - title: 亚马逊后台
-      logo: images/电商工具/亚马逊后台.png
+      logo: images/电商工具/亚马逊.png
       url: https://sellercentral.amazon.com?from=dy.199908.top
       description: 亚马逊卖家中心后台管理系统
     - title: eBay后台
-      logo: images/电商工具/eBay后台.png
+      logo: images/电商工具/eBay.png
       url: https://www.ebay.com/sh/ovw?from=dy.199908.top
       description: eBay卖家中心后台管理系统
     - title: Wish后台
-      logo: images/电商工具/Wish后台.png
+      logo: images/电商工具/Wish.png
       url: https://merchant.wish.com?from=dy.199908.top
       description: Wish商家后台管理系统
     - title: Shopee后台
-      logo: images/电商工具/Shopee后台.png
+      logo: images/电商工具/Shopee.png
       url: https://seller.shopee.cn?from=dy.199908.top
       description: Shopee卖家中心后台管理系统
-    - title: TikTok后台
-      logo: images/电商工具/TikTok后台.png
-      url: https://ads.tiktok.com?from=dy.199908.top
-      description: TikTok商业广告后台管理系统
-    - title: Instagram后台
-      logo: images/电商工具/Instagram后台.png
-      url: https://business.instagram.com?from=dy.199908.top
-      description: Instagram商业账户后台管理系统
-    - title: Facebook后台
-      logo: images/电商工具/Facebook后台.png
-      url: https://business.facebook.com?from=dy.199908.top
-      description: Facebook商业管理平台后台系统
-    - title: Twitter后台
-      logo: images/电商工具/Twitter后台.png
-      url: https://ads.twitter.com?from=dy.199908.top
-      description: Twitter广告后台管理系统
-    - title: YouTube后台
-      logo: images/电商工具/YouTube后台.png
-      url: https://studio.youtube.com?from=dy.199908.top
-      description: YouTube创作者工作室后台管理系统
-    - title: Pinterest后台
-      logo: images/电商工具/Pinterest后台.png
-      url: https://ads.pinterest.com?from=dy.199908.top
-      description: Pinterest商业广告后台管理系统
-    - title: LinkedIn后台
-      logo: images/电商工具/LinkedIn后台.png
-      url: https://business.linkedin.com?from=dy.199908.top
-      description: LinkedIn商业解决方案后台管理系统
+    - title: TEMU后台
+      logo: images/电商工具/TEMU.png
+      url: https://seller.kuajingmaihuo.com/login?from=dy.199908.top
+      description: TEMU卖家中心后台管理系统
   - name: 电商插件
     links:
     - title: 阿明查查（原阿明工具）
@@ -1784,18 +1764,10 @@
       logo: images/电商货源/爱搜鞋网批.png
       url: https://sooxie.com?from=dy.199908.top
       description: 供多种鞋类产品的在线批发与销售服务
-    - title: 中国纺织网
-      logo: images/电商货源/中国纺织网.jpeg
-      url: https://www.texnet.com.cn?from=dy.199908.top
-      description: 纺织行业B2B电子商务平台
     - title: 童商网
       logo: images/电商货源/童商网.png
       url: https://www.5ts.com?from=dy.199908.top
       description: 童商网已入驻7000+童装厂家,汇海量一手童装货源,
-    - title: 3e3e.cn生意网
-      logo: images/电商货源/3e3e_cn生意网.png
-      url: http://www.3e3e.cn?from=dy.199908.top
-      description: 湖州织里童装,童装货源批发
     - title: 加盟星平台
       logo: images/电商货源/加盟星平台.png
       url: https://jiameng.baidu.com?from=dy.199908.top
