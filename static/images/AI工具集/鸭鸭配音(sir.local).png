@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
+                <rect fill="rgb(137,169,229)" x="0" y="0" width="100" height="100"></rect>
+                <circle fill="rgb(114,229,218)" cx="35" cy="17.5" r="60"  opacity=".4"></circle>
+                <circle fill="rgb(160,114,229)" cx="39" cy="78" r="50"  opacity=".6"></circle>
+                <text x="50" y="50" font-size="50" text-copy="fast" fill="#ffffff" text-anchor="middle" text-rights="admin" alignment-baseline="central" font-family="'PingFang SC','Microsoft Yahei'">鸭</text></svg>
