@@ -183,18 +183,6 @@
       logo: images/电商工具/淘客易插件.png
       url: http://cj.tky.com?from=dy.199908.top
       description: 淘客易插件是淘宝易(www.tky.com)出品
-    - title: 轻淘客推广插件
-      logo: images/电商工具/轻淘客推广插件.png
-      url: http://www.qingtaoke.com?from=dy.199908.top
-      description: 轻淘客是为淘宝客免费提供的淘客推广工具
-    - title: 数据银行插件
-      logo: images/电商工具/数据银行插件.png
-      url: https://www.dreamyshare.com/databank?from=dy.199908.top
-      description: 一款阿里数据银行的扩展插件；通过游览器插件使用
-    - title: 微查宝
-      logo: images/电商工具/微查宝.png
-      url: https://m.weichabao.com?from=dy.199908.top
-      description: 微查宝是一家专业的服务电商商家SAAS平台
     - title: 洞察魔镜
       logo: images/电商工具/电商魔镜.png
       url: http://www.moojing.com/extension?from=dy.199908.top
@@ -299,10 +287,6 @@
       logo: images/电商工具/AdsPower指纹浏览器.ico
       url: https://www.adspower.net?from=dy.199908.top
       description: 国内排名第一的指纹浏览器！
-    - title: AdsMagics指纹浏览器
-      logo: images/电商工具/AdsMagics指纹浏览器.png
-      url: https://www.adsmagics.com?from=dy.199908.top
-      description: AdsMagics指纹浏览器利用浏览器技术
     - title: DICloak指纹浏览器
       logo: images/电商工具/DICloak指纹浏览器.png
       url: https://dicloak.com?from=dy.199908.top
@@ -319,10 +303,6 @@
       logo: images/电商工具/全球速连浏览器.svg
       url: https://www.globalbrowser.com?from=dy.199908.top
       description: 全球速连浏览器Browser专注解决亚马逊等跨境电商
-    - title: 山豹浏览器
-      logo: images/电商工具/山豹浏览器.svg
-      url: https://www.3866.com?from=dy.199908.top
-      description: 山豹浏览器-虚拟多登反指纹浏览器，用于亚马逊测评
     - title: 快洋淘指纹浏览器
       logo: images/电商工具/快洋淘指纹浏览器.png
       url: https://www.yangtao.com?from=dy.199908.top
@@ -335,14 +315,6 @@
       logo: images/电商工具/比特浏览器.svg
       url: http://www.bitbrowser.cn?from=dy.199908.top
       description: 账号验证、登出、被封？IP关联
-    - title: 海贝浏览器
-      logo: images/电商工具/海贝浏览器.svg
-      url: https://www.haibeix.com?from=dy.199908.top
-      description: 海贝浏览器，专注跨境电商帐号安全运营，多平台，多店铺
-    - title: 爱跨境浏览器
-      logo: images/电商工具/爱跨境浏览器.svg
-      url: https://www.ikjllq.com?from=dy.199908.top
-      description: 爱跨境浏览器专注跨境电商亚马逊虾皮等账号安全运营
     - title: 跨境卫士
       logo: images/电商工具/跨境卫士.png
       url: https://www.kuajingvs.com?from=dy.199908.top
@@ -541,10 +513,6 @@
       logo: images/电商工具/Myntra.jpg
       url: https://www.myntra.com/?from=dy.199908.top
       description: 印度最大的时尚电商平台
-    - title: Snapdeal
-      logo: images/电商工具/Snapdeal.png
-      url: https://www.snapdeal.com/?from=dy.199908.top
-      description: 印度知名电商平台
     - title: Noon
       logo: images/电商工具/Noon.png
       url: https://www.noon.com/uae-en/?from=dy.199908.top
