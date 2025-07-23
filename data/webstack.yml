@@ -397,7 +397,7 @@
   - name: 客服工具
     links:
     - title: 营商保
-      logo: images/电商工具/营商保.gif
+      logo: images/电商工具/营商保.png
       url: https://ss.taobao.com?from=dy.199908.top
       description: 从此刻起，对恶意买家说不！
     - title: 反恶联盟
@@ -405,11 +405,11 @@
       url: http://www.felmvip.com?from=dy.199908.top
       description: 反恶联盟(www.felmvip.com)是一个开放
     - title: 客服宝
-      logo: images/电商工具/客服宝.jpg
+      logo: images/电商工具/客服宝.ico
       url: https://www.kefubao.com?from=dy.199908.top
       description: 客服宝是一款跨平台快捷回复工具，让客服少打字回复快
     - title: 客聊宝
-      logo: images/电商工具/客聊宝.svg
+      logo: images/电商工具/客聊宝.ico
       url: http://www.keliaobao.com?from=dy.199908.top
       description: 客聊宝是目前多款聊天助手里较为强大,比较专业的快捷回
     - title: 新榜小豆芽
@@ -417,11 +417,11 @@
       url: https://d.newrank.cn?from=dy.199908.top
       description: 新榜旗下跨平台多账号自媒体管理工具，支持多账号管理
     - title: 极速客服
-      logo: images/电商工具/极速客服.png
+      logo: images/电商工具/极速客服.ico
       url: https://kf.hellomadou.com?from=dy.199908.top
       description: 客服必备快捷聊天助手，提高回复效率，节省打字时间
     - title: 中差评处理神器
-      logo: images/电商工具/中差评处理神器.gif
+      logo: images/电商工具/中差评处理神器.ico
       url: http://www.dadaowl.cn/product?tab=0#tool&from=dy.199908.top
       description: 评价好助手，高效修改中差评，快速提升店铺的好评率
     - title: 举报职业投诉人
