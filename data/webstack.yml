@@ -257,6 +257,15 @@
       logo: images/电商工具/腾讯QQ.png
       url: https://live.qq.com?from=dy.199908.top
       description: 腾讯官方直播工具
+    - title: 直播中控宝
+      logo: images/电商工具/直播中控宝.ico
+      url: https://plug.sumlive.cn/oWeb?from=dy.199908.top
+      description: 直播间必备提效工具,提供商品自动讲解,一键改价改库存,数据实时大盘
+    - title: 光圈智播
+      logo: images/电商工具/光圈智播.jpeg
+      url: http://bo.meideng.net/common/home?from=dy.199908.top
+      description: 抖店直播间自动弹窗工具，自动评论，一键改价改库存。
+      
   - name: 电商辅助
     links:
     - title: 灵邀AI
