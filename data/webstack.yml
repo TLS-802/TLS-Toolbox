@@ -454,10 +454,6 @@
       logo: images/电商工具/易仓ERP.png
       url: https://www.eccang.com?from=dy.199908.top
       description: 跨境行业全生态链软件服务供应商
-    - title: 通途ERP
-      logo: images/电商工具/通途ERP.png
-      url: https://www.tongtool.com?from=dy.199908.top
-      description: 联系微信18033050034
     - title: 妙手ERP
       logo: images/电商工具/妙手ERP.png
       url: https://erp.91miaoshou.com?from=dy.199908.top
@@ -481,7 +477,7 @@
   - name: 跨境平台
     links:
     - title: TikTok
-      logo: images/电商工具/TikTok.png
+      logo: images/电商工具/Tiktok.jpg
       url: https://www.tiktok.com/?from=dy.199908.top
       description: TikTok是全球最受欢迎的短视频应用
     - title: Amazon
