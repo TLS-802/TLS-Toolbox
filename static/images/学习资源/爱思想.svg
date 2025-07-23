@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
+    <rect fill="rgb(142,68,173)" x="0" y="0" width="100" height="100"></rect>
+    <circle fill="rgb(155,89,182)" cx="25" cy="12.5" r="60" opacity=".4"></circle>
+    <circle fill="rgb(52,152,219)" cx="09" cy="18" r="50" opacity=".6"></circle>
+    <text x="50" y="50" font-size="40" text-copy="fast" fill="#ffffff" text-anchor="middle" text-rights="admin" alignment-baseline="central" font-family="'PingFang SC','Microsoft Yahei'">思</text>
+</svg>
