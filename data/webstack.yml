@@ -1731,16 +1731,16 @@
 - taxonomy: 电商货源
   icon: fa-boxes
   list:
-  - term: 综合电商平台
-  - term: 垂直行业平台
+  - term: 综合平台
+  - term: 垂直行业
   - term: 服装箱包
   - term: 家居建材
   - term: 食品百货
   - term: 美妆个护
   - term: 数码电子
-  - term: 工业品采购
+  - term: 工业品
   tabs:
-  - name: 综合电商平台
+  - name: 综合平台
     links:
     - title: 1688
       logo: images/电商货源/1688.png
@@ -1790,7 +1790,7 @@
       logo: images/电商货源/福禄聚采商城.png
       url: https://qiyegou-jucai.fulu.com?from=dy.199908.top
       description: 一站式数字商品采购平台，提供各类会员卡券批发
-  - name: 垂直行业平台
+  - name: 垂直行业
     links:
     - title: 百度爱采购
       logo: images/电商货源/百度爱采购.png
@@ -2118,7 +2118,7 @@
       logo: images/电商货源/汽配中国.png
       url: https://www.chinaautoparts.info?from=dy.199908.top
       description: 汽车配件行业批发采购平台
-  - name: 工业品采购
+  - name: 工业品
     links:
     - title: 中国化工网
       logo: images/电商货源/盖德化工网.png
